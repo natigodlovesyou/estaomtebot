@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is respiration?",
+    "options": ["Photosynthesis", "Breathing and energy release", "Transpiration", "Translocation"],
+    "correct": 1,
+    "explanation": "Respiration releases energy from food."
+  },
+  {
+    "question": "What is the function of roots?",
+    "options": ["Photosynthesis", "Absorb water", "Reproduction", "Support"],
+    "correct": 1,
+    "explanation": "Roots absorb water and minerals."
+  },
+  {
+    "question": "What is mitosis?",
+    "options": ["Cell division for growth", "Meiosis", "Fertilization", "Death"],
+    "correct": 0,
+    "explanation": "Mitosis produces identical cells for growth."
+  },
+  {
+    "question": "What is the excretory system?",
+    "options": ["Digestive", "Removes waste", "Circulatory", "Respiratory"],
+    "correct": 1,
+    "explanation": "Excretory system removes waste from the body."
+  },
+  {
+    "question": "What is ecology?",
+    "options": ["Study of cells", "Study of environment", "Study of genes", "Study of diseases"],
+    "correct": 1,
+    "explanation": "Ecology studies organisms and their environment."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "O2", "N2"],
+    "correct": 0,
+    "explanation": "Water is H2O."
+  },
+  {
+    "question": "What is an atom?",
+    "options": ["Smallest unit of matter", "Molecule", "Compound", "Element"],
+    "correct": 0,
+    "explanation": "An atom is the smallest unit of an element."
+  },
+  {
+    "question": "What is the pH of pure water?",
+    "options": ["0", "7", "14", "10"],
+    "correct": 1,
+    "explanation": "Pure water has pH 7, neutral."
+  },
+  {
+    "question": "What is a mixture?",
+    "options": ["Pure substance", "Combination without chemical bonds", "Compound", "Element"],
+    "correct": 1,
+    "explanation": "Mixtures are physical combinations."
+  },
+  {
+    "question": "What is the atomic number?",
+    "options": ["Mass number", "Number of protons", "Number of neutrons", "Number of electrons"],
+    "correct": 1,
+    "explanation": "Atomic number is the number of protons."
+  }
+]

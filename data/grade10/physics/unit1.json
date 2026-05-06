@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is Newton's first law?",
+    "options": ["F=ma", "An object at rest stays at rest", "Action-reaction", "Gravity"],
+    "correct": 1,
+    "explanation": "Law of inertia: objects stay in motion or rest unless acted upon."
+  },
+  {
+    "question": "What is the unit of energy?",
+    "options": ["Newton", "Joule", "Watt", "Volt"],
+    "correct": 1,
+    "explanation": "Energy is measured in Joules."
+  },
+  {
+    "question": "What is refraction?",
+    "options": ["Reflection", "Bending of light", "Absorption", "Emission"],
+    "correct": 1,
+    "explanation": "Refraction is the bending of light as it passes through different media."
+  },
+  {
+    "question": "What is the formula for density?",
+    "options": ["m/v", "v/m", "m*v", "v+m"],
+    "correct": 0,
+    "explanation": "Density = mass / volume."
+  },
+  {
+    "question": "What is sound?",
+    "options": ["Light wave", "Mechanical wave", "Electromagnetic wave", "Heat wave"],
+    "correct": 1,
+    "explanation": "Sound is a mechanical wave that needs a medium."
+  }
+]

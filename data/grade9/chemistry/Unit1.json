@@ -1,0 +1,200 @@
+[
+{
+"question": "Burning 16 kg of methane with 64 kg of oxygen produces 44 kg of carbon dioxide and 36 kg of water. Which law does this illustrate?",
+"options": [
+"Law of Equivalent Proportions",
+"Law of Multiple Proportions",
+"Law of Conservation of Mass",
+"Law of Definite Proportions"
+],
+"correct": 2,
+"explanation": "Total mass of reactants equals total mass of products."
+},
+{
+"question": "Nitrogen reacts with oxygen to form several different oxides. Which law explains this behavior?",
+"options": [
+"Law of Conservation of Mass",
+"Law of Combining Volumes",
+"Law of Multiple Proportions",
+"Law of Constant Composition"
+],
+"correct": 2,
+"description": "Different compounds form in simple whole-number mass ratios."
+},
+{
+"question": "A compound always contains the same elements combined in the same proportion by mass. Which law states this?",
+"options": [
+"Law of Multiple Proportions",
+"Law of Conservation of Mass",
+"Law of Conservation of Energy",
+"Law of Definite Proportions"
+],
+"correct": 3,
+"description": "Compounds have fixed composition by mass."
+},
+{
+"question": "Which set of compounds best demonstrates the law of multiple proportions?",
+"options": [
+"NO and NO2",
+"N2O and N2O3",
+"N2O4 and N2O5",
+"All of the above"
+],
+"correct": 3,
+"description": "Nitrogen oxides combine in simple whole-number ratios."
+},
+{
+"question": "Which statement is NOT part of Dalton’s atomic theory?",
+"options": [
+"Atoms of different elements are different",
+"Atoms are indivisible",
+"Atoms of the same element have different masses",
+"Atoms combine in whole-number ratios"
+],
+"correct": 2,
+"description": "Dalton believed atoms of the same element have identical mass."
+},
+{
+"question": "Which was determined by Millikan’s oil-drop experiment?",
+"options": [
+"Charge of electron",
+"Charge-to-mass ratio",
+"Mass of electron",
+"Velocity of electron"
+],
+"correct": 0,
+"description": "Millikan measured the electron charge."
+},
+{
+"question": "What did Rutherford’s experiment reveal?",
+"options": [
+"Electrons are negative",
+"Proton is hydrogen without electron",
+"Electrons move in fixed orbits",
+"Mass and positive charge concentrated in nucleus"
+],
+"correct": 3,
+"description": "Atom has dense central nucleus."
+},
+{
+"question": "Which particles have nearly equal mass?",
+"options": [
+"Proton and neutron",
+"Proton and electron",
+"Neutron and electron",
+"All three"
+],
+"correct": 0,
+"description": "Protons and neutrons ≈ 1 amu."
+},
+{
+"question": "Which rays carry the same charge as helium nuclei?",
+"options": [
+"Gamma rays",
+"Beta rays",
+"Alpha rays",
+"X-rays"
+],
+"correct": 2,
+"description": "Alpha particles are helium nuclei."
+},
+{
+"question": "Which particles are deflected toward the positive plate?",
+"options": [
+"Neutrons",
+"Beta particles",
+"Alpha particles",
+"Gamma rays"
+],
+"correct": 1,
+"description": "Beta particles are negatively charged electrons."
+},
+{
+"question": "What did Rutherford’s gold foil experiment prove?",
+"options": [
+"Atoms are indivisible",
+"Atoms are mostly empty space",
+"Electrons have no mass",
+"Atoms cannot be divided"
+],
+"correct": 1,
+"description": "Most alpha particles passed straight through the foil."
+},
+{
+"question": "Which atomic model is called the plum pudding model?",
+"options": [
+"Dalton",
+"Bohr",
+"Thomson",
+"Rutherford"
+],
+"correct": 2,
+"description": "Thomson suggested electrons embedded in positive sphere."
+},
+{
+"question": "Which model is called the planetary model?",
+"options": [
+"Bohr",
+"Rutherford",
+"Thomson",
+"Dalton"
+],
+"correct": 1,
+"description": "Electrons orbit nucleus like planets."
+},
+{
+"question": "Which model describes electrons using probability?",
+"options": [
+"Rutherford",
+"Dalton",
+"Quantum mechanical",
+"Bohr"
+],
+"correct": 2,
+"description": "Quantum model uses probability orbitals."
+},
+{
+"question": "Region of high probability of finding an electron?",
+"options": [
+"Orbital",
+"Orbit",
+"Sublevel",
+"Shell"
+],
+"correct": 0,
+"description": "Orbitals represent probability regions."
+},
+{
+"question": "Maximum electrons in N shell (n=4)?",
+"options": [
+"2",
+"8",
+"18",
+"32"
+],
+"correct": 3,
+"description": "Maximum electrons = 2n²."
+},
+{
+"question": "Energy levels described by:",
+"options": [
+"Atomic number",
+"Mass number",
+"Principal quantum number",
+"Orbital number"
+],
+"correct": 2,
+"description": "n defines the energy level."
+},
+{
+"question": "Correct historical order of atomic models?",
+"options": [
+"Dalton → Rutherford → Thomson → Bohr → Quantum",
+"Dalton → Thomson → Rutherford → Bohr → Quantum",
+"Thomson → Dalton → Rutherford → Bohr → Quantum",
+"Dalton → Bohr → Rutherford → Thomson → Quantum"
+],
+"correct": 1,
+"description": "Historical development of atomic models."
+}
+]

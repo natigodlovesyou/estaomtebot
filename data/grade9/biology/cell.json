@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is photosynthesis?",
+    "options": ["Making food from sunlight", "Breathing", "Digestion", "Reproduction"],
+    "correct": 0,
+    "explanation": "Photosynthesis is the process of making food using sunlight."
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Tissue", "Organ", "Cell", "Organism"],
+    "correct": 2,
+    "explanation": "The cell is the basic unit of life."
+  },
+  {
+    "question": "What do plants need for photosynthesis?",
+    "options": ["Water only", "Sunlight only", "CO2 and water", "Oxygen"],
+    "correct": 2,
+    "explanation": "Plants need CO2, water, and sunlight."
+  },
+  {
+    "question": "What is the function of the heart?",
+    "options": ["Pumping blood", "Digesting food", "Breathing", "Thinking"],
+    "correct": 0,
+    "explanation": "The heart pumps blood throughout the body."
+  },
+  {
+    "question": "What is DNA?",
+    "options": ["Protein", "Genetic material", "Carbohydrate", "Fat"],
+    "correct": 1,
+    "explanation": "DNA carries genetic information."
+  }
+]

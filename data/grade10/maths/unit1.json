@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Solve: x² - 5x + 6 = 0",
+    "options": ["x=2,3", "x=1,6", "x=-2,-3", "x=0,6"],
+    "correct": 0,
+    "explanation": "(x-2)(x-3)=0 → x=2 or 3."
+  },
+  {
+    "question": "What is the derivative of x²?",
+    "options": ["x", "2x", "x²", "2"],
+    "correct": 1,
+    "explanation": "Derivative of x² is 2x."
+  },
+  {
+    "question": "Simplify: (a+b)²",
+    "options": ["a²+b²", "a²+2ab+b²", "a²-b²", "ab²"],
+    "correct": 1,
+    "explanation": "(a+b)² = a² + 2ab + b²."
+  },
+  {
+    "question": "What is the area of a circle with radius 5?",
+    "options": ["25π", "10π", "5π", "15π"],
+    "correct": 0,
+    "explanation": "Area = πr² = π*25 = 25π."
+  },
+  {
+    "question": "Solve for x: 2x + 3 = 9",
+    "options": ["x=3", "x=6", "x=1", "x=4"],
+    "correct": 0,
+    "explanation": "2x = 6 → x=3."
+  }
+]
