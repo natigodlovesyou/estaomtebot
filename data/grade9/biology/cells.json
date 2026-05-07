@@ -1,17 +1,5 @@
 [
   {
-    "question": "Why do we study cells?",
-    "options": ["To learn only plant names", "Because cells make rocks", "Because all activities of an organism take place in cells and to identify unicellular and multicellular organisms", "To memorize long words only"],
-    "correct": 2,
-    "explanation": "Cells are the basic units of life where all life activities occur. Studying cells helps us understand unicellular and multicellular organisms."
-  },
-  {
-    "question": "Which statement is part of cell theory?",
-    "options": ["Cells are found only in animals", "Cells arise from soil", "Cells are not important in life", "Organisms are composed of one or more cells, cells are the basic units of life, and cells come from pre-existing cells"],
-    "correct": 3,
-    "explanation": "Cell theory states that all organisms are made of cells, cells are the basic units of life, and new cells arise from pre-existing cells."
-  },
-  {
     "question": "Which scientist first saw cork cells and named them “cellulae”?",
     "options": ["Robert Hooke", "Anton van Leeuwenhoek", "Rudolf Virchow", "Matthias Schleiden"],
     "correct": 0,
@@ -202,12 +190,6 @@
     "options": ["Cell membrane", "Cell wall only", "Chloroplast only", "Centrosome only"],
     "correct": 0,
     "explanation": "Both prokaryotic and eukaryotic cells possess a cell membrane."
-  },
-  {
-    "question": "Which statement about cell wall and cell membrane is correct?",
-    "options": ["Cell membrane is fully permeable and cell wall is selectively permeable", "Cell membrane is rigid and cell wall is soft", "Cell wall is found in all cells", "Cell wall is rigid and cell membrane is selectively permeable"],
-    "correct": 3,
-    "explanation": "The cell wall is rigid and supportive, while the cell membrane selectively controls substance movement."
   },
   {
     "question": "Which of the following is a correct plant-vs-animal cell difference?",
