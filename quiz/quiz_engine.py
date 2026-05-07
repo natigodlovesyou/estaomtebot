@@ -12,7 +12,7 @@ from quiz.answer_engine import evaluate_answer
 from quiz.learning_tracker import update_learning
 from state.storage import get_user_state, update_user_state
 from state.models import QuizSession
-from config import OPEN_PERIOD
+from config import OPEN_PERIOD, ADMIN_ID
 
 logger = logging.getLogger(__name__)
 
@@ -297,23 +297,31 @@ async def finish_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except Exception as e:
         print("LEADERBOARD ERROR:", e)
 
-    # Invite requirement check
-    from db.database import get_invite_count
-    invite_count = get_invite_count(user_id)
+    # Invite requirement check (skip for admin)
+    if user_id != ADMIN_ID:
+        from db.database import get_invite_count
+        invite_count = get_invite_count(user_id)
 
-    if invite_count < 2:
-        player.requires_invites = True
-        await safe_send(
-            user,
-            "🎁 Great work on completing the quiz!\n\n"
-            "To help more students and unlock full access, invite 2 friends.\n\n"
-            f"Current invites: {invite_count}/2\n\n"
-            "Each successful invite gives you 10 bonus points, and we’re supporting you with your personal referral link below."
-        )
+        if invite_count < 2:
+            player.requires_invites = True
+            await safe_send(
+                user,
+                "🎁 Great work on completing the quiz!\n\n"
+                "To help more students and unlock full access, invite 2 friends.\n\n"
+                f"Current invites: {invite_count}/2\n\n"
+                "Each successful invite gives you 10 bonus points, and we’re supporting you with your personal referral link below."
+            )
 
-        from referrals.referral_system import send_invite_message
-        await send_invite_message(update, context)
+            from referrals.referral_system import send_invite_message
+            await send_invite_message(update, context)
 
+        else:
+            from handlers.start_handler import build_main_menu
+            await safe_send(
+                user,
+                "Choose what to do next:",
+                reply_markup=build_main_menu()
+            )
     else:
         from handlers.start_handler import build_main_menu
         await safe_send(
