@@ -1,10 +1,14 @@
 import asyncio
 import logging
+import os
 import signal
+import threading
+
+from flask import Flask
 from logging.handlers import RotatingFileHandler
 from typing import Optional
-from telegram import Update
 
+from telegram import Update
 from telegram.ext import (
     Application,
     CommandHandler,
@@ -16,7 +20,7 @@ from telegram.ext import (
 # configuration
 from config import BOT_TOKEN, LOG_FILE, LOG_LEVEL
 
-# database initialization  ✅ ADDED
+# database initialization
 from db.database import init_db
 
 # handlers
@@ -26,18 +30,20 @@ from handlers.poll_handler import handle_poll_answer
 from handlers.admin_handler import broadcast, bot_stats
 
 # state saving
-from state.storage import persist_all, load_bot_state, start_periodic_save, stop_periodic_save
-
+from state.storage import (
+    persist_all,
+    load_bot_state,
+    start_periodic_save,
+    stop_periodic_save,
+)
 
 # --------------------------------------------------
 # Logging Setup
 # --------------------------------------------------
 
-# Create logger
 logger = logging.getLogger("megamind_bot")
 logger.setLevel(LOG_LEVEL)
 
-# Create formatters
 formatter = logging.Formatter(
     "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 )
@@ -51,14 +57,35 @@ logger.addHandler(console_handler)
 # File handler with rotation
 file_handler = RotatingFileHandler(
     LOG_FILE,
-    maxBytes=10*1024*1024,  # 10MB
-    backupCount=5
+    maxBytes=10 * 1024 * 1024,  # 10MB
+    backupCount=5,
 )
 file_handler.setLevel(LOG_LEVEL)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 APP: Optional[Application] = None
+
+# --------------------------------------------------
+# Flask Web Server (for Render)
+# --------------------------------------------------
+
+web_app = Flask(__name__)
+
+@web_app.route("/")
+def home():
+    return "MegaMind Quiz Bot is running!"
+
+
+def run_web_server():
+    port = int(os.environ.get("PORT", 10000))
+
+    logger.info(f"Starting Flask web server on port {port}")
+
+    web_app.run(
+        host="0.0.0.0",
+        port=port,
+    )
 
 
 # --------------------------------------------------
@@ -68,26 +95,40 @@ APP: Optional[Application] = None
 async def error_handler(update, context: ContextTypes.DEFAULT_TYPE):
     """Logs all exceptions globally"""
     logger.error(
-        "Exception while handling update: %s", update, exc_info=context.error
+        "Exception while handling update: %s",
+        update,
+        exc_info=context.error,
     )
 
 
 # --------------------------------------------------
 # Graceful Shutdown
 # --------------------------------------------------
+
 is_shutting_down = False
+
+
 async def shutdown():
     global is_shutting_down
+
     if is_shutting_down:
         return
+
     is_shutting_down = True
+
     logger.warning("Bot shutting down...")
+
     try:
         logger.info("Stopping periodic save...")
+
         await stop_periodic_save()
+
         logger.info("Persisting bot state...")
+
         await asyncio.to_thread(persist_all)
+
         logger.info("State saved successfully")
+
     except Exception:
         logger.exception("Failed to persist bot state")
 
@@ -104,18 +145,23 @@ async def shutdown():
 
 def handle_signal(signum, frame):
     logger.warning(f"Received signal {signum}, scheduling shutdown...")
+
     try:
         loop = asyncio.get_running_loop()
         loop.create_task(shutdown())
+
     except RuntimeError:
         asyncio.run(shutdown())
 
 
 def register_signals():
     """Register OS signals for graceful shutdown"""
+
     signal.signal(signal.SIGINT, handle_signal)
+
     try:
         signal.signal(signal.SIGTERM, handle_signal)
+
     except AttributeError:
         logger.info("SIGTERM not supported on this OS")
 
@@ -155,51 +201,63 @@ def register_handlers(app: Application):
 
 async def main_async():
     global APP
+
     logger.info("Starting MegaMind Quiz Bot...")
 
     if not BOT_TOKEN:
         raise RuntimeError("BOT_TOKEN missing in config.py")
 
-    # ✅ CREATE DATABASE TABLES BEFORE BOT STARTS
+    # Create database tables
     init_db()
 
-    # ✅ RESTORE IN-MEMORY STATE BEFORE BOT STARTS
+    # Restore saved in-memory state
     load_bot_state()
 
     APP = (
-    Application.builder()
-    .token(BOT_TOKEN)
-    .concurrent_updates(False)
-    .connect_timeout(30)
-    .read_timeout(30)
-    .write_timeout(30)
-    .pool_timeout(30)
-    .build()
+        Application.builder()
+        .token(BOT_TOKEN)
+        .concurrent_updates(False)
+        .connect_timeout(30)
+        .read_timeout(30)
+        .write_timeout(30)
+        .pool_timeout(30)
+        .build()
     )
 
     register_handlers(APP)
     register_signals()
 
-    # ✅ START PERIODIC STATE SAVING
+    # Start periodic state saving
     await start_periodic_save()
 
     logger.info("Bot is now running with polling...")
 
-    # ✅ Correct startup sequence for PTB v20+
+    # Initialize bot
     await APP.initialize()
     await APP.start()
     await APP.bot.initialize()
 
+    # Start polling
     await APP.updater.start_polling(
         drop_pending_updates=True,
         allowed_updates=Update.ALL_TYPES,
     )
 
-    # keep bot alive
+    # Keep bot alive forever
     await asyncio.Event().wait()
 
+
 def main():
+    # Start Flask web server in background thread
+    threading.Thread(
+        target=run_web_server,
+        daemon=True
+    ).start()
+
+    # Start Telegram bot
     asyncio.run(main_async())
+
+
 # --------------------------------------------------
 
 if __name__ == "__main__":

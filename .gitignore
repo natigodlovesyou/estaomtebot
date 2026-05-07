@@ -5,3 +5,5 @@ __pycache__/
 state.json
 .env
 database/bot.db
+*.db
+database/
