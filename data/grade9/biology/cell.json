@@ -1,32 +1,422 @@
 [
   {
-    "question": "What is photosynthesis?",
-    "options": ["Making food from sunlight", "Breathing", "Digestion", "Reproduction"],
-    "correct": 0,
-    "explanation": "Photosynthesis is the process of making food using sunlight."
-  },
-  {
-    "question": "What is the basic unit of life?",
-    "options": ["Tissue", "Organ", "Cell", "Organism"],
+    "question": "Why do we study cells?",
+    "options": ["To learn only plant names", "Because cells make rocks", "Because all activities of an organism take place in cells and to identify unicellular and multicellular organisms", "To memorize long words only"],
     "correct": 2,
-    "explanation": "The cell is the basic unit of life."
+    "explanation": "Cells are the basic units of life where all life activities occur. Studying cells helps us understand unicellular and multicellular organisms."
   },
   {
-    "question": "What do plants need for photosynthesis?",
-    "options": ["Water only", "Sunlight only", "CO2 and water", "Oxygen"],
-    "correct": 2,
-    "explanation": "Plants need CO2, water, and sunlight."
+    "question": "Which statement is part of cell theory?",
+    "options": ["Cells are found only in animals", "Cells arise from soil", "Cells are not important in life", "Organisms are composed of one or more cells, cells are the basic units of life, and cells come from pre-existing cells"],
+    "correct": 3,
+    "explanation": "Cell theory states that all organisms are made of cells, cells are the basic units of life, and new cells arise from pre-existing cells."
   },
   {
-    "question": "What is the function of the heart?",
-    "options": ["Pumping blood", "Digesting food", "Breathing", "Thinking"],
+    "question": "Which scientist first saw cork cells and named them “cellulae”?",
+    "options": ["Robert Hooke", "Anton van Leeuwenhoek", "Rudolf Virchow", "Matthias Schleiden"],
     "correct": 0,
-    "explanation": "The heart pumps blood throughout the body."
+    "explanation": "Robert Hooke observed cork under a microscope and called the tiny compartments 'cellulae,' meaning small rooms."
   },
   {
-    "question": "What is DNA?",
-    "options": ["Protein", "Genetic material", "Carbohydrate", "Fat"],
+    "question": "Which scientist first observed protozoa and bacteria in a drop of water?",
+    "options": ["Anton van Leeuwenhoek", "Robert Hooke", "Theodor Schwann", "Rudolf Virchow"],
+    "correct": 0,
+    "explanation": "Anton van Leeuwenhoek used simple microscopes to observe living microorganisms such as bacteria and protozoa."
+  },
+  {
+    "question": "Which scientists helped formulate the cell theory?",
+    "options": ["Hooke and Virchow", "Leeuwenhoek and Virchow", "Schwann and Schleiden", "Darwin and Mendel"],
+    "correct": 2,
+    "explanation": "Matthias Schleiden and Theodor Schwann contributed greatly to the formulation of cell theory."
+  },
+  {
+    "question": "Which scientist stated that cells arise from pre-existing cells?",
+    "options": ["Robert Hooke", "Theodor Schwann", "Matthias Schleiden", "Rudolf Virchow"],
+    "correct": 3,
+    "explanation": "Rudolf Virchow proposed that all cells come from already existing cells."
+  },
+  {
+    "question": "Which cell structures are involved in protein synthesis and transport?",
+    "options": ["Ribosomes and rough endoplasmic reticulum", "Cell wall and vacuole", "Nucleus and chloroplast", "Lysosome and centriole"],
+    "correct": 0,
+    "explanation": "Ribosomes synthesize proteins, while rough endoplasmic reticulum helps transport and process them."
+  },
+  {
+    "question": "The plasma membrane is made mainly of:",
+    "options": ["Starch and cellulose", "DNA and RNA", "Protein only", "Phospholipids and proteins"],
+    "correct": 3,
+    "explanation": "The plasma membrane mainly consists of a phospholipid bilayer with embedded proteins."
+  },
+  {
+    "question": "Why do muscle, kidney, and liver cells have many mitochondria?",
+    "options": ["They need more energy", "They need less energy", "They do photosynthesis", "They store water"],
+    "correct": 0,
+    "explanation": "These cells require large amounts of energy, so they contain many mitochondria for ATP production."
+  },
+  {
+    "question": "Which structures are common to all eukaryotic cells?",
+    "options": ["Cell wall, chloroplast, and vacuole", "Ribosome, capsule, and flagellum", "Nucleus, cytoplasm, and cell membrane", "Mitochondria, chloroplast, and cell wall"],
+    "correct": 2,
+    "explanation": "All eukaryotic cells contain a nucleus, cytoplasm, and cell membrane."
+  },
+  {
+    "question": "Which of the following includes all the rest?",
+    "options": ["Nucleus", "Cytoplasm", "Nucleolus", "Protoplasm"],
+    "correct": 3,
+    "explanation": "Protoplasm includes both the nucleus and cytoplasm, making it the living content of the cell."
+  },
+  {
+    "question": "Which structure keeps plant cells turgid?",
+    "options": ["Vacuole", "Nucleus", "Ribosome", "Golgi body"],
+    "correct": 0,
+    "explanation": "The large central vacuole stores water and maintains turgor pressure in plant cells."
+  },
+  {
+    "question": "Which structure in animal cells assists cell division?",
+    "options": ["Lysosomes", "Centrioles", "Nucleus", "Vacuole"],
     "correct": 1,
-    "explanation": "DNA carries genetic information."
+    "explanation": "Centrioles help organize spindle fibers during cell division in animal cells."
+  },
+  {
+    "question": "Which of the following is NOT one of the major structures of a cell?",
+    "options": ["Cell membrane", "Nucleus", "Cell wall", "Cytoplasm"],
+    "correct": 2,
+    "explanation": "The three major structures common to most cells are the cell membrane, nucleus, and cytoplasm. Cell wall is not present in all cells."
+  },
+  {
+    "question": "The movement of substances in and out of the cell is controlled by:",
+    "options": ["Endoplasmic reticulum", "Cell membrane", "Golgi complex", "Cell wall"],
+    "correct": 1,
+    "explanation": "The cell membrane selectively controls the movement of substances into and out of the cell."
+  },
+  {
+    "question": "The “self-suicide sack” of the cell is:",
+    "options": ["Mitochondria", "Vacuole", "Lysosomes", "Centrioles"],
+    "correct": 2,
+    "explanation": "Lysosomes contain digestive enzymes that can break down damaged organelles and sometimes the entire cell."
+  },
+  {
+    "question": "Cells adapted to carry out a particular body function are called:",
+    "options": ["Undifferentiated cells", "Embryonic stem cells", "Specialized cells", "Unspecialised cells"],
+    "correct": 2,
+    "explanation": "Specialized cells are adapted structurally and functionally to perform specific tasks."
+  },
+  {
+    "question": "Which of the following cells lacks a nucleus and membrane-bound organelles?",
+    "options": ["Fungi", "Protozoa", "Eubacteria", "Algae"],
+    "correct": 2,
+    "explanation": "Eubacteria are prokaryotic organisms and therefore lack a true nucleus and membrane-bound organelles."
+  },
+  {
+    "question": "Which structure supports and strengthens plant cells?",
+    "options": ["Cell wall", "Cell membrane", "Cytoplasm", "Nucleus"],
+    "correct": 0,
+    "explanation": "The rigid cell wall provides support, protection, and strength to plant cells."
+  },
+  {
+    "question": "Which structure breaks down captured bacteria and damaged organelles?",
+    "options": ["Lysosome", "Vacuole", "Mitochondrion", "Ribosome"],
+    "correct": 0,
+    "explanation": "Lysosomes digest worn-out organelles and foreign particles using enzymes."
+  },
+  {
+    "question": "A sack-like structure used to transport protein is:",
+    "options": ["Nucleolus", "Vesicle", "Cell wall", "Chromosome"],
+    "correct": 1,
+    "explanation": "Vesicles are membrane-bound sacs that transport substances such as proteins within the cell."
+  },
+  {
+    "question": "A cell that lacks nucleus, membrane-bound organelles, mitochondria, and chloroplast is a:",
+    "options": ["Prokaryotic cell", "Eukaryotic cell", "Plant cell", "Animal cell"],
+    "correct": 0,
+    "explanation": "Prokaryotic cells lack a true nucleus and membrane-bound organelles."
+  },
+  {
+    "question": "Which structure is found only in animal cells?",
+    "options": ["Chloroplast", "Cell wall", "Centrioles", "Vacuole"],
+    "correct": 2,
+    "explanation": "Centrioles are characteristic structures found in animal cells and assist in cell division."
+  },
+  {
+    "question": "Which environment has a relatively high concentration of water?",
+    "options": ["Hypotonic", "Hypertonic", "Isotonic", "Osmotic"],
+    "correct": 0,
+    "explanation": "A hypotonic solution has a higher water concentration and lower solute concentration compared to the cell."
+  },
+  {
+    "question": "A plant cell placed in a 1.0% salt solution when its own solute concentration is 0.01% will:",
+    "options": ["Lose water and become plasmolysed", "Gain water and become turgid", "Stay unchanged", "Burst immediately"],
+    "correct": 0,
+    "explanation": "Water moves out of the plant cell into the more concentrated salt solution, causing plasmolysis."
+  },
+  {
+    "question": "If a cell contains 1% solute and is placed in sea water with 10% salt, water will move:",
+    "options": ["From sea water to the cell", "Nowhere", "In both directions equally", "From the cell to sea water"],
+    "correct": 3,
+    "explanation": "Water moves from lower solute concentration inside the cell to higher solute concentration outside by osmosis."
+  },
+  {
+    "question": "If a microscope shows membrane-enclosed structures inside a cell, the cell is most likely:",
+    "options": ["Prokaryotic", "Eukaryotic", "Viral", "Bacterial only"],
+    "correct": 1,
+    "explanation": "Membrane-bound organelles are characteristic features of eukaryotic cells."
+  },
+  {
+    "question": "An animal cell in a hypotonic solution will usually:",
+    "options": ["Shrink and plasmolyse", "Burst", "Become rigid", "Produce a cell wall"],
+    "correct": 1,
+    "explanation": "Water enters the animal cell in a hypotonic solution, causing it to swell and possibly burst."
+  },
+  {
+    "question": "A potato cylinder kept in a solution stronger than its protoplasm will:",
+    "options": ["Become turgid", "Become plasmolysed", "Grow larger", "Remain unchanged"],
+    "correct": 1,
+    "explanation": "The stronger external solution causes water to leave the potato cells, leading to plasmolysis."
+  },
+  {
+    "question": "Golgi apparatus is responsible for:",
+    "options": ["Manufacture of lipid only", "Disintegration of debris", "Modification and packaging of protein and lipid molecules", "Energy production"],
+    "correct": 2,
+    "explanation": "The Golgi apparatus modifies, packages, and transports proteins and lipids."
+  },
+  {
+    "question": "Which of the following is found in animal cells but not in plant cells?",
+    "options": ["Cell wall", "Chloroplast", "Centrioles", "Large vacuole"],
+    "correct": 2,
+    "explanation": "Centrioles are found in animal cells and are usually absent in plant cells."
+  },
+  {
+    "question": "Which of the following is found in plant cells but not in animal cells?",
+    "options": ["Mitochondria", "Nucleus", "Cell wall", "Ribosomes"],
+    "correct": 2,
+    "explanation": "Plant cells have a rigid cell wall made mainly of cellulose, unlike animal cells."
+  },
+  {
+    "question": "When the surrounding environment has a relatively high concentration of water, it is called:",
+    "options": ["Hypertonic", "Isotonic", "Osmotic", "Hypotonic"],
+    "correct": 3,
+    "explanation": "A hypotonic environment contains more water and less solute than the cell."
+  },
+  {
+    "question": "Which structure is present in both prokaryotic and eukaryotic cells?",
+    "options": ["Cell membrane", "Cell wall only", "Chloroplast only", "Centrosome only"],
+    "correct": 0,
+    "explanation": "Both prokaryotic and eukaryotic cells possess a cell membrane."
+  },
+  {
+    "question": "Which statement about cell wall and cell membrane is correct?",
+    "options": ["Cell membrane is fully permeable and cell wall is selectively permeable", "Cell membrane is rigid and cell wall is soft", "Cell wall is found in all cells", "Cell wall is rigid and cell membrane is selectively permeable"],
+    "correct": 3,
+    "explanation": "The cell wall is rigid and supportive, while the cell membrane selectively controls substance movement."
+  },
+  {
+    "question": "Which of the following is a correct plant-vs-animal cell difference?",
+    "options": ["Plant cells have chloroplast, cell wall, and large vacuole; animal cells do not", "Animal cells have chloroplast and cell wall", "Plant cells never have a vacuole", "Animal cells are always photosynthetic"],
+    "correct": 0,
+    "explanation": "Plant cells contain chloroplasts, a cell wall, and a large central vacuole, unlike animal cells."
+  },
+  {
+    "question": "Which of the following is a characteristic common to prokaryotic and eukaryotic cells?",
+    "options": ["Chloroplast", "DNA", "Cell wall in all cells", "Large central vacuole"],
+    "correct": 1,
+    "explanation": "Both prokaryotic and eukaryotic cells contain DNA as genetic material."
+  },
+  {
+    "question": "Which process is movement of small, lipid-soluble, non-ionic particles across the plasma membrane?",
+    "options": ["Active transport", "Simple diffusion", "Osmosis", "Endocytosis"],
+    "correct": 1,
+    "explanation": "Simple diffusion allows small lipid-soluble molecules to move across the membrane from high to low concentration."
+  },
+  {
+    "question": "Which process is movement of water across a semi-permeable membrane?",
+    "options": ["Diffusion", "Osmosis", "Active transport", "Phagocytosis"],
+    "correct": 1,
+    "explanation": "Osmosis is the movement of water molecules across a selectively permeable membrane."
+  },
+  {
+    "question": "Which factor increases the rate of diffusion?",
+    "options": ["Lower temperature", "Smaller concentration gradient", "Higher temperature", "Thicker membrane only"],
+    "correct": 2,
+    "explanation": "Higher temperature increases particle movement, which speeds up diffusion."
+  },
+  {
+    "question": "Which organelle is known as the “powerhouse of the cell”?",
+    "options": ["Ribosome", "Golgi body", "Mitochondrion", "Lysosome"],
+    "correct": 2,
+    "explanation": "Mitochondria are called the powerhouse of the cell because they produce energy in the form of ATP through cellular respiration."
+  },
+  {
+    "question": "Which organelle contains chlorophyll?",
+    "options": ["Vacuole", "Chloroplast", "Nucleus", "Centriole"],
+    "correct": 1,
+    "explanation": "Chloroplasts contain chlorophyll, the green pigment that captures sunlight for photosynthesis."
+  },
+  {
+    "question": "Which organelle controls all activities of the cell?",
+    "options": ["Ribosome", "Cytoplasm", "Nucleus", "Mitochondrion"],
+    "correct": 2,
+    "explanation": "The nucleus acts as the control center of the cell by regulating cellular activities and storing genetic material."
+  },
+  {
+    "question": "The jelly-like material inside the cell is called:",
+    "options": ["Cell wall", "Cytoplasm", "Chromosome", "Nucleolus"],
+    "correct": 1,
+    "explanation": "Cytoplasm is the jelly-like substance where organelles are suspended and many metabolic reactions occur."
+  },
+  {
+    "question": "Which structure stores genetic information?",
+    "options": ["Vacuole", "Mitochondria", "Chromosomes", "Golgi apparatus"],
+    "correct": 2,
+    "explanation": "Chromosomes contain DNA, which stores the genetic information of an organism."
+  },
+  {
+    "question": "Which structure is responsible for photosynthesis?",
+    "options": ["Ribosome", "Chloroplast", "Lysosome", "Centriole"],
+    "correct": 1,
+    "explanation": "Chloroplasts carry out photosynthesis by converting light energy into chemical energy."
+  },
+  {
+    "question": "Which organelle synthesizes proteins?",
+    "options": ["Ribosome", "Vacuole", "Nucleus", "Lysosome"],
+    "correct": 0,
+    "explanation": "Ribosomes are the sites where proteins are synthesized in the cell."
+  },
+  {
+    "question": "Which structure gives shape to an animal cell?",
+    "options": ["Cell wall", "Cell membrane", "Chloroplast", "Capsule"],
+    "correct": 1,
+    "explanation": "Animal cells lack a cell wall, so the cell membrane helps maintain the cell’s shape and structure."
+  },
+  {
+    "question": "Which of the following is NOT found in prokaryotic cells?",
+    "options": ["Ribosomes", "Cell membrane", "True nucleus", "Cytoplasm"],
+    "correct": 2,
+    "explanation": "Prokaryotic cells do not possess a true nucleus or membrane-bound organelles."
+  },
+  {
+    "question": "Which cells usually contain chloroplasts?",
+    "options": ["Animal cells", "Plant cells", "Bacterial cells", "Fungal cells"],
+    "correct": 1,
+    "explanation": "Plant cells contain chloroplasts for carrying out photosynthesis."
+  },
+  {
+    "question": "Which part of the microscope is used to focus the image clearly under high power?",
+    "options": ["Coarse adjustment knob", "Fine adjustment knob", "Eyepiece", "Stage"],
+    "correct": 1,
+    "explanation": "The fine adjustment knob is used for precise focusing, especially under high magnification."
+  },
+  {
+    "question": "Which part of the microscope holds the slide?",
+    "options": ["Arm", "Stage", "Nosepiece", "Mirror"],
+    "correct": 1,
+    "explanation": "The stage is the flat platform on which the microscope slide is placed."
+  },
+  {
+    "question": "The function of ribosomes is to:",
+    "options": ["Produce energy", "Store food", "Synthesize proteins", "Digest waste"],
+    "correct": 2,
+    "explanation": "Ribosomes manufacture proteins needed for cell activities and growth."
+  },
+  {
+    "question": "Which structure separates the contents of the cell from the outside environment?",
+    "options": ["Cytoplasm", "Cell membrane", "Ribosome", "Nucleolus"],
+    "correct": 1,
+    "explanation": "The cell membrane forms the boundary between the cell interior and the external environment."
+  },
+  {
+    "question": "Which organelle packages and distributes proteins?",
+    "options": ["Golgi apparatus", "Ribosome", "Lysosome", "Chloroplast"],
+    "correct": 0,
+    "explanation": "The Golgi apparatus modifies, packages, and distributes proteins within or outside the cell."
+  },
+  {
+    "question": "Which organelle is responsible for intracellular digestion?",
+    "options": ["Vacuole", "Centriole", "Lysosome", "Mitochondrion"],
+    "correct": 2,
+    "explanation": "Lysosomes contain digestive enzymes that break down waste materials and damaged organelles."
+  },
+  {
+    "question": "Which structure is selectively permeable?",
+    "options": ["Cell wall", "Cell membrane", "Cytoplasm", "Chloroplast"],
+    "correct": 1,
+    "explanation": "The cell membrane is selectively permeable because it controls what enters and leaves the cell."
+  },
+  {
+    "question": "Which type of transport requires energy?",
+    "options": ["Diffusion", "Osmosis", "Active transport", "Passive transport"],
+    "correct": 2,
+    "explanation": "Active transport requires energy to move substances against their concentration gradient."
+  },
+  {
+    "question": "Movement of particles from higher concentration to lower concentration is called:",
+    "options": ["Active transport", "Osmosis", "Diffusion", "Endocytosis"],
+    "correct": 2,
+    "explanation": "Diffusion is the movement of particles from an area of high concentration to low concentration."
+  },
+  {
+    "question": "Which structure is responsible for maintaining turgidity in plant cells?",
+    "options": ["Large vacuole", "Ribosome", "Lysosome", "Centriole"],
+    "correct": 0,
+    "explanation": "The large central vacuole stores water and maintains turgor pressure in plant cells."
+  },
+  {
+    "question": "Which of the following is a unicellular organism?",
+    "options": ["Human", "Amoeba", "Fern", "Bird"],
+    "correct": 1,
+    "explanation": "Amoeba is a unicellular organism made up of a single cell."
+  },
+  {
+    "question": "Which of the following is multicellular?",
+    "options": ["Amoeba", "Bacteria", "Mushroom", "Euglena"],
+    "correct": 2,
+    "explanation": "Mushrooms are multicellular fungi composed of many cells."
+  },
+  {
+    "question": "Which scientist is called the father of microbiology?",
+    "options": ["Robert Hooke", "Rudolf Virchow", "Anton van Leeuwenhoek", "Schleiden"],
+    "correct": 2,
+    "explanation": "Anton van Leeuwenhoek is known as the father of microbiology because he first observed microorganisms."
+  },
+  {
+    "question": "Which structure contains enzymes for digestion?",
+    "options": ["Chloroplast", "Lysosome", "Nucleus", "Ribosome"],
+    "correct": 1,
+    "explanation": "Lysosomes contain digestive enzymes that break down food particles and wastes."
+  },
+  {
+    "question": "Which of the following helps in storage of water and food in plant cells?",
+    "options": ["Nucleus", "Vacuole", "Ribosome", "Mitochondrion"],
+    "correct": 1,
+    "explanation": "Vacuoles store water, nutrients, and waste materials in plant cells."
+  },
+  {
+    "question": "The fluid mosaic model describes the structure of the:",
+    "options": ["Cell wall", "Cytoplasm", "Cell membrane", "Nucleus"],
+    "correct": 2,
+    "explanation": "The fluid mosaic model explains the flexible structure of the cell membrane made of lipids and proteins."
+  },
+  {
+    "question": "Which organelle is absent in mature red blood cells?",
+    "options": ["Cell membrane", "Cytoplasm", "Nucleus", "Ribosome"],
+    "correct": 2,
+    "explanation": "Mature red blood cells lack a nucleus to provide more space for hemoglobin."
+  },
+  {
+    "question": "Which of the following organisms is prokaryotic?",
+    "options": ["Amoeba", "Bacteria", "Paramecium", "Fungi"],
+    "correct": 1,
+    "explanation": "Bacteria are prokaryotic organisms because they lack a true nucleus."
+  },
+  {
+    "question": "Which structure forms spindle fibers during cell division in animal cells?",
+    "options": ["Vacuole", "Chloroplast", "Centriole", "Ribosome"],
+    "correct": 2,
+    "explanation": "Centrioles help organize spindle fibers needed during cell division in animal cells."
+  },
+  {
+    "question": "Which of the following is NOT a function of the cell membrane?",
+    "options": ["Protection", "Controlling movement of substances", "Protein synthesis", "Maintaining shape"],
+    "correct": 2,
+    "explanation": "Protein synthesis is mainly carried out by ribosomes, not by the cell membrane."
   }
 ]
