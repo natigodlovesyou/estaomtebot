@@ -12,7 +12,7 @@ from quiz.learning_tracker import get_user_insights
 from leaderboard.leaderboard import show_leaderboard
 from referrals.referral_system import send_invite_message
 from handlers.start_handler import build_main_menu
-from config import COMMUNITY_CHAT_ID, COMMUNITY_INVITE
+from config import COMMUNITY_CHAT_ID, COMMUNITY_INVITE, ADMIN_ID
 from utils.telegram_utils import check_user_member_of_community
 
 from .ui_builder import subject_menu, grade_menu, unit_menu, confirm_menu, quiz_options_menu
@@ -106,11 +106,11 @@ async def callback_router(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # ALWAYS SAFE FIRST
     await safe_answer(query)
 
-    # Check invite requirement
+    # Check invite requirement (skip for admin)
     user_id = update.effective_user.id
     user_state = get_user_state(user_id)
     player = user_state.players.get(user_id)
-    if player and player.requires_invites:
+    if player and player.requires_invites and user_id != ADMIN_ID:
         if data == "main_invite":
             await tg_safe(lambda: send_invite_message(update, context))
             return
