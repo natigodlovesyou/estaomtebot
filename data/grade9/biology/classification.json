@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Which kingdom contains prokaryotic organisms?",
+    "options": ["Protista", "Fungi", "Monera", "Plantae"],
+    "correct": 2,
+    "explanation": "Kingdom Monera contains prokaryotic organisms such as bacteria. Prokaryotes do not have a true nucleus or membrane-bound organelles."
+  },
+  {
+    "question": "Which of the following organisms is NOT included in kingdom Protista?",
+    "options": ["Amoeba", "Paramecium", "Algae", "Mushroom"],
+    "correct": 3,
+    "explanation": "Mushroom belongs to kingdom Fungi, while Amoeba, Paramecium, and many algae are classified under kingdom Protista."
+  },
+  {
+    "question": "Which characteristic is true for organisms in kingdom Monera?",
+    "options": ["Multicellular", "Prokaryotic", "Have true nucleus", "Complex organs"],
+    "correct": 1,
+    "explanation": "Organisms in kingdom Monera are prokaryotic, meaning they lack a true nucleus and membrane-bound organelles."
+  },
+  {
+    "question": "The locomotory structure of Euglena is:",
+    "options": ["Cilia", "Pseudopodia", "Flagellum", "Legs"],
+    "correct": 2,
+    "explanation": "Euglena moves using a whip-like structure called a flagellum."
+  },
+  {
+    "question": "Which one is NOT a fungus?",
+    "options": ["Mushroom", "Yeast", "Rhizopus", "Plasmodium"],
+    "correct": 3,
+    "explanation": "Plasmodium is a protozoan parasite belonging to kingdom Protista, not kingdom Fungi."
+  },
+  {
+    "question": "Which kingdom contains only eukaryotic unicellular organisms?",
+    "options": ["Monera", "Protista", "Plantae", "Animalia"],
+    "correct": 1,
+    "explanation": "Kingdom Protista mainly contains unicellular eukaryotic organisms with a true nucleus."
+  },
+  {
+    "question": "In the scientific name Felis domesticus, the word “Felis” represents:",
+    "options": ["Species", "Family", "Genus", "Kingdom"],
+    "correct": 2,
+    "explanation": "In binomial nomenclature, the first word represents the genus, while the second word represents the species."
+  },
+  {
+    "question": "Bacteria differ from organisms in other kingdoms because they are:",
+    "options": ["Multicellular", "Prokaryotic", "Autotrophic", "Eukaryotic"],
+    "correct": 1,
+    "explanation": "Bacteria are unique because they are prokaryotic organisms lacking a true nucleus."
+  },
+  {
+    "question": "A group of organisms that can interbreed and produce fertile offspring is called:",
+    "options": ["Family", "Genus", "Species", "Kingdom"],
+    "correct": 2,
+    "explanation": "A species is defined as a group of organisms capable of interbreeding and producing fertile offspring."
+  },
+  {
+    "question": "Bryophytes are plants that:",
+    "options": ["Produce seeds", "Have vascular tissues", "Lack vascular tissues", "Produce flowers"],
+    "correct": 2,
+    "explanation": "Bryophytes are non-vascular plants, meaning they do not have xylem or phloem tissues."
+  },
+  {
+    "question": "Which plant group produces cones?",
+    "options": ["Angiosperms", "Bryophytes", "Gymnosperms", "Algae"],
+    "correct": 2,
+    "explanation": "Gymnosperms reproduce using cones instead of flowers."
+  },
+  {
+    "question": "Plants with naked seeds are called:",
+    "options": ["Angiosperms", "Gymnosperms", "Bryophytes", "Pteridophytes"],
+    "correct": 1,
+    "explanation": "Gymnosperms produce naked seeds that are not enclosed within fruits."
+  },
+  {
+    "question": "Seed-bearing flowering plants belong to:",
+    "options": ["Bryophytes", "Gymnosperms", "Angiosperms", "Mosses"],
+    "correct": 2,
+    "explanation": "Angiosperms are flowering plants that produce seeds enclosed in fruits."
+  },
+  {
+    "question": "Monocot plants usually have:",
+    "options": ["Tap roots", "Net venation", "Scattered vascular bundles", "Two cotyledons"],
+    "correct": 2,
+    "explanation": "Monocot stems typically contain scattered vascular bundles and usually have one cotyledon."
+  },
+  {
+    "question": "Plants with tap-root systems are usually:",
+    "options": ["Monocots", "Dicots", "Bryophytes", "Gymnosperms"],
+    "correct": 1,
+    "explanation": "Dicot plants commonly possess tap-root systems and two cotyledons."
+  },
+  {
+    "question": "The tissue responsible for transporting water in plants is:",
+    "options": ["Phloem", "Xylem", "Cortex", "Epidermis"],
+    "correct": 1,
+    "explanation": "Xylem transports water and dissolved minerals from roots to other parts of the plant."
+  },
+  {
+    "question": "The tissue responsible for transporting food in plants is:",
+    "options": ["Xylem", "Cambium", "Phloem", "Root hair"],
+    "correct": 2,
+    "explanation": "Phloem transports manufactured food substances throughout the plant."
+  },
+  {
+    "question": "Which of the following is an importance of plants?",
+    "options": ["Producing oxygen", "Causing diseases only", "Destroying soil", "Consuming all sunlight"],
+    "correct": 0,
+    "explanation": "Plants release oxygen during photosynthesis, making them essential for life on Earth."
+  },
+  {
+    "question": "Which characteristic is common to all plants?",
+    "options": ["Prokaryotic", "Autotrophic", "No cell wall", "Unicellular only"],
+    "correct": 1,
+    "explanation": "Plants are autotrophic organisms because they make their own food through photosynthesis."
+  },
+  {
+    "question": "Monocots differ from dicots because monocots have:",
+    "options": ["Two cotyledons", "Tap roots", "Parallel venation", "Net venation"],
+    "correct": 2,
+    "explanation": "Monocot plants usually have parallel venation in their leaves."
+  },
+  {
+    "question": "Gymnosperms differ from angiosperms because gymnosperms:",
+    "options": ["Produce flowers", "Have enclosed seeds", "Have naked seeds", "Produce fruits"],
+    "correct": 2,
+    "explanation": "Gymnosperms have naked seeds that are not enclosed in fruits."
+  },
+  {
+    "question": "Which of the following is a vascular plant?",
+    "options": ["Moss", "Liverwort", "Fern", "Algae"],
+    "correct": 2,
+    "explanation": "Ferns are vascular plants because they possess xylem and phloem tissues."
+  },
+  {
+    "question": "A characteristic feature of gymnosperms is:",
+    "options": ["Broad leaves", "Needle-shaped leaves", "Fruits", "Flowers"],
+    "correct": 1,
+    "explanation": "Many gymnosperms, such as pine trees, have needle-shaped leaves adapted to reduce water loss."
+  },
+  {
+    "question": "Which one is NOT a monocot plant?",
+    "options": ["Wheat", "Maize", "Teff", "Bean"],
+    "correct": 3,
+    "explanation": "Bean is a dicot plant because it has two cotyledons and net venation."
+  },
+  {
+    "question": "The unique reproductive structure of angiosperms is:",
+    "options": ["Root", "Stem", "Flower", "Cone"],
+    "correct": 2,
+    "explanation": "Flowers are the reproductive structures unique to angiosperms."
+  },
+  {
+    "question": "Plants with net venation are mostly:",
+    "options": ["Monocots", "Dicots", "Bryophytes", "Ferns"],
+    "correct": 1,
+    "explanation": "Dicot plants generally show net-like venation in their leaves."
+  },
+  {
+    "question": "Which phylum includes sponges?",
+    "options": ["Mollusca", "Arthropoda", "Porifera", "Nematoda"],
+    "correct": 2,
+    "explanation": "Sponges belong to phylum Porifera, characterized by porous bodies."
+  },
+  {
+    "question": "Flatworms belong to the phylum:",
+    "options": ["Annelida", "Nematoda", "Arthropoda", "Platyhelminthes"],
+    "correct": 3,
+    "explanation": "Flatworms are classified under phylum Platyhelminthes."
+  },
+  {
+    "question": "Roundworms belong to the phylum:",
+    "options": ["Mollusca", "Nematoda", "Echinodermata", "Porifera"],
+    "correct": 1,
+    "explanation": "Roundworms are members of phylum Nematoda."
+  },
+  {
+    "question": "Segmented worms belong to:",
+    "options": ["Annelida", "Arthropoda", "Mollusca", "Chordata"],
+    "correct": 0,
+    "explanation": "Annelids are segmented worms such as earthworms and leeches."
+  },
+  {
+    "question": "Animals with soft bodies and shells belong to:",
+    "options": ["Arthropoda", "Echinodermata", "Mollusca", "Nematoda"],
+    "correct": 2,
+    "explanation": "Mollusks usually have soft bodies and many possess protective shells."
+  },
+  {
+    "question": "Starfish belong to the phylum:",
+    "options": ["Mollusca", "Arthropoda", "Annelida", "Echinodermata"],
+    "correct": 3,
+    "explanation": "Starfish are echinoderms characterized by radial symmetry and spiny skin."
+  },
+  {
+    "question": "Animals with jointed appendages belong to:",
+    "options": ["Arthropoda", "Chordata", "Mollusca", "Porifera"],
+    "correct": 0,
+    "explanation": "Arthropods have jointed appendages and an exoskeleton."
+  },
+  {
+    "question": "Which of the following is an ecological importance of insects?",
+    "options": ["Pollination", "Destroying all crops", "Producing stones", "Removing oxygen"],
+    "correct": 0,
+    "explanation": "Many insects help in pollination, which is important for plant reproduction and food production."
+  },
+  {
+    "question": "Bacteria and archaea are similar because both are:",
+    "options": ["Multicellular", "Eukaryotic", "Prokaryotic", "Flowering organisms"],
+    "correct": 2,
+    "explanation": "Both bacteria and archaea are prokaryotes lacking a true nucleus."
+  },
+  {
+    "question": "Fungi play an important ecological role as:",
+    "options": ["Producers only", "Decomposers", "Vertebrates", "Consumers only"],
+    "correct": 1,
+    "explanation": "Fungi decompose dead organic matter and recycle nutrients in ecosystems."
+  },
+  {
+    "question": "Which one is a vertebrate group?",
+    "options": ["Arthropods", "Mollusks", "Amphibians", "Nematodes"],
+    "correct": 2,
+    "explanation": "Amphibians are vertebrates because they possess a backbone."
+  },
+  {
+    "question": "Animals with both male and female reproductive organs are called:",
+    "options": ["Poikilotherms", "Hermaphrodites", "Vertebrates", "Arthropods"],
+    "correct": 1,
+    "explanation": "Hermaphrodites possess both male and female reproductive organs in the same organism."
+  },
+  {
+    "question": "Animals whose body temperature changes with the environment are called:",
+    "options": ["Homoiotherms", "Mammals", "Poikilotherms", "Birds"],
+    "correct": 2,
+    "explanation": "Poikilotherms are animals whose body temperature varies according to environmental temperature."
+  },
+  {
+    "question": "Which characteristic is common to all arthropods?",
+    "options": ["Backbone", "Jointed appendages", "Soft body", "Flowers"],
+    "correct": 1,
+    "explanation": "All arthropods possess jointed appendages used for movement and other functions."
+  },
+  {
+    "question": "Animals with an internal backbone are called:",
+    "options": ["Invertebrates", "Arthropods", "Vertebrates", "Mollusks"],
+    "correct": 2,
+    "explanation": "Vertebrates are animals that have an internal backbone or vertebral column."
+  },
+  {
+    "question": "Which structure is found in vertebrates?",
+    "options": ["Exoskeleton only", "Vertebral column", "Cone", "Frond"],
+    "correct": 1,
+    "explanation": "A vertebral column is the defining feature of vertebrate animals."
+  },
+  {
+    "question": "Which of the following is a characteristic of animals?",
+    "options": ["Cellulose cell wall", "Chloroplasts", "Heterotrophic nutrition", "Photosynthesis only"],
+    "correct": 2,
+    "explanation": "Animals are heterotrophic because they obtain food from other organisms."
+  },
+  {
+    "question": "The scientific study of classification is called:",
+    "options": ["Ecology", "Taxonomy", "Genetics", "Anatomy"],
+    "correct": 1,
+    "explanation": "Taxonomy is the branch of biology concerned with naming and classifying organisms."
+  },
+  {
+    "question": "The basic unit of classification is:",
+    "options": ["Kingdom", "Family", "Species", "Class"],
+    "correct": 2,
+    "explanation": "Species is the basic and smallest unit used in biological classification."
+  },
+  {
+    "question": "The two parts of a scientific name are:",
+    "options": ["Kingdom and phylum", "Genus and species", "Family and order", "Class and genus"],
+    "correct": 1,
+    "explanation": "Scientific names follow binomial nomenclature, consisting of genus and species names."
+  },
+  {
+    "question": "Blue-green algae belong to kingdom:",
+    "options": ["Protista", "Monera", "Plantae", "Fungi"],
+    "correct": 1,
+    "explanation": "Blue-green algae are cyanobacteria, which are prokaryotic organisms classified under Monera."
+  },
+  {
+    "question": "The leaf of a fern is called:",
+    "options": ["Cone", "Frond", "Capsule", "Rhizome"],
+    "correct": 1,
+    "explanation": "The large divided leaf of a fern is known as a frond."
+  },
+  {
+    "question": "Animals without backbones are called:",
+    "options": ["Vertebrates", "Mammals", "Invertebrates", "Amphibians"],
+    "correct": 2,
+    "explanation": "Invertebrates are animals that lack a vertebral column."
+  },
+  {
+    "question": "Animals with radial symmetry can be divided into:",
+    "options": ["Two equal halves only", "Many equal halves", "Unequal halves only", "No halves"],
+    "correct": 1,
+    "explanation": "Radial symmetry allows the body to be divided into many equal halves through a central axis."
+  }
+  ,
+  {
+    "question": "Which of the following is a characteristic of all living organisms?",
+    "options": ["Photosynthesis", "Movement", "Reproduction", "Cellular respiration"],
+    "correct": 2,
+    "explanation": "Reproduction is a fundamental characteristic of all living organisms, allowing them to produce offspring."
+  },
+  {
+    "question": "The process by which organisms are grouped based on shared characteristics is called:",
+    "options": ["Classification", "Evolution", "Adaptation", "Natural selection"],
+    "correct": 0,
+    "explanation": "Classification is the process of grouping organisms based on shared traits and characteristics."
+  },
+  {
+    "question": "The highest level of classification is:",
+    "options": ["Species", "Genus", "Family", "Kingdom"],
+    "correct": 3,
+    "explanation": "Kingdom is the highest and most inclusive level of classification in the biological hierarchy."
+  },
+  {
+    "question": "Which kingdom includes bacteria?",
+    "options": ["Monera", "Protista", "Fungi", "Plantae"],
+    "correct": 0,
+    "explanation": "Bacteria belong to kingdom Monera because they are unicellular prokaryotic organisms without a true nucleus."
+  },
+  {
+    "question": "Which of the following organisms belongs to kingdom Fungi?",
+    "options": ["Amoeba", "Mushroom", "Euglena", "Bacteria"],
+    "correct": 1,
+    "explanation": "Mushroom belongs to kingdom Fungi, which contains organisms that absorb nutrients from organic matter."
+  },
+  {
+    "question": "Which structure helps Amoeba in movement?",
+    "options": ["Flagella", "Cilia", "Pseudopodia", "Wings"],
+    "correct": 2,
+    "explanation": "Amoeba moves and captures food using temporary projections called pseudopodia."
+  },
+  {
+    "question": "Which kingdom includes multicellular organisms that make their own food?",
+    "options": ["Plantae", "Animalia", "Fungi", "Monera"],
+    "correct": 0,
+    "explanation": "Kingdom Plantae contains multicellular autotrophic organisms that produce food through photosynthesis."
+  },
+  {
+    "question": "Animals are different from plants because animals:",
+    "options": ["Have chlorophyll", "Are autotrophic", "Are heterotrophic", "Have cell walls"],
+    "correct": 2,
+    "explanation": "Animals are heterotrophic because they cannot make their own food and depend on other organisms for nutrition."
+  },
+  {
+    "question": "Which group of plants reproduces using spores?",
+    "options": ["Angiosperms", "Gymnosperms", "Ferns", "Seed plants"],
+    "correct": 2,
+    "explanation": "Ferns reproduce using spores instead of seeds."
+  },
+  {
+    "question": "Which plant group lacks true roots, stems, and leaves?",
+    "options": ["Bryophytes", "Gymnosperms", "Angiosperms", "Monocots"],
+    "correct": 0,
+    "explanation": "Bryophytes are simple nonvascular plants that lack true roots, stems, and leaves."
+  },
+  {
+    "question": "Which of the following is an example of a gymnosperm?",
+    "options": ["Pine", "Bean", "Maize", "Moss"],
+    "correct": 0,
+    "explanation": "Pine is a gymnosperm because it produces naked seeds in cones."
+  },
+  {
+    "question": "Plants with two cotyledons are called:",
+    "options": ["Monocots", "Dicots", "Bryophytes", "Algae"],
+    "correct": 1,
+    "explanation": "Dicot plants have two cotyledons in their seeds."
+  },
+  {
+    "question": "Fibrous root systems are commonly found in:",
+    "options": ["Dicots", "Gymnosperms", "Monocots", "Mosses"],
+    "correct": 2,
+    "explanation": "Monocot plants usually possess fibrous root systems instead of tap roots."
+  },
+  {
+    "question": "Which animal phylum has a water vascular system?",
+    "options": ["Arthropoda", "Echinodermata", "Mollusca", "Nematoda"],
+    "correct": 1,
+    "explanation": "Echinoderms such as starfish possess a water vascular system used for movement and feeding."
+  },
+  {
+    "question": "Which of the following animals belongs to Arthropoda?",
+    "options": ["Earthworm", "Snail", "Spider", "Starfish"],
+    "correct": 2,
+    "explanation": "Spider belongs to phylum Arthropoda because it has jointed appendages and an exoskeleton."
+  },
+  {
+    "question": "Which vertebrate group can live both on land and in water?",
+    "options": ["Reptiles", "Fish", "Amphibians", "Birds"],
+    "correct": 2,
+    "explanation": "Amphibians can survive both in water and on land during different stages of life."
+  },
+  {
+    "question": "Which vertebrate group has feathers?",
+    "options": ["Mammals", "Birds", "Fish", "Reptiles"],
+    "correct": 1,
+    "explanation": "Feathers are a unique characteristic of birds."
+  },
+  {
+    "question": "Mammals are characterized by the presence of:",
+    "options": ["Gills", "Feathers", "Mammary glands", "Scales"],
+    "correct": 2,
+    "explanation": "Mammals possess mammary glands that produce milk for feeding their young."
+  },
+  {
+    "question": "Fish use _____ for respiration.",
+    "options": ["Lungs", "Skin", "Gills", "Spiracles"],
+    "correct": 2,
+    "explanation": "Fish use gills to extract dissolved oxygen from water."
+  },
+  {
+    "question": "Which animal group has dry scaly skin?",
+    "options": ["Amphibians", "Reptiles", "Mammals", "Birds"],
+    "correct": 1,
+    "explanation": "Reptiles have dry scaly skin that helps reduce water loss."
+  },
+  {
+    "question": "The body of an insect is divided into:",
+    "options": ["Head and trunk", "Cephalothorax and abdomen", "Head, thorax, and abdomen", "Thorax only"],
+    "correct": 2,
+    "explanation": "An insect body is divided into three parts: head, thorax, and abdomen."
+  },
+  {
+    "question": "Which of the following is an invertebrate?",
+    "options": ["Frog", "Fish", "Earthworm", "Bird"],
+    "correct": 2,
+    "explanation": "Earthworm is an invertebrate because it does not possess a backbone."
+  },
+  {
+    "question": "Which of the following animals shows bilateral symmetry?",
+    "options": ["Starfish", "Jellyfish", "Human", "Hydra"],
+    "correct": 2,
+    "explanation": "Humans show bilateral symmetry because the body can be divided into two equal halves along one plane."
+  },
+  {
+    "question": "Which organism is commonly used in making bread?",
+    "options": ["Rhizopus", "Yeast", "Mushroom", "Bacteria"],
+    "correct": 1,
+    "explanation": "Yeast is used in bread making because it ferments sugars and releases carbon dioxide gas."
+  },
+  {
+    "question": "Lichens are an association between:",
+    "options": ["Bacteria and fungi", "Algae and fungi", "Plants and fungi", "Algae and bacteria"],
+    "correct": 1,
+    "explanation": "Lichens are formed through a symbiotic relationship between algae and fungi."
+  },
+  {
+    "question": "The scientific naming system using two names is called:",
+    "options": ["Taxonomy", "Classification", "Binomial nomenclature", "Ecology"],
+    "correct": 2,
+    "explanation": "Binomial nomenclature is the system of giving organisms two names: genus and species."
+  },
+  {
+    "question": "The first part of a scientific name represents the:",
+    "options": ["Species", "Kingdom", "Genus", "Family"],
+    "correct": 2,
+    "explanation": "In scientific names, the first word indicates the genus."
+  },
+  {
+    "question": "Which kingdom includes organisms without a true nucleus?",
+    "options": ["Plantae", "Animalia", "Monera", "Fungi"],
+    "correct": 2,
+    "explanation": "Organisms in kingdom Monera are prokaryotic and therefore lack a true nucleus."
+  },
+  {
+    "question": "Which one is a characteristic of fungi?",
+    "options": ["Photosynthetic", "Cell wall made of chitin", "Produce flowers", "Have chlorophyll"],
+    "correct": 1,
+    "explanation": "Fungi possess cell walls made of chitin and do not contain chlorophyll."
+  },
+  {
+    "question": "Which kingdom contains mushrooms, molds, and yeast?",
+    "options": ["Monera", "Protista", "Plantae", "Fungi"],
+    "correct": 3,
+    "explanation": "Mushrooms, molds, and yeast are all members of kingdom Fungi."
+  },
+  {
+    "question": "Which plant group is known as nonvascular plants?",
+    "options": ["Gymnosperms", "Angiosperms", "Bryophytes", "Ferns"],
+    "correct": 2,
+    "explanation": "Bryophytes are called nonvascular plants because they lack xylem and phloem tissues."
+  },
+  {
+    "question": "The reproductive structures of gymnosperms are called:",
+    "options": ["Flowers", "Fruits", "Cones", "Spores"],
+    "correct": 2,
+    "explanation": "Gymnosperms reproduce through structures called cones."
+  },
+  {
+    "question": "Which of the following is NOT a vertebrate?",
+    "options": ["Snake", "Frog", "Snail", "Bird"],
+    "correct": 2,
+    "explanation": "Snail is an invertebrate mollusk because it lacks a backbone."
+  }
+]
+
