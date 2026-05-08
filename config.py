@@ -1,9 +1,6 @@
-"""
-Central configuration file for the Telegram Quiz Bot.
-"""
-
 import os
 import logging
+import tempfile
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -21,14 +18,16 @@ BASE_DIR = Path(__file__).resolve().parent
 # Data & File Paths
 # =========================================================
 DATA_DIR = BASE_DIR / "data"                 # Folder for quiz JSON files
-DATABASE_DIR = BASE_DIR / "database"        # Folder for SQLite DB
-DATABASE_FILE = DATABASE_DIR / "bot.db"     # SQLite database file
+
+# Use temp directory for database (works on Windows and Linux/Render)
+_temp_dir = Path(tempfile.gettempdir())
+DATABASE_FILE = _temp_dir / "estaomte_bot.db"  # SQLite database file in temp
+
 STATE_FILE = BASE_DIR / "state.json"        # Persistent bot state
 HISTORY_FILE = BASE_DIR / "leaderboard_history.json"  # Optional leaderboard archive
 LOG_FILE = BASE_DIR / "bot.log"             # Log file
 
 # Ensure directories exist
-DATABASE_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # =========================================================
