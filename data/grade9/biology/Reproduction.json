@@ -1,0 +1,632 @@
+[
+  {
+    "question": "Discuss the mechanism of multiple fission.",
+    "options": [
+      "The nucleus divides repeatedly and many daughter cells are produced",
+      "A single cell splits into two equal cells",
+      "A bud grows from the parent body",
+      "A seed develops without fertilization"
+    ],
+    "correct": 0,
+    "explanation": "In multiple fission, the nucleus divides many times before the cytoplasm separates, producing many daughter cells at once."
+  },
+  {
+    "question": "When food is left open, the taste and smell of food changes because:",
+    "options": [
+      "It is due to decomposing effects of fungi and bacteria",
+      "It becomes frozen",
+      "It gains more water",
+      "It changes into sugar"
+    ],
+    "correct": 0,
+    "explanation": "Fungi and bacteria decompose exposed food, causing changes in smell, taste, and texture."
+  },
+  {
+    "question": "What is parthenogenesis?",
+    "options": [
+      "A type of asexual reproduction from unfertilized eggs",
+      "A type of sexual reproduction in flowers",
+      "A kind of binary fission",
+      "Fusion of two sperm cells"
+    ],
+    "correct": 0,
+    "explanation": "Parthenogenesis is a form of asexual reproduction where an unfertilized egg develops into a new organism."
+  },
+  {
+    "question": "What is fragmentation?",
+    "options": [
+      "Breakdown of a parent organism into parts that develop into whole organisms",
+      "Formation of seeds after pollination",
+      "Release of hormones from the ovaries",
+      "Fusion of gametes"
+    ],
+    "correct": 0,
+    "explanation": "Fragmentation occurs when parts of an organism break off and grow into complete new individuals."
+  },
+  {
+    "question": "Which one of the following is not reproduced asexually by sporulation?",
+    "options": [
+      "Mucor",
+      "Penicillium",
+      "Ferns",
+      "Mosses",
+      "None"
+    ],
+    "correct": 4,
+    "explanation": "Mucor, Penicillium, ferns, and mosses all reproduce asexually by spores, so none of them is excluded."
+  },
+  {
+    "question": "A single thread-like filament that grows from a spore is called:",
+    "options": [
+      "Sporangium",
+      "Mycelium",
+      "Spore",
+      "Hyphae"
+    ],
+    "correct": 3,
+    "explanation": "A hypha is a thread-like fungal filament that develops from a germinating spore."
+  },
+  {
+    "question": "The total mass of hyphae is called:",
+    "options": [
+      "Rhizoid",
+      "Sporangium",
+      "Mycelium",
+      "None"
+    ],
+    "correct": 2,
+    "explanation": "The network or mass of hyphae in a fungus is collectively called mycelium."
+  },
+  {
+    "question": "A type of asexual reproduction in which a small outgrowth from the parent cell later develops into an independent organism is called:",
+    "options": [
+      "Spore",
+      "Bud",
+      "Nucleoid",
+      "Tentacle"
+    ],
+    "correct": 1,
+    "explanation": "Budding involves the formation of a small outgrowth called a bud that grows and later separates into a new organism."
+  },
+  {
+    "question": "A type of asexual reproduction in which lost parts of an organism develop into a complete body is:",
+    "options": [
+      "Regeneration",
+      "Sporulation",
+      "Budding",
+      "None"
+    ],
+    "correct": 0,
+    "explanation": "Regeneration is the process by which lost body parts grow back and may form a complete organism."
+  },
+  {
+    "question": "A type of asexual reproduction in which the parental cell is divided into two equal parts is called:",
+    "options": [
+      "Binary fission",
+      "Regeneration",
+      "Budding",
+      "Fragmentation"
+    ],
+    "correct": 0,
+    "explanation": "Binary fission is a form of asexual reproduction where one parent cell divides into two equal daughter cells."
+  },
+  {
+    "question": "The female secondary sexual characteristics involve all except:",
+    "options": [
+      "Widening of hips",
+      "Broadening of shoulders and chest",
+      "Development of breast",
+      "Menstrual cycle start"
+    ],
+    "correct": 1,
+    "explanation": "Broadening of shoulders and chest is mainly a male secondary sexual characteristic."
+  },
+  {
+    "question": "The release of a matured egg from the ovary to the fallopian tube is called:",
+    "options": [
+      "Implantation",
+      "Gestation",
+      "Ovulation",
+      "Copulation"
+    ],
+    "correct": 2,
+    "explanation": "Ovulation is the release of a mature egg from the ovary into the fallopian tube."
+  },
+  {
+    "question": "The stopping or cessation of the menstrual cycle in a woman after the age of 45 years and above is called:",
+    "options": [
+      "Puberty",
+      "Adolescence",
+      "Pregnancy",
+      "Menopause"
+    ],
+    "correct": 3,
+    "explanation": "Menopause is the permanent end of menstruation, usually occurring between ages 45 and 55."
+  },
+  {
+    "question": "The part of the female reproductive organ where fertilization takes place is called:",
+    "options": [
+      "Uterus",
+      "Cervix",
+      "Fallopian tube",
+      "Vagina"
+    ],
+    "correct": 2,
+    "explanation": "Fertilization usually occurs in the fallopian tube, also called the oviduct."
+  },
+  {
+    "question": "The female gonads produce the following:",
+    "options": [
+      "LH and progesterone",
+      "Progesterone and oestrogen",
+      "FSH and LH",
+      "Testosterone and FSH"
+    ],
+    "correct": 1,
+    "explanation": "The ovaries produce the female sex hormones oestrogen and progesterone."
+  },
+  {
+    "question": "The ovaries produce:",
+    "options": [
+      "FSH and LH",
+      "Sperm cell and testosterone",
+      "Oestrogen and ova",
+      "Progesterone and testosterone"
+    ],
+    "correct": 2,
+    "explanation": "Ovaries produce ova (egg cells) and the hormone oestrogen."
+  },
+  {
+    "question": "One of the following is not the function of progesterone hormone:",
+    "options": [
+      "Stop ovulation",
+      "Causes development of the blood uterus wall",
+      "Causes the uterus wall to thicken",
+      "None of the above"
+    ],
+    "correct": 3,
+    "explanation": "All the listed functions are associated with progesterone, so none of them is incorrect."
+  },
+  {
+    "question": "State exactly what happens at the moment of fertilization.",
+    "options": [
+      "The sperm enters the ovum and its nucleus fuses with the female egg nucleus",
+      "The uterus sheds its lining",
+      "The egg becomes a spore",
+      "The cervix closes permanently"
+    ],
+    "correct": 0,
+    "explanation": "Fertilization occurs when the sperm nucleus fuses with the egg nucleus to form a zygote."
+  },
+  {
+    "question": "How do sperm differ from egg in their structure?",
+    "options": [
+      "Sperm are smaller and motile; egg is larger and stores food",
+      "Egg has a flagellum; sperm does not",
+      "Sperm has stored food; egg does not",
+      "Egg is always smaller than sperm"
+    ],
+    "correct": 0,
+    "explanation": "Sperm cells are small and motile, while egg cells are larger and contain stored nutrients."
+  },
+  {
+    "question": "If mating takes place, when is fertilization most likely to occur?",
+    "options": [
+      "Two days before and two days after ovulation",
+      "Only during menopause",
+      "Only after childbirth",
+      "One month after ovulation"
+    ],
+    "correct": 0,
+    "explanation": "Fertilization is most likely around the time of ovulation when a mature egg is available."
+  },
+  {
+    "question": "What does the mid-piece of the sperm contain?",
+    "options": [
+      "Mitochondria",
+      "Cell wall",
+      "Chloroplast",
+      "Vacuole"
+    ],
+    "correct": 0,
+    "explanation": "The mid-piece of the sperm contains mitochondria that provide energy for movement."
+  },
+  {
+    "question": "What does the mid-piece of the sperm contain?",
+    "options": [
+      "Mitochondria that supply energy for movement",
+      "The egg nucleus",
+      "The uterus lining",
+      "The sperm tail itself"
+    ],
+    "correct": 0,
+    "explanation": "The mitochondria in the sperm mid-piece generate ATP needed for the tail to swim."
+  },
+  {
+    "question": "What is the purpose of the vas deferens?",
+    "options": [
+      "It carries matured sperm to the urethra and out of the body",
+      "It stores eggs",
+      "It produces progesterone",
+      "It is the site of fertilization"
+    ],
+    "correct": 0,
+    "explanation": "The vas deferens transports mature sperm from the epididymis to the urethra."
+  },
+  {
+    "question": "What are the functions of the seminal vesicles and prostate gland?",
+    "options": [
+      "They add fluid that nourishes sperm, lubricates the tract, and reduces acidity",
+      "They produce ova",
+      "They destroy sperm",
+      "They form the embryo"
+    ],
+    "correct": 0,
+    "explanation": "These glands produce seminal fluid that nourishes and protects sperm cells."
+  },
+  {
+    "question": "Which glands secrete alkaline fluids?",
+    "options": [
+      "Prostate gland",
+      "Pituitary gland",
+      "Thyroid gland",
+      "Adrenal gland"
+    ],
+    "correct": 0,
+    "explanation": "The prostate gland secretes alkaline fluid that helps neutralize acidity and protect sperm."
+  },
+  {
+    "question": "What are the three phases of the menstrual cycle?",
+    "options": [
+      "Flow phase, follicular phase, luteal phase",
+      "Birth phase, growth phase, death phase",
+      "Egg phase, sperm phase, fetus phase",
+      "Ovary phase, uterus phase, cervix phase"
+    ],
+    "correct": 0,
+    "explanation": "The menstrual cycle consists of the flow phase (menstruation), follicular phase, and luteal phase."
+  },
+  {
+    "question": "What is shed during menstrual flow?",
+    "options": [
+      "The endometrium",
+      "The ovary",
+      "The sperm cell",
+      "The cervix"
+    ],
+    "correct": 0,
+    "explanation": "During menstruation, the endometrium or uterine lining is shed from the body."
+  },
+  {
+    "question": "What two female hormones are secreted by the corpus luteum?",
+    "options": [
+      "Oestrogen and progesterone",
+      "FSH and LH",
+      "Testosterone and insulin",
+      "Adrenaline and thyroxine"
+    ],
+    "correct": 0,
+    "explanation": "The corpus luteum secretes oestrogen and progesterone to maintain the uterine lining."
+  },
+  {
+    "question": "What is the disadvantage of a diaphragm?",
+    "options": [
+      "It does not prevent the risk of transmission of STIs",
+      "It cannot be used by women",
+      "It causes ovulation",
+      "It permanently ends fertility"
+    ],
+    "correct": 0,
+    "explanation": "A diaphragm helps prevent pregnancy but does not effectively protect against sexually transmitted infections."
+  },
+  {
+    "question": "What is the disadvantage of vasectomy and laparotomy?",
+    "options": [
+      "The operation cannot usually be reversed",
+      "They always cause pregnancy",
+      "They are the same as menstruation",
+      "They do not affect reproduction at all"
+    ],
+    "correct": 0,
+    "explanation": "Vasectomy and laparotomy are considered permanent methods of contraception and are difficult to reverse."
+  },
+  {
+    "question": "Why is abstinence important for the youth?",
+    "options": [
+      "It helps avoid unwanted pregnancy and lowers the chance of STIs",
+      "It causes ovulation",
+      "It increases pregnancy risk",
+      "It makes fertilization easier"
+    ],
+    "correct": 0,
+    "explanation": "Abstinence prevents sexual contact, reducing the risk of unwanted pregnancy and sexually transmitted infections."
+  },
+  {
+    "question": "Mention the advantage and disadvantages of each contraceptive method.",
+    "options": [
+      "Methods differ in effectiveness, side effects, STI protection, and reversibility",
+      "All contraceptive methods are exactly the same",
+      "Contraceptives only work for men",
+      "Contraceptives always permanently stop fertility"
+    ],
+    "correct": 0,
+    "explanation": "Different contraceptive methods vary in effectiveness, protection against STIs, possible side effects, and whether fertility can return after stopping use."
+  },
+  {
+    "question": "Match each STI with its cause and treatment.",
+    "options": [
+      "Trichomoniasis—Protozoa—Anti-protozoa drugs; Gonorrhea/Syphilis/Chlamydia—Bacteria—Antibiotics; Candidiasis—Fungus—Anti-fungal; AIDS—Virus—ART",
+      "All STIs are caused by fungi only",
+      "All STIs are treated with surgery only",
+      "AIDS is caused by bacteria"
+    ],
+    "correct": 0,
+    "explanation": "Different STIs are caused by different pathogens such as bacteria, fungi, protozoa, or viruses, and each requires a specific treatment."
+  },
+  {
+    "question": "What is the male sex hormone and what is its function?",
+    "options": [
+      "Testosterone; it is required for sperm production and male secondary sexual characteristics",
+      "Progesterone; it is required for menstruation",
+      "Oestrogen; it is produced by testes",
+      "FSH; it is the main male sex hormone"
+    ],
+    "correct": 0,
+    "explanation": "Testosterone is the main male sex hormone responsible for sperm production and male secondary sexual characteristics."
+  },
+  {
+    "question": "Which sexually transmitted infections are not curable?",
+    "options": [
+      "Trichomoniasis and gonorrhea",
+      "Syphilis and candidiasis",
+      "Chlamydial infection and gonorrhea",
+      "HIV/AIDS and genital herpes"
+    ],
+    "correct": 3,
+    "explanation": "HIV/AIDS and genital herpes can be controlled with treatment but currently have no complete cure."
+  },
+  {
+    "question": "Which hormone is produced by the pituitary gland?",
+    "options": [
+      "Testosterone and sperm",
+      "Secretes semen compounds",
+      "Conveys sperm out of body",
+      "Lining of uterus in folds",
+      "FSH and LH"
+    ],
+    "correct": 4,
+    "explanation": "The pituitary gland produces follicle-stimulating hormone (FSH) and luteinizing hormone (LH), which regulate reproduction."
+  },
+  {
+    "question": "What is the function of the prostate gland?",
+    "options": [
+      "Produces ova",
+      "Secretes semen compounds",
+      "Site of fertilization",
+      "Stores sperm"
+    ],
+    "correct": 1,
+    "explanation": "The prostate gland secretes fluids that form part of semen and help nourish and protect sperm."
+  },
+  {
+    "question": "What is the function of the testis?",
+    "options": [
+      "Produces testosterone and sperm",
+      "Produces oestrogen only",
+      "Stores eggs",
+      "Forms embryo"
+    ],
+    "correct": 0,
+    "explanation": "The testes produce sperm cells and the male sex hormone testosterone."
+  },
+  {
+    "question": "What is the function of the epididymis?",
+    "options": [
+      "Produces semen",
+      "Stores sperm until ejaculation",
+      "Produces ova",
+      "Secretes hormones"
+    ],
+    "correct": 1,
+    "explanation": "The epididymis stores and allows sperm to mature until ejaculation."
+  },
+  {
+    "question": "What are the labia majora?",
+    "options": [
+      "Thin inner folds",
+      "Birth canal",
+      "Fat padded skin folds",
+      "Uterus lining"
+    ],
+    "correct": 2,
+    "explanation": "The labia majora are the outer fat-padded folds that protect the female reproductive openings."
+  },
+  {
+    "question": "What is the endometrium?",
+    "options": [
+      "Egg-producing organ",
+      "Tube carrying sperm",
+      "Lining of uterus in folds",
+      "Outer skin fold"
+    ],
+    "correct": 2,
+    "explanation": "The endometrium is the inner lining of the uterus that thickens in preparation for pregnancy."
+  },
+  {
+    "question": "What is the function of seminal vesicles?",
+    "options": [
+      "Produce sperm",
+      "Secrete fructose-rich fluid",
+      "Carry ova",
+      "Produce urine"
+    ],
+    "correct": 1,
+    "explanation": "Seminal vesicles secrete a fructose-rich fluid that provides energy for sperm."
+  },
+  {
+    "question": "What is the function of the ovary?",
+    "options": [
+      "Produces oestrogen and progesterone",
+      "Stores sperm",
+      "Forms placenta",
+      "Produces testosterone"
+    ],
+    "correct": 0,
+    "explanation": "The ovaries produce female sex hormones such as oestrogen and progesterone."
+  },
+  {
+    "question": "What is the usual site of fertilization?",
+    "options": [
+      "Uterus",
+      "Ovary",
+      "Oviduct (fallopian tube)",
+      "Cervix"
+    ],
+    "correct": 2,
+    "explanation": "Fertilization normally takes place in the oviduct or fallopian tube."
+  },
+  {
+    "question": "What is the vagina commonly called?",
+    "options": [
+      "Birth canal",
+      "Egg canal",
+      "Hormone gland",
+      "Fertilization tube"
+    ],
+    "correct": 0,
+    "explanation": "The vagina is commonly called the birth canal because the baby passes through it during childbirth."
+  },
+  {
+    "question": "What is the function of the urethra in males?",
+    "options": [
+      "Produces sperm",
+      "Stores semen",
+      "Conveys sperm out of body",
+      "Produces testosterone"
+    ],
+    "correct": 2,
+    "explanation": "The male urethra carries semen and urine out of the body through the penis."
+  },
+  {
+    "question": "What are the labia minora?",
+    "options": [
+      "Thick outer folds",
+      "Thin inner folds",
+      "Male glands",
+      "Sperm ducts"
+    ],
+    "correct": 1,
+    "explanation": "The labia minora are the thin inner folds that protect the vaginal and urethral openings."
+  },
+  {
+    "question": "Which one of the following is a male reproductive organ?",
+    "options": [
+      "Testis",
+      "Ovary",
+      "Oviduct",
+      "Uterus"
+    ],
+    "correct": 0,
+    "explanation": "The testis is a male reproductive organ responsible for producing sperm and testosterone."
+  },
+  {
+    "question": "Which organ is the usual site of fertilization?",
+    "options": [
+      "Uterus",
+      "Cervix",
+      "Oviduct (Fallopian tube)",
+      "Vagina"
+    ],
+    "correct": 2,
+    "explanation": "The oviduct or fallopian tube is the usual site where fertilization occurs."
+  },
+  {
+    "question": "Which structure stores sperm until ejaculation?",
+    "options": [
+      "Urethra",
+      "Epididymis",
+      "Ovary",
+      "Cervix"
+    ],
+    "correct": 1,
+    "explanation": "The epididymis stores and matures sperm before ejaculation."
+  },
+  {
+    "question": "Which one is NOT a function of the female reproductive system?",
+    "options": [
+      "Production of ova",
+      "Nourishing embryo",
+      "Hormone production",
+      "Production of sperm"
+    ],
+    "correct": 3,
+    "explanation": "The female reproductive system does not produce sperm; sperm are produced in the male testes."
+  },
+  {
+    "question": "Which hormone is mainly responsible for male secondary sexual characteristics?",
+    "options": [
+      "Testosterone",
+      "Progesterone",
+      "Oestrogen",
+      "FSH"
+    ],
+    "correct": 0,
+    "explanation": "Testosterone is responsible for male secondary sexual characteristics such as deep voice and facial hair."
+  },
+  {
+    "question": "What is the function of the urethra in males?",
+    "options": [
+      "Conveys sperm out of the body",
+      "Produces sperm",
+      "Produces hormones",
+      "Stores sperm"
+    ],
+    "correct": 0,
+    "explanation": "The urethra transports semen and urine out of the male body."
+  },
+  {
+    "question": "Which gland secretes fructose-rich fluid to nourish sperm?",
+    "options": [
+      "Pituitary gland",
+      "Seminal vesicle",
+      "Thyroid gland",
+      "Adrenal gland"
+    ],
+    "correct": 1,
+    "explanation": "The seminal vesicles produce fructose-rich fluid that supplies energy to sperm cells."
+  },
+  {
+    "question": "Which female reproductive organ produces oestrogen and progesterone?",
+    "options": [
+      "Uterus",
+      "Ovary",
+      "Cervix",
+      "Vagina"
+    ],
+    "correct": 1,
+    "explanation": "The ovaries produce the hormones oestrogen and progesterone."
+  },
+  {
+    "question": "Which part of the female reproductive system is known as the birth canal?",
+    "options": [
+      "Oviduct",
+      "Cervix",
+      "Vagina",
+      "Endometrium"
+    ],
+    "correct": 2,
+    "explanation": "The vagina is called the birth canal because it provides the passage for childbirth."
+  },
+  {
+    "question": "Which one of the following structures is part of the external female reproductive organ?",
+    "options": [
+      "Epididymis",
+      "Testis",
+      "Urethra",
+      "Labia minora"
+    ],
+    "correct": 3,
+    "explanation": "The labia minora are external female reproductive structures that protect the vaginal opening."
+  }
+
+]
