@@ -208,7 +208,6 @@ async def main_async():
         raise RuntimeError("BOT_TOKEN missing in config.py")
 
     # Create database tables
-    # Delete corrupted database if exists
     init_db()
 
     # Restore saved in-memory state
