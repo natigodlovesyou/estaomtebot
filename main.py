@@ -209,12 +209,6 @@ async def main_async():
 
     # Create database tables
     # Delete corrupted database if exists
-    import os
-    from config import DATABASE_FILE
-    if os.path.exists(str(DATABASE_FILE)):
-        os.remove(str(DATABASE_FILE))
-        logger.info("Removed corrupted database file")
-
     init_db()
 
     # Restore saved in-memory state
