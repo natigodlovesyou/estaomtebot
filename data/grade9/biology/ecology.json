@@ -1,1 +1,563 @@
-
+[
+  {
+    "question": "The competition between members of the same species is called:",
+    "options": [
+      "Intra-specific competition",
+      "Predation",
+      "Mutualism",
+      "Inter-specific competition"
+    ],
+    "correct": 0,
+    "explanation": "Intra-specific competition occurs when members of the same species compete for resources such as food, mates, territory, or shelter."
+  },
+  {
+    "question": "The competition between members of different species is called:",
+    "options": [
+      "Intra-specific competition",
+      "Inter-specific competition",
+      "Symbiosis",
+      "Commensalism"
+    ],
+    "correct": 1,
+    "explanation": "Inter-specific competition happens when organisms of different species compete for the same limited resources in an environment."
+  },
+  {
+    "question": "Which of the following is an example of intra-specific competition?",
+    "options": [
+      "Crops and weeds competing",
+      "Lions and hyenas competing",
+      "Dogs competing for mating",
+      "Bees and flowers"
+    ],
+    "correct": 2,
+    "explanation": "Dogs competing for mating are members of the same species, making it an example of intra-specific competition."
+  },
+  {
+    "question": "Which of the following is an example of inter-specific competition?",
+    "options": [
+      "Dogs competing for mates",
+      "Lionesses competing for territory",
+      "Humans helping each other",
+      "Crops and weeds competing"
+    ],
+    "correct": 3,
+    "explanation": "Crops and weeds belong to different species and compete for water, nutrients, sunlight, and space."
+  },
+  {
+    "question": "Which of the following are biotic factors?",
+    "options": [
+      "Living organisms such as plants and animals",
+      "Light, pH, humidity, soil type",
+      "Temperature and rainfall",
+      "Wind and water"
+    ],
+    "correct": 0,
+    "explanation": "Biotic factors are the living components of an ecosystem, including plants, animals, fungi, and microorganisms."
+  },
+  {
+    "question": "A pond is considered:",
+    "options": [
+      "The largest terrestrial ecosystem",
+      "The smallest ecosystem",
+      "A biome",
+      "The largest aquatic ecosystem"
+    ],
+    "correct": 1,
+    "explanation": "A pond is considered one of the smallest ecosystems because it covers a limited area and contains relatively few organisms compared to larger ecosystems."
+  },
+  {
+    "question": "The largest terrestrial ecosystem is:",
+    "options": [
+      "Pond",
+      "Coral reef",
+      "Forest region",
+      "Biosphere"
+    ],
+    "correct": 2,
+    "explanation": "Forest regions are among the largest terrestrial ecosystems due to their extensive land coverage and biodiversity."
+  },
+  {
+    "question": "The largest aquatic ecosystem is:",
+    "options": [
+      "Pond",
+      "River",
+      "Wetland",
+      "Coral reef"
+    ],
+    "correct": 3,
+    "explanation": "Coral reefs are among the largest and most biologically diverse aquatic ecosystems on Earth."
+  },
+  {
+    "question": "A biome is:",
+    "options": [
+      "A geographically limited ecological area with similar climate and organisms",
+      "A single organism",
+      "The whole earth",
+      "A food chain"
+    ],
+    "correct": 0,
+    "explanation": "A biome is a large ecological region characterized by similar climate, vegetation, and animal life."
+  },
+  {
+    "question": "Which biome has the highest salt content?",
+    "options": [
+      "Fresh water biome",
+      "Marine biome",
+      "Aquatic biome",
+      "Desert biome"
+    ],
+    "correct": 1,
+    "explanation": "Marine biomes, such as oceans and seas, contain high concentrations of dissolved salts."
+  },
+  {
+    "question": "Which biome contains hibiscus and mangroves?",
+    "options": [
+      "Desert biome",
+      "Tundra biome",
+      "Equatorial rain forest",
+      "Deciduous forest"
+    ],
+    "correct": 2,
+    "explanation": "Equatorial rain forests support plants such as hibiscus and mangroves because of their warm temperatures and high rainfall."
+  },
+  {
+    "question": "An intermediate salt content biome is:",
+    "options": [
+      "Marine biome",
+      "Freshwater biome",
+      "Desert biome",
+      "Estuarine biome"
+    ],
+    "correct": 3,
+    "explanation": "Estuarine biomes contain a mixture of fresh water and salt water, resulting in intermediate salinity."
+  },
+  {
+    "question": "Which biome receives very little rainfall?",
+    "options": [
+      "Desert biome",
+      "Tropical rain forest",
+      "Tundra",
+      "Grassland"
+    ],
+    "correct": 0,
+    "explanation": "Desert biomes receive very little rainfall and usually have dry conditions."
+  },
+  {
+    "question": "Plants adapted to dry environments are called:",
+    "options": [
+      "Ephemerals",
+      "Succulents",
+      "Hydrophytes",
+      "Bryophytes"
+    ],
+    "correct": 1,
+    "explanation": "Succulents are plants adapted to dry environments by storing water in thick stems or leaves."
+  },
+  {
+    "question": "Plants that complete their life cycle in a very short time are:",
+    "options": [
+      "Perennial plants",
+      "Annuals",
+      "Ephemerals",
+      "Bryophytes"
+    ],
+    "correct": 2,
+    "explanation": "Ephemerals grow, reproduce, and complete their life cycle quickly, often during short favorable conditions."
+  },
+  {
+    "question": "Water dweller plants are called:",
+    "options": [
+      "Xerophytes",
+      "Mesophytes",
+      "Epiphytes",
+      "Hydrophytes"
+    ],
+    "correct": 3,
+    "explanation": "Hydrophytes are plants adapted to living in aquatic environments."
+  },
+  {
+    "question": "Communities at early successional stages usually have:",
+    "options": [
+      "Higher biomass",
+      "More species",
+      "Lower productivity",
+      "Less stability"
+    ],
+    "correct": 0,
+    "explanation": "Early successional communities are less stable because they are still developing and have fewer established interactions."
+  },
+  {
+    "question": "Which organization contains both biotic and abiotic factors?",
+    "options": [
+      "Community",
+      "Ecosystem",
+      "Population",
+      "Biosphere"
+    ],
+    "correct": 1,
+    "explanation": "An ecosystem includes living organisms and non-living environmental factors interacting together."
+  },
+  {
+    "question": "During succession, species diversity and biomass usually:",
+    "options": [
+      "Decrease",
+      "Remain constant",
+      "Increase",
+      "Disappear"
+    ],
+    "correct": 2,
+    "explanation": "As succession progresses, ecosystems become more complex with increased species diversity and biomass."
+  },
+  {
+    "question": "Which of the following best defines an ecosystem?",
+    "options": [
+      "All organisms in one area",
+      "All populations in one area",
+      "Interaction of organisms with their environment",
+      "Only plants in an area"
+    ],
+    "correct": 2,
+    "explanation": "An ecosystem consists of organisms interacting with each other and with their physical environment."
+  },
+  {
+    "question": "The final stable stage of succession is called:",
+    "options": [
+      "Climax community",
+      "Pioneer stage",
+      "Secondary succession",
+      "Primary succession"
+    ],
+    "correct": 0,
+    "explanation": "The climax community is the stable and mature stage reached at the end of ecological succession."
+  },
+  {
+    "question": "Which biome is the coldest?",
+    "options": [
+      "Tropical rain forest",
+      "Tundra",
+      "Desert",
+      "Savanna"
+    ],
+    "correct": 1,
+    "explanation": "The tundra biome is extremely cold and often has permanently frozen soil called permafrost."
+  },
+  {
+    "question": "A large geographical area with specific plants and animals is called:",
+    "options": [
+      "Ecosystem",
+      "Biome",
+      "Community",
+      "Biosphere"
+    ],
+    "correct": 2,
+    "explanation": "A biome is a large ecological region defined by climate and characteristic organisms."
+  },
+  {
+    "question": "Which factor determines the characteristics of terrestrial biomes?",
+    "options": [
+      "Humidity only",
+      "Wind speed",
+      "Soil color",
+      "Rainfall and temperature"
+    ],
+    "correct": 3,
+    "explanation": "Temperature and rainfall mainly determine the type of vegetation and animals found in terrestrial biomes."
+  },
+  {
+    "question": "Epiphytes are commonly found in:",
+    "options": [
+      "Desert",
+      "Tropical rain forest",
+      "Cold forest",
+      "Tundra"
+    ],
+    "correct": 1,
+    "explanation": "Epiphytes commonly grow on trees in tropical rain forests where moisture and humidity are high."
+  },
+  {
+    "question": "Which of the following is a living factor in the environment?",
+    "options": [
+      "Water",
+      "Plants",
+      "Air",
+      "Temperature"
+    ],
+    "correct": 1,
+    "explanation": "Plants are living organisms, so they are considered biotic or living environmental factors."
+  },
+  {
+    "question": "The interactions between organisms in which one benefits and the other is harmed is:",
+    "options": [
+      "Mutualism",
+      "Commensalism",
+      "Predation",
+      "Neutralism"
+    ],
+    "correct": 2,
+    "explanation": "In predation, one organism benefits by obtaining food while the other organism is harmed or killed."
+  },
+  {
+    "question": "Which level of ecology deals with groups of organisms?",
+    "options": [
+      "Organism",
+      "Community",
+      "Ecosystem",
+      "Population"
+    ],
+    "correct": 3,
+    "explanation": "A population consists of members of the same species living together in a particular area."
+  },
+  {
+    "question": "Which level includes all living things and their environment?",
+    "options": [
+      "Community",
+      "Population",
+      "Ecosystem",
+      "Organism"
+    ],
+    "correct": 2,
+    "explanation": "An ecosystem includes both organisms and the non-living environment interacting together."
+  },
+  {
+    "question": "Which biome receives the highest rainfall?",
+    "options": [
+      "Tundra",
+      "Desert",
+      "Tropical rain forest",
+      "Grassland"
+    ],
+    "correct": 2,
+    "explanation": "Tropical rain forests receive very high rainfall throughout the year."
+  },
+  {
+    "question": "Which of the following is a non-living factor?",
+    "options": [
+      "Animals",
+      "Plants",
+      "Soil",
+      "Fungi"
+    ],
+    "correct": 2,
+    "explanation": "Soil is an abiotic factor because it is non-living."
+  },
+  {
+    "question": "The movement of energy through organisms is shown by:",
+    "options": [
+      "Food chain",
+      "Water cycle",
+      "Nitrogen cycle",
+      "Succession"
+    ],
+    "correct": 0,
+    "explanation": "A food chain shows how energy passes from one organism to another through feeding relationships."
+  },
+  {
+    "question": "Which process restores an ecosystem after disturbance?",
+    "options": [
+      "Succession",
+      "Competition",
+      "Predation",
+      "Adaptation"
+    ],
+    "correct": 0,
+    "explanation": "Ecological succession gradually restores ecosystems after disturbances such as fires or floods."
+  },
+  {
+    "question": "Plants and mycorrhiza fungi show:",
+    "options": [
+      "Parasitism",
+      "Commensalism",
+      "Mutualism",
+      "Predation"
+    ],
+    "correct": 2,
+    "explanation": "Both plants and mycorrhizal fungi benefit from the relationship, making it mutualism."
+  },
+  {
+    "question": "Abiotic factors include:",
+    "options": [
+      "Earthworms, insects and plants",
+      "Rocks, air and water",
+      "Only animals",
+      "Green plants"
+    ],
+    "correct": 1,
+    "explanation": "Abiotic factors are the non-living components of the environment such as rocks, water, and air."
+  },
+  {
+    "question": "Biological community refers to:",
+    "options": [
+      "A group of organisms of the same species",
+      "All populations in an area",
+      "Only consumers",
+      "Only producers"
+    ],
+    "correct": 1,
+    "explanation": "A biological community consists of all the different populations living and interacting in the same area."
+  },
+  {
+    "question": "Habitat means:",
+    "options": [
+      "The place where an organism lives",
+      "Food chain",
+      "Population size",
+      "Climate only"
+    ],
+    "correct": 0,
+    "explanation": "A habitat is the natural environment where an organism lives and obtains its needs."
+  },
+  {
+    "question": "Predator-prey relationship is an example of:",
+    "options": [
+      "Positive interaction",
+      "Harmful interaction",
+      "Neutral interaction",
+      "Cooperation"
+    ],
+    "correct": 1,
+    "explanation": "In a predator-prey relationship, the prey is harmed while the predator benefits."
+  },
+  {
+    "question": "Limiting factors are:",
+    "options": [
+      "Factors that stop population growth",
+      "Living organisms only",
+      "Producers only",
+      "Consumers only"
+    ],
+    "correct": 0,
+    "explanation": "Limiting factors restrict population growth by reducing resources such as food, water, or space."
+  },
+  {
+    "question": "Pioneer species are:",
+    "options": [
+      "First organisms to live in a new area",
+      "Largest organisms",
+      "Extinct organisms",
+      "Consumers only"
+    ],
+    "correct": 0,
+    "explanation": "Pioneer species are the first organisms to colonize barren or disturbed areas during succession."
+  },
+  {
+    "question": "Primary succession begins in:",
+    "options": [
+      "A newly formed barren area",
+      "An area with soil already present",
+      "Forest region",
+      "Grassland only"
+    ],
+    "correct": 0,
+    "explanation": "Primary succession begins in areas without soil, such as newly formed volcanic rock."
+  },
+  {
+    "question": "Climax community is:",
+    "options": [
+      "An unstable community",
+      "The final stable stage of succession",
+      "The first stage of succession",
+      "A temporary ecosystem"
+    ],
+    "correct": 1,
+    "explanation": "A climax community is a mature and stable ecological community formed at the end of succession."
+  },
+  {
+    "question": "Which biome receives heavy rainfall and has dense trees?",
+    "options": [
+      "Desert",
+      "Tundra",
+      "Rain forest",
+      "Savanna"
+    ],
+    "correct": 2,
+    "explanation": "Rain forests receive heavy rainfall and support dense vegetation and tall trees."
+  },
+  {
+    "question": "Which biome is extremely cold and has permanently frozen soil?",
+    "options": [
+      "Coral reef",
+      "Desert",
+      "Tundra",
+      "Grassland"
+    ],
+    "correct": 2,
+    "explanation": "The tundra biome has extremely low temperatures and permanently frozen soil called permafrost."
+  },
+  {
+    "question": "Which aquatic ecosystem is rich in marine organisms?",
+    "options": [
+      "Coral reef",
+      "Pond",
+      "Forest",
+      "Desert"
+    ],
+    "correct": 0,
+    "explanation": "Coral reefs support a large variety of marine organisms and are among the most productive aquatic ecosystems."
+  },
+  {
+    "question": "Which biome has very little rainfall?",
+    "options": [
+      "Rain forest",
+      "Desert",
+      "Wetland",
+      "Tundra"
+    ],
+    "correct": 1,
+    "explanation": "Deserts are characterized by extremely low rainfall and dry conditions."
+  },
+  {
+    "question": "Which microscopic organisms float in water and perform photosynthesis?",
+    "options": [
+      "Zooplankton",
+      "Bacteria",
+      "Phytoplankton",
+      "Fungi"
+    ],
+    "correct": 2,
+    "explanation": "Phytoplankton are microscopic photosynthetic organisms that float in aquatic environments."
+  },
+  {
+    "question": "Which interaction benefits both organisms?",
+    "options": [
+      "Predation",
+      "Parasitism",
+      "Competition",
+      "Mutualism"
+    ],
+    "correct": 3,
+    "explanation": "In mutualism, both organisms involved benefit from the interaction."
+  },
+  {
+    "question": "Living components of the environment are called:",
+    "options": [
+      "Abiotic factors",
+      "Biotic factors",
+      "Climatic factors",
+      "Edaphic factors"
+    ],
+    "correct": 1,
+    "explanation": "Biotic factors include all living organisms in an ecosystem."
+  },
+  {
+    "question": "Non-living components of the environment are called:",
+    "options": [
+      "Biotic factors",
+      "Producers",
+      "Abiotic factors",
+      "Consumers"
+    ],
+    "correct": 2,
+    "explanation": "Abiotic factors are the non-living parts of the environment such as water, air, light, and soil."
+  },
+  {
+    "question": "The part of Earth where life exists is called:",
+    "options": [
+      "Ecosystem",
+      "Habitat",
+      "Biosphere",
+      "Community"
+    ],
+    "correct": 2,
+    "explanation": "The biosphere is the global zone of Earth where living organisms exist."
+  }
+]
