@@ -1,0 +1,662 @@
+[
+  {
+    "question": "The first step of the scientific method is:",
+    "options": [
+      "Experimentation",
+      "Observation",
+      "Data analysis",
+      "Drawing conclusion"
+    ],
+    "correct": 1,
+    "explanation": "Observation comes first because a scientist must notice a problem, event, or pattern before forming a question or hypothesis."
+  },
+  {
+    "question": "A tentative explanation of observed facts is called:",
+    "options": [
+      "Theory",
+      "Law",
+      "Hypothesis",
+      "Experiment"
+    ],
+    "correct": 2,
+    "explanation": "A hypothesis is an educated guess or proposed explanation that can be tested through investigation."
+  },
+  {
+    "question": "A hypothesis becomes accepted as a theory when it:",
+    "options": [
+      "Is ignored by scientists",
+      "Is repeatedly confirmed by experiments",
+      "Is written in a book",
+      "Is observed once"
+    ],
+    "correct": 1,
+    "explanation": "When a hypothesis is supported by repeated experiments and evidence over time, it may develop into a theory."
+  },
+  {
+    "question": "Which of the following is an application of biology?",
+    "options": [
+      "Production of antibiotics",
+      "Production of vaccines",
+      "Forensic investigation",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Biology is used in medicine, agriculture, and crime investigation, so all of the listed examples are applications of biology."
+  },
+  {
+    "question": "Entomology is the study of:",
+    "options": [
+      "Birds",
+      "Fish",
+      "Insects",
+      "Fungi"
+    ],
+    "correct": 2,
+    "explanation": "Entomology is the branch of biology that deals with insects."
+  },
+  {
+    "question": "Which of the following is NOT a property of life?",
+    "options": [
+      "Ordered organization",
+      "Reproduction",
+      "Ability to use energy",
+      "Remaining unchanged forever"
+    ],
+    "correct": 3,
+    "explanation": "Living things grow, change, and respond to their environment; they do not remain unchanged forever."
+  },
+  {
+    "question": "The science that studies interactions between organisms and their environment is:",
+    "options": [
+      "Botany",
+      "Ecology",
+      "Zoology",
+      "Genetics"
+    ],
+    "correct": 1,
+    "explanation": "Ecology is the study of organisms and how they interact with one another and with the environment."
+  },
+  {
+    "question": "Which microscope uses light to view small objects?",
+    "options": [
+      "Electron microscope",
+      "Compound microscope",
+      "Light microscope",
+      "Digital microscope"
+    ],
+    "correct": 2,
+    "explanation": "A light microscope uses visible light and lenses to magnify small objects."
+  },
+  {
+    "question": "The part of the microscope used to carry it is called:",
+    "options": [
+      "Stage",
+      "Arm",
+      "Diaphragm",
+      "Lens"
+    ],
+    "correct": 1,
+    "explanation": "The arm is the part used for holding and carrying the microscope safely."
+  },
+  {
+    "question": "The microscope part that controls the amount of light is:",
+    "options": [
+      "Arm",
+      "Objective lens",
+      "Diaphragm",
+      "Eyepiece"
+    ],
+    "correct": 2,
+    "explanation": "The diaphragm regulates the amount of light passing through the specimen."
+  },
+  {
+    "question": "What is the total magnification of a microscope with 10x eyepiece and 25x objective lens?",
+    "options": [
+      "100x",
+      "200x",
+      "250x",
+      "500x"
+    ],
+    "correct": 2,
+    "explanation": "Total magnification equals eyepiece magnification multiplied by objective magnification, so 10 × 25 = 250."
+  },
+  {
+    "question": "Which tool is most suitable for culturing bacteria?",
+    "options": [
+      "Beaker",
+      "Petri dish",
+      "Microscope",
+      "Test tube"
+    ],
+    "correct": 1,
+    "explanation": "A Petri dish is used to grow microorganisms on nutrient media."
+  },
+  {
+    "question": "Complete removal of microorganisms from equipment is called:",
+    "options": [
+      "Pasteurization",
+      "Sterilization",
+      "Disinfection",
+      "Fermentation"
+    ],
+    "correct": 1,
+    "explanation": "Sterilization destroys all forms of microorganisms, including spores, on equipment or materials."
+  },
+  {
+    "question": "An autoclave sterilizes equipment using:",
+    "options": [
+      "Dry ice",
+      "Steam pressure at high temperature",
+      "Chemicals only",
+      "Sunlight"
+    ],
+    "correct": 1,
+    "explanation": "An autoclave uses pressurized steam at high temperature to kill microorganisms and spores."
+  },
+  {
+    "question": "Quadrats are mainly used to estimate:",
+    "options": [
+      "Water temperature",
+      "Population abundance of organisms",
+      "Air pressure",
+      "Rainfall"
+    ],
+    "correct": 1,
+    "explanation": "Quadrats are sampling frames used to estimate the abundance or distribution of plants and slow-moving organisms."
+  },
+  {
+    "question": "Sweep nets are used to collect:",
+    "options": [
+      "Fish",
+      "Insects from long grasses",
+      "Birds",
+      "Soil samples"
+    ],
+    "correct": 1,
+    "explanation": "Sweep nets are used to catch insects living in grass or vegetation."
+  },
+  {
+    "question": "Pitfall traps are used to catch:",
+    "options": [
+      "Flying insects",
+      "Crawling animals on the ground",
+      "Birds",
+      "Plants"
+    ],
+    "correct": 1,
+    "explanation": "Pitfall traps catch small ground-dwelling animals that crawl across the surface."
+  },
+  {
+    "question": "Which statement is NOT true?",
+    "options": [
+      "Electron microscopes are used in laboratories",
+      "Some light microscopes are used in the field",
+      "Light microscopes have greater magnification than electron microscopes",
+      "Light microscopes were invented before electron microscopes"
+    ],
+    "correct": 2,
+    "explanation": "Electron microscopes have much greater magnification and resolution than light microscopes."
+  },
+  {
+    "question": "Field work is important because biologists can study:",
+    "options": [
+      "Organisms in natural surroundings",
+      "Distribution of organisms",
+      "Changes in populations over time",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Field work helps biologists observe organisms in nature and study their distribution and population changes."
+  },
+  {
+    "question": "Which of the following is NOT a dissecting tool?",
+    "options": [
+      "Forceps",
+      "Scalpel",
+      "Thermometer",
+      "Scissors"
+    ],
+    "correct": 2,
+    "explanation": "A thermometer measures temperature, so it is not used for dissection."
+  },
+  {
+    "question": "Which profession is mainly related to biology?",
+    "options": [
+      "Astrophysicist",
+      "Medical doctor",
+      "Engineer",
+      "Pilot"
+    ],
+    "correct": 1,
+    "explanation": "Medical doctors use biological knowledge to understand the human body, diseases, and treatment."
+  },
+  {
+    "question": "Biologists help solve food shortage problems by:",
+    "options": [
+      "Reducing farming",
+      "Increasing crop productivity",
+      "Stopping irrigation",
+      "Destroying forests"
+    ],
+    "correct": 1,
+    "explanation": "Biologists improve agriculture through research on crops, pests, and farming methods, which can increase food production."
+  },
+  {
+    "question": "Which branch of biology studies plants?",
+    "options": [
+      "Zoology",
+      "Genetics",
+      "Botany",
+      "Ecology"
+    ],
+    "correct": 2,
+    "explanation": "Botany is the study of plants."
+  },
+  {
+    "question": "Which branch of biology studies animals?",
+    "options": [
+      "Botany",
+      "Zoology",
+      "Cytology",
+      "Anatomy"
+    ],
+    "correct": 1,
+    "explanation": "Zoology is the branch of biology that studies animals."
+  },
+  {
+    "question": "Cytology is the study of:",
+    "options": [
+      "Cells",
+      "Tissues",
+      "Organs",
+      "Ecosystems"
+    ],
+    "correct": 0,
+    "explanation": "Cytology deals with the study of cells, their structure, and their function."
+  },
+  {
+    "question": "Genetics is the study of:",
+    "options": [
+      "Insects",
+      "Heredity and variation",
+      "Fossils",
+      "Plants"
+    ],
+    "correct": 1,
+    "explanation": "Genetics studies how traits are passed from parents to offspring and why individuals vary."
+  },
+  {
+    "question": "Anatomy is concerned with:",
+    "options": [
+      "Internal structure of organisms",
+      "Animal behavior",
+      "Cell division",
+      "Chemical reactions"
+    ],
+    "correct": 0,
+    "explanation": "Anatomy studies the internal structure of living organisms."
+  },
+  {
+    "question": "Physiology studies:",
+    "options": [
+      "Structure of living things",
+      "Functions of body parts",
+      "Classification of organisms",
+      "Fossils"
+    ],
+    "correct": 1,
+    "explanation": "Physiology deals with how body parts and organs work."
+  },
+  {
+    "question": "Which branch studies microorganisms?",
+    "options": [
+      "Microbiology",
+      "Ecology",
+      "Botany",
+      "Embryology"
+    ],
+    "correct": 0,
+    "explanation": "Microbiology is the study of microorganisms such as bacteria, fungi, protozoa, and some algae."
+  },
+  {
+    "question": "The branch of biology dealing with fungi is:",
+    "options": [
+      "Entomology",
+      "Mycology",
+      "Virology",
+      "Zoology"
+    ],
+    "correct": 1,
+    "explanation": "Mycology is the study of fungi."
+  },
+  {
+    "question": "Which branch studies fish?",
+    "options": [
+      "Ornithology",
+      "Ichthyology",
+      "Herpetology",
+      "Mammalogy"
+    ],
+    "correct": 1,
+    "explanation": "Ichthyology is the study of fish."
+  },
+  {
+    "question": "Ornithology is the study of:",
+    "options": [
+      "Mammals",
+      "Birds",
+      "Reptiles",
+      "Fish"
+    ],
+    "correct": 1,
+    "explanation": "Ornithology is the branch of biology that studies birds."
+  },
+  {
+    "question": "Herpetology deals with:",
+    "options": [
+      "Amphibians and reptiles",
+      "Insects",
+      "Plants",
+      "Birds"
+    ],
+    "correct": 0,
+    "explanation": "Herpetology studies reptiles and amphibians."
+  },
+  {
+    "question": "Mammalogy is the study of:",
+    "options": [
+      "Mammals",
+      "Birds",
+      "Fish",
+      "Insects"
+    ],
+    "correct": 0,
+    "explanation": "Mammalogy is the branch of biology that studies mammals."
+  },
+  {
+    "question": "Which of the following is a laboratory safety rule?",
+    "options": [
+      "Taste chemicals",
+      "Smell chemicals directly",
+      "Wear protective clothing",
+      "Run inside the laboratory"
+    ],
+    "correct": 2,
+    "explanation": "Protective clothing such as lab coats, gloves, and goggles helps prevent accidents and contamination."
+  },
+  {
+    "question": "Which equipment measures temperature?",
+    "options": [
+      "Balance",
+      "Thermometer",
+      "Stopwatch",
+      "Microscope"
+    ],
+    "correct": 1,
+    "explanation": "A thermometer is used to measure temperature."
+  },
+  {
+    "question": "Which instrument is used to measure mass?",
+    "options": [
+      "Thermometer",
+      "Microscope",
+      "Balance",
+      "Ruler"
+    ],
+    "correct": 2,
+    "explanation": "A balance is used to measure the mass of objects or substances."
+  },
+  {
+    "question": "Which apparatus is used for heating substances?",
+    "options": [
+      "Beaker",
+      "Bunsen burner",
+      "Petri dish",
+      "Funnel"
+    ],
+    "correct": 1,
+    "explanation": "A Bunsen burner provides a flame for heating substances in the laboratory."
+  },
+  {
+    "question": "Which equipment is used to transfer small amounts of liquid?",
+    "options": [
+      "Pipette",
+      "Microscope",
+      "Forceps",
+      "Flask"
+    ],
+    "correct": 0,
+    "explanation": "A pipette is used to measure and transfer small volumes of liquid accurately."
+  },
+  {
+    "question": "Which apparatus is commonly used to hold chemicals during experiments?",
+    "options": [
+      "Beaker",
+      "GPS",
+      "Sweep net",
+      "Compass"
+    ],
+    "correct": 0,
+    "explanation": "A beaker is commonly used to hold, mix, or heat liquids during experiments."
+  },
+  {
+    "question": "Which equipment is used to observe very tiny organisms?",
+    "options": [
+      "Thermometer",
+      "Microscope",
+      "Stopwatch",
+      "Ruler"
+    ],
+    "correct": 1,
+    "explanation": "A microscope is used to magnify and observe very small organisms and structures."
+  },
+  {
+    "question": "The scientist who studies insects is called:",
+    "options": [
+      "Botanist",
+      "Entomologist",
+      "Ecologist",
+      "Zoologist"
+    ],
+    "correct": 1,
+    "explanation": "An entomologist is a scientist who studies insects."
+  },
+  {
+    "question": "Which branch of biology studies fossils?",
+    "options": [
+      "Paleontology",
+      "Ecology",
+      "Cytology",
+      "Genetics"
+    ],
+    "correct": 0,
+    "explanation": "Paleontology is the study of fossils and ancient life forms."
+  },
+  {
+    "question": "Which of the following is used to preserve specimens?",
+    "options": [
+      "Formalin",
+      "Water only",
+      "Oxygen",
+      "Soil"
+    ],
+    "correct": 0,
+    "explanation": "Formalin is used to preserve biological specimens and prevent decomposition."
+  },
+  {
+    "question": "Which of the following is a biological importance of microorganisms?",
+    "options": [
+      "Food spoilage only",
+      "Causing diseases only",
+      "Fermentation and decomposition",
+      "Destroying crops only"
+    ],
+    "correct": 2,
+    "explanation": "Microorganisms are useful in fermentation, decomposition, and nutrient recycling in ecosystems."
+  },
+  {
+    "question": "The process of grouping organisms based on similarities is:",
+    "options": [
+      "Digestion",
+      "Classification",
+      "Observation",
+      "Reproduction"
+    ],
+    "correct": 1,
+    "explanation": "Classification is the process of arranging organisms into groups based on shared features."
+  },
+  {
+    "question": "Which of the following is NOT a living thing?",
+    "options": [
+      "Fungus",
+      "Plant",
+      "Rock",
+      "Bacterium"
+    ],
+    "correct": 2,
+    "explanation": "A rock is non-living because it does not show life processes such as growth or reproduction."
+  },
+  {
+    "question": "Living things respond to:",
+    "options": [
+      "Stimuli",
+      "Magnification",
+      "Sterilization",
+      "Resolution"
+    ],
+    "correct": 0,
+    "explanation": "Living things respond to changes in their environment, which are called stimuli."
+  },
+  {
+    "question": "Which characteristic of living things allows them to produce offspring?",
+    "options": [
+      "Respiration",
+      "Reproduction",
+      "Excretion",
+      "Nutrition"
+    ],
+    "correct": 1,
+    "explanation": "Reproduction is the life process by which organisms produce new individuals of their own kind."
+  },
+  {
+    "question": "The removal of waste products from the body is called:",
+    "options": [
+      "Digestion",
+      "Nutrition",
+      "Excretion",
+      "Circulation"
+    ],
+    "correct": 2,
+    "explanation": "Excretion is the process of removing metabolic wastes from the body."
+  },
+  {
+    "question": "Which process releases energy from food?",
+    "options": [
+      "Respiration",
+      "Digestion",
+      "Excretion",
+      "Reproduction"
+    ],
+    "correct": 0,
+    "explanation": "Respiration breaks down food molecules to release energy needed for life processes."
+  },
+  {
+    "question": "Growth in living things means:",
+    "options": [
+      "Movement only",
+      "Increase in size and mass",
+      "Death of cells",
+      "Production of waste"
+    ],
+    "correct": 1,
+    "explanation": "Growth is an increase in size, mass, and sometimes cell number."
+  },
+  {
+    "question": "Which characteristic helps living things maintain internal balance?",
+    "options": [
+      "Homeostasis",
+      "Digestion",
+      "Classification",
+      "Reproduction"
+    ],
+    "correct": 0,
+    "explanation": "Homeostasis is the ability of an organism to keep internal conditions stable."
+  },
+  {
+    "question": "The branch of biology concerned with relationships among organisms is:",
+    "options": [
+      "Ecology",
+      "Anatomy",
+      "Cytology",
+      "Histology"
+    ],
+    "correct": 0,
+    "explanation": "Ecology studies how organisms interact with each other and with the environment."
+  },
+  {
+    "question": "Which of the following is an example of observation?",
+    "options": [
+      "Predicting rainfall",
+      "Watching plant growth carefully",
+      "Writing a conclusion",
+      "Forming a theory"
+    ],
+    "correct": 1,
+    "explanation": "Observation means carefully noticing and recording what happens using the senses or instruments."
+  },
+  {
+    "question": "Which step comes after hypothesis in the scientific method?",
+    "options": [
+      "Observation",
+      "Experimentation",
+      "Conclusion",
+      "Prediction"
+    ],
+    "correct": 1,
+    "explanation": "After forming a hypothesis, a scientist tests it by carrying out an experiment."
+  },
+  {
+    "question": "Which of the following is a benefit of studying biology?",
+    "options": [
+      "Understanding diseases",
+      "Improving agriculture",
+      "Environmental conservation",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Biology helps in medicine, agriculture, and the protection of the environment, so all of the listed benefits are correct."
+  },
+  {
+    "question": "The ability of organisms to react to changes is called:",
+    "options": [
+      "Sensitivity",
+      "Reproduction",
+      "Respiration",
+      "Excretion"
+    ],
+    "correct": 0,
+    "explanation": "Sensitivity is the ability of living organisms to detect and respond to stimuli."
+  },
+  {
+    "question": "Which tool is mainly used to dissect organisms?",
+    "options": [
+      "Scalpel",
+      "Balance",
+      "Thermometer",
+      "Funnel"
+    ],
+    "correct": 0,
+    "explanation": "A scalpel is a sharp cutting tool used in dissection."
+  },
+  {
+    "question": "Which branch of biology studies viruses?",
+    "options": [
+      "Virology",
+      "Mycology",
+      "Botany",
+      "Ecology"
+    ],
+    "correct": 0,
+    "explanation": "Virology is the branch of biology that studies viruses."
+  }
+]
