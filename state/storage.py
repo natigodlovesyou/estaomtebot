@@ -1,162 +1,110 @@
 import json
 import logging
-import tempfile
-import os
-import signal
-import atexit
-from pathlib import Path
-from typing import Dict
-
-from config import STATE_FILE
-from state.models import BotState
 import asyncio
+from typing import Dict, Optional
+
+from config import STATE_FILE  # Keep for migration, but not used
+from state.models import BotState
+from db.database import save_user_state, load_user_state, load_all_user_states, clear_user_states
 
 STATE_LOCK = asyncio.Lock()
 
 logger = logging.getLogger(__name__)
 
-STATE_PATH = Path(STATE_FILE)
+# In-memory cache for active user states (memory optimization)
+USER_STATES_CACHE: Dict[int, BotState] = {}
+CACHE_SIZE = 100  # Limit cache to prevent memory bloat
 
 # ---------------------------------------------------
-# MULTI-USER STATE STORE (IMPORTANT FIX)
+# Cache Management (Memory Optimization)
 # ---------------------------------------------------
 
-USER_STATES: Dict[int, BotState] = {}
+def _get_cache_key(user_id: int) -> int:
+    return user_id
+
+def _is_cache_full() -> bool:
+    return len(USER_STATES_CACHE) >= CACHE_SIZE
+
+def _evict_oldest():
+    """Simple LRU eviction - remove oldest accessed"""
+    if USER_STATES_CACHE:
+        oldest_user = next(iter(USER_STATES_CACHE))
+        del USER_STATES_CACHE[oldest_user]
+        logger.debug(f"Evicted user state from cache: {oldest_user}")
+
+def _load_from_cache(user_id: int) -> Optional[BotState]:
+    return USER_STATES_CACHE.get(user_id)
+
+def _save_to_cache(user_id: int, state: BotState):
+    if _is_cache_full():
+        _evict_oldest()
+    USER_STATES_CACHE[user_id] = state
+
+def _remove_from_cache(user_id: int):
+    USER_STATES_CACHE.pop(user_id, None)
 
 # ---------------------------------------------------
-# CRASH PROTECTION
+# Load/Save User States (Database-Backed)
 # ---------------------------------------------------
-SAVE_INTERVAL = 300  # Save every 5 minutes
-_save_task = None
 
-def _setup_crash_protection():
-    """Setup signal handlers and atexit for crash protection."""
-    def signal_handler(signum, frame):
-        logger.info("Received signal %s, saving state before exit", signum)
-        save_bot_state()
-        # Use sys.exit instead of os._exit for cleaner shutdown
-        import sys
-        sys.exit(0)
-
-    # Register signal handlers for common termination signals
-    signal.signal(signal.SIGTERM, signal_handler)
-    signal.signal(signal.SIGINT, signal_handler)
-
-    # Register atexit handler as backup
-    atexit.register(save_bot_state)
-
-    logger.info("Crash protection enabled")
-
-async def _periodic_save():
-    """Periodically save state to prevent data loss."""
-    while True:
-        await asyncio.sleep(SAVE_INTERVAL)
-        try:
-            async with STATE_LOCK:
-                await asyncio.to_thread(save_bot_state)
-            logger.debug("Periodic state save completed")
-        except Exception:
-            logger.exception("Periodic state save failed")
-
-def load_bot_state() -> Dict[int, BotState]:
-    global USER_STATES
-
-    if not STATE_PATH.exists():
-        logger.info("State file not found. Starting fresh.")
-        USER_STATES = {}
-        _setup_crash_protection()
-        return USER_STATES
-
+def load_bot_state():
+    """Load all user states from DB into cache (for migration/initial load)"""
     try:
-        with STATE_PATH.open("r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        USER_STATES = {
-            int(user_id): BotState.from_dict(state)
-            for user_id, state in data.items()
-        }
-
-        logger.info("Bot state loaded for %d users", len(USER_STATES))
-        _setup_crash_protection()
-
+        all_states = load_all_user_states()
+        for user_id_str, state_json in all_states.items():
+            user_id = int(user_id_str)
+            state_dict = json.loads(state_json)
+            state = BotState.from_dict(state_dict)
+            _save_to_cache(user_id, state)
+        logger.info("Loaded %d user states from database", len(all_states))
     except Exception:
-        logger.exception("Failed to load state. Resetting.")
-        USER_STATES = {}
-        _setup_crash_protection()
+        logger.exception("Failed to load states from database")
+        USER_STATES_CACHE.clear()
 
-    return USER_STATES
-def save_bot_state():
-    global USER_STATES
-
-    temp_name = None
-
-    try:
-        STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-        with tempfile.NamedTemporaryFile(
-            mode="w",
-            delete=False,
-            dir=STATE_PATH.parent,
-            encoding="utf-8"
-        ) as tmp:
-
-            json.dump(
-                {
-                    str(user_id): state.to_dict()
-                    for user_id, state in USER_STATES.items()
-                },
-                tmp,
-                indent=2,
-                ensure_ascii=False
-            )
-
-            temp_name = tmp.name
-
-        os.replace(temp_name, STATE_PATH)
-
-        logger.info("State saved (%d users)", len(USER_STATES))
-
-    except Exception:
-        logger.exception("Failed to save bot state")
-
-        if temp_name and os.path.exists(temp_name):
-            os.remove(temp_name)
 def get_user_state(user_id: int) -> BotState:
-    global USER_STATES
-
-    if user_id not in USER_STATES:
-        USER_STATES[user_id] = BotState()
-
-    return USER_STATES[user_id]
+    """Get user state, loading from DB if not in cache"""
+    state = _load_from_cache(user_id)
+    if state is None:
+        # Load from DB
+        state_json = load_user_state(user_id)
+        if state_json:
+            try:
+                state_dict = json.loads(state_json)
+                state = BotState.from_dict(state_dict)
+            except Exception:
+                logger.exception(f"Failed to deserialize state for user {user_id}")
+                state = BotState()
+        else:
+            state = BotState()
+        _save_to_cache(user_id, state)
+    return state
 
 async def update_user_state(user_id: int, state: BotState):
-    global USER_STATES
-
+    """Update user state in cache and DB"""
     async with STATE_LOCK:
-        USER_STATES[user_id] = state
-        await asyncio.to_thread(save_bot_state)
-
-    return USER_STATES[user_id]
-
-async def update_user_state(user_id: int, state: BotState):
-    global USER_STATES
-
-    async with STATE_LOCK:
-        USER_STATES[user_id] = state
-        await asyncio.to_thread(save_bot_state)
+        _save_to_cache(user_id, state)
+        state_json = json.dumps(state.to_dict(), ensure_ascii=False)
+        await asyncio.to_thread(save_user_state, user_id, state_json)
 
 def persist_all():
-    save_bot_state()
+    """Persist all cached states to DB"""
+    for user_id, state in USER_STATES_CACHE.items():
+        try:
+            state_json = json.dumps(state.to_dict(), ensure_ascii=False)
+            save_user_state(user_id, state_json)
+        except Exception:
+            logger.exception(f"Failed to persist state for user {user_id}")
+    logger.info("Persisted %d user states to database", len(USER_STATES_CACHE))
 
 async def start_periodic_save():
-    """Start the periodic save task."""
+    """Start periodic save task (now saves cache to DB)"""
     global _save_task
     if _save_task is None or _save_task.done():
         _save_task = asyncio.create_task(_periodic_save())
         logger.info("Periodic state saving started")
 
 async def stop_periodic_save():
-    """Stop the periodic save task."""
+    """Stop periodic save and persist final state"""
     global _save_task
     if _save_task and not _save_task.done():
         _save_task.cancel()
@@ -164,11 +112,23 @@ async def stop_periodic_save():
             await _save_task
         except asyncio.CancelledError:
             pass
-        logger.info("Periodic state saving stopped")
+    # Final persist
+    await asyncio.to_thread(persist_all)
+    logger.info("Periodic state saving stopped")
 
-def clear_state():
-    """Clear all user states. USE WITH CAUTION!"""
-    global USER_STATES
-    USER_STATES = {}
-    save_bot_state()
-    print("✅ State cleared successfully!")
+# ---------------------------------------------------
+# Periodic Save
+# ---------------------------------------------------
+SAVE_INTERVAL = 300  # Save every 5 minutes
+_save_task = None
+
+async def _periodic_save():
+    """Periodically save cached states to DB"""
+    while True:
+        await asyncio.sleep(SAVE_INTERVAL)
+        try:
+            async with STATE_LOCK:
+                await asyncio.to_thread(persist_all)
+            logger.debug("Periodic state save completed")
+        except Exception:
+            logger.exception("Periodic state save failed")
