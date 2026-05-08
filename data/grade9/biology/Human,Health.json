@@ -1,0 +1,1762 @@
+[
+{
+"question": "A shortage of vitamin D in the human diet is likely to result in:",
+"options": [
+"Beriberi",
+"Scurvy",
+"Rickets",
+"Night blindness"
+],
+"correct": 2,
+"explanation": "Vitamin D is needed for proper absorption of calcium and phosphorus and for healthy bone formation. A deficiency weakens bone development, especially in children, causing rickets."
+},
+{
+"question": "Which of the following foods has the highest energy content per gram of edible food material?",
+"options": [
+"Tomato",
+"Ground nut",
+"Potatoes",
+"Cereals"
+],
+"correct": 1,
+"explanation": "Ground nuts are rich in fats and oils, and fats provide more energy per gram than carbohydrates or proteins. That is why ground nut has the highest energy content here."
+},
+{
+"question": "Which of the following portions of food is usable and digestible?",
+"options": [
+"Roughage",
+"Fibers",
+"Nutrients",
+"Bulk"
+],
+"correct": 2,
+"explanation": "Nutrients are the useful parts of food that the body can digest, absorb, and use for energy, growth, and repair. Roughage and fibers are mostly indigestible."
+},
+{
+"question": "Loss of appetite and the disease called beriberi are caused by deficiency of:",
+"options": [
+"Thiamin",
+"Niacin",
+"Riboflavin",
+"Pyridoxine"
+],
+"correct": 0,
+"explanation": "Thiamin is vitamin B1. Its deficiency causes beriberi and can also lead to poor appetite, weakness, and nerve problems."
+},
+{
+"question": "Which deficiency disease is caused by lack of vitamin B3 in the body?",
+"options": [
+"Scurvy",
+"Rickets",
+"Marasmus",
+"Pellagra"
+],
+"correct": 3,
+"explanation": "Vitamin B3 is niacin. A lack of niacin causes pellagra, which is commonly associated with skin problems, diarrhea, and weakness."
+},
+{
+"question": "The sugar found in milk is called:",
+"options": [
+"Glucose",
+"Fructose",
+"Lactose",
+"Maltose"
+],
+"correct": 2,
+"explanation": "Lactose is the natural sugar present in milk and dairy products. It is sometimes called milk sugar."
+},
+{
+"question": "Which of the following nutrients provides the largest amount of energy?",
+"options": [
+"Protein",
+"Vitamins",
+"Carbohydrates",
+"Fats"
+],
+"correct": 3,
+"explanation": "Fats provide the highest energy per gram among the main nutrients. They store much more energy than carbohydrates or proteins."
+},
+{
+"question": "The condensation reaction between two glucose molecules forms:",
+"options": [
+"Maltose",
+"Sucrose",
+"Lactose",
+"Galactose"
+],
+"correct": 0,
+"explanation": "When two glucose molecules join together by a condensation reaction, they form maltose, a disaccharide sugar."
+},
+{
+"question": "Which of the following is insoluble in water?",
+"options": [
+"Carbohydrates",
+"Proteins",
+"Minerals",
+"Fats"
+],
+"correct": 3,
+"explanation": "Fats do not dissolve in water because they are non-polar substances. This is why oil and water do not mix."
+},
+{
+"question": "Which of the following nutrients absorb maximum amount of body heat around and retain it?",
+"options": [
+"Iron",
+"Lipid",
+"Protein",
+"Water"
+],
+"correct": 1,
+"explanation": "Lipids act as insulating materials in the body. They help reduce heat loss and keep body temperature stable."
+},
+{
+"question": "Which of the following minerals is essential for the formation of hemoglobin?",
+"options": [
+"Calcium",
+"Iron",
+"Iodine",
+"Sodium"
+],
+"correct": 1,
+"explanation": "Iron is a key component of hemoglobin, the red blood cell pigment that carries oxygen. Without enough iron, anemia can develop."
+},
+{
+"question": "Which deficiency disease is caused by lack of vitamin D?",
+"options": [
+"Rickets",
+"Scurvy",
+"Pellagra",
+"Beriberi"
+],
+"correct": 0,
+"explanation": "Vitamin D deficiency causes rickets because bones cannot properly absorb calcium and phosphorus for normal strengthening."
+},
+{
+"question": "Which of the following minerals are used to synthesize hemoglobin of red blood cells?",
+"options": [
+"Iodine",
+"Calcium",
+"Iron",
+"Phosphorus"
+],
+"correct": 2,
+"explanation": "Iron is required for hemoglobin synthesis in red blood cells. It enables the blood to transport oxygen efficiently."
+},
+{
+"question": "Which of the following groups of people needs higher energy food?",
+"options": [
+"Athletes",
+"Pregnant women",
+"Children",
+"All"
+],
+"correct": 3,
+"explanation": "Athletes, pregnant women, and children all need extra energy for physical activity, growth, or development. So all of them need higher-energy food."
+},
+{
+"question": "Which type of lipid forms the bilayer in cell membranes?",
+"options": [
+"Triglycerides",
+"Phospholipids",
+"Waxes",
+"Steroids"
+],
+"correct": 1,
+"explanation": "Phospholipids are the main structural lipids in cell membranes. They arrange themselves into a bilayer that forms the basic membrane structure."
+},
+{
+"question": "Which type of bond holds amino acids together?",
+"options": [
+"Glycosidic bond",
+"Hydrogen bond",
+"Peptide bond",
+"Ionic bond"
+],
+"correct": 2,
+"explanation": "Amino acids are linked together by peptide bonds to form proteins. This bond forms when the carboxyl group of one amino acid joins with the amino group of another."
+},
+{
+"question": "Name the organic substance used for insulation in mammals:",
+"options": [
+"Protein",
+"Lipid",
+"Mineral salt",
+"Vitamin"
+],
+"correct": 1,
+"explanation": "Lipids, especially fat stored under the skin, act as insulation in mammals. They reduce heat loss and help maintain body temperature."
+},
+{
+"question": "Saturated fatty acids are:",
+"options": [
+"Contain carbon-carbon double bonds",
+"Contain carbon-carbon single bonds only",
+"Liquid at room temperature",
+"Found only in plants"
+],
+"correct": 1,
+"explanation": "Saturated fatty acids have only single bonds between carbon atoms. Because of this, they usually pack tightly and are often solid at room temperature."
+},
+{
+"question": "Unsaturated fatty acids are:",
+"options": [
+"Solid at room temperature",
+"Have no double bonds",
+"Contain one or more double bonds",
+"Cannot form oils"
+],
+"correct": 2,
+"explanation": "Unsaturated fatty acids contain one or more carbon-carbon double bonds. These bonds make them less tightly packed and often liquid at room temperature."
+},
+{
+"question": "Why is water important to life?",
+"options": [
+"It is a universal solvent",
+"It regulates body temperature",
+"It helps in metabolic reactions",
+"All of the above"
+],
+"correct": 3,
+"explanation": "Water is essential because it dissolves many substances, helps regulate body temperature, and supports most chemical reactions in living organisms."
+},
+{
+"question": "List one major property of water:",
+"options": [
+"Poor solvent",
+"High specific heat capacity",
+"Cannot dissolve substances",
+"Does not evaporate"
+],
+"correct": 1,
+"explanation": "Water has a high specific heat capacity, which means it can absorb or release a lot of heat without changing temperature quickly. This helps stabilize body and environmental temperatures."
+},
+{
+"question": "Which of the following diseases is caused by deficiency of vitamin B1?",
+"options": [
+"Rickets",
+"Pellagra",
+"Beriberi",
+"Scurvy"
+],
+"correct": 2,
+"explanation": "Vitamin B1 is thiamin, and its deficiency causes beriberi. The disease may affect the nervous system, muscles, and circulation."
+},
+{
+"question": "Which disease is caused by deficiency of iodine?",
+"options": [
+"Marasmus",
+"Goiter",
+"Scurvy",
+"Rickets"
+],
+"correct": 1,
+"explanation": "Iodine is needed for the thyroid gland to make thyroid hormones. A deficiency causes goiter, which is enlargement of the thyroid gland."
+},
+{
+"question": "Which disease is caused by protein deficiency in children?",
+"options": [
+"Kwashiorkor",
+"Pellagra",
+"Beriberi",
+"Goiter"
+],
+"correct": 0,
+"explanation": "Kwashiorkor is caused mainly by protein deficiency, especially in children. It often leads to swelling, weakness, and poor growth."
+},
+{
+"question": "Which disease results from severe deficiency of protein and carbohydrates?",
+"options": [
+"Scurvy",
+"Marasmus",
+"Goiter",
+"Rickets"
+],
+"correct": 1,
+"explanation": "Marasmus is caused by severe lack of both energy and protein in the diet. It leads to extreme weight loss and wasting of body tissues."
+},
+{
+"question": "Coffee is classified as:",
+"options": [
+"Depressant",
+"Hallucinogen",
+"Narcotic",
+"Stimulant"
+],
+"correct": 3,
+"explanation": "Coffee contains caffeine, which stimulates the central nervous system. It increases alertness and reduces fatigue, so it is a stimulant."
+},
+{
+"question": "Sedative drugs:",
+"options": [
+"Increase body activity",
+"Slow down the functioning of the nervous system",
+"Improve digestion",
+"Cure infections"
+],
+"correct": 1,
+"explanation": "Sedative drugs reduce nervous system activity, which can make a person calmer or drowsy. They slow down body and brain functions."
+},
+{
+"question": "Which of the following diseases is caused by a virus?",
+"options": [
+"Tuberculosis",
+"Cholera",
+"AIDS",
+"Ringworm"
+],
+"correct": 2,
+"explanation": "AIDS is caused by the human immunodeficiency virus (HIV), which attacks the immune system."
+},
+{
+"question": "Which disease is transmitted by the bite of female Anopheles mosquito?",
+"options": [
+"Cholera",
+"Malaria",
+"Tuberculosis",
+"Typhoid"
+],
+"correct": 1,
+"explanation": "Female Anopheles mosquitoes transmit the malaria parasite from one person to another when they bite."
+},
+{
+"question": "Which of the following practices helps prevent HIV/AIDS?",
+"options": [
+"Sharing needles",
+"Unsafe sexual intercourse",
+"Using sterilized sharp materials",
+"Sharing razors"
+],
+"correct": 2,
+"explanation": "Using sterilized sharp materials reduces the risk of HIV transmission through contaminated instruments. Safe medical and personal hygiene practices help prevent infection."
+},
+{
+"question": "Which microorganism causes tuberculosis?",
+"options": [
+"Virus",
+"Fungus",
+"Bacterium",
+"Protozoan"
+],
+"correct": 2,
+"explanation": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis. It mainly affects the lungs, though other organs may also be involved."
+},
+{
+"question": "Which disease is caused by fungi?",
+"options": [
+"Ringworm",
+"Cholera",
+"Malaria",
+"AIDS"
+],
+"correct": 0,
+"explanation": "Ringworm is a fungal infection of the skin. It is caused by fungi that grow on the body surface."
+},
+{
+"question": "Cholera is mainly transmitted through:",
+"options": [
+"Air",
+"Mosquito bites",
+"Contaminated food and water",
+"Physical exercise"
+],
+"correct": 2,
+"explanation": "Cholera spreads when food or water is contaminated with the bacteria that cause the disease. Poor sanitation increases its spread."
+},
+{
+"question": "Which of the following is a communicable disease?",
+"options": [
+"Diabetes",
+"Cancer",
+"Tuberculosis",
+"Hypertension"
+],
+"correct": 2,
+"explanation": "Tuberculosis is communicable because it can spread from one person to another through infected droplets in the air."
+},
+{
+"question": "Which disease affects the immune system of the body?",
+"options": [
+"Cholera",
+"AIDS",
+"Malaria",
+"Ringworm"
+],
+"correct": 1,
+"explanation": "AIDS attacks and weakens the immune system, making the body less able to fight infections."
+},
+{
+"question": "Which practice helps prevent communicable diseases?",
+"options": [
+"Poor sanitation",
+"Vaccination",
+"Sharing needles",
+"Eating uncovered food"
+],
+"correct": 1,
+"explanation": "Vaccination helps the body build immunity against certain infectious diseases, reducing the chance of illness and spread."
+},
+{
+"question": "Which disease is caused by protozoa?",
+"options": [
+"Malaria",
+"Tuberculosis",
+"Ringworm",
+"Cholera"
+],
+"correct": 0,
+"explanation": "Malaria is caused by Plasmodium, which is a protozoan parasite. It is transmitted by female Anopheles mosquitoes."
+},
+{
+"question": "Which of the following organisms causes cholera?",
+"options": [
+"Virus",
+"Fungus",
+"Bacterium",
+"Protozoan"
+],
+"correct": 2,
+"explanation": "Cholera is caused by a bacterium called Vibrio cholerae. It spreads through contaminated food and water."
+},
+{
+"question": "Which disease mainly affects the lungs?",
+"options": [
+"Malaria",
+"Tuberculosis",
+"Cholera",
+"AIDS"
+],
+"correct": 1,
+"explanation": "Tuberculosis commonly affects the lungs, causing coughing, weakness, and difficulty breathing. It is a major respiratory disease."
+},
+{
+"question": "Which of the following is an example of a non-communicable disease?",
+"options": [
+"Cholera",
+"Tuberculosis",
+"Diabetes",
+"Malaria"
+],
+"correct": 2,
+"explanation": "Diabetes is a non-communicable disease because it does not spread from person to person. It is related to insulin production or use in the body."
+},
+{
+"question": "Which habit promotes personal hygiene?",
+"options": [
+"Bathing regularly",
+"Sharing toothbrushes",
+"Drinking dirty water",
+"Eating spoiled food"
+],
+"correct": 0,
+"explanation": "Bathing regularly helps keep the body clean and reduces the growth and spread of harmful microorganisms."
+},
+{
+"question": "Which disease causes severe dehydration due to diarrhea?",
+"options": [
+"Cholera",
+"AIDS",
+"Goiter",
+"Tuberculosis"
+],
+"correct": 0,
+"explanation": "Cholera causes severe watery diarrhea, which can lead to rapid loss of body fluids and dangerous dehydration."
+},
+{
+"question": "Which of the following helps to destroy microorganisms in water?",
+"options": [
+"Cooling",
+"Boiling",
+"Filtering with cloth only",
+"Storing in open containers"
+],
+"correct": 1,
+"explanation": "Boiling kills most harmful microorganisms in water, making it safer for drinking."
+},
+{
+"question": "Which disease can be prevented by sleeping under mosquito nets?",
+"options": [
+"Cholera",
+"Tuberculosis",
+"Malaria",
+"AIDS"
+],
+"correct": 2,
+"explanation": "Mosquito nets protect people from mosquito bites, which helps prevent malaria transmission."
+},
+{
+"question": "HIV stands for:",
+"options": [
+"Human Immune Virus",
+"Human Immunodeficiency Virus",
+"Human Infectious Virus",
+"Human Internal Virus"
+],
+"correct": 1,
+"explanation": "HIV stands for Human Immunodeficiency Virus. It attacks the immune system and can lead to AIDS if untreated."
+},
+{
+"question": "Which body system is responsible for transporting nutrients and oxygen?",
+"options": [
+"Digestive system",
+"Respiratory system",
+"Circulatory system",
+"Nervous system"
+],
+"correct": 2,
+"explanation": "The circulatory system transports oxygen, nutrients, hormones, and waste materials throughout the body using the blood."
+},
+{
+"question": "Which blood component transports oxygen?",
+"options": [
+"Plasma",
+"White blood cells",
+"Red blood cells",
+"Platelets"
+],
+"correct": 2,
+"explanation": "Red blood cells carry oxygen because they contain hemoglobin, a pigment that binds oxygen in the lungs and releases it in body tissues."
+},
+{
+"question": "Which blood cells help fight infection?",
+"options": [
+"Red blood cells",
+"White blood cells",
+"Platelets",
+"Plasma"
+],
+"correct": 1,
+"explanation": "White blood cells defend the body against disease-causing microorganisms by destroying pathogens and producing immune responses."
+},
+{
+"question": "Platelets are important for:",
+"options": [
+"Digestion",
+"Respiration",
+"Blood clotting",
+"Immunity"
+],
+"correct": 2,
+"explanation": "Platelets help the blood clot when a blood vessel is injured. This prevents excessive blood loss."
+},
+{
+"question": "Which organ pumps blood throughout the body?",
+"options": [
+"Lung",
+"Kidney",
+"Heart",
+"Liver"
+],
+"correct": 2,
+"explanation": "The heart is the muscular organ that pumps blood through the circulatory system to all parts of the body."
+},
+{
+"question": "Which organ filters waste products from the blood?",
+"options": [
+"Stomach",
+"Liver",
+"Kidney",
+"Heart"
+],
+"correct": 2,
+"explanation": "The kidneys filter waste substances and excess water from the blood to form urine."
+},
+{
+"question": "Which nutrient is mainly responsible for body building?",
+"options": [
+"Vitamins",
+"Proteins",
+"Carbohydrates",
+"Minerals"
+],
+"correct": 1,
+"explanation": "Proteins are needed for growth and repair of body tissues, so they are the main body-building nutrients."
+},
+{
+"question": "Which nutrient mainly supplies energy to the body?",
+"options": [
+"Proteins",
+"Minerals",
+"Carbohydrates",
+"Vitamins"
+],
+"correct": 2,
+"explanation": "Carbohydrates are the body's main source of quick energy. They are broken down to release energy for life processes."
+},
+{
+"question": "Which nutrient is required in small amounts for regulating body processes?",
+"options": [
+"Vitamins",
+"Lipids",
+"Carbohydrates",
+"Proteins"
+],
+"correct": 0,
+"explanation": "Vitamins are needed in small amounts to help regulate metabolism and other body functions."
+},
+{
+"question": "Which mineral is important for strong bones and teeth?",
+"options": [
+"Iron",
+"Sodium",
+"Calcium",
+"Iodine"
+],
+"correct": 2,
+"explanation": "Calcium is essential for building and maintaining strong bones and teeth."
+},
+{
+"question": "Deficiency of vitamin C causes:",
+"options": [
+"Goiter",
+"Beriberi",
+"Scurvy",
+"Rickets"
+],
+"correct": 2,
+"explanation": "Vitamin C deficiency causes scurvy, which may lead to bleeding gums, weak tissues, and poor wound healing."
+},
+{
+"question": "Night blindness is caused by deficiency of:",
+"options": [
+"Vitamin A",
+"Vitamin B",
+"Vitamin C",
+"Vitamin D"
+],
+"correct": 0,
+"explanation": "Vitamin A is necessary for proper vision, especially in dim light. Lack of it causes night blindness."
+},
+{
+"question": "Which vitamin helps in blood clotting?",
+"options": [
+"Vitamin A",
+"Vitamin K",
+"Vitamin C",
+"Vitamin D"
+],
+"correct": 1,
+"explanation": "Vitamin K is needed for the production of clotting factors that help the blood clot properly."
+},
+{
+"question": "Which nutrient helps prevent constipation?",
+"options": [
+"Fat",
+"Roughage",
+"Protein",
+"Vitamin D"
+],
+"correct": 1,
+"explanation": "Roughage adds bulk to food and helps the movement of material through the digestive system, preventing constipation."
+},
+{
+"question": "A balanced diet is:",
+"options": [
+"Food containing only carbohydrates",
+"Food containing only proteins",
+"Food containing all nutrients in correct amounts",
+"Food containing vitamins only"
+],
+"correct": 2,
+"explanation": "A balanced diet contains all essential nutrients in proper proportions for health, growth, and energy."
+},
+{
+"question": "Which food nutrient is mainly used for repairing worn-out tissues?",
+"options": [
+"Carbohydrates",
+"Proteins",
+"Vitamins",
+"Minerals"
+],
+"correct": 1,
+"explanation": "Proteins repair worn-out and damaged tissues, so they are called body-building nutrients."
+},
+{
+"question": "Which of the following foods is rich in carbohydrates?",
+"options": [
+"Meat",
+"Bread",
+"Egg",
+"Fish"
+],
+"correct": 1,
+"explanation": "Bread is rich in carbohydrates, especially starch, which provides energy for the body."
+},
+{
+"question": "Which food contains a large amount of protein?",
+"options": [
+"Rice",
+"Potato",
+"Meat",
+"Sugar"
+],
+"correct": 2,
+"explanation": "Meat is rich in proteins, which are needed for growth and repair of tissues."
+},
+{
+"question": "Which nutrient acts as stored energy in the body?",
+"options": [
+"Vitamins",
+"Lipids",
+"Minerals",
+"Water"
+],
+"correct": 1,
+"explanation": "Lipids are stored in the body as fat and serve as a long-term energy reserve."
+},
+{
+"question": "Which nutrient helps regulate body activities?",
+"options": [
+"Vitamins",
+"Carbohydrates",
+"Lipids",
+"Proteins"
+],
+"correct": 0,
+"explanation": "Vitamins help regulate many body processes, including metabolism and normal cell function."
+},
+{
+"question": "Which deficiency disease is associated with lack of iron?",
+"options": [
+"Goiter",
+"Anemia",
+"Scurvy",
+"Rickets"
+],
+"correct": 1,
+"explanation": "Iron deficiency causes anemia because the body cannot make enough hemoglobin for healthy red blood cells."
+},
+{
+"question": "Which mineral is essential for proper functioning of the thyroid gland?",
+"options": [
+"Calcium",
+"Iron",
+"Iodine",
+"Phosphorus"
+],
+"correct": 2,
+"explanation": "Iodine is needed to make thyroid hormones. Without enough iodine, the thyroid gland cannot function properly."
+},
+{
+"question": "Which disease is characterized by enlargement of the thyroid gland?",
+"options": [
+"Pellagra",
+"Goiter",
+"Beriberi",
+"Scurvy"
+],
+"correct": 1,
+"explanation": "Goiter is the swelling or enlargement of the thyroid gland, commonly caused by iodine deficiency."
+},
+{
+"question": "Which vitamin is produced in the skin in the presence of sunlight?",
+"options": [
+"Vitamin A",
+"Vitamin B",
+"Vitamin C",
+"Vitamin D"
+],
+"correct": 3,
+"explanation": "Sunlight helps the skin synthesize vitamin D. This vitamin is important for healthy bones and calcium absorption."
+},
+{
+"question": "Which vitamin deficiency causes weak bones?",
+"options": [
+"Vitamin A",
+"Vitamin B",
+"Vitamin C",
+"Vitamin D"
+],
+"correct": 3,
+"explanation": "Vitamin D deficiency leads to weak bones because the body cannot properly absorb the minerals needed for bone strength."
+},
+{
+"question": "Which nutrient forms enzymes and hormones?",
+"options": [
+"Protein",
+"Vitamins",
+"Water",
+"Minerals"
+],
+"correct": 0,
+"explanation": "Proteins are used to build many enzymes and some hormones. They are essential for body structure and regulation."
+},
+{
+"question": "Which of the following is a source of vitamin A?",
+"options": [
+"Carrot",
+"Bread",
+"Butter",
+"Rice"
+],
+"correct": 0,
+"explanation": "Carrot is rich in beta-carotene, which the body converts into vitamin A. Vitamin A supports vision and skin health."
+},
+{
+"question": "Which nutrient is needed for proper muscle contraction?",
+"options": [
+"Calcium",
+"Iron",
+"Iodine",
+"Vitamin C"
+],
+"correct": 0,
+"explanation": "Calcium is required for muscle contraction and nerve function. It helps muscles contract and relax properly."
+},
+{
+"question": "Which nutrient is the main component of muscles?",
+"options": [
+"Carbohydrates",
+"Proteins",
+"Minerals",
+"Vitamins"
+],
+"correct": 1,
+"explanation": "Muscles are made largely of proteins. Protein is needed for muscle growth, repair, and maintenance."
+},
+{
+"question": "Which process breaks down food into simpler substances?",
+"options": [
+"Respiration",
+"Digestion",
+"Circulation",
+"Excretion"
+],
+"correct": 1,
+"explanation": "Digestion is the process of breaking down food into simpler soluble substances that can be absorbed and used by the body."
+},
+{
+"question": "Which organ is mainly responsible for digestion and absorption of food?",
+"options": [
+"Heart",
+"Lung",
+"Small intestine",
+"Kidney"
+],
+"correct": 2,
+"explanation": "The small intestine completes most digestion and absorbs the digested nutrients into the bloodstream."
+},
+{
+"question": "Which digestive juice is produced by the liver?",
+"options": [
+"Saliva",
+"Bile",
+"Gastric juice",
+"Pancreatic juice"
+],
+"correct": 1,
+"explanation": "The liver produces bile, which helps in the digestion of fats by emulsifying them into smaller droplets."
+},
+{
+"question": "Which organ stores bile?",
+"options": [
+"Pancreas",
+"Gall bladder",
+"Stomach",
+"Kidney"
+],
+"correct": 1,
+"explanation": "Bile is stored in the gall bladder before being released into the small intestine when needed."
+},
+{
+"question": "Which enzyme digests proteins in the stomach?",
+"options": [
+"Amylase",
+"Pepsin",
+"Lipase",
+"Maltase"
+],
+"correct": 1,
+"explanation": "Pepsin is the main protein-digesting enzyme in the stomach. It breaks proteins into smaller peptides."
+},
+{
+"question": "Which enzyme breaks down starch into maltose?",
+"options": [
+"Pepsin",
+"Lipase",
+"Amylase",
+"Trypsin"
+],
+"correct": 2,
+"explanation": "Amylase digests starch into maltose. It begins the chemical digestion of carbohydrates."
+},
+  {
+    "question": "Which nutrient is finally broken down into amino acids?",
+    "options": [
+      "Lipids",
+      "Vitamins",
+      "Proteins",
+      "Minerals"
+    ],
+    "correct": 2,
+    "explanation": "Proteins are digested into amino acids, which are the end products used by the body for growth, repair, and making new tissues."
+  },
+  {
+    "question": "Which nutrient is finally digested into fatty acids and glycerol?",
+    "options": [
+      "Protein",
+      "Lipid",
+      "Mineral",
+      "Vitamin"
+    ],
+    "correct": 1,
+    "explanation": "Lipids are broken down during digestion into fatty acids and glycerol, which the body can absorb and use for energy and storage."
+  },
+  {
+    "question": "Which nutrient is finally broken down into glucose?",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Minerals",
+      "Vitamins"
+    ],
+    "correct": 0,
+    "explanation": "Carbohydrates are digested into simple sugars, mainly glucose, which is the body's main immediate source of energy."
+  },
+  {
+    "question": "Which part of the alimentary canal absorbs most nutrients?",
+    "options": [
+      "Mouth",
+      "Esophagus",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "correct": 2,
+    "explanation": "The small intestine absorbs most digested nutrients through its thin walls and many villi, which increase the surface area for absorption."
+  },
+  {
+    "question": "Which organ absorbs water from undigested food?",
+    "options": [
+      "Small intestine",
+      "Large intestine",
+      "Liver",
+      "Stomach"
+    ],
+    "correct": 1,
+    "explanation": "The large intestine absorbs water and some mineral salts from undigested food, helping to form feces."
+  },
+  {
+    "question": "Which disease is caused by eating contaminated food?",
+    "options": [
+      "Cholera",
+      "Food poisoning",
+      "Malaria",
+      "AIDS"
+    ],
+    "correct": 1,
+    "explanation": "Food poisoning occurs when food contains harmful microorganisms or toxins that make a person sick."
+  },
+  {
+    "question": "Which of the following is a good source of roughage?",
+    "options": [
+      "Fruits and vegetables",
+      "Meat",
+      "Eggs",
+      "Butter"
+    ],
+    "correct": 0,
+    "explanation": "Fruits and vegetables are rich in fiber or roughage, which helps digestion and prevents constipation."
+  },
+  {
+    "question": "Which nutrient is necessary for normal blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin K"
+    ],
+    "correct": 3,
+    "explanation": "Vitamin K is required for making clotting factors in the blood, so it helps the blood clot properly after injury."
+  },
+  {
+    "question": "Which disease is spread by contaminated needles?",
+    "options": [
+      "AIDS",
+      "Malaria",
+      "Cholera",
+      "Ringworm"
+    ],
+    "correct": 0,
+    "explanation": "AIDS can be transmitted through infected needles because blood from an infected person may enter another person's body."
+  },
+  {
+    "question": "Which practice helps prevent food contamination?",
+    "options": [
+      "Eating uncovered food",
+      "Washing hands before eating",
+      "Sharing cups",
+      "Drinking unsafe water"
+    ],
+    "correct": 1,
+    "explanation": "Washing hands before eating removes dirt and harmful microorganisms that could contaminate food."
+  },
+  {
+    "question": "Which disease is caused by deficiency of protein and energy?",
+    "options": [
+      "Kwashiorkor",
+      "Cholera",
+      "Tuberculosis",
+      "Goiter"
+    ],
+    "correct": 0,
+    "explanation": "Kwashiorkor is caused by severe deficiency of protein, often with inadequate food energy as well."
+  },
+  {
+    "question": "Which disease is associated with severe wasting of the body?",
+    "options": [
+      "Marasmus",
+      "Scurvy",
+      "Pellagra",
+      "Rickets"
+    ],
+    "correct": 0,
+    "explanation": "Marasmus results from severe lack of energy and nutrients, causing extreme thinness and wasting of body tissues."
+  },
+  {
+    "question": "Which disease is caused by deficiency of niacin?",
+    "options": [
+      "Pellagra",
+      "Beriberi",
+      "Goiter",
+      "Rickets"
+    ],
+    "correct": 0,
+    "explanation": "Niacin is vitamin B3, and its deficiency causes pellagra, which may affect the skin, digestive system, and nervous system."
+  },
+  {
+    "question": "Which nutrient helps maintain body temperature?",
+    "options": [
+      "Lipids",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "correct": 0,
+    "explanation": "Lipids help insulate the body and reduce heat loss, so they play a role in maintaining body temperature."
+  },
+  {
+    "question": "Which vitamin helps maintain healthy skin and eyes?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A supports normal vision and helps keep the skin and body surfaces healthy."
+  },
+  {
+    "question": "Which mineral is important for healthy teeth and bones?",
+    "options": [
+      "Sodium",
+      "Iron",
+      "Calcium",
+      "Iodine"
+    ],
+    "correct": 2,
+    "explanation": "Calcium is needed for strong bones and teeth and is also important for muscle function and blood clotting."
+  },
+  {
+    "question": "Which disease is caused by lack of vitamin C?",
+    "options": [
+      "Pellagra",
+      "Beriberi",
+      "Scurvy",
+      "Goiter"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin C deficiency causes scurvy, which can lead to bleeding gums, weakness, and poor wound healing."
+  },
+  {
+    "question": "Which nutrient provides insulation beneath the skin?",
+    "options": [
+      "Protein",
+      "Fat",
+      "Mineral",
+      "Water"
+    ],
+    "correct": 1,
+    "explanation": "Fat stored under the skin acts as insulation, helping to reduce heat loss from the body."
+  },
+  {
+    "question": "Which disease can spread through contaminated blood transfusion?",
+    "options": [
+      "Malaria",
+      "Cholera",
+      "AIDS",
+      "Ringworm"
+    ],
+    "correct": 2,
+    "explanation": "AIDS can be transmitted through infected blood if blood is not properly screened before transfusion."
+  },
+  {
+    "question": "Which disease is caused by bacteria?",
+    "options": [
+      "AIDS",
+      "Tuberculosis",
+      "Ringworm",
+      "Malaria"
+    ],
+    "correct": 1,
+    "explanation": "Tuberculosis is caused by bacteria, specifically Mycobacterium tuberculosis."
+  },
+  {
+    "question": "Which disease is commonly known as TB?",
+    "options": [
+      "Typhoid",
+      "Tuberculosis",
+      "Tetanus",
+      "Tonsillitis"
+    ],
+    "correct": 1,
+    "explanation": "TB is the short form of tuberculosis, a bacterial disease that mainly affects the lungs."
+  },
+  {
+    "question": "Which microorganism causes AIDS?",
+    "options": [
+      "Bacterium",
+      "Fungus",
+      "Virus",
+      "Protozoan"
+    ],
+    "correct": 2,
+    "explanation": "AIDS is caused by HIV, which is a virus that attacks the immune system."
+  },
+  {
+    "question": "Which disease is spread through unsafe sexual intercourse?",
+    "options": [
+      "Cholera",
+      "Malaria",
+      "AIDS",
+      "Goiter"
+    ],
+    "correct": 2,
+    "explanation": "AIDS can be transmitted through unprotected sex with an infected person."
+  },
+  {
+    "question": "Which disease is spread by contaminated food and water?",
+    "options": [
+      "Cholera",
+      "AIDS",
+      "Ringworm",
+      "Tuberculosis"
+    ],
+    "correct": 0,
+    "explanation": "Cholera spreads through food or water contaminated with the cholera bacteria."
+  },
+  {
+    "question": "Which disease is spread through air droplets?",
+    "options": [
+      "Tuberculosis",
+      "Goiter",
+      "Scurvy",
+      "Rickets"
+    ],
+    "correct": 0,
+    "explanation": "Tuberculosis spreads through tiny droplets released into the air when an infected person coughs or sneezes."
+  },
+  {
+    "question": "Which disease is caused by fungi and affects the skin?",
+    "options": [
+      "Cholera",
+      "Ringworm",
+      "Malaria",
+      "AIDS"
+    ],
+    "correct": 1,
+    "explanation": "Ringworm is a fungal infection that affects the skin, hair, or nails."
+  },
+  {
+    "question": "Which insect transmits malaria?",
+    "options": [
+      "Housefly",
+      "Tsetse fly",
+      "Female Anopheles mosquito",
+      "Bee"
+    ],
+    "correct": 2,
+    "explanation": "Malaria is transmitted by the bite of an infected female Anopheles mosquito."
+  },
+  {
+    "question": "Which practice prevents malaria transmission?",
+    "options": [
+      "Sleeping under mosquito nets",
+      "Sharing towels",
+      "Drinking cold water",
+      "Eating sugary foods"
+    ],
+    "correct": 0,
+    "explanation": "Sleeping under mosquito nets protects people from mosquito bites and helps prevent malaria."
+  },
+  {
+    "question": "Which of the following helps maintain community health?",
+    "options": [
+      "Open defecation",
+      "Proper waste disposal",
+      "Drinking dirty water",
+      "Sharing sharp objects"
+    ],
+    "correct": 1,
+    "explanation": "Proper waste disposal reduces the spread of disease-causing microorganisms and keeps the environment clean."
+  },
+  {
+    "question": "Which disease prevention method involves stimulating the body's immune system?",
+    "options": [
+      "Digestion",
+      "Vaccination",
+      "Respiration",
+      "Excretion"
+    ],
+    "correct": 1,
+    "explanation": "Vaccination stimulates the immune system to produce protection against specific diseases."
+  },
+  {
+    "question": "Which of the following is important for good personal hygiene?",
+    "options": [
+      "Wearing dirty clothes",
+      "Washing hands regularly",
+      "Sharing toothbrushes",
+      "Avoiding bathing"
+    ],
+    "correct": 1,
+    "explanation": "Regular hand washing removes dirt and germs and is an important part of personal hygiene."
+  },
+  {
+    "question": "Which of the following can transmit HIV?",
+    "options": [
+      "Sharing infected needles",
+      "Handshaking",
+      "Sharing food",
+      "Hugging"
+    ],
+    "correct": 0,
+    "explanation": "HIV can be transmitted by sharing infected needles because blood from an infected person may enter another person's body."
+  },
+  {
+    "question": "Which disease weakens the body's defense mechanism?",
+    "options": [
+      "Cholera",
+      "AIDS",
+      "Ringworm",
+      "Malaria"
+    ],
+    "correct": 1,
+    "explanation": "AIDS weakens the immune system, making the body less able to fight infections."
+  },
+  {
+    "question": "Which nutrient deficiency causes poor vision at night?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A is necessary for vision in dim light, so its deficiency causes night blindness."
+  },
+  {
+    "question": "Which disease is associated with swollen belly in children?",
+    "options": [
+      "Scurvy",
+      "Kwashiorkor",
+      "Marasmus",
+      "Goiter"
+    ],
+    "correct": 1,
+    "explanation": "Kwashiorkor often causes swelling, including a swollen belly, because of severe protein deficiency."
+  },
+  {
+    "question": "Which disease causes abnormal enlargement of the neck?",
+    "options": [
+      "Goiter",
+      "Pellagra",
+      "Beriberi",
+      "Marasmus"
+    ],
+    "correct": 0,
+    "explanation": "Goiter is the enlargement of the thyroid gland in the neck, usually due to iodine deficiency."
+  },
+  {
+    "question": "Which food group mainly supplies vitamins and minerals?",
+    "options": [
+      "Fruits and vegetables",
+      "Meat and fish",
+      "Bread and cereals",
+      "Oils and fats"
+    ],
+    "correct": 0,
+    "explanation": "Fruits and vegetables are rich in vitamins, minerals, and fiber, which are needed for healthy body functions."
+  },
+  {
+    "question": "Which nutrient helps in the formation of antibodies?",
+    "options": [
+      "Proteins",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "correct": 0,
+    "explanation": "Proteins are needed to build antibodies, which help the body defend itself against infections."
+  },
+  {
+    "question": "Which nutrient is needed in the greatest quantity by the body?",
+    "options": [
+      "Water",
+      "Vitamins",
+      "Minerals",
+      "Fiber"
+    ],
+    "correct": 0,
+    "explanation": "Water is required in the largest amount because it is essential for transport, temperature regulation, and many chemical reactions."
+  },
+  {
+    "question": "Which condition results from insufficient intake of nutrients?",
+    "options": [
+      "Malnutrition",
+      "Digestion",
+      "Respiration",
+      "Circulation"
+    ],
+    "correct": 0,
+    "explanation": "Malnutrition occurs when the body does not get enough nutrients or gets them in the wrong amounts."
+  },
+  {
+    "question": "Which type of disease can spread from one person to another?",
+    "options": [
+      "Non-communicable disease",
+      "Communicable disease",
+      "Genetic disease",
+      "Deficiency disease"
+    ],
+    "correct": 1,
+    "explanation": "Communicable diseases are infectious diseases that can pass from one person to another."
+  },
+  {
+    "question": "Which disease is caused by deficiency of vitamin A?",
+    "options": [
+      "Night blindness",
+      "Rickets",
+      "Beriberi",
+      "Pellagra"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A deficiency causes night blindness because the vitamin is needed for normal vision, especially in low light."
+  },
+  {
+    "question": "Which disease is caused by deficiency of vitamin B1?",
+    "options": [
+      "Scurvy",
+      "Beriberi",
+      "Goiter",
+      "Marasmus"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin B1 is thiamin, and its deficiency causes beriberi."
+  },
+  {
+    "question": "Which disease is caused by deficiency of vitamin D?",
+    "options": [
+      "Pellagra",
+      "Rickets",
+      "Scurvy",
+      "Goiter"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin D deficiency causes rickets because the bones become soft and weak."
+  },
+  {
+    "question": "Which disease results from insufficient iodine in the diet?",
+    "options": [
+      "Goiter",
+      "Scurvy",
+      "Pellagra",
+      "Beriberi"
+    ],
+    "correct": 0,
+    "explanation": "Iodine deficiency causes goiter because the thyroid gland enlarges when it cannot make enough thyroid hormone."
+  },
+  {
+    "question": "Which food nutrient is important for growth in children?",
+    "options": [
+      "Protein",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "correct": 0,
+    "explanation": "Proteins are important for growth, development, and repair of body tissues, especially in children."
+  },
+  {
+    "question": "Which vitamin helps the body resist infection?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin C helps maintain healthy body tissues and supports the immune system in resisting infection."
+  },
+  {
+    "question": "Which nutrient supplies the body with quick energy?",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Minerals",
+      "Vitamins"
+    ],
+    "correct": 0,
+    "explanation": "Carbohydrates are the body's main source of quick energy because they are easily broken down into glucose."
+  },
+  {
+    "question": "Which nutrient forms protective covering around body organs?",
+    "options": [
+      "Protein",
+      "Lipid",
+      "Vitamin",
+      "Mineral"
+    ],
+    "correct": 1,
+    "explanation": "Lipids form protective fat layers around organs and help cushion them from injury."
+  },
+  {
+    "question": "Which disease can be prevented by proper sanitation?",
+    "options": [
+      "Cholera",
+      "Goiter",
+      "Rickets",
+      "Marasmus"
+    ],
+    "correct": 0,
+    "explanation": "Proper sanitation helps prevent cholera by stopping contamination of food and water with harmful bacteria."
+  },
+  {
+    "question": "Which disease is associated with persistent coughing?",
+    "options": [
+      "Tuberculosis",
+      "Goiter",
+      "Pellagra",
+      "Rickets"
+    ],
+    "correct": 0,
+    "explanation": "Tuberculosis often causes persistent coughing because it mainly affects the lungs."
+  },
+  {
+    "question": "Which disease is caused by deficiency of proteins only?",
+    "options": [
+      "Kwashiorkor",
+      "Marasmus",
+      "Scurvy",
+      "Goiter"
+    ],
+    "correct": 0,
+    "explanation": "Kwashiorkor is mainly due to protein deficiency, especially when energy intake may still be partly adequate."
+  },
+  {
+    "question": "Which disease is caused by deficiency of both proteins and carbohydrates?",
+    "options": [
+      "Pellagra",
+      "Marasmus",
+      "Beriberi",
+      "Cholera"
+    ],
+    "correct": 1,
+    "explanation": "Marasmus results from severe deficiency of both protein and energy-giving food such as carbohydrates."
+  },
+  {
+    "question": "Which of the following is a source of calcium?",
+    "options": [
+      "Milk",
+      "Rice",
+      "Sugar",
+      "Oil"
+    ],
+    "correct": 0,
+    "explanation": "Milk is a rich source of calcium, which is needed for bones, teeth, and other body functions."
+  },
+  {
+    "question": "Which disease affects people with weak immune systems?",
+    "options": [
+      "AIDS",
+      "Goiter",
+      "Scurvy",
+      "Cholera"
+    ],
+    "correct": 0,
+    "explanation": "AIDS weakens the immune system, making a person more vulnerable to many infections."
+  },
+  {
+    "question": "Which practice can reduce the spread of cholera?",
+    "options": [
+      "Drinking untreated water",
+      "Proper disposal of waste",
+      "Sharing cups",
+      "Eating uncovered food"
+    ],
+    "correct": 1,
+    "explanation": "Proper disposal of waste reduces contamination of water and food, helping to stop cholera spread."
+  },
+  {
+    "question": "Which body fluid transports nutrients and wastes?",
+    "options": [
+      "Saliva",
+      "Blood",
+      "Urine",
+      "Sweat"
+    ],
+    "correct": 1,
+    "explanation": "Blood transports nutrients, oxygen, hormones, and wastes throughout the body."
+  },
+  {
+    "question": "Which organ is responsible for removing carbon dioxide from the body?",
+    "options": [
+      "Kidney",
+      "Heart",
+      "Lungs",
+      "Liver"
+    ],
+    "correct": 2,
+    "explanation": "The lungs remove carbon dioxide from the blood during exhalation."
+  },
+  {
+    "question": "Which nutrient deficiency may cause weak teeth?",
+    "options": [
+      "Calcium",
+      "Iron",
+      "Iodine",
+      "Vitamin C"
+    ],
+    "correct": 0,
+    "explanation": "Calcium is needed for strong teeth and bones, so deficiency can lead to weak teeth."
+  },
+  {
+    "question": "Which disease spreads rapidly in areas with poor hygiene?",
+    "options": [
+      "Cholera",
+      "Goiter",
+      "Marasmus",
+      "Rickets"
+    ],
+    "correct": 0,
+    "explanation": "Cholera spreads quickly where sanitation and hygiene are poor because contaminated water and food are common."
+  },
+  {
+    "question": "Which nutrient is necessary for the formation of body tissues?",
+    "options": [
+      "Protein",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "correct": 0,
+    "explanation": "Proteins are needed to build and repair body tissues, so they are essential for body formation."
+  },
+  {
+    "question": "Which disease is linked with severe diarrhea and dehydration?",
+    "options": [
+      "Cholera",
+      "Tuberculosis",
+      "Ringworm",
+      "Goiter"
+    ],
+    "correct": 0,
+    "explanation": "Cholera causes severe watery diarrhea, which can quickly lead to dangerous dehydration."
+  },
+  {
+    "question": "Which microorganism causes ringworm?",
+    "options": [
+      "Virus",
+      "Fungus",
+      "Bacterium",
+      "Protozoan"
+    ],
+    "correct": 1,
+    "explanation": "Ringworm is caused by fungi that infect the skin and sometimes hair or nails."
+  },
+  {
+    "question": "Which disease is commonly spread through contaminated drinking water?",
+    "options": [
+      "Cholera",
+      "AIDS",
+      "Malaria",
+      "Ringworm"
+    ],
+    "correct": 0,
+    "explanation": "Cholera often spreads through contaminated drinking water containing disease-causing bacteria."
+  },
+  {
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": [
+      "Veins",
+      "Capillaries",
+      "Arteries",
+      "Venules"
+    ],
+    "correct": 2,
+    "explanation": "Arteries carry blood away from the heart to body tissues."
+  },
+  {
+    "question": "Which blood vessels carry blood back to the heart?",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Capillaries",
+      "Aorta"
+    ],
+    "correct": 1,
+    "explanation": "Veins return blood to the heart from the rest of the body."
+  },
+  {
+    "question": "Which chamber of the heart pumps blood to the whole body?",
+    "options": [
+      "Right atrium",
+      "Left atrium",
+      "Right ventricle",
+      "Left ventricle"
+    ],
+    "correct": 3,
+    "explanation": "The left ventricle pumps oxygenated blood with strong force to the entire body through the aorta."
+  },
+  {
+    "question": "Which disease is prevented through immunization programs?",
+    "options": [
+      "Polio",
+      "Goiter",
+      "Scurvy",
+      "Pellagra"
+    ],
+    "correct": 0,
+    "explanation": "Polio can be prevented by vaccination, which protects children from the poliovirus."
+  },
+  {
+    "question": "Which vitamin is important for healthy gums?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin C helps keep gums healthy and strong, and deficiency can cause bleeding gums."
+  },
+  {
+    "question": "Which habit contributes to good health?",
+    "options": [
+      "Eating balanced diet",
+      "Drinking contaminated water",
+      "Poor sanitation",
+      "Avoiding exercise"
+    ],
+    "correct": 0,
+    "explanation": "Eating a balanced diet provides the body with the right nutrients in the right amounts for healthy growth and body function."
+  },
+  {
+    "question": "Which disease is caused by lack of balanced diet?",
+    "options": [
+      "Malnutrition",
+      "Cholera",
+      "Malaria",
+      "AIDS"
+    ],
+    "correct": 0,
+    "explanation": "A lack of balanced diet leads to malnutrition, where the body does not receive enough of one or more essential nutrients."
+  },
+  {
+    "question": "Which nutrient helps transport substances inside the body?",
+    "options": [
+      "Water",
+      "Minerals",
+      "Vitamins",
+      "Lipids"
+    ],
+    "correct": 0,
+    "explanation": "Water is the main transport medium in the body and helps carry dissolved substances in blood and other fluids."
+  },
+  {
+    "question": "Which organ produces insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Stomach"
+    ],
+    "correct": 1,
+    "explanation": "The pancreas produces insulin, a hormone that helps control the level of glucose in the blood."
+  },
+  {
+    "question": "Which disease occurs due to inability to regulate blood sugar?",
+    "options": [
+      "Diabetes",
+      "Cholera",
+      "Tuberculosis",
+      "Ringworm"
+    ],
+    "correct": 0,
+    "explanation": "Diabetes happens when the body cannot properly regulate blood sugar because of problems with insulin production or action."
+  },
+  {
+    "question": "Which disease is transmitted through infected blood?",
+    "options": [
+      "AIDS",
+      "Goiter",
+      "Rickets",
+      "Scurvy"
+    ],
+    "correct": 0,
+    "explanation": "AIDS can spread through infected blood if proper screening and safety measures are not followed."
+  },
+  {
+    "question": "Which of the following is a healthy feeding habit?",
+    "options": [
+      "Eating spoiled food",
+      "Eating balanced meals regularly",
+      "Skipping meals always",
+      "Eating uncovered food"
+    ],
+    "correct": 1,
+    "explanation": "Eating balanced meals regularly gives the body a steady supply of nutrients and supports good health."
+  },
+  {
+    "question": "Which nutrient is important for maintaining fluid balance in the body?",
+    "options": [
+      "Water",
+      "Vitamins",
+      "Lipids",
+      "Proteins"
+    ],
+    "correct": 0,
+    "explanation": "Water helps maintain fluid balance by supporting circulation, digestion, and body temperature control."
+  },
+  {
+    "question": "Which practice is important for environmental sanitation?",
+    "options": [
+      "Proper waste disposal",
+      "Open dumping everywhere",
+      "Drinking unsafe water",
+      "Keeping stagnant water"
+    ],
+    "correct": 0,
+    "explanation": "Proper waste disposal keeps surroundings clean and helps prevent the spread of disease."
+  },
+  {
+    "question": "Which disease may be caused by contaminated food?",
+    "options": [
+      "Food poisoning",
+      "Goiter",
+      "Rickets",
+      "Marasmus"
+    ],
+    "correct": 0,
+    "explanation": "Contaminated food may contain harmful microorganisms or toxins that cause food poisoning."
+  },
+  {
+    "question": "Which practice helps prevent the spread of infectious diseases?",
+    "options": [
+      "Washing hands regularly",
+      "Sharing sharp materials",
+      "Drinking unsafe water",
+      "Poor hygiene"
+    ],
+    "correct": 0,
+    "explanation": "Washing hands regularly reduces the transfer of germs from one person or surface to another."
+  }
+]
