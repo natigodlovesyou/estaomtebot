@@ -44,10 +44,9 @@ def init_db():
     """)
 
     cur.execute("""
-        CREATE TABLE IF NOT EXISTS referrals (
-            inviter_id INTEGER,
-            invited_id INTEGER,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        CREATE TABLE IF NOT EXISTS user_states (
+            user_id INTEGER PRIMARY KEY,
+            state_data TEXT NOT NULL
         )
     """)
 
@@ -187,20 +186,50 @@ def get_invite_count(user_id):
 # Clear Database (for testing/reset)
 # ---------------------------------------------------
 
-def clear_database():
-    """Clear all data from database tables. USE WITH CAUTION!"""
+def save_user_state(user_id, state_data):
     conn = get_connection()
     cur = conn.cursor()
 
-    # Clear all tables
-    cur.execute("DELETE FROM referrals")
-    cur.execute("DELETE FROM scores")
-    cur.execute("DELETE FROM users")
-
-    # Reset auto-increment counters
-    cur.execute("DELETE FROM sqlite_sequence WHERE name='scores'")
+    cur.execute("""
+        INSERT OR REPLACE INTO user_states (user_id, state_data)
+        VALUES (?, ?)
+    """, (user_id, state_data))
 
     conn.commit()
     conn.close()
 
-    print("✅ Database cleared successfully!")
+
+def load_user_state(user_id):
+    conn = get_connection()
+    cur = conn.cursor()
+
+    cur.execute("""
+        SELECT state_data FROM user_states WHERE user_id = ?
+    """, (user_id,))
+
+    row = cur.fetchone()
+    conn.close()
+
+    return row["state_data"] if row else None
+
+
+def load_all_user_states():
+    conn = get_connection()
+    cur = conn.cursor()
+
+    cur.execute("SELECT user_id, state_data FROM user_states")
+
+    rows = cur.fetchall()
+    conn.close()
+
+    return {row["user_id"]: row["state_data"] for row in rows}
+
+
+def clear_user_states():
+    conn = get_connection()
+    cur = conn.cursor()
+
+    cur.execute("DELETE FROM user_states")
+
+    conn.commit()
+    conn.close()
