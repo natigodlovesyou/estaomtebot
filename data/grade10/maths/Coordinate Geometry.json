@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Find the distance between A(0, 0) and B(3, 4).",
+    "options": [
+      "4 units",
+      "5 units",
+      "6 units",
+      "7 units"
+    ],
+    "correct": 1,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(3−0)² + (4−0)²] = √[9 + 16] = √25 = 5 units."
+  },
+  {
+    "question": "Find the distance between A(-2, 1) and B(4, 1).",
+    "options": [
+      "5 units",
+      "7 units",
+      "8 units",
+      "6 units"
+    ],
+    "correct": 3,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(4−(−2))² + (1−1)²] = √[36 + 0] = √36 = 6 units."
+  },
+  {
+    "question": "Find the distance between A(5, -3) and B(2, 1).",
+    "options": [
+      "5 units",
+      "6 units",
+      "7 units",
+      "4 units"
+    ],
+    "correct": 0,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(2−5)² + (1−(−3))²] = √[9 + 16] = √25 = 5 units."
+  },
+  {
+    "question": "Find the distance between A(1, 2) and B(7, 10).",
+    "options": [
+      "11 units",
+      "12 units",
+      "10 units",
+      "9 units"
+    ],
+    "correct": 2,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(7−1)² + (10−2)²] = √[36 + 64] = √100 = 10 units."
+  },
+  {
+    "question": "Find the distance between A(-1, -1) and B(2, 3).",
+    "options": [
+      "5 units",
+      "6 units",
+      "7 units",
+      "4 units"
+    ],
+    "correct": 0,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(2−(−1))² + (3−(−1))²] = √[9 + 16] = √25 = 5 units."
+  },
+  {
+    "question": "Find the distance between A(6, 0) and B(6, 7).",
+    "options": [
+      "7 units",
+      "8 units",
+      "6 units",
+      "9 units"
+    ],
+    "correct": 0,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(6−6)² + (7−0)²] = √[0 + 49] = √49 = 7 units."
+  },
+  {
+    "question": "Find the distance between A(-4, -5) and B(2, -5).",
+    "options": [
+      "5 units",
+      "7 units",
+      "6 units",
+      "8 units"
+    ],
+    "correct": 2,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(2−(−4))² + (-5−(−5))²] = √[36 + 0] = √36 = 6 units."
+  },
+  {
+    "question": "Find the distance between A(3, 2) and B(-3, -2).",
+    "options": [
+      "2√5 units",
+      "6 units",
+      "2√13 units",
+      "10 units"
+    ],
+    "correct": 2,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(-3−3)² + (-2−2)²] = √[36 + 16] = √52 = 2√13 units."
+  },
+  {
+    "question": "Find the distance between A(1, -4) and B(5, 8).",
+    "options": [
+      "4√10 units",
+      "8√2 units",
+      "12 units",
+      "16 units"
+    ],
+    "correct": 0,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(5−1)² + (8−(−4))²] = √[16 + 144] = √160 = 4√10 units."
+  },
+  {
+    "question": "Find the distance between A(2, 5) and B(-1, -7).",
+    "options": [
+      "15 units",
+      "3√17 units",
+      "12 units",
+      "3√15 units"
+    ],
+    "correct": 1,
+    "explanation": "Use d = √[(x₂−x₁)² + (y₂−y₁)²]. Here, d = √[(-1−2)² + (-7−5)²] = √[9 + 144] = √153 = 3√17 units."
+  },
+  {
+    "question": "Find the midpoint of the segment joining A(2, 4) and B(8, 10).",
+    "options": [
+      "(6, 7)",
+      "(4, 7)",
+      "(5, 8)",
+      "(5, 7)"
+    ],
+    "correct": 3,
+    "explanation": "Use the midpoint formula M = ((x₁+x₂)/2, (y₁+y₂)/2). So M = ((2+8)/2, (4+10)/2) = (5, 7)."
+  },
+  {
+    "question": "Find the midpoint of the segment joining A(-6, 3) and B(4, -1).",
+    "options": [
+      "(0, 1)",
+      "(-2, 1)",
+      "(-1, 1)",
+      "(-1, 2)"
+    ],
+    "correct": 2,
+    "explanation": "Use the midpoint formula M = ((x₁+x₂)/2, (y₁+y₂)/2). So M = ((-6+4)/2, (3+(−1))/2) = (-1, 1)."
+  },
+  {
+    "question": "Point P divides the segment joining A(1, 1) and B(11, 6) internally in the ratio 2:3. Find P.",
+    "options": [
+      "(5, 4)",
+      "(4, 3)",
+      "(6, 3)",
+      "(5, 3)"
+    ],
+    "correct": 3,
+    "explanation": "Use the section formula P = ((n x₁ + m x₂)/(m+n), (n y₁ + m y₂)/(m+n)). For A(1, 1), B(11, 6), and ratio 2:3, P = (5, 3)."
+  },
+  {
+    "question": "Point P divides the segment joining A(-2, 4) and B(7, 1) internally in the ratio 1:2. Find P.",
+    "options": [
+      "(0, 3)",
+      "(1, 4)",
+      "(2, 3)",
+      "(1, 3)"
+    ],
+    "correct": 3,
+    "explanation": "Use the section formula P = ((n x₁ + m x₂)/(m+n), (n y₁ + m y₂)/(m+n)). For A(-2, 4), B(7, 1), and ratio 1:2, P = (1, 3)."
+  },
+  {
+    "question": "Point P divides the segment joining A(0, -4) and B(8, 4) internally in the ratio 3:1. Find P.",
+    "options": [
+      "(5, 2)",
+      "(6, 2)",
+      "(7, 2)",
+      "(6, 3)"
+    ],
+    "correct": 1,
+    "explanation": "Use the section formula P = ((n x₁ + m x₂)/(m+n), (n y₁ + m y₂)/(m+n)). For A(0, -4), B(8, 4), and ratio 3:1, P = (6, 2)."
+  },
+  {
+    "question": "Find the midpoint of the segment joining A(-8, 6) and B(2, -2).",
+    "options": [
+      "(-4, 2)",
+      "(-3, 3)",
+      "(-3, 2)",
+      "(-2, 2)"
+    ],
+    "correct": 2,
+    "explanation": "Use the midpoint formula M = ((x₁+x₂)/2, (y₁+y₂)/2). So M = ((-8+2)/2, (6+(−2))/2) = (-3, 2)."
+  },
+  {
+    "question": "Point P divides the segment joining A(5, 0) and B(0, 10) internally in the ratio 3:2. Find P.",
+    "options": [
+      "(3, 6)",
+      "(2, 7)",
+      "(2, 6)",
+      "(1, 6)"
+    ],
+    "correct": 2,
+    "explanation": "Use the section formula P = ((n x₁ + m x₂)/(m+n), (n y₁ + m y₂)/(m+n)). For A(5, 0), B(0, 10), and ratio 3:2, P = (2, 6)."
+  },
+  {
+    "question": "Point P divides the segment joining A(-5, 5) and B(5, -5) internally in the ratio 4:1. Find P.",
+    "options": [
+      "(4, -3)",
+      "(3, -2)",
+      "(3, -3)",
+      "(2, -3)"
+    ],
+    "correct": 2,
+    "explanation": "Use the section formula P = ((n x₁ + m x₂)/(m+n), (n y₁ + m y₂)/(m+n)). For A(-5, 5), B(5, -5), and ratio 4:1, P = (3, -3)."
+  },
+  {
+    "question": "Find the midpoint of the segment joining A(12, -4) and B(4, 8).",
+    "options": [
+      "(9, 2)",
+      "(8, 3)",
+      "(8, 2)",
+      "(7, 2)"
+    ],
+    "correct": 2,
+    "explanation": "Use the midpoint formula M = ((x₁+x₂)/2, (y₁+y₂)/2). So M = ((12+4)/2, (-4+8)/2) = (8, 2)."
+  },
+  {
+    "question": "Find x if the midpoint of (x, 2) and (8, 6) is (5, 4).",
+    "options": [
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
+    ],
+    "correct": 1,
+    "explanation": "Use the midpoint x-coordinate: (x + 8)/2 = 5. So x + 8 = 10 and x = 2."
+  },
+  {
+    "question": "Find the slope of the line through (1, 2) and (5, 10).",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "correct": 3,
+    "explanation": "Use m = (y₂−y₁)/(x₂−x₁). Here, m = (10−2)/(5−1) = 2."
+  },
+  {
+    "question": "Find the slope of the line through (3, -1) and (3, 7).",
+    "options": [
+      "Undefined (vertical line)",
+      "0",
+      "Cannot tell",
+      "1"
+    ],
+    "correct": 0,
+    "explanation": "Use m = (y₂−y₁)/(x₂−x₁). Here x₂−x₁ = 3−3 = 0, so the line is vertical and the slope is undefined."
+  },
+  {
+    "question": "Find the slope of the line through (-2, 4) and (6, 4).",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "Undefined"
+    ],
+    "correct": 0,
+    "explanation": "Use m = (4−4)/(6−(−2)) = 0/8 = 0."
+  },
+  {
+    "question": "Find the slope of the line through (0, 0) and (-3, 9).",
+    "options": [
+      "-3",
+      "-2",
+      "0",
+      "-1"
+    ],
+    "correct": 0,
+    "explanation": "Use m = (y₂−y₁)/(x₂−x₁). Here, m = (9−0)/(-3−0) = -3."
+  },
+  {
+    "question": "If the slope of the line through (2, 5) and (x, 1) is -2, find x.",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = −4"
+    ],
+    "correct": 1,
+    "explanation": "Use m = (y₂−y₁)/(x₂−x₁). So (1−5)/(x−2) = −2. That gives −4/(x−2) = −2, so x−2 = 2 and x = 4."
+  },
+  {
+    "question": "Find the slope of the line whose equation is y = 3x - 7.",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "In y = 3x − 7, the slope is the coefficient of x, so the slope is 3."
+  },
+  {
+    "question": "Are the lines through A(0, 1), B(2, 5) and C(1, 0), D(3, 4) parallel? State the slope of each.",
+    "options": [
+      "No; one slope is 1",
+      "Yes; both slopes are 2",
+      "No; the slopes are different",
+      "Yes; both slopes are 1"
+    ],
+    "correct": 1,
+    "explanation": "For AB, m = (5−1)/(2−0) = 2. For CD, m = (4−0)/(3−1) = 2. Equal slopes mean the lines are parallel."
+  },
+  {
+    "question": "Find the slope of the line whose equation is y = -2x + 7.",
+    "options": [
+      "−1",
+      "−2",
+      "0",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "In y = −2x + 7, the slope is the coefficient of x, so the slope is −2."
+  },
+  {
+    "question": "Find k if the line through (1, k) and (4, 5) has slope 1.",
+    "options": [
+      "k = 3",
+      "k = −2",
+      "k = 2",
+      "k = 1"
+    ],
+    "correct": 2,
+    "explanation": "Use the slope formula: (5−k)/(4−1) = 1. So 5−k = 3, and k = 2."
+  },
+  {
+    "question": "Find the slope of the line through (-4, -2) and (2, 1).",
+    "options": [
+      "1",
+      "1/2",
+      "2",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "Use m = (1−(−2))/(2−(−4)) = 3/6 = 1/2."
+  },
+  {
+    "question": "Find the equation of the line with slope 4 passing through (0, 0).",
+    "options": [
+      "y = 4x",
+      "y = −4x",
+      "y = x",
+      "y = 4x + 1"
+    ],
+    "correct": 0,
+    "explanation": "A line through the origin with slope 4 has equation y = 4x."
+  },
+  {
+    "question": "Find the equation of the line with slope -1 passing through (2, 3).",
+    "options": [
+      "y = −x − 5",
+      "y = −x + 5",
+      "y = x",
+      "y = −x + 6"
+    ],
+    "correct": 1,
+    "explanation": "Use y = mx + b with m = −1 and point (2, 3). Then 3 = −2 + b, so b = 5."
+  },
+  {
+    "question": "Find the equation of the line through (1, 2) and (5, 6).",
+    "options": [
+      "y = x + 2",
+      "y = x + 1",
+      "y = x",
+      "y = x − 1"
+    ],
+    "correct": 1,
+    "explanation": "The slope is (6−2)/(5−1) = 1. Using (1, 2): 2 = 1 + b, so b = 1."
+  },
+  {
+    "question": "Find the equation of the horizontal line through (2, -1).",
+    "options": [
+      "y = −1",
+      "y = 1",
+      "x = −1",
+      "y = 0"
+    ],
+    "correct": 0,
+    "explanation": "A horizontal line keeps the same y-value. Through (2, −1), the equation is y = −1."
+  },
+  {
+    "question": "Find the equation of the vertical line through (3, 4).",
+    "options": [
+      "x = 4",
+      "y = 3",
+      "x = 2",
+      "x = 3"
+    ],
+    "correct": 3,
+    "explanation": "A vertical line keeps the same x-value. Through (3, 4), the equation is x = 3."
+  },
+  {
+    "question": "Find the equation of the line passing through the intercepts (4, 0) and (0, -6).",
+    "options": [
+      "3x − 2y = 12",
+      "3x + 2y = 12",
+      "2x − 3y = 12",
+      "3x − 2y = 6"
+    ],
+    "correct": 0,
+    "explanation": "The intercepts are (4, 0) and (0, −6). The slope is (−6−0)/(0−4) = 3/2. So y = 3/2x − 6, which rearranges to 3x − 2y = 12."
+  },
+  {
+    "question": "Find the equation of the line through (1, -1) with slope 2.",
+    "options": [
+      "y = x",
+      "y = 2x + 3",
+      "y = 2x − 4",
+      "y = 2x − 3"
+    ],
+    "correct": 3,
+    "explanation": "Use y = mx + b with m = 2 and point (1, −1). Then −1 = 2(1) + b, so b = −3."
+  },
+  {
+    "question": "Find the equation of the line through (-1, 4) and (2, -2).",
+    "options": [
+      "y = −2x − 2",
+      "y = −2x + 2",
+      "y = −2x + 3",
+      "y = x"
+    ],
+    "correct": 1,
+    "explanation": "The slope is (−2−4)/(2−(−1)) = −6/3 = −2. Using (2, −2): −2 = −4 + b, so b = 2."
+  },
+  {
+    "question": "Find the equation of the line parallel to y = 3x - 1 and passing through (0, 5).",
+    "options": [
+      "y = 3x + 5",
+      "y = x",
+      "y = 3x + 6",
+      "y = 3x − 5"
+    ],
+    "correct": 0,
+    "explanation": "Parallel lines have the same slope. So the slope is 3. Through (0, 5), the equation is y = 3x + 5."
+  },
+  {
+    "question": "Find the equation of the line perpendicular to y = 1/2 x + 4 and passing through (2, 1).",
+    "options": [
+      "y = x",
+      "y = −2x − 5",
+      "y = −2x + 6",
+      "y = −2x + 5"
+    ],
+    "correct": 3,
+    "explanation": "A line perpendicular to slope 1/2 has slope −2. Through (2, 1): 1 = −4 + b, so b = 5."
+  },
+  {
+    "question": "Determine whether the lines 2x - 3y = 6 and 4x - 6y = 12 are parallel, perpendicular, or the same line.",
+    "options": [
+      "Perpendicular",
+      "The same line",
+      "Parallel",
+      "Neither"
+    ],
+    "correct": 1,
+    "explanation": "4x − 6y = 12 is exactly 2 times 2x − 3y = 6, so they represent the same line."
+  },
+  {
+    "question": "Determine whether y = -1/3 x + 2 and x + 3y = 9 are parallel, perpendicular, or neither.",
+    "options": [
+      "Perpendicular",
+      "Neither",
+      "Parallel",
+      "The same line"
+    ],
+    "correct": 2,
+    "explanation": "y = −1/3x + 2 has slope −1/3. Also, x + 3y = 9 rearranges to y = −1/3x + 3. Equal slopes mean parallel lines."
+  },
+  {
+    "question": "Find the equation of the line perpendicular to 2x + y = 7 and passing through (1, 0).",
+    "options": [
+      "y = 1/2x − 1/2",
+      "y = 1/2x + 1/2",
+      "y = −x",
+      "y = x"
+    ],
+    "correct": 0,
+    "explanation": "2x + y = 7 gives y = −2x + 7, so the perpendicular slope is 1/2. Using point (1, 0): 0 = 1/2(1) + b, so b = −1/2."
+  },
+  {
+    "question": "Find the equation of the line parallel to y = 5x - 4 and passing through (-2, 3).",
+    "options": [
+      "y = 5x + 13",
+      "y = 5x − 13",
+      "y = x + 1",
+      "y = −x + 1"
+    ],
+    "correct": 0,
+    "explanation": "Parallel lines have the same slope, so m = 5. Using point (−2, 3): 3 = 5(−2) + b, so b = 13."
+  },
+  {
+    "question": "Are the lines x = 4 and y = -3 perpendicular?",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Cannot tell"
+    ],
+    "correct": 1,
+    "explanation": "x = 4 is a vertical line and y = −3 is a horizontal line. Vertical and horizontal lines are perpendicular."
+  },
+  {
+    "question": "Find the slope of a line perpendicular to a line with slope 3.",
+    "options": [
+      "2",
+      "1",
+      "-1/3",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "A line perpendicular to slope 3 has slope −1/3, because 3 × (−1/3) = −1."
+  },
+  {
+    "question": "Two lines have slopes 2 and -1/2. What is their relationship?",
+    "options": [
+      "Perpendicular",
+      "Neither",
+      "Parallel",
+      "The same line"
+    ],
+    "correct": 0,
+    "explanation": "The slopes are 2 and −1/2. Their product is −1, so the lines are perpendicular."
+  },
+  {
+    "question": "Find k if y = kx + 1 is parallel to 2x + y = 5.",
+    "options": [
+      "k = 5",
+      "k = −2",
+      "k = −1",
+      "k = 2"
+    ],
+    "correct": 1,
+    "explanation": "2x + y = 5 rearranges to y = −2x + 5. Parallel lines have equal slopes, so k = −2."
+  },
+  {
+    "question": "Find k if 3x - ky = 6 is perpendicular to 2x + y = 1.",
+    "options": [
+      "k = −6",
+      "k = 6",
+      "k = 9",
+      "k = 2"
+    ],
+    "correct": 1,
+    "explanation": "3x − ky = 6 gives y = (3/k)x − 6/k, so its slope is 3/k. For perpendicular lines, (3/k)(−2) = −1, which gives k = 6."
+  },
+  {
+    "question": "Find the equation of the line through (4, 2) and perpendicular to y = -3x + 1.",
+    "options": [
+      "x − 3y + 2 = 0",
+      "x + 3y + 2 = 0",
+      "x − 3y − 2 = 0",
+      "3x − y + 2 = 0"
+    ],
+    "correct": 0,
+    "explanation": "The line y = −3x + 1 has slope −3, so the perpendicular slope is 1/3. Through (4, 2): y − 2 = 1/3(x − 4), which simplifies to x − 3y + 2 = 0."
+  },
+  {
+    "question": "Classify the triangle with vertices A(0, 0), B(3, 4), and C(6, 0).",
+    "options": [
+      "Equilateral triangle",
+      "Scalene triangle",
+      "Right triangle",
+      "Isosceles triangle"
+    ],
+    "correct": 3,
+    "explanation": "The side lengths are 5, 5, and 6. Two equal sides mean the triangle is isosceles."
+  },
+  {
+    "question": "Classify the triangle with vertices A(0, 0), B(3, 0), and C(3, 4).",
+    "options": [
+      "Equilateral triangle",
+      "Isosceles triangle",
+      "Scalene triangle",
+      "Right triangle"
+    ],
+    "correct": 3,
+    "explanation": "The side lengths are 3, 4, and 5, and 3² + 4² = 5², so it is a right triangle."
+  },
+  {
+    "question": "Classify the triangle with vertices A(-1, -1), B(2, 3), and C(5, -1).",
+    "options": [
+      "Isosceles triangle",
+      "Equilateral triangle",
+      "Right triangle",
+      "Scalene triangle"
+    ],
+    "correct": 0,
+    "explanation": "The side lengths are 5, 5, and 6. Two equal sides mean the triangle is isosceles."
+  },
+  {
+    "question": "Find the perimeter of the triangle with vertices (0, 0), (0, 6), and (8, 0).",
+    "options": [
+      "24 units",
+      "23 units",
+      "26 units",
+      "25 units"
+    ],
+    "correct": 0,
+    "explanation": "The side lengths are 6, 8, and 10. Their sum is 24 units."
+  },
+  {
+    "question": "Find the area of the triangle with vertices (0, 0), (6, 0), and (0, 8).",
+    "options": [
+      "24 square units",
+      "20 square units",
+      "18 square units",
+      "28 square units"
+    ],
+    "correct": 0,
+    "explanation": "Use area = 1/2 × base × height = 1/2 × 6 × 8 = 24 square units."
+  },
+  {
+    "question": "Classify the triangle with vertices (1, 1), (4, 5), and (7, 1).",
+    "options": [
+      "Scalene triangle",
+      "Right triangle",
+      "Isosceles triangle",
+      "Equilateral triangle"
+    ],
+    "correct": 2,
+    "explanation": "The side lengths are 5, 5, and 6. Two equal sides mean the triangle is isosceles."
+  },
+  {
+    "question": "Classify the triangle with vertices (-2, 1), (2, 1), and (0, 5).",
+    "options": [
+      "Right triangle",
+      "Equilateral triangle",
+      "Isosceles triangle",
+      "Scalene triangle"
+    ],
+    "correct": 2,
+    "explanation": "The side lengths are 4, 4√2, and 4√2. Two sides are equal, so the triangle is isosceles."
+  },
+  {
+    "question": "Find the coordinates of C if A(-2, 0), B(2, 0), and C lies on the y-axis and AC = BC = 5.",
+    "options": [
+      "C = (0, 3)",
+      "C = (0, −3)",
+      "C = (0, √21)",
+      "C = (0, √25)"
+    ],
+    "correct": 2,
+    "explanation": "Since C lies on the y-axis, let C = (0, y). Using AC = 5: √[(0+2)² + (y−0)²] = 5, so 4 + y² = 25 and y² = 21. One valid point is (0, √21)."
+  },
+  {
+    "question": "Find the area of the triangle with vertices A(1, 2), B(7, 2), and C(4, 6).",
+    "options": [
+      "14 square units",
+      "12 square units",
+      "16 square units",
+      "20 square units"
+    ],
+    "correct": 1,
+    "explanation": "Use area = 1/2 × base × height = 1/2 × 6 × 4 = 12 square units."
+  },
+  {
+    "question": "Are the points (0, 0), (2, 2), and (4, 4) collinear?",
+    "options": [
+      "Yes, they are collinear",
+      "No",
+      "Maybe",
+      "Cannot tell"
+    ],
+    "correct": 0,
+    "explanation": "The slope from (0, 0) to (2, 2) is 1, and the slope from (2, 2) to (4, 4) is also 1. Equal slopes mean the points are collinear."
+  },
+  {
+    "question": "Find the fourth vertex D of parallelogram ABCD if A(0, 0), B(4, 0), and C(6, 3).",
+    "options": [
+      "D = (2, 3)",
+      "D = (4, 3)",
+      "D = (2, −3)",
+      "D = (1, 3)"
+    ],
+    "correct": 0,
+    "explanation": "For a parallelogram, D = A + C − B. So D = (0, 0) + (6, 3) − (4, 0) = (2, 3)."
+  },
+  {
+    "question": "Find the fourth vertex D of rectangle ABCD if A(0, 0), B(5, 0), and C(5, 2).",
+    "options": [
+      "D = (0, 2)",
+      "D = (0, −2)",
+      "D = (5, 2)",
+      "D = (2, 0)"
+    ],
+    "correct": 0,
+    "explanation": "In a rectangle, opposite sides are parallel and equal. The fourth vertex is (0, 2)."
+  },
+  {
+    "question": "Find the fourth vertex D of square ABCD if A(1, 1), B(5, 1), and C(5, 5).",
+    "options": [
+      "D = (1, 5)",
+      "D = (5, 1)",
+      "D = (1, 1)",
+      "D = (5, 5)"
+    ],
+    "correct": 0,
+    "explanation": "A square keeps all sides equal and right angles. The fourth vertex is (1, 5)."
+  },
+  {
+    "question": "Classify the quadrilateral with vertices (0, 0), (2, 2), (4, 0), and (2, -2).",
+    "options": [
+      "Rectangle",
+      "Rhombus",
+      "Square",
+      "Kite"
+    ],
+    "correct": 2,
+    "explanation": "All four sides are equal, and adjacent sides are perpendicular. So the quadrilateral is a square."
+  },
+  {
+    "question": "Find the perimeter of the rectangle with vertices (0, 0), (8, 0), (8, 3), and (0, 3).",
+    "options": [
+      "22 units",
+      "21 units",
+      "23 units",
+      "24 units"
+    ],
+    "correct": 0,
+    "explanation": "The rectangle has length 8 and width 3. Perimeter = 2(8 + 3) = 22 units."
+  },
+  {
+    "question": "Find the area of the square with vertices (0, 0), (0, 4), (4, 4), and (4, 0).",
+    "options": [
+      "16 square units",
+      "15 square units",
+      "18 square units",
+      "17 square units"
+    ],
+    "correct": 0,
+    "explanation": "The square has side length 4, so area = 4² = 16 square units."
+  },
+  {
+    "question": "Find the missing vertex D of parallelogram ABCD if A(-1, 2), B(3, 4), and C(5, 0).",
+    "options": [
+      "D = (1, −2)",
+      "D = (1, 2)",
+      "D = (−1, −2)",
+      "D = (3, −2)"
+    ],
+    "correct": 0,
+    "explanation": "For a parallelogram, D = A + C − B. So D = (−1, 2) + (5, 0) − (3, 4) = (1, −2)."
+  },
+  {
+    "question": "Determine whether the quadrilateral with A(0, 0), B(4, 0), C(5, 3), and D(1, 3) is a parallelogram.",
+    "options": [
+      "Maybe",
+      "No",
+      "Yes, it is a parallelogram",
+      "Yes"
+    ],
+    "correct": 2,
+    "explanation": "AB is parallel to CD, and BC is parallel to AD. Both pairs of opposite sides are parallel, so it is a parallelogram."
+  },
+  {
+    "question": "Find the coordinates of the center of the rectangle whose opposite vertices are (1, 1) and (7, 5).",
+    "options": [
+      "(5, 3)",
+      "(3, 3)",
+      "(4, 4)",
+      "(4, 3)"
+    ],
+    "correct": 3,
+    "explanation": "The center of a rectangle is the midpoint of opposite vertices: ((1+7)/2, (1+5)/2) = (4, 3)."
+  },
+  {
+    "question": "For the square whose opposite vertices are (0, 0) and (4, 4), find the side length.",
+    "options": [
+      "4 units",
+      "3 units",
+      "5 units",
+      "6 units"
+    ],
+    "correct": 0,
+    "explanation": "The diagonal of the square is √[(4−0)² + (4−0)²] = 4√2. Side length = 4√2 ÷ √2 = 4 units."
+  },
+  {
+    "question": "Write the equation of the circle with center (0, 0) and radius 5.",
+    "options": [
+      "x² + y² = 25",
+      "x² + y² = 16",
+      "x² + y² = 36",
+      "x² + y² = 49"
+    ],
+    "correct": 0,
+    "explanation": "For a circle centered at the origin, the equation is x² + y² = r². With r = 5, the equation is x² + y² = 25."
+  },
+  {
+    "question": "Write the equation of the circle with center (2, -3) and radius 4.",
+    "options": [
+      "(x − 2)² + (y + 3)² = 16",
+      "(x + 2)² + (y − 3)² = 16",
+      "(x − 2)² + (y + 3)² = 8",
+      "x² + y² = 16"
+    ],
+    "correct": 0,
+    "explanation": "Use (x − h)² + (y − k)² = r². With center (2, −3) and radius 4, the equation is (x − 2)² + (y + 3)² = 16."
+  },
+  {
+    "question": "Find the center and radius of x² + y² - 6x + 8y - 11 = 0.",
+    "options": [
+      "Center: (−3, 4); radius: 6",
+      "Center: (3, 4); radius: 6",
+      "Center: (3, −4); radius: 6",
+      "Center: (3, −4); radius: 36"
+    ],
+    "correct": 2,
+    "explanation": "Complete the square: x² − 6x + y² + 8y − 11 = 0 → (x − 3)² + (y + 4)² = 36. So the center is (3, −4) and the radius is 6."
+  },
+  {
+    "question": "Find the equation of the circle whose diameter endpoints are (0, 0) and (6, 8).",
+    "options": [
+      "(x − 3)² + (y − 4)² = 25",
+      "(x − 3)² + (y − 4)² = 16",
+      "(x + 3)² + (y + 4)² = 25",
+      "x² + y² = 25"
+    ],
+    "correct": 0,
+    "explanation": "The center is the midpoint of the diameter endpoints: ((0+6)/2, (0+8)/2) = (3, 4). The radius is half the diameter length, so r = 5."
+  },
+  {
+    "question": "Find the equation of the circle whose diameter endpoints are (2, -1) and (8, 5).",
+    "options": [
+      "(x − 5)² + (y − 2)² = 18",
+      "(x − 5)² + (y − 2)² = 36",
+      "(x − 2)² + (y + 5)² = 18",
+      "x² + y² = 18"
+    ],
+    "correct": 0,
+    "explanation": "The center is the midpoint of the diameter endpoints: ((2+8)/2, (−1+5)/2) = (5, 2). The diameter length is √[(8−2)² + (5−(−1))²] = √72, so r² = 18."
+  },
+  {
+    "question": "A circle has center (4, 6) and passes through (1, 2). Find its radius.",
+    "options": [
+      "5 units",
+      "4 units",
+      "6 units",
+      "7 units"
+    ],
+    "correct": 0,
+    "explanation": "Use the distance formula between the center (4, 6) and the point (1, 2): √[(1−4)² + (2−6)²] = √25 = 5 units."
+  },
+  {
+    "question": "Does the point (6, 6) lie on the circle x² + y² = 72?",
+    "options": [
+      "No",
+      "Maybe",
+      "Cannot tell",
+      "Yes"
+    ],
+    "correct": 3,
+    "explanation": "Check the point in the equation: 6² + 6² = 36 + 36 = 72. Since it matches, the point lies on the circle."
+  },
+  {
+    "question": "If the diameter of a circle is 14 units, find the radius.",
+    "options": [
+      "7 units",
+      "6 units",
+      "8 units",
+      "9 units"
+    ],
+    "correct": 0,
+    "explanation": "Radius = diameter ÷ 2 = 14 ÷ 2 = 7 units."
+  },
+  {
+    "question": "Write the equation of the circle centered at the origin passing through (3, 4).",
+    "options": [
+      "x² + y² = 25",
+      "x² + y² = 16",
+      "x² + y² = 36",
+      "x² + y² = 49"
+    ],
+    "correct": 0,
+    "explanation": "The circle is centered at the origin. Since it passes through (3, 4), r² = 3² + 4² = 25. So the equation is x² + y² = 25."
+  },
+  {
+    "question": "Find the center and radius of (x + 1)² + (y - 2)² = 9.",
+    "options": [
+      "Center: (−1, 2); radius: 3",
+      "Center: (1, −2); radius: 3",
+      "Center: (−1, 2); radius: 9",
+      "Center: (1, 2); radius: 3"
+    ],
+    "correct": 0,
+    "explanation": "Compare with (x − h)² + (y − k)² = r². Here h = −1, k = 2, and r = 3."
+  },
+  {
+    "question": "Are the points (1, 1), (3, 3), and (5, 5) collinear?",
+    "options": [
+      "No",
+      "Maybe",
+      "Cannot tell",
+      "Yes"
+    ],
+    "correct": 3,
+    "explanation": "The slopes are (3−1)/(3−1) = 1 and (5−3)/(5−3) = 1. Equal slopes mean the points are collinear."
+  },
+  {
+    "question": "Find the point of intersection of y = 2x + 1 and y = -x + 7.",
+    "options": [
+      "(1, 5)",
+      "(2, 6)",
+      "(3, 5)",
+      "(2, 5)"
+    ],
+    "correct": 3,
+    "explanation": "Set the two equations equal: 2x + 1 = −x + 7. Then 3x = 6, so x = 2. Substituting gives y = 5."
+  },
+  {
+    "question": "Find x if the points (2, 3), (x, 5), and (6, 7) are collinear.",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 6"
+    ],
+    "correct": 1,
+    "explanation": "The slope from (2, 3) to (6, 7) is (7−3)/(6−2) = 1. For collinearity, (5−3)/(x−2) = 1, so x = 4."
+  },
+  {
+    "question": "Find the equation of the line through (1, 2) and parallel to the line through (0, 0) and (2, 4).",
+    "options": [
+      "y = 2x",
+      "y = −2x",
+      "y = x",
+      "y = 2x + 1"
+    ],
+    "correct": 0,
+    "explanation": "The line through (0, 0) and (2, 4) has slope 2. A parallel line has the same slope. Through (1, 2), the equation is y = 2x."
+  },
+  {
+    "question": "Determine whether 3x - 2y = 6 and 6x - 4y = 12 represent the same line.",
+    "options": [
+      "Parallel",
+      "Yes",
+      "Yes, they represent the same line",
+      "No"
+    ],
+    "correct": 2,
+    "explanation": "6x − 4y = 12 is exactly 2 times 3x − 2y = 6. So they are the same line."
+  },
+  {
+    "question": "Find the point of intersection of x + y = 10 and x - y = 2.",
+    "options": [
+      "(7, 4)",
+      "(6, 4)",
+      "(5, 4)",
+      "(6, 5)"
+    ],
+    "correct": 1,
+    "explanation": "Add the equations: (x + y) + (x − y) = 10 + 2, so 2x = 12 and x = 6. Then y = 4."
+  },
+  {
+    "question": "Are the points (-1, 0), (1, 2), and (3, 4) collinear?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Cannot tell"
+    ],
+    "correct": 0,
+    "explanation": "The slope from (−1, 0) to (1, 2) is 1, and the slope from (1, 2) to (3, 4) is also 1, so the points are collinear."
+  },
+  {
+    "question": "Find k if the lines 4x + 2y = k and 2x + y = 5 are coincident.",
+    "options": [
+      "k = 8",
+      "k = 10",
+      "k = 12",
+      "k = 6"
+    ],
+    "correct": 1,
+    "explanation": "For coincident lines, 4x + 2y = k must be a multiple of 2x + y = 5. Multiply the second equation by 2: 4x + 2y = 10, so k = 10."
+  },
+  {
+    "question": "Find the point of intersection of x = 3 and y = -2.",
+    "options": [
+      "(3, -2)",
+      "(3, -1)",
+      "(2, -2)",
+      "(4, -2)"
+    ],
+    "correct": 0,
+    "explanation": "The intersection of x = 3 and y = −2 is the point (3, −2)."
+  },
+  {
+    "question": "Find the y-intercept of the line through (2, 5) and (6, 13).",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "The slope is (13−5)/(6−2) = 8/4 = 2. Using (2, 5): 5 = 2(2) + b, so b = 1."
+  },
+  {
+    "question": "Find the area of the triangle with vertices (0, 0), (4, 0), and (4, 3).",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "explanation": "The triangle is right with legs 4 and 3. Area = 1/2 × 4 × 3 = 6 square units."
+  },
+  {
+    "question": "Find the reflection of (3, -5) in the x-axis.",
+    "options": [
+      "(3, 6)",
+      "(4, 5)",
+      "(2, 5)",
+      "(3, 5)"
+    ],
+    "correct": 3,
+    "explanation": "Reflection in the x-axis keeps x the same and changes the sign of y: (3, −5) → (3, 5)."
+  },
+  {
+    "question": "Find the reflection of (-2, 7) in the y-axis.",
+    "options": [
+      "(2, 8)",
+      "(3, 7)",
+      "(1, 7)",
+      "(2, 7)"
+    ],
+    "correct": 3,
+    "explanation": "Reflection in the y-axis changes the sign of x and keeps y the same: (−2, 7) → (2, 7)."
+  },
+  {
+    "question": "Translate the point (1, -4) by the vector (5, 2).",
+    "options": [
+      "(6, -1)",
+      "(7, -2)",
+      "(5, -2)",
+      "(6, -2)"
+    ],
+    "correct": 3,
+    "explanation": "Add the vector to the point: (1, −4) + (5, 2) = (6, −2)."
+  },
+  {
+    "question": "Find the midpoint of (-6, 2) and (2, -2).",
+    "options": [
+      "(-1, 0)",
+      "(-2, 0)",
+      "(-3, 0)",
+      "(-2, 1)"
+    ],
+    "correct": 1,
+    "explanation": "Use the midpoint formula: ((−6+2)/2, (2+(−2))/2) = (−2, 0)."
+  },
+  {
+    "question": "Find x if the midpoint of (x, 4) and (10, 0) is (7, 2).",
+    "options": [
+      "x = 4",
+      "x = 3",
+      "x = 5",
+      "x = 2"
+    ],
+    "correct": 0,
+    "explanation": "The midpoint x-coordinate gives (x + 10)/2 = 7. So x + 10 = 14 and x = 4."
+  },
+  {
+    "question": "Find the slope of a line perpendicular to a line with slope -5/2.",
+    "options": [
+      "1",
+      "2",
+      "2/5",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "A line perpendicular to slope −5/2 has slope 2/5, because (−5/2)(2/5) = −1."
+  },
+  {
+    "question": "Find the distance from the point (2, 3) to the x-axis.",
+    "options": [
+      "3 units",
+      "2 units",
+      "4 units",
+      "5 units"
+    ],
+    "correct": 0,
+    "explanation": "The distance from a point to the x-axis is the absolute value of its y-coordinate. So the distance is |3| = 3 units."
+  },
+  {
+    "question": "Find the distance from the point (-4, 7) to the y-axis.",
+    "options": [
+      "4 units",
+      "3 units",
+      "5 units",
+      "6 units"
+    ],
+    "correct": 0,
+    "explanation": "The distance from a point to the y-axis is the absolute value of its x-coordinate. So the distance is |−4| = 4 units."
+  },
+  {
+    "question": "Write the equation of the vertical line through (-3, 8).",
+    "options": [
+      "x = −3",
+      "x = 3",
+      "y = 8",
+      "x = −8"
+    ],
+    "correct": 0,
+    "explanation": "A vertical line keeps the x-value constant. Through (−3, 8), the equation is x = −3."
+  }
+]
