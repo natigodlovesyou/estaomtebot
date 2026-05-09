@@ -1,0 +1,882 @@
+[
+  {
+    "question": "Convert the following angle: 54° 30' 45\" to degree.",
+    "options": [
+      "54.7545°",
+      "54.5125°",
+      "54.3054°",
+      "55.1254°"
+    ],
+    "correct": 1,
+    "explanation": "Convert minutes and seconds into degrees.\n30' = 30/60 = 0.5°\n45\" = 45/3600 = 0.0125°\nTotal = 54 + 0.5 + 0.0125 = 54.5125°."
+  },
+  {
+    "question": "Convert the following angle: 150° 36' 48\" to degree.",
+    "options": [
+      "151.368°",
+      "150.648°",
+      "150.613°",
+      "150.408°"
+    ],
+    "correct": 2,
+    "explanation": "Convert minutes and seconds into degrees.\n36' = 36/60 = 0.6°\n48\" = 48/3600 ≈ 0.013°\nTotal = 150 + 0.6 + 0.013 = 150.613°."
+  },
+  {
+    "question": "Convert 132.215° to degree, minute and second.",
+    "options": [
+      "132° 12' 54\"",
+      "133° 12' 45\"",
+      "132° 21' 50\"",
+      "132° 15' 12\""
+    ],
+    "correct": 0,
+    "explanation": "Separate whole number and decimal part.\n132.215° = 132° + 0.215°\nConvert decimal part to minutes:\n0.215 × 60 = 12.9'\nTake 12' and convert 0.9' to seconds:\n0.9 × 60 = 54\"\nTherefore = 132° 12' 54\"."
+  },
+  {
+    "question": "If the circle has radius r = 10 cm, what is the length of the arc subtended by an angle of 2.5 rad?",
+    "options": [
+      "20 cm",
+      "30 cm",
+      "15 cm",
+      "25 cm"
+    ],
+    "correct": 3,
+    "explanation": "Use the arc length formula:\nS = rθ\nSubstitute r = 10 and θ = 2.5.\nS = 10 × 2.5 = 25 cm."
+  },
+  {
+    "question": "Convert 60° into radians.",
+    "options": [
+      "π/6",
+      "2π/3",
+      "π/3",
+      "π"
+    ],
+    "correct": 2,
+    "explanation": "Use the conversion formula:\nRadians = Degrees × π/180\n60 × π/180 = π/3."
+  },
+  {
+    "question": "Convert −80° into radians.",
+    "options": [
+      "−4π/9",
+      "4π/9",
+      "−2π/9",
+      "−5π/9"
+    ],
+    "correct": 0,
+    "explanation": "Radians = Degrees × π/180\n−80 × π/180 = −4π/9."
+  },
+  {
+    "question": "Convert 240° into radians.",
+    "options": [
+      "3π/2",
+      "4π/3",
+      "5π/3",
+      "2π/3"
+    ],
+    "correct": 1,
+    "explanation": "Radians = Degrees × π/180\n240 × π/180 = 4π/3."
+  },
+  {
+    "question": "Convert 3π/4 radians into degrees.",
+    "options": [
+      "135°",
+      "90°",
+      "120°",
+      "150°"
+    ],
+    "correct": 0,
+    "explanation": "Degrees = Radians × 180/π\n(3π/4) × 180/π = 135°."
+  },
+  {
+    "question": "Convert −7π/12 radians into degrees.",
+    "options": [
+      "−100°",
+      "−95°",
+      "−110°",
+      "−105°"
+    ],
+    "correct": 3,
+    "explanation": "Degrees = Radians × 180/π\n(−7π/12) × 180/π = −105°."
+  },
+  {
+    "question": "If sin(90° − β) = 1/(4x), then sec β is ____.",
+    "options": [
+      "4/x",
+      "x/4",
+      "1/(4x)",
+      "4x"
+    ],
+    "correct": 3,
+    "explanation": "Use the cofunction identity:\nsin(90° − β) = cos β\nSo, cos β = 1/(4x).\nSince sec β = 1/cos β,\nsec β = 1 ÷ (1/4x) = 4x."
+  },
+  {
+    "question": "If cot α = 2x, then cot(90° − α) is ____.",
+    "options": [
+      "1/(2x)",
+      "x/2",
+      "2x",
+      "2/x"
+    ],
+    "correct": 0,
+    "explanation": "Use the cofunction identity:\ncot(90° − α) = tan α\nGiven cot α = 2x,\nthen tan α = 1/(2x).\nTherefore, cot(90° − α) = 1/(2x)."
+  },
+  {
+    "question": "Let (−5, 12) be a point on the terminal side of angle θ in standard position. Find sin θ.",
+    "options": [
+      "−12/13",
+      "12/13",
+      "−5/13",
+      "5/13"
+    ],
+    "correct": 1,
+    "explanation": "Find r using:\nr = √(x² + y²)\nr = √((-5)² + 12²)\nr = √(25 + 144) = √169 = 13\nsin θ = y/r = 12/13."
+  },
+  {
+    "question": "Let (−5, 12) be a point on the terminal side of angle θ in standard position. Find cos θ.",
+    "options": [
+      "12/13",
+      "5/13",
+      "−5/13",
+      "−12/13"
+    ],
+    "correct": 2,
+    "explanation": "Use cos θ = x/r.\nHere x = −5 and r = 13.\ncos θ = −5/13."
+  },
+  {
+    "question": "Let (3, −3) be a point on the terminal side of angle θ. Find tan θ.",
+    "options": [
+      "−√2",
+      "−1",
+      "√2",
+      "1"
+    ],
+    "correct": 1,
+    "explanation": "tan θ = y/x\n= (−3)/3\n= −1."
+  },
+  {
+    "question": "Which of the following angles is NOT co-terminal with π/3?",
+    "options": [
+      "7π/6",
+      "13π/3",
+      "−5π/3",
+      "−11π/3"
+    ],
+    "correct": 0,
+    "explanation": "Co-terminal angles differ by multiples of 2π.\nCheck each option:\n−11π/3 + 4π = π/3\n13π/3 − 4π = π/3\n−5π/3 + 2π = π/3\nBut 7π/6 is not equal to π/3 plus a multiple of 2π."
+  },
+  {
+    "question": "Find the set of all angles θ that make the statement true: cos θ = 1.",
+    "options": [
+      "θ = (2k+1)π",
+      "θ = 2πk",
+      "θ = (2k+1)π/2",
+      "θ = πk"
+    ],
+    "correct": 1,
+    "explanation": "Cosine equals 1 at angle 0 and then repeats every 2π. So the general solution is θ = 2πk, where k is any integer."
+  },
+  {
+    "question": "Find the set of all angles θ that make the statement true: cos θ = 0.",
+    "options": [
+      "θ = (2k+1)π",
+      "θ = πk",
+      "θ = (2k+1)π/2",
+      "θ = 2πk"
+    ],
+    "correct": 2,
+    "explanation": "Cosine is zero at 90° and 270°, which in radians are π/2 and 3π/2. The repeated pattern is θ = (2k+1)π/2."
+  },
+  {
+    "question": "Find the set of all angles θ that make the statement true: sin θ = 1.",
+    "options": [
+      "θ = 3π/2 + 2πk",
+      "θ = π/2 + 2πk",
+      "θ = 2πk",
+      "θ = πk"
+    ],
+    "correct": 1,
+    "explanation": "Sine equals 1 at π/2 and repeats every 2π. Therefore the general solution is θ = π/2 + 2πk."
+  },
+  {
+    "question": "Find the set of all angles θ that make the statement true: sin θ = 0.",
+    "options": [
+      "θ = π/2 + 2πk",
+      "θ = 2πk",
+      "θ = 3π/2 + 2πk",
+      "θ = πk"
+    ],
+    "correct": 3,
+    "explanation": "Sine is zero at 0, π, 2π, 3π, and so on. That pattern is written as θ = πk."
+  },
+  {
+    "question": "Find two angles, one with positive measure and the other with negative measure, that are co-terminal with 560°.",
+    "options": [
+      "240° and −120°",
+      "560° and −560°",
+      "200° and −160°",
+      "300° and −60°"
+    ],
+    "correct": 2,
+    "explanation": "Subtract 360° once: 560° − 360° = 200°.\nTo get a negative co-terminal angle, subtract 360° again: 200° − 360° = −160°."
+  },
+  {
+    "question": "Find two angles, one with positive measure and the other with negative measure, that are co-terminal with −110°.",
+    "options": [
+      "250° and −470°",
+      "340° and −20°",
+      "290° and −70°",
+      "110° and −110°"
+    ],
+    "correct": 0,
+    "explanation": "Add 360° to get a positive co-terminal angle:\n−110° + 360° = 250°.\nSubtract 360° to get another negative one:\n−110° − 360° = −470°."
+  },
+  {
+    "question": "Find two angles, one with positive measure and the other with negative measure, that are co-terminal with −5π/8.",
+    "options": [
+      "13π/8 and −11π/8",
+      "7π/8 and −9π/8",
+      "5π/8 and −13π/8",
+      "11π/8 and −21π/8"
+    ],
+    "correct": 3,
+    "explanation": "Add 2π to get a positive co-terminal angle:\n−5π/8 + 2π = −5π/8 + 16π/8 = 11π/8.\nSubtract 2π to get a negative one:\n−5π/8 − 2π = −5π/8 − 16π/8 = −21π/8."
+  },
+  {
+    "question": "Find two angles, one with positive measure and the other with negative measure, that are co-terminal with 6π/5.",
+    "options": [
+      "14π/5 and −6π/5",
+      "8π/5 and −2π/5",
+      "12π/5 and −8π/5",
+      "16π/5 and −4π/5"
+    ],
+    "correct": 3,
+    "explanation": "Add 2π to get a positive co-terminal angle:\n6π/5 + 2π = 6π/5 + 10π/5 = 16π/5.\nSubtract 2π to get a negative one:\n6π/5 − 2π = 6π/5 − 10π/5 = −4π/5."
+  },
+  {
+    "question": "Determine whether the angles π/3 and −5π/3 are co-terminal.",
+    "options": [
+      "No",
+      "Yes",
+      "Only sometimes",
+      "Not enough information"
+    ],
+    "correct": 1,
+    "explanation": "Two angles are co-terminal if their difference is a multiple of 2π.\nπ/3 − (−5π/3) = 6π/3 = 2π.\nSince the difference is 2π, the angles are co-terminal."
+  },
+  {
+    "question": "Determine whether the angles 2π/3 and −5π/6 are co-terminal.",
+    "options": [
+      "Not enough information",
+      "Only sometimes",
+      "No",
+      "Yes"
+    ],
+    "correct": 2,
+    "explanation": "Check the difference:\n2π/3 − (−5π/6) = 4π/6 + 5π/6 = 9π/6 = 3π/2.\nThis is not a multiple of 2π, so the angles are not co-terminal."
+  },
+  {
+    "question": "Determine whether the angles 3π/4 and −13π/4 are co-terminal.",
+    "options": [
+      "Yes",
+      "No",
+      "Only sometimes",
+      "Not enough information"
+    ],
+    "correct": 0,
+    "explanation": "Check the difference:\n3π/4 − (−13π/4) = 16π/4 = 4π.\nSince 4π is a multiple of 2π, the angles are co-terminal."
+  },
+  {
+    "question": "Find the reference angle of 150°.",
+    "options": [
+      "60°",
+      "30°",
+      "45°",
+      "150°"
+    ],
+    "correct": 1,
+    "explanation": "150° lies in Quadrant II. Reference angle = 180° − 150° = 30°."
+  },
+  {
+    "question": "Find the reference angle of 7π/6.",
+    "options": [
+      "π/6",
+      "5π/6",
+      "π/4",
+      "π/3"
+    ],
+    "correct": 0,
+    "explanation": "7π/6 lies in Quadrant III. Reference angle = 7π/6 − π = π/6."
+  },
+  {
+    "question": "Find the reference angle of 7π/4.",
+    "options": [
+      "π/6",
+      "π/3",
+      "3π/4",
+      "π/4"
+    ],
+    "correct": 3,
+    "explanation": "7π/4 lies in Quadrant IV. Reference angle = 2π − 7π/4 = π/4."
+  },
+  {
+    "question": "Which of the following angles is the reference angle to −860°?",
+    "options": [
+      "140°",
+      "220°",
+      "40°",
+      "−40°"
+    ],
+    "correct": 2,
+    "explanation": "Add 360° repeatedly to −860°.\n−860° + 720° = −140°\n−140° + 360° = 220°.\n220° lies in Quadrant III, so the reference angle is 220° − 180° = 40°."
+  },
+  {
+    "question": "Find the exact value of cos(5π/6).",
+    "options": [
+      "√3/2",
+      "−1/2",
+      "−√3/2",
+      "1/2"
+    ],
+    "correct": 2,
+    "explanation": "5π/6 is in Quadrant II where cosine is negative. Reference angle = π/6. Since cos(π/6) = √3/2, therefore cos(5π/6) = −√3/2."
+  },
+  {
+    "question": "Find the exact value of sin(−19π/4).",
+    "options": [
+      "√2/2",
+      "1/2",
+      "−1/2",
+      "−√2/2"
+    ],
+    "correct": 3,
+    "explanation": "Add multiples of 2π.\n−19π/4 + 16π/4 = −3π/4.\nSince sin(−3π/4) = −√2/2, the value is −√2/2."
+  },
+  {
+    "question": "Find the exact value of csc(29π/3).",
+    "options": [
+      "−2/√3",
+      "2/√3",
+      "√3/2",
+      "−√3/2"
+    ],
+    "correct": 0,
+    "explanation": "29π/3 − 24π/3 = 5π/3.\nSince sin(5π/3) = −√3/2, csc(5π/3) = 1 ÷ (−√3/2) = −2/√3."
+  },
+  {
+    "question": "Find the exact value of cos(−3π/4).",
+    "options": [
+      "1/2",
+      "−√2/2",
+      "−1/2",
+      "√2/2"
+    ],
+    "correct": 1,
+    "explanation": "Cosine is an even function, so cos(−θ) = cos θ.\nTherefore cos(−3π/4) = cos(3π/4) = −√2/2."
+  },
+  {
+    "question": "Find the exact value of tan(−11π/6).",
+    "options": [
+      "√3",
+      "−√3/3",
+      "√3/3",
+      "−√3"
+    ],
+    "correct": 2,
+    "explanation": "Add 2π to get a co-terminal angle:\n−11π/6 + 12π/6 = π/6.\nSince tan(π/6) = √3/3, the value is √3/3."
+  },
+  {
+    "question": "Which one of the following is NOT equal to cos 72°?",
+    "options": [
+      "cos(−648°)",
+      "cos 432°",
+      "sin 18°",
+      "sin 792°"
+    ],
+    "correct": 3,
+    "explanation": "cos 72° = sin 18°.\ncos 432° = cos(72°).\ncos(−648°) = cos(72°).\nBut sin 792° = sin 72°, not cos 72°. Therefore it is not equal."
+  },
+  {
+    "question": "The exact value of cos(19π/6) is:",
+    "options": [
+      "√3/2",
+      "1/2",
+      "−√3/2",
+      "−1/2"
+    ],
+    "correct": 2,
+    "explanation": "19π/6 − 12π/6 = 7π/6.\n7π/6 lies in Quadrant III where cosine is negative.\nReference angle = π/6.\nSince cos(π/6) = √3/2, therefore cos(19π/6) = −√3/2."
+  },
+  {
+    "question": "If cos 50° = 0.7660, find cos 490°.",
+    "options": [
+      "−0.7660",
+      "−0.5000",
+      "0.5000",
+      "0.7660"
+    ],
+    "correct": 0,
+    "explanation": "490° − 360° = 130°.\ncos 130° = −cos 50°.\nTherefore cos 490° = −0.7660."
+  },
+  {
+    "question": "If tan 25° = k, where k > 0, find tan(−205°).",
+    "options": [
+      "k",
+      "1/k",
+      "−k",
+      "−1/k"
+    ],
+    "correct": 2,
+    "explanation": "tan(−205°) = tan(155°).\n155° lies in Quadrant II where tangent is negative.\nReference angle = 25°.\nTherefore tan(−205°) = −tan 25° = −k."
+  },
+  {
+    "question": "Given that cos θ = -2/3, and tan θ > 0, find the exact value of sin θ.",
+    "options": [
+      "-√5/3",
+      "-2/3",
+      "2/3",
+      "√5/3"
+    ],
+    "correct": 0,
+    "explanation": "Since cos θ is negative and tan θ is positive, θ is in Quadrant III. Use sin²θ + cos²θ = 1. sin²θ = 1 - 4/9 = 5/9, so sin θ = -√5/3 because sine is negative in Quadrant III."
+  },
+  {
+    "question": "Given that cos θ = -2/3, and tan θ > 0, find the exact value of cot θ.",
+    "options": [
+      "-√5/2",
+      "2/√5",
+      "-2/√5",
+      "√5/2"
+    ],
+    "correct": 1,
+    "explanation": "From the same triangle, sin θ = -√5/3 and cos θ = -2/3. Then cot θ = cos θ / sin θ = (-2/3)/(-√5/3) = 2/√5."
+  },
+  {
+    "question": "If tan θ = -3 and sin θ < 0, what is the exact value of sin θ?",
+    "options": [
+      "-3/√10",
+      "3/√10",
+      "-1/√10",
+      "1/√10"
+    ],
+    "correct": 0,
+    "explanation": "tan θ is negative and sin θ is negative, so θ is in Quadrant IV. Take opposite = -3 and adjacent = 1. Then hypotenuse = √10. So sin θ = opposite/hypotenuse = -3/√10."
+  },
+  {
+    "question": "If tan θ = -3 and sin θ < 0, what is the exact value of csc θ?",
+    "options": [
+      "-√10/3",
+      "√10/3",
+      "-√10",
+      "√10"
+    ],
+    "correct": 0,
+    "explanation": "From the right triangle, sin θ = -3/√10. Since csc θ = 1/sin θ, csc θ = -√10/3."
+  },
+  {
+    "question": "If tan θ = -3 and sin θ < 0, what is the exact value of cos θ?",
+    "options": [
+      "1/√10",
+      "-3/√10",
+      "3/√10",
+      "-1/√10"
+    ],
+    "correct": 0,
+    "explanation": "In Quadrant IV, cosine is positive. Using opposite = -3 and adjacent = 1, hypotenuse = √10. So cos θ = 1/√10."
+  },
+  {
+    "question": "If cos θ = 4/5, and 3π/2 < θ < 2π, find csc θ.",
+    "options": [
+      "4/3",
+      "5/3",
+      "-4/3",
+      "-5/3"
+    ],
+    "correct": 3,
+    "explanation": "Since θ is in Quadrant IV, sine is negative. Use sin²θ + cos²θ = 1. sin²θ = 1 - 16/25 = 9/25, so sin θ = -3/5. Therefore csc θ = 1/sin θ = -5/3."
+  },
+  {
+    "question": "If cos θ = 4/5, and 3π/2 < θ < 2π, find cot θ.",
+    "options": [
+      "3/4",
+      "4/3",
+      "-3/4",
+      "-4/3"
+    ],
+    "correct": 3,
+    "explanation": "In Quadrant IV, sin θ = -3/5 and cos θ = 4/5. Then cot θ = cos θ / sin θ = (4/5)/(-3/5) = -4/3."
+  },
+  {
+    "question": "If sin θ = -5/13, and θ is in quadrant III, find cos θ.",
+    "options": [
+      "5/12",
+      "-5/12",
+      "-12/13",
+      "12/13"
+    ],
+    "correct": 2,
+    "explanation": "Use sin²θ + cos²θ = 1. cos²θ = 1 - 25/169 = 144/169, so cos θ = -12/13 because cosine is negative in Quadrant III."
+  },
+  {
+    "question": "Describe the increasing and decreasing behavior of y = sin x on [0, 2π].",
+    "options": [
+      "Decreasing on [0, π/2] and [3π/2, 2π]; increasing on [π/2, 3π/2]",
+      "Increasing on [0, π/2] and [3π/2, 2π]; decreasing on [π/2, 3π/2]",
+      "Increasing on [0, 2π]",
+      "Increasing on [0, π]; decreasing on [π, 2π]"
+    ],
+    "correct": 1,
+    "explanation": "The sine graph rises from 0 to 1 on [0, π/2], falls from 1 to -1 on [π/2, 3π/2], and rises again from -1 to 0 on [3π/2, 2π]."
+  },
+  {
+    "question": "Describe the increasing and decreasing behavior of y = cos x on [0, 2π].",
+    "options": [
+      "Decreasing on [0, 2π]",
+      "Increasing on [0, π/2] and [3π/2, 2π]; decreasing on [π/2, 3π/2]",
+      "Increasing on [0, π]; decreasing on [π, 2π]",
+      "Decreasing on [0, π]; increasing on [π, 2π]"
+    ],
+    "correct": 3,
+    "explanation": "The cosine graph falls from 1 to -1 on [0, π] and then rises from -1 to 1 on [π, 2π]."
+  },
+  {
+    "question": "The angle of elevation of a ladder leaning against a house is 60° and the foot of the ladder is 8m from the house. Find the length of the ladder.",
+    "options": [
+      "12m",
+      "16m",
+      "8√3 m",
+      "8m"
+    ],
+    "correct": 1,
+    "explanation": "Use cos 60° = adjacent/hypotenuse. So 1/2 = 8/L, which gives L = 16m."
+  },
+  {
+    "question": "From a point on level ground 12 meters from the base of a tower, the angle of elevation of the top of the tower is 30°. Find the height of the tower.",
+    "options": [
+      "6√3 m",
+      "4 m",
+      "12√3 m",
+      "4√3 m"
+    ],
+    "correct": 3,
+    "explanation": "Use tan 30° = opposite/adjacent. So 1/√3 = h/12. Therefore h = 12/√3 = 4√3 m."
+  },
+  {
+    "question": "When the sun is 30° above the horizon, how long is the shadow cast by a building 18 meters high?",
+    "options": [
+      "6√3 m",
+      "18√3 m",
+      "18m",
+      "9√3 m"
+    ],
+    "correct": 1,
+    "explanation": "Use tan 30° = opposite/adjacent. So 1/√3 = 18/x. Solving gives x = 18√3 m."
+  },
+  {
+    "question": "The length of the shadow of a tree is √3 times the height of the tree. Find the angle of elevation of the sun.",
+    "options": [
+      "45°",
+      "75°",
+      "30°",
+      "60°"
+    ],
+    "correct": 2,
+    "explanation": "Let the height be h and the shadow be √3h. Then tan θ = h/(√3h) = 1/√3. So θ = 30°."
+  },
+  {
+    "question": "At a point on the ground 20 meters from a tower, the angle of elevation of the top and bottom of a window are 60° and 45° respectively. Find the height of the window.",
+    "options": [
+      "40 m",
+      "20(√3 - 1) m",
+      "20(√3 + 1) m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "Height to top = 20 tan 60° = 20√3. Height to bottom = 20 tan 45° = 20. Window height = 20√3 - 20 = 20(√3 - 1) m."
+  },
+  {
+    "question": "Find the exact value of cos 390°.",
+    "options": [
+      "1/2",
+      "√3/2",
+      "-√3/2",
+      "-1/2"
+    ],
+    "correct": 1,
+    "explanation": "390° is coterminal with 30° because 390° - 360° = 30°. Therefore cos 390° = cos 30° = √3/2."
+  },
+  {
+    "question": "Find the exact value of sin 420°.",
+    "options": [
+      "√3/2",
+      "-√3/2",
+      "1/2",
+      "-1/2"
+    ],
+    "correct": 0,
+    "explanation": "420° is coterminal with 60° because 420° - 360° = 60°. Therefore sin 420° = sin 60° = √3/2."
+  },
+  {
+    "question": "Find the exact value of tan 9π/4.",
+    "options": [
+      "-1",
+      "√3",
+      "0",
+      "1"
+    ],
+    "correct": 3,
+    "explanation": "tan has period π, so tan 9π/4 = tan(9π/4 - 2π) = tan π/4 = 1."
+  },
+  {
+    "question": "Find the exact value of sec -7π/4.",
+    "options": [
+      "√2/2",
+      "-√2",
+      "√2",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "sec(-θ) = sec θ because cosine is even. So sec -7π/4 = sec 7π/4. Since cos 7π/4 = √2/2, sec 7π/4 = 1/(√2/2) = √2."
+  },
+  {
+    "question": "For θ in (0, 2π), solve sin θ < 0.",
+    "options": [
+      "(π/2, 3π/2)",
+      "(0, π)",
+      "(π, 2π)",
+      "(π/2, π) ∪ (3π/2, 2π)"
+    ],
+    "correct": 2,
+    "explanation": "Sine is negative below the x-axis, which is in Quadrants III and IV. In the interval (0, 2π), that gives (π, 2π)."
+  },
+  {
+    "question": "For θ in (0, 2π), solve cos θ < 0.",
+    "options": [
+      "(π/2, 3π/2)",
+      "(π, 2π)",
+      "(π/2, π) ∪ (3π/2, 2π)",
+      "(0, π)"
+    ],
+    "correct": 0,
+    "explanation": "Cosine is negative left of the y-axis, which is in Quadrants II and III. In the interval (0, 2π), that gives (π/2, 3π/2)."
+  },
+  {
+    "question": "For θ in (0, 2π), solve tan θ < 0.",
+    "options": [
+      "(0, π)",
+      "(0, π/2) ∪ (π, 3π/2)",
+      "(π, 2π)",
+      "(π/2, π) ∪ (3π/2, 2π)"
+    ],
+    "correct": 3,
+    "explanation": "Tangent is negative where sine and cosine have opposite signs, which happens in Quadrants II and IV. So the solution is (π/2, π) ∪ (3π/2, 2π)."
+  },
+  {
+    "question": "If sin θ > 0 and cos θ < 0, which quadrant does θ lie in?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant III"
+    ],
+    "correct": 1,
+    "explanation": "Sine positive and cosine negative means the angle lies in Quadrant II."
+  },
+  {
+    "question": "If sin θ < 0 and tan θ < 0, which quadrant does θ lie in?",
+    "options": [
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant I"
+    ],
+    "correct": 0,
+    "explanation": "Tangent is negative, so sine and cosine have opposite signs. Since sine is negative, cosine must be positive. That places θ in Quadrant IV."
+  },
+  {
+    "question": "If csc θ > 0 and cot θ < 0, which quadrant does θ lie in?",
+    "options": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant III",
+      "Quadrant II"
+    ],
+    "correct": 3,
+    "explanation": "csc θ > 0 means sin θ > 0. cot θ < 0 means cosine and sine have opposite signs, so cosine must be negative. That places θ in Quadrant II."
+  },
+  {
+    "question": "If sec θ < 0 and tan θ > 0, which quadrant does θ lie in?",
+    "options": [
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant II",
+      "Quadrant I"
+    ],
+    "correct": 1,
+    "explanation": "sec θ < 0 means cos θ < 0. tan θ > 0 means sine and cosine have the same sign. Since cosine is negative, sine must also be negative. That places θ in Quadrant III."
+  },
+  {
+    "question": "If cos θ > 0 and cot θ < 0, which quadrant does θ lie in?",
+    "options": [
+      "Quadrant IV",
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant III"
+    ],
+    "correct": 0,
+    "explanation": "cos θ > 0 means cosine is positive. cot θ < 0 means sine and cosine have opposite signs, so sine must be negative. That places θ in Quadrant IV."
+  },
+  {
+    "question": "Find the exact value of sin 225°.",
+    "options": [
+      "√2/2",
+      "-√2/2",
+      "1/2",
+      "-1/2"
+    ],
+    "correct": 1,
+    "explanation": "225° = 180° + 45°. In Quadrant III sine is negative, so sin 225° = -√2/2."
+  },
+  {
+    "question": "Find the exact value of cos 300°.",
+    "options": [
+      "1/2",
+      "-1/2",
+      "√3/2",
+      "-√3/2"
+    ],
+    "correct": 2,
+    "explanation": "300° is in Quadrant IV where cosine is positive. Reference angle is 60°, so cos 300° = √3/2."
+  },
+  {
+    "question": "Find the exact value of tan 135°.",
+    "options": [
+      "1",
+      "-√3",
+      "-1",
+      "√3"
+    ],
+    "correct": 2,
+    "explanation": "135° is in Quadrant II where tangent is negative. Reference angle is 45°, so tan 135° = -1."
+  },
+  {
+    "question": "Find the exact value of sin 330°.",
+    "options": [
+      "√3/2",
+      "1/2",
+      "-√3/2",
+      "-1/2"
+    ],
+    "correct": 3,
+    "explanation": "330° lies in Quadrant IV where sine is negative. Reference angle is 30°, so sin 330° = -1/2."
+  },
+  {
+    "question": "Find the exact value of cos 150°.",
+    "options": [
+      "√3/2",
+      "-1/2",
+      "-√3/2",
+      "1/2"
+    ],
+    "correct": 2,
+    "explanation": "150° is in Quadrant II where cosine is negative. Reference angle is 30°, so cos 150° = -√3/2."
+  },
+  {
+    "question": "Find the exact value of sin 210°.",
+    "options": [
+      "-1/2",
+      "-√2/2",
+      "√3/2",
+      "1/2"
+    ],
+    "correct": 0,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of sin 210° is -1/2."
+  },
+  {
+    "question": "Find the exact value of cos 240°.",
+    "options": [
+      "-1/2",
+      "-√3/2",
+      "√2/2",
+      "1/2"
+    ],
+    "correct": 0,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of cos 240° is -1/2."
+  },
+  {
+    "question": "Find the exact value of tan 315°.",
+    "options": [
+      "√3",
+      "-1",
+      "1",
+      "-√3"
+    ],
+    "correct": 1,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of tan 315° is -1."
+  },
+  {
+    "question": "Find the exact value of sin 120°.",
+    "options": [
+      "1/2",
+      "√3/2",
+      "-√2/2",
+      "-1/2"
+    ],
+    "correct": 1,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of sin 120° is √3/2."
+  },
+  {
+    "question": "Find the exact value of cos 135°.",
+    "options": [
+      "√2/2",
+      "-√3/2",
+      "-√2/2",
+      "1/2"
+    ],
+    "correct": 2,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of cos 135° is -√2/2."
+  },
+  {
+    "question": "Find the exact value of tan 225°.",
+    "options": [
+      "-√3",
+      "-1",
+      "1",
+      "√3"
+    ],
+    "correct": 2,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of tan 225° is 1."
+  },
+  {
+    "question": "Find the exact value of cos 330°.",
+    "options": [
+      "-√3/2",
+      "1/2",
+      "√2/2",
+      "√3/2"
+    ],
+    "correct": 3,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of cos 330° is √3/2."
+  },
+  {
+    "question": "Find the exact value of sin 150°.",
+    "options": [
+      "√3/2",
+      "-1/2",
+      "-√2/2",
+      "1/2"
+    ],
+    "correct": 3,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of sin 150° is 1/2."
+  },
+  {
+    "question": "Find the exact value of tan 300°.",
+    "options": [
+      "-1",
+      "√3",
+      "1",
+      "-√3"
+    ],
+    "correct": 3,
+    "explanation": "Use the reference angle and quadrant signs. The exact value of tan 300° is -√3."
+  }
+]
