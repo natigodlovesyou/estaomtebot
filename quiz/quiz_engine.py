@@ -34,7 +34,9 @@ async def safe_send(user, text, reply_markup=None):
 
 def get_time_limit(subject: str) -> int:
     """Return time limit in seconds based on subject."""
-    if subject in ["maths", "physics", "chemistry"]:
+    if subject in ["maths", "physics"]:
+        return 150
+    if subject == "chemistry":
         return 80
     return 60
 
@@ -77,6 +79,7 @@ async def start_quiz_flow(update: Update, context: ContextTypes.DEFAULT_TYPE):
             unit=unit,
             questions=questions,
             time_limit=time_limit,
+            open_period=time_limit,
             start_time=int(time.time())
         )
 
@@ -127,6 +130,7 @@ async def send_next_question(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
     total = len(questions)
 
+    open_period = session.open_period or OPEN_PERIOD
     poll_msg = await context.bot.send_poll(
         chat_id=user_id,
         question=(
@@ -137,7 +141,7 @@ async def send_next_question(update: Update, context: ContextTypes.DEFAULT_TYPE)
         type="quiz",
         correct_option_id=question["correct"],
         is_anonymous=False,
-        open_period=OPEN_PERIOD
+        open_period=open_period
     )
 
     session.current_poll_id = poll_msg.poll.id
@@ -149,7 +153,9 @@ async def send_next_question(update: Update, context: ContextTypes.DEFAULT_TYPE)
         f"📊 {index + 1}/{total} | 🔥 Streak: {session.streak}"
     )
     async def update_timer():
-        for remaining in range(OPEN_PERIOD, 0, -10):
+        if open_period <= 10:
+            return
+        for remaining in range(open_period - 10, 0, -10):
             await asyncio.sleep(10)
             new_question = f"{question_base}\n\n⏱️ Time remaining: {remaining}s"
             try:
