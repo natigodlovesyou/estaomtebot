@@ -54,6 +54,7 @@ class QuizSession:
     answered_polls: Set[str] = field(default_factory=set)
 
     time_limit: int = 60  # Default 60 seconds, adjustable per subject
+    open_period: int = 60  # Telegram poll open period; should match time_limit
 
     # Runtime-only lock (not saved to disk)
     lock: asyncio.Lock = field(default_factory=asyncio.Lock, repr=False)
