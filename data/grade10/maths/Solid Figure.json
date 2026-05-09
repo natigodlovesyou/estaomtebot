@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The volume of a cone with radius 5 cm and height 12 cm is:",
+    "options": [
+      "75π cm³",
+      "90π cm³",
+      "100π cm³",
+      "120π cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = (1/3)πr²h = (1/3)π × 5² × 12 = 100π cm³."
+  },
+  {
+    "question": "The total surface area of a cube with edge 7 cm is:",
+    "options": [
+      "196 cm²",
+      "252 cm²",
+      "294 cm²",
+      "343 cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = 6a² = 6 × 7² = 6 × 49 = 294 cm²."
+  },
+  {
+    "question": "The curved surface area of a cylinder with radius 7 cm and height 10 cm is:",
+    "options": [
+      "70π cm²",
+      "120π cm²",
+      "140π cm²",
+      "154π cm²"
+    ],
+    "correct": 2,
+    "explanation": "CSA = 2πrh = 2π × 7 × 10 = 140π cm²."
+  },
+  {
+    "question": "The total surface area of a sphere with radius 5 cm is:",
+    "options": [
+      "50π cm²",
+      "75π cm²",
+      "100π cm²",
+      "125π cm²"
+    ],
+    "correct": 2,
+    "explanation": "SA = 4πr² = 4π × 5² = 100π cm²."
+  },
+  {
+    "question": "The volume of a hemisphere with radius 4 cm is:",
+    "options": [
+      "16π cm³",
+      "24π cm³",
+      "32π cm³",
+      "(128/3)π cm³"
+    ],
+    "correct": 3,
+    "explanation": "V = (2/3)πr³ = (2/3)π × 4³ = (128/3)π cm³."
+  },
+  {
+    "question": "A prism has base area 15 cm² and volume 180 cm³. Its height is:",
+    "options": [
+      "10 cm",
+      "11 cm",
+      "12 cm",
+      "13 cm"
+    ],
+    "correct": 2,
+    "explanation": "Height = V ÷ B = 180 ÷ 15 = 12 cm."
+  },
+  {
+    "question": "A triangular prism has base area 24 cm² and height 6 cm. Its volume is:",
+    "options": [
+      "96 cm³",
+      "120 cm³",
+      "144 cm³",
+      "160 cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = Bh = 24 × 6 = 144 cm³."
+  },
+  {
+    "question": "The volume of a cube with edge 8 cm is:",
+    "options": [
+      "256 cm³",
+      "384 cm³",
+      "448 cm³",
+      "512 cm³"
+    ],
+    "correct": 3,
+    "explanation": "V = a³ = 8³ = 512 cm³."
+  },
+  {
+    "question": "The total surface area of a cylinder with radius 3 cm and height 14 cm is:",
+    "options": [
+      "84π cm²",
+      "96π cm²",
+      "102π cm²",
+      "108π cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = 2πr(r+h) = 2π × 3 × (3 + 14) = 102π cm²."
+  },
+  {
+    "question": "A cone has radius 5 cm and slant height 13 cm. Its height is:",
+    "options": [
+      "10 cm",
+      "11 cm",
+      "12 cm",
+      "13 cm"
+    ],
+    "correct": 2,
+    "explanation": "Using the Pythagorean theorem: l² = r² + h². So h = √(13² − 5²) = √144 = 12 cm."
+  },
+  {
+    "question": "The volume of a sphere with radius 6 cm is:",
+    "options": [
+      "144π cm³",
+      "216π cm³",
+      "288π cm³",
+      "432π cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = (4/3)πr³ = (4/3)π × 6³ = (4/3)π × 216 = 288π cm³."
+  },
+  {
+    "question": "The total surface area of a hemisphere with radius 7 cm is:",
+    "options": [
+      "98π cm²",
+      "126π cm²",
+      "147π cm²",
+      "196π cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA of a hemisphere = 3πr² = 3π × 7² = 147π cm²."
+  },
+  {
+    "question": "The space diagonal of a rectangular prism with dimensions 4 cm, 4 cm, and 7 cm is:",
+    "options": [
+      "√81 cm",
+      "√77 cm",
+      "√72 cm",
+      "√65 cm"
+    ],
+    "correct": 1,
+    "explanation": "d = √(l² + w² + h²) = √(4² + 4² + 7²) = √77 cm."
+  },
+  {
+    "question": "If the radius of a cylinder triples while the height stays the same, the volume becomes:",
+    "options": [
+      "3 times",
+      "6 times",
+      "9 times",
+      "27 times"
+    ],
+    "correct": 2,
+    "explanation": "Volume depends on r², so tripling the radius multiplies the volume by 3² = 9."
+  },
+  {
+    "question": "A pyramid has base area 48 cm² and height 9 cm. Its volume is:",
+    "options": [
+      "96 cm³",
+      "108 cm³",
+      "144 cm³",
+      "216 cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = (1/3)Bh = (1/3) × 48 × 9 = 144 cm³."
+  },
+  {
+    "question": "A square pyramid has base side 10 cm and slant height 13 cm. Its total surface area is:",
+    "options": [
+      "300 cm²",
+      "340 cm²",
+      "360 cm²",
+      "380 cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = base area + lateral area = 10² + (1/2)(4 × 10)(13) = 100 + 260 = 360 cm²."
+  },
+  {
+    "question": "The curved surface area of a cone with radius 4 cm and slant height 9 cm is:",
+    "options": [
+      "28π cm²",
+      "32π cm²",
+      "36π cm²",
+      "40π cm²"
+    ],
+    "correct": 2,
+    "explanation": "CSA = πrl = π × 4 × 9 = 36π cm²."
+  },
+  {
+    "question": "The total surface area of a cone with radius 4 cm and slant height 9 cm is:",
+    "options": [
+      "40π cm²",
+      "48π cm²",
+      "52π cm²",
+      "56π cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = πrl + πr² = 36π + 16π = 52π cm²."
+  },
+  {
+    "question": "A rectangular prism with dimensions 9 cm, 4 cm, and 7 cm has volume:",
+    "options": [
+      "220 cm³",
+      "240 cm³",
+      "252 cm³",
+      "280 cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = lwh = 9 × 4 × 7 = 252 cm³."
+  },
+  {
+    "question": "The total surface area of a rectangular prism with dimensions 2 cm, 3 cm, and 6 cm is:",
+    "options": [
+      "64 cm²",
+      "68 cm²",
+      "72 cm²",
+      "76 cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = 2(lw + lh + wh) = 2(6 + 12 + 18) = 72 cm²."
+  },
+  {
+    "question": "A cylinder has volume 150π cm³ and radius 5 cm. Its height is:",
+    "options": [
+      "4 cm",
+      "5 cm",
+      "6 cm",
+      "7 cm"
+    ],
+    "correct": 2,
+    "explanation": "V = πr²h. So 150π = π × 5² × h = 25πh. Therefore h = 6 cm."
+  },
+  {
+    "question": "A sphere has surface area 196π cm². Its radius is:",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "correct": 2,
+    "explanation": "4πr² = 196π, so r² = 49 and r = 7 cm."
+  },
+  {
+    "question": "A hemisphere has total surface area 75π cm². Its radius is:",
+    "options": [
+      "4 cm",
+      "5 cm",
+      "6 cm",
+      "7 cm"
+    ],
+    "correct": 1,
+    "explanation": "3πr² = 75π, so r² = 25 and r = 5 cm."
+  },
+  {
+    "question": "The volume of a cube with space diagonal 10√3 cm is:",
+    "options": [
+      "500 cm³",
+      "700 cm³",
+      "800 cm³",
+      "1000 cm³"
+    ],
+    "correct": 3,
+    "explanation": "For a cube, d = a√3. So a = 10 cm and V = 10³ = 1000 cm³."
+  },
+  {
+    "question": "The volume of a cone with radius 6 cm and height 15 cm is:",
+    "options": [
+      "120π cm³",
+      "150π cm³",
+      "180π cm³",
+      "210π cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = (1/3)πr²h = (1/3)π × 6² × 15 = 180π cm³."
+  },
+  {
+    "question": "A cylinder with radius 5 cm and height 7 cm has total surface area:",
+    "options": [
+      "100π cm²",
+      "110π cm²",
+      "120π cm²",
+      "130π cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = 2πr(r+h) = 2π × 5 × 12 = 120π cm²."
+  },
+  {
+    "question": "A cone with radius 8 cm and height 15 cm has slant height:",
+    "options": [
+      "16 cm",
+      "17 cm",
+      "18 cm",
+      "19 cm"
+    ],
+    "correct": 1,
+    "explanation": "l = √(r² + h²) = √(8² + 15²) = √289 = 17 cm."
+  },
+  {
+    "question": "The volume of a pyramid with base area 60 cm² and height 15 cm is:",
+    "options": [
+      "200 cm³",
+      "250 cm³",
+      "300 cm³",
+      "360 cm³"
+    ],
+    "correct": 2,
+    "explanation": "V = (1/3)Bh = (1/3) × 60 × 15 = 300 cm³."
+  },
+  {
+    "question": "If the edge of a cube is doubled, its total surface area becomes:",
+    "options": [
+      "2 times",
+      "3 times",
+      "4 times",
+      "8 times"
+    ],
+    "correct": 2,
+    "explanation": "Surface area depends on the square of the edge, so doubling the edge makes the area 2² = 4 times larger."
+  },
+  {
+    "question": "A sphere and a cylinder have the same radius and the cylinder’s height is equal to the sphere’s diameter. The sphere’s volume is:",
+    "options": [
+      "1/2 of the cylinder",
+      "2/3 of the cylinder",
+      "1/3 of the cylinder",
+      "4/3 of the cylinder"
+    ],
+    "correct": 1,
+    "explanation": "Sphere volume = (4/3)πr³ and cylinder volume = πr²(2r) = 2πr³, so the sphere is 2/3 of the cylinder."
+  }
+]
