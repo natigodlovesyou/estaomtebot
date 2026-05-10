@@ -1,0 +1,1113 @@
+[
+  {
+    "question": "If you throw a ball horizontally from the top of a building and at the same time a friend of yours dropped another ball downward from the same place, which ball will hit the ground first? Defend your answer.",
+    "options": [
+      "The horizontally thrown ball hits first because of its horizontal speed",
+      "The dropped ball hits first because it has no horizontal motion",
+      "Both balls hit the ground at the same time",
+      "It depends on the mass of the balls"
+    ],
+    "correct": 2,
+    "explanation": "The time to hit the ground depends only on vertical motion. Both balls start from the same height with the same initial vertical velocity (zero), and both accelerate downward due to gravity. Using t = √(2h/g), both have the same time of flight, so they hit the ground simultaneously."
+  },
+  {
+    "question": "A stone is thrown horizontally at 15m/s from the top of a cliff 45m high. A. How far from the base of the cliff will the stone land? B. How fast is it moving just before it hits the ground?",
+    "options": [
+      "45m, 33.5m/s",
+      "30m, 25.0m/s",
+      "67.5m, 45.0m/s",
+      "22.5m, 15.0m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Find time of flight: t = √(2h/g) = √(2×45/10) = √9 = 3 s. Step 2: Horizontal distance: x = ut = 15×3 = 45 m. Step 3: Vertical velocity before impact: vy = gt = 10×3 = 30 m/s. Step 4: Resultant speed: v = √(15² + 30²) = √1125 ≈ 33.5 m/s."
+  },
+  {
+    "question": "A stone is thrown horizontally at a speed of 10m/s from a cliff of 80m high. A. How long will it take the stone to hit the ground? B. What is the speed of the stone at t = 2 seconds?",
+    "options": [
+      "4s, 22.4m/s",
+      "2s, 10.0m/s",
+      "3s, 18.0m/s",
+      "4s, 20.0m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Time to hit ground: t = √(2h/g) = √(160/10) = √16 = 4 s. Step 2: At t = 2 s, horizontal velocity vx = 10 m/s. Vertical velocity vy = gt = 10×2 = 20 m/s. Step 3: Speed = √(10² + 20²) = √500 ≈ 22.4 m/s."
+  },
+  {
+    "question": "A steel ball rolls with constant velocity across a table top 0.95m high. It rolls off and hits the ground 0.352m from the edge of the table. A. How fast was the ball rolling? B. What is its horizontal velocity at t = 2 seconds? C. What are horizontal and vertical displacements of the ball at t = 0.2 second?",
+    "options": [
+      "0.8m/s, 0.8m/s, x = 0.16m and y = 0.20m",
+      "1.0m/s, 1.0m/s, x = 0.20m and y = 0.10m",
+      "0.5m/s, 0.5m/s, x = 0.10m and y = 0.20m",
+      "0.8m/s, 1.6m/s, x = 0.32m and y = 0.40m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Time to fall: t = √(2×0.95/10) ≈ 0.436 s. Step 2: Horizontal speed: u = 0.352/0.436 ≈ 0.8 m/s. Step 3: Horizontal velocity remains constant, so vx = 0.8 m/s. Step 4: At 0.2 s, x = ut = 0.8×0.2 = 0.16 m. Vertical displacement: y = ½gt² = 0.5×10×(0.2²) = 0.20 m."
+  },
+  {
+    "question": "A rifle is aimed horizontally at a target 40m away. If the bullet hits 20cm below the target point, find: A. Time of flight B. Initial speed of the bullet.",
+    "options": [
+      "0.2s, 200m/s",
+      "0.1s, 400m/s",
+      "0.4s, 100m/s",
+      "0.2s, 100m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Vertical drop y = 0.20 m. Use y = ½gt². 0.20 = 5t² → t² = 0.04 → t = 0.2 s. Step 2: Horizontal speed u = x/t = 40/0.2 = 200 m/s."
+  },
+  {
+    "question": "Is it possible to get same ranges for different angles of projections of same initial speeds? Explain.",
+    "options": [
+      "No, every angle gives a different range",
+      "Yes, complementary angles give the same range",
+      "Only if the speed is doubled",
+      "Only at 45°"
+    ],
+    "correct": 1,
+    "explanation": "Range formula: R = u²sin(2θ)/g. Since sin(2θ) = sin(180° − 2θ), angles θ and (90° − θ) produce the same range. Examples: 30° and 60°, 15° and 75°."
+  },
+  {
+    "question": "For what angle of projection is the range maximum?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1,
+    "explanation": "Range formula: R = u²sin(2θ)/g. Maximum range occurs when sin(2θ) = 1. That happens when 2θ = 90°, so θ = 45°."
+  },
+  {
+    "question": "For what angle of projection is the height maximum?",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "30°"
+    ],
+    "correct": 2,
+    "explanation": "Maximum height formula: h = u²sin²θ / 2g. This becomes maximum when sin²θ = 1, which occurs at θ = 90°."
+  },
+  {
+    "question": "Express the maximum height of a body in terms of the range when both are maximum.",
+    "options": [
+      "h = R",
+      "h = R/2",
+      "h = 2R",
+      "h = R/4"
+    ],
+    "correct": 1,
+    "explanation": "Maximum range: R = u²/g. Maximum height: h = u²/2g. Dividing gives h = R/2."
+  },
+  {
+    "question": "For what angle of projection is the range equal to the maximum height?",
+    "options": [
+      "45°",
+      "63.4°",
+      "75.96°",
+      "30°"
+    ],
+    "correct": 2,
+    "explanation": "Set range equal to height: u²sin(2θ)/g = u²sin²θ/(2g). Simplifying gives tanθ = 4. Therefore θ = tan⁻¹(4) ≈ 75.96°."
+  },
+  {
+    "question": "A projectile is fired at an angle of 53° with the horizontal at a speed of 20m/s. What is the projectile's A. Time of flight B. Maximum height C. Range?",
+    "options": [
+      "3.2s, 12.8m, 38.4m",
+      "2.0s, 10.0m, 20.0m",
+      "4.0s, 16.0m, 40.0m",
+      "3.0s, 8.0m, 30.0m"
+    ],
+    "correct": 0,
+    "explanation": "Use sin53° ≈ 0.8 and cos53° ≈ 0.6. Vertical velocity = 20×0.8 = 16 m/s. Horizontal velocity = 20×0.6 = 12 m/s. Time of flight = 2uy/g = 2×16/10 = 3.2 s. Maximum height = uy²/2g = 256/20 = 12.8 m. Range = ux×t = 12×3.2 = 38.4 m."
+  },
+  {
+    "question": "A ball is kicked at an angle of 37° from the horizontal with an initial speed of 30m/s. Calculate: A. Horizontal and vertical components of the initial velocity B. Horizontal and vertical velocities at t = 1.5 second C. Horizontal and vertical displacements at t = 1.5 second D. Time taken to reach the maximum height E. Time of flight F. Speed of the ball just before it hits the ground G. Range of the ball H. Maximum height reached by the ball.",
+    "options": [
+      "ux=24m/s, uy=18m/s, Vx=24m/s, Vy=3m/s, x=36m, y=15.75m, 1.8s, 3.6s, 30m/s, 86.4m, 16.2m",
+      "ux=18m/s, uy=24m/s, Vx=18m/s, Vy=9m/s, x=27m, y=12m, 2.4s, 4.8s, 24m/s, 72m, 14m",
+      "ux=30m/s, uy=0m/s, Vx=30m/s, Vy=15m/s, x=45m, y=10m, 1.5s, 3.0s, 33m/s, 90m, 20m",
+      "ux=20m/s, uy=20m/s, Vx=20m/s, Vy=5m/s, x=30m, y=10m, 2.0s, 4.0s, 28m/s, 80m, 15m"
+    ],
+    "correct": 0,
+    "explanation": "Using cos37° ≈ 0.8 and sin37° ≈ 0.6: ux = 24 m/s, uy = 18 m/s. At t=1.5s: Vy = 18 − 10(1.5)=3 m/s. x = 24×1.5 = 36 m. y = 18(1.5) − 5(1.5²)=15.75 m. Time to max height = 18/10 = 1.8 s. Total time = 3.6 s. Final speed equals launch speed = 30 m/s. Range = 24×3.6 = 86.4 m. Max height = 18²/20 = 16.2 m."
+  },
+  {
+    "question": "A ball is kicked at an angle of 37° from the horizontal at a speed of 20m/s towards a wall that is 32m away. A. How long will the ball take to hit the wall? B. At what height from the base will the ball hit the wall?",
+    "options": [
+      "2s, 4m",
+      "1s, 2m",
+      "4s, 8m",
+      "2s, 8m"
+    ],
+    "correct": 0,
+    "explanation": "Horizontal speed = 20×0.8 = 16 m/s. Time to wall = 32/16 = 2 s. Vertical displacement: y = (20×0.6)(2) − ½(10)(2²) = 24 − 20 = 4 m."
+  },
+  {
+    "question": "A bird is sitting on the top of a tree 10m high. With what velocity should a boy standing 25m from the tree throw a stone at an angle of 30° so as to hit the bird?",
+    "options": [
+      "28m/s",
+      "20m/s",
+      "15m/s",
+      "35m/s"
+    ],
+    "correct": 0,
+    "explanation": "Using projectile equation y = x tanθ − (gx²)/(2u²cos²θ), substitute y=10 m, x=25 m, θ=30°. Solving for u gives approximately 28 m/s."
+  },
+  {
+    "question": "A body is projected at an angle of 30° with a speed of 20m/s. What is the time the body takes to reach the maximum height?",
+    "options": [
+      "2 second",
+      "5 second",
+      "0.5 second",
+      "1 second"
+    ],
+    "correct": 3,
+    "explanation": "Vertical component of velocity: uy = 20×sin30° = 10 m/s. Time to maximum height = uy/g = 10/10 = 1 second."
+  },
+  {
+    "question": "An olympic long jumper leaves the ground at an angle of 45° and travels through the air for a horizontal distance of 8.1m before landing. What is the take off speed of the jumper?",
+    "options": [
+      "9m/s",
+      "11m/s",
+      "8.1m/s",
+      "10m/s"
+    ],
+    "correct": 0,
+    "explanation": "For maximum range at 45°, use R = u²/g. Rearranging gives u = √(Rg) = √(8.1 × 10) = √81 = 9 m/s."
+  },
+  {
+    "question": "A ball is thrown horizontally from the top of a 20m tall hill. It strikes the ground at an angle of 45°. With what speed was it thrown?",
+    "options": [
+      "40m/s",
+      "20m/s",
+      "14.1m/s",
+      "28m/s"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: The vertical drop is 20 m, so use y = 1/2 gt². Step 2: 20 = 1/2 × 10 × t², so t = 2 s. Step 3: At impact, vy = gt = 10 × 2 = 20 m/s. Step 4: The stone strikes the ground at 45°, so vx = vy. Step 5: Therefore the horizontal throwing speed is 20 m/s. Therefore, the correct speed is 20 m/s."
+  },
+  {
+    "question": "A ball is kicked with a speed of 10m/s at an angle of 37°. What are the ball's acceleration and velocity at the top of its path?",
+    "options": [
+      "0m/s², 10m/s",
+      "10m/s², 8m/s",
+      "10m/s², 10m/s",
+      "0m/s², 8m/s"
+    ],
+    "correct": 1,
+    "explanation": "At the highest point, acceleration is still gravity: 10 m/s² downward. Horizontal velocity remains constant: v = u cos37° = 10 × 0.8 = 8 m/s."
+  },
+  {
+    "question": "A ball rolls off the edge of a horizontal table top 4m high. It strikes the floor at a point 5m away from the edge of the table. How long was the ball in the air in seconds?",
+    "options": [
+      "3/√5",
+      "1/√5",
+      "2/√3",
+      "2/√5"
+    ],
+    "correct": 3,
+    "explanation": "Use vertical motion only: h = ½gt². So 4 = 5t², giving t² = 4/5 and t = 2/√5 seconds."
+  },
+  {
+    "question": "Two projectiles are fired from the ground level at equal speed but different angles. One is fired at 30° and the other at 60°. The projectile to hit the ground first will be the one fired at?",
+    "options": [
+      "30°",
+      "60°",
+      "Both hit at same time",
+      "Cannot be determined"
+    ],
+    "correct": 0,
+    "explanation": "Time of flight T = 2u sinθ / g. Since sin30° = 0.5 and sin60° = 0.866, the projectile fired at 30° has a shorter time of flight and lands first."
+  },
+  {
+    "question": "A long distance jumper athlete leaves the ground at an angle of 37° above the horizontal at a speed of 10m/s. How far does he jump along the horizontal?",
+    "options": [
+      "4.8m",
+      "6.0m",
+      "9.6m",
+      "12.0m"
+    ],
+    "correct": 2,
+    "explanation": "Range R = u² sin(2θ)/g. Using sin74° ≈ 0.96: R = (10² × 0.96)/10 = 9.6 m."
+  },
+  {
+    "question": "If the initial velocity of a projectile is double, the maximum height will be?",
+    "options": [
+      "Halved",
+      "Doubled",
+      "Quadrupled",
+      "Remain same"
+    ],
+    "correct": 2,
+    "explanation": "Maximum height h = u²sin²θ / 2g. Since height depends on u², doubling velocity makes height four times larger."
+  },
+  {
+    "question": "A projectile is fired at an angle equally inclined to the horizontal and vertical with velocity u. The range is?",
+    "options": [
+      "u²/g",
+      "u²/2g",
+      "u²/3g",
+      "u²/4g"
+    ],
+    "correct": 0,
+    "explanation": "Equally inclined means θ = 45°. Range formula: R = u²sin(2θ)/g = u²sin90°/g = u²/g."
+  },
+  {
+    "question": "When the angle of projection is 45°, then?",
+    "options": [
+      "R = 4h_max",
+      "R = 3h_max",
+      "R = 2h_max",
+      "R = h_max"
+    ],
+    "correct": 0,
+    "explanation": "At 45°, R = u²/g and h_max = u²/4g. Therefore R ÷ h_max = 4, so R = 4h_max."
+  },
+  {
+    "question": "A projectile thrown with a velocity u at an angle θ has a range R on earth. For same u and θ, the range on the moon is?",
+    "options": [
+      "36R",
+      "R/36",
+      "R/6",
+      "6R"
+    ],
+    "correct": 3,
+    "explanation": "Range R = u²sin(2θ)/g. Moon gravity is about g/6, so range becomes six times larger: R_moon = 6R."
+  },
+  {
+    "question": "Two projectiles P and Q are thrown with the same speed but at angles 40° and 50°. Range of P will be?",
+    "options": [
+      "Equal to that of Q",
+      "Less than that of Q",
+      "Greater than that of Q",
+      "Cannot be compared"
+    ],
+    "correct": 0,
+    "explanation": "40° and 50° are complementary angles. Complementary launch angles produce the same range because sin(2θ) is equal."
+  },
+  {
+    "question": "Maximum height of a projectile does not depend on?",
+    "options": [
+      "Velocity of projection",
+      "Angle of projection",
+      "Acceleration due to gravity",
+      "Mass of the projectile"
+    ],
+    "correct": 3,
+    "explanation": "Maximum height formula h = u²sin²θ / 2g contains velocity, angle, and gravity, but not mass."
+  },
+  {
+    "question": "A plane flying horizontally at 98m/s releases an object which reaches the ground in 10 seconds. The angle made by the velocity of the object with the horizontal at the time of impact is?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correct": 1,
+    "explanation": "Horizontal velocity vx = 98 m/s. Vertical velocity after 10 s: vy = gt = 9.8 × 10 = 98 m/s. Since vx = vy, tanθ = 1, so θ = 45°."
+  },
+  {
+    "question": "An arrow is shot into the air. If its range is 200m and its time of flight is 5 seconds, the horizontal component of the arrow velocity is?",
+    "options": [
+      "12.5m/s",
+      "25m/s",
+      "31.25m/s",
+      "40m/s"
+    ],
+    "correct": 3,
+    "explanation": "Horizontal velocity is constant: vx = Range / Time = 200 / 5 = 40 m/s."
+  },
+  {
+    "question": "A man can throw a stone 100m horizontally. The maximum height to which he can throw vertically is?",
+    "options": [
+      "200m",
+      "100m",
+      "50m",
+      "40m"
+    ],
+    "correct": 2,
+    "explanation": "Horizontal range maximum: R = u²/g = 100. Thus u² = 100g. Vertical maximum height: h = u²/2g = 100g / 2g = 50 m."
+  },
+  {
+    "question": "A ball is thrown upward at an angle of 30° and lands on top of a building 20m away and 5m high. How fast was the ball thrown?",
+    "options": [
+      "10m/s",
+      "20m/s",
+      "40m/s",
+      "80m/s"
+    ],
+    "correct": 1,
+    "explanation": "Using projectile equation: y = x tanθ − (gx²)/(2u²cos²θ). Substitute x = 20m, y = 5m, θ = 30°. Solving gives u ≈ 20 m/s."
+  },
+  {
+    "question": "A bullet is fired from a cannon at point 1 and follows the trajectory shown. Which vector best represents the bullet's acceleration at point 2?",
+    "options": [
+      "Vector A (downward)",
+      "Vector B",
+      "Vector C",
+      "Vector D = 0"
+    ],
+    "correct": 0,
+    "explanation": "Projectile acceleration is always due to gravity, which acts vertically downward at every point in the motion."
+  },
+  {
+    "question": "A projectile is fired at 60° with the horizontal. At the highest point of its path, the acceleration is?",
+    "options": [
+      "10m/s²",
+      "20m/s²",
+      "5m/s²",
+      "0m/s²"
+    ],
+    "correct": 0,
+    "explanation": "At the highest point, vertical velocity becomes zero, but acceleration due to gravity still acts downward with magnitude 10 m/s²."
+  },
+  {
+    "question": "A stone tied to a string of length 10cm is whirled in a horizontal circle of constant speed 15m/s. What is the centripetal acceleration of the stone?",
+    "options": [
+      "2250m/s²",
+      "22.5m/s²",
+      "150m/s²",
+      "112.5m/s²"
+    ],
+    "correct": 0,
+    "explanation": "Radius r = 10cm = 0.1m. Centripetal acceleration: a = v²/r = 15²/0.1 = 225/0.1 = 2250 m/s². The source answer appears to contain a decimal error."
+  },
+  {
+    "question": "The mass of the earth is 6 × 10²⁴ kg. It travels at a steady speed of 30,000m/s around the sun at a radius of 1.5 × 10⁹m. What is the centripetal force acting on the earth?",
+    "options": [
+      "3.6 × 10²⁴ N",
+      "1.8 × 10²⁴ N",
+      "5.4 × 10²⁴ N",
+      "2.4 × 10²³ N"
+    ],
+    "correct": 0,
+    "explanation": "Use F = mv²/r. F = (6×10²⁴)(30000²)/(1.5×10⁹) = (6×10²⁴)(9×10⁸)/(1.5×10⁹) = 3.6×10²⁴ N."
+  },
+  {
+    "question": "Suppose that the maximum friction force between the road and the tyres of a car is 6500N. If the mass of the car is 1200kg and the curve has a radius of 85m, what is the maximum speed at which the car can safely bend?",
+    "options": [
+      "21m/s",
+      "18m/s",
+      "25m/s",
+      "30m/s"
+    ],
+    "correct": 0,
+    "explanation": "Maximum friction provides centripetal force: F = mv²/r. Solve for v: v = √(Fr/m) = √((6500×85)/1200) ≈ 21 m/s."
+  },
+  {
+    "question": "A rubber stopper is attached to a 0.93m string. The stopper is swung in a horizontal circle making one revolution in 1.18 seconds. What is the centripetal acceleration?",
+    "options": [
+      "26m/s²",
+      "13m/s²",
+      "52m/s²",
+      "9.8m/s²"
+    ],
+    "correct": 0,
+    "explanation": "Angular speed: ω = 2π/T = 2π/1.18 ≈ 5.32 rad/s. Then a = ω²r = (5.32²)(0.93) ≈ 26 m/s²."
+  },
+  {
+    "question": "Convert: A. 2 revolutions into degrees and radians B. 45° into revolution and radians C. π/2 rad into degrees and revolution.",
+    "options": [
+      "720°, 4π rad; 1/8 rev, π/4 rad; 90°, 1/4 rev",
+      "360°, 2π rad; 1/4 rev, π/2 rad; 180°, 1/2 rev",
+      "720°, 2π rad; 1/8 rev, π/2 rad; 45°, 1/8 rev",
+      "360°, 4π rad; 1/16 rev, π/4 rad; 90°, 1/2 rev"
+    ],
+    "correct": 0,
+    "explanation": "1 revolution = 360° = 2π rad. Therefore: 2 rev = 720° = 4π rad; 45° = 1/8 rev = π/4 rad; π/2 rad = 90° = 1/4 rev."
+  },
+  {
+    "question": "A stone tied to a string is whirled in a circular path of radius 25cm. Find: A. The angular displacement of the stone when it covered 2 revolutions B. The tangential displacement of the stone when it covered 2 revolutions.",
+    "options": [
+      "4π rad, 3.14m",
+      "2π rad, 1.57m",
+      "8π rad, 6.28m",
+      "π rad, 0.785m"
+    ],
+    "correct": 0,
+    "explanation": "A: 2 revolutions = 4π radians. B: Arc length s = rθ = 0.25 × 4π = π ≈ 3.14 m."
+  },
+  {
+    "question": "The angular velocity of a belt of grindstone is 30 rad/s. To what angle does the belt rotate in one minute?",
+    "options": [
+      "1800 rad",
+      "900 rad",
+      "3600 rad",
+      "600 rad"
+    ],
+    "correct": 0,
+    "explanation": "Angular displacement: θ = ωt = 30 × 60 = 1800 rad."
+  },
+  {
+    "question": "We can conclude that the direction of angular accelerator is always in the direction of the angular velocity. Do you agree?",
+    "options": [
+      "Yes, always",
+      "No, it depends on whether angular speed is increasing or decreasing",
+      "Only for clockwise rotation",
+      "Only for counterclockwise rotation"
+    ],
+    "correct": 1,
+    "explanation": "Angular acceleration points in the same direction as angular velocity when speed increases, and opposite when speed decreases."
+  },
+  {
+    "question": "A wheel starts from rest and rotates with uniform angular acceleration to attain an angular velocity of 2rev/sec in one second. What is the angular acceleration?",
+    "options": [
+      "2π rad/s²",
+      "4π rad/s²",
+      "6π rad/s²",
+      "8π rad/s²"
+    ],
+    "correct": 1,
+    "explanation": "Convert final angular velocity: 2 rev/s = 4π rad/s. α = (ω − 0)/t = 4π/1 = 4π rad/s²."
+  },
+  {
+    "question": "When a wheel of radius R rotates about a fixed axis, do all points on the wheel have the same: A. Angular speed? B. Linear speed?",
+    "options": [
+      "Same angular speed and same linear speed",
+      "Different angular speed and same linear speed",
+      "Same angular speed but different linear speed",
+      "Different angular speed and different linear speed"
+    ],
+    "correct": 2,
+    "explanation": "All points share the same angular speed ω, but linear speed depends on radius: v = ωr. Points farther from the center move faster."
+  },
+  {
+    "question": "What is the angular speed of the second hand of a clock?",
+    "options": [
+      "0.105 rad/s",
+      "0.017 rad/s",
+      "1.05 rad/s",
+      "0.0105 rad/s"
+    ],
+    "correct": 0,
+    "explanation": "The second hand completes one revolution (2π rad) in 60 s. ω = 2π/60 ≈ 0.105 rad/s."
+  },
+  {
+    "question": "A wheel of radius 30cm starts from rest and rotates with constant angular acceleration to an angular speed of 12 rad/sec in 3 seconds. Find: A. The tangential displacement B. The tangential velocity C. The tangential acceleration of the wheel.",
+    "options": [
+      "5.4m, 3.6m/s, 1.2m/s²",
+      "3.6m, 5.4m/s, 2.4m/s²",
+      "1.8m, 3.6m/s, 3.6m/s²",
+      "5.4m, 1.2m/s, 3.6m/s²"
+    ],
+    "correct": 0,
+    "explanation": "Radius r = 0.3m. α = 12/3 = 4 rad/s². Angular displacement: θ = ½αt² = ½×4×9 = 18 rad. Tangential displacement: s = rθ = 0.3×18 = 5.4m. Tangential velocity: v = rω = 0.3×12 = 3.6m/s. Tangential acceleration: a = rα = 0.3×4 = 1.2m/s²."
+  },
+  {
+    "question": "A wheel starts from rest and accelerates at 2rev/s². To what angle does it rotate in 20 seconds?",
+    "options": [
+      "400π rad",
+      "800π rad",
+      "200π rad",
+      "1600π rad"
+    ],
+    "correct": 1,
+    "explanation": "Convert angular acceleration: 2 rev/s² = 4π rad/s². Using θ = ½αt²: θ = ½ × 4π × (20²) = 2π × 400 = 800π rad."
+  },
+  {
+    "question": "How large an angular acceleration must a wheel have if it is to accelerate from rest to 31.4 rad/s after 5 revolutions?",
+    "options": [
+      "7.85 rad/s²",
+      "15.7 rad/s²",
+      "31.4 rad/s²",
+      "12.5 rad/s²"
+    ],
+    "correct": 1,
+    "explanation": "Use ω² = ω₀² + 2αθ. Since ω₀ = 0 and θ = 5 rev = 10π rad: α = ω²/(2θ) = (31.4²)/(20π) ≈ 15.7 rad/s²."
+  },
+  {
+    "question": "A disc initially rotating at 120 rad/sec slows down at 4rad/s². A. How much time did it take the disc to stop? B. Through what angle did it turn before coming to rest?",
+    "options": [
+      "30s, 1800 rad",
+      "20s, 1200 rad",
+      "25s, 1500 rad",
+      "15s, 900 rad"
+    ],
+    "correct": 0,
+    "explanation": "Time: t = (0 − 120)/(-4) = 30 s. Angular displacement: θ = ω₀t + ½αt² = 120(30) + ½(-4)(30²) = 3600 − 1800 = 1800 rad."
+  },
+  {
+    "question": "A particle moves in a circle of radius r with an angular velocity ω and angular acceleration α. What is the centripetal acceleration of the particle?",
+    "options": [
+      "rα",
+      "rω²",
+      "rω",
+      "r²ω"
+    ],
+    "correct": 1,
+    "explanation": "Centripetal acceleration is given by a = rω²."
+  },
+  {
+    "question": "A wheel of radius 20cm is accelerating at 5π rad/s². What is the tangential acceleration of a point at the rim of the wheel?",
+    "options": [
+      "2π m/s²",
+      "1.5π m/s²",
+      "π m/s²",
+      "0.5π m/s²"
+    ],
+    "correct": 2,
+    "explanation": "Tangential acceleration: a = rα = 0.2 × 5π = π m/s²."
+  },
+  {
+    "question": "A body tied to a string of length 1.5m completes 3 revolutions in one second. What is the tangential displacement of the body in 5 seconds?",
+    "options": [
+      "60πm",
+      "45πm",
+      "30πm",
+      "15πm"
+    ],
+    "correct": 1,
+    "explanation": "In 5 seconds: 3 × 5 = 15 revolutions. Total angle = 15 × 2π = 30π rad. Tangential displacement: s = rθ = 1.5 × 30π = 45π m."
+  },
+  {
+    "question": "The wheel of a bicycle rotates with constant angular acceleration of 2 rad/s². If it attains an angular velocity of 100 rad/s in 30 seconds. What was its initial angular velocity?",
+    "options": [
+      "Zero",
+      "60 rad/s",
+      "160 rad/s",
+      "40 rad/s"
+    ],
+    "correct": 3,
+    "explanation": "Using ω = ω₀ + αt: ω₀ = 100 − (2 × 30) = 40 rad/s."
+  },
+  {
+    "question": "A wheel increases its angular velocity from 2 rad/s to 5 rad/s in a displacement of 3.5 rad. What is the angular acceleration of the wheel?",
+    "options": [
+      "4 rad/s²",
+      "6 rad/s²",
+      "5 rad/s²",
+      "3 rad/s²"
+    ],
+    "correct": 3,
+    "explanation": "Use ω² = ω₀² + 2αθ. 25 = 4 + 2α(3.5). So 21 = 7α, giving α = 3 rad/s²."
+  },
+  {
+    "question": "The angular velocity of a stone tied to a 0.5m string is increased from zero to 10 rad/s in 2 seconds. What is the radial acceleration of the stone?",
+    "options": [
+      "5 rad/s²",
+      "10 rad/s²",
+      "50 m/s²",
+      "50 rad/s²"
+    ],
+    "correct": 2,
+    "explanation": "Radial (centripetal) acceleration: a = rω² = 0.5 × (10²) = 50 m/s²."
+  },
+  {
+    "question": "A body is rotated with a uniform speed in a circle of radius 1m. What is the centripetal acceleration in m/s² if it completes 12 rotations in 3 seconds?",
+    "options": [
+      "36π",
+      "64π²",
+      "72π²",
+      "144π²"
+    ],
+    "correct": 1,
+    "explanation": "Frequency: f = 12/3 = 4 rev/s. Angular velocity: ω = 2πf = 8π rad/s. Acceleration: a = rω² = 1 × (8π)² = 64π² m/s²."
+  },
+  {
+    "question": "The angular position of a swinging door is given by θ = 5 + 10t + 2t². What is angular speed at t = 3 seconds?",
+    "options": [
+      "22 rad/s",
+      "-17 rad/s",
+      "12 rad/s",
+      "3 rad/s"
+    ],
+    "correct": 0,
+    "explanation": "Angular speed is derivative: ω = dθ/dt = 10 + 4t. At t = 3: ω = 10 + 12 = 22 rad/s."
+  },
+  {
+    "question": "A wheel starts from rest and rotates with constant angular acceleration to reach an angular speed of 12 rad/s in 3 seconds. Through what angle does it rotate in this time interval?",
+    "options": [
+      "6 rad",
+      "12 rad",
+      "18 rad",
+      "20 rad"
+    ],
+    "correct": 2,
+    "explanation": "Angular acceleration: α = 12/3 = 4 rad/s². Angular displacement: θ = ½αt² = ½ × 4 × 9 = 18 rad."
+  },
+  {
+    "question": "A sphere initially revolving 5π rad/s slows down uniformly and stops in 10 seconds. How many revolutions does the sphere make during this time?",
+    "options": [
+      "6.25",
+      "12.5",
+      "25",
+      "15"
+    ],
+    "correct": 1,
+    "explanation": "Average angular velocity = (5π + 0)/2 = 2.5π rad/s. Angular displacement: θ = ω_avg × t = 2.5π × 10 = 25π rad. Revolutions = 25π / 2π = 12.5."
+  },
+  {
+    "question": "A disc initially at rest rotates with constant angular acceleration through an angle of 22.5 rad in 3 seconds. What is the angular speed of the disc after 4 seconds?",
+    "options": [
+      "10 rad/s",
+      "20 rad/s",
+      "15 rad/s",
+      "25 rad/s"
+    ],
+    "correct": 1,
+    "explanation": "Use θ = ½αt²: 22.5 = ½α(9), so α = 5 rad/s². Angular speed after 4 s: ω = αt = 5 × 4 = 20 rad/s."
+  },
+  {
+    "question": "A wheel initially at rest is rotated with constant angular acceleration of 100 rad/s in 20 seconds. If the radius of the wheel is 0.3m, what is the tangential acceleration of a point at the rim of the wheel?",
+    "options": [
+      "1.5 m/s²",
+      "2 m/s²",
+      "2.5 m/s²",
+      "3 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "Angular acceleration: α = 100/20 = 5 rad/s². Tangential acceleration: a = rα = 0.3 × 5 = 1.5 m/s²."
+  },
+  {
+    "question": "A particle moves in a circle of radius 0.25m at two revolutions per second. What is the acceleration of the particle in m/s²?",
+    "options": [
+      "π²",
+      "8π²",
+      "4π²",
+      "2π²"
+    ],
+    "correct": 2,
+    "explanation": "Correct answer: 4π²"
+  },
+  {
+    "question": "A force of 20N is acting at a perpendicular distance of 2m from a point of rotation. What is the torque acting on the body?",
+    "options": [
+      "40 N·m",
+      "20 N·m",
+      "80 N·m",
+      "100 N·m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use τ = rF. Step 2: Substitute r = 2 m and F = 20 N. Step 3: τ = 2 × 20 = 40 N·m. Therefore, the torque is 40 N·m."
+  },
+  {
+    "question": "What is the magnitude and direction of the torque due to the 100N force acting on the rod at 30° and distance 4m from the hinge?",
+    "options": [
+      "200 N·m, clockwise",
+      "200 N·m, counterclockwise",
+      "100 N·m, clockwise",
+      "400 N·m, clockwise"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use τ = rF sinθ. Step 2: Substitute r = 4 m, F = 100 N, and θ = 30°. Step 3: τ = 4 × 100 × sin30° = 200 N·m. Step 4: The rotation is clockwise. Therefore, the torque is 200 N·m clockwise."
+  },
+  {
+    "question": "What is the moment of inertia of a 2kg mass rotating at a distance of 1.5m from the axis of rotation?",
+    "options": [
+      "4.5 kg·m²",
+      "3.0 kg·m²",
+      "2.25 kg·m²",
+      "6.0 kg·m²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For a point mass, I = mr². Step 2: Substitute m = 2 kg and r = 1.5 m. Step 3: I = 2 × (1.5)² = 4.5 kg·m². Therefore, the moment of inertia is 4.5 kg·m²."
+  },
+  {
+    "question": "What is the moment of inertia of two equal masses of each 0.5kg attached on the ends of a massless rod of length 80cm when the axis of rotation is at point P (located at l/4 from one end)?",
+    "options": [
+      "0.20 kg·m²",
+      "0.08 kg·m²",
+      "0.32 kg·m²",
+      "0.40 kg·m²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The rod is 80 cm = 0.8 m long. Step 2: The axis is at l/4, so the masses are 0.2 m and 0.6 m from the axis. Step 3: I = 0.5(0.2²) + 0.5(0.6²). Step 4: I = 0.5(0.04 + 0.36) = 0.20 kg·m². Therefore, the moment of inertia is 0.20 kg·m²."
+  },
+  {
+    "question": "Find the moment of inertia of the system shown (4kg masses at 0.5m and 2kg masses at 0.2m from centre) when the axis of rotation is at the intersection of the rods.",
+    "options": [
+      "2.16 kg·m²",
+      "1.20 kg·m²",
+      "1.80 kg·m²",
+      "3.20 kg·m²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use I = Σmr². Step 2: Take the two 4 kg masses at 0.5 m and the two 2 kg masses at 0.2 m. Step 3: I = 2(4 × 0.5²) + 2(2 × 0.2²). Step 4: I = 2(1.0) + 2(0.08) = 2.16 kg·m². Therefore, the moment of inertia is 2.16 kg·m²."
+  },
+  {
+    "question": "Three identical point masses of each mass 2kg are at the corners of an equilateral triangle of side 20cm. What is the moment of inertia of the system about an axis through one of the corners perpendicular to the plane of the triangle?",
+    "options": [
+      "0.16 kg·m²",
+      "0.08 kg·m²",
+      "0.24 kg·m²",
+      "0.32 kg·m²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: One mass lies on the axis, so its contribution is zero. Step 2: The other two masses are each 0.20 m from the axis. Step 3: I = 2(0.20²) + 2(0.20²). Step 4: I = 0.08 + 0.08 = 0.16 kg·m². Therefore, the moment of inertia is 0.16 kg·m²."
+  },
+  {
+    "question": "What torque is acting on a wheel of moment of inertia 30kgm² rotating with angular acceleration of 2 rad/s²?",
+    "options": [
+      "60 N·m",
+      "30 N·m",
+      "120 N·m",
+      "15 N·m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use τ = Iα. Step 2: Substitute I = 30 kg·m² and α = 2 rad/s². Step 3: τ = 30 × 2 = 60 N·m. Therefore, the torque is 60 N·m."
+  },
+  {
+    "question": "A ball of mass 50g rotates in a circular path of radius 20cm. If a force of 10N acts on the ball for 5 seconds in the direction of motion, the angular acceleration of the ball will be?",
+    "options": [
+      "1000 rad/s²",
+      "1200 rad/s²",
+      "500 rad/s²",
+      "2000 rad/s²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: First find tangential acceleration using a = F/m. Step 2: m = 50 g = 0.05 kg, so a = 10/0.05 = 200 m/s². Step 3: Then use α = a/r. Step 4: r = 20 cm = 0.20 m, so α = 200/0.20 = 1000 rad/s². Therefore, the angular acceleration is 1000 rad/s²."
+  },
+  {
+    "question": "A particle of mass 5g is attached to the end of a rigid rod of length 8cm and negligible mass. If the particle accelerates from rest to 2m/s in 10 seconds, how large is the torque that accelerates the particle?",
+    "options": [
+      "8 × 10⁻⁵ N·m",
+      "8 × 10⁻⁴ N·m",
+      "4 × 10⁻⁵ N·m",
+      "1.6 × 10⁻⁴ N·m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Convert the mass and length: m = 5 g = 0.005 kg and r = 8 cm = 0.08 m. Step 2: The speed changes from 0 to 2 m/s in 10 s, so a = 2/10 = 0.2 m/s². Step 3: Angular acceleration is α = a/r = 0.2/0.08 = 2.5 rad/s². Step 4: Moment of inertia I = mr² = 0.005 × 0.08² = 3.2 × 10⁻⁵ kg·m². Step 5: Torque τ = Iα = 3.2 × 10⁻⁵ × 2.5 = 8 × 10⁻⁵ N·m. Therefore, the torque is 8 × 10⁻⁵ N·m."
+  },
+  {
+    "question": "A ball is thrown horizontally with an initial speed of 20m/s from the top of a 45m building. Find: A. The time taken by the ball to reach the ground B. The horizontal displacement of the ball C. The speed with which it strikes the ground.",
+    "options": [
+      "t = 3 s, x = 60 m, v = 36 m/s",
+      "t = 2 s, x = 40 m, v = 30 m/s",
+      "t = 4 s, x = 80 m, v = 50 m/s",
+      "t = 3 s, x = 45 m, v = 32 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use only vertical motion to find the time. Step 2: 45 = 1/2 × 10 × t², so t = 3 s. Step 3: Horizontal displacement is x = ut = 20 × 3 = 60 m. Step 4: Vertical speed at impact is vy = gt = 30 m/s. Step 5: Impact speed is v = √(20² + 30²) ≈ 36 m/s. Therefore, the time is 3 s, the horizontal displacement is 60 m, and the impact speed is about 36 m/s."
+  },
+  {
+    "question": "An object projected at angle θ with velocity 30m/s reaches its maximum height in 1.5 seconds. What is the range?",
+    "options": [
+      "θ = 30°, R = 78 m",
+      "θ = 45°, R = 90 m",
+      "θ = 60°, R = 65 m",
+      "θ = 37°, R = 70 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Time to maximum height is t = uy/g. Step 2: So uy = 10 × 1.5 = 15 m/s. Step 3: Since u = 30 m/s, sinθ = 15/30 = 0.5, so θ = 30°. Step 4: Total time of flight is 2 × 1.5 = 3 s. Step 5: Horizontal speed is u cos30° ≈ 26 m/s, so R ≈ 26 × 3 ≈ 78 m. Therefore, the range is about 78 m at 30°."
+  },
+  {
+    "question": "A rope wrapped around a pulley of radius 20cm lifts a bucket to 10m in 5 seconds. What is the angular velocity of the pulley?",
+    "options": [
+      "10 rad/s",
+      "5 rad/s",
+      "20 rad/s",
+      "2 rad/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The bucket rises 10 m in 5 s, so its linear speed is 10/5 = 2 m/s. Step 2: Use v = rω with r = 0.20 m. Step 3: ω = 2/0.20 = 10 rad/s. Therefore, the pulley’s angular velocity is 10 rad/s."
+  },
+  {
+    "question": "A wheel of initial velocity 3 rad/s undergoes a deceleration of 5 rad/s². What angular displacement does it make before coming to rest?",
+    "options": [
+      "0.9 rad",
+      "1.2 rad",
+      "0.6 rad",
+      "1.5 rad"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use ω² = ω₀² + 2αθ. Step 2: Here ω₀ = 3 rad/s, ω = 0, and α = −5 rad/s². Step 3: 0 = 3² + 2(−5)θ = 9 − 10θ. Step 4: So θ = 0.9 rad. Therefore, the angular displacement is 0.9 rad."
+  },
+  {
+    "question": "A wheel speeds up from 200 rpm to 600 rpm in 8 seconds. Find: A. Angular acceleration B. Angular displacement.",
+    "options": [
+      "5.2 rad/s², 53.3 revolutions",
+      "4.0 rad/s², 48 revolutions",
+      "6.0 rad/s², 60 revolutions",
+      "5.2 rad/s², 50 revolutions"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Convert rpm to rad/s. Step 2: 200 rpm = 20.94 rad/s and 600 rpm = 62.83 rad/s. Step 3: Angular acceleration α = (62.83 − 20.94)/8 ≈ 5.2 rad/s². Step 4: Angular displacement θ = 1/2(20.94 + 62.83) × 8 ≈ 335 rad = 53.3 revolutions. Therefore, the answers are α ≈ 5.2 rad/s² and 53.3 revolutions."
+  },
+  {
+    "question": "What is the angular acceleration of a rod of moment of inertia 2kgm² subjected to the net torque of 600N force applied at r = 2m at 37°?",
+    "options": [
+      "360 rad/s²",
+      "180 rad/s²",
+      "720 rad/s²",
+      "240 rad/s²"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: First find the torque: τ = rF sinθ. Step 2: Substitute r = 2 m, F = 600 N, and θ = 37°. Step 3: τ ≈ 2 × 600 × 0.6 = 720 N·m. Step 4: Use α = τ/I with I = 2 kg·m². Step 5: α = 720/2 = 360 rad/s². Therefore, the angular acceleration is 360 rad/s²."
+  },
+  {
+    "question": "If the sun's gravity is suddenly switched off, then what will happen to the planets?",
+    "options": [
+      "They move in straight lines tangent to their orbits",
+      "They fall into the sun",
+      "They stop moving instantly",
+      "They orbit faster"
+    ],
+    "correct": 0,
+    "explanation": "If the Sun's gravity disappears, the centripetal force disappears too. Each planet would continue with its instantaneous velocity, so it would move in a straight line tangent to its orbit."
+  },
+  {
+    "question": "Planet x revolves about the sun once every 88 days while planet y takes 365 days. If the average distance of planet y is 1.5 × 10⁸ km, what is the average distance of planet x from the sun?",
+    "options": [
+      "5.8 × 10⁷ km",
+      "1.5 × 10⁸ km",
+      "2.2 × 10⁸ km",
+      "3.0 × 10⁷ km"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use Kepler's third law: T² ∝ r³. Step 2: So r ∝ T^(2/3). Step 3: r_x = 1.5 × 10⁸ × (88/365)^(2/3). Step 4: This gives r_x ≈ 5.8 × 10⁷ km. Therefore, the average distance of planet x is about 5.8 × 10⁷ km."
+  },
+  {
+    "question": "The average distance of the earth from the sun is 1.5 × 10¹¹m. What would be the period of revolution of the earth if it were located twice as far from the sun?",
+    "options": [
+      "2 Years",
+      "2√2 Years",
+      "4 Years",
+      "3√2 Years"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Kepler's third law gives T² ∝ r³. Step 2: If the orbital radius doubles, the period changes by 2^(3/2). Step 3: So the new period is 2√2 times the original period. Step 4: Since the original period is 1 year, the answer is 2√2 years. Therefore, the period is 2√2 years."
+  },
+  {
+    "question": "Two planets are orbiting the sun such that planet Y is four times as far from the sun as planet X. If the period of revolution of planet X is T, what will be the period of revolution of planet Y?",
+    "options": [
+      "4T",
+      "8T",
+      "2T",
+      "16T"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Kepler's third law gives T² ∝ r³. Step 2: If Y is 4 times farther than X, then T_Y/T_X = 4^(3/2). Step 3: 4^(3/2) = 8. Step 4: So the period of Y is 8T. Therefore, the period of planet Y is 8T."
+  },
+  {
+    "question": "Estimate the gravitational force between a 55kg woman and a 75kg man when they are 1.6m apart.",
+    "options": [
+      "1.1 × 10⁻⁷ N",
+      "1.1 × 10⁻⁵ N",
+      "1.1 × 10⁻⁹ N",
+      "1.1 × 10⁻⁶ N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use F = Gm₁m₂/r². Step 2: Substitute G = 6.67 × 10⁻¹¹, m₁ = 55 kg, m₂ = 75 kg, and r = 1.6 m. Step 3: F ≈ (6.67 × 10⁻¹¹ × 55 × 75) / 1.6² ≈ 1.1 × 10⁻⁷ N. Therefore, the gravitational force is about 1.1 × 10⁻⁷ N."
+  },
+  {
+    "question": "The force of attraction between two point masses is 4N. If one of the masses is doubled, the other is quadrupled and the distance between them is halved, what will be the gravitational force between them?",
+    "options": [
+      "128 N",
+      "64 N",
+      "32 N",
+      "256 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Force is proportional to m₁m₂/r². Step 2: Doubling one mass gives ×2, quadrupling the other gives ×4, and halving the distance gives ×4. Step 3: Total factor = 2 × 4 × 4 = 32. Step 4: So the new force is 4 N × 32 = 128 N. Therefore, the new gravitational force is 128 N."
+  },
+  {
+    "question": "The moon orbits the earth in a circular path of radius 3.8 × 10⁸m. It takes about 27 days to complete one revolution. Estimate the mass of the earth.",
+    "options": [
+      "6 × 10²⁴ kg",
+      "6 × 10²² kg",
+      "6 × 10²⁶ kg",
+      "3 × 10²⁴ kg"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use M = 4π²r³/(GT²). Step 2: Substitute r = 3.8 × 10⁸ m and T = 27 days = 2.33 × 10⁶ s. Step 3: The result is about 5.97 × 10²⁴ kg. Step 4: Rounded, the Earth's mass is 6 × 10²⁴ kg. Therefore, the Earth's mass is 6 × 10²⁴ kg."
+  },
+  {
+    "question": "A satellite orbits the earth at a height of 250km above the earth's surface. What is: A. The orbital velocity B. The orbital period of the satellite?",
+    "options": [
+      "7.8 × 10³ m/s, 5.4 × 10³ s",
+      "5.4 × 10³ m/s, 7.8 × 10³ s",
+      "8.7 × 10³ m/s, 4.9 × 10³ s",
+      "6.2 × 10³ m/s, 6.2 × 10³ s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For low Earth orbit, use v = √(GM/r). Step 2: At 250 km altitude, the orbital radius is Earth's radius plus 250 km. Step 3: This gives an orbital speed of about 7.8 × 10³ m/s. Step 4: The period is T = 2πr/v, which is about 5.4 × 10³ s. Therefore, the orbital velocity is about 7.8 × 10³ m/s and the period is about 5.4 × 10³ s."
+  },
+  {
+    "question": "What is the mass of the sun given that the period of revolution of the earth is 3.156 × 10⁷ seconds and its distance from the sun is 1.5 × 10¹¹m?",
+    "options": [
+      "2 × 10³⁰ kg",
+      "2 × 10²⁸ kg",
+      "6 × 10²⁴ kg",
+      "2 × 10²⁶ kg"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use M = 4π²r³/(GT²). Step 2: Substitute r = 1.5 × 10¹¹ m and T = 3.156 × 10⁷ s. Step 3: The result is close to 2 × 10³⁰ kg. Therefore, the mass of the Sun is about 2 × 10³⁰ kg."
+  },
+  {
+    "question": "A person weighing 800N on earth travels to another planet with twice the mass and twice the radius of Earth. The person's weight on this planet is?",
+    "options": [
+      "400N",
+      "(1/√2) × 800N",
+      "800√2 N",
+      "1600N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Weight is proportional to gravity. Step 2: The planet has twice Earth's mass and twice Earth's radius. Step 3: So g' = 2/2² = 1/2 of Earth's gravity. Step 4: The person's weight becomes 800/2 = 400 N. Therefore, the person's weight is 400 N."
+  },
+  {
+    "question": "Two satellites 1 and 2 are set to orbit the earth at the same altitude. If the mass of satellite 2 is twice that of satellite 1, and if the period of satellite 1 is T, then the period of satellite 2 will be?",
+    "options": [
+      "T",
+      "T/2",
+      "2T",
+      "4T"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Satellites at the same altitude have the same orbital radius. Step 2: Orbital period depends on orbital radius, not on satellite mass. Step 3: Therefore both satellites take the same time to complete one revolution. Therefore, the period is T."
+  },
+  {
+    "question": "If the distance between two point masses is doubled, then the gravitational force between them will be?",
+    "options": [
+      "Quartered",
+      "Doubled",
+      "Halved",
+      "Quadrupled"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Gravitational force is inversely proportional to r². Step 2: If the distance is doubled, the denominator becomes 4 times larger. Step 3: So the force becomes one quarter of the original. Therefore, the force is quartered."
+  },
+  {
+    "question": "The gravitational force between two bodies each of mass 1kg separated by 1m is?",
+    "options": [
+      "6.67 × 10⁻¹¹ N",
+      "6.67 N",
+      "6.67 × 10⁻⁸ N",
+      "1 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use F = Gm₁m₂/r². Step 2: Here m₁ = 1 kg, m₂ = 1 kg, and r = 1 m. Step 3: So F = G = 6.67 × 10⁻¹¹ N. Therefore, the force is 6.67 × 10⁻¹¹ N."
+  },
+  {
+    "question": "What is projectile?",
+    "options": [
+      "A body that is thrown into the air and then moves under gravity alone",
+      "Any object moving on the ground",
+      "A body moving with constant speed in a circle",
+      "A body at rest"
+    ],
+    "correct": 0,
+    "explanation": "A projectile is a body that is launched into the air and then moves only under the influence of gravity, if air resistance is neglected."
+  },
+  {
+    "question": "What is torque?",
+    "options": [
+      "The turning effect of a force about a pivot or axis",
+      "The amount of force in a body",
+      "The speed of rotation",
+      "The tendency of a body to move straight"
+    ],
+    "correct": 0,
+    "explanation": "Torque is the turning effect of a force about a pivot or axis of rotation. It is given by τ = rF sinθ."
+  },
+  {
+    "question": "What is moment of inertia?",
+    "options": [
+      "The rotational inertia of a body",
+      "The total force on a body",
+      "The speed of a rotating body",
+      "The linear momentum of a body"
+    ],
+    "correct": 0,
+    "explanation": "Moment of inertia is the rotational analogue of mass. It measures how strongly a body resists changes in rotational motion."
+  },
+  {
+    "question": "State Kepler's laws.",
+    "options": [
+      "Elliptical orbits; equal areas in equal times; T² ∝ r³",
+      "Circular orbits; equal speeds; T ∝ r",
+      "Parabolic orbits; equal masses; T² ∝ r",
+      "Straight-line motion; constant speed; T ∝ r²"
+    ],
+    "correct": 0,
+    "explanation": "Kepler's laws are: 1) planets move in elliptical orbits with the Sun at one focus; 2) the line joining a planet and the Sun sweeps equal areas in equal times; 3) the square of the orbital period is proportional to the cube of the semi-major axis."
+  },
+  {
+    "question": "State Newton's law of universal gravitation.",
+    "options": [
+      "F = Gm₁m₂/r²",
+      "F = ma",
+      "F = mv²/r",
+      "F = kx"
+    ],
+    "correct": 0,
+    "explanation": "Newton's law of universal gravitation states that any two masses attract each other with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them: F = Gm₁m₂/r²."
+  },
+  {
+    "question": "For what angle of projection is the range twice the maximum height?",
+    "options": [
+      "63.4°",
+      "45°",
+      "30°",
+      "75°"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Set the range equal to twice the maximum height. Step 2: R = u² sin2θ / g and H = u² sin²θ / (2g). Step 3: So sin2θ = sin²θ. Step 4: Using sin2θ = 2sinθ cosθ gives 2cosθ = sinθ. Step 5: Thus tanθ = 2 and θ ≈ 63.4°. Therefore, the angle is about 63.4°."
+  },
+  {
+    "question": "If the earth shrinks, what will be the effect on the value of acceleration due to gravity?",
+    "options": [
+      "g increases",
+      "g decreases",
+      "g becomes zero",
+      "g remains unchanged"
+    ],
+    "correct": 0,
+    "explanation": "If the Earth shrinks, its radius decreases while its mass stays nearly the same. Since g = GM/R², a smaller radius makes g larger."
+  },
+  {
+    "question": "What is the magnitude of the angular velocity of the minute hand of a clock?",
+    "options": [
+      "0.0017 rad/s",
+      "0.017 rad/s",
+      "0.105 rad/s",
+      "0.00017 rad/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The minute hand completes 1 revolution in 3600 s. Step 2: Angular speed is ω = 2π/T. Step 3: So ω = 2π/3600 ≈ 0.001745 rad/s. Therefore, the angular speed is about 0.0017 rad/s."
+  },
+  {
+    "question": "A ball is thrown horizontally at 10m/s from the top of a 45m high building. Calculate: A. Time taken to reach the ground B. Horizontal displacement of the ball C. The speed with which the ball strikes the ground.",
+    "options": [
+      "t = 3 s, x = 30 m, v = 31.6 m/s",
+      "t = 2 s, x = 20 m, v = 20 m/s",
+      "t = 4 s, x = 40 m, v = 44.7 m/s",
+      "t = 3 s, x = 45 m, v = 36 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use vertical motion to find the time. Step 2: 45 = 1/2 × 10 × t², so t = 3 s. Step 3: Horizontal displacement is x = ut = 10 × 3 = 30 m. Step 4: Vertical speed at impact is vy = gt = 30 m/s. Step 5: Impact speed is v = √(10² + 30²) ≈ 31.6 m/s. Therefore, the time is 3 s, the horizontal displacement is 30 m, and the impact speed is about 31.6 m/s."
+  },
+  {
+    "question": "A ball is kicked at 37° with a speed of 20m/s. Calculate: A. Time of flight B. Range of the ball C. Speed at t = 2 sec D. Horizontal displacement at t = 2 sec E. Vertical displacement at t = 2 sec F. Maximum height reached.",
+    "options": [
+      "A. 2.4 s; B. 38.4 m; C. 17.9 m/s; D. 32 m; E. 4 m; F. 7.2 m",
+      "A. 3.0 s; B. 45 m; C. 20 m/s; D. 36 m; E. 5 m; F. 10 m",
+      "A. 2.0 s; B. 32 m; C. 16 m/s; D. 24 m; E. 3 m; F. 6 m",
+      "A. 3.2 s; B. 40 m; C. 18 m/s; D. 30 m; E. 4.5 m; F. 8 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Resolve the launch speed into components: ux = 20 cos37° ≈ 16 m/s and uy = 20 sin37° ≈ 12 m/s. Step 2: Time of flight is T = 2uy/g = 2 × 12 / 10 = 2.4 s. Step 3: Range is R = ux × T = 16 × 2.4 = 38.4 m. Step 4: At t = 2 s, speed = √(16² + (12 - 10×2)²) ≈ 17.9 m/s. Step 5: Horizontal displacement at t = 2 s is x = 16 × 2 = 32 m. Step 6: Vertical displacement at t = 2 s is y = 12 × 2 - 1/2 × 10 × 2² = 4 m. Step 7: Maximum height is H = uy²/(2g) = 12²/20 = 7.2 m. Therefore, the answers are A. 2.4 s; B. 38.4 m; C. 17.9 m/s; D. 32 m; E. 4 m; F. 7.2 m."
+  },
+  {
+    "question": "For what elevation angle will the launching speed of a projectile be five times its speed at the maximum height?",
+    "options": [
+      "78.5°",
+      "60°",
+      "45°",
+      "30°"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: At maximum height, the speed equals the horizontal component u cosθ. Step 2: The launch speed is u. Step 3: Given u = 5(u cosθ), so cosθ = 1/5. Step 4: Therefore θ ≈ 78.5°. Therefore, the elevation angle is about 78.5°."
+  },
+  {
+    "question": "A cyclist rides a bicycle of wheel radius 0.5m. What is the distance moved by him after the wheel made 320 rotations?",
+    "options": [
+      "1004.8 m",
+      "502.4 m",
+      "1600 m",
+      "314 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: One rotation covers one circumference. Step 2: Circumference = 2πr = 2π × 0.5 = π m. Step 3: For 320 rotations, distance = 320π m. Step 4: Using π ≈ 3.14, distance ≈ 1004.8 m. Therefore, the distance moved is about 1004.8 m."
+  }
+]
