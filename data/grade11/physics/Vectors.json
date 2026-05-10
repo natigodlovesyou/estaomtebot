@@ -1,0 +1,695 @@
+[
+  {
+    "question": "A cyclist travels 6 km east and then 8 km north. Which statement about the displacement is correct?",
+    "options": [
+      "It is 14 km because path lengths add directly.",
+      "It is 2 km because the directions cancel.",
+      "It is 10 km because the two parts are perpendicular components.",
+      "It is 48 km because the distances are multiplied."
+    ],
+    "correct": 2,
+    "explanation": "Displacement is found by adding the two perpendicular components as vectors.\nStep 1: East component = 6 km\nStep 2: North component = 8 km\nStep 3: Resultant displacement = √(6² + 8²)\n= √(36 + 64)\n= √100\n= 10 km\nSo the correct statement is that the displacement is 10 km."
+  },
+  {
+    "question": "Which statement about speed and velocity is correct?",
+    "options": [
+      "Speed and velocity are both vectors.",
+      "Speed is scalar, while velocity is vector.",
+      "Speed is vector, while velocity is scalar.",
+      "Both are scalars because both describe motion."
+    ],
+    "correct": 1,
+    "explanation": "Speed has magnitude only, so it is a scalar.\nVelocity has both magnitude and direction, so it is a vector.\nTherefore, speed is scalar while velocity is vector."
+  },
+  {
+    "question": "Which one of the following pairs represent vectors?",
+    "options": [
+      "Density and displacement",
+      "Temperature and velocity",
+      "Force and velocity",
+      "Electric current and force"
+    ],
+    "correct": 2,
+    "explanation": "Check each pair carefully:\n- Density and temperature are scalars.\n- Displacement, force, and velocity are vectors.\nOnly Force and velocity are both vectors.\nAnswer: Force and velocity."
+  },
+  {
+    "question": "Which one of the following pairs represent scalars?",
+    "options": [
+      "Electric field and mass",
+      "Force and work",
+      "Temperature and current",
+      "Charge and force"
+    ],
+    "correct": 2,
+    "explanation": "Temperature is a scalar, and electric current is also treated as a scalar in this level.\nThe other options contain at least one vector quantity.\nAnswer: Temperature and current."
+  },
+  {
+    "question": "Two vectors lie on the same line, have the same magnitude, but point in opposite directions. Which statement is true?",
+    "options": [
+      "They are equal vectors.",
+      "They are negative of each other.",
+      "They are unit vectors.",
+      "They are zero vectors."
+    ],
+    "correct": 1,
+    "explanation": "Vectors with equal magnitudes but opposite directions are negatives of each other.\nThey are not equal vectors because equal vectors must have the same direction too."
+  },
+  {
+    "question": "Three forces act on the same ring and all meet at one point. Which term best describes them?",
+    "options": [
+      "Parallel forces",
+      "Coplanar forces only",
+      "Collinear forces",
+      "Concurrent vectors"
+    ],
+    "correct": 3,
+    "explanation": "Concurrent vectors are vectors whose lines of action meet at one point.\nSince all three forces act on the same ring at the same point, they are concurrent."
+  },
+  {
+    "question": "Three displacement vectors all lie in the same sheet of paper. Which statement is correct?",
+    "options": [
+      "They are collinear.",
+      "They are concurrent.",
+      "They must have equal magnitudes.",
+      "They are coplanar."
+    ],
+    "correct": 3,
+    "explanation": "Vectors that lie in the same plane are coplanar.\nA sheet of paper represents one plane, so the vectors are coplanar."
+  },
+  {
+    "question": "A vector is shifted without turning or stretching. Which property changes?",
+    "options": [
+      "Magnitude only",
+      "Direction only",
+      "Both magnitude and direction",
+      "Neither magnitude nor direction"
+    ],
+    "correct": 3,
+    "explanation": "Translation moves a vector without changing its length or direction.\nSo neither the magnitude nor the direction changes."
+  },
+  {
+    "question": "A particle is at point (-4, 3) relative to the origin. Which expression gives its position vector?",
+    "options": [
+      "4i + 3j",
+      "-4i - 3j",
+      "-4i + 3j",
+      "3i - 4j"
+    ],
+    "correct": 2,
+    "explanation": "A position vector is written using the coordinates of the point.\nFor point (-4, 3), the x-component is -4 and the y-component is 3.\nSo the position vector is -4i + 3j."
+  },
+  {
+    "question": "What are the components of a 400 N force acting at an angle of 37° above the horizontal?",
+    "options": [
+      "Fx = 240 N, Fy = 320 N",
+      "Fx = 320 N, Fy = 240 N",
+      "Fx = 400 N, Fy = 0 N",
+      "Fx = 0 N, Fy = 400 N"
+    ],
+    "correct": 1,
+    "explanation": "Given: F = 400 N and θ = 37°.\nStep 1: Resolve along x-axis: Fx = F cos θ = 400 cos 37° = 400(0.8) = 320 N.\nStep 2: Resolve along y-axis: Fy = F sin θ = 400 sin 37° = 400(0.6) = 240 N.\nAnswer: Fx = 320 N, Fy = 240 N."
+  },
+  {
+    "question": "A bird flies 4 m/s due east and then 3 m/s due south. What is the resultant velocity?",
+    "options": [
+      "7 m/s, 37° north of east",
+      "1 m/s, 53° south of east",
+      "5 m/s, 53° west of south",
+      "5 m/s, 37° south of east"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Use the east component as 4 m/s and the south component as 3 m/s.\nStep 2: Resultant magnitude R = √(4² + 3²) = √25 = 5 m/s.\nStep 3: Direction θ = tan⁻¹(3/4) ≈ 37°.\nSo the direction is 37° south of east.\nAnswer: 5 m/s, 37° south of east."
+  },
+  {
+    "question": "A force of 500 N acts vertically upward. What are its components?",
+    "options": [
+      "Fx = 500 N, Fy = 0 N",
+      "Fx = 0 N, Fy = 500 N",
+      "Fx = 250 N, Fy = 250 N",
+      "Fx = 500 N, Fy = 500 N"
+    ],
+    "correct": 1,
+    "explanation": "A vertical upward force makes an angle of 90° with the x-axis.\nSo Fx = F cos 90° = 0 N and Fy = F sin 90° = 500 N.\nAnswer: Fx = 0 N, Fy = 500 N."
+  },
+  {
+    "question": "A force of 600 N acts at 53° below the positive x-axis. Find its components.",
+    "options": [
+      "Fx = 480 N right, Fy = 360 N down",
+      "Fx = 360 N right, Fy = 480 N down",
+      "Fx = 600 N right, Fy = 0 N",
+      "Fx = 0 N, Fy = 600 N down"
+    ],
+    "correct": 1,
+    "explanation": "Given: F = 600 N and θ = 53° below the +x-axis.\nStep 1: Horizontal component: Fx = 600 cos 53° = 600(0.6) = 360 N.\nStep 2: Vertical component: Fy = -600 sin 53° = -600(0.8) = -480 N.\nThe negative sign means downward.\nAnswer: Fx = 360 N right, Fy = 480 N down."
+  },
+  {
+    "question": "A farmer applies 100 N at 53° to the handle while oxen pull a yoke with 1500 N. Find the resultant force.",
+    "options": [
+      "Resultant = 1260 N, 33°",
+      "Resultant = 1503 N, 33°",
+      "Resultant = 820 N, 33°",
+      "Resultant = 1503 N, 57°"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Resolve the 1500 N force into components using 37° and 53° angles.\nFx = 1500 cos 37° + 100 cos 53° = 1500(0.8) + 100(0.6) = 1260 N.\nFy = 1500 sin 37° - 100 sin 53° = 1500(0.6) - 100(0.8) = 820 N.\nStep 2: Resultant magnitude:\nR = √(1260² + 820²) ≈ 1503 N.\nStep 3: Direction:\nθ = tan⁻¹(820/1260) ≈ 33°.\nAnswer: Resultant = 1503 N, 33°."
+  },
+  {
+    "question": "Which pair of forces cannot give a resultant of 5 N?",
+    "options": [
+      "1 N and 7 N",
+      "1 N and 4 N",
+      "2 N and 3 N",
+      "2 N and 7 N"
+    ],
+    "correct": 0,
+    "explanation": "For two forces A and B, the resultant R must satisfy |A − B| ≤ R ≤ A + B.\nFor 1 N and 7 N, the possible resultant range is 6 N to 8 N.\nSince 5 N is outside that range, it cannot be the resultant.\nAnswer: 1 N and 7 N."
+  },
+  {
+    "question": "A vector of magnitude 20 is added to a vector of magnitude 25. Which of the following can be the magnitude of the resultant?",
+    "options": [
+      "4",
+      "5",
+      "46",
+      "50"
+    ],
+    "correct": 1,
+    "explanation": "For two vectors with magnitudes 20 and 25, the resultant must satisfy:\n|20 − 25| ≤ R ≤ 20 + 25\nSo, 5 ≤ R ≤ 45.\nOnly 5 is possible among the choices.\nAnswer: 5."
+  },
+  {
+    "question": "A bus moves 600 m due east and then 800 m at 53° north of east. What is the horizontal component of the total displacement?",
+    "options": [
+      "1080 m",
+      "1000 m",
+      "200 m",
+      "1240 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Horizontal part of the second displacement = 800 cos 53° = 800(0.6) = 480 m.\nStep 2: Add the first eastward displacement: 600 m + 480 m = 1080 m.\nAnswer: 1080 m."
+  },
+  {
+    "question": "Two vectors have magnitudes 12 and 12 and point in the same direction. Which statement is correct?",
+    "options": [
+      "They are negative vectors.",
+      "They are equal vectors.",
+      "They are orthogonal vectors.",
+      "They are zero vectors."
+    ],
+    "correct": 1,
+    "explanation": "Equal vectors must have the same magnitude and the same direction.\nSince both vectors have magnitude 12 and point in the same direction, they are equal vectors."
+  },
+  {
+    "question": "If two vectors are equal in magnitude and opposite in direction, what is their sum?",
+    "options": [
+      "A vector of double magnitude",
+      "A unit vector",
+      "A scalar",
+      "Zero vector"
+    ],
+    "correct": 3,
+    "explanation": "Equal and opposite vectors cancel each other.\nTheir resultant is the zero vector."
+  },
+  {
+    "question": "Which statement about a negative vector is correct?",
+    "options": [
+      "It has the same direction as the original vector.",
+      "It always has zero magnitude.",
+      "It has the same magnitude but opposite direction.",
+      "It must lie in a different plane."
+    ],
+    "correct": 2,
+    "explanation": "A negative vector has the same magnitude as the original vector but points in the opposite direction."
+  },
+  {
+    "question": "Which statement about a unit vector is correct?",
+    "options": [
+      "Its magnitude is 1 and it points in a definite direction.",
+      "Its magnitude is 0 and direction is undefined.",
+      "It must have no direction.",
+      "Its magnitude depends on the chosen unit."
+    ],
+    "correct": 0,
+    "explanation": "A unit vector is a vector of magnitude 1.\nIt shows direction only, with unit length."
+  },
+  {
+    "question": "What is the magnitude of a vector with components x = -30 units and y = 40 units?",
+    "options": [
+      "30 units",
+      "50 units",
+      "40 units",
+      "60 units"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Use Pythagoras' theorem for the magnitude.\nA = √(x² + y²)\nA = √((-30)² + 40²)\nA = √(900 + 1600)\nA = √2500\nA = 50 units.\nAnswer: 50 units."
+  },
+  {
+    "question": "Given A = 30 units north and A + B = 10 units south, find B.",
+    "options": [
+      "40 units north",
+      "20 units south",
+      "70 units south",
+      "40 units south"
+    ],
+    "correct": 3,
+    "explanation": "Take north as positive and south as negative.\nA + B = -10\n30 + B = -10\nB = -40\nThe negative sign means south.\nAnswer: 40 units south."
+  },
+  {
+    "question": "Vector p has magnitude 5 m and points south. What are the magnitude and direction of 3p, -3p, and -(1/5)p?",
+    "options": [
+      "A: 15 m south, B: 15 m north, C: 1 m north",
+      "A: 15 m north, B: 15 m south, C: 1 m south",
+      "A: 10 m south, B: 10 m north, C: 1 m north",
+      "A: 15 m south, B: 5 m north, C: 1 m north"
+    ],
+    "correct": 0,
+    "explanation": "p = 5 m south.\nA) 3p = 3 × 5 = 15 m south.\nB) -3p reverses the direction, so it becomes 15 m north.\nC) -(1/5)p = 1 m in the opposite direction, so it is 1 m north.\nAnswer: A: 15 m south, B: 15 m north, C: 1 m north."
+  },
+  {
+    "question": "Two non-zero vectors A and B are related by A = cB, where c is a scalar. If A and B point in opposite directions, what must be true about c?",
+    "options": [
+      "c is positive",
+      "c = 1",
+      "c = 0",
+      "c is negative"
+    ],
+    "correct": 3,
+    "explanation": "If one vector is a scalar multiple of the other and they point in opposite directions, the scalar must be negative.\nA negative scalar reverses direction.\nAnswer: c is negative."
+  },
+  {
+    "question": "Find the dot product of A = (3, 4) and B = (4, 3).",
+    "options": [
+      "24",
+      "12",
+      "17",
+      "7"
+    ],
+    "correct": 0,
+    "explanation": "Use the dot-product formula:\nA · B = AxBx + AyBy\n= (3)(4) + (4)(3)\n= 12 + 12\n= 24\nAnswer: 24."
+  },
+  {
+    "question": "What is the work done when a horizontal force of 3.5 N moves a box 10.5 m along the same direction?",
+    "options": [
+      "3.75 J",
+      "31.5 J",
+      "37.5 J",
+      "36.75 J"
+    ],
+    "correct": 3,
+    "explanation": "Work done is W = Fs cos θ.\nHere the force and displacement are in the same direction, so θ = 0° and cos 0° = 1.\nW = (3.5)(10.5)(1) = 36.75 J.\nAnswer: 36.75 J."
+  },
+  {
+    "question": "What is A · B where A = (3, -1) and B = (5, 2)?",
+    "options": [
+      "17",
+      "13",
+      "11",
+      "−13"
+    ],
+    "correct": 1,
+    "explanation": "Use A · B = AxBx + AyBy.\nA · B = (3)(5) + (-1)(2) = 15 - 2 = 13.\nAnswer: 13."
+  },
+  {
+    "question": "Given A = (2, -4) and B = (4, 2), what is the angle between the vectors?",
+    "options": [
+      "0°",
+      "30°",
+      "90°",
+      "45°"
+    ],
+    "correct": 2,
+    "explanation": "First find the dot product:\nA · B = (2)(4) + (-4)(2) = 8 - 8 = 0.\nIf the dot product is zero, the vectors are perpendicular.\nSo the angle is 90°.\nAnswer: 90°."
+  },
+  {
+    "question": "Given A = 4i - 3j and B = 2i + j, find C if A + B - C = 0, and also find the unit vector along A.",
+    "options": [
+      "C = 6i + 2j, and unit vector along A = (4i + 3j)/5",
+      "C = 6i - 2j, and unit vector along A = (4i - 3j)/5",
+      "C = 2i - 6j, and unit vector along A = (3i - 4j)/5",
+      "C = 8i - 2j, and unit vector along A = (4i - 3j)/4"
+    ],
+    "correct": 1,
+    "explanation": "From A + B - C = 0, we get C = A + B.\nC = (4i - 3j) + (2i + j) = 6i - 2j.\nFor the unit vector along A:\n|A| = √(4² + (-3)²) = √25 = 5.\nUnit vector = A/|A| = (4i - 3j)/5.\nAnswer: C = 6i - 2j, and unit vector along A = (4i - 3j)/5."
+  },
+  {
+    "question": "Find the angle between A = 3i - j and B = i - 2j.",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1,
+    "explanation": "A · B = (3)(1) + (-1)(-2) = 3 + 2 = 5.\n|A| = √(3² + (-1)²) = √10.\n|B| = √(1² + (-2)²) = √5.\ncos θ = (A · B) / (|A||B|) = 5 / (√10 × √5) = 1/√2.\nSo θ = 45°.\nAnswer: 45°."
+  },
+  {
+    "question": "Given A = 5i - 3j and B = 2i + j, find the angle that A + B makes with the positive x-axis.",
+    "options": [
+      "16°",
+      "45°",
+      "30°",
+      "60°"
+    ],
+    "correct": 0,
+    "explanation": "A + B = (5i - 3j) + (2i + j) = 7i - 2j.\nThe vector lies below the positive x-axis.\nThe angle magnitude is tan⁻¹(|-2|/7) = tan⁻¹(2/7) ≈ 16°.\nAnswer: 16°."
+  },
+  {
+    "question": "Find a vector of magnitude 10 units pointing along A = 3i + 4j.",
+    "options": [
+      "8i + 6j",
+      "3i + 4j",
+      "12i + 16j",
+      "6i + 8j"
+    ],
+    "correct": 3,
+    "explanation": "First find the magnitude of A:\n|A| = √(3² + 4²) = 5.\nUnit vector along A = (3i + 4j)/5.\nA vector of magnitude 10 in the same direction is:\n10 × (3i + 4j)/5 = 6i + 8j.\nAnswer: 6i + 8j."
+  },
+  {
+    "question": "What is the unit vector in the direction of A = 2i - j?",
+    "options": [
+      "(1/√5)(2i + j)",
+      "(1/√5)(2i - j)",
+      "(1/5)(2i - j)",
+      "(1/2)(2i - j)"
+    ],
+    "correct": 1,
+    "explanation": "|A| = √(2² + (-1)²) = √5.\nUnit vector = A/|A| = (2i - j)/√5 = (1/√5)(2i - j).\nAnswer: (1/√5)(2i - j)."
+  },
+  {
+    "question": "Given A = i - j and A + B is a unit vector along the positive x-axis, find B.",
+    "options": [
+      "i",
+      "-j",
+      "j",
+      "-i"
+    ],
+    "correct": 2,
+    "explanation": "A unit vector along the positive x-axis is i.\nSo A + B = i.\n(i - j) + B = i\nB = j.\nAnswer: j."
+  },
+  {
+    "question": "If 0.6i + mj is a unit vector in the first quadrant, what is m?",
+    "options": [
+      "-0.8",
+      "0.8",
+      "0.6",
+      "1.2"
+    ],
+    "correct": 1,
+    "explanation": "For a unit vector, the square of the components must add up to 1.\n(0.6)² + m² = 1\n0.36 + m² = 1\nm² = 0.64\nm = 0.8 or -0.8.\nBecause the vector is in the first quadrant, m must be positive.\nAnswer: 0.8."
+  },
+  {
+    "question": "Given A = 2i + 5j and B = i - 3j, find A + B and A - B.",
+    "options": [
+      "A + B = 3i - 2j, A - B = i + 4j",
+      "A + B = 2i + 2j, A - B = 3i + 8j",
+      "A + B = 4i - 2j, A - B = i + 4j",
+      "A + B = 3i + 2j, A - B = i + 8j"
+    ],
+    "correct": 3,
+    "explanation": "Add the i-components and j-components separately.\nA + B = (2i + 5j) + (i - 3j) = 3i + 2j.\nA - B = (2i + 5j) - (i - 3j) = 2i + 5j - i + 3j = i + 8j.\nAnswer: A + B = 3i + 2j, A - B = i + 8j."
+  },
+  {
+    "question": "A car travels 20 km north and then 25 km at 60° west of north. What is the displacement of the car?",
+    "options": [
+      "39.05 km, 123.7°",
+      "32.5 km, 60°",
+      "21.65 km, 32.5°",
+      "50 km, 90°"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Resolve the second displacement.\nWest component = 25 sin 60° = 21.65 km west.\nNorth component = 25 cos 60° = 12.5 km north.\nStep 2: Combine components.\nTotal x = -21.65 km, total y = 20 + 12.5 = 32.5 km.\nStep 3: Magnitude.\nR = √((-21.65)² + 32.5²) ≈ 39.05 km.\nStep 4: Direction.\nThe angle from the positive x-axis is about 123.7°.\nAnswer: 39.05 km, 123.7°."
+  },
+  {
+    "question": "Given A = 4i + 2j and B = i - 5j, find A - B.",
+    "options": [
+      "5i - 3j",
+      "3i - 3j",
+      "3i + 7j",
+      "4i + 7j"
+    ],
+    "correct": 2,
+    "explanation": "Subtract component by component.\nA - B = (4i + 2j) - (i - 5j)\n= 4i + 2j - i + 5j\n= 3i + 7j.\nAnswer: 3i + 7j."
+  },
+  {
+    "question": "If 3A - B + C = 0, given A = -i + 2j and B = 3i - 2j, find C.",
+    "options": [
+      "C = -6i + 8j",
+      "C = 6i + 8j",
+      "C = 6i - 8j",
+      "C = -6i - 8j"
+    ],
+    "correct": 2,
+    "explanation": "Start from 3A - B + C = 0.\n3A = 3(-i + 2j) = -3i + 6j.\nThen 3A - B = (-3i + 6j) - (3i - 2j) = -6i + 8j.\nSo C = 6i - 8j.\nAnswer: C = 6i - 8j."
+  },
+  {
+    "question": "Given A = 3i + 6j and B = -2i - 4j, find a unit vector along A + B.",
+    "options": [
+      "(1/√5)(i - 2j)",
+      "(1/5)(i + 2j)",
+      "(1/√5)(i + 2j)",
+      "(1/2)(i + 2j)"
+    ],
+    "correct": 2,
+    "explanation": "A + B = (3i + 6j) + (-2i - 4j) = i + 2j.\n|A + B| = √(1² + 2²) = √5.\nUnit vector = (i + 2j)/√5 = (1/√5)(i + 2j).\nAnswer: (1/√5)(i + 2j)."
+  },
+  {
+    "question": "A force of 20 N east and a force of 20 N west act on the same body. Which statement is correct?",
+    "options": [
+      "The resultant is 40 N east.",
+      "The resultant is 20 N east.",
+      "The resultant is 0 N, so the forces cancel as vectors.",
+      "The resultant is 0 N, so the forces are scalars."
+    ],
+    "correct": 2,
+    "explanation": "The two forces have equal magnitudes and opposite directions.\nThey cancel each other as vectors.\nSo the resultant force is 0 N."
+  },
+  {
+    "question": "Which one of the following is a scalar quantity?",
+    "options": [
+      "Electric field strength",
+      "Acceleration",
+      "Magnetic field strength",
+      "Luminous intensity"
+    ],
+    "correct": 3,
+    "explanation": "Luminous intensity has magnitude only in this topic.\nThe other quantities listed have direction as well, so they are vectors.\nAnswer: Luminous intensity."
+  },
+  {
+    "question": "Which one of the following pairs contain scalar quantities?",
+    "options": [
+      "Work and temperature",
+      "Work and force",
+      "Weight and density",
+      "Weight and velocity"
+    ],
+    "correct": 0,
+    "explanation": "Work and temperature are both scalars.\nThe other pairs each contain at least one vector quantity.\nAnswer: Work and temperature."
+  },
+  {
+    "question": "Which one of the following pairs contain vector quantities?",
+    "options": [
+      "Speed and velocity",
+      "Force and temperature",
+      "Work and energy",
+      "Velocity and acceleration"
+    ],
+    "correct": 3,
+    "explanation": "Velocity and acceleration are both vectors.\nSpeed, temperature, work, and energy are scalars.\nAnswer: Velocity and acceleration."
+  },
+  {
+    "question": "If vectors A, B, and C satisfy A + B + C = 0, which statement is NOT equivalent?",
+    "options": [
+      "A + B = -C",
+      "C = -(A + B)",
+      "A = -(B + C)",
+      "A + B = C"
+    ],
+    "correct": 3,
+    "explanation": "From A + B + C = 0, any equivalent form must keep the same balance.\nA + B = -C, C = -(A + B), and A = -(B + C) are all correct.\nA + B = C is not equivalent.\nAnswer: A + B = C."
+  },
+  {
+    "question": "If three vectors A, B, and C form a closed triangle when joined head to tail, what is their resultant?",
+    "options": [
+      "Zero",
+      "A + B + C",
+      "Maximum",
+      "Undefined"
+    ],
+    "correct": 0,
+    "explanation": "A closed triangle means the vectors return to the starting point.\nSo the net displacement is zero.\nAnswer: Zero."
+  },
+  {
+    "question": "How do two vectors give the maximum resultant?",
+    "options": [
+      "When they act in opposite directions.",
+      "When they act in the same direction.",
+      "When they are perpendicular.",
+      "When one is zero."
+    ],
+    "correct": 1,
+    "explanation": "The resultant is largest when the angle between the vectors is 0°.\nThat means they act in the same direction.\nAnswer: When they act in the same direction."
+  },
+  {
+    "question": "How do you add two vectors to get the least magnitude?",
+    "options": [
+      "When they act in the same direction.",
+      "When they are perpendicular.",
+      "When they act in opposite directions.",
+      "When they are at 60°."
+    ],
+    "correct": 2,
+    "explanation": "The smallest resultant occurs when the angle between the vectors is 180°.\nThat is when the vectors act in opposite directions.\nAnswer: When they act in opposite directions."
+  },
+  {
+    "question": "Can vectors of different physical kinds be added directly?",
+    "options": [
+      "No. They cannot be added directly.",
+      "Yes, by adding magnitudes only.",
+      "Yes, if they are perpendicular.",
+      "Yes, if one is larger."
+    ],
+    "correct": 0,
+    "explanation": "Only vectors of the same physical kind can be added meaningfully.\nFor example, force can be added to force, but force cannot be added to displacement.\nAnswer: No. They cannot be added directly."
+  },
+  {
+    "question": "Can the dot product of two vectors be a vector quantity?",
+    "options": [
+      "Yes, it is a vector.",
+      "Yes, if the angle is 90°.",
+      "No. The dot product of two vectors is always a scalar.",
+      "Only sometimes."
+    ],
+    "correct": 2,
+    "explanation": "The dot product combines two vectors and produces a scalar quantity.\nIts value has no direction.\nAnswer: No. The dot product of two vectors is always a scalar."
+  },
+  {
+    "question": "What is the scalar product of two collinear vectors?",
+    "options": [
+      "0",
+      "1",
+      "|A| + |B|",
+      "|A||B| or −|A||B|"
+    ],
+    "correct": 3,
+    "explanation": "For collinear vectors, the angle between them is 0° or 180°.\nSo A · B = |A||B| cos θ, which gives either +|A||B| or −|A||B|.\nAnswer: |A||B| or −|A||B|."
+  },
+  {
+    "question": "What is the scalar product of two orthogonal vectors?",
+    "options": [
+      "|A||B|",
+      "|A| + |B|",
+      "0",
+      "−|A||B|"
+    ],
+    "correct": 2,
+    "explanation": "Orthogonal vectors are at 90°.\nSince cos 90° = 0, A · B = |A||B| cos 90° = 0.\nAnswer: 0."
+  },
+  {
+    "question": "If a vector has initial coordinate (5, 2) and final coordinate (-2, -3), what is its magnitude?",
+    "options": [
+      "√74 units",
+      "√49 units",
+      "√25 units",
+      "√124 units"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Find the change in x and y.\nΔx = -2 - 5 = -7\nΔy = -3 - 2 = -5\nStep 2: Use the distance formula.\nMagnitude = √((-7)² + (-5)²) = √(49 + 25) = √74.\nAnswer: √74 units."
+  },
+  {
+    "question": "What are the components of a force of magnitude 50 N acting at an angle of 37° above the horizontal?",
+    "options": [
+      "Fx = 30 N, Fy = 40 N",
+      "Fx = 50 N, Fy = 0 N",
+      "Fx = 0 N, Fy = 50 N",
+      "Fx = 40 N, Fy = 30 N"
+    ],
+    "correct": 3,
+    "explanation": "Given: F = 50 N and θ = 37°.\nFx = F cos θ = 50 cos 37° = 50(0.8) = 40 N.\nFy = F sin θ = 50 sin 37° = 50(0.6) = 30 N.\nAnswer: Fx = 40 N, Fy = 30 N."
+  },
+  {
+    "question": "What is the dot product of A = (3, 5) and B = (4, 7)?",
+    "options": [
+      "47",
+      "12",
+      "35",
+      "20"
+    ],
+    "correct": 0,
+    "explanation": "A · B = AxBx + AyBy\n= (3)(4) + (5)(7)\n= 12 + 35\n= 47.\nAnswer: 47."
+  },
+  {
+    "question": "What should the value of λ be so that A = (2, 5) and B = (10, λ) are perpendicular?",
+    "options": [
+      "λ = -4",
+      "λ = 4",
+      "λ = 0",
+      "λ = 2"
+    ],
+    "correct": 0,
+    "explanation": "Perpendicular vectors satisfy A · B = 0.\n(2)(10) + (5)(λ) = 0\n20 + 5λ = 0\n5λ = -20\nλ = -4.\nAnswer: λ = -4."
+  },
+  {
+    "question": "Three vectors A, B, and C satisfy A + B + C = 0. Which statement is NOT equivalent?",
+    "options": [
+      "A + B = -C",
+      "C = -(A + B)",
+      "A = C - B",
+      "A + B = C"
+    ],
+    "correct": 3,
+    "explanation": "From A + B + C = 0, we get A + B = -C.\nSo A + B = C is not equivalent unless C is zero, which is not assumed."
+  },
+  {
+    "question": "If vectors A, B, C, D, and E are joined head to tail and the closing vector is F, what is A + B + C + D + E?",
+    "options": [
+      "A",
+      "F",
+      "B",
+      "Zero vector"
+    ],
+    "correct": 1,
+    "explanation": "In a head-to-tail polygon, the sum of the first vectors equals the closing vector.\nSo A + B + C + D + E = F.\nAnswer: F."
+  },
+  {
+    "question": "What is the magnitude of a vector with x-component 8 units and y-component 6 units?",
+    "options": [
+      "14 units",
+      "8 units",
+      "10 units",
+      "6 units"
+    ],
+    "correct": 2,
+    "explanation": "Use Pythagoras' theorem.\nMagnitude = √(8² + 6²) = √(64 + 36) = √100 = 10 units.\nAnswer: 10 units."
+  },
+  {
+    "question": "Three forces act on a block: 200 N at 37° above the horizontal to the right, 100 N to the left, and 50 N upward. What is the resultant force?",
+    "options": [
+      "180.27 N",
+      "170 N",
+      "60 N",
+      "250 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Resolve the 200 N force.\nFx = 200 cos 37° = 200(0.8) = 160 N\nFy = 200 sin 37° = 200(0.6) = 120 N\nStep 2: Add the other forces.\nNet Fx = 160 - 100 = 60 N\nNet Fy = 120 + 50 = 170 N\nStep 3: Resultant magnitude.\nR = √(60² + 170²) = √32500 ≈ 180.27 N\nAnswer: 180.27 N."
+  },
+  {
+    "question": "A horse displaces a cart 300 m horizontally by applying a force of 800 N at 37° to the horizontal. What is the work done?",
+    "options": [
+      "192000 J",
+      "96000 J",
+      "240000 J",
+      "80000 J"
+    ],
+    "correct": 0,
+    "explanation": "Work done is W = Fs cos θ.\nW = (800)(300) cos 37°\nW = 240000(0.8)\nW = 192000 J.\nAnswer: 192000 J."
+  },
+  {
+    "question": "What should the other component of a 500 N force be if one component is 300 N?",
+    "options": [
+      "300 N",
+      "200 N",
+      "400 N",
+      "500 N"
+    ],
+    "correct": 2,
+    "explanation": "Use the Pythagorean relation for perpendicular components.\n500² = 300² + F²\n250000 = 90000 + F²\nF² = 160000\nF = 400 N.\nAnswer: 400 N."
+  }
+]
