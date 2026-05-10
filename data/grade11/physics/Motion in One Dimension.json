@@ -1,0 +1,1124 @@
+[
+  {
+    "question": "Where will be the final position of a body if it is displaced by 7m to the right from an initial position of -3m?",
+    "options": [
+      "4 m to the left",
+      "7 m to the right",
+      "7 m to the left",
+      "4 m to the right"
+    ],
+    "correct": 3,
+    "explanation": "Use S_f = S_i + ΔS.\nS_f = -3 + 7 = 4 m.\nSo the final position is 4 m to the right."
+  },
+  {
+    "question": "What is the displacement of a body if it is displaced from an initial position of Si = 3m to a final position of Sf = -2m?",
+    "options": [
+      "5 m to the right",
+      "2 m to the left",
+      "5 m to the left",
+      "3 m to the right"
+    ],
+    "correct": 2,
+    "explanation": "Displacement is\nΔS = Sf - Si = -2 - 3 = -5 m.\nSo the displacement is 5 m to the left."
+  },
+  {
+    "question": "A runner moves 6 m east, then 8 m north, then 4 m west. What are the total distance traveled and the magnitude of the displacement?",
+    "options": [
+      "Distance = 14 m; displacement ≈ 8.25 m",
+      "Distance = 18 m; displacement ≈ 8.25 m",
+      "Distance = 18 m; displacement = 10 m",
+      "Distance = 18 m; displacement = 6 m"
+    ],
+    "correct": 1,
+    "explanation": "Distance is the total path length.\nDistance = 6 + 8 + 4 = 18 m.\nFor displacement, combine components:\nNet east = 6 - 4 = 2 m\nNet north = 8 m\nDisplacement magnitude = √(2² + 8²) = √68 ≈ 8.25 m."
+  },
+  {
+    "question": "A particle starts from the origin and moved 2 cm to the right and then 9 cm to the left. What is its: A. Distance travelled B. Displacement",
+    "options": [
+      "Distance = 9 cm; Displacement = 11 cm to the left",
+      "Distance = 13 cm; Displacement = 7 cm to the right",
+      "Distance = 11 cm; Displacement = 7 cm to the left",
+      "Distance = 11 cm; Displacement = 7 cm to the right"
+    ],
+    "correct": 2,
+    "explanation": "Distance travelled = 2 + 9 = 11 cm.\nDisplacement = 2 cm right and 9 cm left, so net = 7 cm to the left."
+  },
+  {
+    "question": "An athlete performs his training in a circular track of radius 100m. After 10 complete revolutions, what is the athlete's: A. Distance moved B. Displacement",
+    "options": [
+      "A. 4000π m = 6280 m; B. zero",
+      "A. 1000π m = 6280 m; B. zero",
+      "A. 2000π m = 6280 m; B. zero",
+      "A. 2001π m = 6280 m; B. zero"
+    ],
+    "correct": 2,
+    "explanation": "A. S = 10(2πr) = 10(2π × 100) = 2000π m = 6280m\nB. ΔS = zero (returns to start)"
+  },
+  {
+    "question": "A girl starting from her home moved 400m due east and then 300m due north to a supermarket. What is the girl's: A. Distance covered B. Displacement",
+    "options": [
+      "A. 1400 m; B. 53° north of east",
+      "A. 700 m; B. 53° north of east",
+      "A. 350 m; B. 53° north of east",
+      "A. 701 m; B. 53° north of east"
+    ],
+    "correct": 1,
+    "explanation": "A. S = S1 + S2 = 400 + 300 = 700m\nB. S = √(400² + 300²) = √(160000 + 90000) = 500m, θ = tan⁻¹(0.75) = 53° north of east"
+  },
+  {
+    "question": "A student walks 30 m east, then 20 m west, then 10 m east in 12 s. What are the average speed and average velocity?",
+    "options": [
+      "Average speed = 4 m/s; average velocity ≈ 1.67 m/s east",
+      "Average speed = 5 m/s; average velocity ≈ 1.67 m/s east",
+      "Average speed = 5 m/s; average velocity = 0 m/s",
+      "Average speed = 2.5 m/s; average velocity ≈ 1.67 m/s east"
+    ],
+    "correct": 1,
+    "explanation": "Total distance = 30 + 20 + 10 = 60 m.\nAverage speed = total distance / total time = 60/12 = 5 m/s.\nNet displacement = 30 - 20 + 10 = 20 m east.\nAverage velocity = displacement / time = 20/12 ≈ 1.67 m/s east."
+  },
+  {
+    "question": "Under what condition will average velocity of a body be the same as its average speed?",
+    "options": [
+      "When the body moves in a circle at constant speed.",
+      "When the body stops for a moment.",
+      "When the body moves faster every second.",
+      "When the body moves in a straight line without changing direction."
+    ],
+    "correct": 3,
+    "explanation": "Average velocity and average speed are the same when distance and displacement have the same magnitude.\nThat happens for straight-line motion without a change in direction."
+  },
+  {
+    "question": "A car moves around a circular track at constant speed. Which statement is correct?",
+    "options": [
+      "Its velocity is constant because the speed is constant.",
+      "Its acceleration is zero because the speed is constant.",
+      "Its speed is constant, but its velocity changes because the direction changes.",
+      "Its displacement keeps increasing in a straight line."
+    ],
+    "correct": 2,
+    "explanation": "Speed may stay constant in circular motion, but velocity changes because velocity depends on both magnitude and direction.\nSince direction changes, acceleration is not zero."
+  },
+  {
+    "question": "A body changes its position from Si = -2m to Sf = 10m in 4 seconds. What is the average velocity of the body?",
+    "options": [
+      "6 m/s",
+      "1.5 m/s",
+      "3 m/s",
+      "4 m/s"
+    ],
+    "correct": 2,
+    "explanation": "V_av = ΔS/Δt = (Sf - Si)/Δt = (10 - (-2))/4 = 12/4 = 3 m/s"
+  },
+  {
+    "question": "A body moved 100m to the right and 40m to the left in 10 seconds. What is the body's: A. Average speed B. Average velocity",
+    "options": [
+      "A. 28 m/s; B. 6 m/s",
+      "A. 7 m/s; B. 6 m/s",
+      "A. 15 m/s; B. 6 m/s",
+      "A. 14 m/s; B. 6 m/s"
+    ],
+    "correct": 3,
+    "explanation": "A. V_av = S_T/t = (S1 + S2)/t = (100 + 40)/10 = 14 m/s\nB. V_av = ΔS/Δt = (100 - 40)/10 = 6 m/s"
+  },
+  {
+    "question": "A man runs around a circular track of radius 100m and completes one revolution in 31.4 seconds. What is his: A. Average speed B. Average velocity",
+    "options": [
+      "A. 40 m/s; B. Zero",
+      "A. 20 m/s; B. Zero",
+      "A. 10 m/s; B. Zero",
+      "A. 21 m/s; B. Zero"
+    ],
+    "correct": 1,
+    "explanation": "A. Vav = ST/t = 2πr/t = 2(3.14)(100)/31.4 = 20 m/s\nB. Vav = ΔS/Δt = Zero (displacement is zero after one full revolution)"
+  },
+  {
+    "question": "A boy walks for 1 minute at a speed of 1m/s and then runs for 1 minute at 3m/s along a straight road. What is the average speed of the boy?",
+    "options": [
+      "4 m/s",
+      "1 m/s",
+      "2 m/s",
+      "3 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Vav = ST/tT = (S1 + S2)/(t1 + t2) = [(1)(60) + (3)(60)] / (60 + 60) = 2 m/s"
+  },
+  {
+    "question": "A train travels from one station to another at a speed of 40 km/h and returns to the first station at a speed of 60 km/h. Calculate the train's: A. Average speed B. Average velocity",
+    "options": [
+      "A. 96 km/h; B. Zero",
+      "A. 48 km/h; B. Zero",
+      "A. 24 km/h; B. Zero",
+      "A. 49 km/h; B. Zero"
+    ],
+    "correct": 1,
+    "explanation": "A. Vav = 2(v1v2)/(v1 + v2) = 2(40)(60)/(40 + 60) = 4800/100 = 48 km/h\nB. Vav = ΔS/Δt = Zero (returns to start)"
+  },
+  {
+    "question": "A body can have zero average velocity and nonzero average speed when it:",
+    "options": [
+      "Moves in a straight line without changing speed.",
+      "Returns to its starting point after moving for some time.",
+      "Remains at rest the whole time.",
+      "Moves only in the positive direction."
+    ],
+    "correct": 1,
+    "explanation": "Average velocity = displacement / time.\nIf the body returns to its starting point, displacement is zero, so average velocity is zero.\nBut the distance traveled is still nonzero, so average speed is nonzero."
+  },
+  {
+    "question": "Average velocity and instantaneous velocity are equal when a body is moving:",
+    "options": [
+      "On a circular path at constant speed.",
+      "With constant velocity in a straight line.",
+      "With changing speed but no change in direction.",
+      "Only when its displacement is zero."
+    ],
+    "correct": 1,
+    "explanation": "If velocity is constant, the instantaneous velocity is the same at every moment.\nThe average velocity over any time interval is then equal to that constant value."
+  },
+  {
+    "question": "The position of a body as a function of time is given by S(t) = 3t² - 2t, where displacement is in meters and time is in seconds. Find the body's: A. Average velocity in the time interval 1 ≤ t ≤ 3 B. Instantaneous velocity at t = 3 seconds",
+    "options": [
+      "A. 10 m/s; B. 6 t - 2; 16 m/s",
+      "A. 20 m/s; B. 6 t - 2; 16 m/s",
+      "A. 5 m/s; B. 6 t - 2; 16 m/s",
+      "A. 11 m/s; B. 6 t - 2; 16 m/s"
+    ],
+    "correct": 0,
+    "explanation": "A. Vav = ΔS/Δt = [S(3) - S(1)] / (3-1) = {[3(3)² - 2(3)] - [3(1)² - 2(1)]} / 2 = 10 m/s\nB. Vinst = dS/dt = 6t - 2\nat t = 3s, Vinst = 6(3) - 2 = 16 m/s"
+  },
+  {
+    "question": "A body moves along the x-axis in such a way that its distance as a function of time is S(t) = 12t - t². What is its: A. Distance moved during the first 3 seconds B. Instantaneous velocity at t = 4 seconds C. Time when direction changes",
+    "options": [
+      "A. 27 m; B. 4 m/s; C. 6 s",
+      "A. 24 m; B. 4 m/s; C. 5 s",
+      "A. 27 m; B. 2 m/s; C. 6 s",
+      "A. 30 m; B. 4 m/s; C. 6 s"
+    ],
+    "correct": 0,
+    "explanation": "A. S(3) = 12(3) - 3² = 36 - 9 = 27 m.\nB. v = dS/dt = 12 - 2t, so at t = 4 s, v = 12 - 8 = 4 m/s.\nC. Direction changes when v = 0:\n12 - 2t = 0 → t = 6 s."
+  },
+  {
+    "question": "What does it mean when we say a body is moving at a constant acceleration of 3m/s²?",
+    "options": [
+      "Velocity increases by 3 m/s every minute.",
+      "Distance increases by 3 m every second.",
+      "Velocity increases by 3 m/s every second.",
+      "Acceleration becomes zero after 3 s."
+    ],
+    "correct": 2,
+    "explanation": "Constant acceleration of 3 m/s² means the velocity changes by 3 m/s in every 1 s."
+  },
+  {
+    "question": "Can the acceleration of a body be zero while its velocity is non-zero?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Depends on the situation"
+    ],
+    "correct": 0,
+    "explanation": "Yes. This happens when the body moves at constant velocity."
+  },
+  {
+    "question": "What is the average acceleration of a body if its velocity changes from 10m/s to 30m/s in 5 seconds?",
+    "options": [
+      "8 m/s²",
+      "2 m/s²",
+      "4 m/s²",
+      "5 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "a = Δv/Δt = (v - u)/t = (30 - 10)/5 = 4 m/s²"
+  },
+  {
+    "question": "What will be the final velocity of a body if it uniformly accelerates at 3m/s² for 5 seconds starting from rest?",
+    "options": [
+      "15 m/s",
+      "30 m/s",
+      "7.5 m/s",
+      "16 m/s"
+    ],
+    "correct": 0,
+    "explanation": "v = u + at = 0 + (3)(5) = 15 m/s"
+  },
+  {
+    "question": "How long will a body take to reach a speed of 20m/s starting from rest if it constantly accelerates at 2m/s²?",
+    "options": [
+      "20 seconds",
+      "10 seconds",
+      "5 seconds",
+      "11 seconds"
+    ],
+    "correct": 1,
+    "explanation": "t = (v - u)/a = (20 - 0)/2 = 10 seconds"
+  },
+  {
+    "question": "If the velocity of a body as a function of time is given by v(t) = 4t - 2, where velocity is in meters per second and time is in seconds. Find the body's: A. Average acceleration in the time interval 1 ≤ t ≤ 3 B. Instantaneous acceleration at t = 2 seconds",
+    "options": [
+      "A. 8 m/s²; B. 4 m/s²",
+      "A. 4 m/s²; B. 4 m/s²",
+      "A. 2 m/s²; B. 4 m/s²",
+      "A. 5 m/s²; B. 4 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "A. a = Δv/Δt = [v(3) - v(1)] / (3-1) = {[4(3)-2] - [4(1)-2]} / 2 = 4 m/s²\nB. a-inst = dv/dt = 4 m/s² (constant). At 2 seconds, a-inst = 4 m/s²"
+  },
+  {
+    "question": "If the displacement of a body is given by x = 7t + 4t². What is its acceleration at t = 5 seconds?",
+    "options": [
+      "14 + 8 t; 8 m/s²",
+      "3.5 + 8 t; 8 m/s²",
+      "8 + 8 t; 8 m/s²",
+      "7 + 8 t; 8 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "V = dx/dt = 7 + 8t\na = dv/dt = d/dt(7 + 8t) = 8 m/s² (constant, independent of time)"
+  },
+  {
+    "question": "A car moves uniformly from rest to a speed of 36 km/h in 2 seconds. What is: A. Acceleration of the car B. Distance moved by the car",
+    "options": [
+      "A. 5 m/s²; B. 10 m",
+      "A. 10 m/s²; B. 10 m",
+      "A. 2.5 m/s²; B. 10 m",
+      "A. 6 m/s²; B. 10 m"
+    ],
+    "correct": 0,
+    "explanation": "A. a = (v - u)/t = (10 - 0)/2 = 5 m/s² (36 km/h = 10 m/s)\nB. S = ut + ½at² = 0 + ½(5)(2)² = 10m"
+  },
+  {
+    "question": "An airplane lands on a runway with a speed of 80m/s and stops after moving 1 km. A. What time did it take to stop? B. What is the deceleration of the plane?",
+    "options": [
+      "A. 50 seconds; B. -3.2 m/s²",
+      "A. 25 seconds; B. -3.2 m/s²",
+      "A. 12.5 seconds; B. -3.2 m/s²",
+      "A. 26 seconds; B. -3.2 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "A. S = [(v + u)/2] × t → 1000 = [(0 + 80)/2] × t → t = 25 seconds\nB. a = (v - u)/t = (0 - 80)/25 = -3.2 m/s²"
+  },
+  {
+    "question": "A car moving at 30m/s can decelerate at 9m/s² on a sunny day and 4.5m/s² on a rainy day. How far will the car move before stopping: A. In a sunny day B. In a rainy day",
+    "options": [
+      "A. 100 m; B. 100 m",
+      "A. 25 m; B. 100 m",
+      "A. 51 m; B. 100 m",
+      "A. 50 m; B. 100 m"
+    ],
+    "correct": 3,
+    "explanation": "A. V² = u² + 2as, v = 0: S = -u²/2a = -(30)²/[2(-9)] = 50m\nB. S = -(30)²/[2(-4.5)] = 100m"
+  },
+  {
+    "question": "An object starts from rest and moves with a constant acceleration of 4m/s² along a straight line. Find: A. The average velocity of the body in 5 seconds B. The distance moved in 5 seconds C. The distance moved in the 5th second",
+    "options": [
+      "A. 10 m/s; B. 100 m; C. 18 m",
+      "A. 20 m/s; B. 100 m; C. 18 m",
+      "A. 10 m/s; B. 80 m; C. 18 m",
+      "A. 10 m/s; B. 100 m; C. 12 m"
+    ],
+    "correct": 0,
+    "explanation": "Final velocity:\nv = u + at = 0 + (4)(5) = 20 m/s.\nA. Average velocity = (u + v)/2 = (0 + 20)/2 = 10 m/s.\nB. Distance = ut + 1/2at² = 0 + 1/2(4)(5²) = 100 m.\nC. Distance in the 5th second = u + (a/2)(2n - 1) = 0 + (4/2)(9) = 18 m."
+  },
+  {
+    "question": "A body slows uniformly from 18 m/s to 0 m/s in 6 s. What are its acceleration and the distance covered?",
+    "options": [
+      "a = -2.5 m/s²; distance = 54 m",
+      "a = -3 m/s²; distance = 45 m",
+      "a = 3 m/s²; distance = 54 m",
+      "a = -3 m/s²; distance = 54 m"
+    ],
+    "correct": 3,
+    "explanation": "Acceleration:\na = (v - u)/t = (0 - 18)/6 = -3 m/s².\nDistance:\ns = [(u + v)/2]t = [(18 + 0)/2](6) = 54 m."
+  },
+  {
+    "question": "A body slows uniformly from 18 m/s to 6 m/s in 4 s. How far does it travel in that time?",
+    "options": [
+      "48 m",
+      "42 m",
+      "54 m",
+      "36 m"
+    ],
+    "correct": 0,
+    "explanation": "For uniform acceleration, distance = average velocity × time.\nAverage velocity = (u + v)/2 = (18 + 6)/2 = 12 m/s.\nDistance = 12 × 4 = 48 m."
+  },
+  {
+    "question": "A ball is dropped from the top of a building and reached the ground after 4 seconds. What is: A. The height of the building B. The velocity with which it hits the ground",
+    "options": [
+      "A. 160 m; B. 40 m/s",
+      "A. 40 m; B. 40 m/s",
+      "A. 81 m; B. 40 m/s",
+      "A. 80 m; B. 40 m/s"
+    ],
+    "correct": 3,
+    "explanation": "A. y = ½gt² = ½(10)(4)² = 80m\nB. v = gt = (10)(4) = 40 m/s"
+  },
+  {
+    "question": "A stone is thrown vertically downward at a speed of 10m/s from a cliff of 40m height. What is: A. The speed of the stone at the ground level B. The time it takes to hit the ground",
+    "options": [
+      "A. 60 m/s; B. 2 seconds",
+      "A. 30 m/s; B. 2 seconds",
+      "A. 15 m/s; B. 2 seconds",
+      "A. 31 m/s; B. 2 seconds"
+    ],
+    "correct": 1,
+    "explanation": "A. V² = u² + 2gh = (10)² + 2(10)(40) = 900 → V = 30 m/s\nB. y = ut + ½gt² → 40 = 10t + 5t² → t² + 2t - 8 = 0 → t = 2 seconds"
+  },
+  {
+    "question": "A ball is thrown upward at a speed of 20m/s. What is: A. The maximum height reached by the ball B. The time it takes to reach the maximum height C. The speed of the ball at t = 3 seconds D. The time it takes the ball to return to the ground E. The speed with which the ball hits the ground",
+    "options": [
+      "A. 20 m; B. 2 s; C. 10 m/s downward; D. 4 s; E. 20 m/s",
+      "A. 10 m; B. 2 s; C. 10 m/s downward; D. 4 s; E. 20 m/s",
+      "A. 20 m; B. 4 s; C. 10 m/s downward; D. 2 s; E. 20 m/s",
+      "A. 20 m; B. 2 s; C. 20 m/s downward; D. 4 s; E. 20 m/s"
+    ],
+    "correct": 0,
+    "explanation": "A. Maximum height:\nh = u² / (2g) = 20² / (2×10) = 20 m.\nB. Time to reach maximum height:\nt = u/g = 20/10 = 2 s.\nC. Speed at t = 3 s:\nv = u - gt = 20 - 10(3) = -10 m/s, so speed = 10 m/s downward.\nD. Time to return:\nt = 2u/g = 4 s.\nE. Impact speed = initial speed = 20 m/s."
+  },
+  {
+    "question": "A particle is dropped from a height of 4m. In what time will the particle travel the first meter distance?",
+    "options": [
+      "1/√2 sec",
+      "1/√3 sec",
+      "1/√5 sec",
+      "1/2 sec"
+    ],
+    "correct": 2,
+    "explanation": "D. 1/√5 sec. (y = ½gt² → 1 = ½(10)t² → t = √(2/10) = 1/√5 sec)"
+  },
+  {
+    "question": "A ball released from a certain height falls 5m in one second. In 4 seconds, it will fall through:",
+    "options": [
+      "40m",
+      "80m",
+      "20m",
+      "10m"
+    ],
+    "correct": 1,
+    "explanation": "A. 80m. (y = ½gt² = ½(10)(4)² = 80m)"
+  },
+  {
+    "question": "A body is dropped from rest. Which ratio best matches the distances covered in the 1st, 2nd, and 3rd seconds?",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 3 : 5",
+      "1 : 4 : 9",
+      "3 : 5 : 7"
+    ],
+    "correct": 1,
+    "explanation": "For free fall from rest, distance covered in successive seconds follows the odd-number pattern.\nSo the first three seconds are in the ratio 1 : 3 : 5."
+  },
+  {
+    "question": "A body projected upward with a velocity u returns to the starting point in 4 seconds. The value of u is?",
+    "options": [
+      "5m/s",
+      "4m/s",
+      "20m/s",
+      "10m/s"
+    ],
+    "correct": 2,
+    "explanation": "C. 20m/s. (t = 2u/g → u = gt/2 = (10)(4)/2 = 20 m/s)"
+  },
+  {
+    "question": "An object moving with uniform acceleration has a velocity of 12m/s in the positive x-axis when it is 3m from the origin. If it is at 2 seconds later at -5m from the origin, what is its acceleration?",
+    "options": [
+      "-12m/s²",
+      "-13m/s²",
+      "12m/s²",
+      "-16m/s²"
+    ],
+    "correct": 3,
+    "explanation": "C. -16m/s². (ΔS = Sf - Si = -5 - 3 = -8m\nΔS = ut + ½at² → -8 = 12(2) + ½a(2)² → a = -16 m/s²)"
+  },
+  {
+    "question": "A driver moving at 20m/s sees an accident up ahead and hits the brakes. If the car decelerates at a constant rate of 5m/s², how far will the car go before it comes to a stop?",
+    "options": [
+      "120m",
+      "100m",
+      "40m",
+      "20m"
+    ],
+    "correct": 2,
+    "explanation": "C. 40m. (V² = u² + 2as, v = 0 → S = -u²/2a = -(20)²/[2(-5)] = 40m)"
+  },
+  {
+    "question": "A body moving with constant acceleration covers the distance between two points that are 60m apart in 5 sec. What is the acceleration of the body if its velocity at the second point is 15m/s?",
+    "options": [
+      "3m/s²",
+      "2.5m/s²",
+      "1.2m/s²",
+      "1.5m/s²"
+    ],
+    "correct": 2,
+    "explanation": "D. 1.2m/s². (S = [(v+u)/2]×t → 60 = [(15+u)/2]×5 → u = 9 m/s\na = (v-u)/t = (15-9)/5 = 1.2 m/s²)"
+  },
+  {
+    "question": "A car moves from point A to point B at a speed of 20m/s. It then returns at a speed of 30m/s to its initial position. What is the average speed of the car for the whole journey?",
+    "options": [
+      "24m/s",
+      "25m/s",
+      "50m/s",
+      "10m/s"
+    ],
+    "correct": 0,
+    "explanation": "C. 24m/s. (Vav = 2(v1v2)/(v1 + v2) = 2(20)(30)/(20 + 30) = 1200/50 = 24 m/s)"
+  },
+  {
+    "question": "A ball is thrown vertically upward with speed 30 m/s. How far does it move during the last 1 second before reaching the top?",
+    "options": [
+      "10 m",
+      "5 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "Time to reach the top:\nt = u/g = 30/10 = 3 s.\nDistance in 2 s:\ns(2) = 30(2) - 5(2²) = 40 m.\nDistance at the top:\ns(3) = 30(3) - 5(3²) = 45 m.\nLast second distance = 45 - 40 = 5 m."
+  },
+  {
+    "question": "A body starts from rest and accelerates at 2 m/s². How far does it move in the 5th second?",
+    "options": [
+      "10 m",
+      "8 m",
+      "12 m",
+      "9 m"
+    ],
+    "correct": 3,
+    "explanation": "Distance covered in the nth second is:\ns-n = u + (a/2)(2n - 1)\nHere, u = 0, a = 2, n = 5.\ns5 = 0 + (2/2)(2×5 - 1) = 9 m."
+  },
+  {
+    "question": "A body moving with 10m/s has a constant acceleration of 2m/s². In what time will the velocity of the body be doubled?",
+    "options": [
+      "10 second",
+      "20 second",
+      "30 second",
+      "5 second"
+    ],
+    "correct": 3,
+    "explanation": "A. 5 second. (V = u + at → 20 = 10 + 2t → t = 5 seconds)"
+  },
+  {
+    "question": "The initial velocity of a particle is 10 m/s and its acceleration is 2 m/s². The distance traveled in the 10th second is:",
+    "options": [
+      "19 m",
+      "39 m",
+      "29 m",
+      "21 m"
+    ],
+    "correct": 2,
+    "explanation": "Use the distance in the nth second formula:\nsn = u + (a/2)(2n - 1)\nWith u = 10, a = 2, n = 10:\ns10 = 10 + (2/2)(19) = 29 m."
+  },
+  {
+    "question": "A car at rest accelerates uniformly to reach a speed of 144 km/h. What time will it take to cover 400m?",
+    "options": [
+      "5 second",
+      "20 second",
+      "10 second",
+      "15 second"
+    ],
+    "correct": 1,
+    "explanation": "D. 20 seconds. (144 km/h = 40 m/s\nS = [(v+u)/2]×t → 400 = [(40+0)/2]×t → t = 20 seconds)"
+  },
+  {
+    "question": "A ball is thrown vertically upward with a speed of 18 km/h. What is the maximum height reached by the ball?",
+    "options": [
+      "1.25m",
+      "2.50m",
+      "3.15m",
+      "5m"
+    ],
+    "correct": 0,
+    "explanation": "A. 1.25m. (18 km/h = 5 m/s\nh = u²/2g = (5)²/[2(10)] = 25/20 = 1.25m)"
+  },
+  {
+    "question": "A ball thrown upward at a speed of 25m/s from a building takes 9 seconds to reach the ground. What is the height of the building?",
+    "options": [
+      "100m",
+      "220m",
+      "320m",
+      "180m"
+    ],
+    "correct": 3,
+    "explanation": "B. 180m. (y = -ut + ½gt² = -25(9) + ½(10)(9)² = -225 + 405 = 180m)"
+  },
+  {
+    "question": "Two bodies begin a free fall from rest from the same height, 1 second apart. How long after the first body began to fall will the bodies be 10m apart?",
+    "options": [
+      "1.5 second",
+      "3.5 second",
+      "2.5 second",
+      "0.5 second"
+    ],
+    "correct": 0,
+    "explanation": "C. 1.5 second. (y1 = ½gt²\ny2 = ½g(t-1)²\nΔy = y1 - y2 = 10m → t = 1.5 seconds)"
+  },
+  {
+    "question": "An aircraft decelerates at 0.5m/s². After 8 minutes, its velocity has dropped to 160m/s. What was the initial velocity of the craft?",
+    "options": [
+      "100m/s",
+      "400m/s",
+      "200m/s",
+      "300m/s"
+    ],
+    "correct": 1,
+    "explanation": "D. 400m/s. (u = v - at = 160 - (-0.5)(8×60) = 160 + 240 = 400 m/s)"
+  },
+  {
+    "question": "When brakes are applied to a car moving at 30m/s, it uniformly slowed down and stops in 5 seconds. How far does it go before coming to rest?",
+    "options": [
+      "50m",
+      "25m",
+      "5m",
+      "75m"
+    ],
+    "correct": 3,
+    "explanation": "A. 75m. (S = [(v+u)/2]×t = [(0+30)/2]×5 = 75m)"
+  },
+  {
+    "question": "A car accelerates uniformly from 20m/s to 60m/s through a displacement of 2000m. What is the acceleration of the car?",
+    "options": [
+      "0.5m/s²",
+      "0.8m/s²",
+      "5m/s²",
+      "8m/s²"
+    ],
+    "correct": 1,
+    "explanation": "B. 0.8m/s². (V² = u² + 2as → a = (v²-u²)/2s = (60²-20²)/[2(2000)] = 3200/4000 = 0.8 m/s²)"
+  },
+  {
+    "question": "A bullet is shot from a rifle with a speed of 20m/s and starts accelerating at a constant rate of 4m/s². If the target is located at 200m, how long will it take the bullet to hit the target?",
+    "options": [
+      "-6.18 second",
+      "6.18 second",
+      "-3.09 second",
+      "3.09 second"
+    ],
+    "correct": 1,
+    "explanation": "B. 6.18 second. (S = ut + ½at² → 200 = 20t + ½(4)t² → t² + 10t - 100 = 0 → t = (-10 + √(100 + 400))/2 = -5 + 5√5 = 6.18 seconds)"
+  },
+  {
+    "question": "The displacement-time history of a body is given below. What is the acceleration of the body?\n\nS(m): 0, 2, 8, 18, 32, 50\nt(sec): 0, 1, 2, 3, 4, 5",
+    "options": [
+      "4m/s²",
+      "2m/s²",
+      "3m/s²",
+      "-5m/s²"
+    ],
+    "correct": 0,
+    "explanation": "C. 4m/s². (S = ½at² at t = 5s: 50 = ½a(5)² → a = 4 m/s²)"
+  },
+  {
+    "question": "The velocity-time history of a body is given below. What is the distance moved by the body in 4 seconds?\n\nVelocity (m/s): 0, 3, 6, 9, 12\nTime (s): 0, 1, 2, 3, 4",
+    "options": [
+      "12m",
+      "6m",
+      "24m",
+      "2m"
+    ],
+    "correct": 2,
+    "explanation": "A. 24m. (S = [(u+v)/2]×t = [(0+12)/2]×4 = 24m)"
+  },
+  {
+    "question": "A stone is thrown vertically upward with an initial speed of 60m/s. The time it takes the stone to come back is?",
+    "options": [
+      "6 second",
+      "24 second",
+      "12 second",
+      "18 second"
+    ],
+    "correct": 2,
+    "explanation": "B. 12 second. (y = ut - ½gt², y = 0 when returned → 0 = 60t - ½(10)t² → t = 120/10 = 12 seconds)"
+  },
+  {
+    "question": "A uniformly moving train covered a 24 km distance in 10 minutes. How far can it travel within 1 hour and 30 minutes?",
+    "options": [
+      "144km",
+      "244km",
+      "345km",
+      "216km"
+    ],
+    "correct": 3,
+    "explanation": "D. 216km. (V = 24/(1/6) = 144 km/h\nS2 = V×t2 = 144 × 1.5 = 216 km)"
+  },
+  {
+    "question": "The displacement-time graph of a moving object is a straight line that makes an angle of 30° with the time-axis and passes through the origin. Then:",
+    "options": [
+      "Acceleration",
+      "Velocity",
+      "Speed",
+      "Displacement"
+    ],
+    "correct": 1,
+    "explanation": "The slope of a displacement-time graph gives velocity."
+  },
+  {
+    "question": "Which of the following is NOT correct about time?",
+    "options": [
+      "Since time evolves from past to future, it is a vector",
+      "It can be measured using pendulum motion",
+      "It can be measured using atomic clock",
+      "Time is a basic quantity"
+    ],
+    "correct": 0,
+    "explanation": "C. Since time evolves from past to future, it is a vector. (Time is a fundamental scalar quantity.)"
+  },
+  {
+    "question": "A particle starts from rest and moves with a constant acceleration of 2m/s² for the first two seconds and then moves for the next 4 seconds without accelerating. Finally it uniformly decelerates and comes to rest in 2 seconds. What is the distance travelled by the particle?",
+    "options": [
+      "16m",
+      "24m",
+      "32m",
+      "40m"
+    ],
+    "correct": 1,
+    "explanation": "B. 24m. (s = s1 + s2 + s3\ns1 = ½(2)(2)² = 4m\nv at end of phase 1 = 4 m/s\ns2 = 4×4 = 16m\ns3 = [(4+0)/2]×2 = 4m\nTotal = 4 + 16 + 4 = 24m)"
+  },
+  {
+    "question": "If a ball dropped from the top of a building reaches the ground after 3 seconds, what is the height of the building?",
+    "options": [
+      "30m",
+      "60m",
+      "90m",
+      "45m"
+    ],
+    "correct": 3,
+    "explanation": "B. 45m. (y = ½gt² = ½(10)(3)² = 45m)"
+  },
+  {
+    "question": "A car starts at x = 2 km. After 10 min it is at x = 8 km, and after 12 min it is at x = 6 km. What is the average velocity from t = 0 to t = 12 min?",
+    "options": [
+      "0.50 km/min",
+      "0.33 km/min",
+      "0.67 km/min",
+      "1.00 km/min"
+    ],
+    "correct": 1,
+    "explanation": "Average velocity depends only on initial and final positions.\nInitial position = 2 km, final position = 6 km.\nDisplacement = 6 - 2 = 4 km.\nAverage velocity = 4/12 = 0.33 km/min in the positive direction."
+  },
+  {
+    "question": "A ball is thrown upward into the air with a speed of 40m/s. What is the velocity and displacement of the ball after 2 seconds?",
+    "options": [
+      "10 m/s, 40 m",
+      "20 m/s, 60 m",
+      "30 m/s, 80 m",
+      "40 m/s, 100 m"
+    ],
+    "correct": 1,
+    "explanation": "Velocity after 2 s:\nv = u - gt = 40 - 10(2) = 20 m/s.\nDisplacement after 2 s:\ny = ut - 1/2gt² = 40(2) - 1/2(10)(2²) = 80 - 20 = 60 m."
+  },
+  {
+    "question": "Starting from rest, a car accelerates to 2m/s². How long will it take the car to speed up to 10m/s?",
+    "options": [
+      "5 seconds",
+      "10 seconds",
+      "2.5 seconds",
+      "6 seconds"
+    ],
+    "correct": 0,
+    "explanation": "t = v/a = 10/2 = 5 seconds"
+  },
+  {
+    "question": "A car moving at 20m/s slows down and stops in 10 seconds. What is: A. Deceleration of the car B. Distance moved by the car",
+    "options": [
+      "A. -4 m/s²; B. 100 m",
+      "A. -1 m/s²; B. 100 m",
+      "A. -2 m/s²; B. 100 m",
+      "A. 1 m/s²; B. 100 m"
+    ],
+    "correct": 2,
+    "explanation": "A. a = (v - u)/t = (0 - 20)/10 = -2 m/s²\nB. S = [(v+u)/2]×t = [(0+20)/2]×10 = 100m"
+  },
+  {
+    "question": "An automobile accelerates from rest to a speed of 72 km/h in 10 seconds. Find: A. The acceleration of the car B. The distance the car travels C. The deceleration of the car if it stops in 100m",
+    "options": [
+      "A. 4 m/s²; B. 100 m; C. -2 m/s²",
+      "A. 2 m/s²; B. 100 m; C. -2 m/s²",
+      "A. 1 m/s²; B. 100 m; C. -2 m/s²",
+      "A. 3 m/s²; B. 100 m; C. -2 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "A. a = (v - u)/t = (20 - 0)/10 = 2 m/s² (72 km/h = 20 m/s)\nB. S = [(u+v)/2]×t = [(0+20)/2]×10 = 100m\nC. V² = u² + 2as, v = 0 → a = -(20)²/[2(100)] = -2 m/s²"
+  },
+  {
+    "question": "A vehicle traveling at 20m/s stops in 200m. What is the deceleration of the car?",
+    "options": [
+      "-2 m/s²",
+      "-0.5 m/s²",
+      "0 m/s²",
+      "-1 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "V² = u² + 2as, v = 0 → a = -u²/2S = -(20)²/[2(200)] = -1 m/s²"
+  },
+  {
+    "question": "A ball is thrown upward at 20 m/s from the top of a 20 m high building. What is the height it rises above the top of the building, and how long does it take to hit the ground?",
+    "options": [
+      "20 m above the top; about 4.83 s",
+      "10 m above the top; about 4.83 s",
+      "20 m above the top; about 3.24 s",
+      "40 m above the top; about 4.83 s"
+    ],
+    "correct": 0,
+    "explanation": "Maximum rise above the launch point:\nh = u²/(2g) = 20²/(2×10) = 20 m.\nTo hit the ground:\n0 = 20 + 20t - 5t²\n5t² - 20t - 20 = 0\nPositive root gives t ≈ 4.83 s."
+  },
+  {
+    "question": "A ball is thrown vertically upward with a velocity of 10m/s from a tower of 20m above the ground. Find: A. The time required for the ball to hit the ground B. The velocity with which the ball hits the ground",
+    "options": [
+      "1.00 s; 22.4 m/s",
+      "3.24 s; 22.4 m/s",
+      "2.00 s; 22.4 m/s",
+      "4.00 s; 22.4 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Use the displacement equation:\n-20 = 10t - 5t²\n5t² - 10t - 20 = 0\nPositive root gives t ≈ 3.24 s.\nImpact speed:\nv = √(u² + 2gh) = √(10² + 2×10×20) = √500 ≈ 22.4 m/s."
+  },
+  {
+    "question": "Given the displacement of a body as a function of time as S = (50t - 10t²) m. Find: A. Velocity of the body at t = 5 sec B. Acceleration of the body at t = 2 sec",
+    "options": [
+      "A. 100 - 20 t; -50 m/s; B. -20 m/s²",
+      "A. 25 - 20 t; -50 m/s; B. -20 m/s²",
+      "A. 51 - 20 t; -50 m/s; B. -20 m/s²",
+      "A. 50 - 20 t; -50 m/s; B. -20 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "A. V-inst = dS/dt = 50 - 20t\nat t = 5s: V = 50 - 20(5) = -50 m/s (50 m/s to the left)\nB. a = dV/dt = d/dt(50 - 20t) = -20 m/s²"
+  },
+  {
+    "question": "A car moving at 40m/s stops in 200m. What is the deceleration of the car?",
+    "options": [
+      "-4 m/s²",
+      "-8 m/s²",
+      "-2 m/s²",
+      "-3 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "V² = u² - 2as, v = 0 → a = -u²/2S = -(40)²/[2(200)] = -4 m/s²"
+  },
+  {
+    "question": "Can a train moving at 10m/s stop in 400m if it slows down at a constant rate of 2m/s²?",
+    "options": [
+      "No, it cannot stop in 400 m.",
+      "Yes, it can stop in 400 m.",
+      "It will stop in 25 m.",
+      "It will stop in 100 m."
+    ],
+    "correct": 0,
+    "explanation": "Use v² = u² + 2as.\n0 = 10² + 2(-2)s\n0 = 100 - 4s\ns = 25 m\nSo the train cannot stop in 400 m."
+  },
+  {
+    "question": "What is the maximum speed with which a car can be driven safely along a curved road of radius 30m and super elevation of 30°?",
+    "options": [
+      "√180 = 13 m/s",
+      "√360 = 13 m/s",
+      "√90 = 13 m/s",
+      "√181 = 13 m/s"
+    ],
+    "correct": 0,
+    "explanation": "tan θ = V²/rg → V = √(rg tan θ) = √(30 × 10 × 0.6) = √180 = 13 m/s"
+  },
+  {
+    "question": "A bicycle with wheel radius of 40cm is moving at a speed of 20km/h. Find: A. Its period of revolution B. Its angular velocity",
+    "options": [
+      "0.25 s; 14 rad/s",
+      "0.50 s; 7 rad/s",
+      "0.45 s; 14 rad/s",
+      "1.00 s; 14 rad/s"
+    ],
+    "correct": 2,
+    "explanation": "Convert speed:\n20 km/h = 5.56 m/s.\nPeriod:\nT = 2πr / v = 2π(0.40) / 5.56 ≈ 0.45 s.\nAngular velocity:\nω = v / r = 5.56 / 0.40 ≈ 14 rad/s."
+  },
+  {
+    "question": "What is the centripetal acceleration of a body moving at a speed of 10m/s around a circle of radius 100m?",
+    "options": [
+      "1 m/s²",
+      "2 m/s²",
+      "0.5 m/s²",
+      "4 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "ac = v²/r = (10)²/100 = 100/100 = 1 m/s²"
+  },
+  {
+    "question": "If the coefficient of static friction for tires on a road is 0.25, at what maximum speed can a car turn around a level curve of 40m radius without slipping?",
+    "options": [
+      "10 m/s",
+      "20 m/s",
+      "5 m/s",
+      "11 m/s"
+    ],
+    "correct": 0,
+    "explanation": "fs = fc → μmg = mv²/r → V = √(μgr) = √(0.25 × 10 × 40) = √100 = 10 m/s"
+  },
+  {
+    "question": "A highway curve is banked at 37°. If in the absence of friction a car can move at a speed of 13.5 m/s without skidding, what is the radius of the curve?",
+    "options": [
+      "364.5/7.5 = 24.3 m",
+      "91.12/7.5 = 24.3 m",
+      "183.25/7.5 = 24.3 m",
+      "182.25/7.5 = 24.3 m"
+    ],
+    "correct": 3,
+    "explanation": "tan θ = v²/rg → r = v²/(g tan θ) = (13.5)²/[(10)(tan 37°)] = (13.5)²/[(10)(0.75)] = 182.25/7.5 = 24.3m"
+  },
+  {
+    "question": "A conical pendulum with an 80kg bob on a 10m wire makes an angle of 5° from the vertical. Determine: A. The horizontal and vertical components of the wire tension forces B. The radial acceleration of the bob",
+    "options": [
+      "T = 403 N; Tx = 70 N; T_y = 800 N; ac = 0.875 m/s²",
+      "T = 803 N; Tx = 70 N; T_y = 800 N; ac = 0.875 m/s²",
+      "T = 803 N; Tx = 35 N; T_y = 800 N; ac = 0.875 m/s²",
+      "T = 803 N; Tx = 70 N; T_y = 400 N; ac = 0.875 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "Tension:\nT = mg / cosθ = (80×10) / cos(5°) ≈ 803 N.\nHorizontal component:\nTx = T sinθ ≈ 803 sin(5°) ≈ 70 N.\nVertical component:\nTy = T cosθ ≈ 800 N.\nRadial acceleration:\na_c = Tx / m = 70 / 80 = 0.875 m/s²."
+  },
+  {
+    "question": "What is the difference between distance and displacement?",
+    "options": [
+      "Distance is the straight-line change in position and displacement is the path length.",
+      "Distance is a vector and displacement is a scalar.",
+      "Distance is the actual path length and displacement is the straight-line change in position.",
+      "Distance and displacement are always equal."
+    ],
+    "correct": 2,
+    "explanation": "Distance is the actual path length.\nDisplacement is the straight-line change in position with direction."
+  },
+  {
+    "question": "What is free fall?",
+    "options": [
+      "Free fall is the motion of a body under the influence of gravity alone.",
+      "Motion with constant speed",
+      "Motion under friction",
+      "Motion in a circle"
+    ],
+    "correct": 0,
+    "explanation": "Free fall is the motion of a body under the influence of gravity alone."
+  },
+  {
+    "question": "The slope of displacement-time graph represents ____.",
+    "options": [
+      "Acceleration",
+      "Distance",
+      "Force",
+      "Velocity"
+    ],
+    "correct": 3,
+    "explanation": "Velocity"
+  },
+  {
+    "question": "The area under an acceleration-time graph gives ____.",
+    "options": [
+      "Velocity",
+      "Distance",
+      "Change in velocity",
+      "Displacement"
+    ],
+    "correct": 2,
+    "explanation": "Area under an acceleration-time graph equals the change in velocity."
+  },
+  {
+    "question": "The slope of velocity-time graph represents ____.",
+    "options": [
+      "Acceleration",
+      "Velocity",
+      "Distance",
+      "Force"
+    ],
+    "correct": 0,
+    "explanation": "Acceleration"
+  },
+  {
+    "question": "The area under velocity-time graph represents ____.",
+    "options": [
+      "Displacement",
+      "Acceleration",
+      "Speed",
+      "Distance"
+    ],
+    "correct": 0,
+    "explanation": "Displacement"
+  },
+  {
+    "question": "What is the difference between average speed and average velocity?",
+    "options": [
+      "Average speed uses displacement; average velocity uses distance.",
+      "Average speed uses distance; average velocity uses displacement.",
+      "Average speed and average velocity are the same quantity.",
+      "Average speed is a vector and average velocity is a scalar."
+    ],
+    "correct": 1,
+    "explanation": "Average speed = total distance / total time.\nAverage velocity = displacement / total time."
+  },
+  {
+    "question": "A car travels 60 m east in 10 s and then 60 m west in 5 s. What is its average velocity for the whole trip?",
+    "options": [
+      "4 m/s east",
+      "2 m/s east",
+      "1 m/s west",
+      "0 m/s"
+    ],
+    "correct": 3,
+    "explanation": "Net displacement = 60 east - 60 west = 0.\nAverage velocity = displacement / total time = 0 / 15 = 0 m/s."
+  },
+  {
+    "question": "A body can have zero average velocity and nonzero average speed when it:",
+    "options": [
+      "Returns to its starting point after moving.",
+      "Moves with constant velocity in one direction.",
+      "Remains at rest the entire time.",
+      "Has zero acceleration."
+    ],
+    "correct": 0,
+    "explanation": "Average velocity depends on displacement.\nIf the body returns to its starting point, displacement is zero, but the distance traveled is not zero."
+  },
+  {
+    "question": "A cyclist is moving north but is slowing down. What is the direction of the acceleration?",
+    "options": [
+      "North",
+      "East",
+      "Zero, because the cyclist is slowing down.",
+      "South"
+    ],
+    "correct": 3,
+    "explanation": "When a body slows down, acceleration acts opposite to the direction of velocity.\nSo if velocity is north, acceleration is south."
+  },
+  {
+    "question": "Ignoring air resistance, two balls are thrown from the same height with the same speed: one upward and one downward. Which statement is correct when they hit the ground?",
+    "options": [
+      "The upward-thrown ball hits faster.",
+      "The downward-thrown ball hits faster.",
+      "Their speeds depend only on mass.",
+      "They hit the ground with the same speed."
+    ],
+    "correct": 3,
+    "explanation": "Ignoring air resistance, the final speed depends on the initial speed and height, not on whether the ball was thrown up or down.\nSo both hit with the same speed."
+  },
+  {
+    "question": "A ball is thrown upward and returns to the same level in 6 s. What are the times of ascent and descent?",
+    "options": [
+      "2 s and 4 s",
+      "4 s and 2 s",
+      "6 s and 6 s",
+      "3 s and 3 s"
+    ],
+    "correct": 3,
+    "explanation": "For vertical motion under gravity, if the body returns to the launch level, the time of ascent equals the time of descent.\nSo each is 3 s."
+  },
+  {
+    "question": "A car traveling at 5m/s starts to speed up. After 3 seconds, its velocity becomes 11m/s. What is the acceleration of the car?",
+    "options": [
+      "4 m/s²",
+      "1 m/s²",
+      "2 m/s²",
+      "3 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "a = (v - u)/t = (11 - 5)/3 = 2 m/s²"
+  },
+  {
+    "question": "The velocity of a particle is given by v(t) = 3t² - 4t. What is the instantaneous acceleration of the particle at t = 1 sec?",
+    "options": [
+      "12 t - 4; 2 m/s²",
+      "3 t - 4; 2 m/s²",
+      "7 t - 4; 2 m/s²",
+      "6 t - 4; 2 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "a = dv/dt = 6t - 4\nat t = 1s: a = 6(1) - 4 = 2 m/s²"
+  },
+  {
+    "question": "A city bus starts from rest and accelerates at 2m/s² till it reaches a speed of 20m/s. It then travels for 20 seconds at constant speed until the brakes are applied and stop the bus in an additional 5 seconds. A. How long is the bus in motion? B. What is the average velocity of the bus?",
+    "options": [
+      "A. 10 s; 35 seconds; B. 550 m; 550/35 = 15.7 m/s",
+      "A. 20 s; 35 seconds; B. 550 m; 550/35 = 15.7 m/s",
+      "A. 5 s; 35 seconds; B. 550 m; 550/35 = 15.7 m/s",
+      "A. 11 s; 35 seconds; B. 550 m; 550/35 = 15.7 m/s"
+    ],
+    "correct": 0,
+    "explanation": "A. t1 = (20-0)/2 = 10s\ntT = 10 + 20 + 5 = 35 seconds\nB. ΔS = [(0+20)/2]×10 + (20)(20) + [(20+0)/2]×5 = 100 + 400 + 50 = 550m\nVav = 550/35 = 15.7 m/s"
+  },
+  {
+    "question": "A stone dropped from rest down a deep well and 3 seconds later, a splash is heard as it hits the water below. A. How fast will it be moving as it hits the water? B. What will be its average speed over the three seconds? C. How deep is the well?",
+    "options": [
+      "A. 30 m/s; B. 15 m/s; C. 45 m",
+      "A. 60 m/s; B. 15 m/s; C. 45 m",
+      "A. 15 m/s; B. 15 m/s; C. 45 m",
+      "A. 31 m/s; B. 15 m/s; C. 45 m"
+    ],
+    "correct": 0,
+    "explanation": "A. v = gt = (10)(3) = 30 m/s\nB. Vav = (u+v)/2 = (0+30)/2 = 15 m/s\nC. y = ½gt² = ½(10)(3)² = 45m"
+  },
+  {
+    "question": "A ball dropped from a bridge strikes the ground in 5 seconds. What is: A. The speed with which it strikes the ground B. The height of the bridge",
+    "options": [
+      "A. 100 m/s; B. 125 m",
+      "A. 25 m/s; B. 125 m",
+      "A. 50 m/s; B. 125 m",
+      "A. 51 m/s; B. 125 m"
+    ],
+    "correct": 2,
+    "explanation": "A. v = gt = (10)(5) = 50 m/s\nB. y = ½gt² = ½(10)(5)² = 125m"
+  },
+  {
+    "question": "A ball is thrown up with 10m/s; one second later, a stone is thrown up with 20m/s. Find: A. The time the stone takes to overtake the ball B. The height where the stone and the ball meet up",
+    "options": [
+      "A. 0.50 s; B. 4.7 m",
+      "A. 0.12 s; B. 4.7 m",
+      "A. 0.25 s; B. 4.7 m",
+      "A. 1.25 s; B. 4.7 m"
+    ],
+    "correct": 2,
+    "explanation": "Let t be the time after the first ball is thrown.\nBall 1: y1 = 10t - 5t².\nBall 2 is thrown 1 s later, so its time is t - 1:\ny_2 = 20(t - 1) - 5(t - 1)².\nSet y1 = y2 and solve:\nt = 1.25 s.\nSo the stone takes 0.25 s after its launch to overtake the ball.\nHeight at meeting point:\ny = 20(0.25) - 5(0.25)² ≈ 4.7 m."
+  },
+  {
+    "question": "A car accelerates from rest at a rate of 2.4 m/s² for 12 seconds. How far does the car travel during this time?",
+    "options": [
+      "345.6 m",
+      "86.4 m",
+      "173.8 m",
+      "172.8 m"
+    ],
+    "correct": 3,
+    "explanation": "S = ½at² = ½(2.4)(12)² = 172.8m"
+  },
+  {
+    "question": "A motorcycle starting from rest speeds up to 144 km/h in 4 seconds. What is the average acceleration of the motor in m/s²?",
+    "options": [
+      "80 m/s; 10 m/s²",
+      "20 m/s; 10 m/s²",
+      "40 m/s; 10 m/s²",
+      "41 m/s; 10 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "144 km/h = 40 m/s\na = (v - u)/t = (40 - 0)/4 = 10 m/s²"
+  },
+  {
+    "question": "A helmet is dropped from the top of a 20m tall building. A. How long does it take the helmet to reach the ground? B. How fast should the helmet be thrown upward to reach the top of the building?",
+    "options": [
+      "A. 4 seconds; B. 20 m/s",
+      "A. 1 seconds; B. 20 m/s",
+      "A. 3 seconds; B. 20 m/s",
+      "A. 2 seconds; B. 20 m/s"
+    ],
+    "correct": 3,
+    "explanation": "A. y = ½gt² → 20 = ½(10)t² → t = √(4) = 2 seconds\nB. u = √(2gh) = √(2×10×20) = 20 m/s"
+  },
+  {
+    "question": "A ball is thrown upward at 24 m/s and reaches the top of a building in 4 s. How high is the building?",
+    "options": [
+      "24 m",
+      "32 m",
+      "16 m",
+      "12 m"
+    ],
+    "correct": 2,
+    "explanation": "Use y = ut - 1/2 gt².\ny = 24(4) - 1/2(10)(4²) = 96 - 80 = 16 m."
+  },
+  {
+    "question": "If a kangaroo jumps 2.5m vertically: A. What is the initial speed of the kangaroo? B. How long will it stay in air?",
+    "options": [
+      "A. 5 m/s; B. √2 s",
+      "A. 5√2 m/s; B. 2√2 s",
+      "A. 5√2 m/s; B. √2 s",
+      "A. 6√2 m/s; B. √2 s"
+    ],
+    "correct": 2,
+    "explanation": "Maximum height:\nh = 2.5 m.\nAt the top, v = 0:\n0 = u² - 2gh\nu = √(2gh) = √(2×10×2.5) = √50 = 5√2 m/s.\nTime in air:\nt = 2u/g = 2(5√2)/10 = √2 s."
+  }
+]
