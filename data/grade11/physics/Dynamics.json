@@ -1,0 +1,1586 @@
+[
+  {
+    "question": "Why are passengers advised to wear seat belts?",
+    "options": [
+      "To protect passengers when the vehicle stops suddenly due to inertia",
+      "Because seat belts increase the speed of the body",
+      "Because the body must stop before the vehicle stops",
+      "Because the rider is pulled backward by gravity"
+    ],
+    "correct": 0,
+    "explanation": "Seat belts help protect passengers when a vehicle stops suddenly. Due to inertia, the body tends to keep moving."
+  },
+  {
+    "question": "According to Newton's first law, no force acts on a body. True or False?",
+    "options": [
+      "True. A body always needs a force to keep moving.",
+      "False. Force may act, but the net force can be zero.",
+      "True. Only gravity acts on every body.",
+      "False. A body can never move without force."
+    ],
+    "correct": 1,
+    "explanation": "False. A force may act, but the net force can be zero."
+  },
+  {
+    "question": "A force of 80 N acts on a body of mass 40 kg. A) What is the acceleration of the body? B) What acceleration will this force give to a 160 kg mass?",
+    "options": [
+      "A: 2 m/s²; B: 0.5 m/s²",
+      "A: 0.5 m/s²; B: 2 m/s²",
+      "A: 2 m/s²; B: 2 m/s²",
+      "A: 4 m/s²; B: 1 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "A: a = F/m = 80/40 = 2 m/s². B: a = 80/160 = 0.5 m/s²."
+  },
+  {
+    "question": "The acceleration that a force produces on a 20 kg is larger by 2 m/s² than the acceleration it produces on a 25 kg mass. What is the magnitude of the force?",
+    "options": [
+      "100 N",
+      "400 N",
+      "300 N",
+      "200 N"
+    ],
+    "correct": 3,
+    "explanation": "Using F = m₁a₁ = m₂a₂, where a₂ = a₁ - 2. Solving: 20a₁ = 25(a₁ - 2) → a₁ = 10 m/s². F = m₁a₁ = (10)(10) = 200 N."
+  },
+  {
+    "question": "What acceleration will the system of forces produce on the 10 kg box? F₂ = 300 N to the right, F₃ = 500 N to the right, and F₁ = 400 N to the left.",
+    "options": [
+      "40 m/s²",
+      "20 m/s²",
+      "80 m/s²",
+      "60 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "a = (F₂ + F₃ - F₁) / m = (300 + 500 - 400) / 10 = 40 m/s²."
+  },
+  {
+    "question": "Two forces, F₁ = 15 N and F₂ = 20 N, act perpendicular to each other on a 50 kg body. What acceleration will they produce on the body?",
+    "options": [
+      "0.25 m/s²",
+      "0.5 m/s²",
+      "1 m/s²",
+      "0.75 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "a = √(F₁² + F₂²) / m = √(15² + 20²) / 50 = 25/50 = 0.5 m/s²"
+  },
+  {
+    "question": "According to Newton's 3rd law, forces exist in pairs. True or False?",
+    "options": [
+      "True. They act on the same body.",
+      "False. Action and reaction are equal but act on different bodies.",
+      "False. Action and reaction forces act on two different bodies.",
+      "True. Action and reaction forces cancel on the same body."
+    ],
+    "correct": 2,
+    "explanation": "Action and reaction forces are equal in magnitude, opposite in direction, and act on two different bodies."
+  },
+  {
+    "question": "If a Bajaji collides with a truck, which one exerts greater force on the other?",
+    "options": [
+      "The truck exerts greater force",
+      "The Bajaji exerts greater force",
+      "The larger vehicle always exerts greater force",
+      "They exert equal forces on each other"
+    ],
+    "correct": 3,
+    "explanation": "According to Newton's 3rd law, the forces are equal in magnitude and opposite in direction."
+  },
+  {
+    "question": "Action and reaction forces act on one body. True or False?",
+    "options": [
+      "False. They act on two different bodies.",
+      "True. They act on the same body.",
+      "False. They are unequal in magnitude.",
+      "True. They always cancel on the same object."
+    ],
+    "correct": 0,
+    "explanation": "False. Action and reaction forces act on two different bodies."
+  },
+  {
+    "question": "What is the weight of a 10 kg body on the surface of: A) Earth where g = 10 m/s² B) Moon where g = 1.6 m/s²",
+    "options": [
+      "20 N; B: 5 N; note: Weight of a body varies from place to place.",
+      "Earth: 100 N; Moon: 16 N",
+      "5 N; B: 20 N; note: Weight of a body varies from place to place.",
+      "15 N; B: 7.5 N; note: Weight of a body varies from place to place."
+    ],
+    "correct": 1,
+    "explanation": "A: W = mg = (10)(10) = 100 N; B: W = mg = (10)(1.6) = 16 N; note: Weight of a body varies from place to place."
+  },
+  {
+    "question": "A 50 kg boy is in an elevator. What is his apparent weight when it moves at constant velocity, accelerates upward at 2 m/s², accelerates downward at 2 m/s², and accelerates downward at 10 m/s²?",
+    "options": [
+      "A: 500 N; B: 600 N; C: 400 N; D: 0 N",
+      "A: 250 N; B: 300 N; C: 200 N; D: 0 N",
+      "A: 500 N; B: 500 N; C: 500 N; D: 500 N",
+      "A: 750 N; B: 600 N; C: 300 N; D: 0 N"
+    ],
+    "correct": 0,
+    "explanation": "A: T = mg = 500 N. B: T = mg + ma = 600 N. C: T = mg − ma = 400 N. D: T = 0 when a = g downward."
+  },
+  {
+    "question": "A certain force gives mass m₁ an acceleration of 12 m/s² and mass m₂ an acceleration of 3.3 m/s². What acceleration will this force give to the combined mass?",
+    "options": [
+      "1.5 m/s²",
+      "3.5 m/s²",
+      "4.5 m/s²",
+      "2.5 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "2.5 m/s². Since m₂ = (12/3.3)m₁, combined acceleration a = 12m₁/(m₁ + m₂) = 2.5 m/s²."
+  },
+  {
+    "question": "A force gives an acceleration of 3 m/s² to a 2 kg mass. What acceleration will this force give to a 1 kg mass?",
+    "options": [
+      "6 m/s²",
+      "4 m/s²",
+      "2 m/s²",
+      "1 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "6 m/s². Using m₁a₁ = m₂a₂ → a₂ = (3)(2)/1 = 6 m/s²."
+  },
+  {
+    "question": "Two masses 2 kg and 3 kg are attached to the end of a light string passing over a pulley. What are the tension and acceleration in terms of g?",
+    "options": [
+      "7/8 g, g/5",
+      "12/5 g, g/5",
+      "21/8 g, g/8",
+      "12/5 g, g/8"
+    ],
+    "correct": 1,
+    "explanation": "T = 12/5 g, a = g/5. Solving T - 2g = 2a and 3g - T = 3a gives T = 12g/5 N and a = g/5."
+  },
+  {
+    "question": "A 100 kg box is pushed at constant speed up a smooth 30° incline plane. Force needed to move it up is?",
+    "options": [
+      "1000.35 N",
+      "1732.35 N",
+      "577.35 N",
+      "1154.70 N"
+    ],
+    "correct": 2,
+    "explanation": "577.35 N. F cos θ = mg sin θ → F = mg tan θ = (100)(10) tan 30° = 577.35 N."
+  },
+  {
+    "question": "Which pair of forces can not give a resultant of 5 N?",
+    "options": [
+      "1 N and 4 N",
+      "1 N and 6 N",
+      "3 N and 4 N",
+      "1 N and 7 N"
+    ],
+    "correct": 3,
+    "explanation": "1 N and 7 N. Using |A - B| ≤ R ≤ |A + B|: |1 - 7| ≤ R ≤ |1 + 7| → 6 ≤ R ≤ 8. A resultant of 5 N is outside this range."
+  },
+  {
+    "question": "Which one of the following is true about action and reaction forces?",
+    "options": [
+      "They act on two different bodies",
+      "They act on the same body",
+      "They are equal in magnitude but different line of action",
+      "They are not equal in magnitude but have same line of action"
+    ],
+    "correct": 0,
+    "explanation": "They act on two different bodies. Action and reaction forces have same magnitude and line of action but opposite direction."
+  },
+  {
+    "question": "A force of 6 N acts on a mass of 1 kg which acquires a velocity of 3 m/s. The time for which the force acts is?",
+    "options": [
+      "26 second",
+      "0.5 second",
+      "6 second",
+      "2 second"
+    ],
+    "correct": 1,
+    "explanation": "0.5 second. Δt = mΔv/F = (1)(3)/6 = 0.5 second."
+  },
+  {
+    "question": "When horse starts running all of a sudden, the rider on the horse falls back because?",
+    "options": [
+      "He is afraid",
+      "He is pulled backward",
+      "Of inertia of rest",
+      "Of inertia of motion"
+    ],
+    "correct": 2,
+    "explanation": "Of inertia of rest. (Newton's first law)"
+  },
+  {
+    "question": "A force of 5 N is applied to one end of a spring balance and a force of 5 N is applied simultaneously at the other end in the opposite direction. The reading of the balance will be?",
+    "options": [
+      "Zero",
+      "10 N",
+      "2.5 N",
+      "5 N"
+    ],
+    "correct": 3,
+    "explanation": "The spring balance reads the tension in the spring, so the reading is 5 N."
+  },
+  {
+    "question": "A 40 N force pulls a system of three masses (m₁ = 10 kg, m₂ = 6 kg, m₃ = 4 kg) on a horizontal frictionless surface. Tension T₁ is?",
+    "options": [
+      "32 N",
+      "40 N",
+      "10 N",
+      "5 N"
+    ],
+    "correct": 0,
+    "explanation": "32 N. a = F/(m₁ + m₂ + m₃) = 40/(4 + 6 + 10) = 2 m/s². 40 - T₁ = 4(2) → T₁ = 32 N."
+  },
+  {
+    "question": "Two blocks of masses 1 kg and 2 kg rest on a smooth surface. When the 2 kg block is pulled by a certain force, the string tension becomes 1.5 N. What is the value of the applied force?",
+    "options": [
+      "1.5 N",
+      "4.5 N",
+      "2.5 N",
+      "3.5 N"
+    ],
+    "correct": 1,
+    "explanation": "4.5 N. F - T = m₂a, T = m₁a → F = (m₂/m₁)T + T = (2/1)(1.5) + 1.5 = 4.5 N."
+  },
+  {
+    "question": "On a smooth surface, two blocks A and B are accelerated by a 15 N force applied to A. If block B has twice the mass of A, what force acts on B?",
+    "options": [
+      "5 N",
+      "20 N",
+      "10 N",
+      "30 N"
+    ],
+    "correct": 2,
+    "explanation": "Since mB = 2mA, the system acceleration is a = 15/(3mA). So FB = mBa = 10 N."
+  },
+  {
+    "question": "A girl in a lift will weigh more when the lift:",
+    "options": [
+      "Is moving with constant velocity",
+      "Is falling freely",
+      "Is moving downward with acceleration",
+      "Is accelerating upward"
+    ],
+    "correct": 3,
+    "explanation": "Apparent weight increases when the lift accelerates upward."
+  },
+  {
+    "question": "A bag weighs 49 N when the elevator is at rest. What will be the weight of the bag if the elevator accelerates downward at 5 m/s²?",
+    "options": [
+      "24 N",
+      "49 N",
+      "74 N",
+      "15 N"
+    ],
+    "correct": 0,
+    "explanation": "24 N. m = 49/10 = 4.9 kg. Apparent weight = mg - ma = 49 - (4.9)(5) = 24 N."
+  },
+  {
+    "question": "A man weighs 80 kg. He stands in a lift that accelerates upward at 5 m/s². What would be the reading on the scale?",
+    "options": [
+      "Zero",
+      "1200 N",
+      "400 N",
+      "800 N"
+    ],
+    "correct": 1,
+    "explanation": "1200 N. Apparent weight = mg + ma = (80)(10) + (80)(5) = 1200 N."
+  },
+  {
+    "question": "A newton meter is attached to two blocks of masses 6 kg and 4 kg. Forces of 20 N and 10 N are applied on the blocks. What is the meter reading?",
+    "options": [
+      "10 N",
+      "20 N",
+      "14 N",
+      "6 N"
+    ],
+    "correct": 2,
+    "explanation": "Using 20 − T = 6a and T − 10 = 4a, we get a = 1 m/s² and T = 14 N."
+  },
+  {
+    "question": "A block of mass 4 kg is placed on a frictionless table and is connected to a 6 kg block by a string that passes through a frictionless pulley. What is the tension of the string?",
+    "options": [
+      "12 N",
+      "36 N",
+      "48 N",
+      "24 N"
+    ],
+    "correct": 3,
+    "explanation": "24 N. 6(10) - T = 6a, T = 4a → a = 6 m/s², T = 24 N."
+  },
+  {
+    "question": "A 4 kg block is placed on a table with friction coefficient 0.8. What is the friction force when the body is forced to move?",
+    "options": [
+      "32 N",
+      "16 N",
+      "64 N",
+      "48 N"
+    ],
+    "correct": 0,
+    "explanation": "fk = μk × FN = (0.8)(mg) = (0.8)(4)(10) = 32 N."
+  },
+  {
+    "question": "A 3 kg object moving at 15 m/s comes to rest in 5 seconds. What friction force stopped the object?",
+    "options": [
+      "4.5 N",
+      "9 N",
+      "18 N",
+      "13.5 N"
+    ],
+    "correct": 1,
+    "explanation": "a = (v - u)/t = (0 - 15)/5 = -3 m/s². f = ma = (3)(3) = 9 N."
+  },
+  {
+    "question": "A 4 kg block is moving down an inclined plane with inclination of 37°. Find: A) The frictional force if μk = 0.5 B) The acceleration of the block.",
+    "options": [
+      "f = 8 N; B: a = 1 m/s²",
+      "f = 12 N; B: a = 0.5 m/s²",
+      "f = 16 N; B: a = 2 m/s²",
+      "f = 20 N; B: a = 3 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "f = μk FN = (0.5)(4)(10)(0.8) = 16 N. Then a = (mg sinθ − f)/m = 2 m/s²."
+  },
+  {
+    "question": "A force of magnitude 20 N is applied to a block of mass 2 kg at an angle of 53° to the horizontal. The coefficient of kinetic friction between the block and the surface is 0.4. What is the acceleration of the block?",
+    "options": [
+      "10 m/s²",
+      "4 m/s²",
+      "2.8 m/s²",
+      "5.2 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "a = (F cos θ − μk(mg − F sin θ))/m = ((20)(0.6) − 0.4[2(10) − 20(0.8)]) / 2 = 5.2 m/s²."
+  },
+  {
+    "question": "A block of mass 3 kg is connected to a block of mass 5 kg and placed on an inclined plane of coefficient of friction 0.3. What is the tension of the string?",
+    "options": [
+      "17.25 N",
+      "29.4 N",
+      "12.25 N",
+      "8.60 N"
+    ],
+    "correct": 0,
+    "explanation": "17.25 N. Solving T - (0.3)(3)(10) = 3a and (5)(10)(0.8) - (0.3)(5)(10)(0.6) - T = 5a gives T = 17.21 N ≈ 17.25 N."
+  },
+  {
+    "question": "A body of mass 15 kg is pushed on a horizontal surface by applying a 100 N horizontal force. Assuming coefficient of friction = 0.3, what is the acceleration of the body?",
+    "options": [
+      "2.67 m/s²",
+      "3.67 m/s²",
+      "1.67 m/s²",
+      "0.67 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "3.67 m/s². a = (F - μmg) / m = (100 - (0.3)(15)(10)) / 15 = 3.67 m/s²."
+  },
+  {
+    "question": "A block having a weight of 100 N is pulled up along an inclined plane of coefficient of friction 0.3 at constant speed. What is the value of the force F?",
+    "options": [
+      "54 N",
+      "64 N",
+      "84 N",
+      "74 N"
+    ],
+    "correct": 2,
+    "explanation": "84 N. F = mg sin θ + μ mg cos θ = (100)(0.6) + (0.3)(100)(0.8) = 60 + 24 = 84 N."
+  },
+  {
+    "question": "Two blocks of masses 6 kg and 8 kg are connected by a light string. A 600 N force is applied to the 8 kg block. A constant friction force of 40 N acts on each block. What is the tension in the string?",
+    "options": [
+      "62 N",
+      "162 N",
+      "362 N",
+      "262 N"
+    ],
+    "correct": 3,
+    "explanation": "For the system, 600 − 40 − 40 = 14a, so a = 37.14 m/s². Then 600 − T − 40 = 8a, giving T ≈ 262 N."
+  },
+  {
+    "question": "A body is said to be in equilibrium only when there is no force acting on it. True or False?",
+    "options": [
+      "False. Equilibrium means zero net force and zero net torque.",
+      "True. A body is in equilibrium only when no force acts on it.",
+      "False. Forces may act, but they are balanced.",
+      "True. A body must be at rest to be in equilibrium."
+    ],
+    "correct": 0,
+    "explanation": "False. A body is in equilibrium when the net force and the net torque are both zero."
+  },
+  {
+    "question": "The normal force is always equal to the weight of the body. True or False?",
+    "options": [
+      "True. Normal force always equals the weight.",
+      "False. It equals the weight only on a level surface.",
+      "True. Normal force is always less than weight.",
+      "False. Normal force is always zero on a level surface."
+    ],
+    "correct": 1,
+    "explanation": "False. Normal force equals weight only on a level surface with no vertical acceleration."
+  },
+  {
+    "question": "A 100 N weight hangs at a junction of two strings. One string is horizontal and the other makes 45° with the horizontal. What is the tension T₂ in the horizontal string?",
+    "options": [
+      "100 N",
+      "141.4 N",
+      "50 N",
+      "200 N"
+    ],
+    "correct": 0,
+    "explanation": "ΣFy = 0 gives T₁ sin45° = 100 N, so T₁ = 141.4 N. Then ΣFx = 0 gives T₂ = T₁ cos45° = 100 N."
+  },
+  {
+    "question": "The tension in cord A is 30 N. What is the tension in cord B if cord A makes 37° and cord B makes 53° with the horizontal?",
+    "options": [
+      "20 N",
+      "30 N",
+      "40 N",
+      "50 N"
+    ],
+    "correct": 2,
+    "explanation": "From horizontal balance, TA cos37° = TB cos53°. So (30)(0.8) = TB(0.6), giving TB = 40 N."
+  },
+  {
+    "question": "A particle moves with constant velocity under the action of three forces. Two forces of 10 N each act at 60° above and below the x-axis. What must the third force be?",
+    "options": [
+      "10 N to the right",
+      "10 N upward",
+      "5 N to the right",
+      "5 N upward"
+    ],
+    "correct": 0,
+    "explanation": "The vertical components cancel. The horizontal components add to 10 N, so the third force must be 10 N to the right."
+  },
+  {
+    "question": "A body experiencing two forces of equal magnitude remains in equilibrium. The angle between them is?",
+    "options": [
+      "0°",
+      "180°",
+      "45°",
+      "90°"
+    ],
+    "correct": 1,
+    "explanation": "180°. ΣF = 0 → F₁ + F₂ = 0 → F₁ = -F₂, meaning they must be opposite in direction (180° apart)."
+  },
+  {
+    "question": "What should be the value of F₃ so that the 10 kg block remains stationary on the smooth surface? F₂ = 700 N to the left and F₁ = 500 N to the right.",
+    "options": [
+      "300 N",
+      "400 N",
+      "200 N",
+      "500 N"
+    ],
+    "correct": 2,
+    "explanation": "For equilibrium, 500 + F₃ = 700. So F₃ = 200 N."
+  },
+  {
+    "question": "A bunch of bananas of mass 25 kg is suspended with two ropes. If T₁ = 200 N, then T₂ is?",
+    "options": [
+      "200 N",
+      "100 N",
+      "250 N",
+      "150 N"
+    ],
+    "correct": 3,
+    "explanation": "Using equilibrium: 0.6T₁ = 0.8T₂, so T₂ = 0.75T₁ = 150 N."
+  },
+  {
+    "question": "A block of weight 40 N is in equilibrium. Given the relations 0.8T₁ = 40 + 0.6T₂ and T₂ = 0.75T₁, what is T₁?",
+    "options": [
+      "114.3 N",
+      "100 N",
+      "125 N",
+      "150 N"
+    ],
+    "correct": 0,
+    "explanation": "Substitute T₂ = 0.75T₁ into 0.8T₁ = 40 + 0.6T₂. Then 0.35T₁ = 40, so T₁ = 114.3 N."
+  },
+  {
+    "question": "Assuming no friction, how much should the hanging block weigh if the 200 N block is to remain at rest?",
+    "options": [
+      "100 N",
+      "120 N",
+      "80 N",
+      "150 N"
+    ],
+    "correct": 1,
+    "explanation": "For equilibrium on the incline, the hanging weight must equal the component of the 200 N block along the plane: 200 × 0.6 = 120 N."
+  },
+  {
+    "question": "A 75N force is required to start a 25kg block to move, and a 60N force is needed to keep the block moving on a horizontal road. Find: A) Static coefficient of friction, B) Kinetic coefficient of friction",
+    "options": [
+      "0.6; B: 0.12",
+      "0.15; B: 0.48",
+      "μs = 0.3; B: μk = 0.24",
+      "0.45; B: 0.18"
+    ],
+    "correct": 2,
+    "explanation": "A) FN = mg = (25)(10) = 250 N; μs = fs/FN = 75/250 = 0.3. B) μk = fk/FN = 60/250 = 0.24"
+  },
+  {
+    "question": "What force is required to move the 10 kg block along the inclined plane of coefficient of kinetic friction 0.25 at: A) Constant speed, B) Constant acceleration of 0.5 m/s²? The incline angle is 37°.",
+    "options": [
+      "200 N; B: 52.5 N",
+      "50 N; B: 210 N",
+      "150 N; B: 78.8 N",
+      "80 N; B: 85 N"
+    ],
+    "correct": 3,
+    "explanation": "A) F = μmg cos θ + mg sin θ = 20 + 60 = 80 N. B) F = 80 + ma = 80 + 5 = 85 N."
+  },
+  {
+    "question": "What is the acceleration of the system of masses if the inclined plane is: A) frictionless, B) with μk = 0.2? (m₁ = 1 kg hanging and m₂ = 3 kg on a 37° incline)",
+    "options": [
+      "a = 2 m/s²; B: a = 0.8 m/s²",
+      "a = 4 m/s²; B: a = 0.438 m/s²",
+      "a = 1 m/s²; B: a = 1.75 m/s²",
+      "a = 3 m/s²; B: a = 0.656 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "A) a = [(3)(10)(0.6) − (1)(10)] / 4 = 2 m/s². B) a = [(3)(10)(0.6) − (0.2)(3)(10)(0.8) − (1)(10)] / 4 = 0.8 m/s²."
+  },
+  {
+    "question": "What is the value of T1 and T2 if the system is in equilibrium? (10kg mass hanging with T2 at 53° angle)",
+    "options": [
+      "T2: 250 N; T1: 37.5 N",
+      "T2: 125 N; T1: 75 N",
+      "T2: 62.5 N; T1: 150 N",
+      "T2: 188 N; T1: 56.2 N"
+    ],
+    "correct": 1,
+    "explanation": "ΣFy = 0 → T2 sin53° = mg → 0.8T2 = (10)(10) → T2 = 125 N. ΣFx = 0 → T1 = T2 cos53° = (125)(0.6) = 75 N"
+  },
+  {
+    "question": "A glass dropped onto a concrete floor is more likely to break than when it is dropped into a pond of water. Why?",
+    "options": [
+      "It is due to a change in mass only.",
+      "It is caused by the horizontal motion only.",
+      "The shorter the contact time, the greater the average force acting on the body.",
+      "It depends on the size of the object alone."
+    ],
+    "correct": 2,
+    "explanation": "Concrete has a very short contact time compared to water, which increases the average force on the glass, causing it to break."
+  },
+  {
+    "question": "What is the linear momentum of a 500 g ball moving at a speed of 40 m/s?",
+    "options": [
+      "10 kg m/s",
+      "40 kg m/s",
+      "30 kg m/s",
+      "20 kg m/s"
+    ],
+    "correct": 3,
+    "explanation": "P = mv = (0.5)(40) = 20 kg m/s."
+  },
+  {
+    "question": "If a body of mass 3 kg changes its speed from 2 m/s to 12 m/s in 5 seconds, find: A) Impulse imparted on the body, B) Average force acting on the body",
+    "options": [
+      "Impulse = 30 kg m/s; B: F = 6 N",
+      "60 kg m/s; B: 3 N",
+      "15 kg m/s; B: 12 N",
+      "45 kg m/s; B: 4.5 N"
+    ],
+    "correct": 0,
+    "explanation": "A) Impulse = ΔP = m(v - u) = 3(12 - 2) = 30 kg m/s. B) F = (mv - mu)/Δt = [3(12) - 3(2)] / 5 = 30/5 = 6 N"
+  },
+  {
+    "question": "A soccer player exerts a force of 1200 N that acts for 0.02 seconds on a ball of 400 g mass. What is the speed of the ball as it leaves his foot?",
+    "options": [
+      "30 m/s",
+      "60 m/s",
+      "120 m/s",
+      "90 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Impulse = FΔt = mΔv. So Δv = (1200)(0.02)/0.4 = 60 m/s."
+  },
+  {
+    "question": "A 15 kg fish swimming at 1.1 m/s in lake Tana suddenly gets a 4.5 kg fish initially at rest. What is the speed of the larger fish after eating the small fish?",
+    "options": [
+      "0.75 m/s",
+      "1.0 m/s",
+      "0.85 m/s",
+      "0.5 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Conservation of momentum gives v = 16.5 / 19.5 = 0.85 m/s."
+  },
+  {
+    "question": "The momentum of the system is conserved...",
+    "options": [
+      "even when external force acts.",
+      "only when mass is constant, not velocity.",
+      "only for moving bodies.",
+      "when there is no external force acting on it."
+    ],
+    "correct": 3,
+    "explanation": "Momentum of a system is conserved when the net external force is zero."
+  },
+  {
+    "question": "In a rocket, fuel is ejected with a velocity of 6 km/s. If the fuel burns at a rate of 1 kg/s, then the force exerted by the exhaust gas is?",
+    "options": [
+      "6000 N",
+      "3000 N",
+      "9000 N",
+      "12000 N"
+    ],
+    "correct": 0,
+    "explanation": "F = v(Δm/Δt) = (6000)(1) = 6000 N."
+  },
+  {
+    "question": "If the linear momentum of a 2 kg cat is equal to the linear momentum of a 20 kg dog running at 10 m/s, what is the speed of the cat?",
+    "options": [
+      "10 m/s",
+      "100 m/s",
+      "20 m/s",
+      "50 m/s"
+    ],
+    "correct": 1,
+    "explanation": "mc·vc = md·vd, so vc = (20 × 10) / 2 = 100 m/s."
+  },
+  {
+    "question": "A 25 kg object moving right at 20 m/s collides with a 10 kg object moving left at 15 m/s. If the 25 kg object's final velocity is 15 m/s right, what is the 10 kg object's velocity after collision?",
+    "options": [
+      "2.5 m/s to the left",
+      "5 m/s to the right",
+      "2.5 m/s to the right",
+      "5 m/s to the left"
+    ],
+    "correct": 0,
+    "explanation": "Using conservation of momentum, the 10 kg object moves at 2.5 m/s to the left."
+  },
+  {
+    "question": "What will happen to the linear momentum of a body if its mass is doubled and its velocity is halved?",
+    "options": [
+      "It doubles",
+      "It halves",
+      "It becomes zero",
+      "It remains the same"
+    ],
+    "correct": 3,
+    "explanation": "P = mv, and (2m)(v/2) = mv, so momentum remains the same."
+  },
+  {
+    "question": "A ball of mass 0.2 kg with a velocity of 5 m/s strikes a wall perpendicularly and bounces off straight back with a velocity of 3 m/s. The change in momentum of the ball is?",
+    "options": [
+      "1.6 kg m/s",
+      "0.6 kg m/s",
+      "1.0 kg m/s",
+      "2.0 kg m/s"
+    ],
+    "correct": 0,
+    "explanation": "Δp = pf − pi = −0.6 − 1 = −1.6 kg m/s, so the magnitude is 1.6 kg m/s."
+  },
+  {
+    "question": "A car of mass 500 kg is moving at 24 m/s. If a tiger of mass 100 kg drops on the roof of the car from an overhanging branch, what will be the speed of the car after carrying the tiger?",
+    "options": [
+      "24 m/s",
+      "20 m/s",
+      "18 m/s",
+      "30 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Using conservation of momentum, v = 12000/600 = 20 m/s."
+  },
+  {
+    "question": "Two cars of mass 150 kg and 70 kg are initially at rest, held by a compressed massless spring. After release, the 150 kg car moves left at 8 m/s. What is the 70 kg car's velocity?",
+    "options": [
+      "17.14 m/s to the left",
+      "8 m/s to the right",
+      "17.14 m/s to the right",
+      "8 m/s to the left"
+    ],
+    "correct": 2,
+    "explanation": "By conservation of momentum, the 70 kg car moves at 17.14 m/s to the right."
+  },
+  {
+    "question": "A ball of mass 0.8kg moving at 5m/s collides with another ball of mass 1.2kg moving in opposite direction with 4m/s. After collision, the first ball moves with 4m/s. What is the speed of the second ball after collision?",
+    "options": [
+      "-1.65 m/s",
+      "-6.6 m/s",
+      "-4.95 m/s",
+      "-3.3 m/s"
+    ],
+    "correct": 3,
+    "explanation": "m1u1 + m2u2 = m1v1 + m2v2 → (0.8)(5) - (1.2)(4) = (0.8)(4) + (1.2)V2 → 4 - 4.8 = 3.2 + 1.2V2 → -0.8 - 3.2 = 1.2V2 → V2 = -3.3 m/s (opposite direction)"
+  },
+  {
+    "question": "A pool ball of mass 100 g moving at (5, −4) m/s collides with a stationary ball of the same mass. After the collision, one ball moves at (2, −3) m/s. What is the velocity of the other ball?",
+    "options": [
+      "(3, −1) m/s",
+      "(−3, 1) m/s",
+      "(1, −3) m/s",
+      "(3, 1) m/s"
+    ],
+    "correct": 0,
+    "explanation": "Since the masses are equal, the initial velocity vector equals the sum of the final velocity vectors. So the other ball's velocity is (5, −4) − (2, −3) = (3, −1) m/s."
+  },
+  {
+    "question": "A truck of mass 20,000kg moving at 20m/s collides with a bajaji of mass 200kg moving at 10m/s in the same direction as the truck. If they stick together, what is their common velocity after the collision?",
+    "options": [
+      "9.95 m/s",
+      "19.9 m/s",
+      "39.8 m/s",
+      "29.8 m/s"
+    ],
+    "correct": 1,
+    "explanation": "m1u1 + m2u2 = (m1+m2)v → (20,000)(20) + (200)(10) = (20,000+200)V → 400,000 + 2,000 = 20,200V → V = 402,000/20,200 = 19.9 m/s"
+  },
+  {
+    "question": "A 3.5g bullet is fired into a sandbag of 100kg initially at rest on a smooth floor. If the bag with the bullet inside moves at 0.5 m/s, what was the initial speed of the bullet?",
+    "options": [
+      "7143 m/s",
+      "28572 m/s",
+      "14286 m/s",
+      "21429 m/s"
+    ],
+    "correct": 2,
+    "explanation": "m1u1 + m2u2 = (m1+m2)v → (3.5×10⁻³)u1 + 0 = (100 + 0.0035)(0.5) → u1 = 100.0035 × 0.5 / 0.0035 ≈ 14,286 m/s"
+  },
+  {
+    "question": "A 1kg block connected to a spring of force constant 400 N/m rests on a frictionless surface. If a 2kg block moving at 4m/s collides with the 1kg block and sticks to it, what is the maximum compression of the spring?",
+    "options": [
+      "0.115 m",
+      "0.46 m",
+      "0.345 m",
+      "0.23 m"
+    ],
+    "correct": 3,
+    "explanation": "First find common velocity: m1u1 + m2u2 = (m1+m2)v → (2)(4) + 0 = (1+2)v → V = 2.67 m/s. Then use energy: (1/2)mv² = (1/2)Kx² → x = √(mv²/K) = √[(1+2)(2.67)² / 400] = 0.23 m"
+  },
+  {
+    "question": "A collision occurs between a 1kg body moving at (3i - j) m/s and a 2kg body moving at (-2i - 3j) m/s. After the collision, the bodies stick together. What is their common velocity?",
+    "options": [
+      "1.7 m/s",
+      "0.85 m/s",
+      "3.4 m/s",
+      "2.55 m/s"
+    ],
+    "correct": 0,
+    "explanation": "m1u1 + m2u2 = (m1+m2)v → 1[2, -3] + 2[-3, 1] = 3[Vx, Vy] (using matrix notation from image) → V = (Vx, Vy) = (1.3i - 1.7j) m/s"
+  },
+  {
+    "question": "A bullet of mass 2 gram leaves the muzzle of a pistol at 600 m/s. The mass of the pistol is 400 gram. What is the recoil velocity of the pistol?",
+    "options": [
+      "6 m/s",
+      "3 m/s",
+      "9 m/s",
+      "12 m/s"
+    ],
+    "correct": 1,
+    "explanation": "By conservation of momentum, the pistol recoils at 3 m/s."
+  },
+  {
+    "question": "A man carrying a 100 kg box moves for 600 m horizontally. How much is the work done by the man?",
+    "options": [
+      "500 J",
+      "1000 J",
+      "0 J",
+      "2000 J"
+    ],
+    "correct": 2,
+    "explanation": "The force is vertical and the displacement is horizontal, so W = Fs cos90° = 0."
+  },
+  {
+    "question": "What is the work done by a 600 N force that makes 37° from the horizontal and displaced a 30 kg block by 60 m horizontally?",
+    "options": [
+      "14400 J",
+      "57600 J",
+      "43200 J",
+      "28800 J"
+    ],
+    "correct": 3,
+    "explanation": "W = Fs cosθ = (600)(60) cos(37°) = (600)(60)(0.8) = 28,800 J"
+  },
+  {
+    "question": "A force of 200 N pushes a block of 2 kg for 3 m along an inclined plane of 37° inclination and 0.5 coefficient of friction. Find the work done by: A) Applied force, B) Gravity, C) Friction, D) Net force",
+    "options": [
+      "600 J; B: 36 J; C: 24 J; D: 540 J",
+      "1200 J; B: 18 J; C: 48 J; D: 270 J",
+      "300 J; B: 72 J; C: 12 J; D: 1080 J",
+      "900 J; B: 27 J; C: 36 J; D: 405 J"
+    ],
+    "correct": 0,
+    "explanation": "A) WF = F cosθ·s = (200)(cos0°)(3) = 600 J. B) Wg = mgh = mgs sinθ = (2)(10)(3)(0.6) = 36 J. C) Wf = fs cosθ = μFN·s = μmg cosθ·s = (0.5)(2)(10)(0.8)(3) = 24 J, θ=180° so negative. D) Wnet = WF - Wf - Wg = 600 - 36 - 24 = 540 J"
+  },
+  {
+    "question": "Can kinetic energy be negative? Explain.",
+    "options": [
+      "Yes, sometimes it is negative.",
+      "No. Kinetic energy is always non-negative.",
+      "Only when the mass is negative.",
+      "Only when the velocity is zero."
+    ],
+    "correct": 1,
+    "explanation": "KE = (1/2)mv², so it cannot be negative."
+  },
+  {
+    "question": "What will happen to the kinetic energy of a body if: A) Its speed is halved while its mass is constant, B) Its speed is doubled while its mass is constant?",
+    "options": [
+      "2 of original); B: 2",
+      "0.5 of original); B: 8",
+      "Quartered (becomes 1/4 of original); B: Quadrupled (becomes 4 times original)",
+      "1.5 of original); B: 3"
+    ],
+    "correct": 2,
+    "explanation": "KE = (1/2)mv². A) If v → v/2: KE' = (1/2)m(v/2)² = (1/4)(1/2)mv² = KE/4. B) If v → 2v: KE' = (1/2)m(2v)² = 4(1/2)mv² = 4KE"
+  },
+  {
+    "question": "What is the kinetic energy of a 1500kg mass moving at a speed of 10m/s?",
+    "options": [
+      "37.5 J",
+      "150k J",
+      "112.5k J",
+      "75k J"
+    ],
+    "correct": 3,
+    "explanation": "KE = (1/2)mv² = (1/2)(1500)(10)² = 75,000 J = 75 KJ"
+  },
+  {
+    "question": "What is the speed of a 100kg body if its kinetic energy is 5000J?",
+    "options": [
+      "10 m/s",
+      "5 m/s",
+      "20 m/s",
+      "15 m/s"
+    ],
+    "correct": 0,
+    "explanation": "KE = (1/2)mv² → V = √(2KE/m) = √[(2)(5000)/100] = √100 = 10 m/s"
+  },
+  {
+    "question": "A 0.6 kg particle has a speed of 2 m/s at point A and a kinetic energy of 7.5 J at point B. What is the particle's: A) kinetic energy at point A, B) speed at point B?",
+    "options": [
+      "1.2 J; B: 5 m/s",
+      "2.4 J; B: 2.5 m/s",
+      "0.6 J; B: 10 m/s",
+      "1.8 J; B: 3.75 m/s"
+    ],
+    "correct": 0,
+    "explanation": "A) KEA = (1/2)mv² = 1.2 J. B) VB = √(2KE/m) = 5 m/s."
+  },
+  {
+    "question": "For a body moving upward, the work done by gravity is positive. True or False?",
+    "options": [
+      "False. Gravity does negative work on upward motion.",
+      "True. Gravity acts in the same direction as displacement.",
+      "False. Gravity never does work.",
+      "True. The sign depends only on mass."
+    ],
+    "correct": 0,
+    "explanation": "False. For upward motion, gravity acts opposite to the displacement, so the work is negative."
+  },
+  {
+    "question": "What is the gravitational potential energy of a body of mass 100 kg at a height of 10 m from the ground?",
+    "options": [
+      "1000 J",
+      "5000 J",
+      "15000 J",
+      "10000 J"
+    ],
+    "correct": 3,
+    "explanation": "GPE = mgh = (100)(10)(10) = 10000 J."
+  },
+  {
+    "question": "At what height from the ground will a 200kg mass have a gravitational potential energy of 4000J?",
+    "options": [
+      "2 m",
+      "1 m",
+      "4 m",
+      "3 m"
+    ],
+    "correct": 0,
+    "explanation": "GPE = mgh → h = GPE/(mg) = 4000/[(200)(10)] = 4000/2000 = 2 m"
+  },
+  {
+    "question": "What is the potential energy of a spring of force constant 500N/m when it is stretched 1cm?",
+    "options": [
+      "0.0125 J",
+      "0.025 J",
+      "0.05 J",
+      "0.0375 J"
+    ],
+    "correct": 1,
+    "explanation": "EPE = (1/2)Kx² = (1/2)(500)(0.01)² = (1/2)(500)(0.0001) = 0.025 J"
+  },
+  {
+    "question": "What is the deformation of a spring of force constant 400N/m if it stored a potential energy of 8J?",
+    "options": [
+      "0.1 m",
+      "0.4 m",
+      "0.2 m",
+      "0.3 m"
+    ],
+    "correct": 2,
+    "explanation": "EPE = (1/2)Kx² → x = √(2EPE/K) = √[(2)(8)/400] = √0.04 = 0.2 m"
+  },
+  {
+    "question": "What potential energy is stored by a system of springs of force constants 300N/m and 600N/m when they are stretched by 10mm while they are connected in: A) Series, B) Parallel?",
+    "options": [
+      "0.02 J; B: 0.0225 J",
+      "0.005 J; B: 0.09 J",
+      "0.015 J; B: 0.0338 J",
+      "EPE = 0.01 J; B: EPE = 0.045 J"
+    ],
+    "correct": 3,
+    "explanation": "A) In series: K = (K1·K2)/(K1+K2) = (300×600)/(300+600) = 200 N/m. EPE = (1/2)Kx² = (1/2)(200)(0.01)² = 0.01 J. B) In parallel: K = K1 + K2 = 300 + 600 = 900 N/m. EPE = (1/2)(900)(0.01)² = 0.045 J"
+  },
+  {
+    "question": "A 500g ball is dropped from a 20m tall building. What is the speed of the ball when it is: A) 10m from the ground, B) At the ground level?",
+    "options": [
+      "A: 14.1 m/s; B: 20 m/s",
+      "A: 20 m/s; B: 14.1 m/s",
+      "A: 5 m/s; B: 40 m/s",
+      "A: 15 m/s; B: 15 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Using conservation of energy: A) v = 10√2 m/s ≈ 14.1 m/s. B) v = 20 m/s."
+  },
+  {
+    "question": "A 3 kg block moving at a speed of 10m/s over a horizontal smooth floor hits a spring of force constant 300 N/m. What will be the maximum compression of the spring?",
+    "options": [
+      "0.5 m",
+      "1 m",
+      "2 m",
+      "1.5 m"
+    ],
+    "correct": 1,
+    "explanation": "Using energy conservation: (1/2)mv² = (1/2)kx² → x = v√(m/k) = 10 × √(3/300) = 1 m"
+  },
+  {
+    "question": "A 5 kg block resting on a spring compressed the spring by 5 cm. What is the force constant of the spring?",
+    "options": [
+      "50 N/m",
+      "200 N/m",
+      "100 N/m",
+      "150 N/m"
+    ],
+    "correct": 2,
+    "explanation": "F = Kx = mg → K = mg/x = (5)(10)/0.05 = 100 N/m"
+  },
+  {
+    "question": "Work done by gravity on a body moving upward is positive. True or False?",
+    "options": [
+      "False",
+      "True",
+      "It is always zero.",
+      "It depends only on mass, not displacement."
+    ],
+    "correct": 0,
+    "explanation": "The work done by gravity on an upward displacement is negative."
+  },
+  {
+    "question": "Work done by a force is always positive. True or False?",
+    "options": [
+      "False",
+      "True",
+      "It is always zero.",
+      "It is always negative."
+    ],
+    "correct": 0,
+    "explanation": "Work done can be positive, negative, or zero depending on the angle between force and displacement."
+  },
+  {
+    "question": "A strong person is always powerful. True or false?",
+    "options": [
+      "False",
+      "True",
+      "It depends only on body size.",
+      "It depends only on body mass."
+    ],
+    "correct": 0,
+    "explanation": "Power depends on the rate of doing work, not on strength alone."
+  },
+  {
+    "question": "Power is the ability to do work. True or False?",
+    "options": [
+      "True",
+      "It is force times distance.",
+      "False",
+      "It is energy divided by distance."
+    ],
+    "correct": 2,
+    "explanation": "Power is the rate at which work is done."
+  },
+  {
+    "question": "Power is always positive. True or false?",
+    "options": [
+      "False",
+      "It is always zero.",
+      "It cannot be measured.",
+      "True"
+    ],
+    "correct": 0,
+    "explanation": "Power can be positive or negative depending on the direction of energy transfer."
+  },
+  {
+    "question": "A lifter picked up a 400 kg block to a height of 1.5 m in 5 seconds. What is the power dissipated by him?",
+    "options": [
+      "120 W",
+      "60 W",
+      "240 W",
+      "180 W"
+    ],
+    "correct": 0,
+    "explanation": "P = W/t = mgh/t = (400)(10)(1.5)/5 = 120 W"
+  },
+  {
+    "question": "What is the power developed by a force of 100 N while displacing a box for 10 m in just 4 seconds? (Force applied at 53° to horizontal)",
+    "options": [
+      "75 W",
+      "150 W",
+      "300 W",
+      "225 W"
+    ],
+    "correct": 1,
+    "explanation": "P = W/t = Fs cosθ / t = (100)(10)cos(53°)/4 = 150 W"
+  },
+  {
+    "question": "An engine develops 10 kW power. How much time will it take to lift a mass of 200 kg to a height of 40 m?",
+    "options": [
+      "4 s",
+      "5 s",
+      "8 s",
+      "10 s"
+    ],
+    "correct": 2,
+    "explanation": "t = mgh/P = (200)(10)(40)/10000 = 8 s."
+  },
+  {
+    "question": "A 4 kg mass is moving on a smooth table with a speed of 20 m/s and strikes a spring of force constant 100 N/m. What is the maximum compression of the spring?",
+    "options": [
+      "0.4 m",
+      "0.04 m",
+      "1 m",
+      "4 m"
+    ],
+    "correct": 3,
+    "explanation": "(1/2)mv² = (1/2)kx², so x = 4 m."
+  },
+  {
+    "question": "A body of mass 2 kg is thrown upward with a kinetic energy of 490 J. At what height will its kinetic energy become halved?",
+    "options": [
+      "12.25 m",
+      "50 m",
+      "25 m",
+      "10.25 m"
+    ],
+    "correct": 0,
+    "explanation": "490 = 245 + mgh → mgh = 245 → h = 245/(mg) = 245/(2×10) = 12.25 m"
+  },
+  {
+    "question": "A car of mass 1500 kg is travelling at a uniform velocity of 30 m/s east. The driver applies the brakes to slow the car down to 10 m/s. What is the work done in slowing down the car?",
+    "options": [
+      "15 kJ",
+      "600 kJ",
+      "300 kJ",
+      "750 kJ"
+    ],
+    "correct": 1,
+    "explanation": "W = ΔKE = (1/2)m(v² − u²) = (1/2)(1500)(30² − 10²) = 600,000 J = 600 kJ"
+  },
+  {
+    "question": "A bullet of mass 50 grams travelling at 80 m/s hits a sand bag and moves a distance of 10 cm before it stops. What force is exerted on the bullet by the sand bag?",
+    "options": [
+      "600 N",
+      "800 N",
+      "1600 N",
+      "1800 N"
+    ],
+    "correct": 2,
+    "explanation": "W = ΔKE → −fs = −(1/2)mu² → f = mu²/(2s) = (0.05)(80)²/[2(0.1)] = 1600 N"
+  },
+  {
+    "question": "A 1.75 m tall worker lifts a 50 kg cement bag by himself and then carries it along the horizontal for 1 km. What is the work done by the man?",
+    "options": [
+      "437.5 J",
+      "1750 J",
+      "0 J",
+      "875 J"
+    ],
+    "correct": 3,
+    "explanation": "The work is done while lifting the bag: W = mgh = (50)(10)(1.75) = 875 J. The horizontal carry does not add work."
+  },
+  {
+    "question": "The work done by a force is defined by W = F⃗ · S⃗. If F⃗ and S⃗ are not zero but work done is zero, we calculate that:",
+    "options": [
+      "F⃗ and S⃗ are at right angle",
+      "F⃗ and S⃗ are in the same direction",
+      "F⃗ and S⃗ are in opposite direction",
+      "F⃗ > S⃗"
+    ],
+    "correct": 0,
+    "explanation": "W = Fs cos θ = 0 when θ = 90°."
+  },
+  {
+    "question": "A force F⃗ = (2, 2) N displaces a particle through S⃗ = (2, 0, 2) m in 16 seconds. The power developed is?",
+    "options": [
+      "25 W",
+      "0.25 W",
+      "225 W",
+      "450 W"
+    ],
+    "correct": 1,
+    "explanation": "P = W/t = F⃗·S⃗/t = 4/16 = 0.25 W."
+  },
+  {
+    "question": "At a certain instant, a particle experiences a force F⃗ (4, −2, 9) N while having a velocity of V⃗ (−2, 0, 4) m/s. What is the instantaneous rate at which the force does work on the particle?",
+    "options": [
+      "54 W",
+      "14 W",
+      "28 W",
+      "36 W"
+    ],
+    "correct": 2,
+    "explanation": "P = F⃗·V⃗ = 28 W."
+  },
+  {
+    "question": "A force of F⃗ = (3, −5) N acts on a body and displaces it with S⃗ = (6, −1) m. The work done is?",
+    "options": [
+      "18 J",
+      "5 J",
+      "13 J",
+      "23 J"
+    ],
+    "correct": 3,
+    "explanation": "W = F⃗·S⃗ = (3)(6) + (−5)(−1) = 23 J."
+  },
+  {
+    "question": "A 30 gram bullet initially travelling at 50 m/s penetrates 10 cm into a wooden block. The average force it exerts is?",
+    "options": [
+      "375 N",
+      "4000 N",
+      "2500 N",
+      "4500 N"
+    ],
+    "correct": 0,
+    "explanation": "f = mv²/(2s) = 375 N."
+  },
+  {
+    "question": "A body at rest may have:",
+    "options": [
+      "Speed",
+      "Energy",
+      "Momentum",
+      "Velocity"
+    ],
+    "correct": 1,
+    "explanation": "A body at rest can have potential energy."
+  },
+  {
+    "question": "If the momentum of a body is numerically equal to its kinetic energy, then the speed of the body is?",
+    "options": [
+      "1 m/s",
+      "4 m/s",
+      "2 m/s",
+      "8 m/s"
+    ],
+    "correct": 2,
+    "explanation": "mv = (1/2)mv², so v = 2 m/s."
+  },
+  {
+    "question": "A boy pushes a cart with a force of (150i − 40j) N and displaces the cart to (14i + 11j) m. How much work does the boy do on the cart?",
+    "options": [
+      "830 J",
+      "3320 J",
+      "2490 J",
+      "1660 J"
+    ],
+    "correct": 3,
+    "explanation": "W = F⃗·S⃗ = (150)(14) + (−40)(11) = 1660 J."
+  },
+  {
+    "question": "A boy of mass 50 kg and a girl of mass 40 kg each take 20 seconds to run to the 3rd floor which is 10 m from the 1st floor. Who is more powerful?",
+    "options": [
+      "Boy",
+      "Girl",
+      "Both are equally powerful",
+      "Cannot be determined"
+    ],
+    "correct": 0,
+    "explanation": "The boy does more work per unit time, so he is more powerful."
+  },
+  {
+    "question": "A force varies with position: 0 to 5 m, it rises from 0 to 20 N; 5 to 10 m, it falls to 0; 10 to 15 m, it drops to −10 N. What is the work done from A) 0 to 10 m, B) 10 to 15 m, and C) 0 to 15 m?",
+    "options": [
+      "75 J; B: −25 J; C: 50 J",
+      "100 J; B: −25 J; C: 75 J",
+      "100 J; B: 25 J; C: 125 J",
+      "50 J; B: −25 J; C: 25 J"
+    ],
+    "correct": 1,
+    "explanation": "A) 100 J. B) −25 J. C) 75 J."
+  },
+  {
+    "question": "A ball of mass 1 kg is released from a height of 18 m. At what height above the ground will the kinetic energy of the ball become twice its potential energy?",
+    "options": [
+      "3 m",
+      "12 m",
+      "6 m",
+      "9 m"
+    ],
+    "correct": 2,
+    "explanation": "If KE = 2PE, then the remaining potential energy is one-third of the initial value, so the height is 6 m."
+  },
+  {
+    "question": "A 5 kg block is set to move up an inclined plane of inclination 37° with an initial speed of 6 m/s. How far up along the plane will the block move before coming to rest: A) when there is no friction, B) if μk = 0.3?",
+    "options": [
+      "1.05 m",
+      "4.2 m",
+      "3.15 m",
+      "2.1 m"
+    ],
+    "correct": 3,
+    "explanation": "A) (1/2)mv² = mgs sinθ → S = v²/(2g sinθ) = 36/[2(10)(0.6)] = 3 m. B) (1/2)v² = gs sinθ + μgs cosθ → S = v²/[2g(sinθ + μcosθ)] = 36/[2(10)(0.6 + 0.3×0.8)] = 2.1 m"
+  },
+  {
+    "question": "What average power must be supplied to push a 10 kg block from rest to 26 m/s in 5 sec when the coefficient of friction is 0.2?",
+    "options": [
+      "1200 W",
+      "600 W",
+      "2400 W",
+      "1800 W"
+    ],
+    "correct": 0,
+    "explanation": "a = (v−u)/t = 20/5 = 4 m/s². F = ma + f = (10)(4) + μmg = 40 + (0.2)(10)(10) = 60 N. P = Fv cosθ = (60)(20) = 1200 W"
+  },
+  {
+    "question": "If a 1200 kg car accelerates from rest to 20 m/s in 5 seconds, what is the power developed by its motor?",
+    "options": [
+      "48000 W",
+      "96000 W",
+      "192000 W",
+      "144000 W"
+    ],
+    "correct": 1,
+    "explanation": "a = (v−u)/t = 20/5 = 4 m/s². F = ma = (1200)(4) = 4800 N. P = Fv = (4800)(20) = 96,000 W"
+  },
+  {
+    "question": "A projectile is fired into the air and suddenly explodes into fragments. What can be said about the motion of the center of mass of the fragments?",
+    "options": [
+      "The center of mass continues along the same path.",
+      "The center of mass moves only horizontally.",
+      "The center of mass follows the same parabolic path.",
+      "The center of mass moves randomly with the fragments."
+    ],
+    "correct": 2,
+    "explanation": "Internal forces cannot change the motion of the center of mass."
+  },
+  {
+    "question": "What is the magnitude of the y-coordinate of the center of mass of the system: m₁ = 1 kg, m₂ = 500 g, and m₃ = 2 kg are placed at the x-y plane coordinates of (−1, 2), (2, 0), and (3, −2) units respectively?",
+    "options": [
+      "1.71",
+      "0.855",
+      "1.14",
+      "0.57"
+    ],
+    "correct": 3,
+    "explanation": "Using coordinates: xcm = 1.71 units and ycm = −0.57 units, so the magnitude of the y-coordinate is 0.57."
+  },
+  {
+    "question": "Find the x-coordinate of the center of mass of the system: m₁ = 5 kg at x = −0.5 m, m₂ = 2 kg at x = 0 m, m₃ = 4 kg at x = 1 m. All on the x-axis.",
+    "options": [
+      "0.14 m",
+      "0.28 m",
+      "0.42 m",
+      "0.56 m"
+    ],
+    "correct": 0,
+    "explanation": "xcm = [Σmx]/Σm = 0.14 m."
+  },
+  {
+    "question": "Find the coordinates of the center of mass of the system of masses: m₁ = 2 kg at (1, 4), m₂ = 4 kg at (4, 1), m₃ = 3 kg at (−2, 3), m₄ = 6 kg at (3, −1) m.",
+    "options": [
+      "(1 m, 2 m)",
+      "(2 m, 1 m)",
+      "(3 m, 1 m)",
+      "(2 m, 2 m)"
+    ],
+    "correct": 1,
+    "explanation": "xcm = 2 m and ycm = 1 m."
+  },
+  {
+    "question": "Two equal 2 kg masses are placed at (0, 0) and (5, 4) in configuration A, and at (0, 5) and (4, 0) in configuration B. What are the coordinates of the center of mass in A and B?",
+    "options": [
+      "(2.5 cm, 2 cm); B: (2 cm, 2.5 cm)",
+      "(2 cm, 2.5 cm); B: (2.5 cm, 2 cm)",
+      "(2.5 cm, 2.5 cm); B: (2 cm, 2 cm)",
+      "(1.25 cm, 1.25 cm); B: (3.75 cm, 3.75 cm)"
+    ],
+    "correct": 0,
+    "explanation": "For equal masses, the center of mass is the midpoint. So A is (2.5 cm, 2 cm) and B is (2 cm, 2.5 cm)."
+  },
+  {
+    "question": "For what coordinates (x₃, y₃) will the system of masses have a center of mass at (2, 3) cm? (m₁ = 1 kg at (1, 1), m₂ = 2 kg at (2, 4), m₃ = 3 kg at (x₃, y₃))",
+    "options": [
+      "(3 cm, 3 cm)",
+      "(7/3 cm, 2 cm)",
+      "(2 cm, 3 cm)",
+      "(7/3 cm, 3 cm)"
+    ],
+    "correct": 3,
+    "explanation": "Using the center of mass equations gives x₃ = 7/3 cm and y₃ = 3 cm."
+  },
+  {
+    "question": "Particles of masses m₁ = 1.2 kg, m₂ = 2.5 kg and m₃ = 3.4 kg are located at the corners of an equilateral triangle of side 140 cm. What is the y-coordinate of the center of mass?",
+    "options": [
+      "58 cm",
+      "29 cm",
+      "116 cm",
+      "87 cm"
+    ],
+    "correct": 0,
+    "explanation": "The y-coordinate of the center of mass is approximately 58 cm."
+  },
+  {
+    "question": "Locate the y-coordinate of the center of mass of particles m₁ = 2 kg, m₂ = 4 kg, m₃ = 5 kg, and m₄ = 3 kg each on the corners of a 2 m × 3 m rectangle, with m₁ at the origin.",
+    "options": [
+      "0.855 m",
+      "1.71 m",
+      "3.42 m",
+      "2.56 m"
+    ],
+    "correct": 1,
+    "explanation": "The y-coordinate of the center of mass is 1.71 m."
+  },
+  {
+    "question": "The speed of a falling body is proportional to its mass. True or False?",
+    "options": [
+      "True. Heavier bodies fall faster.",
+      "False. Speed depends on height and gravity, not mass.",
+      "True. Speed depends only on mass.",
+      "False. Speed depends only on gravity."
+    ],
+    "correct": 1,
+    "explanation": "The speed of a falling body is not proportional to its mass."
+  },
+  {
+    "question": "Arrange the following bodies in the order of increasing inertia: Bicycle, Train, Automobile, Truck.",
+    "options": [
+      "Train, Truck, Automobile, Bicycle",
+      "Automobile, Truck, Train, Bicycle",
+      "Automobile, Bicycle, Train, Truck",
+      "Bicycle, Automobile, Truck, Train"
+    ],
+    "correct": 3,
+    "explanation": "The bigger the mass, the larger the inertia. Hence the order of increasing inertia is: Bicycle, Automobile, Truck, Train."
+  },
+  {
+    "question": "Which of the following is an effect of force?",
+    "options": [
+      "Starts, stops, or changes the motion or shape of a body.",
+      "It is due to a change in mass only.",
+      "It is caused by the horizontal motion only.",
+      "It depends on the size of the object alone."
+    ],
+    "correct": 0,
+    "explanation": "Force can start or stop motion, change direction, change size, and change shape."
+  },
+  {
+    "question": "Why do dust particles get removed from a carpet by shaking?",
+    "options": [
+      "It is due to inertia of rest.",
+      "Because the carpet pulls the dust downward.",
+      "Because shaking increases dust mass.",
+      "Because dust becomes heavier."
+    ],
+    "correct": 1,
+    "explanation": "Dust particles tend to remain at rest due to inertia, so shaking helps remove them."
+  },
+  {
+    "question": "Can the coefficient of friction be zero?",
+    "options": [
+      "Yes, in ideal cases the coefficient of friction can be zero.",
+      "No, friction must always be positive.",
+      "Yes, but only for heavy bodies.",
+      "No, it depends only on speed."
+    ],
+    "correct": 0,
+    "explanation": "Yes. A coefficient of friction of zero means no friction in an ideal case."
+  },
+  {
+    "question": "State the law of conservation of linear momentum.",
+    "options": [
+      "In the absence of external force, total momentum remains constant.",
+      "Momentum is conserved even when external force acts.",
+      "Momentum depends only on mass, not velocity.",
+      "Momentum is always zero for moving bodies."
+    ],
+    "correct": 0,
+    "explanation": "In the absence of an external force, the initial momentum of a system is equal to its final momentum."
+  },
+  {
+    "question": "Why is a seat belt tied in a fast-moving vehicle?",
+    "options": [
+      "To keep the passenger from moving forward suddenly when the vehicle stops.",
+      "Because seat belts increase the speed of the body.",
+      "Because the body must stop before the vehicle stops.",
+      "Because the rider is pulled backward by gravity."
+    ],
+    "correct": 0,
+    "explanation": "A seat belt helps protect passengers when the vehicle stops suddenly. The body tends to keep moving because of inertia."
+  },
+  {
+    "question": "Why is it recommended to follow a zig-zag path rather than a straight path while climbing a mountain?",
+    "options": [
+      "Because the slope is gentler, so less force is needed.",
+      "Because the climber carries only part of the weight.",
+      "Because zig-zag motion removes gravity.",
+      "Because it increases mass."
+    ],
+    "correct": 1,
+    "explanation": "A zig-zag path makes the slope gentler, so less force is needed to climb."
+  },
+  {
+    "question": "State the first condition of equilibrium.",
+    "options": [
+      "The resultant force on the body is zero.",
+      "No force acts on the body.",
+      "The body must be at rest.",
+      "All the forces must have the same size."
+    ],
+    "correct": 2,
+    "explanation": "The first condition of equilibrium is that the resultant force is zero."
+  },
+  {
+    "question": "What is impulse? Explain.",
+    "options": [
+      "The change in momentum of a body.",
+      "Force times distance.",
+      "Mass times velocity.",
+      "Energy transferred per second."
+    ],
+    "correct": 3,
+    "explanation": "Impulse is the change in momentum of a body."
+  },
+  {
+    "question": "A man pulls a box (20, −1) m with a force of (35, 25) N. How much work does the man do on the box?",
+    "options": [
+      "675 J",
+      "338 J",
+      "1350 J",
+      "1.01e+03 J"
+    ],
+    "correct": 0,
+    "explanation": "W = F⃗·S⃗ = (35)(20)+(25)(−1) = 700 − 25 = 675 J"
+  },
+  {
+    "question": "A force of 20 N is applied on a body at an angle of 60° to the direction of the displacement. If the body is displaced by 8 m, how much work is done by the force?",
+    "options": [
+      "40 J",
+      "80 J",
+      "160 J",
+      "120 J"
+    ],
+    "correct": 1,
+    "explanation": "W = Fs cosθ = (20)(8)(cos 60°) = (20)(8)(0.5) = 80 J"
+  },
+  {
+    "question": "Starting from rest, a 5 kg block slides 2.5 m down a rough 37° inclined plane. The coefficient of kinetic friction between the block and the plane is 0.4. Determine: A) Work done by gravity, B) Work done by friction.",
+    "options": [
+      "16 J; B: 75 J",
+      "32 J; B: −24 J",
+      "75 J; B: −16 J",
+      "8 J; B: −16 J"
+    ],
+    "correct": 2,
+    "explanation": "A) Wg = 75 J. B) Wf = −16 J."
+  },
+  {
+    "question": "How much work is required to increase the speed of a 4 kg object from 20 m/s to 40 m/s?",
+    "options": [
+      "1200 J",
+      "4800 J",
+      "3600 J",
+      "2400 J"
+    ],
+    "correct": 3,
+    "explanation": "W = ΔKE = (1/2)m(v²−u²) = (1/2)(4)(40²−20²) = (1/2)(4)(1600−400) = 2400 J"
+  },
+  {
+    "question": "A weight lifter lifts 200 kg through 1.8 m in 2 seconds. What is the power developed?",
+    "options": [
+      "1800 W",
+      "900 W",
+      "3600 W",
+      "2700 W"
+    ],
+    "correct": 0,
+    "explanation": "P = mgh/t = (200)(10)(1.8)/2 = 1800 W"
+  },
+  {
+    "question": "A ball of mass 4 kg falls onto a floor with a velocity of (4, −9) m/s and bounces off with (4, 9) m/s in 0.5 seconds. What is: A) the impulse, B) the average force?",
+    "options": [
+      "144 N·s; B: 72 N",
+      "72 N·s; B: 144 N",
+      "36 N·s; B: 72 N",
+      "72 N·s; B: 72 N"
+    ],
+    "correct": 1,
+    "explanation": "The impulse is 72 N·s and the average force is 144 N."
+  },
+  {
+    "question": "A 0.8 kg ball moving at 5 m/s collides with a 1.2 kg ball moving oppositely at 4 m/s. After collision, the first ball moves at 4 m/s. What is the second ball's velocity?",
+    "options": [
+      "-3.3 m/s",
+      "3.3 m/s",
+      "-4.95 m/s",
+      "4.95 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Using conservation of momentum, the second ball's velocity is −3.3 m/s, so it moves in the opposite direction."
+  },
+  {
+    "question": "A force accelerates a body of mass m at 8 m/s². What acceleration will this force give to a body of mass 4m?",
+    "options": [
+      "1 m/s²",
+      "4 m/s²",
+      "3 m/s²",
+      "2 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "F = ma₁ = m(8). For mass 4m: F = 4m·a₂ → a₂ = 8/4 = 2 m/s²"
+  },
+  {
+    "question": "What will be the apparent weight of a 60 kg man standing in an elevator that accelerates downward at 4 m/s²?",
+    "options": [
+      "360 N",
+      "180 N",
+      "720 N",
+      "540 N"
+    ],
+    "correct": 0,
+    "explanation": "T = mg − ma = (60)(10) − (60)(4) = 600 − 240 = 360 N"
+  },
+  {
+    "question": "What force is needed to change the speed of a 10 kg body from 10 m/s to 30 m/s in 0.5 seconds?",
+    "options": [
+      "800 N",
+      "400 N",
+      "200 N",
+      "600 N"
+    ],
+    "correct": 1,
+    "explanation": "a = Δv/t = 40 m/s², so F = ma = 400 N."
+  },
+  {
+    "question": "A force of 18 N pushes the mass system of m₁ = 1 kg, m₂ = 2 kg, and m₃ = 3 kg along a frictionless surface. What is: A) the acceleration of the system, B) the tension in the first string?",
+    "options": [
+      "1.5 m/s²; B: 7.5 N",
+      "6 m/s²; B: 30 N",
+      "3 m/s²; B: 15 N",
+      "2.25 m/s²; B: 22.5 N"
+    ],
+    "correct": 2,
+    "explanation": "A) a = 18/(1+2+3) = 3 m/s². B) T = 15 N."
+  },
+  {
+    "question": "What is the net work done on a box when a 120 N force displaces the box 10 m against a 5 N friction?",
+    "options": [
+      "575 J",
+      "2300 J",
+      "1725 J",
+      "1150 J"
+    ],
+    "correct": 3,
+    "explanation": "Fnet = 120 − 5 = 115 N. Work done = Fnet × s = 1150 J."
+  }
+]
