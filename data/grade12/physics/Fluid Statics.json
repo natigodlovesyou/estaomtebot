@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "An athlete has a mass of 70 kg and the sole of his foot has area of 0.35 m². What pressure will he exert in the ground when he stands on the ground:\nA) On one foot\nB) On both feet",
+    "options": [
+      "A) On one foot = 1000 Pa; B) On both feet = 2000 Pa",
+      "A) On one foot = 2000 Pa; B) On both feet = 1000 Pa",
+      "A) On one foot = 2000 Pa; B) On both feet = 2000 Pa",
+      "A) On one foot = 500 Pa; B) On both feet = 1000 Pa"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Pressure is P = F/A.\nStep 2: On one foot, P = (70×10)/0.35 = 2000 Pa.\nStep 3: On both feet, the contact area doubles, so the pressure halves to 1000 Pa."
+  },
+  {
+    "question": "A wooden box has a mass of 4 kg and dimensions 60 cm, 80 cm and 40 cm. What are the minimum and maximum pressures exerted by the box?",
+    "options": [
+      "166.7 Pa and 83.3 Pa",
+      "40 Pa and 80 Pa",
+      "83.3 Pa and 166.7 Pa",
+      "100 Pa and 200 Pa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: The minimum pressure occurs on the largest face: 40/0.48 = 83.3 Pa.\nStep 2: The maximum pressure occurs on the smallest face: 40/0.24 = 166.7 Pa."
+  },
+  {
+    "question": "At a point on Earth's surface, the pressure is 420 mmHg. What is the pressure in kilopascals?",
+    "options": [
+      "42.0 kPa",
+      "76.0 kPa",
+      "101.0 kPa",
+      "55.8 kPa"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Use the conversion 1 atm = 760 mmHg = 101 kPa to build the ratio.\nStep 2: P = (420 / 760) × 101 kPa = 0.5526 × 101 ≈ 55.8 kPa.\nStep 3: The key idea is that pressure in different units must represent the same physical quantity, so you scale by the ratio of the units."
+
+  },
+  {
+    "question": "For a four wheel car of mass 120 kg, the recommended tyre pressure is 2400 Pa. Find the area of each tyre in contact with the ground.",
+    "options": [
+      "0.50 m²",
+      "0.125 m²",
+      "0.250 m²",
+      "0.0625 m²"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Using P = F/A, the total contact area is A = mg/P = (120×10)/2400 = 0.5 m².\nStep 2: For four tyres, each tyre has 0.125 m²."
+  },
+  {
+    "question": "The absolute pressure at a certain point on earth is found to be 126.25 kPa. What is the gauge pressure of the air at that point?",
+    "options": [
+      "126.25 kPa",
+      "75.25 kPa",
+      "25.25 kPa",
+      "101.00 kPa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Recall the relation: P_absolute = P_atmospheric + P_gauge.\nStep 2: Rearrange to find gauge pressure: P_gauge = P_absolute − P_atmospheric = 126.25 − 101 = 25.25 kPa.\nStep 3: Gauge pressure measures the excess above atmospheric pressure. Since 126.25 kPa > 101 kPa, the gauge reading is positive."
+  },
+  {
+    "question": "A vacuum gauge connected to a chamber reads 9.7 psi when the atmospheric pressure is 14.7 psi. What is the absolute pressure in the chamber?",
+    "options": [
+      "9.7 psi",
+      "14.7 psi",
+      "5 psi",
+      "24.4 psi"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: A vacuum gauge reading means the chamber pressure is below atmospheric pressure.\nStep 2: So P_abs = 14.7 − 9.7 = 5 psi."
+  },
+  {
+    "question": "What is the density of air at a 120 kPa pressure and 27°C temperature? (M_air = 29 kg)",
+    "options": [
+      "13.9 kg/m³",
+      "1.39 kg/m³",
+      "0.139 kg/m³",
+      "1.39×10³ kg/m³"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Use the ideal gas law in the form ρ = PM / (RT), where P is pressure in Pa, M is molar mass in kg/mol, R = 8.314 J/(mol·K), and T is temperature in Kelvin.\nStep 2: Convert: P = 120,000 Pa, M = 0.029 kg/mol, T = 27 + 273 = 300 K.\nStep 3: ρ = (120,000 × 0.029) / (8.314 × 300) = 3480 / 2494.2 ≈ 1.39 kg/m³."
+  },
+  {
+    "question": "What is the relative density of gold?",
+    "options": [
+      "1.93",
+      "19.3",
+      "193",
+      "0.193"
+    ],
+    "correct": 1,
+    "explanation": "Relative density is density compared with water. Gold has a density of about 19.3 g/cm³, so its relative density is 19.3."
+
+  },
+  {
+    "question": "If a substance has specific gravity of 8.4. What is the density of the substance? What is the type of substance?",
+    "options": [
+      "8.4×10² kg/m³, wood",
+      "8.4×10⁴ kg/m³, iron",
+      "8.4×10³ kg/m³, brass",
+      "840 kg/m³, aluminum"
+    ],
+    "correct": 2,
+    "explanation": "Specific gravity of 8.4 means the substance is 8.4 times denser than water. Therefore its density is 8.4×10³ kg/m³, which matches brass."
+
+  },
+  {
+    "question": "In a hydraulic lift, the smaller piston has an area of 0.05 m² and the larger piston has an area of 2 m². What is:\nA) The load lifted on the larger piston if 50 N is applied on the smaller piston\nB) The force required on the smaller piston to lift a car of mass 1200 kg",
+    "options": [
+      "A) 1000 N; B) 300 N",
+      "A) 2000 N; B) 600 N",
+      "A) 4000 N; B) 300 N",
+      "A) 2000 N; B) 300 N"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: By Pascal’s principle, F₂ = (A₂/A₁)F₁ = (2/0.05)×50 = 2000 N.\nStep 2: For the car, F₁ = F₂(A₁/A₂) = 12000×(0.05/2) = 300 N."
+
+  },
+  {
+    "question": "A hydraulic lift is a machine that multiplies what?",
+    "options": [
+      "Speed",
+      "Distance",
+      "Energy",
+      "Force"
+    ],
+    "correct": 3,
+    "explanation": "A hydraulic lift multiplies force because the pressure is transmitted through an enclosed fluid, so a small input force can produce a larger output force on the bigger piston."
+
+  },
+  {
+    "question": "What is the pressure due to pure water at a depth of 4 m in:\nA) a closed tank\nB) an open tank?",
+    "options": [
+      "A) Closed tank: 40 kPa; B) Open tank: 1.41×10⁵ Pa",
+      "A) Closed tank: 1.41×10⁵ Pa; B) Open tank: 40 kPa",
+      "A) Closed tank: 101 kPa; B) Open tank: 40 kPa",
+      "A) Closed tank: 40 Pa; B) Open tank: 1.41×10⁵ Pa"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For the closed tank, the pressure is the gauge pressure ρgh = 40 kPa.\nStep 2: For the open tank, add atmospheric pressure: 40 kPa + 101 kPa = 1.41×10⁵ Pa."
+
+  },
+  {
+    "question": "What is the pressure at a depth of 100 m below a sea water of density 1150 kg/m³?",
+    "options": [
+      "0.251 MPa",
+      "1.151 MPa",
+      "1.251 MPa",
+      "0.125 MPa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Absolute pressure at depth = atmospheric pressure + gauge pressure: P = P_atm + ρgh.\nStep 2: P = 101,000 + (1150 × 10 × 100) = 101,000 + 1,150,000 = 1,251,000 Pa.\nStep 3: Convert to MPa: 1,251,000 Pa = 1.251 MPa. The dominant contribution is from the water column, not atmospheric pressure."
+  },
+  {
+    "question": "If water were used instead of mercury to measure standard atmospheric pressure, what height of water column would be needed?",
+    "options": [
+      "1.01 m",
+      "10.1 m",
+      "101 m",
+      "0.101 m"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Use P = ρgh and rearrange for height: h = P / (ρg).\nStep 2: h = 101,000 / (1000 × 10) = 101,000 / 10,000 = 10.1 m.\nStep 3: This is why water is not used in barometers — a 10.1 m column is impractical compared to mercury's 0.76 m."
+  },
+  {
+    "question": "A column of water 40 cm high supports a 31 cm column of unknown fluid. What is the density of the unknown fluid?",
+    "options": [
+      "1000 kg/m³",
+      "770 kg/m³",
+      "1550 kg/m³",
+      "1290 kg/m³"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: At the bottom of both fluid columns, pressure must be equal (connected system). So ρ_water × g × h_water = ρ_unknown × g × h_unknown.\nStep 2: Cancel g and rearrange: ρ_unknown = (ρ_water × h_water) / h_unknown = (1000 × 0.40) / 0.31.\nStep 3: ρ_unknown = 400 / 0.31 ≈ 1290 kg/m³. The unknown fluid is denser than water and therefore supports itself with a shorter column."
+  },
+  {
+    "question": "A mercury manometer connected to a gas supply shows a level difference of 26.4 cm. What is the gauge pressure of the gas?",
+    "options": [
+      "1.36×10⁵ Pa",
+      "2.64×10⁴ Pa",
+      "3.59×10⁴ Pa",
+      "1.01×10⁵ Pa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Gauge pressure in a manometer is found from P_gauge = ρ_fluid × g × h, where h is the height difference.\nStep 2: For mercury (ρ = 13,600 kg/m³): P_gauge = 13,600 × 10 × 0.264 = 35,904 Pa.\nStep 3: Round to 3.59 × 10⁴ Pa. Mercury is used because its high density means a small height difference represents a large pressure."
+  },
+  {
+    "question": "A solid block has a weight of 20 N in air and when it is totally immersed in a liquid its weight is measured to be 16 N. Determine:\nA) The apparent weight\nB) The buoyant force",
+    "options": [
+      "A) 16 N; B) 4 N",
+      "A) 20 N; B) 4 N",
+      "A) 16 N; B) 20 N",
+      "A) 4 N; B) 16 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The apparent weight is the measured immersed weight: 16 N.\nStep 2: The buoyant force is 20 − 16 = 4 N."
+  },
+  {
+    "question": "A body weighs 475 N in air and a downward force of 15 N must be applied to keep it completely submerged in water. What is the density of the body?",
+    "options": [
+      "969 kg/m³",
+      "1000 kg/m³",
+      "850 kg/m³",
+      "1200 kg/m³"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The body’s weight is 475 N, and an extra 15 N must be applied downward, so the buoyant force is 490 N.\nStep 2: Solving gives density ≈ 969 kg/m³."
+  },
+  {
+    "question": "A cubical block made of wood having a cross-sectional area of 100 cm² floats in water. What is the mass of the block if one-fifth of the block is immersed in water?",
+    "options": [
+      "0.02 kg",
+      "0.2 kg",
+      "2.0 kg",
+      "0.5 kg"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: The cube side is 10 cm, so its volume is 1000 cm³ = 0.001 m³.\nStep 2: One-fifth is submerged, so mass = ρVsub = 1000×0.0002 = 0.2 kg."
+  },
+  {
+    "question": "The weight of a 2 kg object immersed in water is 15 N. If the same object immersed in other liquid is 18 N, then what is the density of the unknown liquid?",
+    "options": [
+      "200 kg/m³",
+      "800 kg/m³",
+      "400 kg/m³",
+      "1000 kg/m³"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: The loss of weight in water gives the object volume, then the loss in the unknown liquid gives its density.\nStep 2: The result is 400 kg/m³."
+  },
+  {
+    "question": "An object has a mass of 27 kg and a density of 2700 kg/m³. The object is attached to a string and immersed in a tank of water. What is the:\nA) Volume of the object\nB) Tension in the string",
+    "options": [
+      "A) 0.01 m³; B) 170 N",
+      "A) 0.1 m³; B) 170 N",
+      "A) 0.01 m³; B) 270 N",
+      "A) 0.001 m³; B) 170 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Volume = m/ρ = 27/2700 = 0.01 m³.\nStep 2: Then T = mg − Fb = 270 − (1000×0.01×10) = 170 N."
+  },
+  {
+    "question": "The density of ice is 917 kg/m³. What fraction of the volume of a piece of ice will be above water when floating in fresh water?",
+    "options": [
+      "8.3%",
+      "91.7%",
+      "17.3%",
+      "0.83%"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For a floating object, weight equals buoyant force: ρ_ice × V_total × g = ρ_water × V_submerged × g.\nStep 2: So V_submerged / V_total = ρ_ice / ρ_water = 917 / 1000 = 0.917, meaning 91.7% is below water.\nStep 3: Fraction above water = 1 − 0.917 = 0.083 = 8.3%. This is why most of an iceberg is hidden underwater."
+  },
+  {
+    "question": "A 60 kg rectangular box has base dimensions 1 m by 0.8 m and depth 0.5 m. How deep will it sink in water?",
+    "options": [
+      "0.075 m",
+      "0.75 m",
+      "0.0075 m",
+      "0.150 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For floating equilibrium, pressure from displaced water equals the box weight.\nStep 2: Using h = m/(ρA) gives h = 60/(1000×0.8×1) = 0.075 m."
+  },
+  {
+    "question": "A solid wooden cube, 30 cm on each edge, can be totally submerged in water if it is pushed downward with a force of 54 N. What is the density of the wood?",
+    "options": [
+      "600 kg/m³",
+      "1000 kg/m³",
+      "800 kg/m³",
+      "900 kg/m³"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: When the block is just submerged, the extra 54 N is the difference between buoyancy and weight.\nStep 2: Solving gives wood density 800 kg/m³."
+  },
+  {
+    "question": "A table tennis ball has a diameter of 3.8 cm and an average density of 0.084 g/cm³. What force is required to hold it completely submerged under water?",
+    "options": [
+      "0.521 N",
+      "0.129 N",
+      "0.064 N",
+      "0.258 N"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: F = F_b − mg = ρ_water × V × g − ρ_ball × V × g, where V = (4/3)πr³.\nStep 2: Substituting r = 1.9 cm gives F ≈ 0.258 N."
+  },
+  {
+    "question": "A cylindrical container is filled with water so that the pressure at the bottom is 5000 Pa. If the water is replaced by ethyl alcohol of density 0.8 g/cm³, what will the bottom pressure be?",
+    "options": [
+      "4000 Pa",
+      "4800 Pa",
+      "5000 Pa",
+      "6250 Pa"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: First find the height: h = P₁/(ρ₁g) = 5000/[(1000)(10)] = 0.5 m.\nStep 2: Then P₂ = ρ₂gh = (800)(10)(0.5) = 4000 Pa."
+  },
+  {
+    "question": "A very large open tank is full of oil with density 800 kg/m³. If the absolute pressure at the bottom is 1.81 × 10⁵ Pa, what is the depth of the oil?",
+    "options": [
+      "100 m",
+      "10 m",
+      "75 m",
+      "9.5 m"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: P = P_atm + ρgh, so ρgh = P − P_atm.\nStep 2: Hence h = (1.81 × 10⁵ − 1.01 × 10⁵)/[(800)(10)] = 10 m."
+  },
+  {
+    "question": "A hydraulic press has small piston area A₁ and a force of 50 N is acting on it. If the larger piston has an area which is four times the area of the smaller piston, then what load will be lifted on the larger piston?",
+    "options": [
+      "50 N",
+      "800 N",
+      "400 N",
+      "200 N"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: A hydraulic press multiplies force by the area ratio.\nStep 2: If A₂ = 4A₁, then F₂ = 4×50 = 200 N."
+  },
+  {
+    "question": "If you feel a pressure five times that of the atmospheric pressure when you are deep under water, how high is the water above you?",
+    "options": [
+      "40 m",
+      "20 m",
+      "30 m",
+      "50 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: P = P_atm + P_gauge\nStep 2: 5P_atm = P_atm + ρgh\nStep 3: h = 4P_atm / (ρg) = 4(101000) / (1000)(10) = 40 m"
+  },
+  {
+    "question": "Liquids and gases are collectively called fluids because",
+    "options": [
+      "They fill the volume of their container",
+      "They have no fixed volume",
+      "Both can be compressed",
+      "Both can flow"
+    ],
+    "correct": 3,
+    "explanation": "They are called fluids because both liquids and gases can flow. A fluid takes the shape of its container."
+  },
+  {
+    "question": "A certain object floats in fluids F1, F2 and F3 of densities 0.9p, p and 1.1p respectively. The volume of the displaced fluid by the object is",
+    "options": [
+      "less for F1",
+      "less for F3",
+      "less for F2",
+      "the same for all fluids"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: For any floating object, the buoyancy condition requires ρ_obj × V_obj = ρ_fluid × V_submerged.\nStep 2: Rearrange: V_submerged = (ρ_obj / ρ_fluid) × V_obj. The denser the fluid, the smaller the fraction that needs to be submerged.\nStep 3: F3 has the highest density (1.1p), so the object floats highest in F3, meaning the least volume is displaced in F3."
+  },
+  {
+    "question": "Four containers have the same weight, but containers II and IV have smaller contact areas with the support than containers I and III. Which containers exert greater pressure on the supporting surface?",
+    "options": [
+      "II and IV",
+      "I and IV",
+      "II and III",
+      "I and II"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Pressure is given by P = F/A.\nStep 2: When the force is the same, the smaller the contact area, the greater the pressure.\nStep 3: Containers II and IV have the smaller contact areas, so they exert the greater pressure."
+  },
+  {
+    "question": "A barometer reads 75 cm Hg at the base and 74.4 cmHg at the top of the building. What is the height of the building?",
+    "options": [
+      "20 m",
+      "35 m",
+      "65 m",
+      "80 m"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: ΔP = P_base - P_top = ρgh2 - ρgh1\nStep 2: ρgh = (13600)(10)(0.75 - 0.744) = 816\nStep 3: h = 816 / (1.3)(10) = 65 m"
+  },
+  {
+    "question": "An air pressure of 101 kPa supports a 76 cmHg. What column will be read if the barometer fluid is a liquid of 1g/cm³?",
+    "options": [
+      "10.1 m",
+      "5.0 m",
+      "7.6 m",
+      "13.6 m"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Use P = ρgh.\nStep 2: For a liquid of density 1000 kg/m³, h = 101000/(1000×10) = 10.1 m."
+  },
+  {
+    "question": "One piston in a hydraulic lift has an area that is twice the area of the other piston. When the pressure at the smaller piston is increased by ΔP, the pressure at the larger piston will increase by:",
+    "options": [
+      "2ΔP",
+      "1/2 ΔP",
+      "ΔP",
+      "4ΔP"
+    ],
+    "correct": 2,
+    "explanation": "According to Pascal's principle, the pressure increase is transmitted equally throughout the fluid."
+  },
+  {
+    "question": "An object hangs from a spring balance. The balance reads 30 N in air and 20 N in water. What is the volume of the object totally submerged in water?",
+    "options": [
+      "10³m³",
+      "10⁻⁴m³",
+      "10⁻³m³",
+      "10⁻²m³"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Fb = W_air - W_water = 10 N\nStep 2: Fb = ρw·Vo·g = 10\nStep 3: Vo = 10 / (1000)(10) = 10⁻³m³"
+  },
+  {
+    "question": "Which face of the 5 kg block must land on the table to exert maximum pressure? (Block with Face A: 30 cm×20 cm, Face B: 10 cm×20 cm, Face C: 10 cm×30 cm)",
+    "options": [
+      "Face A",
+      "Face B",
+      "Face C",
+      "Any one of the faces"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Pressure = Force / Area = mg / A. With fixed weight, maximum pressure occurs on the face with the smallest area.\nStep 2: Calculate each face area — Face A: 30 × 20 = 600 cm², Face B: 20 × 10 = 200 cm², Face C: 30 × 10 = 300 cm².\nStep 3: Face B has the smallest area (200 cm²), so it exerts the highest pressure: P = (5 × 10) / 0.02 = 2500 Pa."
+  },
+  {
+    "question": "If a body sinks in water, then its relative density is?",
+    "options": [
+      "Less than one",
+      "Greater than one",
+      "Equals to one",
+      "Can not be determined"
+    ],
+    "correct": 1,
+    "explanation": "A body sinks in water when its density is greater than the density of water. In that case, its weight is larger than the buoyant force it can receive from the fluid."
+  },
+  {
+    "question": "A 3600 kg circus elephant balances on one foot. If the foot is circular and has an area of 3 × 10⁻²m². What pressure does it exert on the ground?",
+    "options": [
+      "3 × 10⁶ Pa",
+      "6 × 10⁶ Pa",
+      "9 × 10⁵ Pa",
+      "1.2 × 10⁶ Pa"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Pressure is P = F / A = mg / A. The elephant's weight is the force applied.\nStep 2: P = (3600 × 10) / (3 × 10⁻²) = 36,000 / 0.03 = 1,200,000 Pa.\nStep 3: P = 1.2 × 10⁶ Pa. Despite balancing on one foot, the large foot area reduces the pressure to a manageable level."
+  },
+  {
+    "question": "Suppose object A is three times denser than object B. If they have the same volume, how do their masses compare?",
+    "options": [
+      "MA = MB",
+      "MB = 1/3 MA",
+      "MA = 3MB",
+      "MA = 1/2 MB"
+    ],
+    "correct": 2,
+    "explanation": "For equal volumes, mass is proportional to density. So if object A is three times denser than object B, object A is also three times as massive."
+  },
+  {
+    "question": "What is the absolute pressure 4 m below the surface of a lake?",
+    "options": [
+      "4 × 10⁵ Pa",
+      "6 × 10⁴ Pa",
+      "2 × 10⁵ Pa",
+      "1.4 × 10⁵ Pa"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Absolute pressure at depth = atmospheric pressure + water pressure: P = P_atm + ρgh.\nStep 2: P = 101,000 + (1000 × 10 × 4) = 101,000 + 40,000 = 141,000 Pa.\nStep 3: P = 1.41 × 10⁵ Pa. Note: the question asks for absolute pressure, so atmospheric pressure must be included."
+  },
+  {
+    "question": "What is the pressure at the bottom of the tube containing oil and water? (Oil layer: 2 cm, Water layer: 8 cm; oil density = 800 kg/m³)",
+    "options": [
+      "960 Pa",
+      "800 Pa",
+      "640 Pa",
+      "160 Pa"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For stacked fluid layers, total pressure at the bottom = sum of each layer's contribution: P = ρ₁gh₁ + ρ₂gh₂.\nStep 2: P = (800 × 10 × 0.02) + (1000 × 10 × 0.08) = 160 + 800 = 960 Pa.\nStep 3: The oil layer (less dense, thinner) contributes only 160 Pa while the water layer (denser, thicker) contributes 800 Pa."
+  },
+  {
+    "question": "A block has weight 4 N in air and 3 N when immersed in a liquid. The buoyant force is?",
+    "options": [
+      "1 N",
+      "0 N",
+      "3 N",
+      "4 N"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: By Archimedes' principle, the buoyant force equals the apparent loss in weight when submerged.\nStep 2: F_buoyant = W_air − W_in_liquid = 4 − 3 = 1 N.\nStep 3: The liquid pushes up on the block with 1 N, reducing its apparent weight from 4 N to 3 N."
+  },
+  {
+    "question": "If a wooden block floats in water with half of its volume under water, then its density in kg/m³ is?",
+    "options": [
+      "500 kg/m³",
+      "250 kg/m³",
+      "750 kg/m³",
+      "1000 kg/m³"
+    ],
+    "correct": 0,
+    "explanation": "If half of the volume is submerged, the block’s density is half the density of water: 500 kg/m³."
+  },
+  {
+    "question": "A cubical block of wood of edge 3 cm floats in water. If density of wood is 800 kg/m³, the height of cube outside of water is?",
+    "options": [
+      "1.2 cm",
+      "2.4 cm",
+      "3.0 cm",
+      "0.6 cm"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: ρ_block·V_block·g = ρ_water·V_sub·g\nStep 2: the submerged height is 2.4 cm, so the part above water is 0.6 cm."
+  },
+  {
+    "question": "A sample of metal weighs 210g in air, 180g in water and 120g in an unknown liquid. Then, the density of the metal in g/cm³ is",
+    "options": [
+      "17",
+      "2",
+      "1.8",
+      "7"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: The loss of weight in water equals the buoyant force. Loss in water = 210 − 180 = 30 g. This equals the weight of water displaced.\nStep 2: The volume of the metal equals the volume of water displaced = 30 cm³ (since ρ_water = 1 g/cm³).\nStep 3: Density of metal = mass / volume = 210 / 30 = 7 g/cm³. This matches iron/steel, confirming the answer."
+  },
+  {
+    "question": "Water and mercury are in a U-tube. If the mercury is 2 cm, the water level h is",
+    "options": [
+      "27.2 cm",
+      "13.6 cm",
+      "6.8 cm",
+      "54 cm"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: In a U-tube, pressure at the bottom interface must be equal on both sides: ρ_water × g × h_water = ρ_Hg × g × h_Hg.\nStep 2: Cancel g and solve: h_water = (ρ_Hg / ρ_water) × h_Hg = (13600 / 1000) × 2 cm.\nStep 3: h_water = 13.6 × 2 = 27.2 cm. Mercury's high density means a small mercury column balances a tall water column."
+  },
+  {
+    "question": "A piece of solid weighs 120g in air, 80g in water and 60g in a liquid. The relative density of the solid and that of liquid are respectively",
+    "options": [
+      "3, 2",
+      "2, 4/3",
+      "3, 3/2",
+      "4, 3"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: SG of solid = 120 / (120 - 80) = 3\nStep 2: SG of liquid = (120 - 60) / (120 - 80) = 3/2"
+  },
+  {
+    "question": "The weight of a body is 120 N in air. When immersed in water, it weighs 80 N. The relative density of the body is?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Buoyant force = W_air − W_water = 120 − 80 = 40 N. This equals the weight of water displaced.\nStep 2: Volume of object = F_b / (ρ_water × g) = 40 / (1000 × 10) = 4 × 10⁻³ m³. Mass = 120/10 = 12 kg.\nStep 3: Density = 12 / (4 × 10⁻³) = 3000 kg/m³. Relative density = 3000 / 1000 = 3."
+  },
+  {
+    "question": "A piece of ice with a stone embedded in it floats in a vessel filled with water. When the ice melts, what happens to the water level?",
+    "options": [
+      "Rise",
+      "Fall",
+      "Remain the same",
+      "Cannot be determined"
+    ],
+    "correct": 1,
+    "explanation": "When the ice melts, the stone sinks and displaces less water than it did while the ice was floating. Because of that, the water level falls."
+  },
+  {
+    "question": "The diameters of a pipe at section 1 and 2 are 200 mm and 300 mm respectively. If the velocity of water flowing through the pipe at section 1 is 4 m/s, Find: A) Discharge through the pipe, B) Velocity of water at section 2",
+    "options": [
+      "A) 0.1256 m³/s; B) 1.77 m/s",
+      "A) 0.0256 m³/s; B) 1.77 m/s",
+      "A) 0.1256 m³/s; B) 3.00 m/s",
+      "A) 0.251 m³/s; B) 0.88 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Discharge is Q = A₁V₁ = (π/4)(0.2)²×4 = 0.1256 m³/s.\nStep 2: Then V₂ = Q/A₂ = 1.77 m/s."
+  },
+  {
+    "question": "Pipe-1, 450 mm in diameter branches into two pipes: pipe-2 of diameter 300 mm and pipe-3 of diameter 200 mm. If the average velocity in the 450 mm diameter pipe is 3 m/s, find: A) Discharge through pipe-1, B) Velocity in pipe-3, if velocity in pipe-2 is 2.5 m/s",
+    "options": [
+      "A) 0.247 m³/s; B) 9.55 m/s",
+      "A) 0.477 m³/s; B) 4.77 m/s",
+      "A) 0.500 m³/s; B) 9.55 m/s",
+      "A) 0.477 m³/s; B) 9.55 m/s"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Use Q = AV for pipe 1 to get Q ≈ 0.477 m³/s.\nStep 2: Then Q₃ = Q₁ − Q₂ gives V₃ ≈ 9.55 m/s."
+  },
+  {
+    "question": "If 9000 kg of water flows in a minute through a pipe of cross sectional area 0.3 m², what is the speed of water in the pipe?",
+    "options": [
+      "5 m/s",
+      "0.05 m/s",
+      "0.5 m/s",
+      "1.5 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: 9000 kg of water is 9 m³.\nStep 2: With cross-sectional area 0.3 m², the length moved in one minute is 30 m, so speed = 30/60 = 0.5 m/s."
+  },
+  {
+    "question": "For an ideal fluid, show that the relation A1·V̄1 = A2·V̄2 holds.",
+    "options": [
+      "A₁V̄₁ = A₂V̄₂",
+      "A₁/ V̄₁ = A₂/ V̄₂",
+      "A₁V̄₂ = A₂V̄₁",
+      "A₁ + V̄₁ = A₂ + V̄₂"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: For a steady, incompressible fluid, mass is conserved: mass entering a section = mass leaving it per unit time.\nStep 2: Mass flow rate = ρ × A × v. Since density ρ is constant: ρA₁V̄₁ = ρA₂V̄₂, so A₁V̄₁ = A₂V̄₂.\nStep 3: This means wherever the pipe is narrower (smaller A), the fluid moves faster (larger v) — which is why water speeds up through a narrower nozzle."
+  },
+  {
+    "question": "Water flows in a pipe. At one section, the diameter is 0.3 m, the static pressure is 260 kPa, the velocity is 3 m/s and the elevation is 10 m above ground level. The elevation at a section downstream is 0 m and the pipe diameter is 0.15 m. Find the static pressure at the downstream section.",
+    "options": [
+      "260.0 kPa",
+      "312.5 kPa",
+      "292.5 kPa",
+      "245.0 kPa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Apply continuity A₁v₁ = A₂v₂ to find the velocity at the second section using the given diameters.\nStep 2: Apply Bernoulli's equation: P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂. Rearrange for P₂.\nStep 3: Substituting P₁ = 260 kPa, ρ = 1000 kg/m³, and the computed velocities and elevation difference gives P₂ = 292.5 kPa."
+  },
+  {
+    "question": "Water is flowing through a pipe having diameter 300 mm and 150 mm at section 1 and 2 respectively. The discharge through the pipe is 40 l/s. Section 1 is 10 m and section 2 is 6 m above datum. Find the intensity of pressure at section 2 if that at section 1 is 400 kPa.",
+    "options": [
+      "400.0 kPa",
+      "292.5 kPa",
+      "431.6 kPa",
+      "520.0 kPa"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Find velocities from Q/A, then apply Bernoulli between the two sections.\nStep 2: The downstream pressure is 431.6 kPa."
+  },
+  {
+    "question": "Water is flowing through a pipe having diameters 600 mm and 400 mm at the bottom and upper end respectively. The intensity of pressure at the bottom end is 350 kPa and it is 100 kPa at the upper end. Determine the difference in elevation if the rate of flow is 60 l/s.",
+    "options": [
+      "10 m",
+      "40 m",
+      "5 m",
+      "25 m"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Use continuity to get the velocities, then apply Bernoulli.\nStep 2: The difference in elevation comes out to 25 m."
+  },
+  {
+    "question": "Water flows through a pipe whose cross-section area is 50 cm² into a pipe of cross-sectional area 10 cm². Both pipes are horizontal. If the velocity of water in the larger pipe is 12 m/s, the water velocity in the smaller pipe is?",
+    "options": [
+      "60 m/s",
+      "0.24 m/s",
+      "1.2 m/s",
+      "30 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Apply the continuity equation: A₁v₁ = A₂v₂, so v₂ = (A₁ / A₂) × v₁.\nStep 2: The area ratio is A₁/A₂ = 50/10 = 5, meaning the fluid speeds up by a factor of 5 in the narrower pipe.\nStep 3: With the given inlet velocity v₁ = 12 m/s: v₂ = 5 × 12 = 60 m/s."
+  },
+  {
+    "question": "A horizontal pipe of 10 cm in diameter has a smooth reduction to pipe of 5 cm in diameter. If the pressure of water in the larger pipe is 80 kPa and the pressure in the smaller pipe is 60 kPa, at what rate does water flow through the smaller pipe?",
+    "options": [
+      "1.63 m/s",
+      "13.6 m/s",
+      "6.53 m/s",
+      "42.67 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: A1V1 = A2V2 gives V2 = 4V1.\nStep 2: Using Bernoulli for the pressure drop, V1 ≈ 1.63 m/s, so V2 ≈ 6.53 m/s."
+  },
+  {
+    "question": "Water enters a pipe with cross-sectional area 0.12 m² at 3 m/s. It then splits into two branches: one branch has area 0.12 m² and speed 1.5 m/s, and the lower branch has area 0.18 m². What is the speed of water in the lower branch?",
+    "options": [
+      "2 m/s",
+      "1 m/s",
+      "3 m/s",
+      "4 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Use continuity, so the total flow into the junction equals the total flow out.\nStep 2: Flow into the pipe = 0.12 × 3 = 0.36 m³/s.\nStep 3: Flow in the first branch = 0.12 × 1.5 = 0.18 m³/s.\nStep 4: Flow in the lower branch = 0.36 − 0.18 = 0.18 m³/s.\nStep 5: Speed in the lower branch = 0.18/0.18 = 1 m/s."
+  },
+  {
+    "question": "Blood is flowing at a rate of 100 cm³/s in a tube of cross-sectional area 0.25 m². What is the velocity of flow?",
+    "options": [
+      "0.4 mm/s",
+      "0.04 mm/s",
+      "4 mm/s",
+      "0.8 mm/s"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Flow rate Q = A × v, so velocity v = Q / A.\nStep 2: Convert units: Q = 100 cm³/s = 100 × 10⁻⁶ m³/s. Area A = 0.25 m².\nStep 3: v = (100 × 10⁻⁶) / 0.25 = 4 × 10⁻⁴ m/s = 0.4 mm/s. Blood moves very slowly in large vessels — its speed increases dramatically in narrow capillaries."
+  },
+  {
+    "question": "The reading of a manometer fitted to a closed tap is 2.5 × 10⁵ Pa. If the valve is opened, the reading of the manometer falls to 2 × 10⁵ Pa. The velocity of water is?",
+    "options": [
+      "0.5 m/s",
+      "5 m/s",
+      "10 m/s",
+      "7.5 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: When the tap is closed, the velocity is zero and all pressure is static: P_static = 2.5 × 10⁵ Pa.\nStep 2: When the tap is open, apply Bernoulli: P_static = P_dynamic + ½ρv². So ½ρv² = (2.5 − 2.0) × 10⁵ = 0.5 × 10⁵ Pa.\nStep 3: v² = (2 × 0.5 × 10⁵) / 1000 = 100, so v = 10 m/s. The drop in pressure reading shows that some static pressure converted to kinetic energy."
+  },
+  {
+    "question": "Water is flowing through a tube. If the area of cross-section at P and Q is 4 × 10⁻³ m² and 8 × 10⁻³ m² respectively and the water speed at P is 1 m/s. What is the water speed at Q?",
+    "options": [
+      "1 m/s",
+      "1.5 m/s",
+      "0.5 m/s",
+      "2 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: A_P·V_P = A_Q·V_Q\nStep 2: V_Q = (A_P·V_P) / A_Q = (4×10⁻³)(1) / (8×10⁻³) = 0.5 m/s"
+  },
+  {
+    "question": "List at least three uses of high pressure systems.",
+    "options": [
+      "Cooking, preserving food, testing materials",
+      "Measuring time, cooling air, making sound",
+      "Changing color, heating wires, producing light",
+      "Growing plants, melting metal, freezing water"
+    ],
+    "correct": 0,
+    "explanation": "High-pressure systems are used in cooking, food preservation, material testing, concrete pumping, and industrial cleaning. These uses depend on producing or controlling large forces safely."
+  },
+  {
+    "question": "What are the causes of high pressure risks?",
+    "options": [
+      "High temperature, low gravity, bright light",
+      "System failure, poor maintenance, careless operation",
+      "Large volume, small pressure, wide pipes",
+      "Cold weather, weak color, fast flow"
+    ],
+    "correct": 1,
+    "explanation": "High-pressure risks are commonly caused by system failure, poor maintenance, faulty installation, and carelessness. These factors can let pressure rise beyond a safe level."
+  },
+  {
+    "question": "What are the basic measures to avoid high pressure risks?",
+    "options": [
+      "Increasing pressure quickly",
+      "Removing warning labels",
+      "Using damaged equipment",
+      "Proper training, inspection, and safety gear"
+    ],
+    "correct": 3,
+    "explanation": "The basic safety measures are proper training, correct protective gear, careful handling, and using sound equipment. Good maintenance and warning labels also reduce risk."
+  },
+  {
+    "question": "What is a fluid?",
+    "options": [
+      "A substance with a fixed shape",
+      "A substance with zero mass",
+      "A substance that can flow",
+      "A substance that cannot be compressed at all"
+    ],
+    "correct": 2,
+    "explanation": "A fluid is any substance that can flow. Liquids and gases are both fluids because they can move and take the shape of their container."
+  },
+  {
+    "question": "What is density?",
+    "options": [
+      "Force per unit area",
+      "Mass per unit volume",
+      "Volume per unit mass",
+      "Weight per unit area"
+    ],
+    "correct": 1,
+    "explanation": "Density is the mass contained in a unit volume. It tells how tightly matter is packed into a material."
+  },
+  {
+    "question": "What is specific gravity?",
+    "options": [
+      "The ratio of mass to weight",
+      "The ratio of force to area",
+      "The ratio of volume to area",
+      "The ratio of a substance’s density to water’s density"
+    ],
+    "correct": 3,
+    "explanation": "Specific gravity is the ratio of a substance's density to the density of water. Because it is a ratio, it has no unit."
+  },
+  {
+    "question": "What is pressure?",
+    "options": [
+      "Mass per unit volume",
+      "Energy per unit time",
+      "Force per unit area",
+      "Volume per unit mass"
+    ],
+    "correct": 2,
+    "explanation": "Pressure is force acting per unit area. The same force produces a larger pressure when the contact area is smaller."
+  },
+  {
+    "question": "State Pascal's principle",
+    "options": [
+      "A fluid always stops moving when force is removed",
+      "Pressure increases only at the surface",
+      "Only gases obey this law",
+      "Pressure applied to an enclosed fluid is transmitted equally in all directions"
+    ],
+    "correct": 3,
+    "explanation": "Pascal's principle says that pressure applied to an enclosed fluid is transmitted equally in all directions throughout the fluid."
+  },
+  {
+    "question": "What are the influential factors of fluid pressure?",
+    "options": [
+      "Color, mass, and shape",
+      "Density, depth, and gravitational acceleration",
+      "Temperature only",
+      "Volume and area only"
+    ],
+    "correct": 1,
+    "explanation": "Fluid pressure depends on depth, density, and gravitational acceleration. Greater depth or higher density gives greater pressure."
+  },
+  {
+    "question": "What device do we use to measure pressure?",
+    "options": [
+      "Barometer and manometer",
+      "Voltmeter and ammeter",
+      "Thermometer and stopwatch",
+      "Balance and ruler"
+    ],
+    "correct": 0,
+    "explanation": "Pressure is measured with a barometer or a manometer. A barometer measures atmospheric pressure, while a manometer compares pressures in connected fluids or gases."
+  },
+  {
+    "question": "What is buoyant force?",
+    "options": [
+      "An upward force exerted by a fluid on an immersed body",
+      "A downward force due to gravity only",
+      "The weight of the object in air",
+      "The force of friction on a body"
+    ],
+    "correct": 0,
+    "explanation": "Buoyant force is the upward force a fluid exerts on an immersed body. It helps objects float or reduces their apparent weight in the fluid."
+  },
+  {
+    "question": "State Archimedes' principle",
+    "options": [
+      "The buoyant force equals the weight of the body",
+      "The pressure is always constant",
+      "The density of water is zero",
+      "The buoyant force equals the weight of the displaced fluid"
+    ],
+    "correct": 3,
+    "explanation": "Archimedes' principle says the buoyant force equals the weight of the fluid displaced by the body. That is why floating objects displace just enough fluid to support themselves."
+  },
+  {
+    "question": "What is flow rate?",
+    "options": [
+      "Force acting on a body per unit area",
+      "Volume crossing a cross-sectional area per unit time",
+      "Mass per unit volume",
+      "Weight divided by density"
+    ],
+    "correct": 1,
+    "explanation": "Flow rate is the volume of fluid passing through a cross-section per unit time. It tells how much fluid moves in a given time."
+  },
+  {
+    "question": "State Bernoulli's principle",
+    "options": [
+      "As fluid speed increases, pressure increases",
+      "As fluid speed increases, pressure decreases",
+      "Pressure is independent of speed",
+      "Pressure becomes zero at high speed"
+    ],
+    "correct": 1,
+    "explanation": "Bernoulli's principle states that, for steady flow, faster moving fluid usually has lower pressure. It connects pressure, speed, and height in a flowing fluid."
+  },
+  {
+    "question": "What does 760 mmHg mean?",
+    "options": [
+      "Water pressure at 760 mm depth",
+      "Atmospheric pressure supports a 760 mm column of mercury",
+      "A vacuum of 760 mmHg",
+      "A pressure equal to 760 Pa"
+    ],
+    "correct": 1,
+    "explanation": "760 mmHg means standard atmospheric pressure. In other words, atmospheric pressure is enough to support a mercury column 760 mm high."
+  },
+  {
+    "question": "What would happen to the level of water in the ocean if all icebergs floating melt?",
+    "options": [
+      "It will remain approximately the same",
+      "It will rise sharply",
+      "It will fall to zero",
+      "It depends on the weather"
+    ],
+    "correct": 0,
+    "explanation": "The ocean level would remain approximately the same. Floating ice already displaces water equal to its own weight, so melting it does not significantly change the water level."
+  },
+  {
+    "question": "How can we determine density of a body?",
+    "options": [
+      "By measuring only its color",
+      "By measuring its mass and volume and using ρ = m/V",
+      "By measuring only its weight",
+      "By measuring only its temperature"
+    ],
+    "correct": 1,
+    "explanation": "To determine density, measure the object's mass and volume, then use ρ = m/V. This gives the amount of mass in each unit volume."
+  },
+  {
+    "question": "Two objects have the same volume, but one is heavier than the other. When they are submerged in oil, on which one is the buoyant force greater?",
+    "options": [
+      "The heavier body always has greater buoyant force",
+      "The lighter body always has greater buoyant force",
+      "The buoyant force is zero on both",
+      "The buoyant force is the same on both if they displace the same volume in the same fluid"
+    ],
+    "correct": 3,
+    "explanation": "If the two objects are submerged in the same fluid and displace the same volume, the buoyant force is the same on both. Buoyant force depends on displaced volume, not on the object's weight."
+  },
+  {
+    "question": "What would be the pressure exerted on a surface if the applied force is doubled and the cross-sectional area is halved?",
+    "options": [
+      "It becomes twice",
+      "It becomes half",
+      "It stays the same",
+      "It becomes four times"
+    ],
+    "correct": 3,
+    "explanation": "Pressure is proportional to force and inversely proportional to area. So doubling the force and halving the area makes the pressure four times larger."
+  },
+  {
+    "question": "What is the relation of atmospheric pressure with altitude?",
+    "options": [
+      "As altitude increases, pressure increases",
+      "As altitude increases, pressure decreases",
+      "Pressure stays constant with altitude",
+      "Pressure becomes zero immediately"
+    ],
+    "correct": 1,
+    "explanation": "Atmospheric pressure decreases as altitude increases. There is less air above a higher point, so the air pressure becomes smaller."
+  },
+  {
+    "question": "What are the conditions that determine a body to float or sink?",
+    "options": [
+      "The body’s density relative to the fluid",
+      "Its color and shape",
+      "Only its mass",
+      "Only its temperature"
+    ],
+    "correct": 0,
+    "explanation": "A body floats or sinks depending mainly on its density relative to the fluid. If its density is less than the fluid's density, it floats; if greater, it sinks."
+  },
+  {
+    "question": "An ice cube floats in a glass of water. When the ice melts, will the water level in the glass change? Explain.",
+    "options": [
+      "The water level rises",
+      "The water level stays the same",
+      "The water level falls",
+      "Cannot be determined"
+    ],
+    "correct": 1,
+    "explanation": "The water level stays approximately the same. Floating ice displaces water equal to its weight, and when it melts it becomes the same amount of water."
+  },
+  {
+    "question": "What is the system pressure at the base of an open tank filled with water to a height of 50 cm?",
+    "options": [
+      "40 kPa",
+      "101 kPa",
+      "146 kPa",
+      "106 kPa"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: For an open tank, total pressure at the base = atmospheric pressure + gauge pressure from water column.\nStep 2: P = P_atm + ρgh = 101,000 + (1000 × 10 × 0.5) = 101,000 + 5,000 = 106,000 Pa.\nStep 3: P = 106 kPa. The system (absolute) pressure is what matters for structural design — it includes the weight of the atmosphere above."
+  },
+  {
+    "question": "At what depth will the absolute pressure become four times the atmospheric pressure?",
+    "options": [
+      "10.1 m",
+      "20.2 m",
+      "40.4 m",
+      "30.3 m"
+    ],
+    "correct": 3,
+    "explanation": "Set 4 Patm = Patm + ρgh, so h = 3 Patm/(ρg) = 30.3 m. This is the key idea behind the correct option."
+  },
+  {
+    "question": "The larger piston of a hydraulic lift is 10 times as large as the smaller piston. What load can be lifted by applying 100 N?",
+    "options": [
+      "500 N",
+      "1000 N",
+      "2000 N",
+      "100 N"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Pascal's principle: pressure applied to an enclosed fluid is transmitted equally, so F₁/A₁ = F₂/A₂.\nStep 2: Rearrange: F₂ = F₁ × (A₂/A₁). With A₂ = 10A₁: F₂ = 100 × 10 = 1000 N.\nStep 3: The hydraulic lift multiplies force by the area ratio. A small input force on the small piston lifts a large load on the large piston."
+  },
+  {
+    "question": "A body weighs 20 N in air and 15 N when immersed in water. What is the density of the body?",
+    "options": [
+      "4×10³ kg/m³",
+      "2×10³ kg/m³",
+      "1×10³ kg/m³",
+      "8×10³ kg/m³"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Buoyant force = W_air − W_water = 20 − 15 = 5 N.\nStep 2: Volume of body = F_b / (ρ_water × g) = 5 / (1000 × 10) = 5 × 10⁻⁴ m³. Mass = 20/10 = 2 kg.\nStep 3: Density = m/V = 2 / (5 × 10⁻⁴) = 4000 kg/m³ = 4 × 10³ kg/m³. This is denser than water, confirming the body sinks."
+  },
+  {
+    "question": "A cubical block of volume 2×10⁻⁴m³ is floating in water. If 1/4 of the block is inside water, what is the density of the block?",
+    "options": [
+      "500 kg/m³",
+      "750 kg/m³",
+      "250 kg/m³",
+      "1000 kg/m³"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: For a floating block, buoyancy equals weight: ρ_water × V_submerged × g = ρ_block × V_total × g.\nStep 2: Since V_submerged = (1/4) × V_total: ρ_water × (1/4) = ρ_block.\nStep 3: ρ_block = 1000 / 4 = 250 kg/m³. Only 1/4 submerged means the block is very light — 1/4 the density of water."
+  },
+  {
+    "question": "A cubical block filled to depth of 20 cm with water, on top of the water floats a 30 cm thick oil of SG 0.7. What is the pressure at the bottom of the container?",
+    "options": [
+      "2100 Pa",
+      "5100 Pa",
+      "6100 Pa",
+      "4100 Pa"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Pressure at the bottom comes from both fluid layers. Use P = ρ₁g h₁ + ρ₂g h₂.\nStep 2: ρ_oil = SG × ρ_water = 0.7 × 1000 = 700 kg/m³. P = (700 × 10 × 0.30) + (1000 × 10 × 0.20).\nStep 3: P = 2100 + 2000 = 4100 Pa. The oil sits above the water because it is less dense."
+  },
+  {
+    "question": "An iron ball has radius of 5 cm and a mass of 2 kg. What is the density of the ball?",
+    "options": [
+      "381 kg/m³",
+      "38100 kg/m³",
+      "2250 kg/m³",
+      "3810 kg/m³"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Calculate the ball's volume using V = (4/3)πr³, with r = 0.05 m.\nStep 2: V = (4/3) × π × (0.05)³ = (4/3) × π × 1.25 × 10⁻⁴ ≈ 5.236 × 10⁻⁴ m³.\nStep 3: Density = m/V = 2 / (5.236 × 10⁻⁴) ≈ 3820 ≈ 3810 kg/m³. This is much lower than real iron (7874 kg/m³), suggesting the ball is hollow."
+  },
+  {
+    "question": "A pressure of 1500 kPa is measured. Express it: A) in torr, B) in psi, C) in atm",
+    "options": [
+      "1,128 torr, 21.8 psi, 1.5 atm",
+      "11,287 torr, 218 psi, 14.8 atm",
+      "7,600 torr, 147 psi, 10 atm",
+      "1,500 torr, 147 psi, 1 atm"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Convert to atm first: 1500 kPa ÷ 101.325 kPa/atm ≈ 14.8 atm.\nStep 2: Convert to torr: 14.8 × 760 torr/atm ≈ 11,248 ≈ 11,287 torr. Convert to psi: 14.8 × 14.696 psi/atm ≈ 218 psi.\nStep 3: Final answers: 11,287 torr, 218 psi, 14.8 atm. Using atm as the bridge unit avoids rounding errors when converting between non-SI units."
+  },
+  {
+    "question": "How tall a water column is equivalent to 300 mmHg?",
+    "options": [
+      "0.41 m",
+      "41 m",
+      "4.1 m",
+      "1.4 m"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: At the same pressure, two fluid columns satisfy ρ₁gh₁ = ρ₂gh₂. Cancel g: ρ_Hg × h_Hg = ρ_water × h_water.\nStep 2: h_water = (ρ_Hg / ρ_water) × h_Hg = (13600 / 1000) × 0.30 m = 13.6 × 0.30 m.\nStep 3: h_water = 4.08 ≈ 4.1 m. Mercury's density is 13.6 times that of water, so the water column is 13.6× taller."
+  },
+  {
+    "question": "What fraction of ice is submerged when it floats in water given that density of ice is 917 kg/m³?",
+    "options": [
+      "8.3% submerged",
+      "91.7% submerged",
+      "17.3% submerged",
+      "50% submerged"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Apply floating equilibrium: ρ_ice × V_total = ρ_water × V_submerged.\nStep 2: V_submerged / V_total = ρ_ice / ρ_water = 917 / 1000 = 0.917.\nStep 3: 91.7% of the ice is submerged. This also confirms Q22: the fraction above water = 100 − 91.7 = 8.3%."
+  },
+  {
+    "question": "A rock with mass 540g in air is found to have apparent mass of 342g when submerged in water. A) What mass of water is displaced? B) What is the volume of the rock? C) What is its average density?",
+    "options": [
+      "198 g displaced; 1.98×10⁻⁴ m³; 2.73 g/cm³",
+      "54 g; 1.98×10⁻⁴ m³; 2.73 g/cm³",
+      "198 g; 1.98×10⁻³ m³; 0.273 g/cm³",
+      "198 g; 1.98×10⁻⁴ m³; 27.3 g/cm³"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: The loss of apparent mass is 198 g, so that much water is displaced.\nStep 2: The rock’s volume is 198 cm³ and its density is 2.73 g/cm³."
+  },
+  {
+    "question": "A manometer is used to measure air pressure in a tank. The fluid has SG of 1.4 and height 0.5 cm. If P_atm = 0.8 atm, what is the absolute pressure when: A) High arm is attached to tank, B) Lower arm is attached to tank?",
+    "options": [
+      "0.809 atm, 0.807 atm",
+      "0.801 atm, 0.799 atm",
+      "0.901 atm, 0.899 atm",
+      "0.800 atm, 0.700 atm"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: The manometer adds or subtracts only ρgh = 1400×10×0.005 = 70 Pa.\nStep 2: Starting from 0.8 atm, the absolute pressure is about 0.801 atm or 0.799 atm."
+  },
+  {
+    "question": "The gauge pressure in a liquid at a depth of 2.5 m is read to be 25 kPa. What is the gauge pressure at a depth of 9 m?",
+    "options": [
+      "90 kPa",
+      "25 kPa",
+      "75 kPa",
+      "100 kPa"
+    ],
+    "correct": 0,
+    "explanation": "Step 1: Gauge pressure is proportional to depth: P = ρgh. So the pressure-to-depth ratio ρg is constant for the same liquid.\nStep 2: Find ρg: ρg = P₁/h₁ = 25,000 / 2.5 = 10,000 Pa/m.\nStep 3: At 9 m: P₂ = ρg × h₂ = 10,000 × 9 = 90,000 Pa = 90 kPa. The pressure scales linearly with depth."
+  },
+  {
+    "question": "A woman of 55 kg has a total footprint of 400 cm². What is the minimum total shoe contact area needed to walk safely on a surface that can withstand a maximum pressure of 0.5 kPa?",
+    "options": [
+      "1,100 cm²",
+      "5,500 cm²",
+      "22,000 cm²",
+      "11,000 cm²"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: The woman's weight is F = mg = 55 × 10 = 550 N. The snow can support a maximum pressure of 500 Pa.\nStep 2: Minimum contact area required: A = F / P_max = 550 / 500 = 1.1 m².\nStep 3: Convert: 1.1 m² = 11,000 cm². Snowshoes work by spreading weight over a large area to keep pressure below the snow's bearing capacity."
+  },
+  {
+    "question": "A 75 kg man floats in water with 3% of his volume above water when his lungs are empty and 5% above water when his lungs are full. What is the volume of air he inhales?",
+    "options": [
+      "0.16 L",
+      "16 L",
+      "0.8 L",
+      "1.6 L"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: When lungs are empty, 97% is submerged: V_body × 0.97 × 1000 = 75 kg → V_body = 75/970 = 0.07732 m³.\nStep 2: When lungs are full, 95% submerged: (V_body + V_lung) × 0.95 × 1000 = 75 → V_body + V_lung = 75/950 = 0.07895 m³.\nStep 3: V_lung = 0.07895 − 0.07732 = 0.00163 m³ ≈ 1.6 L. Inhaling air increases buoyancy by displacing more water volume."
+  },
+  {
+    "question": "A hydraulic lift has areas of 0.002 m² and 0.2 m². If a mass of 60 kg is placed on the smaller piston, what load can be lifted on the larger piston?",
+    "options": [
+      "6000 N",
+      "600 N",
+      "60000 N",
+      "600000 N"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Force on small piston: F₁ = m × g = 60 × 10 = 600 N. By Pascal's principle: F₁/A₁ = F₂/A₂.\nStep 2: F₂ = F₁ × (A₂/A₁) = 600 × (0.2 / 0.002) = 600 × 100 = 60,000 N.\nStep 3: F₂ = 60,000 N = 60 kN. The area ratio of 100 means the output force is 100 times the input force."
+  },
+  {
+    "question": "What is the density of a 225 N fluid that occupies a volume of 25 L?",
+    "options": [
+      "9000 kg/m³",
+      "90 kg/m³",
+      "2250 kg/m³",
+      "900 kg/m³"
+    ],
+    "correct": 3,
+    "explanation": "Step 1: Find mass from weight: m = W/g = 225 / 10 = 22.5 kg.\nStep 2: Convert volume: 25 L = 25 × 10⁻³ m³ = 0.025 m³.\nStep 3: Density = m/V = 22.5 / 0.025 = 900 kg/m³. This is close to the density of many oils, which are slightly less dense than water."
+  },
+  {
+    "question": "Blood flows at a speed of 0.4 m/s through artery of radius 1 cm and pressure 1.4×10⁴ Pa. What is the speed where the artery radius is 0.3 cm?",
+    "options": [
+      "0.4 m/s",
+      "1.2 m/s",
+      "4.4 m/s",
+      "8.8 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Step 1: Apply continuity: A₁v₁ = A₂v₂, where A = πr². So v₂ = v₁ × (r₁/r₂)².\nStep 2: With r₁ = 1 cm and r₂ ≈ 0.3 cm: v₂ = 0.4 × (1/0.3)² = 0.4 × 11.1 ≈ 4.4 m/s.\nStep 3: The speed increases sharply in the narrow section. This is clinically important — arterial narrowing causes dangerous high-speed blood flow."
+  },
+  {
+    "question": "What is speed of blood through an aorta where the flow rate is 5 L/min and the radius is 10 mm?",
+    "options": [
+      "2.7 m/s",
+      "0.27 m/s",
+      "0.027 m/s",
+      "0.75 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Flow rate Q = A × v, so v = Q / A. Convert: Q = 5 L/min = 5 × 10⁻³/60 m³/s ≈ 8.33 × 10⁻⁵ m³/s.\nStep 2: Area of aorta: A = π × r² = π × (0.01)² = 3.14 × 10⁻⁴ m².\nStep 3: v = (8.33 × 10⁻⁵) / (3.14 × 10⁻⁴) ≈ 0.265 ≈ 0.27 m/s. The aorta is wide, so blood travels relatively slowly despite a high flow rate."
+  }
+]
