@@ -139,8 +139,8 @@
       "√72 cm",
       "√65 cm"
     ],
-    "correct": 1,
-    "explanation": "d = √(l² + w² + h²) = √(4² + 4² + 7²) = √77 cm."
+    "correct": 0,
+    "explanation": "d = √(l² + w² + h²) = √(4² + 4² + 7²) = √81 cm."
   },
   {
     "question": "If the radius of a cylinder triples while the height stays the same, the volume becomes:",
