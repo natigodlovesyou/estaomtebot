@@ -18,7 +18,7 @@
       "5 s per cycle; T = 0.2 s",
       "10 cycles per second; T = 0.5 s"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "5 Hz means 5 complete oscillations each second. The period is T = 1/f = 1/5 = 0.2 s."
   },
   {
@@ -62,7 +62,7 @@
       "It remains the same",
       "It becomes zero"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Nothing changes. The period of a simple pendulum does not depend on the bob’s mass."
   },
   {
@@ -139,7 +139,7 @@
       "Both changes make period zero",
       "Doubling in series increases period; halving in parallel decreases period"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "A series arrangement lowers the effective spring constant, so the period increases. A parallel arrangement raises the effective spring constant, so the period decreases."
   },
   {
@@ -189,10 +189,10 @@
   {
     "question": "Which matching set for wave types is correct?",
     "options": [
-      "Mechanical–D, Electromagnetic–C, Transverse–G, Longitudinal–H, Crest–E, Trough–F, Compression–A, Rarefaction–B",
-      "Mechanical–C, Electromagnetic–D, Transverse–G, Longitudinal–H, Crest–E, Trough–F, Compression–A, Rarefaction–B",
-      "Mechanical–C, Electromagnetic–D, Transverse–H, Longitudinal–G, Crest–E, Trough–F, Compression–A, Rarefaction–B",
-      "Mechanical–C, Electromagnetic–D, Transverse–G, Longitudinal–H, Crest–F, Trough–E, Compression–A, Rarefaction–B"
+      "Mech–D, EM–C, Trans–G, Long–H, Crest–E, Trough–F, Comp–A, Raref–B",
+      "Mech–C, EM–D, Trans–G, Long–H, Crest–E, Trough–F, Comp–A, Raref–B",
+      "Mech–C, EM–D, Trans–H, Long–G, Crest–E, Trough–F, Comp–A, Raref–B",
+      "Mech–C, EM–D, Trans–G, Long–H, Crest–F, Trough–E, Comp–A, Raref–B"
     ],
     "correct": 1,
     "explanation": "Mechanical waves need a medium, electromagnetic waves can travel in vacuum, transverse waves vibrate at right angles, longitudinal waves vibrate parallel, crest is the highest point, trough is the lowest point, compression is a high-pressure region, and rarefaction is a low-pressure region."
@@ -222,10 +222,10 @@
   {
     "question": "Which matching set for wave phenomena is correct?",
     "options": [
-      "Reflection–E, Refraction–H, Diffraction–G, Interference–F, Constructive–A, Destructive–B, Node–D, Anti-node–C",
-      "Reflection–H, Refraction–E, Diffraction–G, Interference–F, Constructive–A, Destructive–B, Node–D, Anti-node–C",
-      "Reflection–E, Refraction–H, Diffraction–F, Interference–G, Constructive–A, Destructive–B, Node–D, Anti-node–C",
-      "Reflection–E, Refraction–H, Diffraction–G, Interference–F, Constructive–B, Destructive–A, Node–D, Anti-node–C"
+      "Refl–E, Refr–H, Diffr–G, Interf–F, Constr–A, Destr–B, Node–D, Anti-node–C",
+      "Refl–H, Refr–E, Diffr–G, Interf–F, Constr–A, Destr–B, Node–D, Anti-node–C",
+      "Refl–E, Refr–H, Diffr–F, Interf–G, Constr–A, Destr–B, Node–D, Anti-node–C",
+      "Refl–E, Refr–H, Diffr–G, Interf–F, Constr–B, Destr–A, Node–D, Anti-node–C"
     ],
     "correct": 0,
     "explanation": "Reflection is bouncing back, refraction is bending through a medium, diffraction is spreading out, interference is mixing of waves, constructive means in phase, destructive means out of phase, node is zero displacement, and antinode is maximum displacement."
@@ -731,10 +731,10 @@
       "TV signal",
       "Cell phone",
       "Sonar",
-      "Radar"
+      "FM radio"
     ],
     "correct": 2,
-    "explanation": "Sonar uses sound waves, not microwaves. TV signals, cell phones, and radar all use microwaves."
+    "explanation": "Sonar uses sound waves, not microwaves."
   },
   {
     "question": "Which physical quantities decrease as sound travels from water to air?",
