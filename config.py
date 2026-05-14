@@ -18,7 +18,6 @@ BASE_DIR = Path(__file__).resolve().parent
 # Data & File Paths
 # =========================================================
 DATA_DIR = BASE_DIR / "data"                 # Folder for quiz JSON files
-
 STATE_FILE = BASE_DIR / "state.json"         # Persistent bot state
 HISTORY_FILE = BASE_DIR / "leaderboard_history.json"  # Optional leaderboard archive
 LOG_FILE = BASE_DIR / "bot.log"              # Log file
@@ -43,6 +42,13 @@ PRIVATE_CHANNEL_ID = int(os.getenv("PRIVATE_CHANNEL_ID", "0"))
 # =========================================================
 TURSO_URL = os.getenv("TURSO_URL")
 TURSO_TOKEN = os.getenv("TURSO_TOKEN")
+
+# =========================================================
+# MegaMind Mini Game
+# =========================================================
+GAME_URL = os.getenv("GAME_URL", "https://your-app-name.onrender.com/game")
+# 👆 Set GAME_URL in your Render environment variables,
+#    or replace the default with your actual Render URL.
 
 # =========================================================
 # Quiz Behavior Settings
