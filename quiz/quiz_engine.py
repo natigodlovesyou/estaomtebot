@@ -292,18 +292,22 @@ async def finish_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"🔥 Max Streak: {session.max_streak}"
     )
 
-    # ✅ Update stats FIRST (so they never get skipped)
+    # ✅ Update stats
     player.quizzes_taken += 1
     player.correct_answers += score
     player.total_score += score
 
-    # ✅ Save leaderboard (wrap to avoid crash killing stats)
+    # ✅ Save leaderboard
     try:
         await update_user_score(user_id, score)
     except Exception as e:
         print("LEADERBOARD ERROR:", e)
 
-    # Invite requirement check (skip for admin)
+    # ✅ Cleanup session BEFORE sending game button
+    del user_state.sessions[user_id]
+    await update_user_state(user_id, user_state)
+
+    # ✅ Invite requirement check (skip for admin)
     if user_id != ADMIN_ID:
         from db.database import get_invite_count
         invite_count = get_invite_count(user_id)
@@ -315,30 +319,50 @@ async def finish_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "🎁 Great work on completing the quiz!\n\n"
                 "To help more students and unlock full access, invite 2 friends.\n\n"
                 f"Current invites: {invite_count}/2\n\n"
-                "Each successful invite gives you 10 bonus points, and we’re supporting you with your personal referral link below."
+                "Each successful invite gives you 10 bonus points!"
             )
-
             from referrals.referral_system import send_invite_message
             await send_invite_message(update, context)
+            return  # 👈 Don't show game if they still need to invite
 
-        else:
-            from handlers.start_handler import build_main_menu
-            await safe_send(
-                user,
-                "Choose what to do next:",
-                reply_markup=build_main_menu()
-            )
+    # ✅ Send MegaMind game button after quiz
+    await _send_game_button(user, score, percentage)
+
+
+# ---------------------------------------------------
+# Send Game Button (Mini App)
+# ---------------------------------------------------
+
+async def _send_game_button(user, score: int, percentage: int):
+    """Send the MegaMind Challenge game button after quiz completion."""
+    from telegram import InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
+    from config import GAME_URL
+
+    # Pick motivational message based on performance
+    if percentage >= 90:
+        mood = "🔥 Incredible score! You earned a brain break."
+    elif percentage >= 60:
+        mood = "⚡ Nice work! Time to relax and recharge."
     else:
-        from handlers.start_handler import build_main_menu
-        await safe_send(
-            user,
-            "Choose what to do next:",
-            reply_markup=build_main_menu()
-        )
+        mood = "💪 Good effort! Clear your mind before the next round."
 
-    # ✅ cleanup
-    del user_state.sessions[user_id]
-    await update_user_state(user_id, user_state)
+    try:
+        await user.send_message(
+            text=(
+                f"{mood}\n\n"
+                f"🎮 Play MegaMind Challenge — a quick brain game\n"
+                f"to relax between study sessions!\n\n"
+                f"🏆 Your quiz score: {score} pts ({percentage}%)"
+            ),
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton(
+                    "🎮 Play MegaMind Challenge",
+                    web_app=WebAppInfo(url=GAME_URL)
+                )
+            ]])
+        )
+    except Exception:
+        logger.warning(f"Failed to send game button to user {user.id}")
 
 # ---------------------------------------------------
 # Stop Quiz
