@@ -1,0 +1,1058 @@
+[
+  {
+    "question": "A body makes 40 oscillations in 20 seconds. What are its period and frequency?",
+    "options": [
+      "T = 0.5 s and f = 2 Hz",
+      "T = 2 s and f = 0.5 Hz",
+      "T = 1 s and f = 40 Hz",
+      "T = 5 s and f = 8 Hz"
+    ],
+    "correct": 0,
+    "explanation": "Period T = time ÷ oscillations = 20/40 = 0.5 s, and frequency f = oscillations ÷ time = 40/20 = 2 Hz."
+  },
+  {
+    "question": "If the frequency of oscillation of a body is 5 Hz, what does it mean and what is its period?",
+    "options": [
+      "5 cycles per second; T = 0.2 s",
+      "5 cycles per minute; T = 0.2 s",
+      "5 s per cycle; T = 0.2 s",
+      "10 cycles per second; T = 0.5 s"
+    ],
+    "correct": 0,
+    "explanation": "5 Hz means 5 complete oscillations each second. The period is T = 1/f = 1/5 = 0.2 s."
+  },
+  {
+    "question": "An oscillating body takes 10 seconds to complete a 50 cm cycle. What is its speed?",
+    "options": [
+      "0.5 m/s",
+      "5 m/s",
+      "0.05 m/s",
+      "0.005 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Speed = distance ÷ time = 0.5 m ÷ 10 s = 0.05 m/s."
+  },
+  {
+    "question": "Which matching set for oscillation terms is correct?",
+    "options": [
+      "frequency–C, period–B, amplitude–D, equilibrium–E, wave speed–F, wavelength–A",
+      "frequency–B, period–D, amplitude–C, equilibrium–E, wave speed–F, wavelength–A",
+      "frequency–B, period–C, amplitude–E, equilibrium–D, wave speed–F, wavelength–A",
+      "frequency–B, period–C, amplitude–D, equilibrium–E, wave speed–F, wavelength–A"
+    ],
+    "correct": 3,
+    "explanation": "Frequency is cycles per second, period is time for one cycle, amplitude is maximum displacement, equilibrium is zero displacement, wave speed is distance per unit time, and wavelength is the distance of one cycle."
+  },
+  {
+    "question": "Will the period of a simple pendulum be different on the moon and on the earth?",
+    "options": [
+      "Yes, it is larger on the moon",
+      "Yes, it is smaller on the moon",
+      "No, it is the same everywhere",
+      "It becomes zero on the moon"
+    ],
+    "correct": 0,
+    "explanation": "Yes. Because gravitational acceleration is smaller on the moon, the pendulum swings more slowly and its period becomes larger."
+  },
+  {
+    "question": "What happens to the period of a simple pendulum if the bob mass is doubled?",
+    "options": [
+      "It becomes double",
+      "It becomes half",
+      "It remains the same",
+      "It becomes zero"
+    ],
+    "correct": 2,
+    "explanation": "Nothing changes. The period of a simple pendulum does not depend on the bob’s mass."
+  },
+  {
+    "question": "What happens to the frequency of a simple pendulum when the string length is doubled and when it is halved?",
+    "options": [
+      "Doubled length increases frequency; halved length decreases frequency",
+      "Both changes leave frequency unchanged",
+      "Doubled length decreases frequency; halved length increases frequency",
+      "Both changes make frequency zero"
+    ],
+    "correct": 2,
+    "explanation": "For a simple pendulum, T ∝ √l. Doubling the length increases the period, so frequency decreases; halving the length decreases the period, so frequency increases."
+  },
+  {
+    "question": "What is the period of a simple pendulum of length 90 cm on Earth?",
+    "options": [
+      "0.19 s",
+      "19 s",
+      "3.8 s",
+      "1.9 s"
+    ],
+    "correct": 3,
+    "explanation": "Use T = 2π√(l/g). With l = 0.9 m and g ≈ 10 m/s², T ≈ 2π√(0.09) ≈ 1.9 s."
+  },
+  {
+    "question": "If a pendulum has period √(2/3) s on Earth, what is its period on the moon where g = g/6?",
+    "options": [
+      "2 s",
+      "√6 s",
+      "1 s",
+      "3 s"
+    ],
+    "correct": 0,
+    "explanation": "For a pendulum, T ∝ 1/√g. If gravity becomes 1/6 as large, the period becomes √6 times larger, giving 2 s."
+  },
+  {
+    "question": "A simple pendulum of length 900 cm has period π s. What is the local acceleration due to gravity?",
+    "options": [
+      "9 m/s²",
+      "36 m/s²",
+      "18 m/s²",
+      "72 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "Use g = 4π²l/T². With l = 9 m and T = π s, g = 4π² × 9 / π² = 36 m/s²."
+  },
+  {
+    "question": "What is the frequency of a simple pendulum of length 40 cm on Earth?",
+    "options": [
+      "2π/5 Hz",
+      "5π/2 Hz",
+      "5/(2π) Hz",
+      "1/5π Hz"
+    ],
+    "correct": 2,
+    "explanation": "Use f = (1/2π)√(g/l). With g = 10 m/s² and l = 0.4 m, f = (1/2π)√25 = 5/(2π) Hz."
+  },
+  {
+    "question": "What happens to the period of a spring-mass system if the attached mass is doubled or halved?",
+    "options": [
+      "Doubled mass decreases period; halved mass increases period",
+      "Both changes leave period unchanged",
+      "Both changes make period zero",
+      "Doubled mass increases period; halved mass decreases period"
+    ],
+    "correct": 3,
+    "explanation": "For a spring-mass system, T ∝ √m. Increasing mass increases the period, and decreasing mass reduces the period."
+  },
+  {
+    "question": "What happens to the period of a spring-mass system if identical springs are connected in series or in parallel?",
+    "options": [
+      "Doubling in series decreases period; halving in parallel increases period",
+      "Both changes leave period unchanged",
+      "Both changes make period zero",
+      "Doubling in series increases period; halving in parallel decreases period"
+    ],
+    "correct": 3,
+    "explanation": "A series arrangement lowers the effective spring constant, so the period increases. A parallel arrangement raises the effective spring constant, so the period decreases."
+  },
+  {
+    "question": "What is the force constant of a spring with period π/10 s when a 4 kg mass is attached?",
+    "options": [
+      "160 N/m",
+      "1600 N/m",
+      "16 N/m",
+      "16000 N/m"
+    ],
+    "correct": 1,
+    "explanation": "Use T = 2π√(m/k). Rearranging gives k = 4π²m/T². Substituting m = 4 kg and T = π/10 s gives k = 1600 N/m."
+  },
+  {
+    "question": "What is the period of a spring-mass system when a 0.9 kg mass is attached to a spring of force constant 10 N/m?",
+    "options": [
+      "0.06π s",
+      "6π s",
+      "0.6π s",
+      "π/0.6 s"
+    ],
+    "correct": 2,
+    "explanation": "Use T = 2π√(m/k). Substituting m = 0.9 kg and k = 10 N/m gives T = 0.6π s."
+  },
+  {
+    "question": "What happens to the frequency of a spring-mass system if the force constant is doubled and the mass is halved?",
+    "options": [
+      "It remains the same",
+      "It halves",
+      "It becomes four times",
+      "It doubles"
+    ],
+    "correct": 3,
+    "explanation": "For a spring-mass system, f ∝ √(k/m). Doubling k and halving m makes f increase by √(2 ÷ 1/2) = 2, so the frequency doubles."
+  },
+  {
+    "question": "What happens to the period of a spring-mass system if the mass is doubled and the force constant is halved?",
+    "options": [
+      "It becomes 2T₁",
+      "It becomes T₁/2",
+      "It becomes 4T₁",
+      "It remains T₁"
+    ],
+    "correct": 0,
+    "explanation": "For a spring-mass system, T ∝ √(m/k). Doubling m and halving k makes the period increase by √(2 ÷ 1/2) = 2, so the period doubles."
+  },
+  {
+    "question": "Which matching set for wave types is correct?",
+    "options": [
+      "Mechanical–D, Electromagnetic–C, Transverse–G, Longitudinal–H, Crest–E, Trough–F, Compression–A, Rarefaction–B",
+      "Mechanical–C, Electromagnetic–D, Transverse–G, Longitudinal–H, Crest–E, Trough–F, Compression–A, Rarefaction–B",
+      "Mechanical–C, Electromagnetic–D, Transverse–H, Longitudinal–G, Crest–E, Trough–F, Compression–A, Rarefaction–B",
+      "Mechanical–C, Electromagnetic–D, Transverse–G, Longitudinal–H, Crest–F, Trough–E, Compression–A, Rarefaction–B"
+    ],
+    "correct": 1,
+    "explanation": "Mechanical waves need a medium, electromagnetic waves can travel in vacuum, transverse waves vibrate at right angles, longitudinal waves vibrate parallel, crest is the highest point, trough is the lowest point, compression is a high-pressure region, and rarefaction is a low-pressure region."
+  },
+  {
+    "question": "A ray reflects from two perpendicular mirrors. If it makes 35° with the mirror surface at the base mirror, what are θ and β?",
+    "options": [
+      "θ = 35° and β = 55°",
+      "θ = 45° and β = 45°",
+      "θ = 55° and β = 35°",
+      "θ = 65° and β = 25°"
+    ],
+    "correct": 2,
+    "explanation": "The angle with the normal is 90° - 35° = 55°. By the law of reflection, the reflected angle is also 55°, leaving 35° for the other marked angle."
+  },
+  {
+    "question": "If light of wavelength 600 nm enters glass of refractive index 1.5 from air at 53°, what are the speed, angle of refraction, and wavelength in glass?",
+    "options": [
+      "3×10⁸ m/s; about 53°; 600 nm",
+      "2×10⁸ m/s; about 53°; 400 nm",
+      "3×10⁸ m/s; about 32.2°; 600 nm",
+      "2×10⁸ m/s; about 32.2°; 400 nm"
+    ],
+    "correct": 3,
+    "explanation": "The speed in glass is c/n = 3×10⁸/1.5 = 2×10⁸ m/s. Using Snell’s law gives r ≈ 32.2°. The wavelength becomes λ/n = 600/1.5 = 400 nm."
+  },
+  {
+    "question": "Which matching set for wave phenomena is correct?",
+    "options": [
+      "Reflection–E, Refraction–H, Diffraction–G, Interference–F, Constructive–A, Destructive–B, Node–D, Anti-node–C",
+      "Reflection–H, Refraction–E, Diffraction–G, Interference–F, Constructive–A, Destructive–B, Node–D, Anti-node–C",
+      "Reflection–E, Refraction–H, Diffraction–F, Interference–G, Constructive–A, Destructive–B, Node–D, Anti-node–C",
+      "Reflection–E, Refraction–H, Diffraction–G, Interference–F, Constructive–B, Destructive–A, Node–D, Anti-node–C"
+    ],
+    "correct": 0,
+    "explanation": "Reflection is bouncing back, refraction is bending through a medium, diffraction is spreading out, interference is mixing of waves, constructive means in phase, destructive means out of phase, node is zero displacement, and antinode is maximum displacement."
+  },
+  {
+    "question": "What is the speed of sound in air at 14°C?",
+    "options": [
+      "331 m/s",
+      "340 m/s",
+      "349 m/s",
+      "300 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Use v = 331 + 0.6T. Substituting T = 14°C gives v = 331 + 8.4 ≈ 340 m/s."
+  },
+  {
+    "question": "What is the speed of sound in water of bulk modulus 2×10⁹ Pa and density 1000 kg/m³?",
+    "options": [
+      "2000 m/s",
+      "1000 m/s",
+      "1400 m/s",
+      "447 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Use v = √(B/ρ). Substituting B = 2×10⁹ Pa and ρ = 1000 kg/m³ gives v = √(2×10⁶) ≈ 1400 m/s."
+  },
+  {
+    "question": "What is the speed of sound in steel of Young's modulus 2×10¹¹ Pa and density 7900 kg/m³?",
+    "options": [
+      "About 498 m/s",
+      "About 7900 m/s",
+      "About 2500 m/s",
+      "About 4980 m/s"
+    ],
+    "correct": 3,
+    "explanation": "Use v = √(Y/ρ). Substituting Y = 2×10¹¹ Pa and ρ = 7900 kg/m³ gives v ≈ 4980 m/s."
+  },
+  {
+    "question": "A boy hears an echo 5 s after shouting at a cliff when sound speed is 340 m/s. How far away is the cliff?",
+    "options": [
+      "850 m",
+      "1700 m",
+      "340 m",
+      "425 m"
+    ],
+    "correct": 0,
+    "explanation": "The sound travels to the cliff and back, so the total distance is 340 × 5 = 1700 m. Half of that is 850 m."
+  },
+  {
+    "question": "A ship 1500 m above the sea bed detects an echo after 2 s. What is the speed of sound in seawater?",
+    "options": [
+      "3000 m/s",
+      "1500 m/s",
+      "750 m/s",
+      "1000 m/s"
+    ],
+    "correct": 1,
+    "explanation": "The sound travels down and back, so total distance = 2 × 1500 = 3000 m. Speed = distance ÷ time = 3000/2 = 1500 m/s."
+  },
+  {
+    "question": "Which matching set for sound properties is correct?",
+    "options": [
+      "Echo–B, Pitch–C, Timbre–D, Loudness–A",
+      "Echo–A, Pitch–D, Timbre–C, Loudness–B",
+      "Echo–A, Pitch–C, Timbre–D, Loudness–B",
+      "Echo–A, Pitch–B, Timbre–D, Loudness–C"
+    ],
+    "correct": 2,
+    "explanation": "Echo is the reflection of sound, pitch depends on frequency, timbre is the quality of sound, and loudness depends on amplitude."
+  },
+  {
+    "question": "In a two-mirror reflection setup, the interior angles shown are 70° and 30°. What is θ?",
+    "options": [
+      "70°",
+      "50°",
+      "30°",
+      "80°"
+    ],
+    "correct": 3,
+    "explanation": "The angles in the triangle add up to 180°. So θ = 180° - 70° - 30° = 80°."
+  },
+  {
+    "question": "In a three-mirror reflection setup, the angles shown are 100° and 35°. What is θ?",
+    "options": [
+      "45°",
+      "35°",
+      "65°",
+      "55°"
+    ],
+    "correct": 0,
+    "explanation": "The angles in a triangle add up to 180°. So θ = 180° - 100° - 35° = 45°."
+  },
+  {
+    "question": "By what factor must the length of a simple pendulum be changed in order to double its period of oscillation?",
+    "options": [
+      "2",
+      "4",
+      "1/2",
+      "1/4"
+    ],
+    "correct": 1,
+    "explanation": "For a pendulum, T ∝ √l. To double T, the length must become 4 times as large."
+  },
+  {
+    "question": "The period of a mass-spring system is 5 seconds. If the spring is cut into four equal parts and the mass is attached to one part, what is the new period?",
+    "options": [
+      "5 sec",
+      "1.2 sec",
+      "2.5 sec",
+      "10 sec"
+    ],
+    "correct": 2,
+    "explanation": "Cutting the spring into four parts makes the spring constant four times larger, so the period becomes half of the original value: 2.5 s."
+  },
+  {
+    "question": "If the period of oscillation of mass M on a spring is 1 second, what is the period of 4M?",
+    "options": [
+      "0.5 sec",
+      "4 sec",
+      "0.25 sec",
+      "2 sec"
+    ],
+    "correct": 3,
+    "explanation": "For a mass-spring system, T ∝ √m. Quadrupling the mass doubles the period, so T = 2 s."
+  },
+  {
+    "question": "What will be the period of oscillation of a pendulum on a planet whose mass and diameter are twice those of the Earth, if its period is 1 s on Earth?",
+    "options": [
+      "√2 sec",
+      "1/√2 sec",
+      "2 sec",
+      "1/2 sec"
+    ],
+    "correct": 0,
+    "explanation": "The planet’s surface gravity becomes half of Earth’s, so the pendulum period increases by √2. Therefore the new period is √2 s."
+  },
+  {
+    "question": "Which wave phenomenon is shown when a wave spreads out after passing through a narrow gap?",
+    "options": [
+      "Reflection",
+      "Diffraction",
+      "Refraction",
+      "Interference"
+    ],
+    "correct": 1,
+    "explanation": "Diffraction is the spreading out of a wave after it passes through a narrow opening or around an edge."
+  },
+  {
+    "question": "The pitch of a sound depends on?",
+    "options": [
+      "Amplitude",
+      "Wavelength",
+      "Frequency",
+      "Speed"
+    ],
+    "correct": 2,
+    "explanation": "Pitch depends on frequency. Higher frequency means higher pitch."
+  },
+  {
+    "question": "The loudness of a sound depends on?",
+    "options": [
+      "Frequency",
+      "Wavelength",
+      "Speed",
+      "Amplitude"
+    ],
+    "correct": 3,
+    "explanation": "Loudness depends on amplitude. Greater amplitude means a louder sound."
+  },
+  {
+    "question": "As the speed of a wave decreases and its wavelength also decreases, what happens to the frequency?",
+    "options": [
+      "Remain constant",
+      "Decrease",
+      "Increase",
+      "Increase and then decrease"
+    ],
+    "correct": 0,
+    "explanation": "Frequency stays constant because f = v/λ. If both speed and wavelength change proportionally, the ratio does not change."
+  },
+  {
+    "question": "Which term tells us the maximum displacement of a particle from its rest position?",
+    "options": [
+      "Frequency",
+      "Amplitude",
+      "Period",
+      "Wavelength"
+    ],
+    "correct": 1,
+    "explanation": "The maximum displacement from the equilibrium position is called amplitude."
+  },
+  {
+    "question": "The spreading out of a wave through a narrow gap or around a sharp edge is known as?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Interference"
+    ],
+    "correct": 2,
+    "explanation": "That phenomenon is diffraction."
+  },
+  {
+    "question": "The change in direction of a wave as it moves from one medium to another is known as?",
+    "options": [
+      "Reflection",
+      "Diffraction",
+      "Interference",
+      "Refraction"
+    ],
+    "correct": 3,
+    "explanation": "That phenomenon is refraction."
+  },
+  {
+    "question": "An elephant is calling its mate 476 m away with a frequency of 5 Hz. How many cycles of sound wave are there between the two animals, assuming the speed of sound in air is 340 m/s?",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 0,
+    "explanation": "First find wavelength: λ = v/f = 340/5 = 68 m. Then number of cycles = 476/68 = 7."
+  },
+  {
+    "question": "All electromagnetic waves travel with the same speed in:",
+    "options": [
+      "Air",
+      "Vacuum",
+      "Water",
+      "Metal"
+    ],
+    "correct": 1,
+    "explanation": "In vacuum, all electromagnetic waves travel at about 3×10⁸ m/s."
+  },
+  {
+    "question": "Infra-sound refers to a sound wave of frequency:",
+    "options": [
+      "Greater than 20,000Hz",
+      "Equal to 20Hz",
+      "Lower than 20Hz",
+      "Equal to 20,000Hz"
+    ],
+    "correct": 2,
+    "explanation": "Infrasound has a frequency below 20 Hz."
+  },
+  {
+    "question": "Ultrasound refers to a sound wave of frequency:",
+    "options": [
+      "Lower than 20Hz",
+      "Equal to 20Hz",
+      "Equal to 20,000Hz",
+      "Greater than 20,000Hz"
+    ],
+    "correct": 3,
+    "explanation": "Ultrasound has a frequency above 20,000 Hz."
+  },
+  {
+    "question": "The audible range of frequency for the normal human ear is?",
+    "options": [
+      "Between 20Hz and 20,000Hz",
+      "Between 20Hz and 200Hz",
+      "Between 20Hz and 2000Hz",
+      "Between 20Hz and 200,000Hz"
+    ],
+    "correct": 0,
+    "explanation": "The normal human ear hears roughly from 20 Hz to 20,000 Hz."
+  },
+  {
+    "question": "What causes an echo?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Diffraction",
+      "Interference"
+    ],
+    "correct": 1,
+    "explanation": "An echo is caused by the reflection of sound from a hard surface."
+  },
+  {
+    "question": "Sound moves fastest in:",
+    "options": [
+      "Gas",
+      "Liquid",
+      "Solid",
+      "Critical fluid"
+    ],
+    "correct": 2,
+    "explanation": "Sound travels fastest in solids because their particles are tightly packed."
+  },
+  {
+    "question": "Unlike sound waves, light waves can travel through:",
+    "options": [
+      "Air",
+      "Water",
+      "Metal",
+      "Vacuum"
+    ],
+    "correct": 3,
+    "explanation": "Light is an electromagnetic wave, so it can travel through vacuum."
+  },
+  {
+    "question": "What happens to a duck floating on sea water as a pulse of water passes past her?",
+    "options": [
+      "It moves up and down",
+      "It moves back and forth",
+      "It moves forward",
+      "It remains at rest"
+    ],
+    "correct": 0,
+    "explanation": "The duck mainly moves up and down because the wave motion is transverse."
+  },
+  {
+    "question": "As a wave moves through a medium, the particles of the medium will:",
+    "options": [
+      "Move with the wave",
+      "Oscillate about their rest position",
+      "Move in opposite direction",
+      "Move out of the medium"
+    ],
+    "correct": 1,
+    "explanation": "The particles oscillate about their rest positions; they do not travel with the wave."
+  },
+  {
+    "question": "Which wave characteristics change during refraction?",
+    "options": [
+      "Frequency and wavelength",
+      "Speed and frequency",
+      "Speed and wavelength",
+      "Speed, frequency and wavelength"
+    ],
+    "correct": 2,
+    "explanation": "During refraction, speed and wavelength change, but frequency remains constant."
+  },
+  {
+    "question": "When the frequency of a wave is halved, its period will be?",
+    "options": [
+      "Halved",
+      "Quartered",
+      "Unchanged",
+      "Doubled"
+    ],
+    "correct": 3,
+    "explanation": "Since T = 1/f, halving frequency makes the period double."
+  },
+  {
+    "question": "If the speed of an electromagnetic wave is c and its wavelength is λ in vacuum, and if it is moving at 0.5c in a liquid, what will be its wavelength in the liquid?",
+    "options": [
+      "0.5λ",
+      "λ",
+      "0.75λ",
+      "0.95λ"
+    ],
+    "correct": 0,
+    "explanation": "The frequency stays constant, so wavelength is proportional to speed. If speed becomes 0.5c, wavelength becomes 0.5λ."
+  },
+  {
+    "question": "The turning back of a wave into its initial medium is?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Diffraction",
+      "Interference"
+    ],
+    "correct": 1,
+    "explanation": "That is reflection."
+  },
+  {
+    "question": "The mixing up of two waves of the same type is known as?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Interference",
+      "Diffraction"
+    ],
+    "correct": 2,
+    "explanation": "That is interference."
+  },
+  {
+    "question": "The most influential factor for an interference pattern to be constructive or destructive is?",
+    "options": [
+      "Speed",
+      "Frequency",
+      "Wavelength",
+      "Phase"
+    ],
+    "correct": 3,
+    "explanation": "The phase difference decides whether interference is constructive or destructive."
+  },
+  {
+    "question": "Which of the following is NOT true about mechanical waves?",
+    "options": [
+      "They travel through vacuum",
+      "They need medium",
+      "They transport energy",
+      "They can be longitudinal or transverse"
+    ],
+    "correct": 0,
+    "explanation": "Mechanical waves need a medium and cannot travel through vacuum."
+  },
+  {
+    "question": "When a transverse wave moves toward east, its particle will vibrate towards:",
+    "options": [
+      "East",
+      "North and South",
+      "West",
+      "East and West"
+    ],
+    "correct": 1,
+    "explanation": "In a transverse wave, particle vibration is perpendicular to wave direction, so the vibration is north–south."
+  },
+  {
+    "question": "When a longitudinal wave moves toward east, its particles will vibrate towards:",
+    "options": [
+      "East",
+      "West",
+      "East and West",
+      "North and South"
+    ],
+    "correct": 2,
+    "explanation": "In a longitudinal wave, particle vibration is parallel to wave direction, so it is east–west."
+  },
+  {
+    "question": "A disturbance is sent along a slinky by pushing and pulling the coils in the same direction as the wave travels. What type of wave is this?",
+    "options": [
+      "Transverse wave",
+      "Standing wave",
+      "Electromagnetic wave",
+      "Longitudinal wave"
+    ],
+    "correct": 3,
+    "explanation": "That is a longitudinal wave because the particle vibration is parallel to the direction of propagation."
+  },
+  {
+    "question": "Which of the following is a unique property of electromagnetic waves?",
+    "options": [
+      "They travel through vacuum",
+      "They are transverse waves",
+      "They travel through medium",
+      "Their speed is always 3×10⁸ m/s"
+    ],
+    "correct": 0,
+    "explanation": "Electromagnetic waves can travel through vacuum."
+  },
+  {
+    "question": "Constructive interference occurs when two waves move in:",
+    "options": [
+      "Opposite direction, in phase",
+      "Same direction, in phase",
+      "Same direction, out of phase",
+      "Opposite direction, out of phase"
+    ],
+    "correct": 1,
+    "explanation": "Constructive interference happens when waves are in phase."
+  },
+  {
+    "question": "When sound travels from air to water, it:",
+    "options": [
+      "Continues with the same speed",
+      "Stops suddenly",
+      "Travels faster",
+      "Travels slower"
+    ],
+    "correct": 2,
+    "explanation": "Sound travels faster in water than in air."
+  },
+  {
+    "question": "Frequency of a wave is the:",
+    "options": [
+      "Distance between identical points",
+      "Distance moved in one second",
+      "Time taken to move one cycle",
+      "Number of cycles moved per second"
+    ],
+    "correct": 3,
+    "explanation": "Frequency is the number of cycles completed per second."
+  },
+  {
+    "question": "How many times a minute will a boat bob up and down on ocean waves that have a wavelength of 30 m and a speed of 5 m/s?",
+    "options": [
+      "10",
+      "6",
+      "12",
+      "36"
+    ],
+    "correct": 0,
+    "explanation": "Frequency f = v/λ = 5/30 = 1/6 Hz. In one minute, the boat makes (1/6) × 60 = 10 bobs."
+  },
+  {
+    "question": "The distance between two adjacent crests in a pond is 0.4 m. If six crests pass a point every second without considering the reference crest, what is the speed of the wave?",
+    "options": [
+      "1.2 m/s",
+      "2.4 m/s",
+      "4.8 m/s",
+      "6.4 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Wavelength = 0.4 m and frequency = 6 Hz, so v = fλ = 6 × 0.4 = 2.4 m/s."
+  },
+  {
+    "question": "All of the following are applications of microwaves EXCEPT?",
+    "options": [
+      "TV signal",
+      "Cell phone",
+      "Sonar",
+      "Radar"
+    ],
+    "correct": 2,
+    "explanation": "Sonar uses sound waves, not microwaves. TV signals, cell phones, and radar all use microwaves."
+  },
+  {
+    "question": "Which physical quantities decrease as sound travels from water to air?",
+    "options": [
+      "Speed and frequency",
+      "Frequency and wavelength",
+      "Frequency and period",
+      "Wavelength and speed"
+    ],
+    "correct": 3,
+    "explanation": "The speed of sound decreases, and because frequency stays constant, wavelength also decreases."
+  },
+  {
+    "question": "The property of a sound wave that is related to loudness is?",
+    "options": [
+      "Intensity",
+      "Wavelength",
+      "Pitch",
+      "Speed"
+    ],
+    "correct": 0,
+    "explanation": "Loudness is related to intensity, which increases with amplitude."
+  },
+  {
+    "question": "What is the period of a wave of frequency 4000 Hz?",
+    "options": [
+      "0.25 sec",
+      "0.00025 sec",
+      "0.0025 sec",
+      "2.5 sec"
+    ],
+    "correct": 1,
+    "explanation": "Use T = 1/f = 1/4000 = 0.00025 s."
+  },
+  {
+    "question": "A radio station has a frequency of 1500 kHz. What is the wavelength?",
+    "options": [
+      "20 m",
+      "100 m",
+      "200 m",
+      "50 m"
+    ],
+    "correct": 2,
+    "explanation": "Use λ = v/f. With v = 3×10⁸ m/s and f = 1.5×10⁶ Hz, λ = 200 m."
+  },
+  {
+    "question": "A ray of light strikes a plane mirror making 40° with the mirror surface. What is θ, the angle with the normal?",
+    "options": [
+      "40°",
+      "30°",
+      "90°",
+      "50°"
+    ],
+    "correct": 3,
+    "explanation": "The angle with the mirror surface and the angle with the normal are complementary, so θ = 50°."
+  },
+  {
+    "question": "The angle between the incident ray and the reflected ray is 50°. What is the angle of incidence θ?",
+    "options": [
+      "25°",
+      "65°",
+      "75°",
+      "30°"
+    ],
+    "correct": 0,
+    "explanation": "For reflection, the angle between the incident and reflected rays is 2θ. So 2θ = 50°, and θ = 25°."
+  },
+  {
+    "question": "A ship is sailing on a sea 600 m above the seabed. How long will it take a pulse of sound to echo back to the ship if the speed of sound in seawater is 1500 m/s?",
+    "options": [
+      "8 seconds",
+      "0.8 second",
+      "0.4 seconds",
+      "4 seconds"
+    ],
+    "correct": 1,
+    "explanation": "The sound travels down and back, so total distance = 2 × 600 = 1200 m. Time = 1200/1500 = 0.8 s."
+  },
+  {
+    "question": "What is oscillation?",
+    "options": [
+      "Random motion",
+      "Motion in a straight line only",
+      "Periodic repeated motion about the mean position.",
+      "Motion that never returns to its starting point"
+    ],
+    "correct": 2,
+    "explanation": "Oscillation is periodic repeated motion to and fro about a mean position."
+  },
+  {
+    "question": "What is a wave?",
+    "options": [
+      "A stationary object with no energy transfer",
+      "A chemical reaction in motion",
+      "A body that always moves in a circle",
+      "A continuous disturbance that carries energy from one place to another."
+    ],
+    "correct": 3,
+    "explanation": "A wave is a disturbance that propagates and carries energy."
+  },
+  {
+    "question": "What is a mechanical wave?",
+    "options": [
+      "A wave that requires a material medium for its propagation.",
+      "A wave that can travel only in vacuum",
+      "A wave produced only by light",
+      "A wave with no energy transfer"
+    ],
+    "correct": 0,
+    "explanation": "Mechanical waves need a material medium to travel."
+  },
+  {
+    "question": "What is an electromagnetic wave?",
+    "options": [
+      "A wave that needs a material medium to travel",
+      "A wave that can travel through medium and vacuum.",
+      "A wave made only of water particles",
+      "A wave that cannot carry energy"
+    ],
+    "correct": 1,
+    "explanation": "Electromagnetic waves can travel through vacuum as well as through media."
+  },
+  {
+    "question": "What is a transverse wave?",
+    "options": [
+      "A wave in which the disturbance is parallel to the direction of travel",
+      "A wave that cannot carry energy",
+      "A wave in which the disturbance is perpendicular to the direction of travel.",
+      "A wave that exists only in solids"
+    ],
+    "correct": 2,
+    "explanation": "In a transverse wave, particle vibration is at right angles to wave motion."
+  },
+  {
+    "question": "What is a longitudinal wave?",
+    "options": [
+      "A wave in which the disturbance is perpendicular to the direction of travel",
+      "A wave that has no amplitude",
+      "A wave that travels only in vacuum",
+      "A wave in which the disturbance is parallel to the direction of travel."
+    ],
+    "correct": 3,
+    "explanation": "In a longitudinal wave, particle vibration is parallel to wave motion."
+  },
+  {
+    "question": "What is a standing wave?",
+    "options": [
+      "A wave formed when two waves of the same type move in opposite directions and superpose.",
+      "A wave that travels only in a vacuum",
+      "A wave with only one crest",
+      "A wave that has no nodes"
+    ],
+    "correct": 0,
+    "explanation": "A standing wave is produced by the superposition of two similar waves traveling in opposite directions."
+  },
+  {
+    "question": "What are the common properties of all waves?",
+    "options": [
+      "Mass, weight, density, and pressure",
+      "Reflection, refraction, diffraction, and interference.",
+      "Speed, force, momentum, and energy",
+      "Crest, trough, node, and antinode"
+    ],
+    "correct": 1,
+    "explanation": "All waves can reflect, refract, diffract, and interfere."
+  },
+  {
+    "question": "What is a sound wave?",
+    "options": [
+      "An electromagnetic transverse wave",
+      "A chemical disturbance",
+      "A mechanical longitudinal wave produced by a vibrating body.",
+      "A wave that travels only in vacuum"
+    ],
+    "correct": 2,
+    "explanation": "Sound is a mechanical longitudinal wave produced by a vibrating source."
+  },
+  {
+    "question": "What is an echo?",
+    "options": [
+      "The refraction of sound",
+      "The diffraction of sound",
+      "The interference of sound",
+      "The reflection of sound from a hard surface."
+    ],
+    "correct": 3,
+    "explanation": "An echo is reflected sound heard after a short delay."
+  },
+  {
+    "question": "What is pitch of sound?",
+    "options": [
+      "The highness or lowness of sound depending on frequency.",
+      "The loudness of sound depending on amplitude",
+      "The color of sound",
+      "The speed of sound"
+    ],
+    "correct": 0,
+    "explanation": "Pitch tells how high or low a sound is, and it depends on frequency."
+  },
+  {
+    "question": "What is timbre of sound?",
+    "options": [
+      "The frequency of sound",
+      "The quality of sound notes depending on its source.",
+      "The loudness of sound",
+      "The echo of sound"
+    ],
+    "correct": 1,
+    "explanation": "Timbre is the quality that helps distinguish sounds from different sources."
+  },
+  {
+    "question": "What is the frequency of an electromagnetic wave of wavelength 10 nm?",
+    "options": [
+      "3×10¹⁴ Hz",
+      "3×10¹² Hz",
+      "3×10¹⁶ Hz",
+      "3×10¹⁸ Hz"
+    ],
+    "correct": 2,
+    "explanation": "Use f = c/λ. With λ = 10 nm = 10×10⁻⁹ m, f = 3×10⁸ / 10×10⁻⁹ = 3×10¹⁶ Hz."
+  },
+  {
+    "question": "A simple pendulum of string length 30 cm oscillates where g = 1.2 m/s². What are its period and frequency?",
+    "options": [
+      "1.57 s; 0.636 Hz",
+      "6.28 s; 0.159 Hz",
+      "0.314 s; 3.18 Hz",
+      "3.14 s; 0.318 Hz"
+    ],
+    "correct": 3,
+    "explanation": "Use T = 2π√(l/g). With l = 0.3 m and g = 1.2 m/s², T ≈ 3.14 s. Then f = 1/T ≈ 0.318 Hz."
+  },
+  {
+    "question": "A mass of 2 kg oscillates at the end of a spring of stiffness 800 N/m. What are the period and frequency?",
+    "options": [
+      "0.314 s; 3.18 Hz",
+      "3.14 s; 0.318 Hz",
+      "0.157 s; 6.36 Hz",
+      "1.57 s; 0.636 Hz"
+    ],
+    "correct": 0,
+    "explanation": "Use T = 2π√(m/k). With m = 2 kg and k = 800 N/m, T ≈ 0.314 s. Then f ≈ 3.18 Hz."
+  },
+  {
+    "question": "What is the speed of sound in a steel rod if it takes 0.0008 s to travel 4 m?",
+    "options": [
+      "500 m/s",
+      "5000 m/s",
+      "4000 m/s",
+      "8000 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Use v = s/t = 4/0.0008 = 5000 m/s."
+  },
+  {
+    "question": "What is the speed of sound in air at 30°C?",
+    "options": [
+      "331 m/s",
+      "3490 m/s",
+      "349 m/s",
+      "300 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Use v = 331 + 0.6T. For T = 30°C, v = 331 + 18 = 349 m/s."
+  },
+  {
+    "question": "A boy hears an echo after 2 seconds. How far is the cliff if sound speed is 340 m/s?",
+    "options": [
+      "170 m",
+      "680 m",
+      "510 m",
+      "340 m"
+    ],
+    "correct": 3,
+    "explanation": "The sound travels to the cliff and back in 2 s, so the one-way distance is (340 × 2)/2 = 340 m."
+  },
+  {
+    "question": "How long will sonar take to detect a pulse from a ship 500 m above the seabed if sound speed is 1500 m/s?",
+    "options": [
+      "0.67 s",
+      "0.33 s",
+      "1.00 s",
+      "2.00 s"
+    ],
+    "correct": 0,
+    "explanation": "The pulse travels down and back, so total distance = 1000 m. Time = 1000/1500 = 0.67 s."
+  },
+  {
+    "question": "What is the period of a wave with frequency 2 Hz?",
+    "options": [
+      "2 s",
+      "0.5 s",
+      "0.25 s",
+      "1 s"
+    ],
+    "correct": 1,
+    "explanation": "Use T = 1/f = 1/2 = 0.5 s."
+  },
+  {
+    "question": "Two identical waves of amplitude 4 cm meet. What are the extreme amplitudes for constructive and destructive interference?",
+    "options": [
+      "4 cm; 4 cm",
+      "0 cm; 8 cm",
+      "8 cm; 0 cm",
+      "8 cm; 4 cm"
+    ],
+    "correct": 2,
+    "explanation": "Constructive interference adds amplitudes: 4 + 4 = 8 cm. Destructive interference subtracts them: 4 - 4 = 0 cm."
+  },
+  {
+    "question": "What is the speed of sound in a liquid with density 10000 kg/m³ and bulk modulus 4×10¹⁰ Pa?",
+    "options": [
+      "200 m/s",
+      "4000 m/s",
+      "1000 m/s",
+      "2000 m/s"
+    ],
+    "correct": 3,
+    "explanation": "Use v = √(B/ρ) = √(4×10¹⁰ / 10000) = 2000 m/s."
+  }
+]
