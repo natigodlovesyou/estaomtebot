@@ -19,13 +19,9 @@ BASE_DIR = Path(__file__).resolve().parent
 # =========================================================
 DATA_DIR = BASE_DIR / "data"                 # Folder for quiz JSON files
 
-# Use temp directory for database (works on Windows and Linux/Render)
-_temp_dir = Path(tempfile.gettempdir())
-DATABASE_FILE = _temp_dir / "estaomte_bot.db"  # SQLite database file in temp
-
-STATE_FILE = BASE_DIR / "state.json"        # Persistent bot state
+STATE_FILE = BASE_DIR / "state.json"         # Persistent bot state
 HISTORY_FILE = BASE_DIR / "leaderboard_history.json"  # Optional leaderboard archive
-LOG_FILE = BASE_DIR / "bot.log"             # Log file
+LOG_FILE = BASE_DIR / "bot.log"              # Log file
 
 # Ensure directories exist
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -40,6 +36,13 @@ COMMUNITY_INVITE = os.getenv("COMMUNITY_INVITE", "https://t.me/+sw9Iezu2kWxlOTQ0
 
 ADMIN_ID = int(ADMIN_ID)
 COMMUNITY_CHAT_ID = int(COMMUNITY_CHAT_ID)
+PRIVATE_CHANNEL_ID = int(os.getenv("PRIVATE_CHANNEL_ID", "0"))
+
+# =========================================================
+# Turso Database
+# =========================================================
+TURSO_URL = os.getenv("TURSO_URL")
+TURSO_TOKEN = os.getenv("TURSO_TOKEN")
 
 # =========================================================
 # Quiz Behavior Settings
@@ -83,6 +86,12 @@ if not BOT_TOKEN:
         "BOT_TOKEN environment variable is not set.\n"
         "Set it using:\n"
         "export BOT_TOKEN=your_token_here"
+    )
+
+if not TURSO_URL or not TURSO_TOKEN:
+    raise RuntimeError(
+        "TURSO_URL and TURSO_TOKEN environment variables are not set.\n"
+        "Add them in your Render environment settings."
     )
 
 if ADMIN_ID == 0:
