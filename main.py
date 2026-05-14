@@ -4,7 +4,7 @@ import os
 import signal
 import threading
 
-from flask import Flask
+from flask import Flask, send_from_directory
 from logging.handlers import RotatingFileHandler
 from typing import Optional
 
@@ -70,11 +70,19 @@ APP: Optional[Application] = None
 # Flask Web Server (for Render)
 # --------------------------------------------------
 
-web_app = Flask(__name__)
+# static_folder points to the "static" folder next to main.py
+web_app = Flask(__name__, static_folder="static")
+
 
 @web_app.route("/")
 def home():
     return "MegaMind Quiz Bot is running!"
+
+
+@web_app.route("/game")
+def game():
+    """Serve the MegaMind Challenge Mini App game."""
+    return send_from_directory("static", "index.html")
 
 
 def run_web_server():
