@@ -8,7 +8,7 @@
       "Water contracts when heated from 0°C to 4°C."
     ],
     "correct": 0,
-    "explanation": "Water is densest at 4°C; below that temperature it expands anomalously, so the false statement is the one claiming the particles are farthest apart at 4°C."
+    "explanation": "Step 1: Compare the statements with the special behavior of water.\nStep 2: Water is densest at 4°C, but at that temperature the molecules are not farthest apart.\nStep 3: Below 4°C, water expands instead of contracting.\nTherefore, the false statement is the one saying the particles are farthest apart at 4°C."
   },
   {
     "question": "Latent heat of vaporization is the amount of heat required to change the",
@@ -19,7 +19,7 @@
       "phase of a substance from solid to liquid at constant temperature"
     ],
     "correct": 1,
-    "explanation": "Latent heat of vaporization is the energy needed to change a liquid into a gas at constant temperature."
+    "explanation": "Step 1: Latent heat is heat used for a change of state, not a change of temperature.\nStep 2: Vaporization means changing from liquid to gas.\nTherefore, the correct choice is the heat needed to change a substance from liquid to gas at constant temperature."
   },
   {
     "question": "A 0.3 kg hot alloy of specific heat capacity 200 J/kg°C cools by 50°C. How much heat is lost?",
@@ -30,7 +30,7 @@
       "2500 J"
     ],
     "correct": 2,
-    "explanation": "Use Q = mcΔT; the substitution gives 3000 J."
+    "explanation": "Step 1: Use the heat formula Q = mcΔT.\nStep 2: Substitute m = 0.3 kg, c = 200 J/kg°C, and ΔT = 50°C.\nStep 3: Q = 0.3 × 200 × 50 = 3000 J.\nSince the alloy cools, this is the heat lost."
   },
   {
     "question": "A certain mass of ice at 0°C is mixed with 0.1 kg of water at 6°C. How much ice melts if the final temperature is 0°C?",
@@ -41,7 +41,7 @@
       "7.5 × 10⁻³ kg"
     ],
     "correct": 3,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 7.5 × 10⁻³ kg."
+    "explanation": "Step 1: Heat released by the warm water is used to melt some of the ice.\nStep 2: First find heat lost by 0.1 kg of water cooling from 6°C to 0°C:\nQ = mcΔT = 0.1 × 4200 × 6 = 2520 J.\nStep 3: Use Q = mL for melting:\nm = Q / Lf = 2520 / 3.36×10^5 ≈ 7.5 × 10^-3 kg.\nSo the mass of ice melted is 7.5 × 10^-3 kg."
   },
   {
     "question": "A metal plate has an area of 0.09 m² at 30°C. What is its increase in area at 60°C? (α = 1.1 × 10⁻⁵/°C)",
@@ -52,7 +52,7 @@
       "5.94 × 10⁻³ m²"
     ],
     "correct": 0,
-    "explanation": "Area expansion: ΔA = 2αAΔT = 2 × 1.1 × 10⁻⁵ × 0.09 × 30 = 5.94 × 10⁻⁵ m². So the result is the required value."
+    "explanation": "Step 1: For area expansion, use ΔA = 2αAΔT.\nStep 2: Substitute A = 0.09 m², α = 1.1 × 10^-5/°C, and ΔT = 60 - 30 = 30°C.\nStep 3: ΔA = 2 × 1.1 × 10^-5 × 0.09 × 30 = 5.94 × 10^-5 m².\nSo the increase in area is 5.94 × 10^-5 m²."
   },
   {
     "question": "How much heat is required to change 720 g of ice at -10°C to water at 15°C?",
@@ -63,7 +63,7 @@
       "2.70 × 10⁵ J"
     ],
     "correct": 1,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 3.00 × 10⁵ J."
+    "explanation": "Step 1: Heat the ice from -10°C to 0°C.\nQ1 = mcΔT = 0.72 × 2100 × 10 = 15120 J.\nStep 2: Melt the ice at 0°C.\nQ2 = mLf = 0.72 × 3.36×10^5 = 241920 J.\nStep 3: Heat the melted water from 0°C to 15°C.\nQ3 = mcΔT = 0.72 × 4200 × 15 = 45360 J.\nStep 4: Add the three parts.\nTotal Q = 15120 + 241920 + 45360 = 302400 J ≈ 3.00 × 10^5 J."
   },
   {
     "question": "A steel beam is 25 m long at 0°C. How much does its length change at 30°C? (α = 1.2 × 10⁻⁵/°C)",
@@ -74,7 +74,7 @@
       "25 mm"
     ],
     "correct": 2,
-    "explanation": "ΔL = LαΔT = 25 × 1.2 × 10⁻⁵ × 30 = 9 × 10⁻³ m = 9 mm. So the result is the required value."
+    "explanation": "Step 1: Use linear expansion, ΔL = LαΔT.\nStep 2: Substitute L = 25 m, α = 1.2 × 10^-5/°C, and ΔT = 30°C.\nStep 3: ΔL = 25 × 1.2 × 10^-5 × 30 = 9.0 × 10^-3 m.\nStep 4: Convert to millimetres: 9.0 × 10^-3 m = 9 mm.\nSo the length increases by 9 mm."
   },
   {
     "question": "Water at 50°C can be obtained by mixing",
@@ -85,7 +85,7 @@
       "1 kg of water at 0°C and 1 kg of water at 100°C"
     ],
     "correct": 3,
-    "explanation": "Set heat lost by the hot water equal to heat gained by the cold water; the result is 1 kg of water at 0°C and 1 kg of water at 100°C."
+    "explanation": "Step 1: To get 50°C, the hot water must give up as much heat as the cold water gains.\nStep 2: The only balanced mixture in the choices is equal masses of water at 0°C and 100°C.\nStep 3: For equal masses, the final temperature is the average:\n(0 + 100) / 2 = 50°C.\nSo 1 kg of water at 0°C and 1 kg of water at 100°C gives 50°C water."
   },
   {
     "question": "How much water at 20°C should be mixed with 5 kg of water at 90°C to get a mixture at 60°C?",
@@ -96,7 +96,7 @@
       "6.75 kg"
     ],
     "correct": 0,
-    "explanation": "Set heat lost by the hot water equal to heat gained by the cold water; the result is 3.75 kg."
+    "explanation": "Step 1: Let x be the mass of water at 20°C.\nStep 2: Heat lost by 5 kg of water cooling from 90°C to 60°C is\nQlost = 5 × 4200 × 30.\nStep 3: Heat gained by x kg of water warming from 20°C to 60°C is\nQgained = x × 4200 × 40.\nStep 4: Set Qlost = Qgained and cancel 4200:\n5 × 30 = x × 40.\nStep 5: Solve x = 150 / 40 = 3.75 kg.\nSo 3.75 kg of water at 20°C is needed."
   },
   {
     "question": "Temperature of a body is the measure of average",
@@ -107,7 +107,7 @@
       "pressure"
     ],
     "correct": 1,
-    "explanation": "Temperature measures the average kinetic energy of the particles in the body."
+    "explanation": "Step 1: Temperature measures the average kinetic energy of the particles in a body.\nStep 2: It does not measure work, power, or pressure.\nTherefore, the correct answer is kinetic energy."
   },
   {
     "question": "When two bodies are in thermal equilibrium, they have equal",
@@ -118,7 +118,7 @@
       "conductivity"
     ],
     "correct": 2,
-    "explanation": "At thermal equilibrium, both bodies have the same temperature, so there is no net heat flow."
+    "explanation": "Step 1: At thermal equilibrium, there is no net heat flow between the bodies.\nStep 2: That happens only when both bodies have the same temperature.\nTherefore, the equal quantity is temperature."
   },
   {
     "question": "Specific heat capacity is the amount of heat required to",
@@ -129,7 +129,7 @@
       "raise the temperature of 1 kg of a substance by 1 K"
     ],
     "correct": 3,
-    "explanation": "Specific heat capacity is the heat needed to raise the temperature of 1 kg of a substance by 1 K."
+    "explanation": "Step 1: Specific heat capacity is the heat needed to raise the temperature of 1 kg of a substance by 1 K (or 1°C).\nStep 2: It is a property of the material, not the size of the sample.\nTherefore, the correct description is raising 1 kg of a substance by 1 K."
   },
   {
     "question": "When you are taking a bath, how many kilograms of hot water at 48°C must you mix with cold water at 12°C so that the bath temperature is 36°C and the total mass is 90 kg?",
@@ -140,7 +140,7 @@
       "70 kg"
     ],
     "correct": 0,
-    "explanation": "Set heat lost by the hot water equal to heat gained by the cold water; the result is 60 kg."
+    "explanation": "Step 1: Let the mass of hot water be x kg, so the cold water has mass 90 - x kg.\nStep 2: Hot water cools from 48°C to 36°C:\nQlost = x × 4200 × 12.\nStep 3: Cold water warms from 12°C to 36°C:\nQgained = (90 - x) × 4200 × 24.\nStep 4: Set heat lost = heat gained and cancel 4200:\n12x = 24(90 - x).\nStep 5: Solve:\n12x = 2160 - 24x\n36x = 2160\nx = 60 kg.\nSo 60 kg of hot water is needed."
   },
   {
     "question": "Which one of the following remains constant during a change of state of matter?",
@@ -151,7 +151,7 @@
       "Density"
     ],
     "correct": 1,
-    "explanation": "During a phase change, temperature remains constant while latent heat is absorbed or released."
+    "explanation": "Step 1: During a change of state, heat is absorbed or released as latent heat.\nStep 2: The temperature stays constant until the whole change of state is complete.\nTherefore, temperature remains constant during the phase change."
   },
   {
     "question": "A copper cylinder of mass 0.5 kg is supplied with 11700 J of heat. What is the change in temperature of the cylinder? (c = 390 J/kg°C)",
@@ -162,7 +162,7 @@
       "120°C"
     ],
     "correct": 2,
-    "explanation": "Using ΔT = Q/(mc) = 11700 / (0.5 × 390) = 60°C. So the result is the required value."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Rearrange to ΔT = Q / (mc).\nStep 3: Substitute Q = 11700 J, m = 0.5 kg, and c = 390 J/kg°C.\nStep 4: ΔT = 11700 / (0.5 × 390) = 60°C.\nSo the temperature change is 60°C."
   },
   {
     "question": "A metal rod is 1.00 m long at 20°C and 1.005 m long at 40°C. What is its length at 60°C?",
@@ -173,7 +173,7 @@
       "1.01 m"
     ],
     "correct": 3,
-    "explanation": "Use linear expansion, ΔL = LαΔT; the result is 1.01 m."
+    "explanation": "Step 1: Find the expansion coefficient from the first temperature change.\nFrom 20°C to 40°C, the length increases by 0.005 m in 20°C:\nα = ΔL / (LΔT) = 0.005 / (1.00 × 20) = 2.5 × 10^-4/°C.\nStep 2: From 20°C to 60°C, ΔT = 40°C.\nStep 3: ΔL = 1.00 × 2.5 × 10^-4 × 40 = 0.010 m.\nStep 4: New length = 1.00 + 0.010 = 1.01 m.\nSo the length at 60°C is 1.01 m."
   },
   {
     "question": "The heat required to raise the temperature of an object from 25°C to 50°C is 125 kJ. How much heat is needed to raise the same object from 40°C to 60°C?",
@@ -184,7 +184,7 @@
       "200 kJ"
     ],
     "correct": 0,
-    "explanation": "For the same object, heat is proportional to temperature change. Since 125 kJ corresponds to 25°C, the heat capacity is 5 kJ/°C. For 20°C, Q = 5 × 20 = 100 kJ."
+    "explanation": "Step 1: Heat is proportional to temperature change for the same object.\nStep 2: 125 kJ corresponds to a 25°C rise, so the heat capacity is\n125 ÷ 25 = 5 kJ/°C.\nStep 3: For a 20°C rise, Q = 5 × 20 = 100 kJ.\nSo the required heat is 100 kJ."
   },
   {
     "question": "An electrical heating system of power 4 kW is used to heat 400 kg of water from 20°C to 80°C. How long will the process take?",
@@ -195,7 +195,7 @@
       "10 h"
     ],
     "correct": 1,
-    "explanation": "Energy required = mcΔT = 400 × 4200 × 60 = 1.008 × 10⁸ J. Time = E/P = 1.008 × 10⁸ / 4000 = 25200 s = 7 h."
+    "explanation": "Step 1: Find the energy needed to heat the water:\nQ = mcΔT = 400 × 4200 × 60 = 1.008 × 10^8 J.\nStep 2: Use time = energy / power.\nP = 4 kW = 4000 W, so\nt = 1.008 × 10^8 / 4000 = 25200 s.\nStep 3: Convert seconds to hours:\n25200 / 3600 = 7 h.\nSo the process takes 7 hours."
   },
   {
     "question": "Which one of the following is a factor on which specific heat capacity of a conductor depends?",
@@ -206,7 +206,7 @@
       "Temperature"
     ],
     "correct": 2,
-    "explanation": "Specific heat capacity is an intrinsic property of the material, so it depends on the substance, not on the sample size."
+    "explanation": "Step 1: Specific heat capacity is an intrinsic property of a material.\nStep 2: It does not depend on the mass, shape, or heat supplied to the sample.\nTherefore, it depends on the substance itself."
   },
   {
     "question": "The device that converts heat into useful work is",
@@ -217,7 +217,7 @@
       "Heat engine"
     ],
     "correct": 3,
-    "explanation": "A heat engine converts thermal energy into mechanical work."
+    "explanation": "Step 1: A device that turns heat energy into mechanical work is called a heat engine.\nStep 2: A transformer and transistor do not do that job.\nTherefore, the correct answer is heat engine."
   },
   {
     "question": "What is the internal energy of a body?",
@@ -228,7 +228,7 @@
       "Chemical energy only"
     ],
     "correct": 0,
-    "explanation": "Internal energy is the total microscopic kinetic and potential energy of the particles in a body."
+    "explanation": "Step 1: Internal energy is the total microscopic energy of the particles in a body.\nStep 2: This includes both kinetic energy and potential energy of the particles.\nTherefore, internal energy means all the microscopic energy content."
   },
   {
     "question": "If the end of a rod is heated, the rate of heat flow does not depend on",
@@ -239,7 +239,7 @@
       "length of the rod"
     ],
     "correct": 1,
-    "explanation": "By Fourier's law, heat flow depends on geometry, temperature difference, and conductivity, not directly on mass."
+    "explanation": "Step 1: By Fourier’s law, heat flow depends on the temperature difference, length, cross-sectional area, and conductivity.\nStep 2: It does not depend directly on the mass of the rod.\nTherefore, the rate of heat flow does not depend on mass."
   },
   {
     "question": "The coefficient of thermal conductivity depends on",
@@ -250,7 +250,7 @@
       "thickness of plate"
     ],
     "correct": 2,
-    "explanation": "Thermal conductivity is a material property, so it depends on the substance itself."
+    "explanation": "Step 1: Thermal conductivity is a property of the material.\nStep 2: Different substances conduct heat at different rates even if the shape is the same.\nTherefore, the coefficient of thermal conductivity depends on the material of the plate."
   },
   {
     "question": "Heat travels through vacuum by",
@@ -261,7 +261,7 @@
       "radiation"
     ],
     "correct": 3,
-    "explanation": "Only radiation can transfer heat through a vacuum because it does not need a material medium."
+    "explanation": "Step 1: Conduction and convection need a material medium.\nStep 2: Vacuum has no particles, so those methods cannot work there.\nStep 3: Radiation is carried by electromagnetic waves, so it can travel through vacuum.\nTherefore, heat travels through vacuum by radiation."
   },
   {
     "question": "The radiation emitted by a body is proportional to",
@@ -272,7 +272,7 @@
       "square root of temperature"
     ],
     "correct": 0,
-    "explanation": "By the Stefan–Boltzmann law, radiated power is proportional to the fourth power of absolute temperature."
+    "explanation": "Step 1: The power radiated by a body follows the Stefan–Boltzmann law.\nStep 2: That law says radiated power is proportional to the fourth power of absolute temperature, T^4.\nTherefore, the radiation emitted is proportional to T^4."
   },
   {
     "question": "Which of the following does NOT occur through convection?",
@@ -283,7 +283,7 @@
       "Circulation of air around a furnace"
     ],
     "correct": 1,
-    "explanation": "Convection needs bulk fluid motion, so the filament example is radiation, not convection."
+    "explanation": "Step 1: Convection involves the movement of a fluid such as air or water.\nStep 2: Boiling water, sea breeze, and air circulation around a furnace all involve fluid motion.\nStep 3: Heating a glass bulb through a filament is mainly radiation, not convection.\nTherefore, that is the process that does NOT occur through convection."
   },
   {
     "question": "Boiling point of water",
@@ -294,7 +294,7 @@
       "is independent of pressure"
     ],
     "correct": 2,
-    "explanation": "As pressure decreases, the boiling point decreases; that is why water boils at lower temperatures at high altitude."
+    "explanation": "Step 1: The boiling point depends on pressure.\nStep 2: When pressure decreases, a liquid needs less heat energy to form vapour.\nStep 3: So at lower pressure, water boils at a lower temperature.\nTherefore, the boiling point of water decreases as pressure decreases."
   },
   {
     "question": "During the melting process, the heat given to a body is utilized in",
@@ -305,7 +305,7 @@
       "increasing molecular distance"
     ],
     "correct": 3,
-    "explanation": "During melting, heat is used to weaken intermolecular bonding and increase particle separation, not to raise temperature."
+    "explanation": "Step 1: During melting, the temperature stays constant.\nStep 2: The supplied heat is used to weaken intermolecular forces and separate the particles further.\nTherefore, the heat is used in increasing molecular distance."
   },
   {
     "question": "The rate of radiation of a black body at 0°C is E. The rate of radiation of the same body at 273°C will be",
@@ -316,7 +316,7 @@
       "E"
     ],
     "correct": 0,
-    "explanation": "By the Stefan–Boltzmann law, radiated power varies as T⁴, so the result is 16E."
+    "explanation": "Step 1: At 0°C, the absolute temperature is 273 K.\nStep 2: At 273°C, the absolute temperature is 546 K.\nStep 3: Radiation follows T^4, so the ratio is (546/273)^4 = 2^4 = 16.\nTherefore, the new rate of radiation is 16E."
   },
   {
     "question": "The most suitable material for cooking utensils is one having",
@@ -327,7 +327,7 @@
       "low specific heat and low conductivity"
     ],
     "correct": 1,
-    "explanation": "Cooking utensils should heat up quickly and pass heat to food efficiently, so low specific heat and high conductivity are preferred."
+    "explanation": "Step 1: Cooking utensils should transfer heat to food quickly.\nStep 2: They should also warm up without needing too much heat themselves.\nTherefore, low specific heat and high conductivity are best."
   },
   {
     "question": "How many joules of energy are required to raise the temperature of 100 g of gold from 20°C to 100°C? (C_gold = 129 J/kg·K)",
@@ -338,7 +338,7 @@
       "1290 J"
     ],
     "correct": 2,
-    "explanation": "Using Q = mcΔT = 0.1 × 129 × 80 = 1032 J. So the result is the required value."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Convert mass: 100 g = 0.1 kg.\nStep 3: Substitute m = 0.1 kg, c = 129 J/kg·K, and ΔT = 100 - 20 = 80 K.\nStep 4: Q = 0.1 × 129 × 80 = 1032 J.\nSo the required energy is 1032 J."
   },
   {
     "question": "A 0.8 kg aluminium pan and 0.2 kg of water are heated from 25°C to 85°C. How much heat is required in total? (C_water = 4200 J/kg·K, C_Al = 900 J/kg·K)",
@@ -349,7 +349,7 @@
       "93.6 kJ"
     ],
     "correct": 3,
-    "explanation": "Use calorimetry: heat lost by one body equals heat gained by the other; the result is 93.6 kJ."
+    "explanation": "Step 1: Heat needed by the aluminium pan:\nQ_Al = 0.8 × 900 × 60 = 43200 J.\nStep 2: Heat needed by the water:\nQ_water = 0.2 × 4200 × 60 = 50400 J.\nStep 3: Add both parts:\nQ_total = 43200 + 50400 = 93600 J = 93.6 kJ.\nSo the total heat required is 93.6 kJ."
   },
   {
     "question": "What is the temperature rise of a 50 kg steel bar falling from a height of 50 m if 50% of its kinetic energy is changed into heat? (C_steel = 450 J/kg·K)",
@@ -360,7 +360,7 @@
       "6.0°C"
     ],
     "correct": 0,
-    "explanation": "Use Q = mcΔT; the substitution gives 0.6°C."
+    "explanation": "Step 1: The height fall converts gravitational potential energy into kinetic energy.\nStep 2: Potential energy lost = mgh = 50 × 10 × 50 = 25000 J.\nStep 3: Only 50% becomes heat, so heat gained = 12500 J.\nStep 4: Use Q = mcΔT:\nΔT = 12500 / (50 × 450) ≈ 0.56°C.\nSo the temperature rise is about 0.6°C."
   },
   {
     "question": "A steel railroad track is 50 m long at 0°C. What is its length at 50°C? (α = 11 × 10⁻⁶/°C)",
@@ -371,7 +371,7 @@
       "50.11 m"
     ],
     "correct": 1,
-    "explanation": "ΔL = LαΔT = 50 × 11 × 10⁻⁶ × 50 = 0.0275 m, so L ≈ 50.03 m. So the result is the required value."
+    "explanation": "Step 1: Use linear expansion, ΔL = LαΔT.\nStep 2: Substitute L = 50 m, α = 11 × 10^-6/°C, and ΔT = 50°C.\nStep 3: ΔL = 50 × 11 × 10^-6 × 50 = 0.0275 m.\nStep 4: The new length is 50 + 0.0275 = 50.0275 m, which rounds to 50.03 m.\nSo the track becomes 50.03 m long."
   },
   {
     "question": "A steel ring of diameter 9.9 cm must expand to 10.0 cm so that a piston can pass through it. If α = 1.2 × 10⁻⁵/°C, what temperature rise is needed?",
@@ -382,7 +382,7 @@
       "8400°C"
     ],
     "correct": 2,
-    "explanation": "Use Q = mcΔT; the substitution gives 840°C."
+    "explanation": "Step 1: Use linear expansion for the diameter of the ring.\nStep 2: The diameter must increase by 10.0 - 9.9 = 0.1 cm.\nStep 3: Apply ΔD = DαΔT.\nStep 4: Rearranging gives ΔT = ΔD / (Dα) = 0.1 / (9.9 × 1.2 × 10^-5).\nStep 5: This gives about 8.4 × 10^2°C.\nSo the needed temperature rise is 840°C."
   },
   {
     "question": "A 300 L steel barrel is filled with alcohol at 10°C. How much alcohol overflows when the temperature rises to 100°C? (β_alcohol = 112 × 10⁻⁵/°C, β_steel = 3.3 × 10⁻⁵/°C)",
@@ -393,7 +393,7 @@
       "29.4 L"
     ],
     "correct": 3,
-    "explanation": "Use Q = mcΔT; the substitution gives 29.4 L."
+    "explanation": "Step 1: The alcohol expands, and the steel barrel also expands.\nStep 2: Only the extra expansion of the alcohol over the barrel overflows.\nStep 3: Use the difference in volume expansion coefficients:\nΔV = V(β_alcohol - β_steel)ΔT.\nStep 4: Substitute V = 300 L, β_alcohol = 112 × 10^-5/°C, β_steel = 3.3 × 10^-5/°C, and ΔT = 90°C.\nStep 5: ΔV ≈ 300 × (1.12 × 10^-3 - 3.3 × 10^-5) × 90 ≈ 29.4 L.\nSo about 29.4 L overflows."
   },
   {
     "question": "At 0°C, the length of a steel wire is 100.05 cm and that of a copper wire is 100.00 cm. At what temperature will they have the same length?",
@@ -404,7 +404,7 @@
       "93.4°C"
     ],
     "correct": 0,
-    "explanation": "Set 100.05(1 + α_s T) = 100(1 + α_c T). Using α_s = 11 × 10⁻⁶/°C and α_c = 17 × 10⁻⁶/°C gives T ≈ 83.41°C."
+    "explanation": "Step 1: Write the equal-length condition:\n100.05(1 + α_s T) = 100(1 + α_c T).\nStep 2: Use α_s = 11 × 10^-6/°C and α_c = 17 × 10^-6/°C.\nStep 3: Expand and solve for T:\n100.05 + 100.05(11 × 10^-6)T = 100 + 100(17 × 10^-6)T.\nStep 4: Rearranging gives T ≈ 83.4°C.\nSo the two wires have the same length at about 83.4°C."
   },
   {
     "question": "What is the change in area of a 0.05 m² plate when it is heated from 0°C to 90°C? (α = 9 × 10⁻⁶/°C)",
@@ -415,7 +415,7 @@
       "8.1 × 10⁻³ m²"
     ],
     "correct": 1,
-    "explanation": "ΔA = 2αAΔT = 2 × 9 × 10⁻⁶ × 0.05 × 90 = 8.1 × 10⁻⁵ m². So the result is the required value."
+    "explanation": "Step 1: Use area expansion:\nΔA = 2αAΔT.\nStep 2: Substitute A = 0.05 m², α = 9 × 10^-6/°C, and ΔT = 90°C.\nStep 3: ΔA = 2 × 9 × 10^-6 × 0.05 × 90 = 8.1 × 10^-5 m².\nSo the change in area is 8.1 × 10^-5 m²."
   },
   {
     "question": "What is the change in volume of 2 L of water when heated from 10°C to 100°C? (β_water = 3 × 2.1 × 10⁻⁴/°C)",
@@ -426,7 +426,7 @@
       "1.134 L"
     ],
     "correct": 2,
-    "explanation": "Using ΔV = V₀βΔT = 2 × (3 × 2.1 × 10⁻⁴) × 90 = 0.1134 L. So the result is the required value."
+    "explanation": "Step 1: Use volume expansion:\nΔV = VβΔT.\nStep 2: For water, β = 3 × 2.1 × 10^-4/°C = 6.3 × 10^-4/°C.\nStep 3: Substitute V = 2 L and ΔT = 100 - 10 = 90°C.\nStep 4: ΔV = 2 × 6.3 × 10^-4 × 90 = 0.1134 L.\nSo the volume increases by 0.1134 L."
   },
   {
     "question": "A 1 kg metal rod at 400°C is immersed in 2 kg of water at 15°C. The equilibrium temperature is 20.8°C. What is the specific heat capacity of the metal? (C_water = 4200 J/kg·K)",
@@ -437,7 +437,7 @@
       "128.5 J/kg·K"
     ],
     "correct": 3,
-    "explanation": "Use Q = mcΔT; the substitution gives 128.5 J/kg·K."
+    "explanation": "Step 1: Heat lost by the metal = heat gained by the water.\nStep 2: Water warms from 15°C to 20.8°C, so its heat gain is\nQ = 2 × 4200 × 5.8 = 48720 J.\nStep 3: The metal cools from 400°C to 20.8°C, so ΔT = 379.2°C.\nStep 4: Use Q = mcΔT for the metal:\nc = 48720 / (1 × 379.2) ≈ 128.5 J/kg·K.\nSo the metal’s specific heat capacity is 128.5 J/kg·K."
   },
   {
     "question": "A 250 g calorimeter containing 200 g of water is heated by a 1000 W heater for 5 minutes. If the temperature rises by 60°C, what is the specific heat capacity of the calorimeter?",
@@ -448,7 +448,7 @@
       "20,640 J/kg·K"
     ],
     "correct": 0,
-    "explanation": "Use Q = mcΔT; the substitution gives 16,640 J/kg·K."
+    "explanation": "Step 1: The heater supplies energy:\nQ = Pt = 1000 × 300 = 300000 J.\nStep 2: The water gains heat:\nQ_water = 0.2 × 4200 × 60 = 50400 J.\nStep 3: The calorimeter gets the remaining heat:\nQ_cal = 300000 - 50400 = 249600 J.\nStep 4: Use Q = mcΔT for the calorimeter:\nc = 249600 / (0.25 × 60) = 16640 J/kg·K.\nSo the calorimeter’s specific heat capacity is 16,640 J/kg·K."
   },
   {
     "question": "A 20 kg copper block at 500°C is placed on a large ice block. How much ice melts? (C_copper = 390 J/kg·K, Lf = 3.34 × 10⁵ J/kg)",
@@ -459,7 +459,7 @@
       "28.5 kg"
     ],
     "correct": 1,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 11.7 kg."
+    "explanation": "Step 1: The copper block cools from 500°C to 0°C, so its heat loss is\nQ = mcΔT = 20 × 390 × 500 = 3.9 × 10^6 J.\nStep 2: This heat is used to melt ice at 0°C.\nStep 3: Use Q = mLf:\nm = 3.9 × 10^6 / 3.34 × 10^5 ≈ 11.7 kg.\nSo about 11.7 kg of ice melts."
   },
   {
     "question": "Which statement best distinguishes heat from temperature?",
@@ -470,7 +470,7 @@
       "Heat is measured in kelvin, while temperature is measured in joules"
     ],
     "correct": 2,
-    "explanation": "Heat is energy in transit from a hotter body to a colder body. Temperature measures the average kinetic energy of the particles."
+    "explanation": "Step 1: Heat is energy transferred because of a temperature difference.\nStep 2: Temperature measures the average kinetic energy of particles.\nTherefore, the statement that correctly distinguishes them is the one saying heat is energy transfer and temperature is average kinetic energy."
   },
   {
     "question": "10°C is equal to",
@@ -481,7 +481,7 @@
       "283 K"
     ],
     "correct": 3,
-    "explanation": "Convert Celsius to kelvin using T(K) = T(°C) + 273; the result is 283 K."
+    "explanation": "Step 1: Convert Celsius to kelvin:\n10°C + 273 = 283 K.\nSo 10°C is equal to 283 K."
   },
   {
     "question": "Gold melts at 1336 K. What is this temperature in Celsius?",
@@ -492,7 +492,7 @@
       "1336°C"
     ],
     "correct": 0,
-    "explanation": "Use T(°C) = T(K) − 273; the result is 1063°C."
+    "explanation": "Step 1: Convert from kelvin to Celsius:\n°C = K - 273.\nStep 2: 1336 - 273 = 1063°C.\nSo the melting point is 1063°C."
   },
   {
     "question": "At what temperature do the Celsius and Fahrenheit scales read the same?",
@@ -503,7 +503,7 @@
       "100°"
     ],
     "correct": 1,
-    "explanation": "The two scales are equal at -40°, where -40°C = -40°F. So the result is the required value."
+    "explanation": "Step 1: Use the relation F = (9/5)C + 32.\nStep 2: Set the two scales equal: F = C.\nStep 3: Solve C = (9/5)C + 32, which gives C = -40.\nTherefore, the Celsius and Fahrenheit scales are equal at -40°."
   },
   {
     "question": "If a body changes from 40°C to 60°C, the change in temperature on the Fahrenheit scale is",
@@ -514,7 +514,7 @@
       "40°F"
     ],
     "correct": 2,
-    "explanation": "A temperature change of 20°C corresponds to 36°F, so the result is 36°F."
+    "explanation": "Step 1: A temperature change of 20°C is not the same as 20°F.\nStep 2: Fahrenheit changes are larger by a factor of 9/5.\nStep 3: Convert the change:\nΔF = (9/5) × 20 = 36°F.\nSo the change on the Fahrenheit scale is 36°F."
   },
   {
     "question": "A glass window has area 1 m², thickness 4 mm, and thermal conductivity 0.84 W/mK. If the inside temperature is 30°C and the outside temperature is -20°C, the heat flow rate is",
@@ -525,7 +525,7 @@
       "10.5 kW"
     ],
     "correct": 3,
-    "explanation": "Use Fourier's law, Q/t = kAΔT/L; the result is 10.5 kW."
+    "explanation": "Step 1: Use Fourier’s law:\nQ/t = kAΔT/L.\nStep 2: Substitute k = 0.84 W/mK, A = 1 m², ΔT = 30 - (-20) = 50°C, and L = 4 mm = 0.004 m.\nStep 3: Q/t = 0.84 × 1 × 50 / 0.004 = 10500 W.\nStep 4: 10500 W = 10.5 kW.\nSo the heat flow rate is 10.5 kW."
   },
   {
     "question": "A heater of area 25 cm² has convection constant 105 W/m²K. If its surface temperature is 180°C and the water temperature is 20°C, the heat flow rate is",
@@ -536,7 +536,7 @@
       "4200 W"
     ],
     "correct": 0,
-    "explanation": "Use Fourier's law, Q/t = kAΔT/L; the result is 42 W."
+    "explanation": "Step 1: For convection, use Q/t = hAΔT.\nStep 2: Convert area: 25 cm² = 25 × 10^-4 m² = 0.0025 m².\nStep 3: Temperature difference = 180 - 20 = 160 K.\nStep 4: Q/t = 105 × 0.0025 × 160 = 42 W.\nSo the heat flow rate is 42 W."
   },
   {
     "question": "If the absolute temperature of a source is doubled, the rate of radiation becomes",
@@ -547,7 +547,7 @@
       "8 times"
     ],
     "correct": 1,
-    "explanation": "By the Stefan–Boltzmann law, radiated power varies as T⁴, so the result is 16 times."
+    "explanation": "Step 1: Radiation follows the Stefan–Boltzmann law, so power ∝ T^4.\nStep 2: If the absolute temperature doubles, the power becomes 2^4 = 16 times larger.\nTherefore, the rate of radiation becomes 16 times."
   },
   {
     "question": "A body has heat transfer coefficient 24 J/m²K, area 1.2 m², body temperature 40°C, and surroundings at 35°C. The rate of heat loss is",
@@ -558,7 +558,7 @@
       "288 W"
     ],
     "correct": 2,
-    "explanation": "Using Q/t = hAΔT = 24 × 1.2 × 5 = 144 W. So the result is the required value."
+    "explanation": "Step 1: Use the heat-loss formula Q/t = hAΔT.\nStep 2: Substitute h = 24 W/m²K, A = 1.2 m², and ΔT = 40 - 35 = 5 K.\nStep 3: Q/t = 24 × 1.2 × 5 = 144 W.\nSo the rate of heat loss is 144 W."
   },
   {
     "question": "How much energy is required to raise the temperature of 100 g of gold from 20°C to 100°C? (c = 129 J/kg·K)",
@@ -569,7 +569,7 @@
       "1040 J"
     ],
     "correct": 3,
-    "explanation": "Using Q = mcΔT = 0.1 × 129 × 80 = 1032 J, which rounds to about 1040 J. So the result is the required value."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Convert 100 g to 0.1 kg and use c = 129 J/kg·K.\nStep 3: ΔT = 100 - 20 = 80 K.\nStep 4: Q = 0.1 × 129 × 80 = 1032 J.\nSo the energy required is 1032 J."
   },
   {
     "question": "A 0.5 kg iron block at 27°C receives 1600 J of heat. If c = 470 J/kg°C, the final temperature is",
@@ -580,7 +580,7 @@
       "39.8°C"
     ],
     "correct": 0,
-    "explanation": "ΔT = Q/(mc) = 1600/(0.5 × 470) ≈ 6.8°C. Final temperature = 27 + 6.8 = 33.8°C. So the result is the required value."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Rearrange to ΔT = Q / (mc).\nStep 3: Substitute Q = 1600 J, m = 0.5 kg, and c = 470 J/kg°C.\nStep 4: ΔT = 1600 / (0.5 × 470) ≈ 6.8°C.\nStep 5: Final temperature = 27 + 6.8 = 33.8°C.\nSo the final temperature is 33.8°C."
   },
   {
     "question": "When 8000 J of heat is supplied to a 0.5 kg body, its temperature rises from 15°C to 55°C. The specific heat capacity is",
@@ -591,7 +591,7 @@
       "800 J/kg°C"
     ],
     "correct": 1,
-    "explanation": "Use Q = mcΔT; the substitution gives 400 J/kg°C."
+    "explanation": "Step 1: Use Q = mcΔT and rearrange to c = Q / (mΔT).\nStep 2: Here Q = 8000 J, m = 0.5 kg, and ΔT = 55 - 15 = 40°C.\nStep 3: c = 8000 / (0.5 × 40) = 400 J/kg°C.\nSo the specific heat capacity is 400 J/kg°C."
   },
   {
     "question": "How many grams of iron at 20°C must be heated to 100°C so that it absorbs 1800 calories of heat? (1 cal = 4.2 J, c_iron ≈ 470 J/kg°C)",
@@ -602,7 +602,7 @@
       "250 g"
     ],
     "correct": 2,
-    "explanation": "1800 cal = 7560 J. Use m = Q/(cΔT) = 7560/(470 × 80) ≈ 0.20 kg = 200 g. So the result is the required value."
+    "explanation": "Step 1: Convert 1800 calories to joules:\n1800 × 4.2 = 7560 J.\nStep 2: Use Q = mcΔT with m as the unknown:\nm = Q / (cΔT).\nStep 3: Substitute c = 470 J/kg°C and ΔT = 100 - 20 = 80°C.\nStep 4: m = 7560 / (470 × 80) ≈ 0.20 kg = 200 g.\nSo 200 g of iron is needed."
   },
   {
     "question": "A 70 kg woman eats chocolate containing 1000 cal. About how high must she climb stairs to burn that energy? (g = 10 m/s², 1 cal = 4.2 J)",
@@ -613,7 +613,7 @@
       "6 m"
     ],
     "correct": 3,
-    "explanation": "1000 cal = 4200 J. Set mgh = 4200, so h = 4200/(70 × 10) = 6 m. So the result is the required value."
+    "explanation": "Step 1: Convert food energy to joules:\n1000 cal × 4.2 = 4200 J.\nStep 2: Use mgh = 4200.\nStep 3: Solve for height:\nh = 4200 / (70 × 10) = 6 m.\nSo she must climb about 6 m."
   },
   {
     "question": "A steel measuring tape is 8 m long at 20°C. What is its length at 45°C? (α = 1.2 × 10⁻⁵/°C)",
@@ -624,7 +624,7 @@
       "8.24 m"
     ],
     "correct": 0,
-    "explanation": "Use linear expansion, ΔL = LαΔT; the result is 8.0024 m."
+    "explanation": "Step 1: Use linear expansion:\nΔL = LαΔT.\nStep 2: Substitute L = 8 m, α = 1.2 × 10^-5/°C, and ΔT = 45 - 20 = 25°C.\nStep 3: ΔL = 8 × 1.2 × 10^-5 × 25 = 0.0024 m.\nStep 4: New length = 8 + 0.0024 = 8.0024 m.\nSo the tape length is 8.0024 m."
   },
   {
     "question": "A silver rod is 100 cm long at 0°C and 100.19 cm long at 100°C. The coefficient of linear expansion is",
@@ -635,7 +635,7 @@
       "1.9 × 10⁻³/°C"
     ],
     "correct": 1,
-    "explanation": "α = ΔL/(L₀ΔT) = 0.19/(100 × 100) = 1.9 × 10⁻⁵/°C. So the result is the required value."
+    "explanation": "Step 1: Use α = ΔL / (L0ΔT).\nStep 2: ΔL = 100.19 - 100.00 = 0.19 cm, L0 = 100 cm, and ΔT = 100°C.\nStep 3: α = 0.19 / (100 × 100) = 1.9 × 10^-5/°C.\nSo the coefficient of linear expansion is 1.9 × 10^-5/°C."
   },
   {
     "question": "A steel bridge at 5°C can expand up to 30°C. If α = 1.2 × 10⁻⁵/°C, the gap required at one end is",
@@ -646,7 +646,7 @@
       "0.30 cm"
     ],
     "correct": 2,
-    "explanation": "The total expansion is 0.30 cm, so each end needs half of that: 0.15 cm."
+    "explanation": "Step 1: The bridge expands when heated, so a gap must allow for that increase in length.\nStep 2: In this item, the required expansion is shared by the two ends, so the gap at one end is half the total allowance.\nStep 3: That gives a gap of 0.15 cm at one end.\nSo the required gap is 0.15 cm."
   },
   {
     "question": "A square iron sheet of side 6 m is heated from 20°C to 80°C. The change in area is approximately",
@@ -657,7 +657,7 @@
       "0.05 m²"
     ],
     "correct": 3,
-    "explanation": "Area = 36 m². ΔA = 2αAΔT = 2 × 1.1 × 10⁻⁵ × 36 × 60 ≈ 0.05 m². So the result is the required value."
+    "explanation": "Step 1: Use area expansion:\nΔA = 2αAΔT.\nStep 2: The square side is 6 m, so A = 6 × 6 = 36 m².\nStep 3: Substitute α = 1.1 × 10^-5/°C and ΔT = 80 - 20 = 60°C.\nStep 4: ΔA = 2 × 1.1 × 10^-5 × 36 × 60 ≈ 0.048 m².\nStep 5: This rounds to about 0.05 m².\nSo the change in area is approximately 0.05 m²."
   },
   {
     "question": "A copper sheet has area 500 cm² at 0°C. Its area at 80°C is approximately",
@@ -668,7 +668,7 @@
       "513.0 cm²"
     ],
     "correct": 0,
-    "explanation": "ΔA = 2αAΔT = 2 × 1.7 × 10⁻⁵ × 500 × 80 = 1.36 cm², so final area ≈ 501.3 cm². So the result is the required value."
+    "explanation": "Step 1: Use area expansion:\nΔA = 2αAΔT.\nStep 2: Substitute A = 500 cm², α = 1.7 × 10^-5/°C, and ΔT = 80°C.\nStep 3: ΔA = 2 × 1.7 × 10^-5 × 500 × 80 = 1.36 cm².\nStep 4: Final area = 500 + 1.36 = 501.36 cm².\nSo the area is about 501.3 cm²."
   },
   {
     "question": "A cubical block has side length 20 cm at 20°C. The change in volume after heating to 100°C is",
@@ -679,7 +679,7 @@
       "0.3648 cm³"
     ],
     "correct": 1,
-    "explanation": "Volume = 20³ = 8000 cm³. ΔV = 3αVΔT = 3 × 1.9 × 10⁻⁵ × 8000 × 80 = 36.48 cm³. So the result is the required value."
+    "explanation": "Step 1: First find the original volume:\nV0 = 20^3 = 8000 cm³.\nStep 2: Use volume expansion:\nΔV = 3αV0ΔT.\nStep 3: Substitute α = 1.9 × 10^-5/°C and ΔT = 100 - 20 = 80°C.\nStep 4: ΔV = 3 × 1.9 × 10^-5 × 8000 × 80 = 36.48 cm³.\nSo the change in volume is 36.48 cm³."
   },
   {
     "question": "A glass beaker of volume 20 cm³ is filled with mercury at 20°C. How much mercury overflows at 100°C? (β_mercury = 1.8 × 10⁻⁴/°C, α_glass = 3 × 10⁻⁶/°C)",
@@ -690,7 +690,7 @@
       "2.74 cm³"
     ],
     "correct": 2,
-    "explanation": "Use the volume-expansion relation ΔV = VβΔT, or apparent expansion where a container is involved; the result is 0.274 cm³."
+    "explanation": "Step 1: The mercury expands more than the glass container.\nStep 2: The overflow is the difference between the mercury’s expansion and the container’s expansion.\nStep 3: Use the apparent expansion formula:\nΔV = V(β_mercury - 3α_glass)ΔT.\nStep 4: Substitute V = 20 cm³, β_mercury = 1.8 × 10^-4/°C, α_glass = 3 × 10^-6/°C, and ΔT = 80°C.\nStep 5: ΔV = 20 × (1.8 × 10^-4 - 9 × 10^-6) × 80 ≈ 0.274 cm³.\nSo about 0.274 cm³ overflows."
   },
   {
     "question": "Why is the coefficient of area expansion twice the coefficient of linear expansion?",
@@ -701,7 +701,7 @@
       "Because A = A₀(1 + 2αΔT) for small expansion"
     ],
     "correct": 3,
-    "explanation": "For small expansions, A = A₀(1 + αΔT)² ≈ A₀(1 + 2αΔT), so β = 2α."
+    "explanation": "Step 1: For small temperature changes, area is A = A0(1 + αΔT)^2.\nStep 2: Expanding this gives A ≈ A0(1 + 2αΔT) when the expansion is small.\nStep 3: That means the area coefficient is twice the linear coefficient.\nTherefore, β = 2α because of the squared length effect."
   },
   {
     "question": "How much heat is required to melt 4 kg of iron at its melting point?",
@@ -712,7 +712,7 @@
       "0.98 kJ"
     ],
     "correct": 0,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 980 kJ."
+    "explanation": "Step 1: Use latent heat of fusion:\nQ = mLf.\nStep 2: For iron, Lf is about 245 kJ/kg.\nStep 3: Substitute m = 4 kg:\nQ = 4 × 245 = 980 kJ.\nSo 980 kJ of heat is required."
   },
   {
     "question": "How much heat energy is needed to change 2.5 kg of water from liquid to vapour at 100°C?",
@@ -723,7 +723,7 @@
       "62,500 kJ"
     ],
     "correct": 1,
-    "explanation": "Using Q = mL_v = 2.5 × 2.5 × 10⁶ = 6.25 × 10⁶ J = 6,250 kJ. So the result is the required value."
+    "explanation": "Step 1: Use latent heat of vaporization:\nQ = mLv.\nStep 2: For water, Lv ≈ 2.5 × 10^6 J/kg.\nStep 3: Substitute m = 2.5 kg:\nQ = 2.5 × 2.5 × 10^6 = 6.25 × 10^6 J.\nStep 4: Convert to kilojoules:\n6.25 × 10^6 J = 6250 kJ.\nSo the required energy is 6250 kJ."
   },
   {
     "question": "How much energy is needed to change 2 kg of ice at 0°C to water at 50°C?",
@@ -734,7 +734,7 @@
       "1.89 × 10⁶ J"
     ],
     "correct": 2,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 1.09 × 10⁶ J."
+    "explanation": "Step 1: First melt the ice at 0°C:\nQ1 = mLf = 2 × 3.34 × 10^5 = 6.68 × 10^5 J.\nStep 2: Then heat the water from 0°C to 50°C:\nQ2 = mcΔT = 2 × 4200 × 50 = 4.20 × 10^5 J.\nStep 3: Add the two parts:\nQ = 6.68 × 10^5 + 4.20 × 10^5 = 1.088 × 10^6 J.\nSo about 1.09 × 10^6 J is needed."
   },
   {
     "question": "How much heat is needed to change 400 g of water from 30°C to 130°C at atmospheric pressure?",
@@ -745,7 +745,7 @@
       "1.05 × 10⁶ J"
     ],
     "correct": 3,
-    "explanation": "The water is heated to 100°C, vaporized, then the steam is heated to 130°C. Total heat is about 1.05 × 10⁶ J."
+    "explanation": "Step 1: Heat the water from 30°C to 100°C:\nQ1 = 0.4 × 4200 × 70 = 117600 J.\nStep 2: Vaporize the water at 100°C:\nQ2 = 0.4 × 2.26 × 10^6 = 904000 J.\nStep 3: Heat the steam from 100°C to 130°C:\nQ3 = 0.4 × 2000 × 30 = 24000 J.\nStep 4: Add all three parts:\nQ = 117600 + 904000 + 24000 = 1.0456 × 10^6 J.\nSo the total heat is about 1.05 × 10^6 J."
   },
   {
     "question": "How much heat is needed to change 1 g of ice from -25°C to 125°C?",
@@ -756,7 +756,7 @@
       "4150 J"
     ],
     "correct": 0,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 3112.5 J."
+    "explanation": "Step 1: Heat the ice from -25°C to 0°C:\nQ1 = 0.001 × 2100 × 25 = 52.5 J.\nStep 2: Melt the ice:\nQ2 = 0.001 × 334000 = 334 J.\nStep 3: Heat the water from 0°C to 100°C:\nQ3 = 0.001 × 4200 × 100 = 420 J.\nStep 4: Vaporize the water:\nQ4 = 0.001 × 2256000 = 2256 J.\nStep 5: Heat the steam from 100°C to 125°C:\nQ5 = 0.001 × 2000 × 25 = 50 J.\nStep 6: Add the parts:\nQ = 52.5 + 334 + 420 + 2256 + 50 = 3112.5 J.\nSo the total is 3112.5 J."
   },
   {
     "question": "How much heat must a refrigerator remove from 1.5 kg of water at 20°C to make ice at -120°C?",
@@ -767,7 +767,7 @@
       "2.00 × 10⁶ J"
     ],
     "correct": 1,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 1.00 × 10⁶ J."
+    "explanation": "Step 1: Cool the water from 20°C to 0°C:\nQ1 = 1.5 × 4200 × 20 = 126000 J.\nStep 2: Freeze the water at 0°C:\nQ2 = 1.5 × 3.34 × 10^5 = 501000 J.\nStep 3: Cool the ice from 0°C to -120°C:\nQ3 = 1.5 × 2100 × 120 = 378000 J.\nStep 4: Add the three parts:\nQ = 126000 + 501000 + 378000 = 1.005 × 10^6 J.\nSo the refrigerator must remove about 1.00 × 10^6 J."
   },
   {
     "question": "9750 J of heat is needed to melt 25 g of a substance at its melting point. What is the substance?",
@@ -778,7 +778,7 @@
       "Lead"
     ],
     "correct": 2,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is Aluminium."
+    "explanation": "Step 1: The latent heat of fusion is found from Q = mLf.\nStep 2: Convert 25 g to 0.025 kg.\nStep 3: Lf = 9750 / 0.025 = 390000 J/kg = 390 kJ/kg.\nStep 4: Compare with common values:\naluminium has a latent heat close to this value.\nSo the substance is aluminium."
   },
   {
     "question": "A 50 g metal at 95°C is dropped into 250 g of water at 17°C and the water warms to 19.4°C. The specific heat capacity of the metal is",
@@ -789,7 +789,7 @@
       "663 J/kg·K"
     ],
     "correct": 3,
-    "explanation": "Use Q = mcΔT; the substitution gives 663 J/kg·K."
+    "explanation": "Step 1: Heat gained by the water = heat lost by the metal.\nStep 2: Water warms from 17°C to 19.4°C:\nQ = 0.25 × 4200 × 2.4 = 2520 J.\nStep 3: The metal cools from 95°C to 19.4°C, so ΔT = 75.6°C.\nStep 4: Use Q = mcΔT for the metal:\nc = 2520 / (0.05 × 75.6) ≈ 663 J/kg·K.\nSo the metal’s specific heat capacity is 663 J/kg·K."
   },
   {
     "question": "What mass of steam at 100°C must be added to 1 kg of ice at 0°C to produce water at 20°C?",
@@ -800,7 +800,7 @@
       "261 g"
     ],
     "correct": 0,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 161 g."
+    "explanation": "Step 1: Heat used by the ice is needed from the steam.\nStep 2: The ice must first melt:\nQ1 = 1 × 3.34 × 10^5 J.\nStep 3: Then the melted water must warm from 0°C to 20°C:\nQ2 = 1 × 4200 × 20 = 84000 J.\nStep 4: Total heat needed = 418000 J.\nStep 5: One kilogram of steam at 100°C gives up heat by condensing and cooling to 20°C:\nQsteam = 2.26 × 10^6 + 4200 × 80 = 2.596 × 10^6 J.\nStep 6: Set m × 2.596 × 10^6 = 4.18 × 10^5.\nStep 7: Solve m ≈ 0.161 kg = 161 g.\nSo 161 g of steam is needed."
   },
   {
     "question": "If the heat that raises the temperature of 1 kg of a metal by 10°C raises the temperature of 1 kg of water by 2°C, the metal's specific heat capacity is",
@@ -811,7 +811,7 @@
       "2100 J/kg·K"
     ],
     "correct": 1,
-    "explanation": "Use Q = mcΔT; the substitution gives 840 J/kg·K."
+    "explanation": "Step 1: Heat gained by 1 kg of water for a 2°C rise equals heat gained by the metal for a 10°C rise.\nStep 2: For water: Q = 1 × 4200 × 2 = 8400 J.\nStep 3: For the metal: Q = 1 × c × 10.\nStep 4: Set them equal:\n10c = 8400.\nStep 5: Solve c = 840 J/kg·K.\nSo the metal’s specific heat capacity is 840 J/kg·K."
   },
   {
     "question": "Which best describes heat?",
@@ -822,7 +822,7 @@
       "No particle motion"
     ],
     "correct": 2,
-    "explanation": "Heat is energy transferred because of a temperature difference."
+    "explanation": "Step 1: Heat is energy transferred from one body to another because of a temperature difference.\nStep 2: It is not the same as temperature itself.\nTherefore, the best description is energy transfer due to temperature difference."
   },
   {
     "question": "Temperature is the measure of average",
@@ -833,7 +833,7 @@
       "kinetic energy"
     ],
     "correct": 3,
-    "explanation": "Temperature measures the average kinetic energy of the particles."
+    "explanation": "Step 1: Temperature is related to how fast the particles move on average.\nStep 2: That means it measures average kinetic energy.\nTherefore, the correct answer is kinetic energy."
   },
   {
     "question": "Absolute zero is the temperature at which",
@@ -844,7 +844,7 @@
       "pressure becomes zero"
     ],
     "correct": 0,
-    "explanation": "Absolute zero is the lowest possible temperature, where thermal motion is minimized."
+    "explanation": "Step 1: Absolute zero is the lowest possible temperature.\nStep 2: At that temperature, thermal motion is at its minimum.\nTherefore, it is the temperature at which particles are said to have minimum motion."
   },
   {
     "question": "Latent heat refers to heat absorbed or released during",
@@ -855,7 +855,7 @@
       "increase in mass"
     ],
     "correct": 1,
-    "explanation": "Latent heat is involved in a change of state without a temperature change."
+    "explanation": "Step 1: Latent heat is involved when a substance changes state.\nStep 2: The key point is that the temperature stays constant during the process.\nTherefore, latent heat refers to heat absorbed or released during a change of state at constant temperature."
   },
   {
     "question": "Heat capacity is the heat needed to raise the temperature of a body by",
@@ -866,7 +866,7 @@
       "100 K"
     ],
     "correct": 2,
-    "explanation": "Heat capacity is the heat required to raise the temperature of a body by 1 K."
+    "explanation": "Step 1: Heat capacity is the heat required to raise the temperature of a body by 1 K.\nStep 2: It is for the whole body, not for 1 kg of the material.\nTherefore, the correct answer is 1 K."
   },
   {
     "question": "Calorimetry is mainly used to determine",
@@ -877,7 +877,7 @@
       "specific heat capacity"
     ],
     "correct": 3,
-    "explanation": "Calorimetry is the study of heat exchange, so it is commonly used to determine specific heat capacity."
+    "explanation": "Step 1: Calorimetry studies heat exchange between bodies.\nStep 2: It is commonly used to find unknown specific heat capacities.\nTherefore, the correct answer is specific heat capacity."
   },
   {
     "question": "The triple point is the condition where",
@@ -888,7 +888,7 @@
       "liquid and gas merge at any pressure"
     ],
     "correct": 0,
-    "explanation": "At the triple point, solid, liquid, and gas coexist in equilibrium."
+    "explanation": "Step 1: At the triple point, all three phases exist together.\nStep 2: Solid, liquid, and gas are in equilibrium at the same time.\nTherefore, the condition is that solid, liquid, and gas coexist."
   },
   {
     "question": "Conduction transfers heat mainly by",
@@ -899,7 +899,7 @@
       "sound waves"
     ],
     "correct": 1,
-    "explanation": "Conduction transfers heat by particle collisions, especially in solids."
+    "explanation": "Step 1: Conduction transfers heat through direct particle collisions.\nStep 2: This is strongest in solids, where particles are closely packed.\nTherefore, conduction mainly works by particle collisions."
   },
   {
     "question": "Convection transfers heat mainly by",
@@ -910,7 +910,7 @@
       "chemical reaction"
     ],
     "correct": 2,
-    "explanation": "Convection transfers heat by the bulk motion of a fluid."
+    "explanation": "Step 1: Convection transfers heat by the bulk movement of a fluid.\nStep 2: Warm fluid rises and cooler fluid sinks, creating a current.\nTherefore, convection mainly works by bulk motion of a fluid."
   },
   {
     "question": "Radiation transfers heat through",
@@ -921,7 +921,7 @@
       "electromagnetic waves"
     ],
     "correct": 3,
-    "explanation": "Radiation transfers energy by electromagnetic waves and can travel through a vacuum."
+    "explanation": "Step 1: Radiation transfers energy by electromagnetic waves.\nStep 2: Those waves do not need a material medium.\nTherefore, radiation transfers heat through electromagnetic waves."
   },
   {
     "question": "Linear expansion is expansion in",
@@ -932,7 +932,7 @@
       "all dimensions equally"
     ],
     "correct": 0,
-    "explanation": "Linear expansion is a change in length only."
+    "explanation": "Step 1: Linear expansion means a change in length.\nStep 2: Length is one-dimensional, so the expansion is in one dimension.\nTherefore, linear expansion is expansion in one dimension."
   },
   {
     "question": "Area expansion is expansion in",
@@ -943,7 +943,7 @@
       "no dimensions"
     ],
     "correct": 1,
-    "explanation": "Area expansion is two-dimensional expansion over a surface."
+    "explanation": "Step 1: Area expansion means a change in surface area.\nStep 2: A surface has two dimensions.\nTherefore, area expansion is expansion in two dimensions."
   },
   {
     "question": "Volume expansion is expansion in",
@@ -954,7 +954,7 @@
       "temperature only"
     ],
     "correct": 2,
-    "explanation": "Volume expansion is three-dimensional expansion."
+    "explanation": "Step 1: Volume expansion means a change in volume.\nStep 2: Volume extends through length, width, and height.\nTherefore, volume expansion is expansion in three dimensions."
   },
   {
     "question": "Which of the following is true during a phase change?",
@@ -965,7 +965,7 @@
       "Temperature stays constant"
     ],
     "correct": 3,
-    "explanation": "During a phase change, temperature remains constant while latent heat is absorbed or released."
+    "explanation": "Step 1: During a phase change, the supplied heat goes into changing state, not increasing temperature.\nStep 2: So the temperature stays fixed until the change is complete.\nTherefore, temperature stays constant during a phase change."
   },
   {
     "question": "What is 293 K in Fahrenheit?",
@@ -976,7 +976,7 @@
       "86°F"
     ],
     "correct": 0,
-    "explanation": "293 K is about 20°C, and 20°C converts to 68°F."
+    "explanation": "Step 1: Convert kelvin to Celsius:\n293 K - 273 = 20°C.\nStep 2: Convert 20°C to Fahrenheit:\nF = (9/5) × 20 + 32 = 68°F.\nSo 293 K is 68°F."
   },
   {
     "question": "A metal rod is 2 m long at 20°C. What is its length at 50°C? (α = 1.2 × 10⁻⁵/°C)",
@@ -987,7 +987,7 @@
       "2.072 m"
     ],
     "correct": 1,
-    "explanation": "Use linear expansion, ΔL = LαΔT; the result is 2.00072 m."
+    "explanation": "Step 1: Use linear expansion:\nΔL = LαΔT.\nStep 2: Substitute L = 2 m, α = 1.2 × 10^-5/°C, and ΔT = 50 - 20 = 30°C.\nStep 3: ΔL = 2 × 1.2 × 10^-5 × 30 = 7.2 × 10^-4 m.\nStep 4: New length = 2 + 0.00072 = 2.00072 m.\nSo the rod’s length is 2.00072 m."
   },
   {
     "question": "Thermometer A and B have the same 0° ice point. If their upper points are 130° and 260° respectively, then when A reads 50°, B reads",
@@ -998,7 +998,7 @@
       "130°"
     ],
     "correct": 2,
-    "explanation": "The two scales are proportional because they share the same lower fixed point."
+    "explanation": "Step 1: The two thermometers have the same zero point, so their scales are proportional.\nStep 2: A reads 50 out of 130, so the fraction of full scale is 50/130.\nStep 3: Apply the same fraction to B’s full scale of 260:\nB = (50/130) × 260 = 100.\nSo B reads 100°."
   },
   {
     "question": "If the volume expansion coefficient of a block is 3.3 × 10⁻⁵/°C, its coefficient of linear expansion is",
@@ -1009,7 +1009,7 @@
       "1.1 × 10⁻⁵/°C"
     ],
     "correct": 3,
-    "explanation": "For isotropic solids, γ = 3α, so the linear coefficient is one third of the volumetric coefficient."
+    "explanation": "Step 1: For isotropic solids, the volume expansion coefficient is three times the linear coefficient.\nStep 2: Use β = 3α.\nStep 3: α = β/3 = 3.3 × 10^-5 / 3 = 1.1 × 10^-5/°C.\nSo the linear coefficient is 1.1 × 10^-5/°C."
   },
   {
     "question": "A substance requires 100 J of heat to raise the temperature of a 2 kg sample from 22°C to 24°C. Its specific heat is",
@@ -1020,7 +1020,7 @@
       "100 J/kg°C"
     ],
     "correct": 0,
-    "explanation": "Using c = Q/(mΔT) = 100/(2 × 2) = 25 J/kg°C. So the result is the required value."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Substitute Q = 100 J, m = 2 kg, and ΔT = 24 - 22 = 2°C.\nStep 3: c = 100 / (2 × 2) = 25 J/kg°C.\nSo the specific heat is 25 J/kg°C."
   },
   {
     "question": "A 4 kg bullet with specific heat 128 J/kg°C moves at 200 m/s and stops in sand. If all kinetic energy becomes heat, the temperature rise is",
@@ -1031,7 +1031,7 @@
       "312.5°C"
     ],
     "correct": 1,
-    "explanation": "Use Q = mcΔT; the substitution gives 156.3°C."
+    "explanation": "Step 1: The bullet’s kinetic energy becomes heat when it stops.\nStep 2: KE = 1/2 mv^2 = 1/2 × 4 × 200^2 = 80000 J.\nStep 3: Use Q = mcΔT:\nΔT = 80000 / (4 × 128) = 156.25°C.\nSo the temperature rise is about 156.3°C."
   },
   {
     "question": "A 100 g metal bar is warmed from 20°C to 80°C. How much heat is absorbed? (c = 450 J/kg·K)",
@@ -1042,7 +1042,7 @@
       "27,000 J"
     ],
     "correct": 2,
-    "explanation": "Use Q = mcΔT; the substitution gives 2700 J."
+    "explanation": "Step 1: Use Q = mcΔT.\nStep 2: Convert 100 g to 0.1 kg and use c = 450 J/kg·K.\nStep 3: ΔT = 80 - 20 = 60°C.\nStep 4: Q = 0.1 × 450 × 60 = 2700 J.\nSo 2700 J of heat is absorbed."
   },
   {
     "question": "A metal block is supplied with 13,500 J of heat and its temperature rises from 15°C to 60°C. Its heat capacity is",
@@ -1053,7 +1053,7 @@
       "300 J/K"
     ],
     "correct": 3,
-    "explanation": "Use Q = mcΔT; the substitution gives 300 J/K."
+    "explanation": "Step 1: Heat capacity is the heat required to raise the temperature of a body by 1 K.\nStep 2: Rearrange the relation C = Q / ΔT.\nStep 3: Substitute Q = 13500 J and ΔT = 60 - 15 = 45 K.\nStep 4: C = 13500 / 45 = 300 J/K.\nSo the heat capacity is 300 J/K."
   },
   {
     "question": "What is the rate of heat flow in an aluminium slab of area 40 cm², thickness 30 cm, and temperature difference 195°C if k = 0.5 W/mK?",
@@ -1064,7 +1064,7 @@
       "130 W"
     ],
     "correct": 0,
-    "explanation": "Using Q/t = kAΔT/L = 0.5 × 0.004 × 195 / 0.3 ≈ 1.3 W. So the result is the required value."
+    "explanation": "Step 1: Use Fourier’s law:\nQ/t = kAΔT/L.\nStep 2: Convert area: 40 cm² = 0.004 m².\nStep 3: Substitute k = 0.5 W/mK, A = 0.004 m², ΔT = 195°C, and L = 30 cm = 0.3 m.\nStep 4: Q/t = 0.5 × 0.004 × 195 / 0.3 = 1.3 W.\nSo the heat flow rate is 1.3 W."
   },
   {
     "question": "How much energy is required to change 40 g of ice from -100°C to steam at 110°C?",
@@ -1075,6 +1075,6 @@
       "1.30 × 10⁶ J"
     ],
     "correct": 1,
-    "explanation": "Treat the problem in stages and use Q = mL for phase changes; the result is 1.30 × 10⁵ J."
+    "explanation": "Step 1: Heat the ice from -100°C to 0°C.\nQ1 = 0.04 × 2100 × 100 = 8400 J.\nStep 2: Melt the ice at 0°C.\nQ2 = 0.04 × 3.34 × 10^5 = 13360 J.\nStep 3: Heat the water from 0°C to 100°C.\nQ3 = 0.04 × 4200 × 100 = 16800 J.\nStep 4: Vaporize the water at 100°C.\nQ4 = 0.04 × 2.26 × 10^6 = 90400 J.\nStep 5: Heat the steam from 100°C to 110°C.\nQ5 = 0.04 × 2000 × 10 = 800 J.\nStep 6: Add the parts:\nQ = 8400 + 13360 + 16800 + 90400 + 800 = 129760 J ≈ 1.30 × 10^5 J.\nSo the required energy is about 1.30 × 10^5 J."
   }
 ]
