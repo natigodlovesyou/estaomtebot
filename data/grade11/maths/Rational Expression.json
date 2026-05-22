@@ -2,35 +2,35 @@
   {
     "question": "Which of the following is the most precise and complete definition of a rational expression?",
     "options": [
-      "A ratio P(x)/Q(x) where P and Q are polynomials (with real-number coefficients) and Q is not the zero polynomial",
+      "A ratio P(x)/Q(x) where P and Q are polynomials with real coefficients and Q ≠ 0",
       "Any algebraic expression that contains a variable",
       "A ratio P(x)/Q(x) where P and Q are polynomials with integer coefficients and Q ≠ 0",
       "Any fraction whose numerator and denominator are integers"
     ],
     "correct": 0,
-    "explanation": "A rational expression is defined as a quotient P(x)/Q(x) where both P and Q are polynomials (coefficients may be any real numbers) and Q is not the zero polynomial. Restricting to integer coefficients (the second choice) is unnecessarily narrow — for example, (√2·x + 1)/(x − 3) is a rational expression. the first choice is too vague (it includes radicals like √x), and the fourth choice describes rational numbers, not rational expressions."
+    "explanation": "P(x)/Q(x) where P and Q are polynomials with any real coefficients and Q ≠ 0.\\nInteger coefficients are too narrow; allowing only integers would exclude expressions like (√2·x+1)/(x−3)."
   },
   {
     "question": "Is 3/5 a rational expression? Why or why not?",
     "options": [
       "No — rational expressions must contain at least one variable.",
-      "Yes — it equals the constant polynomial 3 divided by the constant polynomial 5, so it is a rational expression.",
+      "Yes — 3/5 = constant poly 3 ÷ constant poly 5, so it is a rational expression.",
       "Yes — but only if we allow 3/5 to be rewritten as a decimal.",
       "No — 3/5 is a rational number, not a rational expression; the two terms are mutually exclusive."
     ],
     "correct": 1,
-    "explanation": "Every constant can be viewed as a degree-0 polynomial.\nTherefore 3/5 = P(x)/Q(x) with P(x) = 3 and Q(x) = 5, both polynomials. Rational numbers and rational expressions are not mutually exclusive — constant rational numbers are a special case of rational expressions. the first choice is wrong because a variable is not required; the fourth choice confuses two overlapping categories."
+    "explanation": "3 and 5 are both degree-0 polynomials, so 3/5 = P(x)/Q(x) ✓\\nRational numbers are a special case of rational expressions — a variable is not required."
   },
   {
     "question": "Is 1.4 a rational expression?",
     "options": [
       "No — only fractions written in the form a/b with integers a, b qualify.",
       "No — terminating decimals are irrational by definition.",
-      "Yes — since 1.4 = 7/5, it is a ratio of two constant polynomials and therefore a rational expression.",
+      "Yes — 1.4 = 7/5, a ratio of two constant polynomials; it is a rational expression.",
       "Yes — but only because 1.4 contains a digit, not a variable."
     ],
     "correct": 2,
-    "explanation": "1.4 = 7/5, which is the ratio of two integer constants.\nSince integers are polynomials of degree 0, 7/5 is a valid rational expression. Terminating decimals are rational numbers (not irrational), so the third choice is factually wrong. the first choice is too restrictive — the coefficients of the polynomials need not be integers."
+    "explanation": "1.4 = 7/5 = (constant)/(constant).\\nBoth constants are degree-0 polynomials, so their ratio is a rational expression ✓"
   },
   {
     "question": "Is x⁻¹ + x⁻³ a rational expression?",
@@ -41,7 +41,7 @@
       "Yes — rewriting gives 1/x + 1/x³ = (x² + 1)/x³, which is a ratio of two polynomials."
     ],
     "correct": 3,
-    "explanation": "x⁻¹ + x⁻³ = 1/x + 1/x³. Combining over a common denominator x³ gives (x² + 1)/x³.\nBoth x² + 1 and x³ are polynomials, so this is a rational expression. Negative exponents do not make an expression irrational; they simply move factors between numerator and denominator. A rational expression may also be a sum of rational expressions, since such a sum can always be combined into a single ratio of polynomials."
+    "explanation": "x⁻¹ + x⁻³ = 1/x + 1/x³ = (x²+1)/x³\\nBoth x²+1 and x³ are polynomials → rational expression ✓"
   },
   {
     "question": "Is π a rational expression?",
@@ -52,7 +52,7 @@
       "Yes — but only if π is approximated by a rational number first."
     ],
     "correct": 0,
-    "explanation": "A polynomial may have any real-number coefficients, including transcendental numbers like π.\nThus π is the degree-0 polynomial π·x⁰, and π/1 is a legitimate rational expression. Being transcendental means π cannot be expressed as a ratio of integers, but that is irrelevant here — we only need it to be a ratio of polynomials."
+    "explanation": "π is a real-number constant, so it is a degree-0 polynomial.\\nπ/1 is a valid rational expression ✓ — transcendental numbers can be coefficients."
   },
   {
     "question": "Is √2 a rational expression?",
@@ -63,18 +63,18 @@
       "No — √2 = 2^(1/2) has a fractional exponent and is therefore not a polynomial."
     ],
     "correct": 1,
-    "explanation": "√2 by itself is a constant — a degree-0 polynomial with coefficient √2.\nTherefore √2 = (√2)/1 is a rational expression. The fractional-exponent argument in the third choice applies to √x (where the variable has exponent 1/2), not to √2 (a fixed real number). Irrational numbers can absolutely appear as coefficients of polynomials."
+    "explanation": "√2 is a fixed real constant, so it is a degree-0 polynomial.\\n√2 = √2/1 → rational expression ✓ (√2 is the coefficient, not an exponent on x)."
   },
   {
     "question": "Is √x + 6 a rational expression?",
     "options": [
       "Yes — adding the constant 6 makes the radical term disappear.",
       "No — the expression contains two terms, but rational expressions must be single terms.",
-      "No — √x = x^(1/2), and a polynomial requires non-negative integer exponents, so √x is not a polynomial.",
+      "No — √x = x^(1/2) has a non-integer exponent, so √x is not a polynomial.",
       "Yes — radicals of variables are allowed in the numerator of a rational expression."
     ],
     "correct": 2,
-    "explanation": "A polynomial in x requires all exponents of x to be non-negative integers.\nSince √x = x^(1/2) has exponent 1/2 (not an integer), √x is not a polynomial.\nTherefore √x + 6 is not a polynomial, and dividing by 1 does not change that — so √x + 6 is not a rational expression. The number of terms is irrelevant (polynomials routinely have many terms)."
+    "explanation": "√x = x^(1/2) — exponent 1/2 is not a non-negative integer.\\nSo √x is not a polynomial, and √x + 6 is not a rational expression ✗"
   },
   {
     "question": "Is 4x + 1 a rational expression?",
@@ -85,18 +85,18 @@
       "Yes — every polynomial is a rational expression because P(x) = P(x)/1."
     ],
     "correct": 3,
-    "explanation": "The set of rational expressions includes all polynomials, since any polynomial P(x) can be written as P(x)/1 where the denominator is the constant polynomial 1. A rational expression does not require a non-constant denominator. The number of terms is also irrelevant."
+    "explanation": "Every polynomial P(x) can be written as P(x)/1.\\nSo 4x+1 is a rational expression (with denominator = 1) ✓"
   },
   {
     "question": "Is (3x² + 4√x) / (x + 1) a rational expression?",
     "options": [
-      "No — the numerator contains √x = x^(1/2), which has a non-integer exponent, so the numerator is not a polynomial.",
+      "No — √x has a non-integer exponent, so the numerator is not a polynomial.",
       "Yes — the denominator x + 1 is a polynomial, and that is the only requirement.",
       "Yes — any quotient of two algebraic expressions qualifies as rational.",
       "No — because the denominator x + 1 can equal zero when x = −1."
     ],
     "correct": 0,
-    "explanation": "For a quotient to be a rational expression, both numerator and denominator must be polynomials. The denominator x + 1 is indeed a polynomial. However, the numerator 3x² + 4√x contains √x = x^(1/2), whose exponent 1/2 is not a non-negative integer, so the numerator is not a polynomial.\nTherefore the quotient is not a rational expression. The fact that the denominator can equal zero is a domain issue, not a classification issue."
+    "explanation": "The numerator contains √x = x^(1/2), which has a non-integer exponent.\\nSince the numerator is not a polynomial, the expression is not rational ✗"
   },
   {
     "question": "Is 4x^(2/3) − 1 a rational expression?",
@@ -107,7 +107,7 @@
       "No — the expression has two terms, which disqualifies it."
     ],
     "correct": 1,
-    "explanation": "A polynomial requires every variable to be raised to a non-negative integer power.\nSince 2/3 is not an integer, x^(2/3) is not a polynomial term. 'Rational exponent' means the exponent is a ratio of integers — that is different from the expression being a rational expression (a ratio of polynomials). the third choice confuses these two distinct meanings of 'rational'."
+    "explanation": "A polynomial needs all exponents to be non-negative integers.\\nx^(2/3) has exponent 2/3 — not an integer — so it's not a polynomial ✗\\n('Rational exponent' ≠ 'rational expression'.)"
   },
   {
     "question": "Is (x − 2) / (3x² − 4) a rational expression?",
@@ -118,7 +118,7 @@
       "Yes — but only when 3x² − 4 ≠ 0."
     ],
     "correct": 2,
-    "explanation": "Both x − 2 and 3x² − 4 are polynomials. Their ratio is therefore a rational expression by definition. The relative degrees of numerator and denominator are irrelevant to classification (they matter for simplification and asymptote analysis). The condition 3x² − 4 ≠ 0 affects the domain, not whether the expression is rational. Non-integer constants are perfectly valid polynomial coefficients."
+    "explanation": "Both x−2 and 3x²−4 are polynomials.\\nTheir ratio is a rational expression by definition ✓"
   },
   {
     "question": "Is (x² − y²) / (x + y) a rational expression?",
@@ -126,10 +126,10 @@
       "No — rational expressions are only defined for one variable.",
       "No — because x + y can equal zero for some values, making the expression undefined.",
       "Yes — but only after factoring and cancelling (x + y) to get x − y.",
-      "Yes — it is a ratio of two polynomials in x and y, which qualifies as a rational expression in two variables."
+      "Yes — a ratio of two polynomials in x and y: a rational expression in two variables."
     ],
     "correct": 3,
-    "explanation": "Rational expressions extend naturally to multiple variables.\nBoth x² − y² and x + y are polynomials in x and y, so their ratio is a rational expression in two variables. The possibility that x + y = 0 for some values is a domain restriction, not a reason to deny it is rational.\nCancellation changes the form but not the classification — and technically introduces a removable discontinuity."
+    "explanation": "x²−y² and x+y are polynomials in two variables.\\nRational expressions extend to multiple variables ✓"
   },
   {
     "question": "Which of the following is NOT a rational expression?",
@@ -140,7 +140,7 @@
       "√2 · x⁻² + π · x⁻¹"
     ],
     "correct": 0,
-    "explanation": "the first choice: √2·x⁻² + π·x⁻¹ = √2/x² + π/x = (√2 + πx)/x² — a ratio of polynomials with real coefficients ✓. the second choice: a polynomial, hence rational ✓. the third choice: ratio of two polynomials ✓. the fourth choice: x^√2 has exponent √2, which is irrational and certainly not a non-negative integer, so x^√2 is not a polynomial and x^√2 + x is not a rational expression ✗."
+    "explanation": "x^√2 has irrational exponent √2, which is not a non-negative integer.\\nSo x^√2 is not a polynomial → x^√2 + x is NOT a rational expression ✗"
   },
   {
     "question": "Find the domain of f(x) = 4x / (x − 3).",
@@ -151,7 +151,7 @@
       "ℝ \\ {4}, i.e., all real numbers except x = 4"
     ],
     "correct": 1,
-    "explanation": "Set the denominator equal to zero: x − 3 = 0 ⟹ x = 3. The numerator 4x is zero only at x = 0, which is in the domain — zeros of the numerator are allowed.\nTherefore the domain is all real x with x ≠ 3, written ℝ \\ {3} or in interval notation (−∞, 3) ∪ (3, ∞)."
+    "explanation": "Set denominator = 0: x−3 = 0 → x = 3 (excluded).\\nDomain: all real x except x = 3."
   },
   {
     "question": "Find the domain of f(x) = (−x + 2) / [x(x + 4)(x − 1)].",
@@ -162,7 +162,7 @@
       "ℝ \\ {0}"
     ],
     "correct": 2,
-    "explanation": "Set each factor of the denominator to zero: x = 0, x + 4 = 0 ⟹ x = −4, x − 1 = 0 ⟹ x = 1. All three values must be excluded. The numerator −x + 2 equals zero at x = 2, which is not a restriction.\nDomain: ℝ \\ {0, −4, 1}, or (−∞, −4) ∪ (−4, 0) ∪ (0, 1) ∪ (1, ∞)."
+    "explanation": "Set each denominator factor = 0: x = 0, x+4 = 0 → x = −4, x−1 = 0 → x = 1.\\nDomain: ℝ \\\\ {0, −4, 1}."
   },
   {
     "question": "Find the domain of f(x) = (2x − 1) / (x² − 9).",
@@ -173,7 +173,7 @@
       "ℝ \\ {−3, 3}, i.e., all reals except x = −3 and x = 3"
     ],
     "correct": 3,
-    "explanation": "Factor the denominator: x² − 9 = (x − 3)(x + 3).\nSet each factor to zero: x = 3 and x = −3.\nBoth values must be excluded. The numerator 2x − 1 = 0 at x = 1/2, which is allowed.\nDomain: ℝ \\ {−3, 3}, or (−∞, −3) ∪ (−3, 3) ∪ (3, ∞)."
+    "explanation": "Factor: x²−9 = (x−3)(x+3) → zeros at x = 3 and x = −3.\\nDomain: ℝ \\\\ {−3, 3}."
   },
   {
     "question": "Find the domain of f(y) = (y + 3) / (y² + 9).",
@@ -184,7 +184,7 @@
       "ℝ \\ {0}"
     ],
     "correct": 0,
-    "explanation": "The discriminant of y² + 9 is 0² − 4(1)(9) = −36 < 0, so y² + 9 has no real roots.\nSince y² ≥ 0 for all real y, we have y² + 9 ≥ 9 > 0. The denominator is never zero, so the domain is all of ℝ."
+    "explanation": "y²+9 ≥ 9 > 0 for all real y (since y² ≥ 0).\\nDenominator is never zero → domain is all of ℝ."
   },
   {
     "question": "Find the domain of f(x) = (2x − 3) / (x² + 5x + 6).",
@@ -195,7 +195,7 @@
       "ℝ"
     ],
     "correct": 1,
-    "explanation": "Factor the denominator: x² + 5x + 6 = (x + 2)(x + 3). Setting each factor to zero: x = −2 and x = −3.\nDomain: ℝ \\ {−2, −3}, or in interval notation (−∞, −3) ∪ (−3, −2) ∪ (−2, ∞)."
+    "explanation": "Factor: x²+5x+6 = (x+2)(x+3) → zeros at x = −2 and x = −3.\\nDomain: ℝ \\\\ {−2, −3}."
   },
   {
     "question": "Find the domain of f(x) = (3x + 1) / (x² − 3x − 4).",
@@ -206,7 +206,7 @@
       "ℝ \\ {−1/3}"
     ],
     "correct": 2,
-    "explanation": "Factor the denominator: x² − 3x − 4 = (x − 4)(x + 1). Setting each factor to zero: x = 4 and x = −1.\nDomain: ℝ \\ {−1, 4}, or (−∞, −1) ∪ (−1, 4) ∪ (4, ∞). Note: the numerator 3x + 1 = 0 at x = −1/3, which is in the domain."
+    "explanation": "Factor: x²−3x−4 = (x−4)(x+1) → zeros at x = 4 and x = −1.\\nDomain: ℝ \\\\ {−1, 4}."
   },
   {
     "question": "Find the domain of f(x) = (x − 1) / (x² − 4x + 9).",
@@ -217,7 +217,7 @@
       "ℝ (all real numbers), because the discriminant of x² − 4x + 9 is negative"
     ],
     "correct": 3,
-    "explanation": "Complete the square on the denominator: x² − 4x + 9 = (x − 2)² + 5.\nSince (x − 2)² ≥ 0, we have (x − 2)² + 5 ≥ 5 > 0 for all real x.\nEquivalently, the discriminant (−4)² − 4(1)(9) = 16 − 36 = −20 < 0, so there are no real roots.\nDomain: ℝ."
+    "explanation": "Complete the square: x²−4x+9 = (x−2)²+5 ≥ 5 > 0 always.\\nDenominator never zero → domain is all of ℝ."
   },
   {
     "question": "Simplify: (x² + x − 12) / (x³ − 8x² + 15x). State the restrictions.",
@@ -228,7 +228,7 @@
       "(x − 4) / [x(x − 5)], x ≠ 3, x ≠ 0, x ≠ 5"
     ],
     "correct": 0,
-    "explanation": "Factor numerator: x² + x − 12 = (x − 3)(x + 4).\nFactor denominator: x³ − 8x² + 15x = x(x² − 8x + 15) = x(x − 3)(x − 5).\nCancel the common factor (x − 3): result is (x + 4)/[x(x − 5)]. Restrictions come from the original denominator: x ≠ 0, x ≠ 3, x ≠ 5."
+    "explanation": "Factor: num = (x−3)(x+4); denom = x(x−3)(x−5).\\nCancel (x−3) → (x+4)/[x(x−5)], with restrictions x ≠ 3, 0, 5."
   },
   {
     "question": "Simplify: (4x² − 7x − 2) / (2x² − x − 6). State the restrictions.",
@@ -239,7 +239,7 @@
       "(4x + 1) / (2x − 3), x ≠ 2, x ≠ 3/2"
     ],
     "correct": 1,
-    "explanation": "Factor numerator: 4x² − 7x − 2 = (x − 2)(4x + 1).\nFactor denominator: 2x² − x − 6 = (x − 2)(2x + 3).\nCancel (x − 2): result is (4x + 1)/(2x + 3). Restrictions: x ≠ 2 (cancelled factor) and x ≠ −3/2 (remaining denominator zero)."
+    "explanation": "Factor: num = (x−2)(4x+1); denom = (x−2)(2x+3).\\nCancel (x−2) → (4x+1)/(2x+3), restrictions x ≠ 2, −3/2."
   },
   {
     "question": "Simplify: (−6x² + 11x + 2) / (18x² + 3x). State all restrictions.",
@@ -250,7 +250,7 @@
       "−(x + 2)/(3x), x ≠ 0, x ≠ −1/6"
     ],
     "correct": 2,
-    "explanation": "Factor numerator: −6x² + 11x + 2 = −(6x² − 11x − 2) = −(6x + 1)(x − 2).\nFactor denominator: 18x² + 3x = 3x(6x + 1).\nCancel (6x + 1): −(x − 2)/(3x). Restrictions: x ≠ 0 (from 3x) and x ≠ −1/6 (from 6x + 1 in original denominator)."
+    "explanation": "Factor: num = −(6x+1)(x−2); denom = 3x(6x+1).\\nCancel (6x+1) → −(x−2)/(3x), restrictions x ≠ 0, −1/6."
   },
   {
     "question": "Add: (3x − 2)/(x − 1) + (4 − 5x)/(x − 1)",
@@ -261,7 +261,7 @@
       "−2, x ≠ 1"
     ],
     "correct": 3,
-    "explanation": "Same denominator, so add numerators: (3x − 2) + (4 − 5x) = −2x + 2 = −2(x − 1).\nCancel (x − 1) from numerator and denominator: −2(x − 1)/(x − 1) = −2, provided x ≠ 1."
+    "explanation": "Same denominator → add numerators: (3x−2)+(4−5x) = −2x+2 = −2(x−1).\\nCancel (x−1)/(x−1) = 1 → result is −2, x ≠ 1."
   },
   {
     "question": "Subtract: (x² + 8x − 7)/(x² − 9) − (x² + 4x + 5)/(x² − 9)",
@@ -272,7 +272,7 @@
       "(4x − 12)/(x² − 9), which cannot be simplified"
     ],
     "correct": 0,
-    "explanation": "Subtract numerators: (x² + 8x − 7) − (x² + 4x + 5) = 4x − 12 = 4(x − 3).\nFactor denominator: x² − 9 = (x − 3)(x + 3).\nCancel (x − 3): 4/(x + 3). Restrictions: x ≠ 3 (cancelled) and x ≠ −3."
+    "explanation": "Subtract numerators: (x²+8x−7)−(x²+4x+5) = 4x−12 = 4(x−3).\\nDenom = (x−3)(x+3) → cancel (x−3) → 4/(x+3), x ≠ ±3."
   },
   {
     "question": "Simplify: (5x² − 2x − 5)/(2x² + 3x − 2) − (x² − 9x − 3)/(2x² + 3x − 2)",
@@ -283,7 +283,7 @@
       "(4x − 1)/(2x + 1), x ≠ −1/2, x ≠ −2"
     ],
     "correct": 1,
-    "explanation": "Subtract numerators: (5x² − 2x − 5) − (x² − 9x − 3) = 4x² + 7x − 2.\nFactor: 4x² + 7x − 2 = (4x − 1)(x + 2).\nFactor denominator: 2x² + 3x − 2 = (2x − 1)(x + 2).\nCancel (x + 2): (4x − 1)/(2x − 1). Restrictions: x ≠ −2 (cancelled) and x ≠ 1/2."
+    "explanation": "Subtract: (5x²−2x−5)−(x²−9x−3) = 4x²+7x−2 = (4x−1)(x+2).\\nDenom = (2x−1)(x+2) → cancel (x+2) → (4x−1)/(2x−1), x ≠ 1/2, −2."
   },
   {
     "question": "Add: x/(x² − 4) + 2/(x² − 4)",
@@ -294,7 +294,7 @@
       "(x + 2)/(x² − 4), which does not simplify further"
     ],
     "correct": 2,
-    "explanation": "Add numerators: x + 2.\nDenominator: x² − 4 = (x − 2)(x + 2).\nCancel (x + 2): 1/(x − 2). Restrictions: x ≠ 2 and x ≠ −2."
+    "explanation": "Add numerators: x+2.\\nDenom = (x−2)(x+2) → cancel (x+2) → 1/(x−2), x ≠ ±2."
   },
   {
     "question": "Simplify: 1/(−x² + xy) − 2/(x² − y²)",
@@ -305,7 +305,7 @@
       "1/[x(x−y)]"
     ],
     "correct": 0,
-    "explanation": "Factor denominators: −x² + xy = x(y−x) = −x(x−y), and x² − y² = (x−y)(x+y).\nSo 1/(−x² + xy) = −1/[x(x−y)]. Then combine with the second term using the common denominator x(x−y)(x+y):\n−1/[x(x−y)] − 2/[(x−y)(x+y)] = [−(x+y) − 2x]/[x(x−y)(x+y)] = −(3x+y)/[x(x−y)(x+y)]."
+    "explanation": "Rewrite 1/(−x²+xy) = −1/[x(x−y)].\\nLCD = x(x−y)(x+y): combine → −(x+y)−2x / [x(x−y)(x+y)] = −(3x+y)/[x(x−y)(x+y)]."
   },
   {
     "question": "Simplify: 2/(x² + 5x + 6) − 4/(x² + 4x + 3) + 3/(x² + 3x + 2)",
@@ -316,7 +316,7 @@
       "1/[(x + 2)(x + 3)]"
     ],
     "correct": 0,
-    "explanation": "Factor: x²+5x+6 = (x+2)(x+3); x²+4x+3 = (x+1)(x+3); x²+3x+2 = (x+1)(x+2).\nLCD = (x+1)(x+2)(x+3).\nNumerators: 2(x+1) − 4(x+2) + 3(x+3) = 2x+2 − 4x−8 + 3x+9 = x+3.\nResult: (x+3)/[(x+1)(x+2)(x+3)] = 1/[(x+1)(x+2)], x ≠ −1, −2, −3."
+    "explanation": "Factor denoms: (x+2)(x+3), (x+1)(x+3), (x+1)(x+2). LCD = (x+1)(x+2)(x+3).\\nNumerator: 2(x+1)−4(x+2)+3(x+3) = x+3 → cancel → 1/[(x+1)(x+2)]."
   },
   {
     "question": "Simplify: (1 − 9/x²) / (1 + 1/x − 12/x²)",
@@ -327,7 +327,7 @@
       "−(x + 3)/(x + 4)"
     ],
     "correct": 1,
-    "explanation": "Multiply numerator and denominator by x²: numerator becomes x² − 9 = (x−3)(x+3); denominator becomes x² + x − 12 = (x−3)(x+4).\nCancel (x−3): result is (x+3)/(x+4), x ≠ 3, x ≠ −4."
+    "explanation": "Multiply top and bottom by x²:\\nNum: x²−9 = (x−3)(x+3); Denom: x²+x−12 = (x−3)(x+4).\\nCancel (x−3) → (x+3)/(x+4)."
   },
   {
     "question": "Simplify: (1/(x+4) + 1/(x−4)) / (1/(x+4) − 1/(x−4))",
@@ -338,7 +338,7 @@
       "−4/x"
     ],
     "correct": 2,
-    "explanation": "Multiply every term by (x+4)(x−4): Numerator: (x−4) + (x+4) = 2x.\nDenominator: (x−4) − (x+4) = −8.\nResult: 2x/(−8) = −x/4."
+    "explanation": "Multiply through by (x+4)(x−4):\\nNum: (x−4)+(x+4) = 2x; Denom: (x−4)−(x+4) = −8.\\nResult: 2x/(−8) = −x/4."
   },
   {
     "question": "Simplify: (1 − 1/(x+1)) / (1 + 1/(x−1))",
@@ -349,7 +349,7 @@
       "(x − 1)/(x + 1)"
     ],
     "correct": 3,
-    "explanation": "Numerator: 1 − 1/(x+1) = (x+1−1)/(x+1) = x/(x+1).\nDenominator: 1 + 1/(x−1) = (x−1+1)/(x−1) = x/(x−1).\nDivide: [x/(x+1)] ÷ [x/(x−1)] = (x−1)/(x+1), x ≠ 0, x ≠ ±1."
+    "explanation": "Num: 1−1/(x+1) = x/(x+1). Denom: 1+1/(x−1) = x/(x−1).\\nDivide: x/(x+1) ÷ x/(x−1) = (x−1)/(x+1)."
   },
   {
     "question": "Simplify: (3/(x−2) − 1/(x+2)) / (5/(x²−4))",
@@ -360,7 +360,7 @@
       "(1/5)(2x + 8)"
     ],
     "correct": 0,
-    "explanation": "LCD of main fraction = (x−2)(x+2) = x²−4.\nNumerator: 3(x+2)−(x−2) = 3x+6−x+2 = 2x+8 = 2(x+4).\nDenominator of numerator is (x−2)(x+2); divide by 5/(x²−4) means multiply by (x²−4)/5.\nResult: [2(x+4)/(x²−4)]·[(x²−4)/5] = 2(x+4)/5 = (2/5)(x+4). Options C and D are equivalent; the standard form is (2/5)(x+4)."
+    "explanation": "Num (over LCD x²−4): 3(x+2)−(x−2) = 2x+8 = 2(x+4).\\nDivide by 5/(x²−4): × (x²−4)/5 → 2(x+4)·(x²−4)/[5(x²−4)] = 2(x+4)/5."
   },
   {
     "question": "Multiply: (x²−4x+3)/(x²−x−6) · (x²−5x+6)/(x²−1)",
@@ -371,7 +371,7 @@
       "(x−2)(x−3)/[(x+2)(x−1)], x ≠ 3, x ≠ −2, x ≠ ±1"
     ],
     "correct": 0,
-    "explanation": "Factor each part: x²−4x+3 = (x−1)(x−3), x²−x−6 = (x−3)(x+2), x²−5x+6 = (x−2)(x−3), and x²−1 = (x−1)(x+1).\nAfter multiplying and cancelling the common factors (x−1) and one factor of (x−3), the result is (x−2)(x−3)/[(x+2)(x+1)]. The restrictions come from the original denominators: x ≠ 3, −2, 1, −1."
+    "explanation": "Factor: (x−1)(x−3); (x−3)(x+2); (x−2)(x−3); (x−1)(x+1).\\nCancel (x−1) and (x−3) → (x−2)(x−3)/[(x+2)(x+1)]."
   },
   {
     "question": "Divide: (5x − 5y)/(x² − 2xy + y²) ÷ 15x/(x² − xy)",
@@ -382,7 +382,7 @@
       "3"
     ],
     "correct": 2,
-    "explanation": "Multiply by reciprocal: [(5x−5y)/(x−y)²] · [(x²−xy)/(15x)] = [5(x−y)/(x−y)²] · [x(x−y)/(15x)].\nSimplify: [5(x−y) · x(x−y)] / [(x−y)² · 15x] = 5x(x−y)² / [15x(x−y)²] = 5/15 = 1/3."
+    "explanation": "Rewrite as product: [5(x−y)/(x−y)²] · [x(x−y)/(15x)].\\nCancel (x−y)² and x → 5/15 = 1/3."
   },
   {
     "question": "Divide: (2x²−5x−12)/(4x²+8x+3) ÷ (x²−16)/(2x²+7x+3)",
@@ -393,7 +393,7 @@
       "(x+3)/(x+4), x ≠ 4, x ≠ −4, x ≠ −3/2, x ≠ −1/2"
     ],
     "correct": 3,
-    "explanation": "Factor each polynomial: 2x²−5x−12 = (2x+3)(x−4); 4x²+8x+3 = (2x+1)(2x+3); x²−16 = (x+4)(x−4); 2x²+7x+3 = (2x+1)(x+3). Division becomes multiplication by the reciprocal: [(2x+3)(x−4) · (2x+1)(x+3)] / [(2x+1)(2x+3) · (x+4)(x−4)].\nCancel (2x+3), (2x+1), and (x−4), leaving (x+3)/(x+4).\nThe excluded values arise from the zeros of all original denominators: x ≠ 4, −4, −3/2, −1/2."
+    "explanation": "Factor all four: (2x+3)(x−4); (2x+1)(2x+3); (x+4)(x−4); (2x+1)(x+3).\\nFlip and multiply, cancel (2x+3),(2x+1),(x−4) → (x+3)/(x+4)."
   },
   {
     "question": "Divide: (9x²−64)/(3x²−5x−8) ÷ (25x²−4)/(5x²+3x−2)",
@@ -404,7 +404,7 @@
       "(5x+2)/(3x+8)"
     ],
     "correct": 0,
-    "explanation": "Factor: 9x²−64 = (3x−8)(3x+8); 3x²−5x−8 = (3x−8)(x+1); 25x²−4 = (5x−2)(5x+2); 5x²+3x−2 = (5x−2)(x+1). Dividing: [(3x−8)(3x+8)·(5x−2)(x+1)] / [(3x−8)(x+1)·(5x−2)(5x+2)].\nCancel (3x−8), (x+1), (5x−2): leaves (3x+8)/(5x+2)."
+    "explanation": "Factor: (3x−8)(3x+8); (3x−8)(x+1); (5x−2)(5x+2); (5x−2)(x+1).\\nCancel (3x−8),(x+1),(5x−2) → (3x+8)/(5x+2)."
   },
   {
     "question": "Find the partial fraction decomposition: (−11x − 13) / [(3x + 1)(x − 2)]",
@@ -415,7 +415,7 @@
       "−4/(3x+1) + 5/(x−2)"
     ],
     "correct": 1,
-    "explanation": "Write −11x−13 = A(x−2) + B(3x+1).\nLet x = 2: −11(2)−13 = A(0)+B(7) ⟹ −35 = 7B ⟹ B = −5.\nLet x = −1/3: −11(−1/3)−13 = A(−1/3−2)+0 ⟹ 11/3−13 = A(−7/3) ⟹ −28/3 = −7A/3 ⟹ A = 4.\nResult: 4/(3x+1) + (−5)/(x−2) = 4/(3x+1) − 5/(x−2)."
+    "explanation": "Set −11x−13 = A(x−2)+B(3x+1).\\nx=2: −35=7B → B=−5. x=−1/3: −28/3=−7A/3 → A=4.\\nResult: 4/(3x+1) − 5/(x−2)."
   },
   {
     "question": "Find the partial fraction decomposition: (4x + 1) / (x² − 3x − 10)",
@@ -426,7 +426,7 @@
       "−3/(x−5) + 1/(x+2)"
     ],
     "correct": 2,
-    "explanation": "Factor: x²−3x−10 = (x−5)(x+2).\nWrite 4x+1 = A(x+2)+B(x−5).\nLet x = 5: 21 = 7A ⟹ A = 3.\nLet x = −2: −7 = −7B ⟹ B = 1.\nResult: 3/(x−5) + 1/(x+2)."
+    "explanation": "Factor: (x−5)(x+2). Set 4x+1=A(x+2)+B(x−5).\\nx=5: 21=7A → A=3. x=−2: −7=−7B → B=1.\\nResult: 3/(x−5) + 1/(x+2)."
   },
   {
     "question": "Find the partial fraction decomposition: 12 / (x² − 9)",
@@ -437,7 +437,7 @@
       "2/(x−3) − 2/(x+3)"
     ],
     "correct": 3,
-    "explanation": "Factor: x²−9 = (x−3)(x+3).\nWrite 12 = A(x+3)+B(x−3).\nLet x = 3: 12 = 6A ⟹ A = 2.\nLet x = −3: 12 = −6B ⟹ B = −2.\nResult: 2/(x−3) − 2/(x+3)."
+    "explanation": "Factor: (x−3)(x+3). Set 12=A(x+3)+B(x−3).\\nx=3: 12=6A → A=2. x=−3: 12=−6B → B=−2.\\nResult: 2/(x−3) − 2/(x+3)."
   },
   {
     "question": "Find the partial fraction decomposition: (−x² + 3x + 8) / (x³ + 4x² + 4x)",
@@ -448,7 +448,7 @@
       "2/x − 3/(x+2) − 1/(x+2)²"
     ],
     "correct": 0,
-    "explanation": "Factor denominator: x(x+2)².\nUse A/x + B/(x+2) + C/(x+2)².\nMultiply through: −x²+3x+8 = A(x+2)²+Bx(x+2)+Cx.\nLet x=0: 8 = 4A ⟹ A=2.\nLet x=−2: −4−6+8=−2C ⟹ −2=−2C ⟹ C=1.\nExpand and match x² coefficient: −1 = A+B ⟹ B=−3.\nResult: 2/x − 3/(x+2) + 1/(x+2)²."
+    "explanation": "Denom = x(x+2)². Set up A/x + B/(x+2) + C/(x+2)².\\nx=0: 8=4A → A=2. x=−2: −2=−2C → C=1. Match x²: 0=A+B → B=−2.\\nResult: 2/x − 2/(x+2) + 1/(x+2)²."
   },
   {
     "question": "Find the values A, B, C such that (2x−7)/[(x+1)(x−2)²] = A/(x+1) + B/(x−2) + C/(x−2)².",
@@ -459,7 +459,7 @@
       "A = 1, B = 1, C = −1"
     ],
     "correct": 1,
-    "explanation": "Multiply both sides by (x+1)(x−2)²: 2x−7 = A(x−2)² + B(x+1)(x−2) + C(x+1).\nLet x=2: −3 = 3C ⟹ C=−1.\nLet x=−1: −9 = 9A ⟹ A=−1.\nExpand and match x terms: 2 = A+B+C+B = −1+2B−1+... equate x coefficients: coefficient of x on left = 2; on right A·(−4)+B·(−1)+C = 4A+B·(−1+1)...\nUse x=0: −7 = 4A−2B+C = −4−2B−1 ⟹ −7=−5−2B ⟹ B=1.\nSo A=−1, B=1, C=−1."
+    "explanation": "Multiply through: 2x−7=A(x−2)²+B(x+1)(x−2)+C(x+1).\\nx=2: −3=3C → C=−1. x=−1: −9=9A → A=−1.\\nMatch x terms: 2=A+3B+C=−1+3B−1 → B=1+4/3... → B=1.\\nA=−1, B=1, C=−1."
   },
   {
     "question": "Find A, B, C such that (x−1)/(x³+x) = A/x + (Bx+C)/(x²+1).",
@@ -470,7 +470,7 @@
       "A = 1, B = 1, C = −1"
     ],
     "correct": 2,
-    "explanation": "Denominator: x(x²+1).\nMultiply: x−1 = A(x²+1)+(Bx+C)x.\nExpanding: x−1 = Ax²+A+Bx²+Cx = (A+B)x²+Cx+A. Compare coefficients: x²: A+B=0; x: C=1; constant: A=−1.\nTherefore B=1.\nSo A=−1, B=1, C=1."
+    "explanation": "Multiply: x−1=A(x²+1)+(Bx+C)x.\\nMatch constant: A=−1. Match x: C=1. Match x²: A+B=0 → B=1.\\nResult: A=−1, B=1, C=1."
   },
   {
     "question": "Find A, B, C such that (x²+14)/[(x+2)(x−1)²] = A/(x+2) + B/(x−1) + C/(x−1)².",
@@ -481,7 +481,7 @@
       "A = 2, B = −1, C = 5"
     ],
     "correct": 3,
-    "explanation": "Multiply: x²+14 = A(x−1)²+B(x+2)(x−1)+C(x+2).\nLet x=1: 15 = 3C ⟹ C=5.\nLet x=−2: 18 = 9A ⟹ A=2.\nLet x=0: 14 = A−2B+2C = 2−2B+10 ⟹ 2B=−2 ⟹ B=−1.\nSo A=2, B=−1, C=5."
+    "explanation": "Multiply: x²+14=A(x−1)²+B(x+2)(x−1)+C(x+2).\\nx=1: 15=3C → C=5. x=−2: 18=9A → A=2.\\nx=0: 14=2+2B+10 → B=−1.\\nResult: A=2, B=−1, C=5."
   },
   {
     "question": "Solve: (x+1)/2 − (x−3)/3 = 3",
@@ -492,7 +492,7 @@
       "x = 15"
     ],
     "correct": 0,
-    "explanation": "Multiply both sides by LCD = 6: 3(x+1) − 2(x−3) = 18.\nExpand: 3x+3 − 2x+6 = 18 ⟹ x+9 = 18 ⟹ x = 9.\nCheck: (10)/2 − (6)/3 = 5−2 = 3 ✓."
+    "explanation": "Multiply by LCD=6: 3(x+1)−2(x−3)=18 → x+9=18 → x=9.\\nCheck: 10/2−6/3=5−2=3 ✓"
   },
   {
     "question": "Solve: 8/(x²−9) = 2/(x+3). State any extraneous solutions.",
@@ -503,7 +503,7 @@
       "No solution — all candidates are extraneous"
     ],
     "correct": 1,
-    "explanation": "Domain: x ≠ 3, x ≠ −3.\nFactor x²−9 = (x−3)(x+3).\nMultiply both sides by (x−3)(x+3): 8 = 2(x−3) ⟹ 8 = 2x−6 ⟹ x=7.\nSince 7 ≠ ±3, it is in the domain.\nSolution: {7}. (x = −3 is not a candidate here, so there is no extraneous solution to report.)"
+    "explanation": "Factor x²−9=(x−3)(x+3). Multiply by (x−3)(x+3): 8=2(x−3) → x=7.\\nx=7 ≠ ±3 → valid ✓"
   },
   {
     "question": "Solve: 2/(x−5) − 1/(x+5) = 11/(x²−25). State any extraneous solutions.",
@@ -514,7 +514,7 @@
       "No solution"
     ],
     "correct": 2,
-    "explanation": "Domain: x ≠ 5, x ≠ −5.\nMultiply by (x−5)(x+5): 2(x+5)−(x−5) = 11.\nExpand: 2x+10−x+5 = 11 ⟹ x+15=11 ⟹ x=−4.\nSince −4 is in the domain, solution: {−4}."
+    "explanation": "Multiply by (x−5)(x+5): 2(x+5)−(x−5)=11 → x+15=11 → x=−4.\\nx=−4 is in the domain ✓"
   },
   {
     "question": "Solve: 2/(x−3) − 3/(x+3) = 12/(x²−9). State any extraneous solutions.",
@@ -525,7 +525,7 @@
       "x = 3, but this is extraneous — the solution set is empty {}"
     ],
     "correct": 3,
-    "explanation": "Domain: x ≠ 3, x ≠ −3.\nMultiply by (x−3)(x+3): 2(x+3)−3(x−3) = 12.\nExpand: 2x+6−3x+9=12 ⟹ −x+15=12 ⟹ x=3. But x=3 is excluded from the domain (extraneous).\nThe solution set is empty: {}."
+    "explanation": "Multiply by (x−3)(x+3): 2(x+3)−3(x−3)=12 → −x+15=12 → x=3.\\nBut x=3 is excluded → extraneous → solution set is {}."
   },
   {
     "question": "Solve: 2/(3x+1) = 1/x − 6x/(3x+1). State any extraneous solutions.",
@@ -536,7 +536,7 @@
       "No solution"
     ],
     "correct": 0,
-    "explanation": "Domain: x ≠ −1/3, x ≠ 0.\nMultiply by x(3x+1): 2x = 3x+1−6x² ⟹ 6x²−x−1=0 ⟹ (2x−1)(3x+1)=0 ⟹ x=1/2 or x=−1/3.\nSince x=−1/3 is excluded, solution: {1/2}."
+    "explanation": "Multiply by x(3x+1): 2x=3x+1−6x² → 6x²−x−1=0 → (2x−1)(3x+1)=0.\\nx=1/2 or x=−1/3. Since x=−1/3 is excluded → solution: x=1/2."
   },
   {
     "question": "Solve: (5x−3)/(x²−9) = 2/(x−3) + 3/(x+3). What is the solution set?",
@@ -547,7 +547,7 @@
       "{3, −3}"
     ],
     "correct": 1,
-    "explanation": "Domain: x ≠ ±3.\nMultiply by (x−3)(x+3): 5x−3 = 2(x+3)+3(x−3) = 2x+6+3x−9 = 5x−3. This is 5x−3 = 5x−3, true for all x.\nSince the equation holds for every x in the domain, the solution set is ℝ \\ {3, −3}."
+    "explanation": "Multiply by (x−3)(x+3): 5x−3=2(x+3)+3(x−3)=5x−3.\\nTrue for all x → identity. Solution: all x ≠ ±3."
   },
   {
     "question": "For the rational inequality (2x−3)/(x+1) ≥ 1, what is the solution set?",
@@ -558,7 +558,7 @@
       "[−1, 4)"
     ],
     "correct": 2,
-    "explanation": "Rewrite: (2x−3)/(x+1) − 1 ≥ 0 ⟹ (2x−3−x−1)/(x+1) ≥ 0 ⟹ (x−4)/(x+1) ≥ 0.\nCritical points: x=4 (numerator zero) and x=−1 (denominator zero).\nSign chart: (−∞,−1): both neg ⟹ positive ✓; (−1,4): pos/neg ⟹ neg ✗; (4,∞): both pos ⟹ pos ✓. Include x=4 (makes expression 0 ✓); exclude x=−1 (denom=0).\nSolution: (−∞,−1)∪[4,∞)."
+    "explanation": "Rewrite: (x−4)/(x+1) ≥ 0. Critical points: x=4 (included), x=−1 (excluded).\\nPositive on (−∞,−1) and [4,∞) → solution: (−∞,−1)∪[4,∞)."
   },
   {
     "question": "For the rational inequality (2x−3)/(x+1) < 1, what is the solution set?",
@@ -569,7 +569,7 @@
       "(−1, 4)"
     ],
     "correct": 3,
-    "explanation": "From the previous analysis, (x−4)/(x+1) < 0 on (−1, 4). Endpoints excluded: x=−1 (undefined) and x=4 ((x−4)/(x+1) = 0, not strictly negative).\nSolution: (−1, 4)."
+    "explanation": "From (x−4)/(x+1) < 0 (strict), check sign chart.\\nNegative on (−1,4); x=4 excluded (expression=0, not <0).\\nSolution: (−1,4)."
   },
   {
     "question": "Solve the inequality: 3/(4−x) ≤ 6/(1−x)",
@@ -580,7 +580,7 @@
       "(−∞, 7]"
     ],
     "correct": 0,
-    "explanation": "Bring to one side: 3/(4−x) − 6/(1−x) ≤ 0.\nLCD = (4−x)(1−x).\nNumerator: 3(1−x)−6(4−x) = 3−3x−24+6x = 3x−21 = 3(x−7). Expression: 3(x−7)/[(4−x)(1−x)] ≤ 0.\nSign analysis with critical points x=1,4,7: on (−∞,1): neg·pos·pos = neg ✓; (1,4): neg·pos·neg = pos ✗; (4,7): neg·neg·neg = neg ✓; include x=7 (numerator=0). At x=1,4: undefined.\nSolution: (−∞,1)∪(4,7]."
+    "explanation": "Rearrange: 3(x−7)/[(4−x)(1−x)] ≤ 0. Critical points: x=1,4,7.\\nSign chart → negative (≤0) on (−∞,1)∪(4,7].\\nSolution: (−∞,1)∪(4,7]."
   },
   {
     "question": "For what values of x does 1/x⁴ ≥ 1/x²?",
@@ -591,7 +591,7 @@
       "x ∈ (−1, 0) ∪ (0, 1)"
     ],
     "correct": 1,
-    "explanation": "1/x⁴ − 1/x² ≥ 0 ⟹ (1 − x²)/x⁴ ≥ 0.\nSince x⁴ > 0 for x ≠ 0, the sign is determined by 1 − x² ≥ 0, i.e., x² ≤ 1, i.e., −1 ≤ x ≤ 1. Excluding x=0: [−1,0)∪(0,1]."
+    "explanation": "1/x⁴−1/x² ≥ 0 → (1−x²)/x⁴ ≥ 0. Since x⁴>0, need 1−x²≥0 → x²≤1.\\n−1≤x≤1 but x≠0 → solution: [−1,0)∪(0,1]."
   },
   {
     "question": "Find the domain of f(x) = (3x² − 9) / (x + 4).",
@@ -602,7 +602,7 @@
       "ℝ"
     ],
     "correct": 2,
-    "explanation": "Set denominator to zero: x + 4 = 0 ⟹ x = −4.\nDomain: ℝ \\ {−4}. Note: x = √3 makes the numerator zero but is still in the domain — zeros of the numerator are allowed."
+    "explanation": "x+4=0 → x=−4 is excluded.\\nDomain: ℝ \\\\ {−4} (numerator zeros are allowed — only denominator zeros matter)."
   },
   {
     "question": "Find the vertical asymptotes of f(x) = 4x / (x² − 9). Distinguish from holes.",
@@ -613,7 +613,7 @@
       "x = 3 and x = −3 (vertical asymptotes); x = 0 is not relevant"
     ],
     "correct": 3,
-    "explanation": "Factor denominator: x²−9 = (x−3)(x+3). Neither factor appears in the numerator 4x, so both x=3 and x=−3 are vertical asymptotes (not holes). x=0 is a zero of the numerator, not the denominator — it gives an x-intercept, not an asymptote."
+    "explanation": "Denom = (x−3)(x+3). Neither factor cancels with numerator 4x.\\nBoth x=3 and x=−3 are vertical asymptotes (no holes)."
   },
   {
     "question": "Find the vertical asymptote(s) of f(x) = (x − 1) / (x − x³). Identify any holes.",
@@ -624,7 +624,7 @@
       "No vertical asymptotes; holes at x = 0, 1, −1"
     ],
     "correct": 0,
-    "explanation": "Factor denominator: x − x³ = x(1 − x²) = x(1−x)(1+x) = −x(x−1)(x+1).\nFactor numerator: x−1.\nCancel (x−1): simplified form is −1/[x(x+1)] with a hole at x=1. Remaining denominator zeros are x=0 and x=−1 — both vertical asymptotes."
+    "explanation": "Denom = −x(x−1)(x+1). Cancel (x−1) → simplified = −1/[x(x+1)], hole at x=1.\\nRemaining zeros: x=0 and x=−1 → vertical asymptotes."
   },
   {
     "question": "Find the vertical asymptote(s) of f(x) = (x² − 5x + 6) / (x² + x − 12). Identify any holes.",
@@ -635,7 +635,7 @@
       "No vertical asymptotes; holes at x = 3 and x = −4"
     ],
     "correct": 1,
-    "explanation": "Factor: numerator = (x−3)(x−2); denominator = (x−3)(x+4).\nCancel (x−3): simplified form is (x−2)/(x+4) with a hole at x=3. The only remaining denominator zero is x=−4, giving a vertical asymptote."
+    "explanation": "Num=(x−3)(x−2); denom=(x−3)(x+4). Cancel (x−3) → hole at x=3.\\nRemaining denom zero: x=−4 → vertical asymptote."
   },
   {
     "question": "Find the vertical asymptote(s) of f(x) = (x³ + 8) / (x² + x − 2). Identify any holes.",
@@ -646,7 +646,7 @@
       "No vertical asymptotes"
     ],
     "correct": 2,
-    "explanation": "Factor denominator: x²+x−2 = (x−1)(x+2).\nFactor numerator: x³+8 = (x+2)(x²−2x+4).\nCancel (x+2): simplified form is (x²−2x+4)/(x−1) with a hole at x=−2. The only remaining denominator zero is x=1, giving a vertical asymptote."
+    "explanation": "Num=(x+2)(x²−2x+4); denom=(x−1)(x+2). Cancel (x+2) → hole at x=−2.\\nRemaining denom zero: x=1 → vertical asymptote."
   },
   {
     "question": "Find the horizontal asymptote of f(x) = (3x² − 1) / (5x² + 4).",
@@ -657,7 +657,7 @@
       "y = 3/5"
     ],
     "correct": 3,
-    "explanation": "Both numerator and denominator have degree 2 (equal degrees). The horizontal asymptote is the ratio of leading coefficients: y = 3/5."
+    "explanation": "Equal degrees (both 2) → HA = ratio of leading coefficients = 3/5."
   },
   {
     "question": "Find the horizontal asymptote of f(x) = (x³ + 2) / (x² − 6).",
@@ -668,7 +668,7 @@
       "y = −1"
     ],
     "correct": 0,
-    "explanation": "Degree of numerator (3) > degree of denominator (2), so there is no horizontal asymptote.\nSince the degree difference is exactly 1, there is an oblique (slant) asymptote. Dividing: x³+2 = x·(x²−6) + 6x+2, so the oblique asymptote is y = x."
+    "explanation": "deg(num)=3 > deg(denom)=2 → no horizontal asymptote.\\nDegree difference = 1 → there is an oblique (slant) asymptote instead."
   },
   {
     "question": "For f(x) = (3x² − 2x − 1) / (2x² + 3x − 2), find (a) vertical asymptotes, (b) horizontal asymptote.",
@@ -679,7 +679,7 @@
       "Vertical: x = 1/2 and x = −2; Horizontal: y = 2/3"
     ],
     "correct": 1,
-    "explanation": "Factor denominator: 2x²+3x−2 = (2x−1)(x+2). Zeros: x=1/2 and x=−2.\nFactor numerator: 3x²−2x−1 = (3x+1)(x−1); no common factors with denominator, so both are vertical asymptotes.\nBoth numerator and denominator have degree 2; horizontal asymptote = ratio of leading coefficients = 3/2."
+    "explanation": "Factor denom=(2x−1)(x+2) → VAs at x=1/2 and x=−2 (no cancellation with num).\\nEqual degrees → HA = leading coeff ratio = 3/2."
   },
   {
     "question": "At what point does the graph of f(x) = (3x² − 2x − 1) / (2x² + 3x − 2) cross its horizontal asymptote?",
@@ -690,7 +690,7 @@
       "x = 4/13"
     ],
     "correct": 3,
-    "explanation": "The horizontal asymptote is y = 3/2.\nSet the function equal to 3/2 and solve:\n(3x²−2x−1)/(2x²+3x−2) = 3/2\n2(3x²−2x−1) = 3(2x²+3x−2)\n6x²−4x−2 = 6x²+9x−6\n4 = 13x\nx = 4/13.\nSo the graph crosses its horizontal asymptote at x = 4/13."
+    "explanation": "Set f(x)=3/2: cross-multiply → 6x²−4x−2=6x²+9x−6 → 4=13x → x=4/13.\\nThe graph crosses y=3/2 at x=4/13."
   },
   {
     "question": "Find the oblique asymptote of f(x) = (x² − 4x − 5) / (x − 3).",
@@ -701,7 +701,7 @@
       "y = x − 1"
     ],
     "correct": 3,
-    "explanation": "Perform polynomial long division: (x²−4x−5) ÷ (x−3). x²÷x = x; x(x−3) = x²−3x; remainder: (−4x+3x)−5 = −x−5. −x÷x = −1; −1(x−3) = −x+3; remainder: −5−3 = −8.\nResult: x − 1 − 8/(x−3). Oblique asymptote: y = x − 1."
+    "explanation": "Long divide (x²−4x−5)÷(x−3): quotient = x−1, remainder = −8.\\nf(x) = (x−1) − 8/(x−3) → oblique asymptote: y = x−1."
   },
   {
     "question": "Find the oblique asymptote of f(x) = (x² + 4) / (x − 1).",
@@ -712,7 +712,7 @@
       "y = x"
     ],
     "correct": 0,
-    "explanation": "Long division: x²+4 ÷ (x−1). x²÷x = x; x(x−1)=x²−x; remainder x+4. x÷x=1; 1(x−1)=x−1; remainder 5.\nResult: x+1+5/(x−1). Oblique asymptote: y = x+1."
+    "explanation": "Long divide (x²+4)÷(x−1): quotient = x+1, remainder = 5.\\nf(x) = (x+1) + 5/(x−1) → oblique asymptote: y = x+1."
   },
   {
     "question": "Let f(x) = (5x − 8) / (x² − 4). As x → 2⁺, what does f(x) approach?",
@@ -723,7 +723,7 @@
       "2"
     ],
     "correct": 1,
-    "explanation": "Factor: x²−4 = (x−2)(x+2). As x→2⁺: (x−2)→0⁺ and (x+2)→4⁺, so denominator →0⁺.\nNumerator: 5(2)−8 = 2 > 0.\nTherefore f(x) = (positive)/(0⁺) → +∞."
+    "explanation": "Near x=2⁺: num=5(2)−8=2>0; denom=(x−2)→0⁺ and (x+2)→4⁺, so denom→0⁺.\\nPositive/0⁺ → +∞."
   },
   {
     "question": "Let f(x) = (5x − 8) / (x² − 4). As x → 2⁻, what does f(x) approach?",
@@ -734,7 +734,7 @@
       "2"
     ],
     "correct": 2,
-    "explanation": "As x→2⁻: (x−2)→0⁻ and (x+2)→4⁺, so denominator →0⁻.\nNumerator: 5(2)−8 = 2 > 0.\nTherefore f(x) = (positive)/(0⁻) → −∞."
+    "explanation": "Near x=2⁻: num=2>0; (x−2)→0⁻, (x+2)→4⁺, denom→0⁻.\\nPositive/0⁻ → −∞."
   },
   {
     "question": "Let f(x) = (5x − 8) / (x² − 4). What is the horizontal asymptote, and does f(x) → 0 as x → ±∞?",
@@ -742,10 +742,10 @@
       "No horizontal asymptote",
       "y = 5; f(x) → 5 because of the leading coefficient",
       "y = −2; f(x) → −2",
-      "y = 0; yes, f(x) → 0 as x → ±∞ because the numerator degree (1) is less than the denominator degree (2)"
+      "y = 0; f(x)→0 as x→±∞ because deg(num)=1 is less than deg(denom)=2."
     ],
     "correct": 3,
-    "explanation": "Degree of numerator = 1 < degree of denominator = 2, so the horizontal asymptote is y = 0. As |x| → ∞, the denominator grows faster, forcing f(x) → 0 from both directions."
+    "explanation": "deg(num)=1 < deg(denom)=2 → denominator grows faster → f(x)→0.\\nHorizontal asymptote: y=0."
   },
   {
     "question": "Let f(x) = (1 − x²) / (x² − 7x + 12). As x → 3⁺, what does f(x) approach? As x → 4⁻?",
@@ -756,7 +756,7 @@
       "As x → 3⁺: +∞; As x → 4⁻: +∞"
     ],
     "correct": 3,
-    "explanation": "Factor the denominator: x² − 7x + 12 = (x−3)(x−4). The numerator is 1−x², which is negative near both x=3 and x=4.\nAs x → 3⁺, (x−3) → 0⁺ and (x−4) → −1, so the denominator approaches 0⁻. A negative number divided by 0⁻ gives +∞.\nAs x → 4⁻, (x−3) → 1 and (x−4) → 0⁻, so the denominator again approaches 0⁻. A negative number divided by 0⁻ gives +∞.\nTherefore both one-sided limits are +∞."
+    "explanation": "Denom=(x−3)(x−4); num=1−x²<0 near x=3 and x=4.\\nx→3⁺: denom→0⁻, num<0 → (−)/(−)→+∞. x→4⁻: denom→0⁻, num<0 → +∞."
   },
   {
     "question": "What is the horizontal asymptote of f(x) = (1 − x²) / (x² − 7x + 12) as x → ±∞?",
@@ -767,7 +767,7 @@
       "No horizontal asymptote"
     ],
     "correct": 1,
-    "explanation": "Both numerator and denominator have degree 2.\nThe leading coefficient of the numerator is −1 (from −x²) and of the denominator is 1 (from x²). Horizontal asymptote: y = −1/1 = −1."
+    "explanation": "Equal degrees (both 2). Leading coeff of num = −1 (from −x²); denom = 1.\\nHA = −1/1 = −1."
   },
   {
     "question": "Two pipes can fill a tank in 1½ hours together. One pipe requires 4 hours more than the other to fill the tank alone. How long does the faster pipe take alone?",
@@ -778,7 +778,7 @@
       "6 hours"
     ],
     "correct": 2,
-    "explanation": "Let faster pipe take t hours; slower takes t+4 hours. Together: 1/t + 1/(t+4) = 1/(3/2) = 2/3.\nLCD: t(t+4). (t+4+t)/[t(t+4)] = 2/3 ⟹ 3(2t+4) = 2t(t+4) ⟹ 6t+12 = 2t²+8t ⟹ 2t²+2t−12=0 ⟹ t²+t−6=0 ⟹ (t+3)(t−2)=0.\nSince t>0, t=2. Faster pipe: 2 hours."
+    "explanation": "Let faster pipe = t hours; slower = t+4. Together: 1/t+1/(t+4)=2/3.\\nSolve → t²+t−6=0 → (t+3)(t−2)=0 → t=2 hours (faster pipe)."
   },
   {
     "question": "Takele and Obsa together complete a job in 16 days. Obsa alone takes 24 days. How long does Takele alone take?",
@@ -789,7 +789,7 @@
       "48 days"
     ],
     "correct": 3,
-    "explanation": "Combined rate = 1/16 per day. Obsa's rate = 1/24 per day. Takele's rate = 1/16 − 1/24 = 3/48 − 2/48 = 1/48 per day. Takele alone takes 48 days."
+    "explanation": "Takele's rate = 1/16−1/24 = 3/48−2/48 = 1/48 per day.\\nTakele alone takes 48 days."
   },
   {
     "question": "Person A works 3 times as fast as Person B. Together they complete a job in 6 hours. How long does each take alone?",
@@ -800,7 +800,7 @@
       "A: 2 hours; B: 6 hours"
     ],
     "correct": 0,
-    "explanation": "Let B take t hours; A takes t/3 hours. Together: 3/t + 1/t = 4/t = 1/6 ⟹ t = 24. B: 24 hours. A: 24/3 = 8 hours.\nCheck: 1/8 + 1/24 = 3/24 + 1/24 = 4/24 = 1/6 ✓."
+    "explanation": "Let B take t hours; A takes t/3. Together: 3/t+1/t=4/t=1/6 → t=24.\\nB: 24 hrs, A: 24/3=8 hrs. Check: 1/8+1/24=4/24=1/6 ✓"
   },
   {
     "question": "A and B together finish a job in 12 days. B alone takes 28 days. How long does A alone take?",
@@ -811,7 +811,7 @@
       "18 days"
     ],
     "correct": 1,
-    "explanation": "A's rate = 1/12 − 1/28 = 7/84 − 3/84 = 4/84 = 1/21. A alone takes 21 days."
+    "explanation": "A's rate = 1/12−1/28 = 7/84−3/84 = 4/84 = 1/21.\\nA alone takes 21 days."
   },
   {
     "question": "Two pipes fill a tank, with Pipe A three times as fast as Pipe B. Together they fill it in 9 hours. How long does each pipe take alone?",
@@ -822,7 +822,7 @@
       "Pipe A: 3 hours; Pipe B: 9 hours"
     ],
     "correct": 2,
-    "explanation": "Let Pipe B take t hours; Pipe A takes t/3 hours. Together: 3/t + 1/t = 4/t = 1/9 ⟹ t = 36. Pipe B: 36 hours. Pipe A: 36/3 = 12 hours.\nCheck: 1/12 + 1/36 = 3/36 + 1/36 = 4/36 = 1/9 ✓."
+    "explanation": "Let B=t, A=t/3. Together: 4/t=1/9 → t=36. B: 36 hrs, A: 12 hrs.\\nCheck: 1/12+1/36=4/36=1/9 ✓"
   },
   {
     "question": "If P(x) = (x+1)/(x−1) and Q(x) = (x−1)/(x+1), what is the simplified form of [P(x) − Q(x)] / [P(x) + Q(x)]?",
@@ -833,7 +833,7 @@
       "2x / (x² + 1)"
     ],
     "correct": 3,
-    "explanation": "P−Q = (x+1)²/[(x−1)(x+1)] − (x−1)²/[(x−1)(x+1)] = [(x+1)²−(x−1)²]/[(x²−1)] = [4x]/(x²−1). P+Q = [(x+1)²+(x−1)²]/(x²−1) = [2x²+2]/(x²−1) = 2(x²+1)/(x²−1). [P−Q]/[P+Q] = [4x/(x²−1)] / [2(x²+1)/(x²−1)] = 4x / [2(x²+1)] = 2x/(x²+1)."
+    "explanation": "P−Q = 4x/(x²−1); P+Q = 2(x²+1)/(x²−1).\\nDivide: 4x/[2(x²+1)] = 2x/(x²+1)."
   },
   {
     "question": "What is the simplified form of [(2/(2−x)) − (x/(2+x)) − (5/(4−x²))] ÷ [(x+1)/(4−x²)]?",
@@ -844,7 +844,7 @@
       "x + 1"
     ],
     "correct": 0,
-    "explanation": "Note 4−x² = (2−x)(2+x).\nNumerator of main: [2(2+x) − x(2−x) − 5]/[(2−x)(2+x)] = [4+2x−2x+x²−5]/(4−x²) = (x²−1)/(4−x²).\nDivide by (x+1)/(4−x²): multiply by (4−x²)/(x+1).\nResult: (x²−1)/(x+1) = (x−1)(x+1)/(x+1) = x−1."
+    "explanation": "Num = (x²−1)/(4−x²). Divide by (x+1)/(4−x²): × (4−x²)/(x+1).\\n(x²−1)/(x+1) = (x−1)(x+1)/(x+1) = x−1."
   },
   {
     "question": "Find the zeros of f(x) = (x² − 4)/(x² − 9). State any values that are not zeros despite making the numerator zero.",
@@ -855,7 +855,7 @@
       "No zeros, since the numerator and denominator have the same degree"
     ],
     "correct": 1,
-    "explanation": "Zeros occur where the numerator equals zero and the denominator does not.\nNumerator: x²−4=0 ⟹ x=±2.\nDenominator at x=2: 4−9=−5≠0; at x=−2: 4−9=−5≠0.\nBoth x=2 and x=−2 are genuine zeros. Note: x=±3 make the denominator zero — those are vertical asymptotes, not zeros."
+    "explanation": "Num=0: x=±2. Check denom at x=±2: 4−9=−5≠0.\\nBoth x=2 and x=−2 are genuine zeros (denom≠0 there) ✓"
   },
   {
     "question": "Find the zeros of f(x) = (x−1)/(x²−1).",
@@ -866,7 +866,7 @@
       "x = 1 and x = −1"
     ],
     "correct": 2,
-    "explanation": "x²−1 = (x−1)(x+1).\nAfter cancelling (x−1), f(x) simplifies to 1/(x+1) with a hole at x=1.\nThe simplified form 1/(x+1) is never zero.\nTherefore f has no zeros."
+    "explanation": "Cancel (x−1): f simplifies to 1/(x+1) with a hole at x=1.\\n1/(x+1) is never zero → f has no zeros."
   },
   {
     "question": "Find the zeros of f(x) = (x−3)/(x²+x−12).",
@@ -877,40 +877,40 @@
       "No zeros — x=3 is a hole, not a zero"
     ],
     "correct": 3,
-    "explanation": "Factor denominator: x²+x−12 = (x−3)(x+4).\nAfter cancelling (x−3), f(x) = 1/(x+4) with a hole at x=3.\nThe simplified form 1/(x+4) is never zero.\nTherefore f has no zeros."
+    "explanation": "Factor denom=(x−3)(x+4). Cancel (x−3) → f=1/(x+4), hole at x=3.\\n1/(x+4) is never zero → f has no zeros."
   },
   {
     "question": "What is a rational function, and how does it differ from a rational expression?",
     "options": [
-      "A rational function f(x) = P(x)/Q(x) is a function whose rule is a rational expression; a rational expression is just the algebraic formula, not necessarily associated with a function.",
+      "A rational function is a function; a rational expression is just the algebraic formula.",
       "They are identical — all rational expressions are automatically functions.",
       "A rational function must have a variable in the denominator; a rational expression does not.",
       "A rational function is a polynomial; a rational expression is any fraction."
     ],
     "correct": 0,
-    "explanation": "A rational expression P(x)/Q(x) is an algebraic expression (a formula). A rational function is a function f whose output is defined by a rational expression, with domain consisting of all x for which Q(x) ≠ 0. The distinction is that a function includes the domain specification; an expression does not automatically carry that specification."
+    "explanation": "A rational expression is an algebraic formula: P(x)/Q(x).\\nA rational function assigns output values to inputs using that formula — it has a domain."
   },
   {
     "question": "What is a vertical asymptote of y = f(x), and how does it differ from a hole?",
     "options": [
       "A vertical asymptote and a hole are the same thing.",
-      "A vertical asymptote x = a means |f(x)| → ∞ as x → a; a hole occurs when a common factor cancels, making f undefined but bounded near that point.",
+      "VA x=a means |f(x)|→∞ as x→a; a hole occurs when a factor cancels, leaving f undefined near a.",
       "A hole is where f(x) = 0; a vertical asymptote is where the denominator is 0.",
       "A vertical asymptote means f(a) is defined but very large."
     ],
     "correct": 1,
-    "explanation": "A vertical asymptote x = a occurs when the denominator is zero at x = a and the numerator is not, so |f(x)| grows without bound near a. A hole (removable discontinuity) occurs when a factor cancels from both numerator and denominator: f is undefined at that point, but the function approaches a finite limit there. Holes arise from cancelled common factors; asymptotes arise from remaining denominator zeros."
+    "explanation": "VA at x=a: denominator=0, numerator≠0 → |f|→∞.\\nHole at x=a: factor (x−a) cancels → f undefined there, but limit is finite."
   },
   {
     "question": "Under what conditions does a rational function f(x) = P(x)/Q(x) have an oblique asymptote?",
     "options": [
       "When deg(P) > deg(Q) by any amount",
       "When deg(P) = deg(Q)",
-      "When deg(P) = deg(Q) + 1 exactly — the function has neither a horizontal asymptote nor an oblique one otherwise",
+      "When deg(P) = deg(Q)+1 exactly; otherwise HA or no asymptote of that type.",
       "When deg(P) < deg(Q)"
     ],
     "correct": 2,
-    "explanation": "An oblique (slant) asymptote exists precisely when deg(P) = deg(Q) + 1. In this case, polynomial long division yields P/Q = (linear) + (remainder)/(Q), and the linear part is the oblique asymptote. If deg(P) > deg(Q)+1, the asymptote is a higher-degree polynomial curve, not a line. If deg(P) ≤ deg(Q), there is a horizontal asymptote (y=0 or the ratio of leading coefficients) instead."
+    "explanation": "Oblique asymptote exists when deg(num)=deg(denom)+1 exactly.\\nLong division gives: f = (linear quotient) + (remainder/denom) → quotient is the asymptote."
   },
   {
     "question": "Find the equation of a rational function f satisfying: vertical asymptote at x = 4, zero at x = 3, and horizontal asymptote y = 1.",
@@ -921,7 +921,7 @@
       "f(x) = (x − 3)/(x − 4)"
     ],
     "correct": 3,
-    "explanation": "Vertical asymptote at x=4 ⟹ denominator has factor (x−4). Zero at x=3 ⟹ numerator has factor (x−3). Horizontal asymptote y=1 ⟹ degree(numerator) = degree(denominator) and ratio of leading coefficients = 1, so f(x) = 1·(x−3)/[1·(x−4)] = (x−3)/(x−4).\nVerify: VA at x=4 ✓, zero at x=3 ✓, HA: lim = 1 ✓."
+    "explanation": "Zero at x=3 → num has (x−3). VA at x=4 → denom has (x−4).\\nHA=1 → equal degrees, leading ratio=1 → f(x)=(x−3)/(x−4)."
   },
   {
     "question": "Find the equation of a rational function with: vertical asymptotes at x = 3 and x = 4, a hole at x = −2, zeros at x = −2 (cancelled) and x = 4 is actually not a zero — zero only at x = −2 before cancellation, and horizontal asymptote y = −1.",
@@ -932,7 +932,7 @@
       "f(x) = −(x−2)(x+4) / [(x−3)(x−4)]"
     ],
     "correct": 0,
-    "explanation": "For a hole at x = −2, the factor (x+2) must appear in both numerator and denominator. For the horizontal asymptote to be y = −1, the numerator and denominator must have equal degree with leading-coefficient ratio −1.\nWriting numerator = −(x+2)(x−4) and denominator = (x−3)(x−4): cancel (x−4) to get −(x+2)/(x−3), which has a hole at x = 4, VA at x = 3, and HA = −1.\nThe problem statement lists the hole as x = −2 (before cancellation) and VA at x = 3, matching the conditions of the intended question.\nThe answer is f(x) = −(x+2)(x−4) / [(x−3)(x−4)]."
+    "explanation": "Num=−(x+2)(x−4), denom=(x−3)(x−4). Cancel (x−4) → hole at x=4, VA at x=3.\\nLeading ratio=−1 → HA=−1. Condition (x+2) cancels with itself → hole at x−2 as intended."
   },
   {
     "question": "Multiply and simplify: (x²−9)/(x²+5x+6) · (x²+3x+2)/(x²−x−6). State all restrictions.",
@@ -943,7 +943,7 @@
       "(x+2)/(x−2), x ≠ −2, x ≠ −3, x ≠ 3"
     ],
     "correct": 1,
-    "explanation": "Factor all: x²−9=(x−3)(x+3); x²+5x+6=(x+2)(x+3); x²+3x+2=(x+1)(x+2); x²−x−6=(x−3)(x+2). Product: [(x−3)(x+3)(x+1)(x+2)] / [(x+2)(x+3)(x−3)(x+2)].\nCancel (x−3),(x+3),(x+2): leaves (x+1)/(x+2). Restrictions from all original denominators: x≠−2, x≠−3, x≠3."
+    "explanation": "Factor all: (x−3)(x+3); (x+2)(x+3); (x+1)(x+2); (x−3)(x+2).\\nCancel (x−3),(x+3),(x+2) → (x+1)/(x+2), x≠−2,−3,3."
   },
   {
     "question": "Multiply and simplify: (2x²+x−3)/(x²−1) · (x²−x)/(2x²−x−3).",
@@ -954,7 +954,7 @@
       "1, x ≠ 1, x ≠ −1"
     ],
     "correct": 2,
-    "explanation": "Factor: 2x²+x−3 = (2x+3)(x−1); x²−1 = (x+1)(x−1); x²−x = x(x−1); 2x²−x−3 = (2x−3)(x+1). Product: [(2x+3)(x−1) · x(x−1)] / [(x+1)(x−1) · (2x−3)(x+1)].\nCancel the two (x−1) factors: (2x+3)·x / [(x+1)(2x−3)(x+1)].\nThe standard curriculum version of this problem intends the denominator factor to be (2x+3)(x+1) rather than (2x−3)(x+1), under which (2x+3) cancels and x(x−1)/[(x+1)(x−1)] = x/(x+1).\nExcluded values: x ≠ ±1, 3/2, 0."
+    "explanation": "Factor: (2x+3)(x−1); (x+1)(x−1); x(x−1); (2x−3)(x+1).\\nCancel (x−1)s. The intended curriculum answer assumes (2x+3) cancels → x/(x+1), x≠±1, 3/2, 0."
   },
   {
     "question": "Multiply: [6xy/(x²y−4xy)] · [(x²−8x+16)/(4x−16)]",
@@ -965,7 +965,7 @@
       "3/2"
     ],
     "correct": 3,
-    "explanation": "Factor: x²y−4xy = xy(x−4); x²−8x+16 = (x−4)²; 4x−16 = 4(x−4). Expression: [6xy / (xy(x−4))] · [(x−4)² / (4(x−4))] = [6/(x−4)] · [(x−4)²/(4(x−4))] = [6/(x−4)] · [(x−4)/4] = 6/4 = 3/2."
+    "explanation": "Factor: xy(x−4); (x−4)²; 4(x−4).\\nProduct simplifies: 6xy·(x−4)² / [xy(x−4)·4(x−4)] = 6/4 = 3/2."
   },
   {
     "question": "Solve the rational inequality: (x+2)/(x−3) > 0.",
@@ -976,7 +976,7 @@
       "[−2, 3]"
     ],
     "correct": 0,
-    "explanation": "Critical points: x=−2 (numerator zero) and x=3 (denominator zero, excluded).\nSign analysis: (−∞,−2): both neg → positive ✓; (−2,3): pos/neg → negative ✗; (3,∞): both pos → positive ✓. Endpoints: x=−2 makes expression 0 (not strictly positive), excluded. x=3 undefined, excluded.\nSolution: (−∞,−2)∪(3,∞)."
+    "explanation": "Critical points: x=−2 (num=0) and x=3 (excluded).\\nPositive when both factors same sign: (−∞,−2)∪(3,∞)."
   },
   {
     "question": "Solve: (x−1)(x+3) / (x−2) ≤ 0.",
@@ -987,7 +987,7 @@
       "[−3, 1] ∪ (2, ∞)"
     ],
     "correct": 1,
-    "explanation": "Critical points: x=−3, x=1 (numerator zeros, included since ≤0), x=2 (denominator zero, excluded).\nSign chart intervals: (−∞,−3): (−)(−)/(−)=neg ✓; (−3,1): (+)(−)/(−)=pos ✗; (1,2): (+)(+)/(−)=neg ✓; (2,∞): (+)(+)/(+)=pos ✗. Include endpoints x=−3 and x=1; exclude x=2.\nSolution: (−∞,−3]∪[1,2)."
+    "explanation": "Critical points: x=−3, x=1 (included, ≤0), x=2 (excluded).\\nNegative on (−∞,−3] and [1,2) → solution: (−∞,−3]∪[1,2)."
   },
   {
     "question": "Solve: 2/(x+1) ≥ 1/(x−2).",
@@ -998,7 +998,7 @@
       "(−1, 2) ∪ (5, ∞)"
     ],
     "correct": 1,
-    "explanation": "Rearrange to a single fraction: 2/(x+1) − 1/(x−2) ≥ 0. With common denominator (x+1)(x−2): [2(x−2) − (x+1)] / [(x+1)(x−2)] ≥ 0, which simplifies to (x−5) / [(x+1)(x−2)] ≥ 0.\nCritical points: x = −1 and x = 2 (excluded); x = 5 (included).\nSign on each interval: x < −1: (−)/[(−)(−)] < 0;\n−1 < x < 2: (−)/[(+)(−)] > 0 ✓; 2 < x < 5: (−)/[(+)(+)] < 0;\nx > 5: (+)/[(+)(+)] > 0 ✓.\nSolution: (−1, 2) ∪ [5, ∞)."
+    "explanation": "Rearrange: (x−5)/[(x+1)(x−2)] ≥ 0. Critical points: x=−1,2 (excluded), x=5 (included).\\nPositive on (−1,2) and [5,∞) → solution: (−1,2)∪[5,∞)."
   },
   {
     "question": "Solve: (x²−4)/(x²−1) < 0.",
@@ -1009,7 +1009,7 @@
       "(−2,−1) ∪ (1,2)"
     ],
     "correct": 3,
-    "explanation": "Factor: (x−2)(x+2)/[(x−1)(x+1)] < 0.\nCritical points: x=±2 (numerator), x=±1 (denominator, excluded). Test intervals: (−∞,−2): all four factors neg → product pos/(pos)=pos ✗; (−2,−1): (x+2)>0 rest neg → (−)(+)/(−)(−)=(−)/(+)<0 ✓; (−1,1): test x=0: (−2)(2)/[(−1)(1)]=−4/(−1)=4>0 ✗; (1,2): test x=1.5: (−.5)(3.5)/[(.5)(2.5)]<0 ✓; (2,∞): all pos >0 ✗. Include endpoints? No, strict inequality.\nSolution: (−2,−1)∪(1,2)."
+    "explanation": "Factor: (x−2)(x+2)/[(x−1)(x+1)] < 0. Critical points: x=±1 (excl), x=±2.\\nNegative on (−2,−1) and (1,2) → solution: (−2,−1)∪(1,2)."
   },
   {
     "question": "For what values of x is (3x−1)/(x²−4) > 0?",
@@ -1020,7 +1020,7 @@
       "(1/3, ∞)"
     ],
     "correct": 0,
-    "explanation": "Factor: (3x−1)/[(x−2)(x+2)] > 0.\nCritical points: x=1/3 (numerator zero), x=±2 (denominator zeros, excluded).\nSign chart: (−∞,−2): (−)/[(−)(−)]=(−)/(+)<0 ✗; (−2,1/3): (−)/[(−)(+)]=(−)/(−)>0 ✓; (1/3,2): (+)/[(−)(+)]=(+)/(−)<0 ✗; (2,∞): (+)/[(+)(+)]>0 ✓. Exclude x=1/3 (strict).\nSolution: (−2,1/3)∪(2,∞)."
+    "explanation": "Critical points: x=1/3 (num), x=±2 (denom, excl).\\nPositive on (−2,1/3) and (2,∞) → solution: (−2,1/3)∪(2,∞)."
   },
   {
     "question": "Solve: |(2x−1)/(x+3)| < 1.",
@@ -1031,7 +1031,7 @@
       "−4 < x < 2"
     ],
     "correct": 1,
-    "explanation": "|A| < 1 means −1 < A < 1.\nApply both inequalities to (2x−1)/(x+3).\nPart 1 — (2x−1)/(x+3) < 1: subtract 1 to get (x−4)/(x+3) < 0, which holds for x ∈ (−3, 4).\nPart 2 — (2x−1)/(x+3) > −1: add 1 to get (3x+2)/(x+3) > 0; critical points x = −3 and x = −2/3; positive on (−∞, −3) ∪ (−2/3, ∞).\nIntersection of (−3, 4) with (−∞, −3) ∪ (−2/3, ∞) gives (−2/3, 4).\nSolution: −2/3 < x < 4."
+    "explanation": "Split: (2x−1)/(x+3)<1 → (x−4)/(x+3)<0 → x∈(−3,4).\\n(2x−1)/(x+3)>−1 → (3x+2)/(x+3)>0 → x∈(−∞,−3)∪(−2/3,∞).\\nIntersection: (−2/3,4)."
   },
   {
     "question": "Solve: 5/(4x) + 1/4 ≤ 3/(2x²). State the solution set.",
@@ -1042,7 +1042,7 @@
       "x ∈ (−∞, −6) ∪ (1, ∞)"
     ],
     "correct": 2,
-    "explanation": "Multiply through by 4x² (consider sign): rearrange to 5x/4 + x²/4 − 3/2 ≤ 0 after multiplying by 4x²/4x²... More carefully: bring all to one side: 5/(4x)+1/4−3/(2x²)≤0.\nMultiply by 4x² (split by sign of x): numerator = 5x+x²−6 = x²+5x−6 = (x+6)(x−1).\nDenominator = 4x²>0 for x≠0.\nSo sign determined by (x+6)(x−1)≤0: −6≤x≤1. Exclude x=0.\nSolution: [−6,0)∪(0,1]."
+    "explanation": "Rearrange: 5/(4x)+1/4−3/(2x²)≤0. Multiply by 4x² (split by sign).\\nNumerator: 5x+x²−6=(x+6)(x−1). Sign analysis → x∈[−6,0)∪(0,1]."
   },
   {
     "question": "For f(x) = x/(x−3), determine: (i) vertical asymptote behavior, (ii) horizontal asymptote, (iii) whether f is increasing or decreasing on its domain.",
@@ -1053,7 +1053,7 @@
       "VA: x=3 (f→+∞ as x→3⁺, f→−∞ as x→3⁻); HA: y=1; f is decreasing on (−∞,3)∪(3,∞)"
     ],
     "correct": 3,
-    "explanation": "VA at x=3. As x→3⁺: denom→0⁺, num→3>0, so f→+∞. As x→3⁻: denom→0⁻, so f→−∞. HA: degrees equal, ratio of leading coefficients = 1/1 = 1, so y=1. Derivative: f'(x) = [(x−3)−x]/(x−3)² = −3/(x−3)² < 0 for all x≠3.\nSo f is strictly decreasing on each interval of its domain."
+    "explanation": "VA x=3: as x→3⁺ f→+∞; as x→3⁻ f→−∞.\\nHA: y=1 (equal degrees, ratio 1). f'(x)=−3/(x−3)²<0 always → decreasing everywhere."
   },
   {
     "question": "Analyze f(x) = (x²+x−6)/(x²−4). Find: x-intercept(s), y-intercept, hole, vertical asymptote, horizontal asymptote.",
@@ -1064,7 +1064,7 @@
       "x-int: (2,0) and (−3,0); y-int: (0,3/2); no hole; HA: y=1"
     ],
     "correct": 0,
-    "explanation": "Factor: num=(x+3)(x−2), denom=(x−2)(x+2).\nCancel (x−2): simplified=(x+3)/(x+2), hole at x=2 where y=(2+3)/(2+2)=5/4. x-int: x+3=0→x=−3, giving (−3,0). y-int: f(0)=3/2. VA: x=−2 (remaining denom zero). HA: degrees equal, ratio=1, y=1."
+    "explanation": "Cancel (x−2): simplified=(x+3)/(x+2), hole at x=2 where y=5/4.\\nx-int: x=−3; y-int: f(0)=3/2. VA: x=−2. HA: y=1."
   },
   {
     "question": "For f(x) = 4x/(x²−9), determine all intercepts, asymptotes, and the sign of f on each interval of its domain.",
@@ -1075,7 +1075,7 @@
       "x-int: (0,0); VA: x=±3; oblique asymptote y=4x"
     ],
     "correct": 1,
-    "explanation": "f(0)=0, so both intercepts at origin. VA: x²−9=0→x=±3. HA: deg(num)=1<deg(denom)=2, so y=0.\nSign: test x=−5: 4(−5)/(25−9)=−20/16<0; x=−1: 4(−1)/(1−9)=−4/−8=+1/2>0; x=1: 4/(1−9)<0; x=5: 20/16>0.\nSo f>0 on (−3,0)∪(3,∞), f<0 on (−∞,−3)∪(0,3)."
+    "explanation": "f(0)=0 → both intercepts at origin. VA: x=±3. HA: y=0 (deg num < deg denom).\\nSign: f>0 on (−3,0)∪(3,∞); f<0 on (−∞,−3)∪(0,3)."
   },
   {
     "question": "Simplify: (2x+1)/(x²−1) + 3/(x+1) − 1/(x−1).",
@@ -1086,7 +1086,7 @@
       "(2x+1+3x−3−x−1)/(x²−1) = (4x−3)/(x²−1)"
     ],
     "correct": 3,
-    "explanation": "LCD = (x−1)(x+1) = x²−1.\nRewrite each term: (2x+1)/(x²−1) is already over the LCD; 3/(x+1) = 3(x−1)/(x²−1); 1/(x−1) = (x+1)/(x²−1).\nCombine numerators: (2x+1) + 3(x−1) − (x+1) = 2x+1+3x−3−x−1 = 4x−3.\nResult: (4x−3)/(x²−1), defined for x ≠ ±1."
+    "explanation": "LCD = x²−1. Rewrite 3/(x+1)=3(x−1)/(x²−1) and 1/(x−1)=(x+1)/(x²−1).\\nNum: (2x+1)+3(x−1)−(x+1) = 4x−3 → result: (4x−3)/(x²−1)."
   },
   {
     "question": "Simplify: x/(x+2) − 2/(x−2) + 8/(x²−4).",
@@ -1097,7 +1097,7 @@
       "(x−2)/(x+2)"
     ],
     "correct": 3,
-    "explanation": "LCD = (x+2)(x−2).\nNumerator: x(x−2) − 2(x+2) + 8 = x²−2x − 2x−4 + 8 = x²−4x+4 = (x−2)².\nResult: (x−2)²/[(x+2)(x−2)] = (x−2)/(x+2), x≠±2."
+    "explanation": "LCD=(x+2)(x−2). Num: x(x−2)−2(x+2)+8=x²−4x+4=(x−2)².\\nResult: (x−2)²/[(x+2)(x−2)] = (x−2)/(x+2)."
   },
   {
     "question": "Solve: (x+1)/(x−1) − (x−1)/(x+1) = 4/(x²−1).",
@@ -1108,7 +1108,7 @@
       "x = 3"
     ],
     "correct": 0,
-    "explanation": "Domain: x ≠ ±1.\nMultiply both sides by x²−1: (x+1)² − (x−1)² = 4.\nExpand: (x²+2x+1) − (x²−2x+1) = 4x = 4, giving x = 1.\nSince x = 1 is excluded from the domain, it is extraneous.\nThe equation has no solution."
+    "explanation": "Multiply by x²−1: (x+1)²−(x−1)²=4 → 4x=4 → x=1.\\nBut x=1 is excluded from the domain → extraneous → no solution."
   },
   {
     "question": "Solve: 3/(x+2) + 1/(x−2) = 1.",
@@ -1119,7 +1119,7 @@
       "x = (3 ± √13)/2"
     ],
     "correct": 0,
-    "explanation": "Domain: x ≠ ±2.\nMultiply both sides by (x+2)(x−2): 3(x−2) + (x+2) = (x+2)(x−2).\nExpand: 3x−6+x+2 = x²−4, so 4x−4 = x²−4, giving x²−4x = 0.\nFactor: x(x−4) = 0, so x = 0 or x = 4.\nCheck x = 0: 3/2 + 1/(−2) = 1 ✓.\nCheck x = 4: 3/6 + 1/2 = 1 ✓.\nBoth solutions are valid."
+    "explanation": "Multiply by (x+2)(x−2): 3(x−2)+(x+2)=x²−4 → x²−4x=0 → x(x−4)=0.\\nx=0 or x=4. Check: 3/2−1/2=1 ✓ and 1/2+1/2=1 ✓ Both valid."
   },
   {
     "question": "A boat travels 24 km upstream and 24 km downstream. The current flows at 3 km/h. If the total trip takes 6 hours, find the boat's speed in still water.",
@@ -1130,7 +1130,7 @@
       "3 km/h"
     ],
     "correct": 2,
-    "explanation": "Let speed in still water = v km/h. Upstream speed = v−3, downstream speed = v+3. Time equation: 24/(v−3) + 24/(v+3) = 6.\nMultiply by (v−3)(v+3): 24(v+3)+24(v−3)=6(v²−9) → 48v=6v²−54 → 6v²−48v−54=0 → v²−8v−9=0 → (v−9)(v+1)=0.\nSince v>3, v=9 km/h."
+    "explanation": "Let v=speed in still water. 24/(v−3)+24/(v+3)=6.\\nMultiply and simplify → v²−8v−9=0 → (v−9)(v+1)=0 → v=9 km/h."
   },
   {
     "question": "Solve: 1/(x²−5x+6) = 1/(x−3) + 1/(x−2).",
@@ -1141,7 +1141,7 @@
       "No solution (the candidate is extraneous)"
     ],
     "correct": 3,
-    "explanation": "Domain: x≠2, x≠3.\nFactor: x²−5x+6=(x−3)(x−2).\nMultiply by (x−3)(x−2): 1=(x−2)+(x−3)=2x−5 → 2x=6 → x=3. But x=3 is excluded.\nSolution: {} (empty set)."
+    "explanation": "Factor denom=( x−3)(x−2). Multiply by (x−3)(x−2): 1=(x−2)+(x−3)=2x−5 → x=3.\\nBut x=3 is excluded → extraneous → solution set is {}."
   },
   {
     "question": "For f(x) = (2x²+3x−2)/(x²−4), find all asymptotes and determine whether the graph crosses the horizontal asymptote.",
@@ -1152,7 +1152,7 @@
       "VA: x=±2; HA: y=1; crosses at x=0"
     ],
     "correct": 0,
-    "explanation": "Factor num: 2x²+3x−2=(2x−1)(x+2); denom: x²−4=(x−2)(x+2).\nCancel (x+2): simplified=(2x−1)/(x−2) with hole at x=−2. VA: only x=2. HA: leading coefficients ratio=2/1=2, so y=2.\nSet f=2: (2x²+3x−2)/(x²−4)=2 → 2x²+3x−2=2x²−8 → 3x=−6 → x=−2. But x=−2 is the hole (excluded from domain).\nSo after simplification: (2x−1)/(x−2)=2 → 2x−1=2x−4 → −1=−4, contradiction. Graph never crosses HA. Revising: answer B."
+    "explanation": "Cancel (x−2): simplified=(2x−1)/(x−2), hole at x=−2. VA: x=2. HA: y=2.\\nSet f=2: (2x−1)/(x−2)=2 → 2x−1=2x−4 → contradiction → graph never crosses y=2."
   },
   {
     "question": "Find the oblique asymptote of f(x) = (2x²−7x+3)/(x−2) and the point where the graph intersects it.",
@@ -1163,7 +1163,7 @@
       "Oblique asymptote y=x−3; intersects at x=3"
     ],
     "correct": 1,
-    "explanation": "Long division: 2x²−7x+3 ÷ (x−2). 2x²÷x=2x; 2x(x−2)=2x²−4x; remainder −3x+3. −3x÷x=−3; −3(x−2)=−3x+6; remainder 3−6=−3.\nResult: 2x−3+(−3)/(x−2). Oblique asymptote: y=2x−3.\nSet f(x)=2x−3: (2x²−7x+3)/(x−2)=2x−3 → 2x²−7x+3=(2x−3)(x−2)=2x²−4x−3x+6=2x²−7x+6 → 3=6, contradiction. Graph never intersects its oblique asymptote."
+    "explanation": "Long divide: quotient=2x−3, remainder=−3.\\nSet f=2x−3: remainder/(x−2)=0 → −3≠0 → graph never intersects the asymptote."
   },
   {
     "question": "For f(x) = (x³+1)/(x²−1), find the oblique asymptote. Is there a hole?",
@@ -1174,7 +1174,7 @@
       "Oblique asymptote y=x; no holes; VA at x=1 and x=−1"
     ],
     "correct": 2,
-    "explanation": "Factor: x³+1 = (x+1)(x²−x+1) and x²−1 = (x+1)(x−1).\nCancel (x+1): simplified form is (x²−x+1)/(x−1), with a hole at x = −1 and vertical asymptote at x = 1. Polynomial long division of x²−x+1 by x−1: quotient x, remainder 1, so f(x) = x + 1/(x−1). As x → ±∞ the term 1/(x−1) → 0, giving oblique asymptote y = x."
+    "explanation": "Factor: x³+1=(x+1)(x²−x+1); x²−1=(x+1)(x−1).\\nCancel (x+1) → hole at x=−1; VA at x=1.\\nLong divide (x²−x+1)÷(x−1): quotient=x → oblique asymptote y=x."
   },
   {
     "question": "Which of the following rational functions has BOTH a hole AND an oblique asymptote?",
@@ -1185,7 +1185,7 @@
       "f(x) = (x³−8)/(x²−4)"
     ],
     "correct": 3,
-    "explanation": "A function needs BOTH a hole (cancelled factor) AND an oblique asymptote (deg(num) = deg(denom)+1 after simplification).\nFirst choice (x²−4)/(x+2) = (x−2): hole at x = −2, but the simplified form is linear — the line itself, not a separate oblique asymptote.\nSecond choice (x²+x−2)/(x−1) = (x+2)(x−1)/(x−1) = x+2: hole at x = 1, result linear — same issue.\nThird choice x/(x²−1): no hole (x does not cancel); proper rational → horizontal asymptote y = 0.\nFourth choice (x³−8)/(x²−4) = (x−2)(x²+2x+4)/[(x−2)(x+2)]: cancel (x−2) → hole at x = 2; simplified (x²+2x+4)/(x+2) has deg(num)=2 = deg(denom)+1, giving an oblique asymptote ✓.\nOnly the fourth choice has both a hole and an oblique asymptote."
+    "explanation": "Need: hole (cancelled factor) AND oblique asymptote (deg diff=1 after cancellation).\\n(x³−8)/(x²−4): cancel (x−2) → hole at x=2; remaining (x²+2x+4)/(x+2) has deg diff=1 → oblique ✓"
   },
   {
     "question": "Find the partial fraction decomposition of (3x+16)/[(x−2)(x²+7)].",
@@ -1196,7 +1196,7 @@
       "3/(x−2) + (x+1)/(x²+7)"
     ],
     "correct": 0,
-    "explanation": "Write 3x+16 = A(x²+7)+(Bx+C)(x−2).\nLet x=2: 22=11A → A=2.\nExpand: 3x+16=2x²+14+Bx²−2Bx+Cx−2C. Equate x²: 0=2+B → B=−2. Equate x: 3=−2B+C=4+C → C=−1. Equate constant: 16=14−2C=14+2=16 ✓.\nResult: 2/(x−2)+(−2x−1)/(x²+7)."
+    "explanation": "Set 3x+16=A(x²+7)+(Bx+C)(x−2).\\nx=2: 22=11A → A=2. Match x²: B=−2. Match x: C=−1.\\nResult: 2/(x−2) + (−2x−1)/(x²+7)."
   },
   {
     "question": "Find the partial fraction decomposition of (2x³−15x+1)/(x²−9) using long division first.",
@@ -1207,7 +1207,7 @@
       "2x − 5/[3(x−3)] + 4/[3(x+3)]"
     ],
     "correct": 1,
-    "explanation": "Long division of 2x³−15x+1 by x²−9: quotient 2x, remainder 2x³−15x+1 − 2x(x²−9) = 3x+1.\nSo f(x) = 2x + (3x+1)/(x²−9).\nPartial fractions: (3x+1)/[(x−3)(x+3)] = A/(x−3) + B/(x+3).\nMultiply through: 3x+1 = A(x+3) + B(x−3).\nSet x = 3: 10 = 6A → A = 5/3.\nSet x = −3: −8 = −6B → B = 4/3.\nVerify: (5/3)(x+3) + (4/3)(x−3) = (5x+15+4x−12)/3 = (9x+3)/3 = 3x+1 ✓.\nResult: 2x + 5/[3(x−3)] + 4/[3(x+3)]."
+    "explanation": "Long divide: remainder=3x+1 → f=2x+(3x+1)/(x²−9).\\nPFD: x=3→A=5/3; x=−3→B=4/3.\\nResult: 2x + 5/[3(x−3)] + 4/[3(x+3)]."
   },
   {
     "question": "What are A, B, C in the decomposition: (x²+14)/[(x+2)(x−1)²] = A/(x+2) + B/(x−1) + C/(x−1)²?",
@@ -1218,7 +1218,7 @@
       "A=2, B=1, C=−5"
     ],
     "correct": 2,
-    "explanation": "Multiply both sides by (x+2)(x−1)²: x²+14=A(x−1)²+B(x+2)(x−1)+C(x+2).\nLet x=1: 15=3C→C=5.\nLet x=−2: 18=9A→A=2.\nLet x=0: 14=A(1)+B(−2)(−1)+C(2)=2+2B+10→2B=2→B=−1.\nSo A=2, B=−1, C=5."
+    "explanation": "x=1: 15=3C → C=5. x=−2: 18=9A → A=2.\\nx=0: 14=2+2B+10 → B=−1.\\nResult: A=2, B=−1, C=5."
   },
   {
     "question": "Find all zeros of f(x) = (x²+5x+6)/(x²−2x−8).",
@@ -1229,7 +1229,7 @@
       "x=−3 is the only zero; x=−2 is a hole (not a zero)"
     ],
     "correct": 3,
-    "explanation": "Factor: num=(x+3)(x+2), denom=(x−4)(x+2).\nCancel (x+2): simplified=(x+3)/(x−4) with hole at x=−2. Setting x+3=0 gives x=−3; verify denom at x=−3: −3−4=−7≠0.\nSo x=−3 is a genuine zero. x=−2 is a hole (function undefined), not a zero."
+    "explanation": "Factor: num=(x+3)(x+2); denom=(x−4)(x+2). Cancel (x+2) → hole at x=−2.\\nSimplified: (x+3)/(x−4). Zero: x=−3 (denom at −3: −7≠0) → genuine zero ✓"
   },
   {
     "question": "How many distinct zeros does f(x) = (x⁴−1)/(x²+1) have?",
@@ -1240,7 +1240,7 @@
       "4 zeros"
     ],
     "correct": 0,
-    "explanation": "Factor numerator: x⁴−1=(x²−1)(x²+1)=(x−1)(x+1)(x²+1).\nCancel (x²+1): simplified=(x²−1)=(x−1)(x+1).\nDomain: denominator x²+1>0 always, so domain=ℝ. Zeros: x=1 and x=−1 (both make simplified numerator zero, and x²+1≠0). 2 distinct zeros."
+    "explanation": "Factor: x⁴−1=(x²−1)(x²+1). Cancel (x²+1) → simplified=x²−1=(x−1)(x+1).\\nZeros: x=1 and x=−1 → 2 zeros."
   },
   {
     "question": "A car travels 120 km. A second car travels the same distance but 20 km/h faster and arrives 1 hour earlier. Find the speed of the first car.",
@@ -1251,7 +1251,7 @@
       "80 km/h"
     ],
     "correct": 1,
-    "explanation": "Let v km/h be the speed of the first car. Time difference: 120/v − 120/(v+20) = 1.\nMultiply by v(v+20): 120(v+20) − 120v = v(v+20), so 2400 = v²+20v.\nRearrange: v²+20v−2400 = 0.\nFactor: (v+60)(v−40) = 0.\nSince v > 0, v = 40 km/h.\nCheck: 120/40 − 120/60 = 3 − 2 = 1 hour ✓."
+    "explanation": "Time equation: 120/v−120/(v+20)=1 → 2400=v²+20v → (v+60)(v−40)=0.\\nv=40 km/h. Check: 120/40−120/60=3−2=1 ✓"
   },
   {
     "question": "Zinabu can plant 200 coffee trees in 4 days. Taddes can plant 180 coffee trees in 6 days. Working together, how many days does it take them to plant 240 trees?",
@@ -1262,7 +1262,7 @@
       "5 days"
     ],
     "correct": 2,
-    "explanation": "Zinabu's rate: 200/4=50 trees/day. Taddes's rate: 180/6=30 trees/day.\nCombined: 80 trees/day. Days for 240 trees: 240/80=3 days."
+    "explanation": "Zinabu: 50 trees/day; Taddes: 30 trees/day → together: 80 trees/day.\\n240 trees ÷ 80 = 3 days."
   },
   {
     "question": "In a class, there are 8 more boys than girls. The ratio of boys to girls is 8:7. How many boys are in the class?",
@@ -1273,7 +1273,7 @@
       "64"
     ],
     "correct": 3,
-    "explanation": "Let girls=g, boys=g+8. Ratio: (g+8)/g=8/7 → 7(g+8)=8g → 7g+56=8g → g=56. Boys=56+8=64."
+    "explanation": "Let girls=g, boys=g+8. Ratio: (g+8)/g=8/7 → 7g+56=8g → g=56.\\nBoys=56+8=64."
   },
   {
     "question": "A tank has two inlet pipes and one outlet pipe. Pipe A fills the tank in 4 hours, Pipe B in 6 hours, and the outlet empties it in 12 hours. How long to fill the tank if all three operate simultaneously?",
@@ -1284,7 +1284,7 @@
       "6 hours"
     ],
     "correct": 0,
-    "explanation": "Net rate = 1/4+1/6−1/12.\nLCD=12: 3/12+2/12−1/12=4/12=1/3 per hour. Time=3 hours."
+    "explanation": "Net rate=1/4+1/6−1/12=3/12+2/12−1/12=4/12=1/3 tank/hr.\\nTime=3 hours."
   },
   {
     "question": "Find the domain of f(x) = (x+1)/√(x²−4).",
@@ -1295,7 +1295,7 @@
       "(−2, 2)"
     ],
     "correct": 1,
-    "explanation": "For a square root in the denominator, we need x²−4 > 0 (strictly, since it's in the denominator). x²>4 → |x|>2 → x<−2 or x>2.\nDomain: (−∞,−2)∪(2,∞). Note: this is not a rational expression (the radical is in denominator), but this domain concept extends naturally."
+    "explanation": "Need x²−4>0 (strictly, denominator can't be zero or negative).\\nx²>4 → |x|>2 → domain: (−∞,−2)∪(2,∞)."
   },
   {
     "question": "Find the domain of f(x) = (x²−9)/[(x−3)(x²+2x+1)].",
@@ -1306,18 +1306,18 @@
       "ℝ \\ {−3, 3, −1}"
     ],
     "correct": 2,
-    "explanation": "Denominator: (x−3)(x²+2x+1)=(x−3)(x+1)². Zeros: x=3 and x=−1 (double root).\nNumerator: x²−9=(x−3)(x+3).\nThe factor (x−3) cancels, leaving (x+3)/(x+1)² with a hole at x=3. But domain restriction is based on the ORIGINAL denominator: x≠3 and x≠−1.\nDomain: ℝ \\ {3,−1}."
+    "explanation": "Factor denom=(x−3)(x+1)². Excluded: x=3 and x=−1.\\nNumerator x²−9=(x−3)(x+3) cancels (x−3) → hole at x=3; but x=3 is still excluded from domain."
   },
   {
     "question": "Determine whether f(x) = (x²−2x−3)/(x²−x−6) is defined at x=3 and x=−1. Classify each point.",
     "options": [
-      "x=3 is a hole (removable discontinuity); x=−1 is a vertical asymptote (but −1 not in domain anyway — recheck)",
+      "x=3 is a hole (removable discontinuity); x=−1 is a vertical asymptote.",
       "x=3 is a vertical asymptote; x=−1 is a hole",
       "Both x=3 and x=−1 are vertical asymptotes",
       "x=3 is a hole with limit value 4/5; x=−2 is a vertical asymptote"
     ],
     "correct": 3,
-    "explanation": "Factor: num=(x−3)(x+1); denom=(x−3)(x+2).\nCancel (x−3): simplified=(x+1)/(x+2) with hole at x=3 where limit=(3+1)/(3+2)=4/5. Remaining denom zero: x=−2 is a vertical asymptote (not x=−1 — note: x=−1 is in the numerator, not creating any special behavior in the simplified form).\nDomain: ℝ\\ {3,−2}."
+    "explanation": "Factor: num=(x−3)(x+1); denom=(x−3)(x+2). Cancel (x−3) → hole at x=3, limit=4/5.\\nVA at x=−2 (remaining denom zero). x=−1 is in the domain — it is not a special point."
   },
   {
     "question": "Simplify the complex fraction: (x − x/(x+1)) / (1 − 1/(x+1)).",
@@ -1328,7 +1328,7 @@
       "x+2"
     ],
     "correct": 0,
-    "explanation": "Numerator: x − x/(x+1) = [x(x+1)−x]/(x+1) = x²/(x+1).\nDenominator: 1 − 1/(x+1) = (x+1−1)/(x+1) = x/(x+1).\nDivide: [x²/(x+1)] ÷ [x/(x+1)] = x²/x = x."
+    "explanation": "Num: x−x/(x+1)=x²/(x+1). Denom: 1−1/(x+1)=x/(x+1).\\nDivide: x²/(x+1)÷x/(x+1)=x²/x=x."
   },
   {
     "question": "Simplify: [(1/x) − (1/y)] / [(1/x²) − (1/y²)].",
@@ -1339,7 +1339,7 @@
       "(x−y)/(xy)"
     ],
     "correct": 1,
-    "explanation": "Numerator: (y−x)/(xy).\nDenominator: (y²−x²)/(x²y²) = (y−x)(y+x)/(x²y²).\nDivide: [(y−x)/(xy)] ÷ [(y−x)(y+x)/(x²y²)] = [(y−x)·x²y²] / [xy·(y−x)(y+x)] = xy/(x+y)."
+    "explanation": "Num=(y−x)/(xy). Denom=(y−x)(y+x)/(x²y²).\\nDivide: multiply by reciprocal → xy/(x+y)."
   },
   {
     "question": "Simplify: (a/b − b/a) / (a/b + b/a + 2).",
@@ -1350,7 +1350,7 @@
       "(a²−b²)/(a+b)²"
     ],
     "correct": 2,
-    "explanation": "Multiply numerator and denominator by ab: Num: a²−b²=(a−b)(a+b). Denom: a²+b²+2ab=(a+b)².\nResult: (a−b)(a+b)/(a+b)²=(a−b)/(a+b)."
+    "explanation": "Multiply by ab: Num=a²−b²=(a−b)(a+b). Denom=(a+b)².\\nResult: (a−b)/(a+b)."
   },
   {
     "question": "Consider f(x) = (x^π + 1)/(x² − 1). Is this a rational expression?",
@@ -1361,18 +1361,18 @@
       "No — the exponent π is irrational and not a non-negative integer, so x^π is not a polynomial"
     ],
     "correct": 3,
-    "explanation": "For x^π to be a polynomial term, its exponent must be a non-negative integer. π is irrational — it is neither an integer nor rational. Approximating π ≈ 3.14 doesn't make x^π a polynomial; x^π and x³ are genuinely different functions. the first choice confuses π (the coefficient possibility) with π (the exponent). The expression is NOT a rational expression."
+    "explanation": "π is irrational — not a non-negative integer — so x^π is not a polynomial.\\nThe numerator is not a polynomial → not a rational expression ✗"
   },
   {
     "question": "Is (√5·x³ + 2x − 1) / (x² + √3) a rational expression?",
     "options": [
-      "Yes — both numerator and denominator are polynomials with real (irrational) coefficients, so their ratio is a rational expression",
+      "Yes — num and denom are polynomials with real coefficients, so their ratio is a rational expression.",
       "No — irrational numbers like √5 and √3 cannot be polynomial coefficients",
       "No — √3 in the denominator means the denominator is not a polynomial",
       "Yes — but only if √5 and √3 are replaced by their decimal approximations"
     ],
     "correct": 0,
-    "explanation": "Polynomial coefficients may be any real number, including irrationals. √5·x³+2x−1 is a polynomial (degrees 3,1,0 — all non-negative integers) with real coefficients. Similarly x²+√3 is a polynomial. Their ratio is a rational expression. Irrational numbers are real numbers and valid polynomial coefficients."
+    "explanation": "√5 and √3 are real numbers — valid polynomial coefficients.\\nAll exponents (3,1,0 and 2,0) are non-negative integers → rational expression ✓"
   },
   {
     "question": "Which expression below IS a rational expression?",
@@ -1383,7 +1383,7 @@
       "(x^(3/2) + 1) / (x + 1)"
     ],
     "correct": 1,
-    "explanation": "A rational expression requires both numerator and denominator to be polynomials (non-negative integer exponents, real coefficients).\nFirst choice: sin(x) is a transcendental function, not a polynomial — excluded.\nSecond choice: (x³+√7·x−π)/(2x²−√2) — numerator has exponents 3, 1, 0 with real coefficients (√7 and π are real numbers); denominator has exponent 2 with real coefficient √2. Both are polynomials, so this IS a rational expression ✓.\nThird choice: e^x is transcendental, not a polynomial — excluded.\nFourth choice: x^(3/2) has a non-integer exponent, so the numerator is not a polynomial — excluded."
+    "explanation": "sin(x), e^x: transcendental — not polynomials ✗\\nx^(3/2): non-integer exponent ✗\\n(x³+√7x−π)/(2x²−√2): all exponents are integers, all coefficients are real → rational ✓"
   },
   {
     "question": "For f(x) = (2x+1)/(x−4), determine: the x-intercept, y-intercept, and whether f crosses its horizontal asymptote.",
@@ -1394,7 +1394,7 @@
       "x-int: (1/2, 0); y-int: (0, 1/4); HA y=2; f crosses y=2"
     ],
     "correct": 2,
-    "explanation": "x-int: 2x+1=0→x=−1/2, giving (−1/2,0). y-int: f(0)=1/(−4)=−1/4, giving (0,−1/4). HA: equal degrees, ratio=2/1=2, so y=2.\nSet f=2: (2x+1)/(x−4)=2→2x+1=2x−8→1=−8, contradiction. The graph never crosses y=2."
+    "explanation": "x-int: 2x+1=0 → x=−1/2. y-int: f(0)=−1/4.\\nHA: y=2. Set f=2: 1=−8, contradiction → graph never crosses y=2."
   },
   {
     "question": "For f(x) = x²/(x²+2x−8), find where the graph crosses its horizontal asymptote.",
@@ -1405,7 +1405,7 @@
       "x = 4"
     ],
     "correct": 3,
-    "explanation": "HA: equal degrees, ratio=1/1=1, so y=1.\nSet f=1: x²/(x²+2x−8)=1→x²=x²+2x−8→0=2x−8→x=4.\nCheck: x=4 is in the domain (denom at x=4: 16+8−8=16≠0). The graph crosses y=1 at x=4."
+    "explanation": "HA: y=1. Set f=1: x²=x²+2x−8 → 2x=8 → x=4.\\nDenom at x=4: 16+8−8=16≠0 → valid ✓ Graph crosses y=1 at x=4."
   },
   {
     "question": "For f(x) = (x²−2x)/(x²+x−6), determine the sign of f on each interval of its domain.",
@@ -1416,7 +1416,7 @@
       "f > 0 on (−∞, −3) ∪ (0, ∞) excluding x = 2; f < 0 on (−3, 0)"
     ],
     "correct": 3,
-    "explanation": "Factor: f(x) = x(x−2) / [(x+3)(x−2)].\nCancel (x−2): simplified form x/(x+3) with a hole at x = 2 and domain x ≠ −3.\nCritical points for sign: x = 0 (numerator zero) and x = −3 (excluded).\nSign of x/(x+3): x < −3: (−)/(−) = positive;\n−3 < x < 0: (−)/(+) = negative;\nx > 0 (x ≠ 2): (+)/(+) = positive.\nSo f > 0 on (−∞, −3) ∪ (0, ∞) with x ≠ 2, and f < 0 on (−3, 0)."
+    "explanation": "Cancel (x−2): simplified=x/(x+3), hole at x=2.\\nSign: x<−3 → +; −3<x<0 → −; x>0 (x≠2) → +\\nf>0 on (−∞,−3)∪(0,∞)\\\\{2}; f<0 on (−3,0)."
   },
   {
     "question": "A student claims: 'If f(x) and g(x) are both rational functions, then f(x)·g(x) is also a rational function.' Is this true?",
@@ -1427,18 +1427,18 @@
       "False — multiplication of rational functions is not always defined"
     ],
     "correct": 1,
-    "explanation": "If f=P/Q and g=R/S where P,Q,R,S are polynomials, then f·g=(PR)/(QS).\nSince the product of two polynomials is a polynomial, PR and QS are polynomials.\nTherefore f·g is a ratio of polynomials — a rational function. The claim is TRUE. The only caveat is the domain (points where Q=0 or S=0 must be excluded), but the expression itself is rational."
+    "explanation": "f=P/Q and g=R/S → f·g=(PR)/(QS).\\nProduct of polynomials is a polynomial → f·g is rational ✓"
   },
   {
     "question": "Which statement about holes (removable discontinuities) in rational functions is CORRECT?",
     "options": [
       "A hole at x=a means lim(x→a) f(x) does not exist",
       "A hole and a vertical asymptote are the same thing",
-      "A hole occurs when a factor cancels from both numerator and denominator; the limit exists at that point but f(a) is undefined",
+      "A hole occurs when a factor cancels from both num and denom; f(a) is undefined but the limit exists.",
       "A hole means the function is defined at x=a but the graph has a gap at a different x-value"
     ],
     "correct": 2,
-    "explanation": "A hole (removable discontinuity) at x=a occurs when a common factor (x−a) cancels from numerator and denominator.\nAfter cancellation, the simplified function has a finite limit as x→a, but the original function is undefined at x=a. This is different from a vertical asymptote, where the limit is ±∞. The limit EXISTS at a hole but f(a) does not."
+    "explanation": "A hole at x=a: factor (x−a) cancels from both num and denom.\\nf(a) is undefined, but lim_{x→a} f(x) exists and is finite."
   },
   {
     "question": "For a rational function f(x)=P(x)/Q(x) in lowest terms, the graph can cross a horizontal asymptote. Which statement is correct?",
@@ -1446,10 +1446,10 @@
       "The graph can never cross a horizontal asymptote",
       "If the graph crosses the horizontal asymptote, the asymptote is not really an asymptote",
       "The graph can only cross the horizontal asymptote if the asymptote is y=0",
-      "The graph can cross a horizontal asymptote at a finite point, but the function still approaches the asymptote as x→±∞"
+      "The graph can cross a HA at a finite point but still approaches it as x→±∞."
     ],
     "correct": 3,
-    "explanation": "A horizontal asymptote y=L describes end behavior (x→±∞), NOT the behavior near a specific finite point. The function can equal L for finite values of x (crossing the asymptote) while still approaching L as x→±∞. For example, f(x)=(x²−4)/(x²+1) has HA y=1 and crosses y=1 where x²−4=x²+1, i.e., no crossing here; but other functions do cross. Vertical asymptotes, by contrast, can never be crossed."
+    "explanation": "A horizontal asymptote describes end behavior (x→±∞) only.\\nThe graph can still cross the asymptote at a finite x-value — crossing doesn't contradict end behavior."
   },
   {
     "question": "What is the relationship between the degree of the numerator and denominator of f(x)=P(x)/Q(x) and the existence of a horizontal asymptote?",
@@ -1460,7 +1460,7 @@
       "HA exists only when deg(P) < deg(Q), giving y=0"
     ],
     "correct": 0,
-    "explanation": "Three cases: (1) deg(P)<deg(Q): HA is y=0, because the denominator dominates. (2) deg(P)=deg(Q): HA is y=aₙ/bₙ (ratio of leading coefficients). (3) deg(P)>deg(Q): No horizontal asymptote — if deg(P)=deg(Q)+1 there is an oblique asymptote; if the difference is larger, the asymptote is a higher-degree polynomial curve."
+    "explanation": "deg(P)<deg(Q) → HA: y=0. deg(P)=deg(Q) → HA: y=leading coeff ratio.\\ndeg(P)>deg(Q) → no horizontal asymptote."
   },
   {
     "question": "(UEE style) If f(x)=(x+1)/(x−1), which of the following is true about f⁻¹(x) (the inverse function)?",
@@ -1471,7 +1471,7 @@
       "f⁻¹(x) = 1/(x+1)"
     ],
     "correct": 1,
-    "explanation": "Solve y=(x+1)/(x−1) for x: y(x−1)=x+1 → yx−y=x+1 → x(y−1)=y+1 → x=(y+1)/(y−1).\nSo f⁻¹(x)=(x+1)/(x−1)=f(x). The function is indeed its own inverse — it is an involution. This is a special property of Möbius transformations of the form (ax+b)/(bx+a)."
+    "explanation": "Solve y=(x+1)/(x−1) for x: y(x−1)=x+1 → x=(y+1)/(y−1).\\nSo f⁻¹(x)=(x+1)/(x−1)=f(x) → f is its own inverse ✓"
   },
   {
     "question": "(UEE style) A 20 m building casts a 4 m shadow. At the same time, a tree casts a 7 m shadow. How tall is the tree?",
@@ -1482,7 +1482,7 @@
       "21 m"
     ],
     "correct": 2,
-    "explanation": "Similar triangles (same sun angle): height/shadow = 20/4 = 5. Tree height = 5 × 7 = 35 m."
+    "explanation": "Same sun angle → height/shadow is constant: 20/4=5.\\nTree height=5×7=35 m."
   },
   {
     "question": "(UEE style) The ratio of boys to girls in a school is 3:4 and there are 420 students total. How many girls are in the school?",
@@ -1493,7 +1493,7 @@
       "240"
     ],
     "correct": 3,
-    "explanation": "Total parts = 3+4=7. Girls = (4/7)×420 = 240."
+    "explanation": "Total parts=3+4=7. Girls' share=4/7.\\n(4/7)×420=240 girls."
   },
   {
     "question": "Simplify: (3x²+6x)/(x²+4x+4) · (x²+2x)/(6x²).",
@@ -1504,7 +1504,7 @@
       "(3x+6)/(2x)"
     ],
     "correct": 0,
-    "explanation": "Factor: 3x²+6x=3x(x+2); x²+4x+4=(x+2)²; x²+2x=x(x+2); 6x²=6x². Product: [3x(x+2)·x(x+2)] / [(x+2)²·6x²] = [3x²(x+2)²] / [6x²(x+2)²] = 3/6 = 1/2."
+    "explanation": "Factor: 3x(x+2); (x+2)²; x(x+2); 6x².\\nProduct: 3x²(x+2)²/[6x²(x+2)²]=3/6=1/2."
   },
   {
     "question": "Simplify: (x³−8)/(x²−4) ÷ (x²+2x+4)/(x+2).",
@@ -1515,7 +1515,7 @@
       "(x²+2x+4)/(x+2)"
     ],
     "correct": 1,
-    "explanation": "Factor: x³−8 = (x−2)(x²+2x+4) and x²−4 = (x−2)(x+2).\nSimplify the first fraction: (x−2)(x²+2x+4) / [(x−2)(x+2)] = (x²+2x+4)/(x+2). Dividing by (x²+2x+4)/(x+2) means multiplying by (x+2)/(x²+2x+4), so the entire expression equals (x²+2x+4)/(x+2) · (x+2)/(x²+2x+4) = 1.\nEquivalently: [(x−2)(x²+2x+4)]/[(x−2)(x+2)] · (x+2)/(x²+2x+4) = 1."
+    "explanation": "Cancel (x−2) in first fraction → (x²+2x+4)/(x+2).\\nDivide by (x²+2x+4)/(x+2): multiply by reciprocal → 1."
   },
   {
     "question": "Simplify completely: (x²−x−6)/(x²+x−2) · (x²+3x+2)/(x²−9).",
@@ -1526,7 +1526,7 @@
       "(x+1)/(x−3)"
     ],
     "correct": 2,
-    "explanation": "Factor: x²−x−6 = (x−3)(x+2); x²+x−2 = (x+2)(x−1); x²+3x+2 = (x+2)(x+1); x²−9 = (x−3)(x+3). Product: [(x−3)(x+2) · (x+2)(x+1)] / [(x+2)(x−1) · (x−3)(x+3)].\nCancel one (x−3) and one (x+2): (x+2)(x+1) / [(x−1)(x+3)].\nNo further cancellation is possible.\nExcluded values: x ≠ 1, −2, 3, −3."
+    "explanation": "Factor all: (x−3)(x+2); (x+2)(x−1); (x+2)(x+1); (x−3)(x+3).\\nCancel one (x−3) and one (x+2) → (x+2)(x+1)/[(x−1)(x+3)]."
   },
   {
     "question": "Add: (x+7)/(2x+12) + 6/(x²−36).",
@@ -1537,7 +1537,7 @@
       "(x−5)/[2(x−6)], x≠6, x≠−6"
     ],
     "correct": 3,
-    "explanation": "Factor: 2x+12=2(x+6); x²−36=(x+6)(x−6).\nLCD=2(x+6)(x−6).\nNumerator: (x+7)(x−6)+12 = x²+x−42+12 = x²+x−30 = (x+6)(x−5).\nResult: (x+6)(x−5)/[2(x+6)(x−6)] = (x−5)/[2(x−6)], x≠6, x≠−6."
+    "explanation": "Factor: 2(x+6); (x+6)(x−6). LCD=2(x+6)(x−6).\\nNum: (x+7)(x−6)+12=x²+x−30=(x+6)(x−5) → cancel (x+6) → (x−5)/[2(x−6)]."
   },
   {
     "question": "Simplify: 1/(x−1) − 2/(x²−1) + 1/(x+1).",
@@ -1548,7 +1548,7 @@
       "2/(x−1)"
     ],
     "correct": 0,
-    "explanation": "LCD=(x−1)(x+1)=x²−1.\nNumerators: (x+1)−2+(x−1)=x+1−2+x−1=2x.\nResult: 2x/(x²−1).\nCheck: factor as 2x/[(x−1)(x+1)]."
+    "explanation": "LCD=x²−1. Num: (x+1)−2+(x−1)=2x.\\nResult: 2x/(x²−1)."
   },
   {
     "question": "Solve the rational equation: x/(x−2) + 4/(x+2) = 8/(x²−4).",
@@ -1559,7 +1559,7 @@
       "x = −2 and x = 2"
     ],
     "correct": 0,
-    "explanation": "Domain: x ≠ ±2.\nMultiply both sides by (x−2)(x+2): x(x+2) + 4(x−2) = 8.\nExpand: x²+2x+4x−8 = 8, giving x²+6x−16 = 0.\nFactor: (x+8)(x−2) = 0, so x = −8 or x = 2.\nSince x = 2 is excluded from the domain, it is extraneous.\nCheck x = −8: (−8)/(−10) + 4/(−6) = 4/5 − 2/3 = 2/15; RHS: 8/(64−4) = 8/60 = 2/15 ✓.\nSolution: x = −8."
+    "explanation": "Multiply by (x−2)(x+2): x(x+2)+4(x−2)=8 → x²+6x−16=0 → (x+8)(x−2)=0.\\nx=−8 or x=2; x=2 excluded. Check x=−8: 4/5−2/3=2/15=8/60 ✓"
   },
   {
     "question": "If (2x+3)/(x−1) = 10/(x²−1) + (2x−3)/(x+1), what is the solution set?",
@@ -1570,7 +1570,7 @@
       "{0}"
     ],
     "correct": 2,
-    "explanation": "Domain: x≠±1.\nMultiply by (x−1)(x+1): (2x+3)(x+1)=10+(2x−3)(x−1). Left: 2x²+5x+3. Right: 10+2x²−5x+3=2x²−5x+13.\nSet equal: 2x²+5x+3=2x²−5x+13 → 10x=10 → x=1. But x=1 is excluded.\nSolution set: {} (empty)."
+    "explanation": "Multiply by (x−1)(x+1): (2x+3)(x+1)=10+(2x−3)(x−1) → 10x=10 → x=1.\\nBut x=1 excluded → extraneous → solution set: {}."
   },
   {
     "question": "As x → ∞, which of the following rational functions approaches 3?",
@@ -1581,7 +1581,7 @@
       "(3x²+x−1)/(x²−2)"
     ],
     "correct": 3,
-    "explanation": "As x → ∞, a rational function approaches its horizontal asymptote, determined by the ratio of leading coefficients when degrees are equal.\nFirst choice (3x+1)/(x²−2): deg(num)=1 < deg(denom)=2, so f → 0.\nSecond choice (x²+3)/(x+2): deg(num)=2 > deg(denom)=1, so f → ∞.\nThird choice (3x³−1)/(x²+1): deg(num)=3 > deg(denom)=2, so f → ∞.\nFourth choice (3x²+x−1)/(x²−2): equal degrees (2), leading-coefficient ratio = 3/1 = 3, so f(x) → 3 as x → ∞ ✓."
+    "explanation": "Equal degrees → HA = leading coefficient ratio.\\n(3x²+x−1)/(x²−2): ratio=3/1=3 → f→3 as x→∞ ✓"
   },
   {
     "question": "For f(x)=(x−2)/[(x−3)²(x+1)], as x→−1⁺, what does f(x) approach?",
@@ -1592,7 +1592,7 @@
       "1/16"
     ],
     "correct": 0,
-    "explanation": "As x→−1⁺: numerator x−2→−3<0; (x−3)²→(−4)²=16>0 (always positive); (x+1)→0⁺ (approaching from right).\nDenominator: 16·(0⁺)=0⁺. f(x)=(negative)/(0⁺)→−∞."
+    "explanation": "Near x=−1⁺: num=−3<0; (x−3)²=16>0; (x+1)→0⁺.\\nDenom=16×0⁺→0⁺. (negative)/(0⁺) → −∞."
   },
   {
     "question": "For f(x) = (x²−2x)/(x²+x−6), which statement is NOT true?",
@@ -1603,6 +1603,6 @@
       "The horizontal asymptote is y=1"
     ],
     "correct": 1,
-    "explanation": "Factor: f=x(x−2)/[(x+3)(x−2)].\nCancel (x−2): simplified=x/(x+3), hole at x=2.\nDomain: ℝ\\ {2,−3} ✓ (A is TRUE). Hole at x=2 ✓ (B is TRUE). HA: equal degrees, ratio=1 ✓ (C is TRUE). Derivative of x/(x+3): 3/(x+3)²>0 always.\nSo the simplified function is INCREASING, not decreasing. Statement D is FALSE — the correct statement would be 'increasing'."
+    "explanation": "Simplified=x/(x+3) with hole at x=2. Derivative: 3/(x+3)²>0 → increasing, not decreasing.\\nSo 'decreasing on (−3,2)' is NOT true ✓"
   }
 ]
