@@ -352,7 +352,7 @@
     "explanation": "Spider web spinning is instinctive behavior because it is inherited and performed without prior learning. The pattern appears naturally in the animal’s behavior."
   },
   {
-    "question": "Which option correctly matches the following behaviors with their terms? 1. Movement away from light; 2. Woodlice movement relative to light; 3. Euglena moving toward light; 4. Spider web-making; 5. Withdrawal from a hot object. A. Reflex; B. Instinctive behavior; C. Positive phototaxis; D. Kinesis; E. Negative taxis",
+    "question": "Match the behaviors with their terms: 1. Movement away from light; 2. Woodlice response to light; 3. Euglena moving toward light; 4. Spider web-making; 5. Withdrawal from a hot object.",
     "options": [
       "1-E, 2-D, 3-C, 4-B, 5-A",
       "1-D, 2-E, 3-C, 4-B, 5-A",
@@ -429,7 +429,7 @@
     "explanation": "The unconditioned response is salivation at the sight of food, which occurs naturally without conditioning."
   },
   {
-    "question": "Which option correctly matches the following learning terms with their definitions? 1. Insight learning; 2. Sensitization; 3. Habituation; 4. Operant conditioning. A. Reduced response after repeated harmless stimulus; B. Learning by mental trial and error; C. Increased response after a harmful stimulus; D. Learning shaped by reward or punishment",
+    "question": "Match the learning terms with their definitions: 1. Insight learning; 2. Sensitization; 3. Habituation; 4. Operant conditioning.",
     "options": [
       "1-B, 2-C, 3-A, 4-D",
       "1-C, 2-B, 3-A, 4-D",
@@ -1124,9 +1124,9 @@
   {
     "question": "Which option correctly classifies thermoregulatory adaptations?",
     "options": [
-      "Physiological: sweating and vasodilation; behavioral: basking and hibernation; morphological: fur and fat",
-      "Physiological: basking and hibernation; behavioral: sweating and vasodilation; morphological: fur and fat",
-      "Physiological: fur and fat; behavioral: sweating and vasodilation; morphological: basking and hibernation",
+      "Physiological: sweating & vasodilation; behavioral: basking; morphological: fur & fat",
+      "Physiological: basking; behavioral: sweating & vasodilation; morphological: fur & fat",
+      "Physiological: fur & fat; behavioral: sweating & vasodilation; morphological: hibernation",
       "Physiological: shivering only; behavioral: sweating only; morphological: temperature only"
     ],
     "correct": 0,
