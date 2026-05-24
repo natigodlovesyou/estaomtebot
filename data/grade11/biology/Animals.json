@@ -3,12 +3,12 @@
     "question": "Sexual reproduction is characterized by all of the following EXCEPT:",
     "options": [
       "Involves one parent",
-      "Have diploid zygote",
-      "Have genetic variation",
-      "Fusion of male and female gametes"
+      "Produces diploid zygote",
+      "Produces genetic variation",
+      "Involves fusion of gametes"
     ],
     "correct": 0,
-    "explanation": "Sexual reproduction involves two parents (male and female), have genetic variation, and produce diploid zygote. 'Involves one parent' is a characteristic of asexual reproduction."
+    "explanation": "Sexual reproduction involves fusion of gametes from two parents and produces variation, not one parent."
   },
   {
     "question": "In animal embryonic developmental stage that forms germ layers is?",
@@ -19,7 +19,7 @@
       "Organogenesis"
     ],
     "correct": 1,
-    "explanation": "Gastrula is a multilayered embryo consisting of endoderm, mesoderm and ectoderm (germ layers)."
+    "explanation": "Gastrula is a multilayered embryo consisting of endoderm, mesoderm, and ectoderm. This is the stage when the main germ layers are established."
   },
   {
     "question": "Which one of the following is true about vertebrate animals?",
@@ -30,18 +30,18 @@
       "Most have external exoskeleton"
     ],
     "correct": 2,
-    "explanation": "Vertebrates are bilaterally symmetrical, have internal endoskeleton, and are heterotrophs."
+    "explanation": "Vertebrates are bilaterally symmetrical, have internal endoskeletons, and are heterotrophs. These features distinguish them from animals without a backbone."
   },
   {
     "question": "Sexual reproduction differs from asexual reproduction in that:",
     "options": [
       "Involves one parent",
-      "Takes short period",
-      "The offspring looks like its parents",
+      "Produces identical offspring",
+      "Does not involve gametes",
       "Brings genetic variation"
     ],
     "correct": 3,
-    "explanation": "Sexual reproduction involves two parents, there is genetic variation between the parent and offspring, and takes longer time."
+    "explanation": "Sexual reproduction involves fusion of gametes from two parents and produces genetic variation. That variation helps offspring differ from each other and from their parents."
   },
   {
     "question": "Which statement best describes vertebrates compared with invertebrates?",
@@ -52,7 +52,7 @@
       "Vertebrates have an external exoskeleton, while invertebrates have none"
     ],
     "correct": 0,
-    "explanation": "The key structural distinction is the presence of an internal endoskeleton in vertebrates."
+    "explanation": "The key structural distinction is the presence of an internal endoskeleton in vertebrates. Invertebrates do not have a vertebral column built on that same internal support."
   },
   {
     "question": "Arrange the following embryonic stages from simple to more complex development: cleavage, blastula, gastrula.",
@@ -66,7 +66,7 @@
     "explanation": "Embryonic development proceeds from cleavage to blastula and then to gastrula as the embryo becomes more organized."
   },
   {
-    "question": "What is the term for the immature form of an insect in incomplete metamorphosis?",
+    "question": "The immature stage of an insect in incomplete metamorphosis is called:",
     "options": [
       "Larva",
       "Pupa",
@@ -74,10 +74,10 @@
       "Infant"
     ],
     "correct": 2,
-    "explanation": "In an incomplete metamorphosis, the immature insect is known as nymph."
+    "explanation": "In incomplete metamorphosis, the immature stage is called a nymph. It resembles the adult in general form but lacks full reproductive maturity."
   },
   {
-    "question": "Which of the following life cycles of insects are completely similar to that of the adult?",
+    "question": "Which of the following insects undergoes incomplete metamorphosis?",
     "options": [
       "Honey bees",
       "House flies",
@@ -85,7 +85,7 @@
       "Grasshopper"
     ],
     "correct": 3,
-    "explanation": "Grasshopper life cycle is called incomplete metamorphosis, where the nymph is similar to that of the adult."
+    "explanation": "Grasshopper is a classic example of incomplete metamorphosis. The young stage, called a nymph, looks like a smaller version of the adult."
   },
   {
     "question": "During complete metamorphosis, which stages are the active feeding stage and the inactive resting stage, respectively?",
@@ -96,7 +96,7 @@
       "Egg, adult"
     ],
     "correct": 0,
-    "explanation": "The larva feeds actively, while the pupa is the non-feeding stage in complete metamorphosis."
+    "explanation": "The larva feeds actively, while the pupa is the non-feeding stage in complete metamorphosis. This resting stage allows major body reorganization before adulthood."
   },
   {
     "question": "Which of the following insects are grouped under complete metamorphosis?",
@@ -107,7 +107,7 @@
       "Cockroach"
     ],
     "correct": 1,
-    "explanation": "Examples of insects grouped under complete metamorphosis include: bee, wasp, flies, ant, moth."
+    "explanation": "Examples of insects grouped under complete metamorphosis include bee, wasp, flies, ant, and moth. These insects pass through egg, larva, pupa, and adult stages."
   },
   {
     "question": "Which of the following is called the reproductive stage in the insect life cycle?",
@@ -118,18 +118,18 @@
       "The egg stage"
     ],
     "correct": 2,
-    "explanation": "The reproductive stage of insect is called the adult stage."
+    "explanation": "The adult stage is the reproductive phase of an insect’s life cycle. At this stage, the insect mates and produces offspring."
   },
   {
     "question": "Which statement best distinguishes complete metamorphosis from incomplete metamorphosis?",
     "options": [
-      "Complete metamorphosis has only egg and adult stages",
-      "Incomplete metamorphosis always has a pupa stage",
-      "Complete metamorphosis is found only in mammals",
-      "Complete metamorphosis has larva and pupa stages; incomplete metamorphosis has nymph and no pupa stage"
+      "Egg and adult stages only",
+      "Larva and pupa stages are present; incomplete metamorphosis has a nymph and no pupa stage",
+      "Nymph and adult stages only",
+      "Pupa stage is absent in both types"
     ],
-    "correct": 3,
-    "explanation": "Complete metamorphosis includes a larval stage followed by a pupa stage, while incomplete metamorphosis develops through a nymph without a pupa."
+    "correct": 1,
+    "explanation": "Complete metamorphosis includes larva and pupa stages, while incomplete metamorphosis has a nymph stage and no pupa stage."
   },
   {
     "question": "Which insect pest is known for causing the most destructive swarming damage to crops?",
@@ -140,7 +140,7 @@
       "Cockroach"
     ],
     "correct": 0,
-    "explanation": "Locusts form destructive swarms that can devastate vegetation over large areas."
+    "explanation": "Locusts are notorious for forming large swarms that strip crops and vegetation rapidly. Their feeding behavior makes them one of the most destructive insect pests."
   },
   {
     "question": "Which insect is commonly cited as a rich edible source of protein?",
@@ -151,40 +151,40 @@
       "Housefly"
     ],
     "correct": 1,
-    "explanation": "Grasshoppers are often used as a protein-rich insect food source."
+    "explanation": "Grasshoppers are widely eaten in some regions because they contain a high amount of protein. They are a common example of edible insects."
   },
   {
-    "question": "Insects are beneficial because they can be:",
+    "question": "Which option lists only beneficial roles of insects?",
     "options": [
-      "Pollinators",
-      "Sources of food",
-      "Used as industrial raw materials",
-      "All of the above"
+      "Pollination, biological pest control, food, and raw materials",
+      "Disease transmission, crop destruction, and parasitism",
+      "House infestation, blood loss, and crop damage",
+      "Predation on livestock, venom production, and toxic waste"
     ],
-    "correct": 3,
-    "explanation": "Insects can pollinate plants, provide food, and supply useful raw materials."
+    "correct": 0,
+    "explanation": "Beneficial insect roles include pollination, biological pest control, food, and industrial raw materials."
   },
   {
     "question": "Which set contains only beneficial roles of insects?",
     "options": [
+      "Pollination, food, pest control, and raw materials",
       "Disease transmission, crop destruction, and parasitism",
-      "Predation on livestock, venom production, and toxic waste",
-      "Competition with crops, house infestation, and blood loss",
-      "Pollination, biological pest control, food, and industrial raw materials"
+      "House infestation, blood loss, and crop damage",
+      "Venom production, predation on livestock, and toxic waste"
     ],
-    "correct": 3,
-    "explanation": "Insects support agriculture, food supply, and industry through pollination, pest control, edible biomass, and useful products."
+    "correct": 0,
+    "explanation": "Beneficial insect roles include pollination, food production, pest control, and raw materials for industry."
   },
   {
     "question": "Which pair correctly matches an insect vector with the disease it transmits?",
     "options": [
       "Anopheles mosquito — malaria",
-      "Aedes mosquito — sleeping sickness",
-      "Tsetse fly — plague",
-      "Flea — typhus"
+      "Aedes mosquito — dengue",
+      "Tsetse fly — sleeping sickness",
+      "Flea — plague"
     ],
     "correct": 0,
-    "explanation": "Anopheles mosquitoes transmit malaria caused by Plasmodium."
+    "explanation": "Anopheles mosquito transmits malaria by carrying Plasmodium parasites from one host to another during blood feeding."
   },
   {
     "question": "Metamorphosis must occur before an amphibian can do which of the following?",
@@ -195,7 +195,7 @@
       "Lay eggs"
     ],
     "correct": 1,
-    "explanation": "Metamorphosis transforms the tadpole into the adult form adapted for life on land."
+    "explanation": "Metamorphosis changes a frog from a tadpole into an adult form suited for land. The adult body has lungs and limbs rather than the larval aquatic features."
   },
   {
     "question": "Amphibians must lay eggs in water primarily for what reason?",
@@ -206,7 +206,7 @@
       "The eggs need protection from predators"
     ],
     "correct": 2,
-    "explanation": "The eggs of amphibians are not amniotic and lack a shell membrane for protection. The eggs are covered in jelly-like substances to prevent drying out."
+    "explanation": "Amphibian eggs lack a protective shell and amniotic membranes, so they must be kept in water or a moist place."
   },
   {
     "question": "The younger or immature stage of frog, which lives in the water, is known as ___?",
@@ -217,7 +217,7 @@
       "Tadpole"
     ],
     "correct": 3,
-    "explanation": "Tadpole is the younger (immature) stage of frog."
+    "explanation": "A frog’s aquatic larval stage is the tadpole. It breathes with gills and later changes into the adult form during metamorphosis."
   },
   {
     "question": "Which option best describes the tadpole stage of a frog?",
@@ -233,13 +233,13 @@
   {
     "question": "Which statement best describes the larval stage of a frog compared with the adult stage?",
     "options": [
-      "The larva has legs and lungs; the adult has a tail and fins",
-      "The larva has a tail and fins and breathes with gills; the adult has legs and breathes with lungs",
-      "The larva is larger and terrestrial; the adult is smaller and aquatic",
-      "The larva is carnivorous; the adult is always herbivorous"
+      "Aquatic, gill-breathing, tailed, and herbivorous",
+      "Aquatic, lung-breathing, tailed, and herbivorous",
+      "Terrestrial, gill-breathing, tailless, and carnivorous",
+      "Aquatic, gill-breathing, tailless, and carnivorous"
     ],
-    "correct": 1,
-    "explanation": "Metamorphosis changes the body plan from a gilled, tailed larva to a legged adult that uses lungs."
+    "correct": 0,
+    "explanation": "The tadpole lives in water, breathes with gills, has a tail, and feeds mainly on plant material. These features are later replaced as metamorphosis produces the adult frog."
   },
   {
     "question": "Which courtship behavior do male frogs use to attract females during the breeding season?",
@@ -250,7 +250,7 @@
       "Tail wagging"
     ],
     "correct": 2,
-    "explanation": "Male frogs produce species-specific calls that help attract females during courtship."
+    "explanation": "Male frogs attract females by producing croaking calls during the breeding season. The calls help signal readiness to mate and may also identify the species."
   },
   {
     "question": "Which group of animals lays hard, leathery eggs?",
@@ -261,21 +261,21 @@
       "Crocodilians"
     ],
     "correct": 3,
-    "explanation": "Crocodilians produce hard, leathery eggs that provide better protection for the embryo."
+    "explanation": "Crocodilians lay hard, leathery eggs that resist drying and offer protection to the embryo. This type of egg is better suited to land than the soft eggs of amphibians."
   },
   {
     "question": "Which of the following is NOT a characteristic of rats?",
     "options": [
-      "Have one ovary",
+      "Fertilization occurs in the ovary",
       "They are mammals",
-      "Internal fertilization",
+      "Internal fertilization occurs",
       "Fertilization takes place in the oviduct"
     ],
     "correct": 0,
-    "explanation": "Rats are mammals with two ovaries, undergo internal fertilization, and fertilization occurs in the oviduct."
+    "explanation": "Rats are mammals that have internal fertilization, and fertilization occurs in the oviduct, not in the ovary."
   },
   {
-    "question": "During incubation, birds ensure an evenly distribution of heat through the egg through ___?",
+    "question": "During incubation, how do birds ensure even distribution of heat in the egg?",
     "options": [
       "Brood patch",
       "Rotating the egg",
@@ -283,7 +283,7 @@
       "Body temperature"
     ],
     "correct": 1,
-    "explanation": "During incubation, rotating the egg ensures an even distribution of heat."
+    "explanation": "Rotating the egg exposes different parts to heat, so the temperature is distributed evenly. This prevents one side from getting too hot while another stays too cool."
   },
   {
     "question": "The female reproductive organ of birds, where egg white (albumin) is made?",
@@ -294,7 +294,7 @@
       "Infundibulum"
     ],
     "correct": 2,
-    "explanation": "The magnum, which is the longest part of oviduct, is where the albumin is made."
+    "explanation": "In birds, the magnum portion of the oviduct secretes most of the egg white, or albumin. This added albumin helps cushion and nourish the developing embryo."
   },
   {
     "question": "Which statement about crocodile sex determination is correct?",
@@ -316,7 +316,7 @@
       "Is larger in size"
     ],
     "correct": 0,
-    "explanation": "Rat differs from giant mole rat in that rat has shorter gestation period, earlier sexual maturity, smaller in size, and lesser pups."
+    "explanation": "Compared with the giant mole rat, the rat reaches sexual maturity sooner and has a shorter reproductive cycle. This allows faster population growth."
   },
   {
     "question": "The unicellular organism, Euglena, swims using its flagellum toward an area of increased light intensity. What is this kind of response to a stimulus called? (EUEE, 2003 E.C)",
@@ -327,7 +327,7 @@
       "Positive kinesis"
     ],
     "correct": 1,
-    "explanation": "Movement of Euglena towards the source of light is positive photo taxis."
+    "explanation": "Movement toward a light source is positive phototaxis. Euglena shows this because it uses light as a directional stimulus for movement."
   },
   {
     "question": "Which one of the following is classified as innate behavior?",
@@ -338,7 +338,7 @@
       "Sensitization"
     ],
     "correct": 2,
-    "explanation": "Reflex behavior is inborn; it is not acquired."
+    "explanation": "Reflex action is an innate response because it is present from birth and does not require learning. It happens automatically when the stimulus is received."
   },
   {
     "question": "What kind of animal behavior does the spinning of a web in spider represent? (EUEE 2005 E.C)",
@@ -349,18 +349,18 @@
       "Instinctive behavior"
     ],
     "correct": 3,
-    "explanation": "Web spinning in spider is innate/instinctive behavior, which is not learned."
+    "explanation": "Spider web spinning is instinctive behavior because it is inherited and performed without prior learning. The pattern appears naturally in the animal’s behavior."
   },
   {
-    "question": "Which option correctly matches the behaviors with the appropriate terms?",
+    "question": "Which option correctly matches the following behaviors with their terms? 1. Movement away from light; 2. Woodlice movement relative to light; 3. Euglena moving toward light; 4. Spider web-making; 5. Withdrawal from a hot object. A. Reflex; B. Instinctive behavior; C. Positive phototaxis; D. Kinesis; E. Negative taxis",
     "options": [
-      "1-E, 2-C, 3-B, 4-D, 5-A",
-      "1-C, 2-E, 3-B, 4-D, 5-A",
-      "1-E, 2-B, 3-C, 4-D, 5-A",
-      "1-A, 2-C, 3-B, 4-E, 5-D"
+      "1-E, 2-D, 3-C, 4-B, 5-A",
+      "1-D, 2-E, 3-C, 4-B, 5-A",
+      "1-E, 2-C, 3-D, 4-B, 5-A",
+      "1-E, 2-D, 3-B, 4-C, 5-A"
     ],
     "correct": 0,
-    "explanation": "Movement away from light is negative taxis, woodlice movement relative to light is kinesis, Euglena moving toward light is positive phototaxis, spider web-making is instinctive, and withdrawal from a hot object is a reflex."
+    "explanation": "Negative taxis is movement away from light, kinesis is an undirected response to stimulus intensity, phototaxis is movement toward light, instinctive behavior is inborn, and a reflex is a rapid automatic withdrawal."
   },
   {
     "question": "A snail is moving on a bench; an experimenter taps the bench and the snail withdraws. After repeating the action the snail stops responding and just keeps on moving. The type of learning that occurred is:",
@@ -371,7 +371,7 @@
       "Insight"
     ],
     "correct": 1,
-    "explanation": "The snail stops responding and ignoring the stimulus after repeated exposure. This type of learning is habituation."
+    "explanation": "The snail gradually stops withdrawing after repeated harmless tapping. This reduced response to a repeated stimulus is called habituation."
   },
   {
     "question": "Young ducklings first see a researcher's red boots and then begin to follow him around. What kind of behaviour are the ducklings demonstrating?",
@@ -382,7 +382,7 @@
       "Operant conditioning"
     ],
     "correct": 2,
-    "explanation": "Imprinting is learning that ensures a bond during a critical period early in life."
+    "explanation": "Imprinting occurs during a sensitive period early in life and leads to following a moving object or individual."
   },
   {
     "question": "What do we call the learned behavior of a mouse that had escaped from the attack of a cat and jumped violently at a slight trivial object?",
@@ -404,7 +404,7 @@
       "Habituation"
     ],
     "correct": 0,
-    "explanation": "Latent learning is learning that takes place when an animal explores new surroundings and learns them without immediate reward or punishment. The information may then be used at another time."
+    "explanation": "The boy learned by observation and later used the stored information without immediate reinforcement."
   },
   {
     "question": "Which type of learned behaviour involves mental trial and error and finding solutions to problems without using any actual experience?",
@@ -426,18 +426,18 @@
       "The salivation of the dog at the sound of the bell"
     ],
     "correct": 2,
-    "explanation": "Unconditioned response (UR) is a reaction to the natural (original) stimulus (US). Salivating at the sight of food is natural and unconditioned."
+    "explanation": "The unconditioned response is salivation at the sight of food, which occurs naturally without conditioning."
   },
   {
-    "question": "Which option correctly matches the learning terms with their definitions?",
+    "question": "Which option correctly matches the following learning terms with their definitions? 1. Insight learning; 2. Sensitization; 3. Habituation; 4. Operant conditioning. A. Reduced response after repeated harmless stimulus; B. Learning by mental trial and error; C. Increased response after a harmful stimulus; D. Learning shaped by reward or punishment",
     "options": [
-      "1-A, 2-B, 3-D, 4-C",
-      "1-B, 2-D, 3-C, 4-A",
-      "1-C, 2-B, 3-D, 4-A",
+      "1-B, 2-C, 3-A, 4-D",
+      "1-C, 2-B, 3-A, 4-D",
+      "1-B, 2-A, 3-C, 4-D",
       "1-B, 2-C, 3-D, 4-A"
     ],
-    "correct": 3,
-    "explanation": "Insight learning solves problems mentally, sensitization increases response after a harmful stimulus, habituation is reduced response after repetition, and operant conditioning depends on consequences."
+    "correct": 0,
+    "explanation": "Insight learning uses mental problem-solving, sensitization increases responsiveness after a harmful stimulus, habituation reduces response after repeated harmless stimulation, and operant conditioning depends on reward or punishment."
   },
   {
     "question": "A daily cycle activity that occurs over a 24-hour period of time is called? (EUEE, 2011 E.C)",
@@ -448,7 +448,7 @@
       "Taxis behavior"
     ],
     "correct": 0,
-    "explanation": "Circadian rhythm or daily cycle synchronizes within 24 hours."
+    "explanation": "Circadian rhythm is a biological activity that repeats approximately every 24 hours. It is linked to the daily cycle of light and darkness."
   },
   {
     "question": "Which of the following may occur before animals engage in a territorial fight?",
@@ -459,7 +459,7 @@
       "All of the above"
     ],
     "correct": 3,
-    "explanation": "Animals often use ritual fighting, vocalizations, and threat displays before actual fighting."
+    "explanation": "Animals often use ritual fighting, vocalizations, and threat displays before actual fighting. These signals help settle disputes with less risk of injury."
   },
   {
     "question": "Which signaling method is commonly used by moths to locate mates over long distances?",
@@ -481,7 +481,7 @@
       "Courtship behavior"
     ],
     "correct": 3,
-    "explanation": "Courtship behavior is the behavior that precedes and leads to mating and reproduction."
+    "explanation": "Courtship behavior includes actions that lead to mating and reproduction. It helps animals recognize partners, attract mates, and prepare for breeding."
   },
   {
     "question": "Organisms that have constant internal body temperature are known as:",
@@ -492,10 +492,10 @@
       "Environmental dependent"
     ],
     "correct": 0,
-    "explanation": "Homothermic animals have constant internal body temperature."
+    "explanation": "Homothermic animals maintain a nearly constant internal body temperature even when the environment changes. This stability supports normal body function."
   },
   {
-    "question": "Which of the following mechanism is a physiological method of temperature regulation?",
+    "question": "Which of the following is a physiological method of temperature regulation?",
     "options": [
       "Hibernation",
       "Sweating",
@@ -503,7 +503,7 @@
       "Clothing"
     ],
     "correct": 1,
-    "explanation": "Sweating is a physiological heat loss mechanism of temperature regulation."
+    "explanation": "Sweating is a physiological way of losing heat because evaporation removes heat from the body surface. It helps lower body temperature efficiently."
   },
   {
     "question": "Among the following temperature regulating mechanisms, which ones are the physiological mechanisms of heat loss?",
@@ -514,7 +514,7 @@
       "Hibernation"
     ],
     "correct": 2,
-    "explanation": "Vasodilation is a physiological means of heat loss. Others are heat conserving mechanisms."
+    "explanation": "Vasodilation is a physiological means of heat loss. It increases blood flow near the skin so excess heat can be released more easily."
   },
   {
     "question": "Which term describes animals whose body temperature varies with the environment?",
@@ -536,7 +536,7 @@
       "Zebra"
     ],
     "correct": 0,
-    "explanation": "Examples of poikilothermic animals (variable body temperature) are lizard and amphibians."
+    "explanation": "Lizards are poikilothermic animals, so their body temperature changes with the surrounding environment. They rely strongly on external heat sources."
   },
   {
     "question": "What term refers to the way an animal interacts with other organisms and its physical environment?",
@@ -547,7 +547,7 @@
       "Metabolism"
     ],
     "correct": 1,
-    "explanation": "Behavior is the observable way an animal responds to its surroundings and other living things."
+    "explanation": "Behavior is the observable way an animal responds to its surroundings and other living things. It includes actions, movements, and internal reactions to stimuli."
   },
   {
     "question": "Which pair correctly completes the statement: genetically programmed and inborn behavior is ___, while behavior acquired through experience is ___?",
@@ -558,18 +558,18 @@
       "Taxis; kinesis"
     ],
     "correct": 2,
-    "explanation": "Innate behavior is present without prior learning, while learned behavior develops through experience."
+    "explanation": "Innate behavior is inborn and does not depend on prior learning, whereas learned behavior develops through experience and repeated exposure."
   },
   {
     "question": "A behavioral cycle repeated every 24 hours is called ___, while a yearly cycle is called ___?",
     "options": [
+      "Circadian rhythm; circannual rhythm",
       "Circannual rhythm; circadian rhythm",
-      "Homeostasis; rhythm",
-      "Taxis; kinesis",
-      "Circadian rhythm; circannual rhythm"
+      "Homeostasis; metabolism",
+      "Taxis; kinesis"
     ],
-    "correct": 3,
-    "explanation": "Circadian rhythms repeat about every 24 hours, whereas circannual rhythms follow a yearly cycle."
+    "correct": 0,
+    "explanation": "Circadian rhythms repeat in about 24 hours, while circannual rhythms repeat over about one year. They coordinate daily and seasonal biological activities."
   },
   {
     "question": "Which pair correctly describes an area defended by an animal and the behavior involved?",
@@ -580,7 +580,7 @@
       "Colony; imprinting"
     ],
     "correct": 0,
-    "explanation": "A territory is a defended area, and territoriality is the behavior of defending it."
+    "explanation": "A territory is a defended area, and territoriality is the behavior of protecting it from intruders. This usually involves food, shelter, or breeding space."
   },
   {
     "question": "What is the chemical substance produced by animals to influence the behavior of another animal of the same species?",
@@ -591,7 +591,7 @@
       "Antibody"
     ],
     "correct": 1,
-    "explanation": "Pheromones are chemical signals used for communication within the same species."
+    "explanation": "Pheromones are chemical signals used for communication among members of the same species. They can influence mating, alarm, and territorial responses."
   },
   {
     "question": "Which brain region regulates body fluid balance and temperature?",
@@ -602,7 +602,7 @@
       "Cerebrum"
     ],
     "correct": 2,
-    "explanation": "The hypothalamus plays a central role in temperature control and fluid balance."
+    "explanation": "The hypothalamus helps control body temperature and water balance by coordinating homeostatic responses. It links internal changes to appropriate body adjustments."
   },
   {
     "question": "Which pair of hormones correctly matches glucose storage and glucose release?",
@@ -613,7 +613,7 @@
       "Insulin; glucagon"
     ],
     "correct": 3,
-    "explanation": "Insulin promotes glycogen formation from glucose, while glucagon promotes glycogen breakdown to release glucose."
+    "explanation": "Insulin promotes conversion of glucose into glycogen for storage, while glucagon stimulates breakdown of glycogen back into glucose."
   },
   {
     "question": "Which of the following animals is homeothermic?",
@@ -624,7 +624,7 @@
       "Amphibians"
     ],
     "correct": 0,
-    "explanation": "Birds maintain a relatively constant internal body temperature, so they are homeothermic."
+    "explanation": "Birds are homeothermic because they maintain a relatively constant internal temperature. They regulate heat production and loss more effectively than reptiles and amphibians."
   },
   {
     "question": "Which one of the following is not an example of heat control?",
@@ -635,7 +635,7 @@
       "Shivering"
     ],
     "correct": 1,
-    "explanation": "Hibernation is a behavioral adaptation, not a direct physiological heat control mechanism."
+    "explanation": "Hibernation is a behavioral adaptation, not a direct physiological heat control mechanism. It reduces activity for survival during unfavorable conditions."
   },
   {
     "question": "When the body temperature of an animal drops from its normal, which one of the following will happen to correct it?",
@@ -646,7 +646,7 @@
       "Bathing"
     ],
     "correct": 2,
-    "explanation": "When body temperature drops, shivering generates heat to restore normal body temperature."
+    "explanation": "When body temperature falls, shivering produces heat through rapid muscle contraction. This helps restore the body toward its normal temperature."
   },
   {
     "question": "Reproductive behavior consists of all, EXCEPT ___?",
@@ -657,7 +657,7 @@
       "Defending territories"
     ],
     "correct": 3,
-    "explanation": "Defending territory is territorial behavior, not part of reproductive behavior."
+    "explanation": "Reproductive behavior is mainly concerned with mating and parental activities, so territorial defense belongs to a different behavioral category."
   },
   {
     "question": "Which one of the following is not an example of instinctive behavior?",
@@ -668,7 +668,7 @@
       "Movement of earthworm"
     ],
     "correct": 0,
-    "explanation": "Knee jerk is a reflex action, not an instinctive behavior."
+    "explanation": "Knee jerk is a reflex, not a complex instinctive behavior. It is a simple automatic response to a stimulus."
   },
   {
     "question": "Abel is a smoker, and Sisay begins to copy his smoking habit after observing him for some time. Abel is acting as what in this situation?",
@@ -679,18 +679,18 @@
       "Stimulus"
     ],
     "correct": 1,
-    "explanation": "A model is a person whose behavior is observed and copied by another learner."
+    "explanation": "The smoker acts as a model because the observer copies the behavior after watching it. Learning by observing another individual is a form of social learning."
   },
   {
     "question": "Why do the hairs on the body stand up during cold times?",
     "options": [
-      "Fright",
-      "Hormonal response",
-      "To trap air to heat us",
-      "To release air to cool us"
+      "To trap a layer of air for insulation",
+      "To cool the skin by evaporation",
+      "To increase sweating",
+      "To increase blood flow to the skin"
     ],
-    "correct": 2,
-    "explanation": "Hair standing up (piloerection) traps a layer of air close to the skin, acting as insulation to retain body heat."
+    "correct": 0,
+    "explanation": "Raised body hairs trap a thin layer of air close to the skin, which reduces heat loss. This helps conserve body warmth in cold conditions."
   },
   {
     "question": "An alert animal rescued from a predator attack became more alert at the sight of a leaf. Such type of learning is called:",
@@ -701,7 +701,7 @@
       "Sensitization"
     ],
     "correct": 3,
-    "explanation": "Sensitization: after a harmful experience, the animal becomes more responsive to harmless stimuli."
+    "explanation": "Sensitization: after a harmful experience, the animal becomes more responsive to harmless stimuli. The nervous system heightens its reaction to protect against danger."
   },
   {
     "question": "Learning to ignore leaves falling into water is an example of:",
@@ -712,7 +712,7 @@
       "Classical conditioning"
     ],
     "correct": 0,
-    "explanation": "Habituation is learning to stop responding to a repeated stimulus that has no consequence."
+    "explanation": "Habituation is learning to stop responding to a repeated stimulus that has no consequence. The response weakens because the stimulus becomes familiar and harmless."
   },
   {
     "question": "Which of the following thermoregulatory responses would be considered as a strictly behavioral response?",
@@ -734,18 +734,18 @@
       "Its body temperature becomes constant"
     ],
     "correct": 0,
-    "explanation": "Smaller animals have a larger surface area relative to volume, so they lose heat more rapidly."
+    "explanation": "As body size decreases, the surface area to volume ratio increases. That means smaller animals lose heat more quickly and must replace it faster."
   },
   {
     "question": "What is the reason that smaller mammals have higher metabolic rates?",
     "options": [
-      "Longer lifespans",
-      "Lower volume ratio",
-      "Higher volume ratio",
-      "Larger surface area to volume ratio"
+      "Larger surface area to volume ratio",
+      "Smaller surface area to volume ratio",
+      "Lower oxygen demand",
+      "Longer resting period"
     ],
-    "correct": 3,
-    "explanation": "Smaller mammals have a larger surface area to volume ratio, causing faster heat loss, so they need higher metabolic rates to maintain body temperature."
+    "correct": 0,
+    "explanation": "Smaller mammals lose heat faster because of their larger surface area-to-volume ratio, so they need higher metabolic rates."
   },
   {
     "question": "Which statement about operant conditioning is false?",
@@ -753,10 +753,10 @@
       "Behavior is strengthened by reward",
       "Behavior is shaped by consequences",
       "It is an innate behavior",
-      "It can be modified through repeated reinforcement"
+      "Repeated reinforcement can increase response rate"
     ],
     "correct": 2,
-    "explanation": "Operant conditioning is learned, not innate. Reinforcement and punishment change the likelihood of a response."
+    "explanation": "Operant conditioning is learned behavior, not innate behavior. Responses are shaped by consequences such as reward and reinforcement."
   },
   {
     "question": "A child who burned his finger by touching a hot kettle is now afraid to touch any kettle even when it is cold. The behavior demonstrated by the child is: (EUEE 2011 E.C)",
@@ -764,21 +764,21 @@
       "Trial and error learning",
       "Operant conditioning",
       "Latent learning",
-      "Insight"
+      "Insight learning"
     ],
     "correct": 1,
-    "explanation": "Operant conditioning: behavior is modified by its consequences (reward or punishment). The child avoids touching kettles because of the earlier negative consequence (burn)."
+    "explanation": "The child avoids touching kettles because an unpleasant consequence followed the earlier behavior, which is explained by operant conditioning."
   },
   {
     "question": "What is the significance of homeostasis?",
     "options": [
-      "Increase the cellular activities of our body systems",
-      "Denatures the enzymes and stops cell activities in our body",
-      "Maintain the internal conditions of the body in stable state",
-      "Burns food molecules to produce carbon dioxide"
+      "Increase the cellular activities of body systems",
+      "Denature enzymes and stop cell activities",
+      "Maintain the internal conditions of the body in a stable state",
+      "Burn food molecules to produce carbon dioxide"
     ],
     "correct": 2,
-    "explanation": "Homeostasis maintains the internal conditions of the body in a stable state, allowing normal cellular functions."
+    "explanation": "Homeostasis keeps internal conditions stable so cells and enzymes can function properly. It maintains a suitable environment despite external change."
   },
   {
     "question": "Which animal behaviour pattern is best illustrated by the famous Ivan Pavlov's dog? (EUEE 2011)",
@@ -795,12 +795,12 @@
     "question": "When poikilothermic animals get too hot they ___?",
     "options": [
       "Move into shade",
-      "Press their body in warm surface",
       "Bask in the sun",
-      "Erect special sail of their skin"
+      "Increase sweating",
+      "Shiver to produce heat"
     ],
     "correct": 0,
-    "explanation": "Poikilothermic animals move into shade (behavioral regulation) to avoid overheating."
+    "explanation": "Poikilothermic animals rely more on environmental conditions, so moving to shade helps them avoid overheating and maintain a suitable body temperature."
   },
   {
     "question": "Which of the following organisms is a poikilotherm?",
@@ -811,7 +811,7 @@
       "Bird"
     ],
     "correct": 1,
-    "explanation": "Lizards are poikilothermic (cold-blooded) — their body temperature varies with the environment."
+    "explanation": "Lizards are poikilothermic, so their body temperature varies with the environment. They rely on external heat sources rather than maintaining a constant internal temperature."
   },
   {
     "question": "The process of organ formation in embryonic development is?",
@@ -822,18 +822,18 @@
       "Cleavage"
     ],
     "correct": 2,
-    "explanation": "Organogenesis is the process of organ formation during embryonic development."
+    "explanation": "Organogenesis is the stage in embryonic development when organs begin to form. It follows earlier steps such as cleavage and gastrulation."
   },
   {
     "question": "Which of the following is NOT the economic importance of insects?",
     "options": [
       "Agents of pollination",
       "Biological pest control",
-      "None of the above",
-      "Intermediate hosts for pathogens"
+      "Intermediate hosts for pathogens",
+      "Production of silk and honey"
     ],
-    "correct": 3,
-    "explanation": "Being intermediate hosts for pathogens is a harmful/negative economic impact, not a beneficial economic importance."
+    "correct": 2,
+    "explanation": "Pollination, pest control, and products such as silk and honey are beneficial; acting as intermediate hosts for pathogens is harmful."
   },
   {
     "question": "Which of the following is a behavioral thermoregulatory response?",
@@ -844,7 +844,7 @@
       "Vasodilation"
     ],
     "correct": 2,
-    "explanation": "Basking changes behavior to control body temperature; the others are physiological responses."
+    "explanation": "Basking changes behavior to control body temperature; the others are physiological responses. It is a common way for animals to absorb warmth from the environment."
   },
   {
     "question": "Identify the method through which heat is NOT lost from the body?",
@@ -855,7 +855,7 @@
       "Panting"
     ],
     "correct": 1,
-    "explanation": "Vasoconstriction reduces blood flow to the skin, conserving heat — it does not cause heat loss."
+    "explanation": "Vasoconstriction reduces blood flow to the skin, conserving heat — it does not cause heat loss. By narrowing blood vessels, the body limits heat escape to the environment."
   },
   {
     "question": "Identify the term that describes what happens to blood vessels when the condition is hot:",
@@ -877,7 +877,7 @@
       "The larva stage"
     ],
     "correct": 3,
-    "explanation": "The larva stage is the active feeding stage in complete metamorphosis."
+    "explanation": "The larval stage is the active feeding stage in complete metamorphosis. It grows rapidly and later changes into the pupa."
   },
   {
     "question": "Which of the following is correct about the adaptation of snakes to a hot environment?",
@@ -899,7 +899,7 @@
       "Wallowing in mud"
     ],
     "correct": 1,
-    "explanation": "Animals cluster body parts together (huddling) to reduce heat loss in cold weather."
+    "explanation": "Animals often cope with cold by clustering, huddling, or reducing exposed surface area. These behaviors help conserve body heat."
   },
   {
     "question": "Which of the following is a physiological temperature regulation that occurs in homeothermic animals when it is cold?",
@@ -921,7 +921,7 @@
       "Lizard"
     ],
     "correct": 3,
-    "explanation": "Lizard is a poikilotherm; its body temperature is governed by the environment."
+    "explanation": "Lizard body temperature depends strongly on environmental temperature. It is a classic example of a poikilothermic animal."
   },
   {
     "question": "Which of the following is a physiological method of heat conservation in homeotherms?",
@@ -937,13 +937,13 @@
   {
     "question": "Latent learning is different from learning through operant conditioning in that:",
     "options": [
-      "Is a kind of innate behaviour",
-      "Does not require reinforcement",
-      "Does not require any input from the environment",
-      "Is a kind of insight learning"
+      "It is inherited behavior",
+      "It does not require reinforcement",
+      "It cannot involve the environment",
+      "It is the same as imprinting"
     ],
     "correct": 1,
-    "explanation": "Latent learning occurs without any immediate reward or punishment (no reinforcement required), unlike operant conditioning."
+    "explanation": "Latent learning occurs without immediate reward or punishment, unlike operant conditioning. The knowledge is stored first and may be used later when needed."
   },
   {
     "question": "Which of the following are functions of pheromones?",
@@ -954,7 +954,7 @@
       "All of the above"
     ],
     "correct": 3,
-    "explanation": "Pheromones can define territories, attract mates, and trigger alarm responses."
+    "explanation": "Pheromones can help attract mates, mark territories, and trigger alarm responses. They serve as chemical signals within the same species."
   },
   {
     "question": "Which of the following behaviour is acquired through experience?",
@@ -965,18 +965,18 @@
       "Habituation"
     ],
     "correct": 3,
-    "explanation": "Habituation is a learned (acquired) behavior through repeated experience."
+    "explanation": "Habituation is acquired through experience because repeated harmless stimulation reduces the response. The animal learns to ignore what has no effect."
   },
   {
     "question": "What determines the rate of metabolic activity in a cell?",
     "options": [
       "The surface area to volume ratio",
       "The volume of a cell",
-      "The surface area of a cell",
+      "The thickness of the membrane",
       "The amount of oxygen needed by a cell"
     ],
     "correct": 0,
-    "explanation": "The surface area to volume ratio determines the rate of exchange and metabolic activity in a cell."
+    "explanation": "The surface area-to-volume ratio affects the efficiency of exchange and therefore metabolic activity."
   },
   {
     "question": "Among the temperature regulating mechanisms, which one is a mechanism of heat loss?",
@@ -1020,18 +1020,18 @@
       "None of the above"
     ],
     "correct": 0,
-    "explanation": "Social behavior includes cooperative hunting and feeding in groups."
+    "explanation": "Social behavior often supports cooperation in hunting and feeding. Group living can improve the chance of finding and sharing food."
   },
   {
     "question": "Which of the following is not true about learned behavior?",
     "options": [
-      "It varies individual to individual",
+      "It varies from individual to individual",
       "It is fully functional the first time it is performed",
       "It is modified by experience",
       "It is developed by trial and error"
     ],
     "correct": 1,
-    "explanation": "Learned behavior is NOT fully functional the first time; it improves with repetition and experience. That description fits innate behavior."
+    "explanation": "Learned behavior improves with experience; it is not usually fully functional the first time it is performed."
   },
   {
     "question": "In Pavlov's experiment on classical conditioning, what does the bell represent?",
@@ -1049,11 +1049,11 @@
     "options": [
       "The way an animal responds to its internal and external environment",
       "The fixed shape of an animal's body",
-      "The ability to make offspring",
-      "The process of breaking down food"
+      "The process of producing offspring",
+      "The breakdown of food in the body"
     ],
     "correct": 0,
-    "explanation": "Behavior is the observable response of an animal to stimuli and its surroundings."
+    "explanation": "Animal behavior is the way an animal responds to stimuli from its internal and external environment. It includes both visible actions and physiological responses."
   },
   {
     "question": "Which pair correctly contrasts innate and learned behavior?",
@@ -1064,7 +1064,7 @@
       "Innate behavior never changes; learned behavior is never repeated"
     ],
     "correct": 0,
-    "explanation": "Innate behavior is genetically programmed, while learned behavior is shaped by experience."
+    "explanation": "Innate behavior is genetically programmed, while learned behavior is shaped by experience. The first appears without training, whereas the second develops through practice and interaction."
   },
   {
     "question": "Which pair is correctly matched with its time scale?",
@@ -1075,7 +1075,7 @@
       "Circadian rhythm — one month; circannual rhythm — 24 hours"
     ],
     "correct": 0,
-    "explanation": "Circadian rhythms repeat in about 24 hours, while circannual rhythms repeat yearly."
+    "explanation": "Circadian rhythm follows a daily cycle of about 24 hours, while circannual rhythm follows a yearly cycle. They are common biological timing mechanisms."
   },
   {
     "question": "What term describes the behavior of defending an area containing food, mates, or a nest?",
@@ -1086,7 +1086,7 @@
       "Kinesis"
     ],
     "correct": 1,
-    "explanation": "Territoriality is the behavior of defending a territory against intruders."
+    "explanation": "Territoriality is the behavior of defending an area that contains food, mates, or nesting space. It helps secure resources for survival and reproduction."
   },
   {
     "question": "Which chemical signal is used by animals of the same species to influence one another?",
@@ -1097,7 +1097,7 @@
       "Antibody"
     ],
     "correct": 1,
-    "explanation": "Pheromones are chemical signals used for communication within the same species."
+    "explanation": "Pheromones are chemical signals used by one animal to affect another of the same species. They are important in communication and mating."
   },
   {
     "question": "Which part of the brain helps regulate body temperature and water balance?",
@@ -1108,7 +1108,7 @@
       "Cerebrum"
     ],
     "correct": 2,
-    "explanation": "The hypothalamus controls temperature regulation and fluid balance."
+    "explanation": "The hypothalamus integrates information about body temperature and water balance. It helps maintain internal stability through homeostatic control."
   },
   {
     "question": "Which pair of hormones respectively lowers and raises blood glucose?",
@@ -1141,7 +1141,7 @@
       "Thyroxine"
     ],
     "correct": 2,
-    "explanation": "Ecdysone is the molting hormone in insects."
+    "explanation": "Ecdysone is the hormone that triggers molting in insects. It initiates shedding of the old cuticle and formation of a new one."
   },
   {
     "question": "Which statement about crocodile sex determination is correct?",
@@ -1163,7 +1163,7 @@
       "It helps the tadpole breathe with lungs"
     ],
     "correct": 0,
-    "explanation": "The jelly layer helps protect the eggs and reduces desiccation."
+    "explanation": "The jelly-like covering protects frog eggs and helps prevent them from drying out. It also cushions the eggs in the aquatic environment."
   },
   {
     "question": "Development of an individual from an unfertilized egg is called ___?",
@@ -1174,7 +1174,7 @@
       "Metamorphosis"
     ],
     "correct": 1,
-    "explanation": "Parthenogenesis is development from an unfertilized egg."
+    "explanation": "Parthenogenesis is development from an unfertilized egg. It occurs in some animals and allows reproduction without fertilization."
   },
   {
     "question": "If the left and right sides of an animal are mirror images, the body plan is called ___?",
@@ -1185,7 +1185,7 @@
       "Spherical symmetry"
     ],
     "correct": 1,
-    "explanation": "Bilateral symmetry means the body can be divided into equal left and right halves."
+    "explanation": "Bilateral symmetry means the left and right sides of the body are mirror images. It is common in animals with directional movement."
   },
   {
     "question": "Which social behavior helps orphaned rat pups survive when their mother dies?",
@@ -1196,7 +1196,7 @@
       "Cannibalism"
     ],
     "correct": 0,
-    "explanation": "Alloparenting is care of young by another adult in the group."
+    "explanation": "Alloparenting is care of young by another adult in the group. This social behavior can improve the survival of orphaned pups."
   },
   {
     "question": "Before conditioning, food is the ___ and salivation is the ___. After conditioning, the bell becomes the ___ and salivation to the bell is the ___.",
@@ -1207,18 +1207,18 @@
       "NS, UR, US, CR"
     ],
     "correct": 0,
-    "explanation": "Food naturally causes salivation (US → UR). After pairing, the bell becomes the CS and salivation to it is the CR."
+    "explanation": "Food naturally acts as the unconditioned stimulus and produces salivation as the unconditioned response. After association, the bell becomes the conditioned stimulus and salivation to it becomes the conditioned response."
   },
   {
     "question": "Why do smaller animals usually lose heat faster than larger animals?",
     "options": [
       "They have a larger surface area to volume ratio",
       "They have a smaller surface area to volume ratio",
-      "They produce no heat at all",
+      "They produce no metabolic heat",
       "They always live in colder habitats"
     ],
     "correct": 0,
-    "explanation": "A larger surface area relative to volume means more heat is lost per unit body mass."
+    "explanation": "Smaller animals lose heat faster because they have a larger surface area relative to their volume. More surface exposure means faster heat exchange with the environment."
   },
   {
     "question": "Which two types of feedback mechanisms are used in homeostasis?",
@@ -1229,18 +1229,18 @@
       "Fast and slow feedback"
     ],
     "correct": 0,
-    "explanation": "Homeostasis is controlled mainly by negative feedback, with positive feedback in special cases."
+    "explanation": "Homeostasis is controlled mainly by negative feedback, with positive feedback in special cases. Negative feedback restores balance when a variable moves away from normal."
   },
   {
     "question": "Why are large ears advantageous for animals in hot climates?",
     "options": [
       "They increase surface area for heat loss",
-      "They store extra food",
-      "They reduce oxygen demand",
-      "They make the animal silent"
+      "They store more water",
+      "They reduce food demand",
+      "They improve insulation in cold weather"
     ],
     "correct": 0,
-    "explanation": "Large ears increase surface area and help dissipate heat."
+    "explanation": "Large ears increase surface area, which helps release body heat more efficiently. This is useful for animals living in hot environments."
   },
   {
     "question": "What is the body's immediate response to hot tea that helps cool it down?",
@@ -1251,7 +1251,7 @@
       "Piloerection"
     ],
     "correct": 1,
-    "explanation": "Sweat evaporates from the skin and removes heat from the body."
+    "explanation": "Sweating begins when the body senses excess heat, and evaporation from the skin removes that heat. This cools the body back toward normal temperature."
   },
   {
     "question": "Which sequence correctly shows the pathway of a response to a stimulus?",
@@ -1273,7 +1273,7 @@
       "Imprinting, practice, and memory"
     ],
     "correct": 0,
-    "explanation": "Innate behaviors are inborn and include reflexes, instincts, taxis, and kinesis."
+    "explanation": "Reflexes, instincts, taxis, and kinesis are all innate behaviors. They are present without prior learning and help animals respond immediately."
   },
   {
     "question": "Why do some birds lay camouflaged eggs on bare ground?",
@@ -1284,6 +1284,6 @@
       "To speed up hatching directly"
     ],
     "correct": 0,
-    "explanation": "Camouflage helps the eggs blend with the surroundings and lowers predation risk."
+    "explanation": "Camouflaged eggs blend with the surroundings and are less likely to be seen by predators. This increases the chances that the eggs survive."
   }
 ]
