@@ -1,0 +1,1146 @@
+[
+  {
+    "question": "What is the ratio of 9 months to 2 years?",
+    "options": [
+      "3:4",
+      "3:8",
+      "9:2",
+      "1:3"
+    ],
+    "correct": 1,
+    "explanation": "Convert to same unit: 2 years = 24 months. Ratio = 9:24 = 3:8."
+  },
+  {
+    "question": "Birr 50,000 is divided between two people in the ratio 3:7. How much does the person with the larger share receive?",
+    "options": [
+      "Birr 15,000",
+      "Birr 25,000",
+      "Birr 35,000",
+      "Birr 40,000"
+    ],
+    "correct": 2,
+    "explanation": "Unit value: 50,000 ÷ (3+7) = 5,000. Larger share = 7 × 5,000 = Birr 35,000."
+  },
+  {
+    "question": "Three numbers are in the ratio 2:3:4 and their sum is 270. What is the largest number?",
+    "options": [
+      "60",
+      "90",
+      "120",
+      "135"
+    ],
+    "correct": 2,
+    "explanation": "Let numbers be 2x, 3x, 4x. Then 9x = 270, x = 30. Largest = 4×30 = 120."
+  },
+  {
+    "question": "In a school of 350 students, the ratio of boys to girls is 2:5. How many girls are there?",
+    "options": [
+      "100",
+      "150",
+      "200",
+      "250"
+    ],
+    "correct": 3,
+    "explanation": "Girls = [5 ÷ (2+5)] × 350 = (5/7) × 350 = 250."
+  },
+  {
+    "question": "Two numbers are in the ratio 3:5. When 4 is added to each, the ratio becomes 2:3. What is the sum of the two original numbers?",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "correct": 2,
+    "explanation": "Let numbers be 3x and 5x. (3x+4)/(5x+4) = 2/3 → 9x+12 = 10x+8 → x = 4. Numbers are 12 and 20. Sum = 32."
+  },
+  {
+    "question": "Birr 2,600 is divided among Hanan, Rahel, and Abebe in the ratio 11:18:23. What is Rahel's share?",
+    "options": [
+      "Birr 550",
+      "Birr 900",
+      "Birr 1,000",
+      "Birr 1,150"
+    ],
+    "correct": 1,
+    "explanation": "Total parts = 11+18+23 = 52. Unit value = 2,600 ÷ 52 = 50. Rahel's share = 18 × 50 = Birr 900."
+  },
+  {
+    "question": "A sum of money is divided among A, B, and C in the ratio 3:5:7. If B's share is Birr 1,020, what is the total amount?",
+    "options": [
+      "Birr 1,428",
+      "Birr 2,244",
+      "Birr 3,060",
+      "Birr 5,000"
+    ],
+    "correct": 2,
+    "explanation": "5x = 1,020 → x = 204. Total = (3+5+7) × 204 = 15 × 204 = Birr 3,060."
+  },
+  {
+    "question": "If A:B = 7:9 and B:C = 8:11, what is A:C?",
+    "options": [
+      "7:11",
+      "56:99",
+      "63:88",
+      "72:99"
+    ],
+    "correct": 1,
+    "explanation": "LCM of 9 and 8 gives common B = 72. A:B = 56:72, B:C = 72:99. So A:C = 56:99."
+  },
+  {
+    "question": "Boys and girls in a school are in the ratio 4:5. Boys increase by 15% and girls by 22%. What is the new ratio of boys to girls?",
+    "options": [
+      "4:5",
+      "23:30",
+      "46:61",
+      "6:7"
+    ],
+    "correct": 2,
+    "explanation": "New ratio = 4(1.15) : 5(1.22) = 4.60 : 6.10 = 46 : 61."
+  },
+  {
+    "question": "Birr 782 is divided in the ratio 1/2 : 2/3 : 3/4. What is the first part?",
+    "options": [
+      "Birr 182",
+      "Birr 190",
+      "Birr 196",
+      "Birr 204"
+    ],
+    "correct": 3,
+    "explanation": "Multiply each fraction by 12: 1/2→6, 2/3→8, 3/4→9. New ratio = 6:8:9, sum of parts = 23. First part = (6/23) × 782 = Birr 204."
+  },
+  {
+    "question": "A car travels 7 km per liter of fuel. How many liters are needed for a 105 km journey?",
+    "options": [
+      "12 liters",
+      "13 liters",
+      "15 liters",
+      "18 liters"
+    ],
+    "correct": 2,
+    "explanation": "Fuel = 105 ÷ 7 = 15 liters."
+  },
+  {
+    "question": "Potatoes cost Birr 330 for 55 kg. A customer buys 8 kg. How much does she pay?",
+    "options": [
+      "Birr 42",
+      "Birr 48",
+      "Birr 54",
+      "Birr 60"
+    ],
+    "correct": 1,
+    "explanation": "Unit price = 330/55 = Birr 6/kg. Cost for 8 kg = 6 × 8 = Birr 48."
+  },
+  {
+    "question": "An item's price rose from Birr 24 to Birr 32. What is the percentage increase?",
+    "options": [
+      "25%",
+      "33.3%",
+      "40%",
+      "50%"
+    ],
+    "correct": 1,
+    "explanation": "Rate = (32 - 24)/24 × 100% = 8/24 × 100% = 33.3%."
+  },
+  {
+    "question": "Option A: 60 kg of Teff for Birr 2,990. Option B: 120 kg of Teff for Birr 4,500. How much cheaper per kg is the better deal?",
+    "options": [
+      "Birr 6.83",
+      "Birr 10.00",
+      "Birr 12.33",
+      "Birr 13.50"
+    ],
+    "correct": 2,
+    "explanation": "Rate A = 2990/60 ≈ 49.83/kg. Rate B = 4500/120 = 37.50/kg. Difference = 49.83 − 37.50 ≈ Birr 12.33 per kg cheaper."
+  },
+  {
+    "question": "On a blueprint, 6 cm represents 3 m. A wall measures 7.2 cm on the blueprint. What is the wall's actual length?",
+    "options": [
+      "3.0 m",
+      "3.6 m",
+      "4.2 m",
+      "4.8 m"
+    ],
+    "correct": 1,
+    "explanation": "Scale: 6 cm = 3 m, so 1 cm = 0.5 m. Actual = 7.2 × 0.5 = 3.6 m."
+  },
+  {
+    "question": "A 10 m string weighs 350 g. How long is a string that weighs 875 g?",
+    "options": [
+      "20 m",
+      "22.5 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 2,
+    "explanation": "Length ∝ weight: x/875 = 10/350. x = (875 × 10)/350 = 25 m."
+  },
+  {
+    "question": "Selam earns Birr 187.50 for 5 hours of work. How much will she earn for 8 hours?",
+    "options": [
+      "Birr 250",
+      "Birr 270",
+      "Birr 300",
+      "Birr 320"
+    ],
+    "correct": 2,
+    "explanation": "Rate = 187.50 ÷ 5 = Birr 37.50/hour. Pay for 8 hrs = 37.50 × 8 = Birr 300."
+  },
+  {
+    "question": "y varies directly as x. When x = 3, y = 2. What is the value of x when y = 24?",
+    "options": [
+      "16",
+      "27",
+      "32",
+      "36"
+    ],
+    "correct": 3,
+    "explanation": "Constant k = y/x = 2/3. So x = y/k = 24 ÷ (2/3) = 24 × (3/2) = 36."
+  },
+  {
+    "question": "y varies inversely as x. When x = 3, y = 8. What is y when x = 6?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "16"
+    ],
+    "correct": 1,
+    "explanation": "k = xy = 3 × 8 = 24. When x = 6: y = 24/6 = 4."
+  },
+  {
+    "question": "At constant temperature, 10 m³ of air is compressed from 1 atm to 2 atm. What is the new volume?",
+    "options": [
+      "2.5 m³",
+      "5 m³",
+      "8 m³",
+      "20 m³"
+    ],
+    "correct": 1,
+    "explanation": "Boyle's Law: P₁V₁ = P₂V₂. (1)(10) = (2)V₂ → V₂ = 5 m³."
+  },
+  {
+    "question": "y and x are inversely proportional. If y = 4 when x = 3, which equation relates them?",
+    "options": [
+      "y = (3/4)x",
+      "xy = 12",
+      "xy = 3/4",
+      "y = (4/3)x"
+    ],
+    "correct": 1,
+    "explanation": "Inverse proportion: xy = k = 4 × 3 = 12."
+  },
+  {
+    "question": "x and y vary directly. When x = 3, y = 5. What is y when x = 9?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "27"
+    ],
+    "correct": 2,
+    "explanation": "y = (5/3)x. When x = 9: y = (5/3)(9) = 15."
+  },
+  {
+    "question": "Z is directly proportional to x and inversely proportional to y. Z = 0.3 when y:x = 2:3. What is Z when x = 5 and y = 4?",
+    "options": [
+      "5/4",
+      "4/5",
+      "3/8",
+      "1/4"
+    ],
+    "correct": 3,
+    "explanation": "Z = kx/y. With y:x = 2:3, x/y = 3/2. So 0.3 = k(3/2) → k = 1/5. Z = (1/5)(5)/4 = 1/4."
+  },
+  {
+    "question": "A business's sales (A) vary directly with items sold (x) and inversely with tax paid (y). Tax is 5% of sales. Given A = Birr 15,000 and x = 3,000, find the constant of proportionality k.",
+    "options": [
+      "750",
+      "3,000",
+      "3,750",
+      "7,500"
+    ],
+    "correct": 2,
+    "explanation": "y = 5% × 15,000 = 750. A = kx/y → 15,000 = k(3,000)/750 → k = (15,000 × 750)/3,000 = 3,750."
+  },
+  {
+    "question": "5 men can build a wall in 24 days. How many days will it take 15 men?",
+    "options": [
+      "6 days",
+      "8 days",
+      "12 days",
+      "18 days"
+    ],
+    "correct": 1,
+    "explanation": "Man-days = 5 × 24 = 120. Days for 15 men = 120/15 = 8 days."
+  },
+  {
+    "question": "A 15-man team completes work in 24 days. How many men are needed to finish the same job in 18 days?",
+    "options": [
+      "12",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct": 3,
+    "explanation": "Total man-days = 15 × 24 = 360. Men needed = 360/18 = 20 men."
+  },
+  {
+    "question": "A map uses a scale of 0.75 cm : 1 km. Two towns are 60 cm apart on the map. What is the actual distance?",
+    "options": [
+      "45 km",
+      "60 km",
+      "75 km",
+      "80 km"
+    ],
+    "correct": 3,
+    "explanation": "Actual = (60 cm × 1 km) / 0.75 cm = 80 km."
+  },
+  {
+    "question": "75 is 20% of what number?",
+    "options": [
+      "300",
+      "375",
+      "400",
+      "450"
+    ],
+    "correct": 1,
+    "explanation": "x = 75 / 0.20 = 375."
+  },
+  {
+    "question": "Mr. Tesfay earns Birr 4,800. Mr. Zelalem earns 20% more. By what percentage is Tesfay's salary less than Zelalem's?",
+    "options": [
+      "16.7%",
+      "20%",
+      "25%",
+      "83.3%"
+    ],
+    "correct": 0,
+    "explanation": "Zelalem = 4,800 × 1.20 = 5,760. Difference = 960. % less = 960/5,760 × 100% ≈ 16.7%."
+  },
+  {
+    "question": "A road sign shows a 40% slope. What does this mean geometrically?",
+    "options": [
+      "For every 10 m horizontal, the road rises 4 m",
+      "The angle of elevation is exactly 40°",
+      "For every 4 m horizontal, the road rises 10 m",
+      "The road rises 0.4 m for every 100 m"
+    ],
+    "correct": 0,
+    "explanation": "40% slope = rise/run = 40/100. For every 10 m horizontal, the road rises 4 m. The angle ≈ tan⁻¹(0.4) ≈ 21.8°, not 40°."
+  },
+  {
+    "question": "The 8% sales tax on a television set amounts to Birr 3,800. What is the pre-tax price of the set?",
+    "options": [
+      "Birr 30,600",
+      "Birr 35,400",
+      "Birr 45,800",
+      "Birr 47,500"
+    ],
+    "correct": 3,
+    "explanation": "8% × price = 3,800 → price = 3,800 / 0.08 = Birr 47,500."
+  },
+  {
+    "question": "Voter turnout dropped 40% from last year to 3,600 this year. How many voted last year?",
+    "options": [
+      "4,500",
+      "5,000",
+      "5,500",
+      "6,000"
+    ],
+    "correct": 3,
+    "explanation": "x(1 − 0.40) = 3,600 → x = 3,600 / 0.60 = 6,000."
+  },
+  {
+    "question": "An item's price rises 15% and its sales volume falls 10%. What is the net percentage change in income?",
+    "options": [
+      "3.5% increase",
+      "5.0% increase",
+      "2.5% decrease",
+      "5.5% decrease"
+    ],
+    "correct": 0,
+    "explanation": "New income factor = 1.15 × 0.90 = 1.035. Net change = 3.5% increase."
+  },
+  {
+    "question": "A shop marks up its goods at 35% of the selling price. The selling price is Birr 2,400. What is the mark-up as a percentage of the cost price?",
+    "options": [
+      "35.0%",
+      "46.2%",
+      "53.8%",
+      "65.0%"
+    ],
+    "correct": 2,
+    "explanation": "Mark-up = 0.35 × 2,400 = 840. Cost = 2,400 − 840 = 1,560. % on cost = (840/1,560) × 100% ≈ 53.8%."
+  },
+  {
+    "question": "A shop sets its mark-up at 25% of the selling price. What is the mark-up as a percentage of the cost price?",
+    "options": [
+      "25.0%",
+      "28.6%",
+      "33.3%",
+      "40.0%"
+    ],
+    "correct": 2,
+    "explanation": "Let SP = 1. Cost = SP − 0.25SP = 0.75SP. % on cost = 0.25/0.75 × 100% = 33.3%."
+  },
+  {
+    "question": "A cosmetic shop's cost for a perfume is Birr 2,100. If it desires a 25% mark-up based on the selling price, what should the selling price be?",
+    "options": [
+      "Birr 2,300",
+      "Birr 2,400",
+      "Birr 2,600",
+      "Birr 2,800"
+    ],
+    "correct": 3,
+    "explanation": "Mark-up = 0.25 × SP. SP − 0.25SP = 2,100 → 0.75SP = 2,100 → SP = Birr 2,800."
+  },
+  {
+    "question": "A table with a regular price of Birr 750 is offered at a 20% discount. What is the selling price?",
+    "options": [
+      "Birr 550",
+      "Birr 600",
+      "Birr 620",
+      "Birr 650"
+    ],
+    "correct": 1,
+    "explanation": "Discount = 20% × 750 = 150. Selling price = 750 − 150 = Birr 600."
+  },
+  {
+    "question": "An article with regular price Birr 1,850 sells for Birr 1,628. What is the rate of discount?",
+    "options": [
+      "8%",
+      "10%",
+      "12%",
+      "15%"
+    ],
+    "correct": 2,
+    "explanation": "Discount = 1,850 − 1,628 = 222. Rate = (222/1,850) × 100% = 12%."
+  },
+  {
+    "question": "During a sale, a T-shirt's discount amounts to Birr 240, which is 30% of the regular price. What is the selling price?",
+    "options": [
+      "Birr 240",
+      "Birr 560",
+      "Birr 600",
+      "Birr 800"
+    ],
+    "correct": 1,
+    "explanation": "Regular price = 240/0.30 = Birr 800. Selling price = 800 − 240 = Birr 560."
+  },
+  {
+    "question": "A shopkeeper sells goods at 15% discount. An article sells for Birr 1,360. What was its regular price?",
+    "options": [
+      "Birr 1,504",
+      "Birr 1,566",
+      "Birr 1,600",
+      "Birr 1,700"
+    ],
+    "correct": 2,
+    "explanation": "SP = RP(1 − 0.15) → 1,360 = 0.85 × RP → RP = 1,360/0.85 = Birr 1,600."
+  },
+  {
+    "question": "A car sold for Birr 2,400,000 after a discount of Birr 800,000. What was the percentage discount?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "33.3%"
+    ],
+    "correct": 1,
+    "explanation": "Regular price = 2,400,000 + 800,000 = 3,200,000. Rate = (800,000/3,200,000) × 100% = 25%."
+  },
+  {
+    "question": "An item sells for Birr 120 after a 20% discount. What was the original price?",
+    "options": [
+      "Birr 135",
+      "Birr 140",
+      "Birr 145",
+      "Birr 150"
+    ],
+    "correct": 3,
+    "explanation": "SP = 0.80 × RP → RP = 120/0.80 = Birr 150."
+  },
+  {
+    "question": "An item marked at Birr 250 is discounted 16% and sold at a 5% profit on cost. Which of the following is NOT true?",
+    "options": [
+      "The discount was Birr 40",
+      "The cost price was Birr 200",
+      "The selling price was Birr 205",
+      "The profit was Birr 10"
+    ],
+    "correct": 2,
+    "explanation": "SP = 250 × (1 − 0.16) = Birr 210, NOT 205. Discount = Birr 40 ✓. Cost = 210/1.05 = Birr 200 ✓. Profit = 210 − 200 = Birr 10 ✓. So C is false."
+  },
+  {
+    "question": "An item's selling price is Birr 150 with a mark-up of Birr 40. If sold at 20% discount off the selling price, what is the profit?",
+    "options": [
+      "Birr 10",
+      "Birr 20",
+      "Birr 30",
+      "Birr 40"
+    ],
+    "correct": 0,
+    "explanation": "Cost = 150 − 40 = 110. Discounted SP = 150 × 0.80 = 120. Profit = 120 − 110 = Birr 10."
+  },
+  {
+    "question": "A 20% discount on a bed is worth Birr 2,400. What is the selling price of the bed?",
+    "options": [
+      "Birr 8,400",
+      "Birr 9,600",
+      "Birr 10,000",
+      "Birr 12,000"
+    ],
+    "correct": 1,
+    "explanation": "RP = 2,400/0.20 = 12,000. SP = 12,000 − 2,400 = Birr 9,600."
+  },
+  {
+    "question": "A shop buys 220 articles for Birr 5,500 and plans to sell each for Birr 22 during a holiday clearance. What is the percentage discount off the regular unit price?",
+    "options": [
+      "8%",
+      "12%",
+      "15%",
+      "20%"
+    ],
+    "correct": 1,
+    "explanation": "Regular price per article = 5,500 ÷ 220 = Birr 25. Discount = 25 − 22 = 3. Rate = (3/25) × 100% = 12%."
+  },
+  {
+    "question": "You want to earn a 10% annual return on your investment. How much should you pay today for a note that will be worth Birr 5,000 in 9 months?",
+    "options": [
+      "Birr 4,255.32",
+      "Birr 4,545.45",
+      "Birr 4,651.16",
+      "Birr 4,750.00"
+    ],
+    "correct": 2,
+    "explanation": "P = A / (1 + rt) = 5,000 / [1 + 0.10 × (9/12)] = 5,000 / 1.075 ≈ Birr 4,651.16."
+  },
+  {
+    "question": "Abebe borrows Birr 2,500 and agrees to repay Birr 2,650 in 4 months. What is the annual simple interest rate?",
+    "options": [
+      "12%",
+      "15%",
+      "18%",
+      "24%"
+    ],
+    "correct": 2,
+    "explanation": "I = 2,650 − 2,500 = 150. t = 4/12 year. R = I/(P×t) = 150/(2,500 × 1/3) = 150/833.33 = 0.18 = 18% per year."
+  },
+  {
+    "question": "Daniya borrows Birr 200,000 and repays Birr 10,000/month for 36 months. What is the annual simple interest rate?",
+    "options": [
+      "16.7%",
+      "20.0%",
+      "26.7%",
+      "30.0%"
+    ],
+    "correct": 2,
+    "explanation": "Total paid = 360,000. I = 160,000. R = I/(P×t) = 160,000/(200,000 × 3) = 26.7%."
+  },
+  {
+    "question": "Birr 180,000 is invested at 12% per year simple interest. How long until it reaches Birr 315,000?",
+    "options": [
+      "5.00 years",
+      "6.00 years",
+      "6.25 years",
+      "7.50 years"
+    ],
+    "correct": 2,
+    "explanation": "I = 315,000 − 180,000 = 135,000. t = I/(P×r) = 135,000/(180,000 × 0.12) = 6.25 years."
+  },
+  {
+    "question": "How long will it take Birr 5,400 to earn Birr 2,160 at 8% per year simple interest?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "8 years"
+    ],
+    "correct": 1,
+    "explanation": "t = I/(P×r) = 2,160/(5,400 × 0.08) = 2,160/432 = 5 years."
+  },
+  {
+    "question": "Find the future value of Birr 2,500 lent for 8 months at 6% per year simple interest.",
+    "options": [
+      "Birr 2,550",
+      "Birr 2,580",
+      "Birr 2,600",
+      "Birr 2,650"
+    ],
+    "correct": 2,
+    "explanation": "A = P(1 + rt) = 2,500[1 + 0.06 × (8/12)] = 2,500 × 1.04 = Birr 2,600."
+  },
+  {
+    "question": "Find the future value of Birr 13,000 lent for 72 days at 12% annual simple interest (use a 360-day year).",
+    "options": [
+      "Birr 13,156",
+      "Birr 13,312",
+      "Birr 13,468",
+      "Birr 13,560"
+    ],
+    "correct": 1,
+    "explanation": "A = 13,000[1 + 0.12 × (72/360)] = 13,000 × 1.024 = Birr 13,312."
+  },
+  {
+    "question": "Birr 45,000 is borrowed at 8% simple interest for 10 months. How much interest is owed?",
+    "options": [
+      "Birr 2,400",
+      "Birr 3,000",
+      "Birr 3,600",
+      "Birr 4,500"
+    ],
+    "correct": 1,
+    "explanation": "I = Prt = 45,000 × 0.08 × (10/12) = Birr 3,000."
+  },
+  {
+    "question": "Birr 10,000 is invested at 13% annual simple interest for 4 years. What is the total balance?",
+    "options": [
+      "Birr 14,200",
+      "Birr 15,200",
+      "Birr 15,730",
+      "Birr 16,100"
+    ],
+    "correct": 1,
+    "explanation": "I = P×r×t = 10,000 × 0.13 × 4 = 5,200. Balance = 10,000 + 5,200 = Birr 15,200."
+  },
+  {
+    "question": "Birr 2,000 at simple interest amounts to Birr 2,400 in 4 years. In how many years will Birr 2,500 amount to Birr 3,000 at the same rate?",
+    "options": [
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years"
+    ],
+    "correct": 1,
+    "explanation": "Rate r = (400)/(2,000×4) = 5%. For Birr 2,500: I = 500, t = I/(P×r) = 500/(2,500×0.05) = 4 years."
+  },
+  {
+    "question": "A principal doubles in 10 years at simple interest. In how many years will it triple?",
+    "options": [
+      "15 years",
+      "20 years",
+      "25 years",
+      "30 years"
+    ],
+    "correct": 1,
+    "explanation": "Doubles: 2P = P(1+10r) → r = 0.1. Triples: 3P = P(1 + 0.1t) → t = 20 years."
+  },
+  {
+    "question": "At what simple interest rate will a sum of money double itself in 8 years?",
+    "options": [
+      "10.0%",
+      "11.0%",
+      "12.5%",
+      "16.0%"
+    ],
+    "correct": 2,
+    "explanation": "2P = P(1+8r) → 8r = 1 → r = 12.5%."
+  },
+  {
+    "question": "Birr 4,000 is deposited at 10% per year compounded annually for 4 years. What is the compound interest earned?",
+    "options": [
+      "Birr 1,600.00",
+      "Birr 1,756.40",
+      "Birr 1,856.40",
+      "Birr 2,000.00"
+    ],
+    "correct": 2,
+    "explanation": "A = 4,000(1.10)⁴ = 4,000 × 1.4641 = 5,856.40. CI = 5,856.40 − 4,000 = Birr 1,856.40."
+  },
+  {
+    "question": "Birr 6,000 is deposited at 8% compounded annually for 5 years. What is the final balance?",
+    "options": [
+      "Birr 7,980.00",
+      "Birr 8,400.00",
+      "Birr 8,692.80",
+      "Birr 8,815.96"
+    ],
+    "correct": 3,
+    "explanation": "A = 6,000(1.08)⁵ = 6,000 × 1.46933 ≈ Birr 8,815.96."
+  },
+  {
+    "question": "What principal will grow to Birr 5,832 in 2 years at 8% compounded annually?",
+    "options": [
+      "Birr 4,800",
+      "Birr 5,000",
+      "Birr 5,200",
+      "Birr 5,400"
+    ],
+    "correct": 1,
+    "explanation": "P = A/(1+r)ⁿ = 5,832/(1.08)² = 5,832/1.1664 = Birr 5,000."
+  },
+  {
+    "question": "The compound interest on a principal for 3 years at 10% per year is Birr 1,324. What is the principal?",
+    "options": [
+      "Birr 3,500",
+      "Birr 4,000",
+      "Birr 4,200",
+      "Birr 4,500"
+    ],
+    "correct": 1,
+    "explanation": "CI = P[(1.1)³ − 1] = P(0.331). P = 1,324/0.331 = Birr 4,000."
+  },
+  {
+    "question": "Birr 3,000 is invested at 10% for 4 years. How much MORE interest is earned with monthly compounding vs. annual compounding?",
+    "options": [
+      "Birr 40.23",
+      "Birr 60.56",
+      "Birr 75.76",
+      "Birr 94.40"
+    ],
+    "correct": 2,
+    "explanation": "Annual: A = 3,000(1.10)⁴ = 4,392.30, CI = 1,392.30. Monthly: A = 3,000(1+0.10/12)⁴⁸ ≈ 4,468.06, CI = 1,468.06. Difference ≈ 75.76."
+  },
+  {
+    "question": "Birr 2,000 is deposited at 10% per year compounded semi-annually. What is the balance after 1 year?",
+    "options": [
+      "Birr 2,100",
+      "Birr 2,200",
+      "Birr 2,205",
+      "Birr 2,210"
+    ],
+    "correct": 2,
+    "explanation": "A = 2,000(1 + 0.10/2)² = 2,000(1.05)² = 2,000 × 1.1025 = Birr 2,205."
+  },
+  {
+    "question": "A sum compounded annually amounts to Birr 21,632 after 2 years and Birr 22,497.28 after 3 years. What is the interest rate?",
+    "options": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correct": 1,
+    "explanation": "1+r = A₃/A₂ = 22,497.28/21,632 = 1.04. So r = 4%."
+  },
+  {
+    "question": "Birr 3,000 is invested at 5% compounded annually for 3 years. What is the interest earned in the second year only?",
+    "options": [
+      "Birr 150.00",
+      "Birr 157.50",
+      "Birr 165.38",
+      "Birr 175.00"
+    ],
+    "correct": 1,
+    "explanation": "A₁ = 3,000 × 1.05 = 3,150. A₂ = 3,150 × 1.05 = 3,307.50. Interest in yr 2 = 3,307.50 − 3,150 = Birr 157.50."
+  },
+  {
+    "question": "Bond M pays 15% compounded monthly; Bond S pays 15.2% compounded semi-annually. Using (1.0125)¹² = 1.1608 and (1.076)² = 1.1578, which is the better investment?",
+    "options": [
+      "Bond S, since its nominal rate is higher",
+      "Bond M, since monthly compounding yields a higher effective rate",
+      "Both are identical in effective rate",
+      "Cannot be determined without the principal"
+    ],
+    "correct": 1,
+    "explanation": "Effective rate M = 1.1608 − 1 = 16.08%. Effective rate S = 1.1578 − 1 = 15.78%. Bond M gives the higher effective return."
+  },
+  {
+    "question": "At 10% compounded annually, how many years will it take Birr 4,000 to grow to Birr 5,324?",
+    "options": [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "correct": 1,
+    "explanation": "(1.1)^t = 5,324/4,000 = 1.331 = (1.1)³. So t = 3 years."
+  },
+  {
+    "question": "In how many years will the compound interest on Birr 1,000 at 10% per year equal Birr 210?",
+    "options": [
+      "1 year",
+      "2 years",
+      "3 years",
+      "4 years"
+    ],
+    "correct": 1,
+    "explanation": "A = 1,210. (1.1)^n = 1.21 = (1.1)². So n = 2 years."
+  },
+  {
+    "question": "Birr 10,000 compounded quarterly at 12% per year grows to Birr 10,609. How many months is this?",
+    "options": [
+      "3 months",
+      "6 months",
+      "9 months",
+      "12 months"
+    ],
+    "correct": 1,
+    "explanation": "(1.03)^(4t) = 1.0609 = (1.03)². So 4t = 2, t = 0.5 year = 6 months."
+  },
+  {
+    "question": "Money is invested at 8% compounded quarterly. Using log 2 = 0.3010 and log 1.02 = 0.0086, how many years does it take to double?",
+    "options": [
+      "7.0 years",
+      "8.0 years",
+      "8.75 years",
+      "10.5 years"
+    ],
+    "correct": 2,
+    "explanation": "(1.02)^(4t) = 2. 4t = log 2 / log 1.02 = 0.3010/0.0086 = 35. t = 35/4 = 8.75 years."
+  },
+  {
+    "question": "A sum triples at compound interest in 4 years. In how many years will it become 9 times?",
+    "options": [
+      "6 years",
+      "8 years",
+      "9 years",
+      "12 years"
+    ],
+    "correct": 1,
+    "explanation": "3 = (1+r)⁴ and 9 = 3² = (1+r)⁸. So t = 8 years."
+  },
+  {
+    "question": "In how many years does Birr 800 at 5% compounded annually grow to Birr 882?",
+    "options": [
+      "1 year",
+      "2 years",
+      "3 years",
+      "4 years"
+    ],
+    "correct": 1,
+    "explanation": "(1.05)^n = 882/800 = 1.1025 = (1.05)². So n = 2 years."
+  },
+  {
+    "question": "Money is deposited at 8% compounded quarterly. Using log 2 = 0.3010 and log 1.02 = 0.0086, how long to quadruple?",
+    "options": [
+      "8.75 years",
+      "17.5 years",
+      "35 years",
+      "70 years"
+    ],
+    "correct": 1,
+    "explanation": "(1.02)^(4t) = 4. 4t = log 4/log 1.02 = 2(0.3010)/0.0086 = 70. t = 70/4 = 17.5 years."
+  },
+  {
+    "question": "At what annual compound interest rate does Birr 6,400 grow to Birr 10,000 in 2 years?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 2,
+    "explanation": "(1+r)² = 10,000/6,400 = 25/16. 1+r = 5/4. r = 25%."
+  },
+  {
+    "question": "What is the effective annual interest rate for a nominal rate of 8% compounded quarterly?",
+    "options": [
+      "8.00%",
+      "8.16%",
+      "8.24%",
+      "8.32%"
+    ],
+    "correct": 2,
+    "explanation": "r_E = (1 + 0.08/4)⁴ − 1 = (1.02)⁴ − 1 ≈ 0.0824 = 8.24%."
+  },
+  {
+    "question": "What is the effective annual interest rate equivalent to 10.5% compounded semi-annually?",
+    "options": [
+      "10.50%",
+      "10.60%",
+      "10.77%",
+      "11.02%"
+    ],
+    "correct": 2,
+    "explanation": "r_E = (1 + 0.105/2)² − 1 = (1.0525)² − 1 = 1.1077 − 1 = 10.77%."
+  },
+  {
+    "question": "Bank X charges 8.6% compounded semi-annually; Bank Y charges 8.5% compounded monthly. Which bank offers a borrower the lower effective interest rate?",
+    "options": [
+      "Bank X — effective rate ≈ 8.78%",
+      "Bank Y — effective rate ≈ 8.83%",
+      "Both banks have the same effective rate",
+      "Bank Y — effective rate ≈ 8.78%"
+    ],
+    "correct": 0,
+    "explanation": "Bank X: (1 + 0.086/2)² − 1 ≈ 8.78%. Bank Y: (1 + 0.085/12)¹² − 1 ≈ 8.83%. Bank X's effective rate is lower, so borrow from Bank X."
+  },
+  {
+    "question": "A bank wants an effective rate of 4% from monthly compounding. Using (1.04)^(1/12) = 1.00373, what nominal annual rate should they advertise?",
+    "options": [
+      "3.9%",
+      "4.0%",
+      "4.5%",
+      "5.2%"
+    ],
+    "correct": 2,
+    "explanation": "(1 + r/12)^12 = 1.04 → r/12 = 0.00373 → r = 0.04476 ≈ 4.5%."
+  },
+  {
+    "question": "A bank pays 12% effective annual interest. How much interest does Birr 1,500 earn in 240 days?",
+    "options": [
+      "Birr 96.00",
+      "Birr 108.00",
+      "Birr 118.36",
+      "Birr 144.00"
+    ],
+    "correct": 2,
+    "explanation": "Annual interest = 1,500 × 0.12 = 180. Daily = 180/365. For 240 days: (180/365) × 240 ≈ Birr 118.36."
+  },
+  {
+    "question": "Find the future value of Birr 240,000 at an 18% effective annual interest rate for 8 months.",
+    "options": [
+      "Birr 257,600",
+      "Birr 268,800",
+      "Birr 272,000",
+      "Birr 283,200"
+    ],
+    "correct": 1,
+    "explanation": "A = P(1 + r_E × t) = 240,000(1 + 0.18 × 8/12) = 240,000 × 1.12 = Birr 268,800."
+  },
+  {
+    "question": "Birr 2,500 is deposited monthly at 8% per year compounded monthly for 10 years. If the annuity factor is 182.03, what is the total interest earned?",
+    "options": [
+      "Birr 105,075",
+      "Birr 135,075",
+      "Birr 155,075",
+      "Birr 205,075"
+    ],
+    "correct": 2,
+    "explanation": "FV = 2,500 × 182.03 = 455,075. Total deposits = 2,500 × 120 = 300,000. Interest = 455,075 − 300,000 = Birr 155,075."
+  },
+  {
+    "question": "A 45-year-old deposits Birr 2,500 quarterly at 6% compounded quarterly until age 70. If the annuity factor is 228.80, what is the retirement balance?",
+    "options": [
+      "Birr 250,000",
+      "Birr 430,500",
+      "Birr 572,000",
+      "Birr 625,000"
+    ],
+    "correct": 2,
+    "explanation": "n = (70−45) × 4 = 100 periods. S = 2,500 × 228.80 = Birr 572,000."
+  },
+  {
+    "question": "What is the future value annuity factor when n = 10 periods and i = 1.5% per period?",
+    "options": [
+      "9.20",
+      "10.00",
+      "10.70",
+      "11.43"
+    ],
+    "correct": 2,
+    "explanation": "Annuity factor = [(1 + i)ⁿ − 1]/i = [(1.015)¹⁰ − 1]/0.015 = (1.1605 − 1)/0.015 ≈ 10.70."
+  },
+  {
+    "question": "Plan A: Birr 500/month at 10% compounded monthly (factor 205.67). Plan B: Birr 600/month at 6% compounded monthly (factor 163.90). Which gives a higher 10-year balance, and by how much?",
+    "options": [
+      "Plan A by about Birr 4,495",
+      "Plan B by about Birr 4,495",
+      "Plan A by about Birr 10,000",
+      "Both plans yield the same balance"
+    ],
+    "correct": 0,
+    "explanation": "Plan A: 500 × 205.67 = 102,835. Plan B: 600 × 163.90 = 98,340. Plan A leads by ≈ Birr 4,495."
+  },
+  {
+    "question": "How much must be deposited monthly into an annuity at 7.5% per year compounded monthly to reach Birr 25,000 in 5 years? (annuity factor = 72.53)",
+    "options": [
+      "Birr 280.20",
+      "Birr 312.50",
+      "Birr 344.70",
+      "Birr 416.67"
+    ],
+    "correct": 2,
+    "explanation": "Monthly deposit R = Target / annuity factor = 25,000 / 72.53 ≈ Birr 344.70."
+  },
+  {
+    "question": "A father deposits Birr 800 at the start of each month for 10 years at 7.2% compounded monthly. If the annuity factor is 175, what is the total interest earned?",
+    "options": [
+      "Birr 24,000",
+      "Birr 44,000",
+      "Birr 54,000",
+      "Birr 96,000"
+    ],
+    "correct": 1,
+    "explanation": "FV = 800 × 175 = Birr 140,000. Total deposits = 800 × 120 months = Birr 96,000. Interest = 140,000 − 96,000 = Birr 44,000."
+  },
+  {
+    "question": "What present value generates quarterly payments of Birr 50,000 for 10 years at 8% compounded quarterly? (Annuity factor = 27.36)",
+    "options": [
+      "Birr 950,000",
+      "Birr 1,050,000",
+      "Birr 1,250,000",
+      "Birr 1,368,000"
+    ],
+    "correct": 3,
+    "explanation": "P = R × annuity factor = 50,000 × 27.36 = Birr 1,368,000."
+  },
+  {
+    "question": "For a 5-year annuity with monthly payments at 7.2% compounded monthly, what is the present value annuity factor (i = 0.006, n = 60)?",
+    "options": [
+      "47.30",
+      "50.20",
+      "55.50",
+      "60.00"
+    ],
+    "correct": 1,
+    "explanation": "PV factor = [1 − (1.006)⁻⁶⁰] / 0.006 ≈ 50.2."
+  },
+  {
+    "question": "Mr. Kassahun borrows Birr 600,000 at 8.4% per year to repay over 15 years monthly. If the PV annuity factor = 102.16, what is the monthly payment?",
+    "options": [
+      "Birr 4,500",
+      "Birr 5,000",
+      "Birr 5,873",
+      "Birr 6,250"
+    ],
+    "correct": 2,
+    "explanation": "R = P / PV factor = 600,000 / 102.16 ≈ Birr 5,873."
+  },
+  {
+    "question": "A Birr 100,000 loan at 12% per year is paid off monthly over 8 years. Using i = 0.01 and n = 96, the monthly payment is approximately:",
+    "options": [
+      "Birr 1,200",
+      "Birr 1,450",
+      "Birr 1,613",
+      "Birr 1,800"
+    ],
+    "correct": 2,
+    "explanation": "i = 0.12/12 = 0.01, n = 96. R = 100,000 × [0.01/(1 − (1.01)⁻⁹⁶)] = 100,000 × 0.01613 ≈ Birr 1,613 per month."
+  },
+  {
+    "question": "Dawit borrows Birr 2,500 at 12% annual interest compounded monthly for 1 year (monthly payment ≈ Birr 221.30). How much of the 4th payment is interest?",
+    "options": [
+      "Birr 17.05",
+      "Birr 19.05",
+      "Birr 21.05",
+      "Birr 23.04"
+    ],
+    "correct": 1,
+    "explanation": "Balance after 3rd payment ≈ Birr 1,905.20. Interest in 4th month = 1,905.20 × 0.01 ≈ Birr 19.05."
+  },
+  {
+    "question": "What loan amount can be amortized by Birr 500 monthly for 4 years at 15% annual interest? (PV factor = 35.93)",
+    "options": [
+      "Birr 14,400",
+      "Birr 15,750",
+      "Birr 17,965",
+      "Birr 24,000"
+    ],
+    "correct": 2,
+    "explanation": "P = R × PV annuity factor = 500 × 35.93 = Birr 17,965."
+  },
+  {
+    "question": "A loan of Birr 21,000 at 12% compounded monthly is amortized over 10 years. Using (1.01)⁻¹²⁰ = 0.3 and (1.01)¹²⁰ = 3.3, the monthly payment is:",
+    "options": [
+      "Birr 280",
+      "Birr 300",
+      "Birr 333",
+      "Birr 350"
+    ],
+    "correct": 1,
+    "explanation": "R = 21,000 × [0.01/(1−0.3)] = 21,000 × 0.01/0.7 = 21,000 × 0.01429 ≈ Birr 300."
+  },
+  {
+    "question": "A computer costs Birr 35,000 and depreciates at 8% per year. What is its value after 4 years?",
+    "options": [
+      "Birr 24,000.00",
+      "Birr 25,073.75",
+      "Birr 26,460.00",
+      "Birr 27,300.00"
+    ],
+    "correct": 1,
+    "explanation": "A = 35,000 × (1 − 0.08)⁴ = 35,000 × (0.92)⁴ ≈ 35,000 × 0.7164 ≈ Birr 25,073.75."
+  },
+  {
+    "question": "A TV bought for Birr 16,000 is worth Birr 14,440 after 2 years. What is the annual rate of depreciation?",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "8%"
+    ],
+    "correct": 1,
+    "explanation": "(1−r)² = 14,440/16,000 = (19/20)². So r = 1/20 = 5%."
+  },
+  {
+    "question": "A machine costs Birr 5,500 and is worth Birr 3,300 after 8 years. Using straight-line depreciation, what is the annual depreciation rate?",
+    "options": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correct": 2,
+    "explanation": "Annual depreciation = (5,500−3,300)/8 = 275. Rate = 275/5,500 × 100% = 5%."
+  },
+  {
+    "question": "A TV worth Birr 12,000 has a useful life of 10 years and salvage value of Birr 1,800. What is the annual straight-line depreciation?",
+    "options": [
+      "Birr 820",
+      "Birr 1,000",
+      "Birr 1,020",
+      "Birr 1,200"
+    ],
+    "correct": 2,
+    "explanation": "Depreciation = (12,000 − 1,800)/10 = 10,200/10 = Birr 1,020."
+  },
+  {
+    "question": "A machine costs Birr 12,000, has an 8-year life and Birr 2,000 salvage value. What is the book value at the end of year 5?",
+    "options": [
+      "Birr 3,925",
+      "Birr 5,685",
+      "Birr 5,750",
+      "Birr 6,820"
+    ],
+    "correct": 2,
+    "explanation": "Annual depreciation = (12,000−2,000)/8 = 1,250. Book value = 12,000 − 5×1,250 = Birr 5,750."
+  },
+  {
+    "question": "Using the tax table (35% rate with Birr 1,500 deduction for income above Birr 10,900), what is the net pay for a monthly salary of Birr 15,200?",
+    "options": [
+      "Birr 9,820",
+      "Birr 10,500",
+      "Birr 11,380",
+      "Birr 12,100"
+    ],
+    "correct": 2,
+    "explanation": "Tax = 15,200 × 0.35 − 1,500 = 5,320 − 1,500 = 3,820. Net = 15,200 − 3,820 = Birr 11,380."
+  },
+  {
+    "question": "A shop is rented at Birr 2,350/month. Annual rental = Birr 28,200, taxed at 20% with a Birr 1,410 deduction. What is the annual tax payable?",
+    "options": [
+      "Birr 2,420",
+      "Birr 3,750",
+      "Birr 4,230",
+      "Birr 5,460"
+    ],
+    "correct": 2,
+    "explanation": "Tax = 28,200 × 0.20 − 1,410 = 5,640 − 1,410 = Birr 4,230."
+  },
+  {
+    "question": "A coffee table sells for Birr 1,380 inclusive of 15% VAT. What is the price before VAT?",
+    "options": [
+      "Birr 1,170",
+      "Birr 1,200",
+      "Birr 1,248",
+      "Birr 1,300"
+    ],
+    "correct": 1,
+    "explanation": "Price excl. VAT = 1,380 / 1.15 = Birr 1,200."
+  },
+  {
+    "question": "A washing machine costs Birr 24,000 before 15% VAT. How much does the buyer pay?",
+    "options": [
+      "Birr 25,600",
+      "Birr 26,400",
+      "Birr 27,600",
+      "Birr 28,800"
+    ],
+    "correct": 2,
+    "explanation": "Total = 24,000 × 1.15 = Birr 27,600."
+  },
+  {
+    "question": "A dealer buys an item for Birr 6,000 (VAT included at 15%) and sells it for Birr 8,000. What is the dealer's VAT liability to the government?",
+    "options": [
+      "Birr 130.43",
+      "Birr 260.87",
+      "Birr 391.30",
+      "Birr 782.60"
+    ],
+    "correct": 1,
+    "explanation": "VAT paid on purchase = 6,000 − 6,000/1.15 ≈ 782.61. VAT collected on sale = 8,000 − 8,000/1.15 ≈ 1,043.48. Liability = 1,043.48 − 782.61 ≈ Birr 260.87."
+  }
+]
