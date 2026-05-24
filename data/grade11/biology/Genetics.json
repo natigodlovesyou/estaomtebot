@@ -1,72 +1,72 @@
 [
   {
-    "question": "Which structural feature most directly makes RNA suitable as a short-lived messenger molecule compared with DNA?",
+    "question": "Which property most clearly makes RNA suitable as a short-lived messenger compared with DNA?",
     "options": [
-      "smaller in size",
-      "is double stranded",
-      "contain deoxyribose sugar",
-      "stable molecule"
+      "It is usually single-stranded and less stable.",
+      "It contains deoxyribose sugar.",
+      "It is always double-stranded.",
+      "It is more chemically stable than DNA."
     ],
     "correct": 0,
-    "explanation": "RNA is usually shorter and less stable than DNA, so it works well as a temporary messenger."
+    "explanation": "RNA is usually single-stranded and less stable, so it is well suited for temporary information transfer."
   },
   {
-    "question": "Which of the following enzyme is used to assemble free nucleotide in to the growing region of DNA?",
+    "question": "Which enzyme adds free nucleotides to the 3' end of a growing DNA strand during replication?",
     "options": [
       "DNA polymerase",
-      "topoisomerase",
       "DNA helicase",
-      "ligase"
+      "DNA ligase",
+      "Topoisomerase"
     ],
     "correct": 0,
-    "explanation": "DNA polymerase assembles free nucleotides; Topoisomerase prevents super coiling; DNA helicase unwinds/unzips DNA strands; DNA ligase joins fragments; RNA primase synthesizes RNA primer."
+    "explanation": "DNA polymerase adds nucleotides to the growing DNA strand during replication."
   },
   {
-    "question": "Which of the following enzyme and its function is mismatched in the process of DNA replication?",
+    "question": "Which enzyme-function pair is mismatched in DNA replication?",
     "options": [
-      "DNA polymerase - assembly of free nucleotides",
-      "Primase - synthesis of RNA primer",
-      "Topoisomerase - prevents super coiling",
-      "DNA helicase - join fragments of DNA"
+      "DNA polymerase — joins Okazaki fragments",
+      "Primase — synthesizes RNA primer",
+      "Helicase — unwinds DNA",
+      "Topoisomerase — prevents supercoiling"
     ],
-    "correct": 3,
-    "explanation": "DNA helicase unwinds/unzips DNA strands; it is DNA ligase that joins fragments of DNA."
+    "correct": 0,
+    "explanation": "DNA polymerase adds nucleotides; DNA ligase joins Okazaki fragments."
   },
   {
     "question": "Which RNA carries the genetic message from DNA to the ribosome during protein synthesis?",
     "options": [
-      "tRNA",
       "mRNA",
+      "tRNA",
       "rRNA",
-      "All"
+      "snRNA"
     ],
-    "correct": 1,
-    "explanation": "mRNA carries the codon sequence copied from DNA to the ribosome."
+    "correct": 0,
+    "explanation": "mRNA carries the coded message copied from DNA to the ribosome."
   },
   {
-    "question": "When a DNA molecule is replicating which one of the following is NOT true?",
+    "question": "Which statement about semiconservative DNA replication is correct?",
     "options": [
-      "The process is a semiconservative",
-      "The new DNA formed has one new and old strands",
-      "DNA polymerase assembled free nucleotides",
-      "The new daughters DNA are identical to each other but not identical to parent DNA"
+      "Each daughter DNA molecule contains one original strand and one newly synthesized strand.",
+      "Both daughter strands are newly made.",
+      "Both daughter strands are original strands.",
+      "Replication occurs without complementary base pairing."
+    ],
+    "correct": 0,
+    "explanation": "In semiconservative replication, each new DNA molecule keeps one old strand and builds one new strand."
+  },
+  {
+    "question": "Which statement about DNA is NOT true?",
+    "options": [
+      "The strands are antiparallel.",
+      "The strands have complementary bases.",
+      "One strand runs 5'→3' while the other runs 3'→5'.",
+      "Both strands contain identical bases at every position."
     ],
     "correct": 3,
-    "explanation": "DNA replication refers to the process of making an identical copy of the DNA molecule."
+    "explanation": "DNA strands are complementary, not identical."
   },
   {
-    "question": "Which of the following is not true about a DNA molecule?",
-    "options": [
-      "the strands are 5'-3' and 3'-5' ends",
-      "the strands are antiparallel",
-      "has complementary bases",
-      "similar bases"
-    ],
-    "correct": 3,
-    "explanation": "DNA has two antiparallel strands. If one strand has 5'-3' end the other strand will be 3'-5' ends. The nitrogen bases on the two strands are complementary."
-  },
-  {
-    "question": "If one DNA strand has the base sequences of CGAAT, then the complementary strand will have ___ sequences?",
+    "question": "If one DNA strand has the base sequence CGAAT, what is the complementary strand?",
     "options": [
       "GCUUA",
       "GCTTA",
@@ -74,21 +74,21 @@
       "CGAAT"
     ],
     "correct": 1,
-    "explanation": "The nitrogen bases on the two DNA strands are complementary (C-G and A-T). If one strand has CGAAT, the complementary strand will be GCTTA."
+    "explanation": "In DNA, C pairs with G and A pairs with T, so CGAAT pairs with GCTTA."
   },
   {
-    "question": "Which order correctly ranks chromosome, DNA, gene, and nucleotide from largest to smallest?",
+    "question": "Which sequence is correct from largest to smallest?",
     "options": [
-      "1  2  3  4",
-      "2  1  3  4",
-      "3  1  2  4",
-      "1  2  4  3"
+      "Chromosome → DNA → gene → nucleotide",
+      "DNA → chromosome → gene → nucleotide",
+      "Chromosome → gene → DNA → nucleotide",
+      "Gene → DNA → chromosome → nucleotide"
     ],
     "correct": 0,
-    "explanation": "The genetic materials from complex to simple: Chromosome → DNA → Gene → Nucleotide."
+    "explanation": "A chromosome contains DNA, DNA contains genes, and genes are made of nucleotides."
   },
   {
-    "question": "If a DNA strand has a total of 100 nitrogen bases; among them 'A' is 20, then the number of 'G' is ___?",
+    "question": "A DNA molecule has 100 bases in total. If 20 are adenine, how many are guanine?",
     "options": [
       "40",
       "30",
@@ -96,7 +96,7 @@
       "60"
     ],
     "correct": 1,
-    "explanation": "In the DNA molecule the number of A and T are equal; and C and G are equal. A+T+C+G=100; 2A+2G=100; 40+2G=100; G=30."
+    "explanation": "A = T, so T = 20. Then A + T = 40, leaving 60 bases for G + C. Since G = C, G = 30."
   },
   {
     "question": "Which of the following bases pairs with uracil in the RNA molecule?",
@@ -110,26 +110,26 @@
     "explanation": "Nitrogen bases in RNA molecule are: A, C, G, and U. By base pairing rules, U is paired with A."
   },
   {
-    "question": "Why do you say that DNA replication is a semiconservative process?",
+    "question": "Why is DNA replication described as semiconservative?",
     "options": [
-      "Each new DNA molecule contains one new strand and one old one",
-      "Every other new DNA molecule contains two old strands",
-      "Each new DNA strand contains two new strands",
-      "Every other new DNA molecule contains one new strand and one old one"
+      "Each daughter DNA molecule contains one old strand and one new strand.",
+      "Each daughter DNA molecule contains only old strands.",
+      "Each daughter DNA molecule contains only new strands.",
+      "DNA replication occurs without a template."
     ],
     "correct": 0,
-    "explanation": "DNA replicates and every new cell gets a copy. During DNA replication each old strand gives rise to a new strand."
+    "explanation": "Each old strand serves as a template for a new complementary strand."
   },
   {
-    "question": "When homologous chromosomes are separated during meiosis, only chance determines which of the pair is passed into any given gamete. This finding is known as the:",
+    "question": "When homologous chromosomes separate randomly during meiosis, which law is being described?",
     "options": [
-      "Law of chance",
-      "Law of universal inheritance",
       "Law of segregation",
-      "Law of independent assortment"
+      "Law of independent assortment",
+      "Law of dominance",
+      "Law of linkage"
     ],
-    "correct": 3,
-    "explanation": "Bivalents line up randomly on either sides of the center at metaphase I of meiosis. This random assortment of chromosomes is the source of genetic variation in the population."
+    "correct": 1,
+    "explanation": "Independent assortment explains the random orientation and separation of homologous chromosome pairs in meiosis."
   },
   {
     "question": "In which stage of the cell cycle is DNA copied?",
@@ -143,15 +143,15 @@
     "explanation": "DNA is synthesized during the S phase of interphase."
   },
   {
-    "question": "How many chromosomes would a cell have during metaphase I of meiosis if it has 12 chromosomes during interphase?",
+    "question": "How many chromosomes are present in a cell at metaphase I if its diploid number is 12?",
     "options": [
       "6",
       "12",
       "24",
-      "36"
+      "48"
     ],
     "correct": 1,
-    "explanation": "At metaphase I of meiosis, the cell doesn't complete division; so that the 12 chromosomes remain in the cell."
+    "explanation": "At metaphase I, the cell still has 12 chromosomes; they are duplicated but not yet separated."
   },
   {
     "question": "Which mitotic phase is usually the longest, and which is the shortest?",
@@ -176,73 +176,73 @@
     "explanation": "Cytokinesis separates the cytoplasm. If it fails, the cell may contain more than one nucleus instead of splitting into two cells."
   },
   {
-    "question": "Which event is NOT characteristic of the end of meiosis II?",
+    "question": "Which statement best distinguishes meiosis II from meiosis I?",
     "options": [
-      "Four haploid daughter cells are produced",
-      "Four sex cells are produced",
-      "Each daughter cell has the same type and number of chromosomes",
-      "Each daughter cell has genetic variation"
+      "Sister chromatids separate in meiosis II.",
+      "Homologous chromosomes separate in meiosis II.",
+      "DNA replicates again before meiosis II.",
+      "Crossing over occurs in meiosis II."
     ],
-    "correct": 2,
-    "explanation": "Meiosis II produces four haploid daughter cells that are genetically different."
+    "correct": 0,
+    "explanation": "Homologous chromosomes separate in meiosis I, while sister chromatids separate in meiosis II."
   },
   {
-    "question": "The process of exchanging a section of chromosomes in between homologous pairs/bivalents during prophase I in meiosis?",
+    "question": "The exchange of corresponding segments between non-sister chromatids of homologous chromosomes during prophase I is called:",
     "options": [
       "Crossing over",
       "Synapsis",
-      "Chiasmata",
-      "Duplication"
+      "Chiasma formation",
+      "Segregation"
     ],
     "correct": 0,
-    "explanation": "At prophase I of meiosis the pairing between bivalents is called synapsis. The point of contact between the bivalents is called chiasmata. An exchange of a section of chromosomes in between the bivalents is called crossing over."
+    "explanation": "Crossing over is the exchange of segments between non-sister chromatids during prophase I."
   },
   {
-    "question": "Which event is NOT characteristic of the end of meiosis II?",
+    "question": "The visible point where non-sister chromatids exchange segments during prophase I is called:",
     "options": [
-      "Four haploid daughter cells are produced",
-      "Four sex cells are produced",
-      "Each daughter cell has the same type and number of chromosomes",
-      "Each daughter cell has genetic variation"
+      "Chiasma",
+      "Tetrad",
+      "Centromere",
+      "Spindle fibre"
     ],
-    "correct": 2,
-    "explanation": "Meiosis II produces four haploid cells, and they are genetically different from one another."
+    "correct": 0,
+    "explanation": "A chiasma is the visible point of crossing over between chromatids."
   },
   {
-    "question": "During meiosis, crossing over occurs between ___?",
+    "question": "Crossing over occurs between:",
     "options": [
-      "Metaphase I",
-      "Anaphase I",
-      "Anaphase II",
-      "Metaphase II"
+      "Non-sister chromatids of homologous chromosomes",
+      "Sister chromatids of the same chromosome",
+      "Homologous chromosomes in metaphase II",
+      "Daughter chromosomes in anaphase II"
     ],
-    "correct": 1,
-    "explanation": "Crossing over occurs between non-sister chromatids of homologous chromosomes in prophase I."
+    "correct": 0,
+    "explanation": "Crossing over takes place between non-sister chromatids of homologous chromosomes in prophase I."
   },
   {
     "question": "Homologous chromosomes separate and move to opposite poles during which phase of meiosis?",
     "options": [
-      "Crossing over",
-      "Arrangement of chromosomes at metaphase",
-      "Asexual reproduction",
-      "A and B"
+      "Anaphase I",
+      "Prophase I",
+      "Metaphase II",
+      "Anaphase II"
     ],
-    "correct": 3,
-    "explanation": "Homologous chromosomes separate in anaphase I; sister chromatids separate in anaphase II."
+    "correct": 0,
+    "explanation": "Homologous chromosomes separate during anaphase I."
   },
   {
     "question": "Which amino acid begins translation at the start codon?",
     "options": [
-      "arginine",
-      "methionine",
-      "cysteine",
-      "serine"
+      "Arginine",
+      "Methionine",
+      "Cysteine",
+      "Serine"
     ],
     "correct": 1,
-    "explanation": "AUG is the initiator codon, and it codes for methionine."
+    "explanation": "AUG is the start codon and codes for methionine."
   },
   {
-    "question": "A DNA triplet AAT will produce an mRNA codon that pairs with a tRNA anticodon of ___?",
+    "question": "A DNA triplet AAT transcribes into an mRNA codon that pairs with a tRNA anticodon of ___?",
     "options": [
       "AAU",
       "TTA",
@@ -250,10 +250,10 @@
       "UUA"
     ],
     "correct": 0,
-    "explanation": "DNA triplet AAT transcribes to mRNA UUA, which pairs with tRNA anticodon AAU."
+    "explanation": "AAT transcribes to mRNA UUA, and the tRNA anticodon complementary to UUA is AAU."
   },
   {
-    "question": "A protein with 100 amino acids will have a minimum number of ___ nucleotide bases representation on mRNA?",
+    "question": "A protein with 100 amino acids will have a minimum of how many nucleotide bases on the mRNA?",
     "options": [
       "64",
       "33",
@@ -261,7 +261,7 @@
       "200"
     ],
     "correct": 2,
-    "explanation": "One amino acid is represented by a triplet codon (3 nucleotide bases) on mRNA; therefore, 100 amino acids will have 100 triplet codons. 100 × 3 = 300 nucleotide bases."
+    "explanation": "Each amino acid is coded by 3 bases, so 100 amino acids require 100 × 3 = 300 bases."
   },
   {
     "question": "How many triplet genetic codes are possible with four bases arranged in triplets?",
@@ -272,18 +272,18 @@
       "20"
     ],
     "correct": 0,
-    "explanation": "The number of triplet codes is 4^3 = 64."
+    "explanation": "The number of possible codons is 4^3 = 64."
   },
   {
     "question": "The triplet code on tRNA is known as ___?",
     "options": [
-      "codon",
-      "anticodon",
-      "antisense codon",
-      "sense codon"
+      "Codon",
+      "Anticodon",
+      "Sense codon",
+      "Termination codon"
     ],
     "correct": 1,
-    "explanation": "The triplet on mRNA is a codon; on tRNA it is an anticodon."
+    "explanation": "The triplet on tRNA is the anticodon, which pairs with the mRNA codon."
   },
   {
     "question": "Which of the following triplet codons on mRNA is NOT a terminator (stop) codon?",
@@ -294,7 +294,7 @@
       "UGA"
     ],
     "correct": 2,
-    "explanation": "Among the 64 triplet codes, three codes are stop/terminator codons (UAA, UAG, and UGA). AUG is the start/initiator codon."
+    "explanation": "UAA, UAG, and UGA are stop codons; AUG is the start codon."
   },
   {
     "question": "Which of the following mRNA codons is a start codon rather than a stop codon?",
@@ -305,18 +305,18 @@
       "UGA"
     ],
     "correct": 2,
-    "explanation": "UAA, UAG, and UGA are stop codons. AUG starts translation and codes for methionine."
+    "explanation": "AUG starts translation and codes for methionine."
   },
   {
     "question": "Which statement about protein synthesis is false?",
     "options": [
       "Synthesis of mRNA from DNA is called transcription",
       "The conversion of codons on mRNA into protein is called translation",
-      "DNA is used as a blue print to synthesize protein by ribosome",
-      "One type of tRNA can carry all the 20 different amino acids into ribosome"
+      "DNA is used as a blueprint to synthesize protein by ribosome",
+      "One tRNA can carry all 20 amino acids"
     ],
     "correct": 3,
-    "explanation": "tRNA molecules are specific. One tRNA carries one particular amino acid, not all 20."
+    "explanation": "Each tRNA carries one specific amino acid, not all 20."
   },
   {
     "question": "What is the immediate result of a mistake in translation most likely to be?",
@@ -324,54 +324,54 @@
       "Different cell",
       "Different gene",
       "Different protein",
-      "Different sets of allele"
+      "Different set of alleles"
     ],
     "correct": 2,
     "explanation": "A translation error changes the amino acid sequence, producing a different protein."
   },
   {
-    "question": "Which of the following statements about the genetic code is not true?",
+    "question": "Which statement about the genetic code is NOT true?",
     "options": [
-      "The genetic code is almost universal",
-      "The genetic code is double code",
-      "Multiple codons may encode the same amino acid",
-      "Some codons are 'stop' or terminator codons"
-    ],
-    "correct": 1,
-    "explanation": "The genetic code is a triplet code, not a double code."
-  },
-  {
-    "question": "Which statement about the genetic code is false?",
-    "options": [
-      "The genetic code is almost universal",
-      "The genetic code is double code",
-      "Multiple codons may encode the same amino acid",
-      "Some codons are 'stop' or terminator codons"
-    ],
-    "correct": 1,
-    "explanation": "The genetic code is a triplet code, not a double code."
-  },
-  {
-    "question": "What are the genotypes of the parents represented in this cross? (Offspring: Rr, Rr, rr, rr)",
-    "options": [
-      "Sister chromatids",
-      "Homologous chromosomes",
-      "DNA",
-      "Alleles"
+      "The genetic code is almost universal.",
+      "The genetic code is a triplet code.",
+      "Several codons may specify the same amino acid.",
+      "A single codon always codes for two amino acids."
     ],
     "correct": 3,
-    "explanation": "Only Rr × rr can produce two Rr and two rr offspring."
+    "explanation": "The genetic code is triplet-based, and one codon specifies one amino acid or a stop signal."
+  },
+  {
+    "question": "Which feature is characteristic of the genetic code?",
+    "options": [
+      "It is a triplet code.",
+      "It is read only in pairs.",
+      "Each codon codes for two amino acids.",
+      "It changes from cell to cell."
+    ],
+    "correct": 0,
+    "explanation": "The genetic code is read in triplets, so each codon contains three bases."
+  },
+  {
+    "question": "Which parental cross could produce offspring in a 1:1 ratio of Rr and rr?",
+    "options": [
+      "Rr × rr",
+      "RR × rr",
+      "Rr × Rr",
+      "rr × rr"
+    ],
+    "correct": 0,
+    "explanation": "Rr × rr gives 1/2 Rr and 1/2 rr."
   },
   {
     "question": "Alternative versions of a gene are known as ___?",
     "options": [
-      "1:1",
-      "1:2",
-      "1:3",
-      "1:4"
+      "Alleles",
+      "Chromosomes",
+      "Gametes",
+      "Loci"
     ],
     "correct": 0,
-    "explanation": "Alternative forms of the same gene are called alleles."
+    "explanation": "Different forms of the same gene are called alleles."
   },
   {
     "question": "A dihybrid cross AaBb × AaBb produces 80 offspring. How many are expected to show the same dominant phenotype as the parents?",
@@ -382,40 +382,40 @@
       "80"
     ],
     "correct": 1,
-    "explanation": "For AaBb × AaBb, the dominant phenotype class is 9/16. So 80 × 9/16 = 45."
+    "explanation": "A dihybrid cross gives a 9:3:3:1 ratio. The double-dominant phenotype is 9/16, so 80 × 9/16 = 45."
   },
   {
     "question": "A tall pea plant (TT) is crossed with a short plant (tt). What percentage of the F2 are heterozygous tall?",
     "options": [
-      "25",
-      "100",
-      "50",
-      "75"
+      "25%",
+      "100%",
+      "50%",
+      "75%"
     ],
     "correct": 2,
-    "explanation": "TT × tt gives F1 all Tt. Selfing Tt × Tt gives 1/2 Tt in F2, so 50%."
+    "explanation": "TT × tt gives all Tt in F1. Selfing F1 gives 1 TT : 2 Tt : 1 tt, so Tt = 50%."
   },
   {
     "question": "What law states that the inheritance of one trait has no effect on the inheritance of another?",
     "options": [
-      "The law of generation",
-      "The law of universal inheritance",
-      "The law of independent assortment",
-      "The law of dominant"
+      "Law of generation",
+      "Law of universal inheritance",
+      "Law of independent assortment",
+      "Law of dominance"
     ],
     "correct": 2,
-    "explanation": "Independent assortment means each pair of alleles separates independently of other pairs."
+    "explanation": "Independent assortment means alleles of one gene pair separate independently of alleles of another pair."
   },
   {
     "question": "From the same dihybrid cross, what percentage of F2 are RrYy?",
     "options": [
-      "18.75",
-      "6.25",
-      "25",
-      "37.5"
+      "18.75%",
+      "25%",
+      "6.25%",
+      "12.5%"
     ],
-    "correct": 0,
-    "explanation": "In AaBb-type dihybrid crosses, RrYy occurs in 3 out of 16 offspring."
+    "correct": 1,
+    "explanation": "For AaBb × AaBb, P(RrYy) = P(Rr) × P(Yy) = 1/2 × 1/2 = 1/4 = 25%."
   },
   {
     "question": "What characteristic is described in the statement 'the dog coat is brown'?",
@@ -431,27 +431,27 @@
   {
     "question": "A cross between red snapdragon and white snapdragon produces pink flowers. Which genetic pattern explains this intermediate phenotype?",
     "options": [
-      "complete",
-      "incomplete",
-      "co-dominance",
-      "over dominance"
+      "Complete dominance",
+      "Incomplete dominance",
+      "Codominance",
+      "Overdominance"
     ],
     "correct": 1,
-    "explanation": "Incomplete dominance produces an intermediate phenotype, such as pink flowers from red × white."
+    "explanation": "Incomplete dominance produces an intermediate phenotype such as pink flowers from red × white."
   },
   {
     "question": "Which one of the following is not true about sex determination in animals?",
     "options": [
       "Male bird is ZW",
       "Human female is homogametic (XX)",
-      "Male honey bee is haplodiploidy",
-      "Some snails are hermaphrodite"
+      "Male honey bee is haplodiploid",
+      "Some snails are hermaphrodites"
     ],
     "correct": 0,
-    "explanation": "In birds, the male is ZZ and the female is ZW; the reverse statement is false."
+    "explanation": "In birds, the male is ZZ and the female is ZW."
   },
   {
-    "question": "Which one of the following is not true about the blood of Rh+ person?",
+    "question": "Which one of the following is not true about the blood of an Rh-positive person?",
     "options": [
       "Can donate blood to Rh positive",
       "Can receive blood from Rh positive",
@@ -459,51 +459,51 @@
       "Can receive blood from Rh negative"
     ],
     "correct": 2,
-    "explanation": "Rh- person can donate blood to Rh- and Rh+ person, but receive only from Rh-. Rh+ person can donate blood to only Rh+, but receive from Rh- and Rh+."
+    "explanation": "Rh-positive blood should not be donated to Rh-negative recipients."
   },
   {
-    "question": "Which statement about the blood of an Rh-positive person is not true?",
+    "question": "Which statement about Rh factor is correct?",
     "options": [
-      "Can donate blood to Rh positive",
-      "Can receive blood from Rh positive",
-      "Can donate blood to Rh negative",
-      "Can receive blood from Rh negative"
-    ],
-    "correct": 2,
-    "explanation": "Rh-positive blood should not be donated to an Rh-negative person."
-  },
-  {
-    "question": "The blood type of an Rh-positive person can have which genotype(s)?",
-    "options": [
-      "O-",
-      "AB+",
-      "AB-",
-      "O+"
+      "Rh-negative blood can donate to Rh-positive recipients.",
+      "Rh-positive blood can donate to Rh-negative recipients.",
+      "Rh-positive blood lacks the Rh antigen.",
+      "Rh-negative blood always contains the Rh antigen."
     ],
     "correct": 0,
-    "explanation": "Rh-positive individuals may be homozygous dominant or heterozygous for Rh."
+    "explanation": "Rh-negative blood lacks the Rh antigen, so it can be given to Rh-positive recipients."
   },
   {
-    "question": "Which blood type is the universal donor to all blood type individuals?",
+    "question": "The genotype of an Rh-positive person can be:",
     "options": [
-      "1:1",
+      "RR or Rr",
+      "rr only",
+      "AO or BO",
+      "XX or XY"
+    ],
+    "correct": 0,
+    "explanation": "Rh-positive is caused by the dominant Rh allele, so the genotype may be RR or Rr."
+  },
+  {
+    "question": "Which blood type is the universal donor?",
+    "options": [
+      "O negative",
+      "AB positive",
+      "A positive",
+      "B positive"
+    ],
+    "correct": 0,
+    "explanation": "O negative lacks A, B, and Rh antigens, so it can donate to all blood types."
+  },
+  {
+    "question": "If two roan cattle are crossed, what is the phenotypic ratio of the offspring?",
+    "options": [
       "1:2:1",
       "3:1",
-      "2:1"
+      "2:1:1",
+      "9:3:3:1"
     ],
-    "correct": 1,
-    "explanation": "O negative has no A, B, or Rh antigens, so it can donate broadly."
-  },
-  {
-    "question": "A red bull (RR) crossed with a white cow (rr) produces roan calves (Rr). If two roan cattle are crossed, what is the phenotypic ratio?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct": 1,
-    "explanation": "Codominance gives a 1 red : 2 roan : 1 white ratio."
+    "correct": 0,
+    "explanation": "Roan × roan gives 1 red : 2 roan : 1 white."
   },
   {
     "question": "What is the minimum number of alleles for ABO blood type that each person carries?",
@@ -514,7 +514,7 @@
       "4"
     ],
     "correct": 1,
-    "explanation": "Each individual carries two alleles for ABO blood group, one inherited from each parent."
+    "explanation": "Each person inherits two ABO alleles, one from each parent."
   },
   {
     "question": "If a man has type AB blood and a woman has type O blood, what are the possible blood genotypes of their child?",
@@ -522,21 +522,21 @@
       "B",
       "A",
       "O",
-      "B and A"
+      "A or B"
     ],
     "correct": 3,
-    "explanation": "AB × OO gives either AO or BO in the child."
+    "explanation": "AB × OO produces AO or BO children."
   },
   {
-    "question": "Which genotype(s) can produce blood type B?",
+    "question": "Which genotype can produce blood type B among the following?",
     "options": [
-      "OB",
+      "BB",
+      "AO",
       "AB",
-      "BO",
       "OO"
     ],
-    "correct": 2,
-    "explanation": "Blood type B can result from BB or BO; among the given choices, BO is the correct genotype."
+    "correct": 0,
+    "explanation": "Blood type B can be produced by BB or BO; among the given options, BB is correct."
   },
   {
     "question": "What is the genotype of a person with blood type A who has a father with blood type O?",
@@ -547,7 +547,7 @@
       "OO"
     ],
     "correct": 1,
-    "explanation": "Because the father is OO, the child must receive O from him. To show type A, the child must be AO."
+    "explanation": "The father can give only O, so the child must be AO to show type A."
   },
   {
     "question": "Which genotype can a child of an O mother and an AB father have?",
@@ -558,7 +558,7 @@
       "AB only"
     ],
     "correct": 1,
-    "explanation": "An O mother can contribute only O, while an AB father can contribute A or B, so the child can be AO or BO."
+    "explanation": "The O mother can pass only O, while the AB father can pass A or B."
   },
   {
     "question": "A woman with blood type B and an O husband have a child with blood type O. What is the most probable genotype of the woman?",
@@ -569,7 +569,7 @@
       "AB"
     ],
     "correct": 2,
-    "explanation": "To produce an O child with an O father, the B mother must be BO."
+    "explanation": "The mother must carry an O allele, so her genotype is BO."
   },
   {
     "question": "What is the expected percentage of hemophiliac children born from a carrier mother and a normal father?",
@@ -580,18 +580,18 @@
       "75%"
     ],
     "correct": 0,
-    "explanation": "For X^H X^h × X^H Y, 25% of all children are expected to be affected."
+    "explanation": "For X^H X^h × X^H Y, one quarter of all children are expected to be affected."
   },
   {
-    "question": "From the same cross, what is the chance of getting a carrier daughter?",
+    "question": "From the same cross, what is the probability that a daughter will be a carrier?",
     "options": [
       "25%",
       "50%",
-      "100%",
-      "75%"
+      "75%",
+      "100%"
     ],
     "correct": 1,
-    "explanation": "Half of the daughters are expected to be carriers."
+    "explanation": "Carrier daughters make up half of the daughters in a carrier mother × normal father cross."
   },
   {
     "question": "The phenotype of an individual is always determined only by its own genotype.",
@@ -602,7 +602,7 @@
       "None"
     ],
     "correct": 1,
-    "explanation": "This statement is false because environmental factors can also affect phenotype."
+    "explanation": "Phenotype can also be influenced by environmental factors."
   },
   {
     "question": "Which disorder shows autosomal dominant inheritance?",
@@ -616,7 +616,7 @@
     "explanation": "Huntington disease is a classic autosomal dominant disorder."
   },
   {
-    "question": "A kind of chromosomal disorder that involves an exchange of chromosomal segments between non-homologous chromosomes is ___?",
+    "question": "A chromosomal disorder that involves an exchange of chromosomal segments between non-homologous chromosomes is ___?",
     "options": [
       "Deletion",
       "Translocation",
@@ -624,59 +624,59 @@
       "Aneuploidy"
     ],
     "correct": 1,
-    "explanation": "Translocation is the exchange of segments between non-homologous chromosomes."
+    "explanation": "Translocation is the movement or exchange of a segment between non-homologous chromosomes."
   },
   {
     "question": "Which statement best describes crossbreeding?",
     "options": [
-      "Produce pure bred",
-      "Produce hybrid vigour",
+      "Produces pure-bred offspring",
+      "Produces hybrid vigour",
       "Is breeding between close relatives",
-      "Produce inbred"
+      "Produces inbred offspring"
     ],
     "correct": 1,
-    "explanation": "Crossbreeding between distantly related organisms often produces hybrid vigour."
+    "explanation": "Crossbreeding often combines desirable traits and may produce hybrid vigour."
   },
   {
     "question": "Which statement about gene therapy is not true?",
     "options": [
-      "Somatic gene therapy can't pass to the offspring",
-      "Germ line gene therapy can pass to the offspring",
-      "It is used to transfer curative gene to the patient",
-      "Curative genes are transferred by needle"
+      "Somatic gene therapy cannot pass to offspring",
+      "Germ-line gene therapy can pass to offspring",
+      "It is used to transfer a curative gene to the patient",
+      "Curative genes are transferred by needle alone"
     ],
     "correct": 3,
-    "explanation": "Curative genes are delivered by vectors such as plasmids or viruses, not simply by needle alone."
+    "explanation": "Gene therapy uses vectors or other delivery systems, not a simple needle alone."
   },
   {
     "question": "The field of bioinformatics that studies DNA sequencing is:",
     "options": [
       "Systemic biology",
       "Genomics",
-      "Proteomic",
+      "Proteomics",
       "None"
     ],
     "correct": 1,
-    "explanation": "Genomics studies entire genomes, including DNA sequencing."
+    "explanation": "Genomics studies genomes, including DNA sequence information."
   },
   {
     "question": "Which activity is least central to routine bioinformatics analysis?",
     "options": [
-      "Computer/information technology",
+      "Computer and information technology",
       "Software application",
       "Good communication",
       "Microscope dissection"
     ],
     "correct": 3,
-    "explanation": "Bioinformatics is computational; microscope dissection is a wet-lab task, not a core bioinformatics skill."
+    "explanation": "Bioinformatics is computational; microscope dissection is not a core bioinformatics activity."
   },
   {
     "question": "During protein synthesis, tRNA:",
     "options": [
-      "Produce a new RNA",
-      "Carries an amino acid into the site of protein synthesis",
-      "Produce protein sub unit by translating the codon on mRNA",
-      "Deliver instruction for protein synthesis to ribosome"
+      "Produces a new RNA",
+      "Carries an amino acid to the site of protein synthesis",
+      "Produces a protein subunit by translating the codon on mRNA",
+      "Delivers the instruction for protein synthesis to the ribosome"
     ],
     "correct": 1,
     "explanation": "tRNA brings a specific amino acid to the ribosome during translation."
@@ -690,7 +690,7 @@
       "Phenotype"
     ],
     "correct": 1,
-    "explanation": "Alternative versions of the same gene are called alleles."
+    "explanation": "Alternative forms of the same gene are called alleles."
   },
   {
     "question": "In Mendel's first experiment with pea plants, the F2 phenotypic ratio of contrasting traits was:",
@@ -706,16 +706,16 @@
   {
     "question": "The phenotype of an organism:",
     "options": [
-      "Can't be seen",
-      "Is the physical result of its gene",
+      "Cannot be seen",
+      "Is the physical result of its genes",
       "Exactly matches its genotype",
-      "Occurs only in pure trait"
+      "Occurs only in pure traits"
     ],
     "correct": 1,
-    "explanation": "Phenotype is the observable physical expression of genes."
+    "explanation": "Phenotype is the observable expression of genetic information."
   },
   {
-    "question": "Mendel obtained his P1 generation by forcing pea plant to:",
+    "question": "Mendel obtained his P1 generation by forcing pea plants to:",
     "options": [
       "Segregate",
       "Self-pollinate",
@@ -723,7 +723,7 @@
       "Assort independently"
     ],
     "correct": 1,
-    "explanation": "He self-pollinated plants to obtain true-breeding parental lines."
+    "explanation": "He used self-pollination to obtain true-breeding parental lines."
   },
   {
     "question": "The passing of traits from parent to offspring is called:",
@@ -734,7 +734,7 @@
       "Reproduction"
     ],
     "correct": 0,
-    "explanation": "Heredity is the transfer of traits from parents to offspring."
+    "explanation": "Heredity is the transfer of traits from one generation to the next."
   },
   {
     "question": "A homozygous dominant parent is crossed with a heterozygous parent. What phenotypic ratio is expected in the offspring?",
@@ -745,7 +745,7 @@
       "1:0"
     ],
     "correct": 3,
-    "explanation": "AA × Aa produces only dominant-phenotype offspring, so the ratio is 1:0."
+    "explanation": "AA × Aa produces all dominant-phenotype offspring, so the ratio is 1:0."
   },
   {
     "question": "A plant with genotype AaBbCc forms how many different gamete types?",
@@ -756,7 +756,7 @@
       "6"
     ],
     "correct": 2,
-    "explanation": "The number of gamete types is 2^n. For AaBbCc, n = 3, so 2^3 = 8."
+    "explanation": "The number of gamete types is 2^n. Here n = 3, so 2^3 = 8."
   },
   {
     "question": "In the cross AA BB × aa bb, what is the probability of an AaBb individual in the F2 generation?",
@@ -778,7 +778,7 @@
       "25"
     ],
     "correct": 0,
-    "explanation": "aaBB occurs with probability 1/16 in the F2. 1000 × 1/16 = 62.5, so the closest option is 63."
+    "explanation": "aaBB occurs with probability 1/16 in the F2. 1000 × 1/16 ≈ 62.5, so the closest option is 63."
   },
   {
     "question": "Separation of homologous chromosomes and movement to opposite poles occurs during ___ phase of meiosis.",
@@ -796,8 +796,8 @@
     "options": [
       "Human male is homogametic (XX)",
       "Human female is heterogametic (XY)",
-      "Male honey bee is developed from fertilized egg",
-      "Some snails are hermaphrodite"
+      "Male honey bee is developed from a fertilized egg",
+      "Some snails are hermaphrodites"
     ],
     "correct": 3,
     "explanation": "Some animals, such as certain snails, are hermaphroditic."
@@ -814,7 +814,7 @@
     "explanation": "A dihybrid cross gives a 9:3:3:1 ratio. Both dominant traits = 9/16, so 160 × 9/16 = 90."
   },
   {
-    "question": "If a child of blood O is born from a mother of blood B, which man can be excluded as a possible father?",
+    "question": "If a child with blood type O is born to a mother with blood type B, which father can be excluded as a possible parent?",
     "options": [
       "A blood type",
       "B blood type",
@@ -822,21 +822,21 @@
       "O blood type"
     ],
     "correct": 2,
-    "explanation": "A man with AB blood cannot provide an O allele, so he is excluded."
+    "explanation": "An AB father cannot provide an O allele, so he can be excluded."
   },
   {
     "question": "In a cross between round yellow and wrinkled green seed plants, all F1 are round but only some are yellow. What was the genotype of the dominant parent?",
     "options": [
-      "RR YY",
-      "Rr Yy",
-      "Rr YY",
-      "RR Yy"
+      "RRYY",
+      "RrYy",
+      "RrYY",
+      "RRYy"
     ],
     "correct": 3,
-    "explanation": "All round F1 means RR for shape; mixed color in F1 means Yy, so the parent was RRYy."
+    "explanation": "All round F1 means RR, while only some yellow means the parent was heterozygous for color, so RRYy."
   },
   {
-    "question": "Which one of the following is not true about individual of blood of Rh positive?",
+    "question": "Which one of the following is not true about an Rh-positive person?",
     "options": [
       "Can donate blood to Rh positive",
       "Can donate blood to Rh negative",
@@ -847,18 +847,18 @@
     "explanation": "Rh-positive blood should not be donated to Rh-negative recipients."
   },
   {
-    "question": "Which one of the following types of dominance was not studied by G. Mendel?",
+    "question": "Which type of dominance was not studied by G. Mendel?",
     "options": [
-      "Complete",
-      "Incomplete",
+      "Complete dominance",
+      "Incomplete dominance",
       "Codominance",
-      "B and C"
+      "Both incomplete dominance and codominance"
     ],
     "correct": 3,
-    "explanation": "Mendel studied complete dominance; incomplete dominance and codominance were discovered later."
+    "explanation": "Mendel studied complete dominance; incomplete dominance and codominance were recognized later."
   },
   {
-    "question": "Trisomy at chromosome number 21, due to chromosomal disorder (aneuploidy) causes ___?",
+    "question": "Trisomy at chromosome number 21, due to a chromosomal disorder (aneuploidy) causes ___?",
     "options": [
       "Down syndrome",
       "Turner syndrome",
@@ -866,10 +866,10 @@
       "Klinefelter syndrome"
     ],
     "correct": 0,
-    "explanation": "Trisomy 21 means an extra chromosome 21, which causes Down syndrome."
+    "explanation": "Trisomy 21 causes Down syndrome."
   },
   {
-    "question": "A chromosomal disorder occurs due to rearrangement of chromosomal segment from one location to another?",
+    "question": "A chromosomal disorder caused by rearrangement of a chromosomal segment from one location to another is:",
     "options": [
       "Inversion",
       "Aneuploidy",
@@ -877,15 +877,15 @@
       "Deletion"
     ],
     "correct": 2,
-    "explanation": "The movement of a chromosome segment to a new location is translocation."
+    "explanation": "Translocation is movement or exchange of a segment to a different chromosome location."
   },
   {
     "question": "Which one of the following genetic disorders is sex linked?",
     "options": [
-      "Hemophilia, color blindness",
-      "Huntington disease, Albinism",
-      "Albinism, cystic fibrosis",
-      "Hemophilia, albinism"
+      "Hemophilia and color blindness",
+      "Huntington disease and albinism",
+      "Albinism and cystic fibrosis",
+      "Hemophilia and albinism"
     ],
     "correct": 0,
     "explanation": "Hemophilia and color blindness are classic X-linked recessive disorders."
@@ -895,11 +895,11 @@
     "options": [
       "Codominance",
       "Complete dominance",
-      "Over dominance",
+      "Overdominance",
       "Incomplete dominance"
     ],
     "correct": 1,
-    "explanation": "The tall allele completely masks the short allele, so this is complete dominance."
+    "explanation": "The tall allele completely masks the short allele, so the cross shows complete dominance."
   },
   {
     "question": "Which one of the following is NOT a genotypic expression?",
@@ -913,7 +913,7 @@
     "explanation": "Black is a phenotype, not a genotype."
   },
   {
-    "question": "What is the best example of trait in human, which is inherited due to multiple allelism?",
+    "question": "What is the best example of a trait in humans inherited due to multiple allelism?",
     "options": [
       "Blood type",
       "Hemophilia",
@@ -932,18 +932,18 @@
       "DNA"
     ],
     "correct": 2,
-    "explanation": "Chromosomes contain DNA, and DNA contains many genes and alleles."
+    "explanation": "Chromosomes contain DNA, and DNA carries genes and alleles."
   },
   {
     "question": "What do we call the type of dominance in which a single dominant allele produces the same effect as two dominant alleles?",
     "options": [
-      "Co dominant",
+      "Codominance",
       "Incomplete dominance",
       "Intermediate dominance",
       "Complete dominance"
     ],
     "correct": 3,
-    "explanation": "This is complete dominance, where one dominant allele is enough to express the trait."
+    "explanation": "A single dominant allele is enough to express the trait in complete dominance."
   },
   {
     "question": "Suppose a pure monohybrid cross produces 40 F2 plants. How many are expected to show dominant and recessive phenotypes, respectively?",
@@ -954,28 +954,28 @@
       "35; 5"
     ],
     "correct": 0,
-    "explanation": "A monohybrid F2 shows a 3:1 phenotypic ratio. So 3/4 of 40 = 30 dominant and 1/4 of 40 = 10 recessive."
+    "explanation": "A monohybrid F2 shows a 3:1 ratio, so 30 dominant and 10 recessive are expected."
   },
   {
-    "question": "Which one is a Mendelian test cross?",
+    "question": "Which cross is the best example of a Mendelian test cross?",
     "options": [
-      "Tall x short",
-      "Tt Rr x Ttrr",
-      "Aa x DD",
-      "Purple axial x purple axial"
+      "Tt × tt",
+      "TT × tt",
+      "Tt × Tt",
+      "tt × tt"
     ],
     "correct": 0,
-    "explanation": "A test cross uses a dominant phenotype crossed with a homozygous recessive individual."
+    "explanation": "A test cross uses an individual showing a dominant trait crossed with a homozygous recessive one."
   },
   {
     "question": "Which one is NOT true about crossing over?",
     "options": [
-      "Is a source of variation",
-      "Occurs in mitosis",
-      "Occurs in between bivalent",
-      "Occurs at Prophase I"
+      "It is a source of variation",
+      "It occurs in mitosis",
+      "It occurs between bivalents",
+      "It occurs in prophase I"
     ],
     "correct": 1,
-    "explanation": "Crossing over occurs in prophase I of meiosis, not in mitosis."
+    "explanation": "Crossing over occurs during prophase I of meiosis, not in mitosis."
   }
 ]
