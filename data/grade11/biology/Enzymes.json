@@ -1146,7 +1146,7 @@
   {
     "question": "Which option correctly matches apoenzyme, coenzyme, cofactor, and prosthetic group?",
     "options": [
-      "Apoenzyme = protein part; coenzyme = vitamin-derived organic helper; cofactor = non-protein helper; prosthetic group = tightly bound helper.",
+      "Apoenzyme = protein part; coenzyme = vitamin-derived organic helper; cofactor = non-protein helpe...",
       "Apoenzyme",
       "Coenzyme",
       "Cofactor"
@@ -1182,7 +1182,7 @@
       "Activation energy",
       "Turnover number",
       "Michaelis constant",
-      "Turnover number = substrate molecules converted per enzyme per minute; activation energy = minimum energy needed; metabolism = sum of anabolism and catabolism."
+      "Turnover number = substrate molecules converted per enzyme per minute; activation energy = minimu..."
     ],
     "correct": 3,
     "explanation": "These are the standard definitions."
@@ -1190,7 +1190,7 @@
   {
     "question": "What is malting, and which enzymes are commonly involved?",
     "options": [
-      "Steeping, germination, and drying grain to make malt; beta-glucanase, alpha-amylase, protease, and beta-amylase.",
+      "Steeping, germination, and drying grain to make malt; beta-glucanase, alpha-amylase, protease, an...",
       "Steeping",
       "Germination",
       "Kilning"
@@ -1290,7 +1290,7 @@
     "question": "What is end-product inhibition and why is it important?",
     "options": [
       "Competitive inhibition",
-      "The final product inhibits an earlier enzyme, helping maintain homeostasis and prevent overproduction.",
+      "The final product inhibits an earlier enzyme, helping maintain homeostasis and prevent overproduc...",
       "Non-competitive inhibition",
       "Uncompetitive inhibition"
     ],
