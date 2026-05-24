@@ -1,14 +1,14 @@
 [
   {
-    "question": "What is the most likely consequence if enzymes were absent from living cells?",
+    "question": "What would most likely happen to metabolism if enzymes were absent from living cells?",
     "options": [
       "Metabolic reactions would be too slow to sustain life.",
-      "They are used up in the reaction.",
-      "They increase activation energy.",
-      "They change the final product."
+      "Substrates would automatically become products.",
+      "Activation energy would become zero.",
+      "Cells would stop using ATP."
     ],
     "correct": 0,
-    "explanation": "Enzymes lower activation energy and make cellular reactions fast enough for life."
+    "explanation": "Without enzymes, most cellular reactions would proceed far too slowly to support life."
   },
   {
     "question": "Which of the following is NOT true about enzymes?",
@@ -33,37 +33,37 @@
     "explanation": "Metabolism is the sum of anabolism (building reaction) and catabolism (breaking down)."
   },
   {
-    "question": "Which physical property of enzymes explains little or no dialysis across a membrane because of their size?",
+    "question": "Why do enzyme molecules show little or no dialysis across a semipermeable membrane?",
     "options": [
-      "biocatalyst",
-      "enzyme precipitation",
-      "denaturation",
-      "colloids"
-    ],
-    "correct": 3,
-    "explanation": "Colloidal property of an enzyme is the tendency of having little or no dialysis cross the semipermeable membrane due to the large size or high molecular weight."
-  },
-  {
-    "question": "Enzyme specificity can be explained in terms of what?",
-    "options": [
-      "all",
-      "bond specificity",
-      "group specificity",
-      "substrate specificity"
+      "They are colloidal and too large to pass easily.",
+      "They are always insoluble in water.",
+      "They contain no peptide bonds.",
+      "They function only at high temperature."
     ],
     "correct": 0,
-    "explanation": "Enzymes show different degrees of specificity. These are bond specificity, group specificity, substrate specificity, and optical/stereo specificity."
+    "explanation": "Enzymes are large colloidal molecules, so they do not diffuse freely through semipermeable membranes."
   },
   {
-    "question": "An enzyme sucrase catalysis only sucrose molecule; such type of enzyme specificity is:",
+    "question": "An enzyme catalyzes only sucrose and not glucose, maltose, or lactose. Which type of specificity is shown?",
+    "options": [
+      "Substrate specificity",
+      "Group specificity",
+      "Bond specificity",
+      "Optical specificity"
+    ],
+    "correct": 0,
+    "explanation": "This is substrate specificity because the enzyme acts on one particular substrate."
+  },
+  {
+    "question": "An enzyme sucrase catalyzes only the sucrose molecule. What type of enzyme specificity is this?",
     "options": [
       "Bond specificity",
-      "substrate specificity",
-      "group specificity",
-      "optical specificity"
+      "Substrate specificity",
+      "Group specificity",
+      "Optical specificity"
     ],
     "correct": 1,
-    "explanation": "Enzymes are specific, meaning each type of enzyme catalysis a specific substrate."
+    "explanation": "Sucrase acts on a specific substrate, sucrose."
   },
   {
     "question": "Which of the following is not the physical property of an enzyme?",
@@ -132,15 +132,15 @@
     "explanation": "Activation energy is the energy which is required to start a chemical reaction."
   },
   {
-    "question": "Which statement best describes the transition state of an enzyme-catalyzed reaction?",
+    "question": "A substrate–enzyme complex passes through a brief highest-energy stage before product forms. What is this stage called?",
     "options": [
-      "It is the unstable highest-energy intermediate between substrate and product.",
-      "Activation energy",
-      "Turnover number",
-      "Michaelis constant"
+      "Transition state",
+      "Active site",
+      "Allosteric site",
+      "Prosthetic group"
     ],
     "correct": 0,
-    "explanation": "At the transition state, bonds are partly broken or formed, so free energy is highest."
+    "explanation": "The transition state is the unstable, highest-energy arrangement along the reaction path."
   },
   {
     "question": "What is the sequence of amino acids in a polypeptide chain called?",
@@ -154,15 +154,15 @@
     "explanation": "The primary structure of a protein is the sequence of amino acids in the polypeptide chain."
   },
   {
-    "question": "Which bonds help maintain the tertiary structure of a protein?",
+    "question": "Which set of interactions can stabilize the tertiary structure of a protein?",
     "options": [
-      "Ionic bond",
-      "hydrogen bond",
-      "all",
-      "disulphide bridge"
+      "Ionic bonds only",
+      "Hydrogen bonds only",
+      "Disulfide bridges only",
+      "All of these"
     ],
-    "correct": 2,
-    "explanation": "Tertiary structure of a polypeptide chain is held together by various types of bonds: covalent, ionic, hydrogen, and hydrophobic interaction."
+    "correct": 3,
+    "explanation": "Tertiary structure is stabilized by several interactions, including ionic bonds, hydrogen bonds, and disulfide bridges."
   },
   {
     "question": "Which of the following is a typical example of a tertiary protein structure?",
@@ -187,15 +187,15 @@
     "explanation": "Quaternary structure of a protein is made of many polypeptides (more than two). The best example is hemoglobin, which is made of 4 polypeptides."
   },
   {
-    "question": "Which comparison between secondary protein structures is correct?",
+    "question": "Which statement correctly compares alpha-helix and beta-pleated sheet structures?",
     "options": [
-      "Option A",
-      "Alpha-helix is a helical coil, whereas beta-pleated sheet is a zigzag sheet.",
-      "Option B",
-      "Option C"
+      "Alpha-helix is a coiled spiral, whereas beta-pleated sheet is an extended zigzag sheet.",
+      "Alpha-helix is made of two polypeptide chains, whereas beta-pleated sheet is made of one.",
+      "Alpha-helix is a quaternary structure, whereas beta-pleated sheet is tertiary.",
+      "Both are examples of primary structure."
     ],
-    "correct": 1,
-    "explanation": "Alpha-helices are spiral and elastic; beta-sheets are sheet-like and less elastic."
+    "correct": 0,
+    "explanation": "Alpha-helices are spiral and elastic, while beta-pleated sheets are extended and zigzag."
   },
   {
     "question": "How can only 20 amino acids generate thousands of different proteins?",
@@ -209,7 +209,7 @@
     "explanation": "Different sequences and chain lengths create different proteins."
   },
   {
-    "question": "Which model states that substrate and active site are complementary in shape?",
+    "question": "Which model states that the substrate and active site are complementary in shape?",
     "options": [
       "Induced fit model",
       "Activation energy",
@@ -242,15 +242,15 @@
     "explanation": "Both models describe enzyme-substrate interaction leading to a lower activation barrier."
   },
   {
-    "question": "What is end-product inhibition?",
+    "question": "In metabolic control, what best describes end-product inhibition?",
     "options": [
-      "Competitive inhibition",
-      "Non-competitive inhibition",
-      "The final product of a pathway inhibits the first enzyme in that pathway.",
-      "Uncompetitive inhibition"
+      "The final product inhibits an early enzyme in the pathway.",
+      "The substrate permanently inactivates all enzymes.",
+      "The product increases activation energy.",
+      "The enzyme changes into a substrate."
     ],
-    "correct": 2,
-    "explanation": "This is feedback control that prevents excess product formation."
+    "correct": 0,
+    "explanation": "This is negative feedback that prevents overproduction of the end product."
   },
   {
     "question": "How does a non-competitive inhibitor reduce enzyme activity?",
@@ -275,15 +275,15 @@
     "explanation": "In competitive inhibition, the substrate and inhibitors have similar shape; they have equal chance of binding into the active site of an enzyme. Increasing the concentration of substrate will increase the rate of reaction because more substrate will bind into an active site than the inhibitor."
   },
   {
-    "question": "Competitive and non-competitive inhibitors are similar in:",
+    "question": "What do competitive and non-competitive inhibition have in common?",
     "options": [
-      "both compete for active site",
-      "both inhibit the enzyme temporarily",
-      "both inhibit enzyme activity permanently",
-      "A and B"
+      "Both are reversible forms of inhibition.",
+      "Both bind only to the active site.",
+      "Both permanently destroy the enzyme.",
+      "Both increase the reaction rate."
     ],
-    "correct": 1,
-    "explanation": "Competitive and non-competitive inhibitors are reversible types of inhibitor, not permanent; the former competes for active site but the later binds at allosteric site."
+    "correct": 0,
+    "explanation": "Both types reduce enzyme activity without permanently destroying the enzyme."
   },
   {
     "question": "The type of inhibitor that binds only to the E-S complex, but not on free enzyme is known as ___?",
@@ -393,7 +393,7 @@
       "vitamins"
     ],
     "correct": 3,
-    "explanation": "Co-enzymes are a co-factor, derived from vitamins."
+    "explanation": "Co-enzymes are a cofactor, derived from vitamins."
   },
   {
     "question": "What is an apoenzyme?",
@@ -407,7 +407,7 @@
     "explanation": "Apoenzyme is the protein part of a conjugated enzyme."
   },
   {
-    "question": "A co-factor that is bound on enzymes tightly is known as:",
+    "question": "A cofactor that is bound on enzymes tightly is known as:",
     "options": [
       "Co-enzyme",
       "Prosthetic groups",
@@ -418,7 +418,7 @@
     "explanation": "Prosthetic groups are organic molecules such as heme (containing iron), which attach on enzymes firmly (tight) to enhance catalysis of enzymes."
   },
   {
-    "question": "According to the International Enzyme Commission, enzymes are classified mainly by what criterion?",
+    "question": "According to the International Enzyme Commission, enzymes are classified mainly by which criterion?",
     "options": [
       "Oxidoreductase",
       "Transferase",
@@ -451,15 +451,15 @@
     "explanation": "If all the active sites of an enzyme are saturated (full), increasing substrate concentration does not increase the rate of reaction."
   },
   {
-    "question": "How does a change in pH affect an enzyme?",
+    "question": "A large pH shift can reduce enzyme activity mainly because it:",
     "options": [
-      "Breaking ionic bond that holds the tertiary structure",
-      "A and B",
-      "Alter the charge of some amino acids in the active site",
-      "Increasing activation energy"
+      "breaks ionic bonds and alters the charge of active-site amino acids",
+      "turns the substrate into an inhibitor",
+      "raises activation energy to zero",
+      "changes the enzyme into a lipid"
     ],
-    "correct": 1,
-    "explanation": "Significant changes in pH can affect enzyme molecule by breaking ionic bonds that hold the tertiary structure in place; this leads to denaturation of the enzyme molecule, altering the charge on some of the amino acids that form the active site."
+    "correct": 0,
+    "explanation": "Changes in pH can disrupt ionic bonds and alter the active site, causing loss of function."
   },
   {
     "question": "What is the term for loss of a protein's native 3D structure?",
@@ -508,13 +508,13 @@
   {
     "question": "Which statement best describes the Michaelis-Menten model?",
     "options": [
-      "Activation energy",
-      "Turnover number",
-      "E + S ⇌ ES → E + P.",
-      "Michaelis constant"
+      "It explains the relationship between enzyme rate and substrate concentration.",
+      "It describes protein folding from primary to quaternary structure.",
+      "It shows that all enzymes are used up during catalysis.",
+      "It explains end-product inhibition in one step."
     ],
-    "correct": 2,
-    "explanation": "The model shows reversible ES complex formation followed by product release."
+    "correct": 0,
+    "explanation": "The model relates reaction velocity to substrate concentration through the enzyme–substrate complex."
   },
   {
     "question": "What does the Michaelis-Menten equation describe?",
@@ -616,7 +616,7 @@
     "explanation": "Cellulase is not produced during malting; the main enzymes produced are alpha amylase, beta glucanase, protease, and beta amylase."
   },
   {
-    "question": "In barley malting, what is the stage in which grain is soaked to break dormancy?",
+    "question": "In barley malting, which stage is used to soak grain and break dormancy?",
     "options": [
       "steeping",
       "Kilning",
@@ -627,7 +627,7 @@
     "explanation": "The first step during malting process is called steeping. It involves soaking the grain into water in order to awaken the dormant grain (break seed dormancy)."
   },
   {
-    "question": "Which of the following is not true about the kilning process of malting?",
+    "question": "Which statement about the kilning stage of malting is not true?",
     "options": [
       "It is the last step of malting",
       "is the step of green malt formation",
@@ -638,15 +638,15 @@
     "explanation": "Green malt is formed at germination, not kilning."
   },
   {
-    "question": "In malting process different types of enzyme are produced at a stage of ___?",
+    "question": "Which malting stage mainly triggers the formation of new enzymes in the grain?",
     "options": [
-      "germinating",
-      "kilning",
-      "steeping",
-      "all"
+      "Steeping",
+      "Kilning",
+      "Grinding",
+      "Fermentation"
     ],
-    "correct": 2,
-    "explanation": "Existing enzymes in the seed stimulate the formation of new enzymes during steeping."
+    "correct": 0,
+    "explanation": "Steeping activates the grain and stimulates enzyme formation."
   },
   {
     "question": "Which enzyme class catalyzes electron transfer between molecules?",
@@ -715,26 +715,26 @@
     "explanation": "Ligases form new bonds, usually with ATP."
   },
   {
-    "question": "Which model states that substrate and active site are complementary in shape?",
+    "question": "In the induced-fit model, what happens when the substrate binds to the enzyme?",
     "options": [
-      "Induced fit model",
-      "Lock and key model",
-      "Activation energy",
-      "None"
+      "The active site changes shape to fit the substrate more closely.",
+      "The enzyme becomes a permanent part of the substrate.",
+      "The active site remains completely rigid.",
+      "The product binds before the substrate."
     ],
-    "correct": 1,
-    "explanation": "Lock and key model."
+    "correct": 0,
+    "explanation": "Substrate binding induces a conformational change in the active site."
   },
   {
-    "question": "Which class of enzyme is involved in breakdown of large molecule to smaller one?",
+    "question": "Which class of enzymes mainly hydrolyzes large biomolecules into smaller products during digestion?",
     "options": [
-      "Ligases",
-      "Transferase",
       "Hydrolases",
-      "Isomerase"
+      "Ligases",
+      "Transferases",
+      "Isomerases"
     ],
-    "correct": 2,
-    "explanation": "Hydrolases."
+    "correct": 0,
+    "explanation": "Hydrolases break bonds by using water."
   },
   {
     "question": "To which class of enzyme do the digestive enzymes belong?",
@@ -792,15 +792,15 @@
     "explanation": "Many coenzymes are vitamin-derived organic cofactors."
   },
   {
-    "question": "Which statement about a polypeptide is false?",
+    "question": "Which statement about a single polypeptide chain by itself is false?",
     "options": [
-      "it can form quaternary structure",
-      "Its amino acid that held together by peptide",
-      "Formed by condensation reaction",
-      "can form primary, secondary and tertiary structure of protein"
+      "It is itself a quaternary structure.",
+      "Its amino acids are linked by peptide bonds.",
+      "It can fold into tertiary structure.",
+      "It is formed by condensation reactions."
     ],
     "correct": 0,
-    "explanation": "it can form quaternary structure."
+    "explanation": "Quaternary structure requires two or more polypeptide chains."
   },
   {
     "question": "Which mechanism is especially important in regulating metabolic pathways in cells?",
@@ -825,15 +825,15 @@
     "explanation": "Ligases catalyze bond formation, often using ATP."
   },
   {
-    "question": "Which model states that the substrate fits the active site because the two shapes are complementary?",
+    "question": "Which model assumes the active site is already complementary to the substrate before binding?",
     "options": [
+      "Lock-and-key model",
       "Induced-fit model",
-      "Activation-energy model",
       "Feedback model",
-      "Lock-and-key model"
+      "Transition-state model"
     ],
-    "correct": 3,
-    "explanation": "In the lock-and-key model, the active site is already complementary to the substrate."
+    "correct": 0,
+    "explanation": "The lock-and-key model assumes a rigid active site that already matches the substrate."
   },
   {
     "question": "Which chemical bond holds amino acids together in the primary structure of a protein?",
@@ -968,26 +968,26 @@
     "explanation": "Stomach."
   },
   {
-    "question": "In barley malting, what is the stage in which grain is soaked to break dormancy?",
+    "question": "Which stage follows steeping in barley malting and involves the grain starting to sprout?",
     "options": [
-      "steeping",
-      "kilning",
-      "germinating",
-      "none"
+      "Germination",
+      "Kilning",
+      "Milling",
+      "Fermentation"
     ],
     "correct": 0,
-    "explanation": "steeping."
+    "explanation": "After steeping, the grain germinates and begins active enzyme production."
   },
   {
-    "question": "Which physical property of enzymes explains little or no dialysis across a membrane because of their size?",
+    "question": "Why do enzyme solutions show little or no dialysis through a semipermeable membrane?",
     "options": [
-      "biocatalyst",
-      "colloids",
-      "enzyme precipitation",
-      "denaturation"
+      "They are large colloidal molecules.",
+      "They are completely nonpolar.",
+      "They contain no nitrogen.",
+      "They lose their active site immediately."
     ],
-    "correct": 1,
-    "explanation": "colloids."
+    "correct": 0,
+    "explanation": "Their large colloidal nature prevents easy passage through the membrane."
   },
   {
     "question": "The chemical property of enzymes that allows a reaction to proceed in both forward and reverse directions is called what?",
@@ -1001,15 +1001,15 @@
     "explanation": "Reversible enzymes can catalyze reactions in either direction."
   },
   {
-    "question": "Enzyme specificity can be explained in terms of what?",
+    "question": "Which type of specificity is shown when one enzyme acts on a family of closely related substrates?",
     "options": [
-      "group specificity",
-      "substrate specificity",
-      "all",
-      "bond specificity"
+      "Group specificity",
+      "Substrate specificity",
+      "Bond specificity",
+      "Optical specificity"
     ],
-    "correct": 3,
-    "explanation": "bond specificity."
+    "correct": 0,
+    "explanation": "Group specificity means an enzyme acts on a related group of substrates sharing a common feature."
   },
   {
     "question": "Which enzyme-function pair is incorrect?",
@@ -1036,13 +1036,13 @@
   {
     "question": "Which enzyme-function pair is incorrect?",
     "options": [
-      "Papain - tenderizes meat",
-      "Rennin - curdles milk to make cheese",
-      "Amylase - breaks protein",
-      "Pectinase - clarifies fruit juice"
+      "Pepsin - protein digestion",
+      "Lipase - fat digestion",
+      "Amylase - starch digestion",
+      "Amylase - protein digestion"
     ],
-    "correct": 2,
-    "explanation": "Amylase breaks starch, not protein."
+    "correct": 3,
+    "explanation": "Amylase digests starch, not protein."
   },
   {
     "question": "Which structure correctly represents a standard amino acid?",
@@ -1168,13 +1168,13 @@
   {
     "question": "How does temperature affect enzyme activity?",
     "options": [
-      "They are used up in the reaction.",
-      "They increase activation energy.",
-      "Rate rises up to an optimum, then falls as the enzyme denatures.",
-      "They change the final product."
+      "Rate rises up to an optimum, then falls sharply as the enzyme denatures.",
+      "Rate always falls as temperature increases.",
+      "Rate stays constant at all temperatures.",
+      "Temperature changes the final product only."
     ],
-    "correct": 2,
-    "explanation": "Higher temperature increases collisions until denaturation occurs."
+    "correct": 0,
+    "explanation": "Higher temperature increases collisions up to the optimum, but excess heat denatures the enzyme."
   },
   {
     "question": "Which option correctly matches turnover number, activation energy, and metabolism?",
@@ -1287,14 +1287,14 @@
     "explanation": "These enzymes are commonly controlled by small molecules or covalent change."
   },
   {
-    "question": "What is end-product inhibition and why is it important?",
+    "question": "Why is end-product inhibition biologically important?",
     "options": [
-      "Competitive inhibition",
-      "The final product inhibits an earlier enzyme, helping maintain homeostasis and prevent overproduction.",
-      "Non-competitive inhibition",
-      "Uncompetitive inhibition"
+      "It prevents overproduction and helps maintain homeostasis.",
+      "It permanently destroys the first enzyme in the pathway.",
+      "It increases activation energy for all reactions.",
+      "It converts the end product back into the substrate."
     ],
-    "correct": 1,
-    "explanation": "It is a feedback mechanism that controls metabolic pathways."
+    "correct": 0,
+    "explanation": "End-product inhibition conserves resources by controlling pathway flux."
   }
 ]
