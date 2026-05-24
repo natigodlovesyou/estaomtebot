@@ -1,4 +1,3 @@
-
 [
   {
     "question": "Sexual reproduction is characterized by all of the following EXCEPT:",
@@ -155,15 +154,15 @@
     "explanation": "Grasshoppers are often used as a protein-rich insect food source."
   },
   {
-    "question": "Insects are considered to be beneficial because they are:",
+    "question": "Insects are beneficial because they can be:",
     "options": [
-      "Effective pollinator",
+      "Pollinators",
       "Sources of food",
-      "All of the above",
-      "Industrial raw material"
+      "Used as industrial raw materials",
+      "All of the above"
     ],
-    "correct": 2,
-    "explanation": "The beneficial aspects of insects are: a source of food, pollinator, raw material for industries, etc."
+    "correct": 3,
+    "explanation": "Insects can pollinate plants, provide food, and supply useful raw materials."
   },
   {
     "question": "Which set contains only beneficial roles of insects?",
@@ -298,15 +297,15 @@
     "explanation": "The magnum, which is the longest part of oviduct, is where the albumin is made."
   },
   {
-    "question": "Sex determination in crocodile is determined by?",
+    "question": "Which statement about crocodile sex determination is correct?",
     "options": [
-      "Brood patch",
-      "Environmental temperature",
-      "Sex chromosome",
-      "Temperature"
+      "It depends on incubation temperature",
+      "It depends on sex chromosomes",
+      "It is determined by the mother only",
+      "It is fixed at fertilization"
     ],
-    "correct": 3,
-    "explanation": "Crocodile has no sex chromosomes; sex is determined by the temperature of egg incubation. Eggs incubated at lower temperatures give birth to females, while at higher temperatures (34°C) males are produced, and at 30°C females."
+    "correct": 0,
+    "explanation": "Crocodiles show temperature-dependent sex determination; incubation temperature affects the sex of the hatchlings."
   },
   {
     "question": "The main difference between rat and giant mole rat is that rat is ___.",
@@ -452,26 +451,26 @@
     "explanation": "Circadian rhythm or daily cycle synchronizes within 24 hours."
   },
   {
-    "question": "Before a territorial dispute and actual fighting between animals, which of the following may occur?",
+    "question": "Which of the following may occur before animals engage in a territorial fight?",
     "options": [
       "Ritual fighting",
-      "All of the above",
       "Vocalizations",
-      "Threat display"
+      "Threat display",
+      "All of the above"
     ],
-    "correct": 1,
-    "explanation": "Animals usually defend their territories by ritual fighting (fighting without physical contact), such as exaggerating body size, vocalization, threat display, releasing territorial pheromone."
+    "correct": 3,
+    "explanation": "Animals often use ritual fighting, vocalizations, and threat displays before actual fighting."
   },
   {
-    "question": "Which one of the following is NOT a method of communication in animals to attract a mate?",
+    "question": "Which signaling method is commonly used by moths to locate mates over long distances?",
     "options": [
-      "Uses of pheromone",
-      "Auditory / vocal",
-      "All of the above",
-      "Visual display and tactile"
+      "Pheromones",
+      "Auditory calls",
+      "Visual displays",
+      "Tactile contact"
     ],
-    "correct": 2,
-    "explanation": "Animals can communicate through pheromone, vocal, visual display, and tactile — all are methods of communication to attract mates."
+    "correct": 0,
+    "explanation": "Pheromones are chemical signals released by one individual and detected by another of the same species."
   },
   {
     "question": "The activity that precedes and results in mating and reproduction is:",
@@ -518,15 +517,15 @@
     "explanation": "Vasodilation is a physiological means of heat loss. Others are heat conserving mechanisms."
   },
   {
-    "question": "When in a cold environment, an animal increases muscular activity to produce more heat. When in a hot environment, it loses heat through various mechanisms. The animal described is:",
+    "question": "Which term describes animals whose body temperature varies with the environment?",
     "options": [
       "Poikilothermic",
-      "Ectothermic",
-      "All are answers",
-      "Homothermic"
+      "Homothermic",
+      "Endothermic",
+      "Homeostatic"
     ],
-    "correct": 3,
-    "explanation": "Endothermic/Homothermic animals keep their body temperature constant in spite of changing environmental temperature."
+    "correct": 0,
+    "explanation": "Poikilothermic animals do not keep a constant internal body temperature; it changes with environmental conditions."
   },
   {
     "question": "Which of the following animals has a variable body temperature?",
@@ -727,15 +726,15 @@
     "explanation": "Basking in the sun is a behavioral response to regulate body temperature; shivering, sweating, and piloerection are physiological responses."
   },
   {
-    "question": "What will happen as the size of an animal decreases?",
+    "question": "What happens as the size of an animal decreases?",
     "options": [
-      "The surface area to volume ratio decreases",
-      "The rate of heat loss from the body increases",
-      "B and C",
-      "The amount of food intake per day increases"
+      "Its surface area-to-volume ratio increases",
+      "Its heat loss decreases",
+      "Its food requirement always decreases",
+      "Its body temperature becomes constant"
     ],
-    "correct": 2,
-    "explanation": "As size decreases, the surface area to volume ratio increases, causing faster heat loss and therefore requiring more food intake."
+    "correct": 0,
+    "explanation": "Smaller animals have a larger surface area relative to volume, so they lose heat more rapidly."
   },
   {
     "question": "What is the reason that smaller mammals have higher metabolic rates?",
@@ -749,15 +748,15 @@
     "explanation": "Smaller mammals have a larger surface area to volume ratio, causing faster heat loss, so they need higher metabolic rates to maintain body temperature."
   },
   {
-    "question": "One of the following is NOT true about operant conditioning (EUEE):",
+    "question": "Which statement about operant conditioning is false?",
     "options": [
-      "Is based on innate behaviour",
-      "Is concerned with learning on reward and punishment",
-      "Requires repetition of actions",
-      "The response rate will increase with reward"
+      "Behavior is strengthened by reward",
+      "Behavior is shaped by consequences",
+      "It is an innate behavior",
+      "It can be modified through repeated reinforcement"
     ],
-    "correct": 0,
-    "explanation": "Operant conditioning is a learned behavior, not based on innate behaviour."
+    "correct": 2,
+    "explanation": "Operant conditioning is learned, not innate. Reinforcement and punishment change the likelihood of a response."
   },
   {
     "question": "A child who burned his finger by touching a hot kettle is now afraid to touch any kettle even when it is cold. The behavior demonstrated by the child is: (EUEE 2011 E.C)",
@@ -837,15 +836,15 @@
     "explanation": "Being intermediate hosts for pathogens is a harmful/negative economic impact, not a beneficial economic importance."
   },
   {
-    "question": "Which one of the following is different from the others (in terms of thermoregulation)?",
+    "question": "Which of the following is a behavioral thermoregulatory response?",
     "options": [
-      "Hibernation",
-      "Aestivation",
       "Shivering",
-      "Sweating"
+      "Sweating",
+      "Basking in the sun",
+      "Vasodilation"
     ],
-    "correct": 0,
-    "explanation": "Hibernation (and aestivation) are behavioral adaptations, while shivering and sweating are physiological responses. However, if the distinction is behavioral vs. physiological, shivering/sweating are physiological while hibernation/aestivation are behavioral."
+    "correct": 2,
+    "explanation": "Basking changes behavior to control body temperature; the others are physiological responses."
   },
   {
     "question": "Identify the method through which heat is NOT lost from the body?",
@@ -947,15 +946,15 @@
     "explanation": "Latent learning occurs without any immediate reward or punishment (no reinforcement required), unlike operant conditioning."
   },
   {
-    "question": "Which of the following are the functions of pheromones?",
+    "question": "Which of the following are functions of pheromones?",
     "options": [
-      "Define territories",
-      "Attract a mate",
-      "All are the answer",
-      "Trigger alarm"
+      "Defining territories",
+      "Attracting mates",
+      "Triggering alarm responses",
+      "All of the above"
     ],
-    "correct": 2,
-    "explanation": "Pheromones serve to define territories, attract mates, and trigger alarm responses."
+    "correct": 3,
+    "explanation": "Pheromones can define territories, attract mates, and trigger alarm responses."
   },
   {
     "question": "Which of the following behaviour is acquired through experience?",
@@ -1046,245 +1045,245 @@
     "explanation": "In Pavlov's experiment, the bell is the conditioned stimulus (CS) — it was originally neutral but became associated with food."
   },
   {
-    "question": "The way in which an animal interacts with other organisms and its physical environment is called ___?",
+    "question": "Which statement best defines animal behavior?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Behavior"
-    ],
-    "correct": 3,
-    "explanation": "Behavior"
-  },
-  {
-    "question": "The type of behavior that is genetically programmed and inborn is ___, while ___ is acquired through experience and repetitions.",
-    "options": [
-      "Innate (behavior); Learned (behavior)",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
+      "The way an animal responds to its internal and external environment",
+      "The fixed shape of an animal's body",
+      "The ability to make offspring",
+      "The process of breaking down food"
     ],
     "correct": 0,
-    "explanation": "Innate (behavior); Learned (behavior)"
+    "explanation": "Behavior is the observable response of an animal to stimuli and its surroundings."
   },
   {
-    "question": "A behavioral cycle which is repeated every 24 hours is known as ___, while ___ is a yearly cycle?",
+    "question": "Which pair correctly contrasts innate and learned behavior?",
     "options": [
-      "An unrelated concept",
-      "Circadian rhythm; Circannual rhythm",
-      "A reversed definition",
-      "A different term"
+      "Innate behavior is inborn; learned behavior develops through experience",
+      "Innate behavior is acquired; learned behavior is inherited",
+      "Innate behavior is always conscious; learned behavior is always unconscious",
+      "Innate behavior never changes; learned behavior is never repeated"
+    ],
+    "correct": 0,
+    "explanation": "Innate behavior is genetically programmed, while learned behavior is shaped by experience."
+  },
+  {
+    "question": "Which pair is correctly matched with its time scale?",
+    "options": [
+      "Circadian rhythm — about 24 hours; circannual rhythm — about one year",
+      "Circadian rhythm — one year; circannual rhythm — 24 hours",
+      "Circadian rhythm — one week; circannual rhythm — one month",
+      "Circadian rhythm — one month; circannual rhythm — 24 hours"
+    ],
+    "correct": 0,
+    "explanation": "Circadian rhythms repeat in about 24 hours, while circannual rhythms repeat yearly."
+  },
+  {
+    "question": "What term describes the behavior of defending an area containing food, mates, or a nest?",
+    "options": [
+      "Migration",
+      "Territoriality",
+      "Imprinting",
+      "Kinesis"
     ],
     "correct": 1,
-    "explanation": "Circadian rhythm; Circannual rhythm"
+    "explanation": "Territoriality is the behavior of defending a territory against intruders."
   },
   {
-    "question": "An area that contains food, mate and nest of an animal which is defended against intruders is called ___. Such pattern of behavior is known as ___?",
+    "question": "Which chemical signal is used by animals of the same species to influence one another?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "Territory; Territoriality",
-      "A different term"
+      "Hormone",
+      "Pheromone",
+      "Enzyme",
+      "Antibody"
     ],
-    "correct": 2,
-    "explanation": "Territory; Territoriality"
+    "correct": 1,
+    "explanation": "Pheromones are chemical signals used for communication within the same species."
   },
   {
-    "question": "A chemical substance produced by animals that is used to influence the behavior of another animal of its own species is ___?",
+    "question": "Which part of the brain helps regulate body temperature and water balance?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Pheromone"
-    ],
-    "correct": 3,
-    "explanation": "Pheromone"
-  },
-  {
-    "question": "A part of the brain that controls or regulates fluid and temperature of the body is ___?",
-    "options": [
+      "Cerebellum",
+      "Medulla oblongata",
       "Hypothalamus",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
-    ],
-    "correct": 0,
-    "explanation": "Hypothalamus"
-  },
-  {
-    "question": "A hormone that converts excess glucose to glycogen is ___, while the hormone that converts glycogen to glucose is ___?",
-    "options": [
-      "An unrelated concept",
-      "Insulin; Glucagon",
-      "A reversed definition",
-      "A different term"
-    ],
-    "correct": 1,
-    "explanation": "Insulin; Glucagon"
-  },
-  {
-    "question": "List physiological, behavioral, and morphological mechanisms of temperature regulation.",
-    "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "Physiological: sweating, vasodilation, insulation, vasoconstriction, shivering, piloerection. Behavioral: bathing, hibernation, aestivation, eating high calorie food. Morphological: body size, subcutaneous fat, feather or fur.",
-      "A different term"
+      "Cerebrum"
     ],
     "correct": 2,
-    "explanation": "Physiological: sweating, vasodilation, insulation, vasoconstriction, shivering, piloerection. Behavioral: bathing, hibernation, aestivation, eating high calorie food. Morphological: body size, subcutaneous fat, feather or fur."
+    "explanation": "The hypothalamus controls temperature regulation and fluid balance."
   },
   {
-    "question": "The hormone that controls molting/body structure changes in insects is called ___?",
+    "question": "Which pair of hormones respectively lowers and raises blood glucose?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Ecdysone (molting hormone)"
-    ],
-    "correct": 3,
-    "explanation": "Ecdysone (molting hormone)"
-  },
-  {
-    "question": "Sex determination in crocodile is determined by ___; male is produced at ___ and female at ___.",
-    "options": [
-      "Temperature; Male at 34°C; Female at 30°C",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
-    ],
-    "correct": 0,
-    "explanation": "Temperature; Male at 34°C; Female at 30°C"
-  },
-  {
-    "question": "The egg of a frog is covered by a jelly-like substance. This helps for ___?",
-    "options": [
-      "An unrelated concept",
-      "Preventing drying out / protection from desiccation and providing water current to carry nutrients.",
-      "A reversed definition",
-      "A different term"
+      "Glucagon and insulin",
+      "Insulin and glucagon",
+      "Adrenaline and thyroxine",
+      "Ecdysone and ADH"
     ],
     "correct": 1,
-    "explanation": "Preventing drying out / protection from desiccation and providing water current to carry nutrients."
+    "explanation": "Insulin promotes conversion of glucose to glycogen, while glucagon promotes glycogen breakdown to glucose."
   },
   {
-    "question": "Asexual reproduction in some insects that develops directly from an unfertilized egg is called ___?",
+    "question": "Which option correctly classifies thermoregulatory adaptations?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
+      "Physiological: sweating and vasodilation; behavioral: basking and hibernation; morphological: fur and fat",
+      "Physiological: basking and hibernation; behavioral: sweating and vasodilation; morphological: fur and fat",
+      "Physiological: fur and fat; behavioral: sweating and vasodilation; morphological: basking and hibernation",
+      "Physiological: shivering only; behavioral: sweating only; morphological: temperature only"
+    ],
+    "correct": 0,
+    "explanation": "Sweating and vasodilation are physiological; basking and hibernation are behavioral; fur and fat are morphological."
+  },
+  {
+    "question": "Which hormone triggers molting in insects?",
+    "options": [
+      "Insulin",
+      "Juvenile hormone",
+      "Ecdysone",
+      "Thyroxine"
+    ],
+    "correct": 2,
+    "explanation": "Ecdysone is the molting hormone in insects."
+  },
+  {
+    "question": "Which statement about crocodile sex determination is correct?",
+    "options": [
+      "It depends on incubation temperature",
+      "It depends on sex chromosomes",
+      "It is determined by the mother only",
+      "It is fixed before fertilization"
+    ],
+    "correct": 0,
+    "explanation": "Crocodiles show temperature-dependent sex determination; incubation temperature affects the sex of the hatchlings."
+  },
+  {
+    "question": "What is the main function of the jelly-like covering around frog eggs?",
+    "options": [
+      "It prevents drying out and offers protection",
+      "It supplies oxygen directly to the embryo",
+      "It turns the egg into a hard shell",
+      "It helps the tadpole breathe with lungs"
+    ],
+    "correct": 0,
+    "explanation": "The jelly layer helps protect the eggs and reduces desiccation."
+  },
+  {
+    "question": "Development of an individual from an unfertilized egg is called ___?",
+    "options": [
+      "Budding",
       "Parthenogenesis",
-      "A different term"
-    ],
-    "correct": 2,
-    "explanation": "Parthenogenesis"
-  },
-  {
-    "question": "In the body organization pattern of an animal, if the left and right sides of the body are mirror images of each other, it is called ___?",
-    "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Bilateral symmetry"
-    ],
-    "correct": 3,
-    "explanation": "Bilateral symmetry"
-  },
-  {
-    "question": "Who will take care of the young pups if the true mother of a young rat dies?",
-    "options": [
-      "Another female rat in the colony (alloparenting / communal care).",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
-    ],
-    "correct": 0,
-    "explanation": "Another female rat in the colony (alloparenting / communal care)."
-  },
-  {
-    "question": "Fill the blanks with terms: unconditioned stimulus (US), unconditioned response (UR), conditioned stimulus (CS), conditioned response (CR), neutral stimulus (NS). Before conditioning: food (___) → salivation (___). After conditioning: sound of a bell (___) → salivation (___)",
-    "options": [
-      "An unrelated concept",
-      "Before conditioning: food = US; salivation = UR. After conditioning: sound of a bell = CS; salivation = CR.",
-      "A reversed definition",
-      "A different term"
+      "Fragmentation",
+      "Metamorphosis"
     ],
     "correct": 1,
-    "explanation": "Before conditioning: food = US; salivation = UR. After conditioning: sound of a bell = CS; salivation = CR."
+    "explanation": "Parthenogenesis is development from an unfertilized egg."
   },
   {
-    "question": "Discuss the effect of SA/V ratio of animals on temperature regulation.",
+    "question": "If the left and right sides of an animal are mirror images, the body plan is called ___?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "Larger animals have a smaller surface area to volume ratio, while smaller animals have a larger surface area to volume ratio. Small-sized animals lose heat faster than larger animals because proportionally more of their surface is exposed relative to their volume. Therefore, smaller animals need higher metabolic rates and more food intake to maintain their body temperature.",
-      "A different term"
-    ],
-    "correct": 2,
-    "explanation": "Larger animals have a smaller surface area to volume ratio, while smaller animals have a larger surface area to volume ratio. Small-sized animals lose heat faster than larger animals because proportionally more of their surface is exposed relative to their volume. Therefore, smaller animals need higher metabolic rates and more food intake to maintain their body temperature."
-  },
-  {
-    "question": "List the types of feedback mechanisms.",
-    "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Negative feedback and positive feedback."
-    ],
-    "correct": 3,
-    "explanation": "Negative feedback and positive feedback."
-  },
-  {
-    "question": "List the types of animals living in tropics/hot areas and explain how body structures such as large ears help them adapt.",
-    "options": [
-      "Animals living in low land or hot areas need to lose heat from their body to balance their body temperature. Body extensions such as large ears (e.g., African elephant, fennec fox) are very important as they increase surface area for heat dissipation.",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
-    ],
-    "correct": 0,
-    "explanation": "Animals living in low land or hot areas need to lose heat from their body to balance their body temperature. Body extensions such as large ears (e.g., African elephant, fennec fox) are very important as they increase surface area for heat dissipation."
-  },
-  {
-    "question": "Explain the response of the body when hot tea is consumed.",
-    "options": [
-      "An unrelated concept",
-      "The hot tea stimulates the body to produce sweat; as the sweat evaporates, body heat is lost, cooling the body down.",
-      "A reversed definition",
-      "A different term"
+      "Radial symmetry",
+      "Bilateral symmetry",
+      "Asymmetry",
+      "Spherical symmetry"
     ],
     "correct": 1,
-    "explanation": "The hot tea stimulates the body to produce sweat; as the sweat evaporates, body heat is lost, cooling the body down."
+    "explanation": "Bilateral symmetry means the body can be divided into equal left and right halves."
   },
   {
-    "question": "Arrange the components of animal response in the correct order from first to last.",
+    "question": "Which social behavior helps orphaned rat pups survive when their mother dies?",
     "options": [
-      "An unrelated concept",
-      "A reversed definition",
+      "Alloparenting",
+      "Migration",
+      "Imprinting",
+      "Cannibalism"
+    ],
+    "correct": 0,
+    "explanation": "Alloparenting is care of young by another adult in the group."
+  },
+  {
+    "question": "Before conditioning, food is the ___ and salivation is the ___. After conditioning, the bell becomes the ___ and salivation to the bell is the ___.",
+    "options": [
+      "US, UR, CS, CR",
+      "CS, CR, US, UR",
+      "UR, US, CR, CS",
+      "NS, UR, US, CR"
+    ],
+    "correct": 0,
+    "explanation": "Food naturally causes salivation (US → UR). After pairing, the bell becomes the CS and salivation to it is the CR."
+  },
+  {
+    "question": "Why do smaller animals usually lose heat faster than larger animals?",
+    "options": [
+      "They have a larger surface area to volume ratio",
+      "They have a smaller surface area to volume ratio",
+      "They produce no heat at all",
+      "They always live in colder habitats"
+    ],
+    "correct": 0,
+    "explanation": "A larger surface area relative to volume means more heat is lost per unit body mass."
+  },
+  {
+    "question": "Which two types of feedback mechanisms are used in homeostasis?",
+    "options": [
+      "Positive and negative feedback",
+      "Chemical and mechanical feedback",
+      "Internal and external feedback",
+      "Fast and slow feedback"
+    ],
+    "correct": 0,
+    "explanation": "Homeostasis is controlled mainly by negative feedback, with positive feedback in special cases."
+  },
+  {
+    "question": "Why are large ears advantageous for animals in hot climates?",
+    "options": [
+      "They increase surface area for heat loss",
+      "They store extra food",
+      "They reduce oxygen demand",
+      "They make the animal silent"
+    ],
+    "correct": 0,
+    "explanation": "Large ears increase surface area and help dissipate heat."
+  },
+  {
+    "question": "What is the body's immediate response to hot tea that helps cool it down?",
+    "options": [
+      "Shivering",
+      "Sweating and evaporation",
+      "Vasoconstriction",
+      "Piloerection"
+    ],
+    "correct": 1,
+    "explanation": "Sweat evaporates from the skin and removes heat from the body."
+  },
+  {
+    "question": "Which sequence correctly shows the pathway of a response to a stimulus?",
+    "options": [
       "Stimulus → Receptor → Control center → Effector",
-      "A different term"
-    ],
-    "correct": 2,
-    "explanation": "Stimulus → Receptor → Control center → Effector"
-  },
-  {
-    "question": "List the types of innate behaviors.",
-    "options": [
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term",
-      "Reflex, Instinct, Orientational (taxis and kinesis)"
-    ],
-    "correct": 3,
-    "explanation": "Reflex, Instinct, Orientational (taxis and kinesis)"
-  },
-  {
-    "question": "How do birds that lay eggs on bare lands without nests protect their eggs?",
-    "options": [
-      "They lay camouflaged eggs which are similar in color and pattern to the surrounding environment (ground), which helps for the survival and protection of the eggs from predators.",
-      "An unrelated concept",
-      "A reversed definition",
-      "A different term"
+      "Effector → Receptor → Stimulus → Control center",
+      "Receptor → Stimulus → Effector → Control center",
+      "Stimulus → Effector → Receptor → Control center"
     ],
     "correct": 0,
-    "explanation": "They lay camouflaged eggs which are similar in color and pattern to the surrounding environment (ground), which helps for the survival and protection of the eggs from predators."
+    "explanation": "A stimulus is detected by a receptor, processed in a control center, and carried out by an effector."
+  },
+  {
+    "question": "Which set contains only innate behaviors?",
+    "options": [
+      "Reflex, instinct, taxis, and kinesis",
+      "Habituation, imprinting, and learning",
+      "Conditioning, trial and error, and insight",
+      "Imprinting, practice, and memory"
+    ],
+    "correct": 0,
+    "explanation": "Innate behaviors are inborn and include reflexes, instincts, taxis, and kinesis."
+  },
+  {
+    "question": "Why do some birds lay camouflaged eggs on bare ground?",
+    "options": [
+      "To reduce detection by predators",
+      "To make the eggs heavier",
+      "To attract more males",
+      "To speed up hatching directly"
+    ],
+    "correct": 0,
+    "explanation": "Camouflage helps the eggs blend with the surroundings and lowers predation risk."
   }
 ]
