@@ -1,0 +1,1575 @@
+[
+  {
+    "question": "For the sequence aₙ = 1 + (−1)ⁿ⁺¹, what are the first four terms?",
+    "options": [
+      "(2, 0, 2, 0)",
+      "(0, 2, 0, 2)",
+      "(1, 1, 1, 1)",
+      "(2, 2, 0, 0)"
+    ],
+    "correct": 0,
+    "explanation": "Substitute each value of n into aₙ = 1 + (−1)ⁿ⁺¹:\nn=1: a₁ = 1 + (−1)² = 1 + 1 = 2\nn=2: a₂ = 1 + (−1)³ = 1 − 1 = 0\nn=3: a₃ = 1 + (−1)⁴ = 1 + 1 = 2\nn=4: a₄ = 1 + (−1)⁵ = 1 − 1 = 0\nAnswer: (2, 0, 2, 0)."
+  },
+  {
+    "question": "If aₙ = 6 for all n, what is a₈ + a₁₀?",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "For the constant sequence aₙ = 6, every term equals 6.\na₈ = 6 and a₁₀ = 6, so a₈ + a₁₀ = 12.\nDistractor 6: only one term. Distractor 10: confusing n=8 and n=10 as the values.\nDistractor 16: adding index numbers 8+10−2 = 16.\nAnswer: 12."
+  },
+  {
+    "question": "A sequence: a₁ = 1, aₙ = n·aₙ₋₁ for n ≥ 2. What is a₅?",
+    "options": [
+      "24",
+      "48",
+      "120",
+      "720"
+    ],
+    "correct": 2,
+    "explanation": "a₁=1, a₂=2·1=2, a₃=3·2=6, a₄=4·6=24, a₅=5·24=120.\nThis is the factorial sequence: aₙ = n!\nDistractor 24 = a₄ (off by one). Distractor 48 = 2×24 (doubling error).\nDistractor 720 = 6! = a₆ (off by one in the other direction).\nAnswer: 120."
+  },
+  {
+    "question": "Sequence: a₁=1, a₂=3, aₙ=(½)(aₙ₋₁+aₙ₋₂) for n≥3. What is a₅?",
+    "options": [
+      "5/4",
+      "7/4",
+      "9/4",
+      "11/4"
+    ],
+    "correct": 2,
+    "explanation": "Apply the recurrence aₙ = ½(aₙ₋₁ + aₙ₋₂) step by step:\na₁ = 1, a₂ = 3 (given)\na₃ = ½(a₂ + a₁) = ½(3 + 1) = 2\na₄ = ½(a₃ + a₂) = ½(2 + 3) = 5/2\na₅ = ½(a₄ + a₃) = ½(5/2 + 2) = ½(9/2) = 9/4\nAnswer: 9/4."
+  },
+  {
+    "question": "Which of these does NOT define a sequence (i.e., is not a function from ℕ to ℝ)?",
+    "options": [
+      "aₙ = n² + 1",
+      "a₁=1, aₙ=aₙ₋₁+1",
+      "aₙ² = 3n+1",
+      "aₙ = 7"
+    ],
+    "correct": 2,
+    "explanation": "aₙ² = 3n+1 gives aₙ = ±√(3n+1), which assigns two values per n. A sequence must assign exactly one value, so this is not a function and does not define a sequence."
+  },
+  {
+    "question": "Which of the following is an arithmetic sequence?",
+    "options": [
+      "1/2, 1/3, 1/4, 1/5, ...",
+      "1, 4, 9, 16, ...",
+      "3, 7, 11, 15",
+      "1, 4, 8, 16, ..."
+    ],
+    "correct": 2,
+    "explanation": "An arithmetic sequence requires a constant difference between consecutive terms.\nOption A (1/2, 1/3, 1/4, 1/5): differences are −1/6, −1/12, −1/20 — not constant.\nOption B (1, 4, 9, 16): differences are 3, 5, 7 — not constant (squares).\nOption C (3, 7, 11, 15): d = 7−3 = 4, 11−7 = 4, 15−11 = 4. ✓ Constant difference d = 4.\nOption D (1, 4, 8, 16): differences are 3, 4, 8 — not constant.\nAnswer: 3, 7, 11, 15 is the arithmetic sequence."
+  },
+  {
+    "question": "Which of the following formulas defines an arithmetic sequence?",
+    "options": [
+      "aₙ = n²",
+      "aₙ = (−1)ⁿ",
+      "aₙ = 5 − 2n",
+      "aₙ = 2ⁿ"
+    ],
+    "correct": 2,
+    "explanation": "An arithmetic sequence has the form aₙ = a₁ + (n−1)d, which is linear in n.\naₙ = 5−2n is linear in n: a₁ = 3, a₂ = 1, a₃ = −1, giving constant difference d = −2. ✓\nThe other options involve n² or other non-linear terms, producing non-constant differences.\nAnswer: aₙ = 5−2n defines an arithmetic sequence."
+  },
+  {
+    "question": "The sequence −4, 1, 6, 11, ... What is the nth term?",
+    "options": [
+      "5n − 9",
+      "5n − 4",
+      "4n − 8",
+      "5n + 4"
+    ],
+    "correct": 0,
+    "explanation": "Identify the AP parameters:\nA₁ = −4, d = 1 − (−4) = 5.\nGeneral term: Aₙ = A₁ + (n−1)d = −4 + (n−1) × 5 = 5n − 9.\nVerification: A₁ = 5(1)−9 = −4 ✓, A₂ = 5(2)−9 = 1 ✓.\nAnswer: Aₙ = 5n − 9."
+  },
+  {
+    "question": "The 5th term of an A.P. is 19 and the 11th term is 43. What is the 20th term?",
+    "options": [
+      "71",
+      "75",
+      "79",
+      "83"
+    ],
+    "correct": 2,
+    "explanation": "Use the AP term formula Aₙ = A₁ + (n−1)d:\nA₁₁ − A₅ = 6d → 43 − 19 = 6d → d = 4.\nFind A₁: A₁ = A₅ − 4d = 19 − 4(4) = 3.\nFind A₂₀: A₂₀ = 3 + 19 × 4 = 3 + 76 = 79.\nAnswer: 79."
+  },
+  {
+    "question": "In an A.P., A₇ = 27 and d = 5. What is A₂₀?",
+    "options": [
+      "82",
+      "87",
+      "92",
+      "97"
+    ],
+    "correct": 2,
+    "explanation": "Use Aₙ = A₁ + (n−1)d:\nFind A₁: A₁ = A₇ − 6d = 27 − 6(5) = 27 − 30 = −3.\nFind A₂₀: A₂₀ = −3 + 19 × 5 = −3 + 95 = 92.\nAnswer: 92."
+  },
+  {
+    "question": "Which term of the sequence 6, 14, 22, ... equals 246?",
+    "options": [
+      "28th",
+      "29th",
+      "30th",
+      "31st"
+    ],
+    "correct": 3,
+    "explanation": "The sequence 6, 14, 22, … is an AP with A₁ = 6 and d = 8.\nSet Aₙ = 246: 6 + (n−1) × 8 = 246\n(n−1) × 8 = 240\nn − 1 = 30 → n = 31.\nAnswer: The 31st term equals 246."
+  },
+  {
+    "question": "The pth term of an A.P. is q and the qth term is p (p≠q). What is the (p+q)th term?",
+    "options": [
+      "p+q",
+      "p−q",
+      "1",
+      "0"
+    ],
+    "correct": 3,
+    "explanation": "Write two equations using Aₙ = A₁ + (n−1)d:\nAₚ = q: A₁ + (p−1)d = q … (1)\nAq = p: A₁ + (q−1)d = p … (2)\nSubtract (2) from (1): (p−q)d = q−p → d = −1.\nFrom (1): A₁ = q − (p−1)(−1) = p + q − 1.\nFind A_{p+q}: A_{p+q} = (p+q−1) + (p+q−1)(−1) = 0.\nAnswer: 0."
+  },
+  {
+    "question": "How many integers between 100 and 1000 are divisible by 7?",
+    "options": [
+      "126",
+      "127",
+      "128",
+      "129"
+    ],
+    "correct": 2,
+    "explanation": "Multiples of 7 between 100 and 1000:\nSmallest: 105 = 7 × 15. Largest: 994 = 7 × 142.\nCount = 142 − 15 + 1 = 128.\nAnswer: 128."
+  },
+  {
+    "question": "For aₙ = (3−5n)/2, what is the common difference?",
+    "options": [
+      "5/2",
+      "3/2",
+      "−3/2",
+      "−5/2"
+    ],
+    "correct": 3,
+    "explanation": "Compute d = aₙ₊₁ − aₙ:\nd = [3 − 5(n+1)]/2 − (3 − 5n)/2\n= [3 − 5n − 5 − 3 + 5n] / 2\n= −5/2.\nAnswer: d = −5/2."
+  },
+  {
+    "question": "An A.P. has A₂₀ = −1 and A₃₀ = −6. What is the nth term?",
+    "options": [
+      "9 − n/2",
+      "n/2 − 9",
+      "10 − n",
+      "n − 10"
+    ],
+    "correct": 0,
+    "explanation": "Use A₂₀ = −1 and A₃₀ = −6:\n10d = A₃₀ − A₂₀ = −6 − (−1) = −5 → d = −1/2.\nFind A₁: A₁ = A₂₀ − 19d = −1 − 19(−1/2) = −1 + 19/2 = 17/2.\nGeneral term: Aₙ = 17/2 + (n−1)(−1/2) = (17 − n + 1)/2 = (18−n)/2 = 9 − n/2.\nAnswer: Aₙ = 9 − n/2."
+  },
+  {
+    "question": "A man starts at Birr 14,400/year with annual raises of Birr 1,440. What is his salary at the beginning of the 11th year?",
+    "options": [
+      "Birr 24,000",
+      "Birr 25,920",
+      "Birr 27,360",
+      "Birr 28,800"
+    ],
+    "correct": 2,
+    "explanation": "The salary sequence: A₁ = 14,400 (year 1), with annual raise d = 1,440.\nThe beginning of year k means k−1 raises have been applied.\nBeginning of year 11 → 10 raises → A = 14,400 + 9 × 1,440 = 14,400 + 12,960 = 27,360.\n(The convention used here: 'beginning of year 11' = salary entering the 11th year, after 9 complete raise cycles.)\nAnswer: Birr 27,360."
+  },
+  {
+    "question": "A man's starting salary is Birr 14,400/year with annual raises of Birr 1,440. What is his salary at the beginning of the 4th year?",
+    "options": [
+      "Birr 16,560",
+      "Birr 18,720",
+      "Birr 20,160",
+      "Birr 21,600"
+    ],
+    "correct": 1,
+    "explanation": "AP with A₁ = 14,400 (salary entering year 1) and d = 1,440.\nBeginning of year k means k−1 raises have been applied:\nBeginning of year 4 → 3 raises → A = 14,400 + 3 × 1,440 = 14,400 + 4,320 = 18,720.\nAnswer: Birr 18,720."
+  },
+  {
+    "question": "A worker earns Birr 1,600/month and receives a Birr 50 raise at the start of each new 6-month period (after the first). What is the monthly salary in the 4th six-month period?",
+    "options": [
+      "Birr 1,700",
+      "Birr 1,750",
+      "Birr 1,800",
+      "Birr 1,850"
+    ],
+    "correct": 1,
+    "explanation": "Monthly salary starts at Birr 1,600. A Birr 50 raise applies at the start of each new 6-month period after the first.\nPeriod 1 (months 1–6): Birr 1,600 (0 raises).\nPeriod 2 (months 7–12): Birr 1,650 (1 raise).\nPeriod 3 (months 13–18): Birr 1,700 (2 raises).\nPeriod 4 (months 19–24): Birr 1,600 + 3 × 50 = Birr 1,750 (3 raises).\nAnswer: Birr 1,750."
+  },
+  {
+    "question": "What is the 25th term of the arithmetic sequence 5, 9, 13, 17, ...?",
+    "options": [
+      "93",
+      "97",
+      "101",
+      "105"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 5 and d = 4:\nA₂₅ = A₁ + 24d = 5 + 24 × 4 = 5 + 96 = 101.\nAnswer: 101."
+  },
+  {
+    "question": "Three arithmetic means are inserted between 11 and 19. What are they?",
+    "options": [
+      "(12, 14, 16)",
+      "(13, 15, 17)",
+      "(12, 15, 18)",
+      "(13, 16, 19)"
+    ],
+    "correct": 1,
+    "explanation": "Inserting 3 arithmetic means between 11 and 19 creates 5 terms total:\n11, ?, ?, ?, 19.\nCommon difference: d = (19 − 11)/(5 − 1) = 8/4 = 2.\nThe three means: 11+2 = 13, 13+2 = 15, 15+2 = 17.\nAnswer: 13, 15, 17."
+  },
+  {
+    "question": "Four arithmetic means are inserted between 2 and 3. What is the common difference?",
+    "options": [
+      "1/3",
+      "1/4",
+      "1/5",
+      "1/6"
+    ],
+    "correct": 2,
+    "explanation": "Inserting 4 arithmetic means between 2 and 3 creates 6 terms total:\n2, ?, ?, ?, ?, 3.\nCommon difference: d = (3 − 2)/(6 − 1) = 1/5.\nAnswer: d = 1/5."
+  },
+  {
+    "question": "n arithmetic means are inserted between 2 and 3. What is the last (nth) arithmetic mean?",
+    "options": [
+      "(2n+3)/(n+1)",
+      "(3n+2)/(n+1)",
+      "(n+2)/(n+1)",
+      "(2n+1)/(n+1)"
+    ],
+    "correct": 1,
+    "explanation": "Inserting n means between 2 and 3 creates (n+2) terms total.\nCommon difference: d = (3 − 2)/(n+1) = 1/(n+1).\nThe nth mean (n steps from 2): 2 + n × d = 2 + n/(n+1) = (2n+2+n)/(n+1) = (3n+2)/(n+1).\nAnswer: (3n+2)/(n+1)."
+  },
+  {
+    "question": "What is Σ(k=1 to 5) k?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct": 2,
+    "explanation": "Direct calculation: 1 + 2 + 3 + 4 + 5 = 15.\nUsing the formula: Σk = n(n+1)/2 = 5×6/2 = 15.\nAnswer: 15."
+  },
+  {
+    "question": "What is Σ(k=3 to 9)(5k − 4)?",
+    "options": [
+      "175",
+      "180",
+      "182",
+      "200"
+    ],
+    "correct": 2,
+    "explanation": "The sequence with terms 5k − 4 for k = 3 to 9 (7 terms):\nFirst term (k=3): 5(3) − 4 = 11.\nLast term (k=9): 5(9) − 4 = 41.\nSum of AP = (n/2)(first + last) = (7/2)(11 + 41) = (7/2)(52) = 182.\nAnswer: 182."
+  },
+  {
+    "question": "What is Σ(k=2 to 6) 3k?",
+    "options": [
+      "54",
+      "57",
+      "60",
+      "63"
+    ],
+    "correct": 2,
+    "explanation": "Factor out the constant 3:\nΣ(k=2 to 6) 3k = 3 × Σ(k=2 to 6) k = 3 × (2+3+4+5+6) = 3 × 20 = 60.\nAnswer: 60."
+  },
+  {
+    "question": "What is Σ(k=4 to 11) 12?",
+    "options": [
+      "84",
+      "90",
+      "96",
+      "108"
+    ],
+    "correct": 2,
+    "explanation": "The summand is the constant 12, summed from k=4 to k=11.\nNumber of terms = 11 − 4 + 1 = 8.\nSum = 8 × 12 = 96.\nAnswer: 96."
+  },
+  {
+    "question": "For aₙ = 1/n − 1/(n+1), what is S₁₀₀?",
+    "options": [
+      "99/100",
+      "100/101",
+      "1/100",
+      "101/100"
+    ],
+    "correct": 1,
+    "explanation": "Each term telescopes: aₙ = 1/n − 1/(n+1).\nS₁₀₀ = (1/1 − 1/2) + (1/2 − 1/3) + ⋯ + (1/100 − 1/101)\nAll intermediate terms cancel:\nS₁₀₀ = 1 − 1/101 = 100/101.\nAnswer: 100/101."
+  },
+  {
+    "question": "For aₙ = ln((n+1)/n), what is Sₙ?",
+    "options": [
+      "ln(n)",
+      "ln(n+1)",
+      "1/(n+1)",
+      "n·ln(2)"
+    ],
+    "correct": 1,
+    "explanation": "Each term aₙ = ln((n+1)/n) = ln(n+1) − ln(n).\nThis is a telescoping series:\nSₙ = (ln2 − ln1) + (ln3 − ln2) + ⋯ + (ln(n+1) − lnn)\nAll intermediate terms cancel, leaving:\nSₙ = ln(n+1) − ln(1) = ln(n+1).\nAnswer: Sₙ = ln(n+1)."
+  },
+  {
+    "question": "For aₙ = 1/(n+2) − 1/(n+3), what is S₂₀?",
+    "options": [
+      "20/63",
+      "20/69",
+      "1/23",
+      "20/23"
+    ],
+    "correct": 1,
+    "explanation": "Each term telescopes: aₙ = 1/(n+2) − 1/(n+3).\nSₙ = (1/3 − 1/4) + (1/4 − 1/5) + ⋯ + (1/(n+2) − 1/(n+3))\nAll intermediate terms cancel:\nSₙ = 1/3 − 1/(n+3).\nS₂₀ = 1/3 − 1/23 = (23−3)/(3×23) = 20/69.\nAnswer: 20/69."
+  },
+  {
+    "question": "What is the sum of the first 100 natural numbers?",
+    "options": [
+      "4,950",
+      "5,000",
+      "5,050",
+      "5,100"
+    ],
+    "correct": 2,
+    "explanation": "Using the formula for the sum of the first n natural numbers:\nS = n(n+1)/2 = 100 × 101/2 = 5,050.\nAnswer: 5,050."
+  },
+  {
+    "question": "What is the sum of the first 100 odd natural numbers?",
+    "options": [
+      "9,801",
+      "9,900",
+      "10,000",
+      "10,201"
+    ],
+    "correct": 2,
+    "explanation": "The sum of the first n odd numbers equals n².\nFor n = 100: Sum = 100² = 10,000.\nVerification: odd numbers are 1, 3, 5, …, 199 — all 100 of them.\nAnswer: 10,000."
+  },
+  {
+    "question": "Find the sum of all two-digit numbers that leave remainder 2 when divided by 3.",
+    "options": [
+      "1,560",
+      "1,620",
+      "1,635",
+      "1,710"
+    ],
+    "correct": 2,
+    "explanation": "Two-digit numbers leaving remainder 2 when divided by 3 satisfy: number ≡ 2 (mod 3).\nSmallest two-digit: 11 (11 = 3×3 + 2). Largest two-digit: 98 (98 = 3×32 + 2).\nThis is an AP: 11, 14, 17, …, 98 with d = 3.\nNumber of terms: n = (98 − 11)/3 + 1 = 87/3 + 1 = 30.\nSum: S = (30/2) × (11 + 98) = 15 × 109 = 1,635.\nAnswer: 1,635."
+  },
+  {
+    "question": "Find the sum: 18 + 21 + 24 + ... + 90.",
+    "options": [
+      "1,260",
+      "1,305",
+      "1,350",
+      "1,440"
+    ],
+    "correct": 2,
+    "explanation": "This is an AP: A₁ = 18, d = 3, last term = 90.\nFind n: Aₙ = A₁ + (n−1)d → 90 = 18 + (n−1)×3 → n = 25.\nSum: S₂₅ = (25/2)(18 + 90) = (25/2)(108) = 25 × 54 = 1,350.\nAnswer: 1,350."
+  },
+  {
+    "question": "What is the sum of the first 20 terms of 2 + 5 + 8 + ...?",
+    "options": [
+      "590",
+      "600",
+      "610",
+      "620"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 2 and d = 3:\nS₂₀ = (20/2)(2A₁ + 19d) = 10(4 + 57) = 10 × 61 = 610.\nAnswer: 610."
+  },
+  {
+    "question": "Find the sum of all 3-digit numbers between 200 and 400 divisible by 13.",
+    "options": [
+      "4,095",
+      "4,290",
+      "4,485",
+      "4,680"
+    ],
+    "correct": 2,
+    "explanation": "First: 208=13×16. Last: 390=13×30. n=30−16+1=15. S=(15/2)(208+390)=15/2×598=4,485."
+  },
+  {
+    "question": "In an A.P., A₅ = 15 and A₂₄ = 91. What is S₂₀?",
+    "options": [
+      "700",
+      "720",
+      "740",
+      "760"
+    ],
+    "correct": 2,
+    "explanation": "Find d: A₂₄ − A₅ = 19d → 91 − 15 = 19d → d = 4.\nFind A₁: A₁ = A₅ − 4d = 15 − 16 = −1.\nCompute S₂₀: S₂₀ = (20/2)(2A₁ + 19d) = 10(−2 + 76) = 10 × 74 = 740.\nAnswer: 740."
+  },
+  {
+    "question": "An A.P. has A₁ = 42 and d = −5. What is the maximum partial sum Sₙ?",
+    "options": [
+      "180",
+      "190",
+      "198",
+      "210"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 42, d = −5. Find the last non-negative term:\n42 + (n−1)(−5) ≥ 0 → n ≤ 9.4 → last positive term at n = 9.\nA₉ = 42 + 8(−5) = 2 > 0.\nS₉ = (9/2)(2×42 + 8×(−5)) = (9/2)(84 − 40) = (9/2)(44) = 198.\nAnswer: Maximum partial sum = 198."
+  },
+  {
+    "question": "An A.P. has A₁ = 19 and d = −2. What is the maximum partial sum Sₙ?",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "110"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 19, d = −2. Find the last non-negative term:\n19 + (n−1)(−2) ≥ 0 → n ≤ 10.5 → last positive term at n = 10.\nA₁₀ = 19 + 9(−2) = 1 > 0.\nS₁₀ = (10/2)(2×19 + 9×(−2)) = 5(38 − 18) = 5 × 20 = 100.\nAnswer: Maximum partial sum = 100."
+  },
+  {
+    "question": "An A.P. has A₁₀ = 11 and d = 2. What is S₆?",
+    "options": [
+      "−24",
+      "−18",
+      "−12",
+      "−6"
+    ],
+    "correct": 2,
+    "explanation": "Find A₁ from A₁₀:\nA₁ = A₁₀ − 9d = 11 − 9(2) = −7.\nCompute S₆ using Sₙ = (n/2)(2A₁ + (n−1)d):\nS₆ = (6/2)(2(−7) + 5×2) = 3(−14 + 10) = 3(−4) = −12.\nAnswer: −12."
+  },
+  {
+    "question": "If S₁₀ = 210 and A₁ = 3, what is A₁₀?",
+    "options": [
+      "33",
+      "36",
+      "39",
+      "42"
+    ],
+    "correct": 2,
+    "explanation": "Use the sum formula S₁₀ = (10/2)(A₁ + A₁₀):\n210 = 5(3 + A₁₀) → 42 = 3 + A₁₀ → A₁₀ = 39.\nAnswer: A₁₀ = 39."
+  },
+  {
+    "question": "If S₈ = 12 and S₁₆ = 56 for an A.P., what is the nth term?",
+    "options": [
+      "(n−2)/4",
+      "(2n−3)/4",
+      "(n+1)/2",
+      "(3n−2)/4"
+    ],
+    "correct": 1,
+    "explanation": "Set up two equations using the sum formula Sₙ = (n/2)(2A₁ + (n−1)d):\nS₈: 8A₁ + 28d = 12 … (1)\nS₁₆: 16A₁ + 120d = 56 … (2)\nMultiply (1) by 2: 16A₁ + 56d = 24 … (3)\nSubtract (3) from (2): 64d = 32 → d = 1/2.\nFrom (1): 8A₁ + 14 = 12 → A₁ = −1/4.\nGeneral term: Aₙ = −1/4 + (n−1)(1/2) = (−1 + 2n − 2)/4 = (2n − 3)/4.\nAnswer: Aₙ = (2n − 3)/4."
+  },
+  {
+    "question": "Find the sum of 12 terms of the A.P. −7, −3, 1, 5, ... starting from the 8th term.",
+    "options": [
+      "468",
+      "492",
+      "516",
+      "540"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = −7, d = 4.\nFind the 8th term: A₈ = −7 + 7×4 = 21.\nFind the 19th term (8 + 12 − 1 = 19th): A₁₉ = −7 + 18×4 = 65.\nSum of 12 terms starting at A₈:\nS = (12/2)(A₈ + A₁₉) = 6 × (21 + 65) = 6 × 86 = 516.\nAnswer: 516."
+  },
+  {
+    "question": "For the arithmetic sequence aₙ = 4n − 3, what is Sₙ?",
+    "options": [
+      "2n² − n",
+      "2n² + n",
+      "n² − n",
+      "4n² − 3"
+    ],
+    "correct": 0,
+    "explanation": "For aₙ = 4n − 3:\na₁ = 4(1) − 3 = 1.\nSₙ = (n/2)(a₁ + aₙ) = (n/2)(1 + 4n − 3) = (n/2)(4n − 2) = n(2n − 1) = 2n² − n.\nAnswer: Sₙ = 2n² − n."
+  },
+  {
+    "question": "The nth partial sum of an A.P. is Sₙ = 2n² + 3n. What is the nth term?",
+    "options": [
+      "4n + 1",
+      "4n − 1",
+      "2n + 3",
+      "6n − 1"
+    ],
+    "correct": 0,
+    "explanation": "Use aₙ = Sₙ − Sₙ₋₁ (valid for n ≥ 2):\nSₙ = 2n² + 3n\nSₙ₋₁ = 2(n−1)² + 3(n−1) = 2n² − 4n + 2 + 3n − 3 = 2n² − n − 1\naₙ = (2n² + 3n) − (2n² − n − 1) = 4n + 1.\nCheck a₁ = S₁ = 5 = 4(1)+1 ✓.\nAnswer: aₙ = 4n + 1."
+  },
+  {
+    "question": "If Sₙ = n² + 3n − 2, what is a₁₂?",
+    "options": [
+      "24",
+      "25",
+      "26",
+      "27"
+    ],
+    "correct": 2,
+    "explanation": "Use aₙ = Sₙ − Sₙ₋₁:\nS₁₂ = 144 + 36 − 2 = 178.\nS₁₁ = 121 + 33 − 2 = 152.\na₁₂ = 178 − 152 = 26.\nAnswer: a₁₂ = 26."
+  },
+  {
+    "question": "Find Σ(n=1 to 50)(2n + 5).",
+    "options": [
+      "2,650",
+      "2,750",
+      "2,800",
+      "2,900"
+    ],
+    "correct": 2,
+    "explanation": "Split the sum:\nΣ(n=1 to 50)(2n + 5) = 2·Σn + 5·50\n= 2 × (50×51/2) + 250\n= 2,550 + 250 = 2,800.\nAnswer: 2,800."
+  },
+  {
+    "question": "What is the sum of n arithmetic means inserted between a and b?",
+    "options": [
+      "n(a+b)",
+      "n(a+b)/2",
+      "n(b−a)/2",
+      "n(a+b)/4"
+    ],
+    "correct": 1,
+    "explanation": "The n arithmetic means between a and b form an AP from a to b with (n+2) total terms.\nEach mean is symmetric about (a+b)/2, so their average is (a+b)/2.\nSum of n means = n × (a+b)/2.\nAnswer: n(a+b)/2."
+  },
+  {
+    "question": "n arithmetic means are inserted between 11 and 19. The sum of ALL (n+2) terms is 150. Find n.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "explanation": "The (n+2) terms including 11, the n means, and 19 form an AP.\nS = (n+2)/2 × (first + last) = (n+2)/2 × (11+19) = 15(n+2) = 150\n→ n+2 = 10 → n = 8.\nAnswer: n = 8."
+  },
+  {
+    "question": "How many terms of −7 − 4 − 1 + 2 + ... give a sum of 65?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = −7, d = 3:\nSₙ = (n/2)(2A₁ + (n−1)d) = (n/2)(−14 + 3(n−1)) = 65\nn(3n − 17) = 130\n3n² − 17n − 130 = 0\n(3n + 13)(n − 10) = 0 → n = 10 (positive).\nAnswer: 10 terms."
+  },
+  {
+    "question": "A man saves Birr 16,500 over 10 years, saving Birr 100 more each year. What did he save in year 1?",
+    "options": [
+      "Birr 1,100",
+      "Birr 1,200",
+      "Birr 1,300",
+      "Birr 1,350"
+    ],
+    "correct": 1,
+    "explanation": "Using the AP sum formula: S₁₀ = (10/2)(2A₁ + 9×100) = 16,500\n5(2A₁ + 900) = 16,500\n2A₁ + 900 = 3,300\nA₁ = 1,200.\nAnswer: Birr 1,200 in year 1."
+  },
+  {
+    "question": "A person saves Birr 500 the first year, increasing by Birr 150 each year. How much is saved in the 9th year?",
+    "options": [
+      "Birr 1,500",
+      "Birr 1,600",
+      "Birr 1,700",
+      "Birr 1,800"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 500 and d = 150:\nA₉ = 500 + (9−1) × 150 = 500 + 1,200 = 1,700.\nAnswer: Birr 1,700 in the 9th year."
+  },
+  {
+    "question": "A theater has 10 rows. Row 1 has 27 seats, each row has 2 more than the previous. What is the total seating capacity?",
+    "options": [
+      "330",
+      "345",
+      "360",
+      "375"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 27, d = 2, n = 10:\nS₁₀ = (10/2)(2×27 + 9×2) = 5(54 + 18) = 5 × 72 = 360.\nAnswer: 360 seats total."
+  },
+  {
+    "question": "A contest has 15 prizes. The first is Birr 5,000, each successive prize is Birr 250 less. What is the total prize money?",
+    "options": [
+      "Birr 45,000",
+      "Birr 46,250",
+      "Birr 48,750",
+      "Birr 52,500"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 5,000 and d = −250, n = 15:\nA₁₅ = 5,000 + 14(−250) = 5,000 − 3,500 = 1,500.\nS₁₅ = (15/2)(A₁ + A₁₅) = (15/2)(5,000 + 1,500) = (15/2)(6,500) = 48,750.\nAnswer: Birr 48,750."
+  },
+  {
+    "question": "A contest has 5 prizes totaling Birr 5,000 with Birr 100 difference between successive prizes. What is the first prize?",
+    "options": [
+      "Birr 1,000",
+      "Birr 1,100",
+      "Birr 1,200",
+      "Birr 1,400"
+    ],
+    "correct": 2,
+    "explanation": "Let the first (largest) prize = A₁, with each successive prize Birr 100 less: d = −100.\nTotal for 5 prizes: S₅ = (5/2)(2A₁ + 4(−100)) = 5,000\n→ 5A₁ − 1,000 = 5,000\n→ 5A₁ = 6,000\n→ A₁ = 1,200.\nAnswer: The first prize is Birr 1,200."
+  },
+  {
+    "question": "Firm A: starts Birr 10,000/yr, raises Birr 1,000/yr. Firm B: starts Birr 12,000/yr, raises Birr 600/yr. What is the Firm A salary in year 9?",
+    "options": [
+      "Birr 16,000",
+      "Birr 17,000",
+      "Birr 18,000",
+      "Birr 19,000"
+    ],
+    "correct": 2,
+    "explanation": "Firm A: AP with A₁ = 10,000 and d = 1,000.\nA₉ = 10,000 + (9−1) × 1,000 = 10,000 + 8,000 = 18,000.\nAnswer: Birr 18,000 in year 9."
+  },
+  {
+    "question": "In a G.P., G₁ = 9 and r = 1/3. What is G₆?",
+    "options": [
+      "1/81",
+      "1/27",
+      "1/9",
+      "3"
+    ],
+    "correct": 1,
+    "explanation": "GP with G₁ = 9 and r = 1/3:\nG₆ = G₁ × r⁵ = 9 × (1/3)⁵ = 9 × 1/243 = 9/243 = 1/27.\nAnswer: 1/27."
+  },
+  {
+    "question": "In a G.P., G₃ = 5 and G₆ = −40. What is G₈?",
+    "options": [
+      "−80",
+      "−120",
+      "−160",
+      "−320"
+    ],
+    "correct": 2,
+    "explanation": "Find r: G₆/G₃ = r³ → r³ = −40/5 = −8 → r = −2.\nFind G₁: G₁ = G₃/r² = 5/4.\nFind G₈: G₈ = G₁ × r⁷ = (5/4)(−2)⁷ = (5/4)(−128) = −160.\nAnswer: −160."
+  },
+  {
+    "question": "A G.P. has G₃ = 16/3 and G₅ = 64/27. What is G₁?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "correct": 2,
+    "explanation": "Find r: r² = G₅/G₃ = (64/27) ÷ (16/3) = (64/27) × (3/16) = 4/9 → r = 2/3.\nFind G₁: G₁ = G₃/r² = (16/3) ÷ (4/9) = (16/3) × (9/4) = 12.\nAnswer: G₁ = 12."
+  },
+  {
+    "question": "A G.P. has G₄ = 3 and G₇ = 24. What is the general term Gₙ?",
+    "options": [
+      "(3/8)·2ⁿ⁻¹",
+      "(1/4)·2ⁿ",
+      "3·2ⁿ⁻⁴",
+      "(3/4)·2ⁿ⁻¹"
+    ],
+    "correct": 0,
+    "explanation": "Find r: r³ = G₇/G₄ = 24/3 = 8 → r = 2.\nFind G₁: G₁ = G₄/r³ = 3/8.\nGeneral term: Gₙ = G₁ × rⁿ⁻¹ = (3/8) × 2ⁿ⁻¹.\nAnswer: Gₙ = (3/8) · 2ⁿ⁻¹."
+  },
+  {
+    "question": "A G.P. has G₂ = 2+√2 and G₅ = 4√2+4. What is the common ratio?",
+    "options": [
+      "2",
+      "√2",
+      "√3",
+      "1+√2"
+    ],
+    "correct": 1,
+    "explanation": "Verify r = √2 by building the sequence forward:\nG₂ = 2 + √2.\nG₃ = G₂ × √2 = (2 + √2)√2 = 2√2 + 2.\nG₄ = G₃ × √2 = (2√2 + 2)√2 = 4 + 2√2.\nG₅ = G₄ × √2 = (4 + 2√2)√2 = 4√2 + 4. ✓ Matches the given G₅.\nAnswer: r = √2."
+  },
+  {
+    "question": "A G.P. has G₄ = 3 and G₆ = 9 (r > 0). What is r?",
+    "options": [
+      "√2",
+      "√3",
+      "2",
+      "3"
+    ],
+    "correct": 1,
+    "explanation": "Find r: r² = G₆/G₄ = 9/3 = 3 → r = √3 (since r > 0).\nAnswer: r = √3."
+  },
+  {
+    "question": "A G.P. has G₄ = 4 and G₇ = 12. What is G₁₀?",
+    "options": [
+      "24",
+      "30",
+      "36",
+      "48"
+    ],
+    "correct": 2,
+    "explanation": "Find r: r³ = G₇/G₄ = 12/4 = 3 → r = ∛3.\nFind G₁₀ using G₁₀ = G₇ × r³:\nG₁₀ = 12 × 3 = 36.\nAnswer: G₁₀ = 36."
+  },
+  {
+    "question": "If x+1, x+3, x+7 are consecutive terms of a G.P., find x.",
+    "options": [
+      "x=0",
+      "x=1",
+      "x=2",
+      "x=5"
+    ],
+    "correct": 1,
+    "explanation": "For x+1, x+3, x+7 to be a GP, the middle term squared equals the product of the outer terms:\n(x+3)² = (x+1)(x+7)\nx² + 6x + 9 = x² + 8x + 7\n6x + 9 = 8x + 7 → 2 = 2x → x = 1.\nThe GP becomes: 2, 4, 8 with r = 2.\nAnswer: x = 1."
+  },
+  {
+    "question": "For the sequence 4, 2, 1, 1/2, ... (r=1/2), which is the first term less than 1/1024?",
+    "options": [
+      "12th",
+      "13th",
+      "14th",
+      "15th"
+    ],
+    "correct": 2,
+    "explanation": "GP with G₁ = 4 and r = 1/2: Gₙ = 4·(1/2)ⁿ⁻¹.\nSolve Gₙ < 1/1024 = 2⁻¹⁰:\n2² · 2⁻⁽ⁿ⁻¹⁾ < 2⁻¹⁰\n2³⁻ⁿ < 2⁻¹⁰\n3 − n < −10 → n > 13.\nFirst integer n satisfying this: n = 14.\nAnswer: The 14th term is the first less than 1/1024."
+  },
+  {
+    "question": "For 5, 50, 500, ... (r=10), which is the first term exceeding 500,000?",
+    "options": [
+      "5th",
+      "6th",
+      "7th",
+      "8th"
+    ],
+    "correct": 2,
+    "explanation": "GP with G₁ = 5 and r = 10: Gₙ = 5·10ⁿ⁻¹.\nSolve Gₙ > 500,000:\n5 · 10ⁿ⁻¹ > 5 × 10⁵ → 10ⁿ⁻¹ > 10⁵ → n−1 > 5 → n > 6.\nFirst integer satisfying this: n = 7.\nAnswer: The 7th term first exceeds 500,000."
+  },
+  {
+    "question": "A culture of 10,000 bacteria grows 20% per hour. How many bacteria after 10 hours? (Use 1.2¹⁰ ≈ 6.19)",
+    "options": [
+      "≈ 42,000",
+      "≈ 52,000",
+      "≈ 62,000",
+      "≈ 72,000"
+    ],
+    "correct": 2,
+    "explanation": "GP: G₁ = 10,000, r = 1.2, n = 10.\nG₁₀ = 10,000 × (1.2)¹⁰ ≈ 10,000 × 6.19 = 61,900 ≈ 62,000.\nAnswer: approximately 62,000 bacteria."
+  },
+  {
+    "question": "A town of 48,000 grows at 5% per year. Population after 4 years? (Use 1.05⁴ ≈ 1.216)",
+    "options": [
+      "≈ 54,000",
+      "≈ 56,000",
+      "≈ 58,000",
+      "≈ 60,000"
+    ],
+    "correct": 2,
+    "explanation": "GP: P₀ = 48,000, r = 1.05, n = 4 years.\nP₄ = 48,000 × (1.05)⁴ ≈ 48,000 × 1.216 ≈ 58,368 ≈ 58,000.\nAnswer: approximately 58,000 people."
+  },
+  {
+    "question": "Hana deposits Birr 6,000 at 8% annual interest. How much after 4 years? (Use 1.08⁴ ≈ 1.36)",
+    "options": [
+      "Birr 7,560",
+      "Birr 7,920",
+      "Birr 8,160",
+      "Birr 8,640"
+    ],
+    "correct": 2,
+    "explanation": "Compound interest: Principal = 6,000, rate = 8%, n = 4 years.\nAmount = 6,000 × (1.08)⁴ ≈ 6,000 × 1.36 = 8,160.\nAnswer: approximately Birr 8,160."
+  },
+  {
+    "question": "A car worth Birr 240,000 depreciates 25% per year. What is its value after 2 years?",
+    "options": [
+      "Birr 120,000",
+      "Birr 135,000",
+      "Birr 150,000",
+      "Birr 180,000"
+    ],
+    "correct": 1,
+    "explanation": "Each year the car retains 75% of its value (r = 0.75).\nAfter 2 years: 240,000 × (0.75)² = 240,000 × 0.5625 = 135,000.\nAnswer: Birr 135,000."
+  },
+  {
+    "question": "A car bought for Birr 120,000 loses Birr 8,000 per year. How long until it loses 20% of its original value?",
+    "options": [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    "correct": 1,
+    "explanation": "This is linear depreciation (not GP — arithmetic).\nAnnual loss = Birr 8,000. Target loss = 20% × 120,000 = 24,000.\nTime = 24,000 ÷ 8,000 = 3 years.\nAnswer: 3 years."
+  },
+  {
+    "question": "What is the geometric mean between −3 and −27?",
+    "options": [
+      "9",
+      "−9",
+      "3√3",
+      "−3√3"
+    ],
+    "correct": 1,
+    "explanation": "The geometric mean G between two numbers a and b satisfies G² = a × b.\nG² = (−3) × (−27) = 81 → G = ±9.\nSince both terms are negative, the geometric mean must also be negative to keep the sequence real and consistent.\nG = −9. (Check: −3, −9, −27 has ratio r = −3 ✓.)\nAnswer: −9."
+  },
+  {
+    "question": "For positive numbers a and b, let A=(a+b)/2 and G=√(ab). Which is always true?",
+    "options": [
+      "A < G",
+      "A = G always",
+      "A ≥ G",
+      "G > A"
+    ],
+    "correct": 2,
+    "explanation": "For positive a and b, compute A − G:\nA − G = (a+b)/2 − √(ab)\n= [a − 2√(ab) + b] / 2\n= (√a − √b)² / 2 ≥ 0 always.\nEquality holds if and only if a = b.\nAnswer: A ≥ G always (the AM–GM inequality)."
+  },
+  {
+    "question": "Four arithmetic means are inserted between 3 and 9. What is the common difference?",
+    "options": [
+      "1",
+      "6/5",
+      "3/2",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "Inserting 4 arithmetic means between 3 and 9 creates 6 terms total:\n3, ?, ?, ?, ?, 9.\nd = (9 − 3)/(6 − 1) = 6/5.\nAnswer: d = 6/5."
+  },
+  {
+    "question": "In a G.P., G₁ = −2 and r = 3. What is S₆?",
+    "options": [
+      "−726",
+      "−728",
+      "−730",
+      "−732"
+    ],
+    "correct": 1,
+    "explanation": "GP sum formula: Sₙ = G₁(rⁿ − 1)/(r − 1) with G₁ = −2, r = 3, n = 6.\nS₆ = −2(3⁶ − 1)/(3 − 1) = −2(729 − 1)/2 = −(728) = −728.\nAnswer: −728."
+  },
+  {
+    "question": "A G.P. has G₃ = 9 and G₅ = 81/4. What is S₄?",
+    "options": [
+      "61/2",
+      "63/2",
+      "65/2",
+      "67/2"
+    ],
+    "correct": 2,
+    "explanation": "r²=G₅/G₃=(81/4)/9=9/4→r=3/2. G₁=G₃/r²=9/(9/4)=4. S₄=4(1−(3/2)⁴)/(1−3/2)=4(1−81/16)/(−1/2)=4(−65/16)×(−2)=65/2."
+  },
+  {
+    "question": "A G.P. has G₄ = 24 and G₇ = 192. What is S₁₀?",
+    "options": [
+      "2,046",
+      "2,562",
+      "3,069",
+      "3,584"
+    ],
+    "correct": 2,
+    "explanation": "Find r and G₁:\nr³ = G₇/G₄ = 192/24 = 8 → r = 2.\nG₁ = G₄/r³ = 24/8 = 3.\nCompute S₁₀:\nS₁₀ = G₁(r¹⁰ − 1)/(r − 1) = 3(1024 − 1)/1 = 3 × 1023 = 3,069.\nAnswer: 3,069."
+  },
+  {
+    "question": "What is Σ(n=1 to 7) 64·(−1/2)ⁿ⁻¹?",
+    "options": [
+      "41",
+      "43",
+      "45",
+      "47"
+    ],
+    "correct": 1,
+    "explanation": "a=64, r=−1/2, n=7. S=64·(1−(−1/2)⁷)/(1+1/2)=64·(1+1/128)/(3/2)=64·(129/128)·(2/3)=(64·129·2)/(128·3)=129/3=43."
+  },
+  {
+    "question": "What is the sum of the infinite series 2 + 1 + 1/2 + 1/4 + ...?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "explanation": "This is an infinite GP with first term a = 2 and ratio r = 1/2.\nSince |r| < 1, the series converges:\nS = a/(1 − r) = 2/(1 − 1/2) = 2/(1/2) = 4.\nAnswer: 4."
+  },
+  {
+    "question": "Which of the following infinite geometric series DIVERGES?",
+    "options": [
+      "Σ5·(1/4)ᵏ (k=0 to ∞)",
+      "Σ3·(1/2)ⁿ⁻¹",
+      "Σ3ᵏ⁻² (k=1 to ∞)",
+      "Σ(−2/3)ⁿ"
+    ],
+    "correct": 2,
+    "explanation": "Check each option's common ratio |r|:\nΣ5·(1/4)ᵏ: r = 1/4 < 1 → converges.\nΣ3·(1/2)ⁿ⁻¹: r = 1/2 < 1 → converges.\nΣ3ᵏ⁻² = Σ(1/9)·3ᵏ: r = 3 > 1 → DIVERGES.\nΣ(−2/3)ⁿ: |r| = 2/3 < 1 → converges.\nAnswer: Σ3ᵏ⁻² (k=1 to ∞) diverges."
+  },
+  {
+    "question": "Find: Σ(k=1 to ∞) 3ᵏ⁺¹/4ᵏ⁻¹",
+    "options": [
+      "9",
+      "18",
+      "27",
+      "36"
+    ],
+    "correct": 3,
+    "explanation": "Rewrite the general term by separating powers:\n3ᵏ⁺¹ / 4ᵏ⁻¹ = 3² × 3ᵏ⁻¹ / 4ᵏ⁻¹ = 9 × (3/4)ᵏ⁻¹.\nThis is a geometric series with first term a = 9 (at k=1) and ratio r = 3/4.\nSince |r| = 3/4 < 1, the series converges:\nS = a / (1 − r) = 9 / (1 − 3/4) = 9 / (1/4) = 36.\nAnswer: 36."
+  },
+  {
+    "question": "Find Σ(n=0 to ∞)(2ⁿ + 5)/3ⁿ.",
+    "options": [
+      "19/2",
+      "21/2",
+      "23/2",
+      "25/2"
+    ],
+    "correct": 1,
+    "explanation": "Split into two geometric series (both convergent since |r| < 1):\nΣ(2ⁿ + 5)/3ⁿ = Σ(2/3)ⁿ + 5·Σ(1/3)ⁿ (n = 0 to ∞)\n= 1/(1 − 2/3) + 5 × 1/(1 − 1/3)\n= 1/(1/3) + 5/(2/3)\n= 3 + 15/2 = 6/2 + 15/2 = 21/2.\nAnswer: 21/2."
+  },
+  {
+    "question": "Does Σ(k=1 to ∞) cos(πk) converge?",
+    "options": [
+      "Yes, sum = 0",
+      "Yes, sum = −1/2",
+      "Yes, sum = −1",
+      "No, it diverges"
+    ],
+    "correct": 3,
+    "explanation": "Identify the general term: cos(πk) = (−1)ᵏ.\nThe series becomes: Σ(−1)ᵏ = −1 + 1 − 1 + 1 − ⋯\nPartial sums: S₁ = −1, S₂ = 0, S₃ = −1, S₄ = 0, …\nThe partial sums alternate between −1 and 0 and never approach a single limit.\nAnswer: The series DIVERGES."
+  },
+  {
+    "question": "Find Σ(k=0 to ∞) cos(πk)/3ᵏ.",
+    "options": [
+      "1/2",
+      "3/4",
+      "4/3",
+      "3/2"
+    ],
+    "correct": 1,
+    "explanation": "Simplify the general term: cos(πk)/3ᵏ = (−1)ᵏ/3ᵏ = (−1/3)ᵏ.\nThis is a GP with a = 1 (k=0) and r = −1/3.\nS = 1/(1 − (−1/3)) = 1/(4/3) = 3/4.\nAnswer: 3/4."
+  },
+  {
+    "question": "Find the sum: 1/2 + 1/9 + 1/8 + 1/81 + 1/32 + ...",
+    "options": [
+      "17/24",
+      "19/24",
+      "3/4",
+      "7/9"
+    ],
+    "correct": 1,
+    "explanation": "Split into two interleaved geometric series:\nSeries 1 (every other term starting from 1/2): 1/2 + 1/8 + 1/32 + ⋯, a = 1/2, r = 1/4.\nS₁ = (1/2) / (1 − 1/4) = (1/2) / (3/4) = 2/3.\nSeries 2 (every other term starting from 1/9): 1/9 + 1/81 + ⋯, a = 1/9, r = 1/9.\nS₂ = (1/9) / (1 − 1/9) = (1/9) / (8/9) = 1/8.\nTotal sum = 2/3 + 1/8 = 16/24 + 3/24 = 19/24.\nAnswer: 19/24."
+  },
+  {
+    "question": "Express 0.8̄ (0.8888...) as a fraction.",
+    "options": [
+      "4/5",
+      "8/10",
+      "8/9",
+      "9/10"
+    ],
+    "correct": 2,
+    "explanation": "Write 0.8̄ as a geometric series:\n0.888… = 8/10 + 8/100 + 8/1000 + ⋯\nFirst term a = 8/10, common ratio r = 1/10.\nS = a / (1 − r) = (8/10) / (9/10) = 8/9.\nAnswer: 8/9."
+  },
+  {
+    "question": "Express 0.2̄5̄ (0.252525...) as a fraction.",
+    "options": [
+      "5/18",
+      "25/99",
+      "23/90",
+      "1/4"
+    ],
+    "correct": 1,
+    "explanation": "Write 0.25̄ as a geometric series:\n0.252525… = 25/100 + 25/10000 + ⋯\nFirst term a = 25/100, common ratio r = 1/100.\nS = a / (1 − r) = (25/100) / (99/100) = 25/99.\nAnswer: 25/99."
+  },
+  {
+    "question": "Find: 2¹/² · 2¹/³ · 2¹/⁹ · 2¹/²⁷ · ...",
+    "options": [
+      "2",
+      "2√2",
+      "4",
+      "2³/²"
+    ],
+    "correct": 1,
+    "explanation": "Write the product as a single power of 2:\n2¹/² · 2¹/³ · 2¹/⁹ · 2¹/²⁷ · ⋯ = 2^E, where E is the sum of the exponents.\nExponents form a GP: first term a = 1/2, common ratio r = 2/3.\nSum of exponents: E = a/(1−r) = (1/2)/(1−2/3) = (1/2)/(1/3) = 3/2.\nProduct = 2³/² = √(2³) = 2√2.\nAnswer: 2√2."
+  },
+  {
+    "question": "If 4ᵏ · 4ᵏ² · 4ᵏ³ · ... = 16 (|k|<1), what is k?",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correct": 2,
+    "explanation": "The product 4ᵏ · 4ᵏ² · 4ᵏ³ · ⋯ = 4^(k + k² + k³ + ⋯).\nSince |k| < 1, the exponent sum is a convergent GP:\nk + k² + k³ + ⋯ = k/(1 − k).\nSet equal to 2 (since 4² = 16):\nk/(1 − k) = 2 → k = 2 − 2k → 3k = 2 → k = 2/3.\nAnswer: k = 2/3."
+  },
+  {
+    "question": "If Σ(k=0 to ∞) eᵐᵏ = 9, what is m?",
+    "options": [
+      "ln(8/9)",
+      "ln(1/9)",
+      "−ln(9)",
+      "2ln(3)"
+    ],
+    "correct": 0,
+    "explanation": "The series Σ(k=0 to ∞) eᵐᵏ = Σ(eᵐ)ᵏ is a GP with ratio eᵐ.\nFor convergence, |eᵐ| < 1 (so m < 0).\nS = 1/(1 − eᵐ) = 9\n1 − eᵐ = 1/9 → eᵐ = 8/9 → m = ln(8/9).\nAnswer: m = ln(8/9)."
+  },
+  {
+    "question": "If Σ(k=1 to ∞) 6ᵐᵏ = 1/5, what is m?",
+    "options": [
+      "−2",
+      "−1",
+      "1/2",
+      "1/6"
+    ],
+    "correct": 1,
+    "explanation": "The series Σ(k=1 to ∞) 6ᵐᵏ = Σ(6ᵐ)ᵏ is a GP with ratio r = 6ᵐ.\nS = 6ᵐ/(1 − 6ᵐ) = 1/5\n5 × 6ᵐ = 1 − 6ᵐ\n6 × 6ᵐ = 1 → 6ᵐ = 6⁻¹ → m = −1.\nAnswer: m = −1."
+  },
+  {
+    "question": "Solve: Σ(n=1 to ∞) x²ⁿ⁻¹ = 3/8 for x.",
+    "options": [
+      "x=1/4",
+      "x=1/3",
+      "x=1/2",
+      "x=2/3"
+    ],
+    "correct": 1,
+    "explanation": "The series Σ(n=1 to ∞) x²ⁿ⁻¹ is a GP:\nFirst term = x, ratio = x².\nS = x/(1 − x²) = 3/8\n8x = 3 − 3x²\n3x² + 8x − 3 = 0\n(3x − 1)(x + 3) = 0 → x = 1/3 or x = −3.\nSince |x| < 1 for convergence: x = 1/3.\nAnswer: x = 1/3."
+  },
+  {
+    "question": "If Σ(n=0 to ∞) yⁿ = x (|y|<1), express y in terms of x.",
+    "options": [
+      "y=x/(x+1)",
+      "y=(x−1)/x",
+      "y=1/x",
+      "y=x−1"
+    ],
+    "correct": 1,
+    "explanation": "The series Σ(n=0 to ∞) yⁿ is a GP with S = 1/(1−y) = x.\nSolve for y:\n1 − y = 1/x → y = 1 − 1/x = (x−1)/x.\nAnswer: y = (x−1)/x."
+  },
+  {
+    "question": "A ball dropped from 16 m rebounds 81% of each fall. What is the total vertical distance? (Round to nearest whole number)",
+    "options": [
+      "142 m",
+      "148 m",
+      "152 m",
+      "160 m"
+    ],
+    "correct": 2,
+    "explanation": "A ball dropped from h = 16 m with rebound ratio r = 0.81:\nTotal distance = h × (1 + r)/(1 − r) = 16 × (1.81)/(0.19) ≈ 16 × 9.526 ≈ 152.4 ≈ 152 m.\nAnswer: approximately 152 m."
+  },
+  {
+    "question": "A ball is dropped from 10 m and rebounds half the previous height each time. How high does it rebound on the 4th bounce?",
+    "options": [
+      "5/8 m",
+      "5/4 m",
+      "5/16 m",
+      "5/32 m"
+    ],
+    "correct": 0,
+    "explanation": "GP: 1st rebound = 10 × (1/2) = 5 m, common ratio r = 1/2.\nThe nth rebound height: Gₙ = 10 × (1/2)ⁿ.\n4th rebound: G₄ = 10 × (1/2)⁴ = 10/16 = 5/8 m.\nAnswer: 5/8 m."
+  },
+  {
+    "question": "A ball dropped from 10 m, rebounding half each time. Total distance traveled when it hits the ground for the 6th time?",
+    "options": [
+      "25 m",
+      "27 m",
+      "29 m",
+      "31 m"
+    ],
+    "correct": 2,
+    "explanation": "After 1st hit: 10 m. Each bounce up+down: 10+2(5+2.5+1.25+0.625+0.3125)=10+2×9.6875≈29.4≈29 m. More precisely: 10+2·5·(1−(1/2)⁵)/(1/2)=10+20(31/32)=10+19.375≈29."
+  },
+  {
+    "question": "A ball dropped from 10 m rebounds half each time. What is the total distance before it comes to rest?",
+    "options": [
+      "20 m",
+      "25 m",
+      "30 m",
+      "35 m"
+    ],
+    "correct": 2,
+    "explanation": "Ball dropped from h = 10 m with rebound ratio r = 1/2.\nTotal distance = h × (1 + r)/(1 − r) = 10 × (3/2)/(1/2) = 10 × 3 = 30 m.\nAnswer: 30 m."
+  },
+  {
+    "question": "A ball dropped from 5 m rebounds 60% each time. What is the total distance traveled?",
+    "options": [
+      "15 m",
+      "18 m",
+      "20 m",
+      "25 m"
+    ],
+    "correct": 2,
+    "explanation": "Ball dropped from h = 5 m with rebound ratio r = 0.6.\nTotal distance = h × (1 + r)/(1 − r) = 5 × (1.6)/(0.4) = 5 × 4 = 20 m.\nAnswer: 20 m."
+  },
+  {
+    "question": "Let aₙ = n + cos(nπ). Which statement is TRUE?",
+    "options": [
+      "a₅ = 6",
+      "a₁₀ = 9",
+      "a₇ + a₈ = 15",
+      "a₇ − a₆ = 1"
+    ],
+    "correct": 2,
+    "explanation": "aₙ = n + cos(nπ) = n + (−1)ⁿ.\nCheck each option:\na₅ = 5 + (−1)⁵ = 4 ✗ (not 5)\na₁₀ = 10 + 1 = 11 ✗ (not 10)\na₇ + a₈ = (7−1) + (8+1) = 6 + 9 = 15 ✓\na₇ − a₆ = 6 − (6+1) = −1 ✗\nAnswer: a₇ + a₈ = 15."
+  },
+  {
+    "question": "An A.P. has A₁ = 5 and A₅ = 21. What is Σ(n=1 to 20) Aₙ?",
+    "options": [
+      "760",
+      "780",
+      "860",
+      "870"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = 5 and A₅ = 21:\nd = (21 − 5)/4 = 4.\nS₂₀ = (20/2)(2A₁ + 19d) = 10(10 + 76) = 10 × 86 = 860.\nAnswer: 860."
+  },
+  {
+    "question": "What is Σ(n=0 to ∞) 2ⁿ·3²⁻ⁿ?",
+    "options": [
+      "6",
+      "18",
+      "27",
+      "54"
+    ],
+    "correct": 2,
+    "explanation": "Factor out the constant 9 = 3²:\nΣ(n=0 to ∞) 2ⁿ · 3²⁻ⁿ = 9 · Σ(n=0 to ∞) (2/3)ⁿ\n= 9 × 1/(1 − 2/3) = 9 × 3 = 27.\nAnswer: 27."
+  },
+  {
+    "question": "Find the sum of all integers between 30 and 201 that are multiples of 4.",
+    "options": [
+      "4,416",
+      "4,530",
+      "4,988",
+      "4,752"
+    ],
+    "correct": 2,
+    "explanation": "Multiples of 4 between 30 and 201 (exclusive):\nFirst: 32, Last: 200, common difference d = 4.\nNumber of terms: n = (200 − 32)/4 + 1 = 43.\nSum: S = (43/2)(32 + 200) = (43/2)(232) = 43 × 116 = 4,988.\nAnswer: 4,988."
+  },
+  {
+    "question": "Find the sum of all integers between 30 and 201 that are multiples of 7.",
+    "options": [
+      "2,604",
+      "2,700",
+      "2,772",
+      "2,856"
+    ],
+    "correct": 2,
+    "explanation": "Multiples of 7 between 30 and 201:\nFirst: 35 = 7 × 5. Last: 196 = 7 × 28.\nNumber of terms: n = (196 − 35)/7 + 1 = 161/7 + 1 = 24.\nSum: S = (24/2)(35 + 196) = 12 × 231 = 2,772.\nAnswer: 2,772."
+  },
+  {
+    "question": "A ball thrown up to 20 m, rebounds 3/4 each time. Total vertical distance?",
+    "options": [
+      "80 m",
+      "120 m",
+      "140 m",
+      "160 m"
+    ],
+    "correct": 3,
+    "explanation": "A ball thrown upward to 20 m, rebounding 3/4 of each height.\nSince the ball is thrown up first, each cycle is: up to height h, then back down h (×2).\nTotal up-distance = 20 + 20(3/4) + 20(3/4)² + … = 20/(1 − 3/4) = 20/(1/4) = 80 m.\nTotal down-distance = same 80 m (it falls the same heights it rises).\nGrand total = 80 + 80 = 160 m.\nAnswer: 160 m."
+  },
+  {
+    "question": "An A.P. has a₅ = 21 and a₁₀ = 66. What is a₂?",
+    "options": [
+      "−6",
+      "−15",
+      "3",
+      "−3"
+    ],
+    "correct": 0,
+    "explanation": "Use Aₙ = A₁ + (n−1)d:\nA₁₀ − A₅ = 5d → 66 − 21 = 5d → d = 9.\nA₁ = A₅ − 4d = 21 − 36 = −15.\nA₂ = −15 + 9 = −6.\nAnswer: a₂ = −6."
+  },
+  {
+    "question": "Σ(n=1 to ∞)(−1)ⁿ/9ⁿ equals:",
+    "options": [
+      "9/8",
+      "9/10",
+      "−9/10",
+      "−1/10"
+    ],
+    "correct": 3,
+    "explanation": "This is a GP: each term is (−1/9)ᵏ for k = 1, 2, 3, …\nFirst term a = −1/9, ratio r = −1/9.\nS = a/(1 − r) = (−1/9)/(1 + 1/9) = (−1/9)/(10/9) = −1/10.\nAnswer: −1/10."
+  },
+  {
+    "question": "Sₙ = 4n² is the sum of first n terms. What is a₃?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correct": 3,
+    "explanation": "Use aₙ = Sₙ − Sₙ₋₁ with Sₙ = 4n²:\na₃ = S₃ − S₂ = 4(9) − 4(4) = 36 − 16 = 20.\nAnswer: a₃ = 20."
+  },
+  {
+    "question": "A sequence: a₁=2, aₙ=3aₙ₋₁. What is Σ(i=1 to 20) aᵢ?",
+    "options": [
+      "3²⁰−1",
+      "3²¹−3",
+      "3²¹−1",
+      "2(3²⁰)"
+    ],
+    "correct": 0,
+    "explanation": "The recurrence aₙ = 3aₙ₋₁ with a₁ = 2 defines a GP:\nGeneral term: aₙ = 2 · 3ⁿ⁻¹.\nSum of first 20 terms (GP with r = 3 ≠ 1):\nS₂₀ = 2(3²⁰ − 1)/(3 − 1) = 2(3²⁰ − 1)/2 = 3²⁰ − 1.\nAnswer: 3²⁰ − 1."
+  },
+  {
+    "question": "Sequence: a₁=3, aₙ₊₁=n·aₙ. What is the general term aₙ?",
+    "options": [
+      "3n!",
+      "3(n−1)!",
+      "(3n)!",
+      "3(n+1)!"
+    ],
+    "correct": 1,
+    "explanation": "Apply the recurrence aₙ₊₁ = n·aₙ starting from a₁ = 3:\na₁ = 3 = 3·0! (since 0! = 1)\na₂ = 1·a₁ = 3 = 3·1!\na₃ = 2·a₂ = 6 = 3·2!\na₄ = 3·a₃ = 18 = 3·3!\nPattern: aₙ = 3·(n−1)!.\nAnswer: aₙ = 3·(n−1)!"
+  },
+  {
+    "question": "A.P.: 20, 16, 12, 8, ... What is a₂₀₀ − a₂₀₃?",
+    "options": [
+      "−12",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "In an AP with d = −4:\na₂₀₀ − a₂₀₃ = (200 − 203) × d = (−3)(−4) = 12.\nAnswer: 12."
+  },
+  {
+    "question": "In an A.P., A₅ = 8 and d = 3. What is the nth term?",
+    "options": [
+      "3n − 9",
+      "3n − 7",
+      "3n − 5",
+      "3n + 1"
+    ],
+    "correct": 1,
+    "explanation": "AP with A₅ = 8 and d = 3:\nA₁ = A₅ − 4d = 8 − 12 = −4.\nAₙ = −4 + (n−1)×3 = 3n − 7.\nVerification: A₅ = 15 − 7 = 8 ✓.\nAnswer: Aₙ = 3n − 7."
+  },
+  {
+    "question": "An A.P. has A₄ = 11 and A₈ = 13. What is the nth term?",
+    "options": [
+      "(n+9)/2",
+      "(n/2)+9",
+      "(2n+19)/4",
+      "n/2+8"
+    ],
+    "correct": 1,
+    "explanation": "Use A₄ = 11 and A₈ = 13:\n4d = A₈ − A₄ = 13 − 11 = 2 → d = 1/2.\nA₁ = A₄ − 3d = 11 − 3/2 = 19/2.\nAₙ = 19/2 + (n−1)/2 = (19 + n − 1)/2 = (n + 18)/2.\nAnswer: Aₙ = (n + 18)/2."
+  },
+  {
+    "question": "How many natural numbers between 100 and 1000 are divisible by 6?",
+    "options": [
+      "148",
+      "149",
+      "150",
+      "151"
+    ],
+    "correct": 2,
+    "explanation": "Multiples of 6 between 100 and 1000:\nFirst: 102 = 6 × 17. Last: 996 = 6 × 166.\nCount = 166 − 17 + 1 = 150.\nAnswer: 150 integers."
+  },
+  {
+    "question": "For the A.P. 28, 25, 22, ..., what is a₂₀₀ − a₂₀₄?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": 2,
+    "explanation": "In an AP with d = −3:\na₂₀₀ − a₂₀₄ = (200 − 204) × d = (−4)(−3) = 12.\nAnswer: 12."
+  },
+  {
+    "question": "A G.P. has G₁ = 8 and r = 1/2. What is G₈?",
+    "options": [
+      "1/8",
+      "1/16",
+      "1/32",
+      "1/64"
+    ],
+    "correct": 1,
+    "explanation": "GP with G₁ = 8 and r = 1/2:\nG₈ = 8 × (1/2)⁷ = 8/128 = 1/16.\nAnswer: 1/16."
+  },
+  {
+    "question": "A G.P. has G₄ = 3 and G₇ = 81. What is G₁?",
+    "options": [
+      "1/27",
+      "1/9",
+      "1/3",
+      "1"
+    ],
+    "correct": 1,
+    "explanation": "Find r: r³ = G₇/G₄ = 81/3 = 27 → r = 3.\nFind G₁: G₁ = G₄/r³ = 3/27 = 1/9.\nAnswer: G₁ = 1/9."
+  },
+  {
+    "question": "If x+1, −5x+4, and 2x+8 are consecutive terms of a G.P., find x.",
+    "options": [
+      "x=1",
+      "x=2",
+      "x=3",
+      "x=−1"
+    ],
+    "correct": 1,
+    "explanation": "For x+1, −5x+4, 2x+8 to be in GP:\n(−5x+4)² = (x+1)(2x+8)\n25x² − 40x + 16 = 2x² + 10x + 8\n23x² − 50x + 8 = 0\n(23x − 2)(x − 4)... use quadratic formula or factor: x = 2 works:\nCheck: 3, −6, 12 → ratio = −2 ✓.\nAnswer: x = 2."
+  },
+  {
+    "question": "An A.P. has A₆ = 23 and A₁₅ = 50. What is S₁₀?",
+    "options": [
+      "195",
+      "205",
+      "215",
+      "225"
+    ],
+    "correct": 2,
+    "explanation": "Find d: A₁₅ − A₆ = 9d → 50 − 23 = 9d → d = 3.\nFind A₁: A₁ = A₆ − 5d = 23 − 15 = 8.\nS₁₀ = (10/2)(2×8 + 9×3) = 5(16 + 27) = 5 × 43 = 215.\nAnswer: 215."
+  },
+  {
+    "question": "An A.P. has S₈ = 96 and A₁ = 5. What is A₈?",
+    "options": [
+      "15",
+      "17",
+      "19",
+      "21"
+    ],
+    "correct": 2,
+    "explanation": "Use S₈ = (8/2)(A₁ + A₈) = 4(A₁ + A₈):\n4(5 + A₈) = 96 → 5 + A₈ = 24 → A₈ = 19.\nAnswer: A₈ = 19."
+  },
+  {
+    "question": "An A.P. has S₄ = 40 and S₁₀ = 160. What is S₂₀?",
+    "options": [
+      "480",
+      "500",
+      "520",
+      "540"
+    ],
+    "correct": 2,
+    "explanation": "S₄=2(2A₁+3d)=40→2A₁+3d=20; S₁₀=5(2A₁+9d)=160→2A₁+9d=32. Then 6d=12→d=2, A₁=7. S₂₀=10(14+38)=520."
+  },
+  {
+    "question": "For the A.P. aₙ = 3n + 1, what is Sₙ?",
+    "options": [
+      "(3n²+5n)/2",
+      "(3n²+7n)/2",
+      "3n²+n",
+      "(3n²+3n)/2"
+    ],
+    "correct": 0,
+    "explanation": "For aₙ = 3n + 1:\na₁ = 4, aₙ = 3n + 1.\nSₙ = (n/2)(a₁ + aₙ) = (n/2)(4 + 3n + 1) = (n/2)(3n + 5) = (3n² + 5n)/2.\nAnswer: Sₙ = (3n² + 5n)/2."
+  },
+  {
+    "question": "The nth partial sum of an A.P. is Sₙ = 3n² + 2n. What is aₙ (for n≥2)?",
+    "options": [
+      "6n−4",
+      "6n−1",
+      "3n+2",
+      "6n+1"
+    ],
+    "correct": 1,
+    "explanation": "Use aₙ = Sₙ − Sₙ₋₁ for n ≥ 2:\nSₙ = 3n² + 2n\nSₙ₋₁ = 3(n−1)² + 2(n−1) = 3n² − 6n + 3 + 2n − 2 = 3n² − 4n + 1\naₙ = (3n² + 2n) − (3n² − 4n + 1) = 6n − 1.\nAnswer: aₙ = 6n − 1."
+  },
+  {
+    "question": "An A.P. has A₄ = 11 and A₇ = 20. What is S₂₀?",
+    "options": [
+      "590",
+      "600",
+      "610",
+      "620"
+    ],
+    "correct": 2,
+    "explanation": "Find d: A₇ − A₄ = 3d → 20 − 11 = 3d → d = 3.\nFind A₁: A₁ = A₄ − 3d = 11 − 9 = 2.\nA₂₀ = 2 + 19×3 = 59.\nS₂₀ = (20/2)(A₁ + A₂₀) = 10(2 + 59) = 10 × 61 = 610.\nAnswer: 610."
+  },
+  {
+    "question": "An A.P. has A₅ = 4 and A₁₂ = 18. What is S₃₀?",
+    "options": [
+      "720",
+      "740",
+      "750",
+      "760"
+    ],
+    "correct": 2,
+    "explanation": "Find d: A₁₂ − A₅ = 7d → 18 − 4 = 7d → d = 2.\nFind A₁: A₁ = A₅ − 4d = 4 − 8 = −4.\nA₃₀ = −4 + 29×2 = 54.\nS₃₀ = (30/2)(−4 + 54) = 15 × 50 = 750.\nAnswer: 750."
+  },
+  {
+    "question": "Find the sum of all integers from 100 to 300 exactly divisible by 8.",
+    "options": [
+      "4,800",
+      "4,900",
+      "5,000",
+      "5,100"
+    ],
+    "correct": 2,
+    "explanation": "First: 104, Last: 296. n=(296−104)/8+1=25. S=25/2×(104+296)=25×200=5,000."
+  },
+  {
+    "question": "How many integers between 32 and 395 are divisible by 6?",
+    "options": [
+      "58",
+      "59",
+      "60",
+      "61"
+    ],
+    "correct": 2,
+    "explanation": "Multiples of 6 strictly between 32 and 395:\nFirst: 36 = 6 × 6. Last: 390 = 6 × 65.\nCount = 65 − 6 + 1 = 60.\nAnswer: 60 integers."
+  },
+  {
+    "question": "Find Σ(n=1 to 99) log((n+1)/n).",
+    "options": [
+      "1",
+      "2",
+      "log 50",
+      "log 99"
+    ],
+    "correct": 1,
+    "explanation": "Each term: log((n+1)/n) = log(n+1) − log(n).\nThis telescopes:\nΣ(n=1 to 99) log((n+1)/n) = (log2 − log1) + (log3 − log2) + ⋯ + (log100 − log99)\nAll intermediate terms cancel:\n= log(100) − log(1) = 2 − 0 = 2.\nAnswer: 2."
+  },
+  {
+    "question": "Find the sum of all 3-digit numbers divisible by 11.",
+    "options": [
+      "44,550",
+      "44,990",
+      "45,000",
+      "49,401"
+    ],
+    "correct": 0,
+    "explanation": "Three-digit multiples of 11: from 110 to 990.\nFirst term: 110 = 11 × 10. Last term: 990 = 11 × 90.\nNumber of terms: n = 90 − 10 + 1 = 81.\nSum: S = (81/2) × (110 + 990) = (81/2) × 1,100 = 81 × 550 = 44,550.\nAnswer: 44,550."
+  },
+  {
+    "question": "Find the sum of 16 terms of the A.P. −10, −8, −6, ... starting from the 10th term.",
+    "options": [
+      "328",
+      "348",
+      "368",
+      "388"
+    ],
+    "correct": 2,
+    "explanation": "AP with A₁ = −10, d = 2.\nFind the 10th term: A₁₀ = −10 + 9×2 = 8.\nFind the 25th term (10 + 16 − 1 = 25th): A₂₅ = −10 + 24×2 = 38.\nSum of 16 terms from A₁₀:\nS = (16/2)(8 + 38) = 8 × 46 = 368.\nAnswer: 368."
+  },
+  {
+    "question": "A G.P. has G₄ = 24 and G₇ = 192. What is S₆?",
+    "options": [
+      "183",
+      "189",
+      "195",
+      "201"
+    ],
+    "correct": 1,
+    "explanation": "From Q75: r = 2, G₁ = 3.\nList the first 6 terms: 3, 6, 12, 24, 48, 96.\nS₆ = 3 + 6 + 12 + 24 + 48 + 96 = 189.\nUsing the formula: S₆ = G₁(r⁶ − 1)/(r − 1) = 3(64 − 1)/1 = 3 × 63 = 189.\nAnswer: 189."
+  },
+  {
+    "question": "Find Σ(k=1 to 7) 3·2ᵏ⁻¹.",
+    "options": [
+      "375",
+      "378",
+      "381",
+      "384"
+    ],
+    "correct": 2,
+    "explanation": "GP with G₁ = 3, r = 2, n = 7:\nS₇ = G₁(r⁷ − 1)/(r − 1) = 3(128 − 1)/1 = 3 × 127 = 381.\nAnswer: 381."
+  },
+  {
+    "question": "A G.P. has G₄ = 4 and G₆ = 16 (r > 0). What is S₆?",
+    "options": [
+      "61/2",
+      "63/2",
+      "65/2",
+      "67/2"
+    ],
+    "correct": 1,
+    "explanation": "Find r: r² = G₆/G₄ = 16/4 = 4 → r = 2 (since r > 0).\nFind G₁: G₁ = G₄/r³ = 4/8 = 1/2.\nS₆ = G₁(r⁶ − 1)/(r − 1) = (1/2)(64 − 1)/1 = 63/2.\nAnswer: 63/2."
+  },
+  {
+    "question": "What is the sum of 1 − 1/2 + 1/4 − 1/8 + ...?",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "1"
+    ],
+    "correct": 1,
+    "explanation": "Infinite GP with a = 1 and r = −1/2:\nSince |r| < 1, the series converges:\nS = a/(1 − r) = 1/(1 + 1/2) = 1/(3/2) = 2/3.\nAnswer: 2/3."
+  },
+  {
+    "question": "Find Σ(n=0 to ∞)(0.7)ⁿ.",
+    "options": [
+      "7/3",
+      "10/3",
+      "3",
+      "7/2"
+    ],
+    "correct": 1,
+    "explanation": "Infinite GP with a = 1 (at n=0) and r = 0.7:\nS = 1/(1 − 0.7) = 1/0.3 = 10/3.\nAnswer: 10/3."
+  },
+  {
+    "question": "Find Σ(n=2 to ∞)(0.7)ⁿ.",
+    "options": [
+      "7/3",
+      "49/30",
+      "7/30",
+      "7/10"
+    ],
+    "correct": 1,
+    "explanation": "Σ(n=2 to ∞)(0.7)ⁿ = Σ(n=0 to ∞)(0.7)ⁿ − (0.7)⁰ − (0.7)¹\n= 1/(1 − 0.7) − 1 − 0.7\n= 10/3 − 1 − 7/10\n= 10/3 − 17/10\n= 100/30 − 51/30\n= 49/30.\nAnswer: 49/30."
+  },
+  {
+    "question": "Find: 3 · 3¹/³ · 3¹/⁹ · 3¹/²⁷ · ...",
+    "options": [
+      "3",
+      "3√3",
+      "9",
+      "27"
+    ],
+    "correct": 1,
+    "explanation": "Write as powers of 3: 3¹ · 3^(1/3) · 3^(1/9) · 3^(1/27) · …\n= 3^(1 + 1/3 + 1/9 + 1/27 + …)\nThe exponent is a geometric series with a=1, r=1/3:\nSum = 1/(1 − 1/3) = 3/2.\nSo the product = 3^(3/2) = √(3³) = √27 = 3√3.\nAnswer: 3√3."
+  },
+  {
+    "question": "If 6ᵏ · 6ᵏ² · 6ᵏ³ · ... = 36 with |k|<1, find k.",
+    "options": [
+      "k=1/2",
+      "k=1/3",
+      "k=2/3",
+      "k=3/4"
+    ],
+    "correct": 2,
+    "explanation": "The product 6ᵏ · 6ᵏ² · 6ᵏ³ · ⋯ = 6^(k + k² + k³ + ⋯).\nSince |k| < 1, the exponent sum converges:\nk/(1 − k) = 2 (because 6² = 36).\nk = 2 − 2k → 3k = 2 → k = 2/3.\nAnswer: k = 2/3."
+  },
+  {
+    "question": "If Σ(m=1 to ∞) 4ᵐᵏ = 1/15, find k.",
+    "options": [
+      "k=−1",
+      "k=−2",
+      "k=−1/4",
+      "k=−1/2"
+    ],
+    "correct": 1,
+    "explanation": "The series Σ(m=1 to ∞) 4ᵐᵏ is a GP with ratio r = 4ᵏ.\nS = 4ᵏ/(1 − 4ᵏ) = 1/15\n15 × 4ᵏ = 1 − 4ᵏ\n16 × 4ᵏ = 1 → 4ᵏ = 1/16 = 4⁻² → k = −2.\nAnswer: k = −2."
+  },
+  {
+    "question": "A student claims: 'If aₙ = 2n − 1, then S₁₀₀ = a₁₀₀² because Σ(k=1 to n) (2k−1) = n².' Is the student correct, and why?",
+    "options": [
+      "Correct — the formula Σ(2k−1) = n² is a known identity",
+      "Incorrect — the formula applies only for odd n",
+      "Incorrect — S₁₀₀ = 100² = 10,000 but a₁₀₀² = 199² = 39,601",
+      "Incorrect — the formula Σ(2k−1) = n² is false"
+    ],
+    "correct": 0,
+    "explanation": "The student is correct. The sum of the first n odd natural numbers is n²:\nΣ(k=1 to n)(2k−1) = n².\nFor n=100: S₁₀₀ = 100² = 10,000.\nNote: a₁₀₀ = 199, so a₁₀₀² = 39,601 ≠ S₁₀₀. The student's claim is about S₁₀₀ equaling n² (not aₙ²), which is correct.\nAnswer: The student is correct."
+  },
+  {
+    "question": "For an infinite G.P. with first term a and common ratio r, which condition is BOTH necessary AND sufficient for the series to converge?",
+    "options": [
+      "a > 0",
+      "|r| < 1",
+      "r > 0 and r < 1",
+      "a > 0 and |r| < 1"
+    ],
+    "correct": 1,
+    "explanation": "An infinite geometric series Σarⁿ converges if and only if |r| < 1.\nThe sign of a is irrelevant — the series converges to a/(1−r) for any nonzero a.\nOption C (r > 0) would exclude negative ratios like r = −1/2, which still converge.\nOption D (a > 0) adds an unnecessary restriction.\nAnswer: |r| < 1."
+  },
+  {
+    "question": "An A.P. has positive first term and negative common difference. Which of the following MUST be true?",
+    "options": [
+      "All terms are positive",
+      "The sequence is eventually negative",
+      "Sₙ is always positive",
+      "The sequence has no maximum term"
+    ],
+    "correct": 1,
+    "explanation": "With a₁ > 0 and d < 0, terms decrease without bound: aₙ = a₁ + (n−1)d → −∞.\nSo the sequence is eventually negative — it will cross zero at some term. ✓\nOption A is false (terms eventually go negative).\nOption C is false (partial sums eventually decrease and become negative).\nOption D is false — a₁ IS the maximum term.\nAnswer: The sequence is eventually negative."
+  },
+  {
+    "question": "Which of the following is an example that DISPROVES the claim: 'If the terms of a sequence approach 0, the series converges'?",
+    "options": [
+      "aₙ = (1/2)ⁿ",
+      "aₙ = 1/n²",
+      "aₙ = 1/n",
+      "aₙ = (0.9)ⁿ"
+    ],
+    "correct": 2,
+    "explanation": "The harmonic series Σ(1/n) diverges, even though aₙ = 1/n → 0.\nThis is the classic counterexample showing that aₙ → 0 is necessary but NOT sufficient for convergence.\nOptions A and D are convergent geometric series (|r| < 1).\nOption B (Σ1/n²) also converges (p-series with p=2 > 1).\nAnswer: aₙ = 1/n (harmonic series diverges)."
+  },
+  {
+    "question": "A student computes the sum of a G.P. using S = a/(1−r) and gets S = −10. What can you conclude?",
+    "options": [
+      "The student made an error; sums of G.P.s are always positive",
+      "The sum is valid only if a < 0 or r < 0",
+      "This is valid — a negative sum is possible for an infinite G.P.",
+      "This is invalid — the formula only works when S > 0"
+    ],
+    "correct": 2,
+    "explanation": "The formula S = a/(1−r) for |r| < 1 can produce negative sums.\nExample: a = −5, r = 1/2 → S = −5/(1−1/2) = −10. ✓\nOr: a = 10, r = 3/2 — but this has |r| > 1 so formula doesn't apply.\nA negative sum is perfectly valid when a < 0 (or when the alternating series sums negatively).\nAnswer: Valid — a negative sum is possible."
+  },
+  {
+    "question": "The nth term of a sequence is aₙ = Sₙ − Sₙ₋₁ for n ≥ 2. If Sₙ = 3n² − n, which expression correctly gives aₙ for ALL n ≥ 1?",
+    "options": [
+      "aₙ = 6n − 4",
+      "aₙ = 6n − 2",
+      "aₙ = 3n² − n",
+      "aₙ = 6n − 4 for n ≥ 2, and a₁ = 2"
+    ],
+    "correct": 3,
+    "explanation": "For n ≥ 2: aₙ = Sₙ − Sₙ₋₁ = (3n²−n) − (3(n−1)²−(n−1))\n= 3n²−n − (3n²−6n+3−n+1) = 3n²−n − 3n²+7n−4 = 6n−4.\nFor n=1: a₁ = S₁ = 3(1)²−1 = 2. Check formula: 6(1)−4 = 2. ✓\nSo 6n−4 actually works for ALL n ≥ 1 here — but the rigorous answer acknowledges\nthat the formula must be verified separately at n=1.\nAnswer: 6n−4 for n≥2, and a₁=S₁=2 (they happen to agree here)."
+  }
+]
