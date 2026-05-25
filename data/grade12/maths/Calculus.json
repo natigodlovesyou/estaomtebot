@@ -1,0 +1,1685 @@
+[
+  {
+    "question": "For f(x) = x² + 5x, the average rate of change over [a, b] simplifies to:",
+    "options": [
+      "a + b",
+      "5(a + b)",
+      "a + b + 5",
+      "2a + 5"
+    ],
+    "correct": 2,
+    "explanation": "Average rate = [f(b)-f(a)]/(b-a) = [(b²+5b)-(a²+5a)]/(b-a) = (b²-a²)/(b-a) + 5 = (a+b) + 5."
+  },
+  {
+    "question": "For f(x) = x³ - 3x, the slope of the secant line through (-1, f(-1)) and (2, f(2)) is:",
+    "options": [
+      "2",
+      "0",
+      "3",
+      "-3"
+    ],
+    "correct": 1,
+    "explanation": "f(-1) = -1+3 = 2, f(2) = 8-6 = 2. Slope = (2-2)/(2-(-1)) = 0/3 = 0."
+  },
+  {
+    "question": "The instantaneous rate of change of f(x) = x² + 4x at x = 3 is:",
+    "options": [
+      "21",
+      "6",
+      "13",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "f'(x) = 2x + 4 by limit definition. At x = 3: f'(3) = 2(3) + 4 = 10."
+  },
+  {
+    "question": "A ball's height is h(t) = -16t² + 40 (meters). Its instantaneous velocity at t = 1 s is:",
+    "options": [
+      "-32 m/s",
+      "32 m/s",
+      "-48 m/s",
+      "-16 m/s"
+    ],
+    "correct": 0,
+    "explanation": "v(t) = lim[h(t)-h(1)]/(t-1) = lim(-16)(t²-1)/(t-1) = -16(t+1). At t→1: -16(2) = -32 m/s."
+  },
+  {
+    "question": "For f(x) = 6x² - 4x + 1, the instantaneous rate of change at x = 1 is:",
+    "options": [
+      "3",
+      "8",
+      "12",
+      "26"
+    ],
+    "correct": 1,
+    "explanation": "Factor [f(x)-f(1)]/(x-1) = (6x²-4x-2)/(x-1) = (6x+2)(x-1)/(x-1) = 6x+2. At x=1: 8."
+  },
+  {
+    "question": "For f(x) = x² + 3x, the slope of the secant through P(-1, f(-1)) and Q(2, f(2)) equals:",
+    "options": [
+      "5",
+      "7",
+      "12",
+      "4"
+    ],
+    "correct": 3,
+    "explanation": "f(-1) = 1-3 = -2, f(2) = 4+6 = 10. Slope = (10-(-2))/(2-(-1)) = 12/3 = 4."
+  },
+  {
+    "question": "The instantaneous rate of change line to f(x) = √x at x₀ = 9 is:",
+    "options": [
+      "3",
+      "1/18",
+      "1/6",
+      "1/3"
+    ],
+    "correct": 2,
+    "explanation": "f'(x₀) = 1/(2√x₀) by limit definition. At x₀=9: f'(9) = 1/(2·3) = 1/6."
+  },
+  {
+    "question": "The instantaneous rate of change to f(x) = 1/(x-1) at x = 2 is:",
+    "options": [
+      "-1",
+      "1",
+      "1/2",
+      "-1/4"
+    ],
+    "correct": 0,
+    "explanation": "[f(2+h)-f(2)]/h = [1/(h+1)-1]/h = -h/[h(h+1)] → -1 as h→0."
+  },
+  {
+    "question": "The curve f(x) = 1/x has slope -4 at x =",
+    "options": [
+      "±1/4",
+      "±1/2",
+      "±2",
+      "±1/√2"
+    ],
+    "correct": 1,
+    "explanation": "f'(a) = -1/a². Set -1/a² = -4 → a² = 1/4 → a = ±1/2."
+  },
+  {
+    "question": "For f(x) = 4x - x², the average rate of change over [3, 5] and instantaneous rate at x = 3 are, respectively:",
+    "options": [
+      "-2 and -4",
+      "-4 and -4",
+      "-4 and -2",
+      "-2 and -2"
+    ],
+    "correct": 2,
+    "explanation": "Avg = [f(5)-f(3)]/(5-3) = (-5-3)/2 = -4. Instantaneous: f(x)-f(3)/(x-3) = -(x-1) → at x=3: -2."
+  },
+  {
+    "question": "The gradient of the tangent to f(x) = x³ at the point (a, f(a)) is:",
+    "options": [
+      "a²",
+      "3a",
+      "a³",
+      "3a²"
+    ],
+    "correct": 3,
+    "explanation": "[f(x)-f(a)]/(x-a) = (x³-a³)/(x-a) = x²+ax+a² → 3a² as x→a."
+  },
+  {
+    "question": "The derivative of f(x) = x² - 6x at x = 1 is:",
+    "options": [
+      "-4",
+      "4",
+      "-6",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "f'(1) = lim(x→1) (x²-6x+5)/(x-1) = (x-1)(x-5)/(x-1) = x-5 → 1-5 = -4."
+  },
+  {
+    "question": "The derivative of f(x) = x³ + 4x at x = -1 is:",
+    "options": [
+      "-7",
+      "1",
+      "7",
+      "3"
+    ],
+    "correct": 2,
+    "explanation": "Factor: (x³+4x+5)/(x+1) = (x+1)(x²-x+5)/(x+1) = x²-x+5. At x=-1: 1+1+5 = 7."
+  },
+  {
+    "question": "If f(x) = √(4x + 1), then f'(2) equals:",
+    "options": [
+      "4/3",
+      "2/3",
+      "2/9",
+      "1/3"
+    ],
+    "correct": 1,
+    "explanation": "f'(a) = 2/√(4a+1) by rationalizing the difference quotient. f'(2) = 2/√9 = 2/3."
+  },
+  {
+    "question": "The instantaneous rate of change to f(x) = x³ + 2x + 1 at x = 2 is:",
+    "options": [
+      "17",
+      "12",
+      "6",
+      "14"
+    ],
+    "correct": 3,
+    "explanation": "(x³+2x-12)/(x-2) = (x-2)(x²+2x+6)/(x-2) → x²+2x+6. At x=2: 4+4+6 = 14."
+  },
+  {
+    "question": "For f(x) = √(x - 3), the derivative f'(x) exists for:",
+    "options": [
+      "x > 3",
+      "all real x",
+      "x ≠ 3",
+      "x ≥ 3"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = 1/(2√(x-3)) is undefined at x = 3 (vertical tangent) and requires x > 3."
+  },
+  {
+    "question": "The curve y = 2/x² has slope equal to -8 at x =",
+    "options": [
+      "1/∛2",
+      "∛2",
+      "2",
+      "1/2"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = -4/x³. Set -4/a³ = -8 → a³ = 1/2 → a = 1/∛2."
+  },
+  {
+    "question": "Which expression correctly defines f'(a)?",
+    "options": [
+      "[f(a+h) - f(a)] / h for any small h",
+      "lim(h→0) [f(h) - f(a)] / h",
+      "lim(x→a) [f(x) - f(a)] / (x - h)",
+      "lim(h→0) [f(a+h) - f(a)] / h"
+    ],
+    "correct": 3,
+    "explanation": "The derivative at a point is the limit of the difference quotient as h→0, not evaluated at a fixed h."
+  },
+  {
+    "question": "The limit lim(h→0) [√(9+h) - 3] / h is the derivative of:",
+    "options": [
+      "f(x) = √(9+h) at h = 0",
+      "f(x) = √x at x = 9",
+      "f(x) = √x at x = 3",
+      "f(x) = √(9+x) at x = 3"
+    ],
+    "correct": 1,
+    "explanation": "f'(9) = lim[f(9+h)-f(9)]/h = lim[√(9+h)-3]/h. So f(x) = √x evaluated at x = 9."
+  },
+  {
+    "question": "If f(x) = 2/x³, then f'(x) equals:",
+    "options": [
+      "6/x⁴",
+      "-3/x⁴",
+      "-6/x⁴",
+      "-6x⁴"
+    ],
+    "correct": 2,
+    "explanation": "f(x) = 2x⁻³. f'(x) = 2(-3)x⁻⁴ = -6x⁻⁴ = -6/x⁴."
+  },
+  {
+    "question": "If f(x) = x³ + 1/x⁷, then f'(x) equals:",
+    "options": [
+      "3x⁴ + 7x⁶",
+      "-3/x⁴ - 7/x⁸",
+      "3x² - 7/x⁸",
+      "3x² + 7/x⁸"
+    ],
+    "correct": 2,
+    "explanation": "f(x) = x³ + x⁻⁷. f'(x) = 3x² + (-7)x⁻⁸ = 3x² - 7/x⁸."
+  },
+  {
+    "question": "If f(x) = √x + 1/x, then f'(x) equals:",
+    "options": [
+      "1/(2√x) + 1/x²",
+      "1/√x - 1/x²",
+      "2√x - 1/x²",
+      "1/(2√x) - 1/x²"
+    ],
+    "correct": 3,
+    "explanation": "f(x) = x^(1/2) + x⁻¹. f'(x) = (1/2)x^(-1/2) - x⁻² = 1/(2√x) - 1/x²."
+  },
+  {
+    "question": "If f(x) = 1/(2∛x²), then f'(x) equals:",
+    "options": [
+      "-1/(3x^(5/3))",
+      "-2/(3x^(5/3))",
+      "1/(3x^(5/3))",
+      "-1/(3x^(2/3))"
+    ],
+    "correct": 0,
+    "explanation": "f(x) = (1/2)x^(-2/3). f'(x) = (1/2)(-2/3)x^(-5/3) = -1/(3x^(5/3))."
+  },
+  {
+    "question": "The instantaneous rate of change to f(x) = x³ + 1 at the point (2, 9) is:",
+    "options": [
+      "6",
+      "12",
+      "3",
+      "9"
+    ],
+    "correct": 1,
+    "explanation": "f'(x) = 3x². f'(2) = 3(4) = 12."
+  },
+  {
+    "question": "If f'(1) = 3 and g'(1) = 5, then (3f - 2g)'(1) equals:",
+    "options": [
+      "-1",
+      "9",
+      "19",
+      "1"
+    ],
+    "correct": 0,
+    "explanation": "(3f-2g)'(1) = 3f'(1) - 2g'(1) = 3(3) - 2(5) = 9 - 10 = -1."
+  },
+  {
+    "question": "If f(x) = x³, then lim(h→0) [f(2+h) - f(2)] / h equals:",
+    "options": [
+      "-4",
+      "4",
+      "8",
+      "12"
+    ],
+    "correct": 3,
+    "explanation": "This is f'(2) by definition. f'(x) = 3x², so f'(2) = 3(4) = 12."
+  },
+  {
+    "question": "For f(x) = 4x - x³, the values of a where f'(a) = -8 are:",
+    "options": [
+      "a = ±√8",
+      "a = 2 only",
+      "a = ±2",
+      "a = ±4"
+    ],
+    "correct": 2,
+    "explanation": "f'(x) = 4 - 3x². Set 4 - 3a² = -8 → 3a² = 12 → a² = 4 → a = ±2."
+  },
+  {
+    "question": "For f(x) = x^(2/3), the derivative f'(x) fails to exist at:",
+    "options": [
+      "x = 1",
+      "x = 0",
+      "no such point",
+      "x = -1"
+    ],
+    "correct": 1,
+    "explanation": "f'(x) = (2/3)x^(-1/3) = 2/(3∛x), which is undefined at x = 0 (vertical tangent)."
+  },
+  {
+    "question": "If f(x)=√(4x-3), g(x)=x²+6, h(x)=f(x)·g(x), then h'(3) equals:",
+    "options": [
+      "18",
+      "28",
+      "10",
+      "30"
+    ],
+    "correct": 1,
+    "explanation": "h'=f'g+fg'. f'(3)=2/√9=2/3, g(3)=15, f(3)=3, g'(3)=6. h'(3)=(2/3)(15)+3(6)=10+18=28."
+  },
+  {
+    "question": "Given f(-3)=-2, f'(-3)=4, g(-3)=6, g'(-3)=7. If h(x)=f(x)·g(x), then h'(-3) equals:",
+    "options": [
+      "24",
+      "-14",
+      "38",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "h'(x)=f'(x)g(x)+f(x)g'(x). h'(-3)=(4)(6)+(-2)(7)=24-14=10."
+  },
+  {
+    "question": "For h(x) = (2x+1)/(3x-5), the derivative h'(x) equals:",
+    "options": [
+      "-13/(3x-5)²",
+      "13/(3x-5)²",
+      "-13/(3x+5)²",
+      "(2·3x-15)/(3x-5)²"
+    ],
+    "correct": 0,
+    "explanation": "Quotient rule: [(3x-5)(2)-(2x+1)(3)]/(3x-5)² = [6x-10-6x-3]/(3x-5)² = -13/(3x-5)²."
+  },
+  {
+    "question": "For h(x) = 4x/(x-2), the tangent line has slope -2 at x =",
+    "options": [
+      "0 only",
+      "2 only",
+      "0 and 4",
+      "±2"
+    ],
+    "correct": 2,
+    "explanation": "h'(x) = -8/(x-2)². Set -8/(x-2)² = -2 → (x-2)² = 4 → x = 4 or x = 0."
+  },
+  {
+    "question": "Given f(0)=4, f'(0)=-3, g(0)=2, g'(0)=5. If h(x) = f(x)/g(x), then h'(0) equals:",
+    "options": [
+      "-49",
+      "13/8",
+      "-13/2",
+      "14"
+    ],
+    "correct": 2,
+    "explanation": "h'(0) = [g(0)f'(0)-f(0)g'(0)]/[g(0)]² = [2(-3)-4(5)]/4 = (-6-20)/4 = -26/4 = -13/2."
+  },
+  {
+    "question": "Given f(4)=8, f'(4)=-6. If g(x)=f(x)/x, then g'(4) equals:",
+    "options": [
+      "-8",
+      "-10",
+      "2",
+      "-2"
+    ],
+    "correct": 3,
+    "explanation": "g'(x)=[xf'(x)-f(x)]/x². g'(4)=[4(-6)-8]/16=(-24-8)/16=-32/16=-2."
+  },
+  {
+    "question": "Given g(8)=-2, g'(8)=-1, f(8)=-1, f'(8)=1. If F(x)=(3x-1)/g(x), then F'(8) equals:",
+    "options": [
+      "17/4",
+      "23/12",
+      "-17/4",
+      "7/4"
+    ],
+    "correct": 0,
+    "explanation": "F'(x)=[3g(x)-(3x-1)g'(x)]/[g(x)]². F'(8)=[3(-2)-(23)(-1)]/4=(-6+23)/4=17/4."
+  },
+  {
+    "question": "Let f(x) = {3x-1 for x≤2; x²+1 for x>2}. The value of f'(4) is:",
+    "options": [
+      "does not exist",
+      "8",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "For x>2, f(x)=x²+1, so f'(x)=2x. f'(4)=2(4)=8."
+  },
+  {
+    "question": "If y = (2x-1)/(3x+1), then dy/dx at x = -1 is:",
+    "options": [
+      "-1/4",
+      "-5/4",
+      "1/4",
+      "5/4"
+    ],
+    "correct": 3,
+    "explanation": "dy/dx = [(2)(3x+1)-(3)(2x-1)]/(3x+1)² = 5/(3x+1)². At x=-1: 5/(-2)²=5/4."
+  },
+  {
+    "question": "If h(3)=4 and h'(3)=-2, then d/dx[h(x)/x] at x=3 equals:",
+    "options": [
+      "-1/3",
+      "-2/9",
+      "-10/9",
+      "2/9"
+    ],
+    "correct": 2,
+    "explanation": "d/dx[h(x)/x]=[xh'(x)-h(x)]/x². At x=3: [3(-2)-4]/9=(-6-4)/9=-10/9."
+  },
+  {
+    "question": "A square has side length x. The rate of change of its area with respect to x when x = 5 cm is:",
+    "options": [
+      "10 cm",
+      "5 cm",
+      "25 cm²",
+      "2 cm"
+    ],
+    "correct": 0,
+    "explanation": "A = x². dA/dx = 2x. At x = 5: dA/dx = 10 cm (the units are cm, since area is cm² and x is cm)."
+  },
+  {
+    "question": "The rate of change of the area of a circle with respect to its radius r equals:",
+    "options": [
+      "πr²",
+      "2πr",
+      "πr",
+      "2π"
+    ],
+    "correct": 1,
+    "explanation": "A = πr², so dA/dr = 2πr."
+  },
+  {
+    "question": "The rate of change of volume of a cube V = x³ with respect to side x, at x = 2, is:",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "3"
+    ],
+    "correct": 2,
+    "explanation": "V = x³, so dV/dx = 3x². At x = 2, dV/dx = 12."
+  },
+  {
+    "question": "If F(x) = 10√(4 + x²), then F'(x) equals:",
+    "options": [
+      "5/√(4+x²)",
+      "20x/√(4+x²)",
+      "10/√(4+x²)",
+      "10x/√(4+x²)"
+    ],
+    "correct": 3,
+    "explanation": "Chain rule: F'(x) = 10·(1/2)(4+x²)^(-1/2)·2x = 10x/√(4+x²)."
+  },
+  {
+    "question": "If f(x) = (x² + 4x)², then f'(x) equals:",
+    "options": [
+      "2(x²+4x)(2x+4)",
+      "2(2x+4)",
+      "(x²+4x)(x+2)",
+      "4(x+2)(x²+4x)²"
+    ],
+    "correct": 0,
+    "explanation": "Chain rule: f'(x) = 2(x²+4x)·(2x+4). Equivalent forms: 4(x+2)(x²+4x)."
+  },
+  {
+    "question": "If y = (x³ - 1)^50, then dy/dx equals:",
+    "options": [
+      "50(x³-1)^49",
+      "150x²(x³-1)^49",
+      "50x²(x³-1)^49",
+      "150(x³-1)^50"
+    ],
+    "correct": 1,
+    "explanation": "Chain rule: dy/dx = 50(x³-1)^49 · 3x² = 150x²(x³-1)^49."
+  },
+  {
+    "question": "If y = ∛(2x + 1), then dy/dx equals:",
+    "options": [
+      "2/[3(2x+1)^(1/3)]",
+      "(1/3)(2x+1)^(-2/3)",
+      "2/[3(2x+1)^(2/3)]",
+      "1/[3(2x+1)^(2/3)]"
+    ],
+    "correct": 2,
+    "explanation": "y=(2x+1)^(1/3). dy/dx=(1/3)(2x+1)^(-2/3)·2=2/[3(2x+1)^(2/3)]."
+  },
+  {
+    "question": "If f(x) = 1/(4x - 3)², then f'(x) equals:",
+    "options": [
+      "8/(4x-3)³",
+      "-8/(4x-3)³",
+      "-2/(4x-3)³",
+      "-8/(4x-3)"
+    ],
+    "correct": 1,
+    "explanation": "f(x)=(4x-3)^(-2). f'(x)=-2(4x-3)^(-3)·4=-8/(4x-3)³."
+  },
+  {
+    "question": "The numerator of f'(x) for f(x) = ((3x+1)/(4x-5))^6 contains the factor:",
+    "options": [
+      "-19(3x+1)^6",
+      "6(4x-5)^7",
+      "6(3x+1)^5",
+      "-114(3x+1)^5"
+    ],
+    "correct": 3,
+    "explanation": "h'(x)=[-19/(4x-5)²]. f'(x)=6·((3x+1)/(4x-5))^5·(-19/(4x-5)²)=-114(3x+1)^5/(4x-5)^7."
+  },
+  {
+    "question": "If h(x) = √(1 + √x), then h'(x) equals:",
+    "options": [
+      "1/(4√x·√(1+√x))",
+      "1/(4√x+x√x)",
+      "1/(2√(1+√x))",
+      "√x/(4√(1+√x))"
+    ],
+    "correct": 0,
+    "explanation": "h'(x) = [1/(2√(1+√x))]·[1/(2√x)] = 1/(4√x√(1+√x)) = 1/(4√x+x√x) since √x√(1+√x)=√(x+x√x)."
+  },
+  {
+    "question": "If f(x) = √(9x - √x), then f'(1) equals:",
+    "options": [
+      "9/2",
+      "17√2/16",
+      "8/17",
+      "17/8"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=(9-1/(2√x))/(2√(9x-√x)). At x=1: (9-1/2)/(2√8)=(17/2)/(4√2)=17√2/16."
+  },
+  {
+    "question": "Given f(2)=1, f'(2)=7, f(8)=5, f'(8)=-3. If h(x) = f(x³), then h'(2) equals:",
+    "options": [
+      "-3",
+      "21",
+      "-36",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "h'(x)=f'(x³)·3x². h'(2)=f'(8)·3(4)=(-3)(12)=-36."
+  },
+  {
+    "question": "If f'(1)=2, g(1)=1, g'(1)=-3, then (f∘g)'(1) equals:",
+    "options": [
+      "-6",
+      "6",
+      "-3",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "(f∘g)'(1)=f'(g(1))·g'(1)=f'(1)·(-3)=2·(-3)=-6."
+  },
+  {
+    "question": "Which statement is false?",
+    "options": [
+      "f'(a) equals the slope of the tangent at (a, f(a))",
+      "f'(x) measures instantaneous rate of change",
+      "A polynomial is differentiable at every real number",
+      "If f'(x) = g'(x), then f(x) = g(x) on the interval"
+    ],
+    "correct": 3,
+    "explanation": "Equal derivatives imply the functions differ by a constant, not necessarily by zero. The other statements are standard derivative facts."
+  },
+  {
+    "question": "Using the same table: f(2)=3, f'(2)=-4, g'(3)=-2. If h(x)=g(f(x)), then h'(2) equals:",
+    "options": [
+      "-8",
+      "20",
+      "-12",
+      "8"
+    ],
+    "correct": 3,
+    "explanation": "h'(2)=g'(f(2))·f'(2)=g'(3)·(-4)=(-2)(-4)=8."
+  },
+  {
+    "question": "Let f(x)=g(√(4x+1)). If g'(3)=1/2, then f'(2) equals:",
+    "options": [
+      "2/3",
+      "√13/2",
+      "1/3",
+      "√5/2"
+    ],
+    "correct": 2,
+    "explanation": "At x=2: √(4·2+1)=3. f'(2)=g'(3)·2/√(4·2+1)=(1/2)·(2/3)=1/3."
+  },
+  {
+    "question": "For f(x) = x³ - 3x + 4, the tangent line is horizontal at x =",
+    "options": [
+      "±1",
+      "±√3",
+      "±2",
+      "0 only"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=3x²-3=0 → x²=1 → x=±1."
+  },
+  {
+    "question": "On the graph of f(x) = 2x² + 5x + 4, the point where the normal line has slope 3 is at x =",
+    "options": [
+      "-1/3",
+      "-4/3",
+      "1/3",
+      "4/3"
+    ],
+    "correct": 1,
+    "explanation": "Normal slope = -1/f'(x). f'(x)=4x+5. Set -1/(4x+5)=3 → 4x+5=-1/3 → 4x=-16/3 → x=-4/3."
+  },
+  {
+    "question": "Let f(x) = {5x²-3x, x<0 ; x²-3x, x≥0}. The value f'(-1) equals:",
+    "options": [
+      "-3",
+      "-1",
+      "7",
+      "-13"
+    ],
+    "correct": 3,
+    "explanation": "For x<0: f'(x)=10x-3. f'(-1)=10(-1)-3=-10-3=-13."
+  },
+  {
+    "question": "The equation of the tangent line to y = 3x² + 2x + 1 with slope -4 is:",
+    "options": [
+      "y = -4x + 6",
+      "y = 4x + 1",
+      "y = -4x - 2",
+      "y = 4x"
+    ],
+    "correct": 2,
+    "explanation": "f'(x)=6x+2=-4 → x=-1. f(-1)=3-2+1=2. Line: y-2=-4(x+1) → y=-4x-2."
+  },
+  {
+    "question": "For f(x) = x³ - 5x, the values of a satisfying f'(a) = 13 are:",
+    "options": [
+      "a = ±√6",
+      "a = ±6",
+      "a = ±3",
+      "a = ±√5"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=3x²-5=13 → 3a²=18 → a²=6 → a=±√6."
+  },
+  {
+    "question": "For f(x)=1/√x and g(x)=2-(1/6)x³, the values of x where f and g have equal tangent slopes satisfy:",
+    "options": [
+      "x = 4",
+      "x = 1",
+      "x = √3/2",
+      "x = 1/6"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=-1/(2x^(3/2)), g'(x)=-x²/2. Set equal: -1/(2x^(3/2))=-x²/2 → x^(3/2)=1/x² → x^(7/2)=1 → x=1."
+  },
+  {
+    "question": "If g(x)=x·f(x)-√(f(x)) and f(2)=f'(2)=4, then g'(2) equals:",
+    "options": [
+      "11",
+      "0",
+      "2",
+      "8"
+    ],
+    "correct": 0,
+    "explanation": "g'(x)=f(x)+xf'(x)-f'(x)/(2√(f(x))). g'(2)=4+8-4/(2·2)=12-1=11."
+  },
+  {
+    "question": "The tangent line to f(x)=3x/(x-1) at (2, f(2)) has equation:",
+    "options": [
+      "x - 3y = -16",
+      "y + 3x = 12",
+      "x + 3y = 20",
+      "y - 3x = 0"
+    ],
+    "correct": 1,
+    "explanation": "f(2)=6. f'(x)=-3/(x-1)². f'(2)=-3. Line: y-6=-3(x-2) → y=-3x+12 → y+3x=12."
+  },
+  {
+    "question": "The tangent line to f(x)=1/(1-√x)² at x=4 has equation:",
+    "options": [
+      "x + 2y = 6",
+      "y = x - 2",
+      "2x + y = 9",
+      "x - 2y = 6"
+    ],
+    "correct": 0,
+    "explanation": "f(4)=1/(1-2)²=1. f'(x)=-2(1-√x)^(-3)·(-1/(2√x))=1/(√x(1-√x)³). f'(4)=1/(2(-1)³)=-1/2. Line: y-1=-1/2(x-4) → 2y-2=-(x-4) → x+2y=6."
+  },
+  {
+    "question": "The tangent line to f(x)=(4x²-x+3)/√x at (1, f(1)) has slope:",
+    "options": [
+      "2",
+      "6",
+      "4",
+      "7"
+    ],
+    "correct": 2,
+    "explanation": "f(x)=4x^(3/2)-x^(1/2)+3x^(-1/2). f'(x)=6x^(1/2)-(1/2)x^(-1/2)-(3/2)x^(-3/2). f'(1)=6-1/2-3/2=4."
+  },
+  {
+    "question": "If h(x)=∛(g(x)), g(2)=8 and g'(2)=6, the tangent to y=h(x) at (2, h(2)) is:",
+    "options": [
+      "2y - x = 1",
+      "2y + x = -1",
+      "y + 2x = 1",
+      "2y - x = 2"
+    ],
+    "correct": 3,
+    "explanation": "h(2)=∛8=2. h'(x)=(1/3)(g(x))^(-2/3)·g'(x). h'(2)=(1/3)(8)^(-2/3)·6=(1/3)(1/4)(6)=1/2. Line: y-2=(1/2)(x-2) → 2y-4=x-2 → 2y-x=2."
+  },
+  {
+    "question": "The points on f(x) = 12x - x³ where the tangent is horizontal are:",
+    "options": [
+      "(0,0) and (2,16)",
+      "(2,16) and (-2,-16)",
+      "(±√4, ±f(±√4))",
+      "(2,16) only"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=12-3x²=0 → x²=4 → x=±2. f(2)=24-8=16, f(-2)=-24+8=-16."
+  },
+  {
+    "question": "On y = x² + 3x - 6, the point where the tangent slope equals -7 is:",
+    "options": [
+      "(-5, -6)",
+      "(-5, -44)",
+      "(-5, 4)",
+      "(5, 34)"
+    ],
+    "correct": 2,
+    "explanation": "dy/dx=2x+3=-7 → x=-5. y=25-15-6=4. Point: (-5, 4)."
+  },
+  {
+    "question": "The tangent line to y = x²√(2x+12) at x = 2 is:",
+    "options": [
+      "y = 17(x-2) - 16",
+      "y = 16(x-2) + 1",
+      "y - 4 = 16(x-2)",
+      "y = 17(x-2) + 16"
+    ],
+    "correct": 3,
+    "explanation": "f(2)=4√16=16. f'(x)=2x√(2x+12)+x²/(√(2x+12)). f'(2)=16/4+16/4... f'(2)=4·4/4+4·1/4=16+1=17. Line: y-16=17(x-2)."
+  },
+  {
+    "question": "The line y = -8x + k is tangent to f(x) = 3x² + 4x + 1 when k =",
+    "options": [
+      "-11",
+      "-3",
+      "11",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=6x+4=-8 → x=-2. f(-2)=12-8+1=5. Tangent: y-5=-8(x+2) → y=-8x-11. So k=-11."
+  },
+  {
+    "question": "The curves f(x)=x²+ax+b and g(x)=cx³-x² share a common tangent at (1,0). The value of c is:",
+    "options": [
+      "-1",
+      "1",
+      "-2",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "f(1)=1+a+b=0 and g(1)=c-1=0 → c=1. Also f'(1)=g'(1): 2+a=3c-2=1 → a=-1, b=0."
+  },
+  {
+    "question": "Let G(x)=f((3x²+1)/(x-1)). If f'(0)=0 and f'(-1)=2, then G'(0) equals:",
+    "options": [
+      "-2",
+      "0",
+      "-1",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "At x=0: u=(0+1)/(0-1)=-1. G'(0)=f'(-1)·u'(0). u'(x)=[(6x)(x-1)-(3x²+1)]/(x-1)². u'(0)=[(0)(-1)-1]/1=-1. G'(0)=2·(-1)=-2."
+  },
+  {
+    "question": "If F(x)=f(2x+2)·g(1-x²), f(2)=-3, f'(2)=4, g(1)=1, g'(1)=-5, then F'(0) equals:",
+    "options": [
+      "-11",
+      "4",
+      "8",
+      "-22"
+    ],
+    "correct": 2,
+    "explanation": "F'(x)=f'(2x+2)·2·g(1-x²)+f(2x+2)·g'(1-x²)·(-2x). At x=0: f'(2)·2·g(1)+f(2)·g'(1)·0=4·2·1+0=8."
+  },
+  {
+    "question": "Let h(x)=g(f(3x+1)). If f(1)=f'(1)=2 and g'(2)=1, then h'(0) equals:",
+    "options": [
+      "2",
+      "4",
+      "12",
+      "6"
+    ],
+    "correct": 3,
+    "explanation": "h'(x)=g'(f(3x+1))·f'(3x+1)·3. At x=0: g'(f(1))·f'(1)·3=g'(2)·2·3=1·2·3=6."
+  },
+  {
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "The secant line slope equals the tangent line slope",
+      "The slope of the tangent is the average rate of change",
+      "f'(x) measures the average rate of change of f",
+      "The slope of the secant line equals the average rate of change"
+    ],
+    "correct": 3,
+    "explanation": "The slope of the secant through (x, f(x)) and (x+h, f(x+h)) equals [f(x+h)-f(x)]/h = average rate of change."
+  },
+  {
+    "question": "The graph of f(x) = (x-1)^(1/3) has a vertical tangent at x =",
+    "options": [
+      "-1",
+      "1",
+      "0",
+      "3"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=(1/3)(x-1)^(-2/3). As x→1, f'(x)→∞, so the tangent is vertical at x=1."
+  },
+  {
+    "question": "Which statement about derivatives is FALSE?",
+    "options": [
+      "f'(a) equals the slope of the tangent at (a, f(a))",
+      "f'(x) measures the instantaneous rate of change",
+      "If f'(x) = g'(x), then f(x) = g(x)",
+      "A polynomial function is differentiable at every point"
+    ],
+    "correct": 2,
+    "explanation": "If f'(x)=g'(x), they differ by a constant: f(x)=g(x)+C. They are not necessarily equal."
+  },
+  {
+    "question": "For f(x) = x⁴ − (8/3)x³ − 6x² + 3, the function is increasing on:",
+    "options": [
+      "(-1, 0) ∪ (3, ∞)",
+      "(-∞, 0) ∪ (3, ∞)",
+      "(-1, 3)",
+      "(-∞, -1) ∪ (0, 3)"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = 4x(x + 1)(x − 3). A sign chart shows f'(x) > 0 on (-1, 0) and on (3, ∞), so these are the intervals of increase."
+  },
+  {
+    "question": "The function f(x) = x/(x² + 1) is increasing on:",
+    "options": [
+      "(-1, 1)",
+      "(-∞, ∞)",
+      "[-1, 1]",
+      "(-∞, -1) ∪ (1, ∞)"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = (1 - x²)/(x² + 1)². Since the denominator is always positive, f'(x) > 0 when -1 < x < 1."
+  },
+  {
+    "question": "The function f(x) = x/(x² + 9) is decreasing on:",
+    "options": [
+      "(-3, 3)",
+      "(-∞, 3)",
+      "(-∞, -3) ∪ (3, ∞)",
+      "[-3, 3]"
+    ],
+    "correct": 2,
+    "explanation": "f'(x) = (9 - x²)/(x² + 9)². The derivative is negative when x² > 9, so the function decreases for x < -3 and x > 3."
+  },
+  {
+    "question": "For f(x) = (x²-9)^(2/3), the number of critical numbers is:",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=(4x/3)(x²-9)^(-1/3). f'=0 at x=0; f' undefined at x=±3 (domain points). Total: 3 critical numbers."
+  },
+  {
+    "question": "For f(x)=2x²/(x+2), the critical number(s) in the domain are:",
+    "options": [
+      "x=0 only",
+      "x=-2 and x=0",
+      "x=-4 only",
+      "x=0 and x=-4"
+    ],
+    "correct": 3,
+    "explanation": "f'(x)=(4x(x+2)-2x²)/(x+2)²=(2x²+8x)/(x+2)²=2x(x+4)/(x+2)². f'=0 at x=0,-4. x=-2 not in domain."
+  },
+  {
+    "question": "The set of critical numbers of f(x) = |x² - 4| is:",
+    "options": [
+      "{0, 2}",
+      "{0}",
+      "{-2, 2}",
+      "{-2, 0, 2}"
+    ],
+    "correct": 3,
+    "explanation": "f is not differentiable at x=±2 (corner points). f'(x)=0 at x=0 inside each smooth piece. All three are critical."
+  },
+  {
+    "question": "For f(x) = x^(2/3)(4-x), the critical numbers are:",
+    "options": [
+      "x=8/5 only",
+      "x=0 and x=8/5",
+      "x=0, 4, and 8/5",
+      "x=0 and x=4"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=(8-5x)/(3x^(1/3))=0 → x=8/5. f' undefined at x=0. Both are critical numbers."
+  },
+  {
+    "question": "For f(x) = (x-4)^(2/3), the critical value is x = 4 because:",
+    "options": [
+      "f'(4) does not exist",
+      "f(4) = 0",
+      "f is discontinuous at 4",
+      "f'(4) = 0"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=(2/3)(x-4)^(-1/3)→∞ as x→4. The derivative is undefined, giving a vertical tangent/cusp."
+  },
+  {
+    "question": "The absolute minimum of f(x) = 2x³ − 15x² + 24x + 7 on [0, 6] is:",
+    "options": [
+      "43",
+      "7",
+      "-9",
+      "18"
+    ],
+    "correct": 2,
+    "explanation": "f'(x) = 6x² − 30x + 24 = 6(x − 1)(x − 4). Check x = 0, 1, 4, 6: f(0)=7, f(1)=18, f(4)=-9, f(6)=43. The minimum is -9."
+  },
+  {
+    "question": "The absolute maximum of f(x) = 2x³ - 3x² - 12x + 5 on [2,4] is:",
+    "options": [
+      "5",
+      "-15",
+      "37",
+      "17"
+    ],
+    "correct": 2,
+    "explanation": "f'(x)=6x²-6x-12=6(x-2)(x+1)=0 on [2,4] at x=2. Endpoints: f(2)=-15, f(4)=128-48-48+5=37."
+  },
+  {
+    "question": "The absolute maximum value of f(x) = x⁴ - 6x² + 1 on [-2,3] is attained at:",
+    "options": [
+      "x=3",
+      "x=-√3",
+      "x=0",
+      "x=√3"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=4x³-12x=4x(x²-3)=0 → x=0,±√3. f(0)=1, f(±√3)=-8, f(-2)=1, f(3)=28. Max at x=3."
+  },
+  {
+    "question": "If f(x) = ax³ + bx⁴ has a local minimum at (1,-1), then (a,b) equals:",
+    "options": [
+      "(3, 4)",
+      "(4, -3)",
+      "(3, -4)",
+      "(-4, 3)"
+    ],
+    "correct": 3,
+    "explanation": "f(1)=a+b=-1 and f'(1)=3a+4b=0. Solve: b=3a/(-4)... From 3a+4b=0: b=-3a/4. Then a-3a/4=-1 → a/4=-1 → a=-4, b=3."
+  },
+  {
+    "question": "For f(x) = ax³ + bx⁴ to have a local minimum at (1, -1), the values (a, b) must satisfy:",
+    "options": [
+      "3a + 4b = -1 and a + b = 0",
+      "a + b = -1 and 3a + 4b = 0",
+      "a + b = -1 and a - b = 0",
+      "a + b = 1 and a + b = 0"
+    ],
+    "correct": 1,
+    "explanation": "f(1)=a+b=-1 (point condition). f'(x)=3ax²+4bx³; f'(1)=3a+4b=0 (critical point). Solving: b=-3a/4, a-3a/4=-1 → a=-4, b=3."
+  },
+  {
+    "question": "For f(x) = x/(x²+k) to have extreme values at x=2, k must equal:",
+    "options": [
+      "0",
+      "16",
+      "2",
+      "4"
+    ],
+    "correct": 3,
+    "explanation": "f'(x)=(k-x²)/(x²+k)². Set f'(2)=0: k-4=0 → k=4."
+  },
+  {
+    "question": "The range of f(x) = x³ - 12x + 1 on [0,3] is:",
+    "options": [
+      "[-15,17]",
+      "[-15, 1]",
+      "[-8,1]",
+      "(-∞,∞)"
+    ],
+    "correct": 1,
+    "explanation": "f'(x)=3x²-12=0 → x=2 on [0,3]. f(0)=1, f(2)=-15, f(3)=-8. Range=[-15,1]."
+  },
+  {
+    "question": "The range of f(x) = x⁴ - (16/3)x³ + 6x² on (-∞,∞) is:",
+    "options": [
+      "[-9, ∞)",
+      "(-∞,∞)",
+      "[5/3,-9]",
+      "[0,∞)"
+    ],
+    "correct": 0,
+    "explanation": "f'(x)=4x³-16x²+12x=4x(x-1)(x-3). Local min at x=3: f(3)=81-144+54=-9. No global max, so range=[-9,∞)."
+  },
+  {
+    "question": "For f(x) = 2x³ + 3x² - 12x + 4, the local maximum value is:",
+    "options": [
+      "-3",
+      "4",
+      "24",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "f'(x)=6x²+6x-12=6(x+2)(x-1)=0 → x=-2,1. f''(x)=12x+6. f''(-2)=-18<0 (max). f(-2)=-16+12+24+4=24."
+  },
+  {
+    "question": "Which statement about f(x) = x⁴ − 4x³ + 16x + 5 is NOT true?",
+    "options": [
+      "f is decreasing on (-∞, 2)",
+      "f has a local minimum at x = 2",
+      "f has a local maximum at x = -1",
+      "f is increasing on (2, ∞)"
+    ],
+    "correct": 2,
+    "explanation": "f'(x) = 4x³ − 12x² + 16 = 4(x + 1)²(x − 2). The derivative is negative for x < 2 and positive for x > 2, so the graph decreases then increases; x = 2 is a local minimum, and x = -1 is not an extremum."
+  },
+  {
+    "question": "Suppose 5 is a critical number for f, with f'(x) > 0 for x ∈ (5, 6) and f'(x) < 0 for x ∈ (4, 5). Which statement correctly classifies f(5)?",
+    "options": [
+      "f(5) cannot be classified without knowing the second derivative",
+      "f(5) is a local minimum because f' changes from negative to positive at x = 5",
+      "f(5) is a local maximum because f' changes from positive to negative at x = 5",
+      "f(5) is neither a local max nor min because f'(5) may not equal zero"
+    ],
+    "correct": 1,
+    "explanation": "By the First Derivative Test: if f' changes from (−) to (+) at c, then f(c) is a local minimum. Here f' < 0 just left of 5 and f' > 0 just right of 5, confirming a local minimum at x = 5."
+  },
+  {
+    "question": "A differentiable function f has f'(c) = 0 at c = 0. Which of the following could represent f near x = 0?",
+    "options": [
+      "f(x) = x³, so x = 0 is neither a local max nor a local min",
+      "f(x) = x + 1, so x = 0 is a local minimum",
+      "f(x) = −x², so x = 0 is a local minimum",
+      "f(x) = x², so x = 0 is a local maximum"
+    ],
+    "correct": 0,
+    "explanation": "A condition like f'(0) = 0 is not enough to guarantee a local extremum. For f(x) = x³, the derivative at 0 is 0, but the graph keeps its increasing trend through x = 0, so there is no max or min there."
+  },
+  {
+    "question": "A differentiable function f has critical numbers at c = 1, 3, 4, 6, 8 with f' sign pattern: (+) on (−∞,1), (−) on (1,3), (−) on (3,4), (+) on (4,6), (+) on (6,8), (−) on (8,∞). Which set correctly lists ALL local maxima?",
+    "options": [
+      "x = 1 only",
+      "x = 3 and x = 6",
+      "x = 1, x = 6, and x = 8",
+      "x = 1 and x = 8 only"
+    ],
+    "correct": 3,
+    "explanation": "A local max occurs where f' changes from (+) to (−). At x = 1: (+) to (−) ✓ max. At x = 3: (−) to (−), no change → not an extremum. At x = 4: (−) to (+) → local min. At x = 6: (+) to (+), no change → not an extremum. At x = 8: (+) to (−) ✓ max."
+  },
+  {
+    "question": "For f(x) = (3/4)x⁴ − (27/2)x² + 15, the second derivative test gives f''(x) = 9x² − 27. Which of the following correctly describes ALL local extrema?",
+    "options": [
+      "Local minima at x = ±3 only; x = 0 is an inflection point",
+      "Local max at x = 0; local minima at x = ±3",
+      "Local max at x = 3; local min at x = 0",
+      "Local minima at x = 0 and x = 3; local max at x = −3"
+    ],
+    "correct": 1,
+    "explanation": "f'(x) = 3x³ − 27x = 3x(x²−9). Critical points: x = 0, ±3. f''(0) = −27 < 0 → local max. f''(±3) = 81 − 27 = 54 > 0 → local minima at x = ±3."
+  },
+  {
+    "question": "For f(x) = x³ + 6x² − 36x, the local maximum value and local minimum value are respectively:",
+    "options": [
+      "216 and -40",
+      "-40 and 216",
+      "216 and -68",
+      "24 and -40"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = 3(x + 6)(x - 2). At x = -6, f''(x) < 0, so the local maximum is f(-6) = 216. At x = 2, f''(x) > 0, so the local minimum is f(2) = -40."
+  },
+  {
+    "question": "Which of the following is a local minimum point of f(x) = −3x⁴ + 4x³ + 12x² + 1?",
+    "options": [
+      "(−2, −33)",
+      "(−1, 6)",
+      "(0, 1)",
+      "(2, 33)"
+    ],
+    "correct": 2,
+    "explanation": "f'(x) = −12x(x+1)(x−2) = 0 gives x = 0, −1, 2. f''(x) = −36x²+24x+24. f''(0) = 24 > 0 → local minimum at x = 0. f(0) = 1, so (0, 1) is the local minimum point. At x = −1: f''(−1) < 0 → local max. At x = 2: f''(2) = −144+48+24 = −72 < 0 → also local max."
+  },
+  {
+    "question": "An object moves along a line with position S(t) = t³ − 4t² + 9t (km, hours). What is the acceleration at t = 3 hrs?",
+    "options": [
+      "18 km/hr²",
+      "6 km/hr²",
+      "12 km/hr²",
+      "10 km/hr²"
+    ],
+    "correct": 3,
+    "explanation": "V(t) = S'(t) = 3t² − 8t + 9. a(t) = V'(t) = 6t − 8. At t = 3: a(3) = 18 − 8 = 10 km/hr²."
+  },
+  {
+    "question": "An open box with a square base must have surface area 108 m². What base edge length x maximizes the volume?",
+    "options": [
+      "x = 3 m",
+      "x = 6 m",
+      "x = 4 m",
+      "x = 9 m"
+    ],
+    "correct": 1,
+    "explanation": "Surface area: x² + 4xh = 108 → h = (108−x²)/(4x). Volume: V(x) = x²h = 27x − x³/4. V'(x) = 27 − 3x²/4 = 0 → x² = 36 → x = 6 m, h = 3 m."
+  },
+  {
+    "question": "An open-top square-base box must have volume 32 cm³. To minimize surface area, the height h should be:",
+    "options": [
+      "h = 4 cm",
+      "h = 8 cm",
+      "h = 2 cm",
+      "h = 16 cm"
+    ],
+    "correct": 2,
+    "explanation": "With V = x²h = 32, h = 32/x². Surface area: A = x² + 4xh = x² + 128/x. A'(x) = 2x − 128/x² = 0 → x³ = 64, x = 4 cm. Then h = 32/16 = 2 cm."
+  },
+  {
+    "question": "A farmer has 3200 m of fencing for a rectangular field along a straight river (no fence needed on river side). The dimensions that maximize the area are:",
+    "options": [
+      "Width = 800 m (perpendicular to river), length = 1600 m (parallel to river)",
+      "Width = 1600 m, length = 800 m",
+      "Width = 600 m, length = 2000 m",
+      "Width = 1000 m, length = 1200 m"
+    ],
+    "correct": 0,
+    "explanation": "With 2x + y = 3200 (x = depth, y = length), Area A = x(3200−2x). A'(x) = 3200 − 4x = 0 → x = 800 m, y = 1600 m. Maximum area = 800 × 1600 = 1,280,000 m²."
+  },
+  {
+    "question": "A farmer builds 3 identical rectangular enclosures along a river using 1200 m of fencing (river side needs no fence). Total area is maximized when each enclosure has dimensions:",
+    "options": [
+      "ℓ = 150 m, W = 200 m",
+      "ℓ = 300 m, W = 75 m",
+      "ℓ = 100 m, W = 225 m",
+      "ℓ = 200 m, W = 150 m"
+    ],
+    "correct": 3,
+    "explanation": "Total fencing: 3ℓ + 4W = 1200 → W = 300 − (3/4)ℓ. Total area: A = 3ℓW = 3ℓ(300−(3/4)ℓ) = 900ℓ − (9/4)ℓ². A'(ℓ) = 900 − (9/2)ℓ = 0 → ℓ = 200 m, W = 300−150 = 150 m."
+  },
+  {
+    "question": "Two numbers have product 192. The sum S = 3x + y is minimized when the two numbers are:",
+    "options": [
+      "x = 12 and y = 16",
+      "x = 8 and y = 24",
+      "x = 4 and y = 48",
+      "x = 6 and y = 32"
+    ],
+    "correct": 1,
+    "explanation": "With xy = 192, S = 3x + 192/x. S'(x) = 3 − 192/x² = 0 → x² = 64 → x = 8, y = 192/8 = 24. S''(x) > 0 confirms a minimum."
+  },
+  {
+    "question": "An open box is made by cutting equal squares of side x from corners of a 12 cm × 12 cm sheet and folding up the sides. The maximum volume is:",
+    "options": [
+      "108 cm³ when x = 3 cm",
+      "192 cm³ when x = 4 cm",
+      "128 cm³ when x = 2 cm",
+      "64 cm³ when x = 1 cm"
+    ],
+    "correct": 2,
+    "explanation": "V(x) = (12−2x)²x. V'(x) = 12(x−2)(x−6) = 0 → x = 2 (x = 6 gives zero volume). V(2) = (8)²(2) = 128 cm³."
+  },
+  {
+    "question": "An open-top box with a square base is made from 1200 cm² of material. The maximum possible volume is:",
+    "options": [
+      "4000 cm³",
+      "3000 cm³",
+      "8000 cm³",
+      "1500 cm³"
+    ],
+    "correct": 0,
+    "explanation": "With x² + 4xh = 1200, h = (300−x/4)/x = 300/x − x/4. V = x²h = 300x − x³/4. V'(x) = 300 − 3x²/4 = 0 → x = 20 cm, h = 10 cm. V = 400 × 10 = 4000 cm³."
+  },
+  {
+    "question": "A point moves along the curve 5y = x². If the x-coordinate increases at 5 cm/sec, the rate of increase of the y-coordinate when x = 4 is:",
+    "options": [
+      "4 cm/sec",
+      "2 cm/sec",
+      "40 cm/sec",
+      "8 cm/sec"
+    ],
+    "correct": 3,
+    "explanation": "y = x²/5 → dy/dt = (2x/5)(dx/dt). At x = 4: dy/dt = (8/5)(5) = 8 cm/sec."
+  },
+  {
+    "question": "The side of an equilateral triangle is 4 cm and increasing at 2 cm/sec. The rate of increase of its area is:",
+    "options": [
+      "8√3 cm²/sec",
+      "4√3 cm²/sec",
+      "2√3 cm²/sec",
+      "√3 cm²/sec"
+    ],
+    "correct": 1,
+    "explanation": "A = (√3/4)x². dA/dt = (√3/2)x(dx/dt) = (√3/2)(4)(2) = 4√3 cm²/sec."
+  },
+  {
+    "question": "The edge of a cube is 10 cm, increasing at 0.4 cm/sec. The rate of increase of its surface area is:",
+    "options": [
+      "48 cm²/sec",
+      "96 cm²/sec",
+      "24 cm²/sec",
+      "4.8 cm²/sec"
+    ],
+    "correct": 0,
+    "explanation": "A = 6x². dA/dt = 12x(dx/dt) = 12(10)(0.4) = 48 cm²/sec."
+  },
+  {
+    "question": "The edge of a cube is 5 cm and the volume is increasing at 2 cm³/min. The rate of increase of its surface area is:",
+    "options": [
+      "2 cm²/min",
+      "8 cm²/min",
+      "2/5 cm²/min",
+      "8/5 cm²/min"
+    ],
+    "correct": 3,
+    "explanation": "V = x³ → dV/dt = 3x²(dx/dt) → 2 = 75(dx/dt) → dx/dt = 2/75 cm/min. A = 6x² → dA/dt = 12x(dx/dt) = 12(5)(2/75) = 8/5 cm²/min."
+  },
+  {
+    "question": "For a sphere, suppose dA/dt = dr/dt and dr/dt ≠ 0. The radius is:",
+    "options": [
+      "1/(2π)",
+      "1/π",
+      "1/(8π)",
+      "1/(4π)"
+    ],
+    "correct": 2,
+    "explanation": "A = 4πr², so dA/dt = 8πr(dr/dt). Since dA/dt = dr/dt and dr/dt ≠ 0, cancel dr/dt to get 8πr = 1. Thus r = 1/(8π)."
+  },
+  {
+    "question": "A spherical balloon loses gas at 2 m³/min. When the radius is 3 m, how fast is the surface area shrinking?",
+    "options": [
+      "4/3 m²/min",
+      "8/3 m²/min",
+      "4/9 m²/min",
+      "2/3 m²/min"
+    ],
+    "correct": 0,
+    "explanation": "dV/dt = 4πr²(dr/dt) → −2 = 4π(9)(dr/dt) → dr/dt = −1/(18π). A = 4πr² → dA/dt = 8πr(dr/dt) = 8π(3)(−1/(18π)) = −4/3 m²/min. Surface area shrinks at 4/3 m²/min."
+  },
+  {
+    "question": "Air is pumped into a spherical balloon at 6 m³/min. When r = 2 m, the rate of change of radius is:",
+    "options": [
+      "3/8 m/min",
+      "3/(8π) m/min",
+      "3/(4π) m/min",
+      "9/(4π) m/min"
+    ],
+    "correct": 1,
+    "explanation": "V = (4/3)πr³ → dV/dt = 4πr²(dr/dt). 6 = 4π(4)(dr/dt) → dr/dt = 6/(16π) = 3/(8π) m/min."
+  },
+  {
+    "question": "Water is poured into a cylindrical tank (radius 5 m) at 10 m³/min. The rate at which the water level rises is:",
+    "options": [
+      "1/(2π) m/min",
+      "5/(2π) m/min",
+      "3/(25π) m/min",
+      "2/(5π) m/min"
+    ],
+    "correct": 3,
+    "explanation": "V = 25πh → dV/dt = 25π(dh/dt). 10 = 25π(dh/dt) → dh/dt = 10/(25π) = 2/(5π) m/min."
+  },
+  {
+    "question": "Water runs into a conical tank with height 8 cm and base radius 4 cm at 12π cm³/min. When the water depth is 3 cm, how fast is the water level rising?",
+    "options": [
+      "8/3 cm/min",
+      "4 cm/min",
+      "16/3 cm/min",
+      "4/3 cm/min"
+    ],
+    "correct": 2,
+    "explanation": "By similar triangles, r/h = 4/8 = 1/2, so r = h/2. Then V = (1/3)πr²h = πh³/12. Differentiate: dV/dt = (πh²/4)(dh/dt). At h = 3, 12π = (9π/4)(dh/dt), so dh/dt = 16/3 cm/min."
+  },
+  {
+    "question": "A 25 ft ladder leans against a wall. When the base is 15 ft from the wall and sliding away at 8 ft/sec, how fast is the top sliding down?",
+    "options": [
+      "8 ft/sec",
+      "10 ft/sec",
+      "6 ft/sec",
+      "4 ft/sec"
+    ],
+    "correct": 2,
+    "explanation": "x = 15, y = √(625−225) = 20. Differentiating x² + y² = 625: 2x(dx/dt) + 2y(dy/dt) = 0 → 2(15)(8) + 2(20)(dy/dt) = 0 → dy/dt = −240/40 = −6 ft/sec. The top slides down at 6 ft/sec."
+  },
+  {
+    "question": "A person walks toward an 8 m street light at 5 m/sec. If the person is 2 m tall, how fast is the length of their shadow decreasing?",
+    "options": [
+      "10/3 m/sec",
+      "5/3 m/sec",
+      "5/4 m/sec",
+      "5/6 m/sec"
+    ],
+    "correct": 1,
+    "explanation": "By similar triangles, y = x/3. Differentiate to get dy/dt = (1/3)dx/dt = -5/3 m/sec. So the shadow shortens at 5/3 m/sec."
+  },
+  {
+    "question": "Given R(x) = −x² + 400x and C(x) = x² + 40x + 100. The number of units that maximizes profit and the maximum profit are:",
+    "options": [
+      "x = 90 units, max profit = 16,100",
+      "x = 200 units, max profit = 40,000",
+      "x = 45 units, max profit = 16,100",
+      "x = 90 units, max profit = 32,200"
+    ],
+    "correct": 0,
+    "explanation": "P(x) = R−C = −2x² + 360x − 100. P'(x) = −4x + 360 = 0 → x = 90. P(90) = −2(8100) + 360(90) − 100 = −16200 + 32400 − 100 = 16,100."
+  },
+  {
+    "question": "For C(x) = x³/3 − 4x² + 16x and R(x) = 4x, the marginal cost at x = 5 is:",
+    "options": [
+      "16 ETB per unit",
+      "4 ETB per unit",
+      "9 ETB per unit",
+      "1 ETB per unit"
+    ],
+    "correct": 3,
+    "explanation": "Marginal cost: C'(x) = x² − 8x + 16. At x = 5: C'(5) = 25 − 40 + 16 = 1 ETB per unit."
+  },
+  {
+    "question": "Using the midpoint rule with 3 equal subintervals on [2, 8], the approximate area under f(x) = x³ + x is:",
+    "options": [
+      "510",
+      "960",
+      "1080",
+      "1020"
+    ],
+    "correct": 3,
+    "explanation": "Δx = 2, midpoints: x = 3, 5, 7. f(3) = 30, f(5) = 130, f(7) = 350. Area ≈ (30+130+350)×2 = 510×2 = 1020."
+  },
+  {
+    "question": "The Riemann sum for f(x) = x² on [3,10] with partition {3,4,6,9,10} and sample points {3,5,8,9} is:",
+    "options": [
+      "332",
+      "342",
+      "356",
+      "312"
+    ],
+    "correct": 0,
+    "explanation": "Widths: 1, 2, 3, 1. Heights: f(3)=9, f(5)=25, f(8)=64, f(9)=81. Sum = 9(1)+25(2)+64(3)+81(1) = 9+50+192+81 = 332."
+  },
+  {
+    "question": "Evaluated as a limit of Riemann sums, ∫₋₃² 4x dx equals:",
+    "options": [
+      "−20",
+      "−5",
+      "−10",
+      "10"
+    ],
+    "correct": 2,
+    "explanation": "∫₋₃² 4x dx = [2x²]₋₃² = 2(4) − 2(9) = 8 − 18 = −10."
+  },
+  {
+    "question": "∫₁⁴ (5x√x + 3√x) dx equals:",
+    "options": [
+      "68",
+      "76",
+      "70",
+      "80"
+    ],
+    "correct": 1,
+    "explanation": "∫(5x^(3/2) + 3x^(1/2)) dx = 2x^(5/2) + 2x^(3/2). Evaluated from 1 to 4: (2·32 + 2·8) − (2·1 + 2·1) = (64+16) − (2+2) = 80 − 4 = 76."
+  },
+  {
+    "question": "If ∫₀² f(x)dx = 1, ∫₀³ f(x)dx = 6, and ∫₂⁵ f(x)dx = 8, then ∫₂³ f(x)dx equals:",
+    "options": [
+      "−5",
+      "14",
+      "7",
+      "5"
+    ],
+    "correct": 3,
+    "explanation": "∫₂³ f(x)dx = ∫₀³ f(x)dx − ∫₀² f(x)dx = 6 − 1 = 5."
+  },
+  {
+    "question": "Suppose ∫₁³ f(x)dx = 6 and ∫₁² f(x)dx = 10. Then ∫₂³ f(x)dx equals:",
+    "options": [
+      "4",
+      "−4",
+      "16",
+      "−16"
+    ],
+    "correct": 1,
+    "explanation": "∫₂³ f(x)dx = ∫₁³ f(x)dx − ∫₁² f(x)dx = 6 − 10 = −4."
+  },
+  {
+    "question": "The slope of a curve is f'(x) = 6x² − 4x + 3 and the curve passes through (−1, 2). The equation of the curve is:",
+    "options": [
+      "f(x) = 2x³ + 2x² − 3x + 9",
+      "f(x) = 2x³ − 2x² + 3x − 5",
+      "f(x) = 2x³ − 2x² + 3x + 9",
+      "f(x) = 2x³ − 2x² + 3x + 2"
+    ],
+    "correct": 2,
+    "explanation": "∫(6x²−4x+3)dx = 2x³ − 2x² + 3x + C. At (−1,2): 2(−1) − 2(1) + 3(−1) + C = −2−2−3+C = 2 → C = 9. So f(x) = 2x³ − 2x² + 3x + 9."
+  },
+  {
+    "question": "F and G are both anti-derivatives of f on [a,b]. Which statement is TRUE?",
+    "options": [
+      "F'(x) = G'(x) for all x in [a,b]",
+      "G'(x) = ∫f(x)dx",
+      "F(x) − G(x) cannot be determined",
+      "F(x) = G(x) for all x in [a,b]"
+    ],
+    "correct": 0,
+    "explanation": "If F and G are both antiderivatives of f, then F'(x) = f(x) = G'(x) for all x in [a, b]. They may differ by a constant, so F'(x) = G'(x) is the true statement."
+  },
+  {
+    "question": "The area under f(x) = x² + 1 over [−2, 2] is:",
+    "options": [
+      "28/3",
+      "8",
+      "16/3",
+      "14/3"
+    ],
+    "correct": 0,
+    "explanation": "∫₋₂² (x²+1)dx = [x³/3 + x]₋₂² = (8/3+2) − (−8/3−2) = 14/3 + 14/3 = 28/3."
+  },
+  {
+    "question": "The area under f(x) = x² − 2x + 5 over [−1, 2] equals:",
+    "options": [
+      "41/3",
+      "7/3",
+      "8",
+      "15"
+    ],
+    "correct": 3,
+    "explanation": "The function is positive on the whole interval, so the area is the definite integral. ∫₋₁² (x² − 2x + 5) dx = [x³/3 − x² + 5x]₋₁² = 15."
+  },
+  {
+    "question": "The area under f(x) = 1/x² over [1, 3] is:",
+    "options": [
+      "1/3",
+      "2/3",
+      "4/3",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "∫₁³ x⁻² dx = [−1/x]₁³ = −1/3 − (−1) = 2/3."
+  },
+  {
+    "question": "What is the area bounded by f(x) = x² − 4 and the x-axis?",
+    "options": [
+      "16/3",
+      "32",
+      "32/3",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "x-intercepts: x = ±2. f(x) ≤ 0 on [−2,2]. Area = −∫₋₂² (x²−4)dx = −[x³/3−4x]₋₂² = −[(8/3−8)−(−8/3+8)] = −[8/3−8+8/3−8] = −[16/3−16] = 16−16/3 = 32/3."
+  },
+  {
+    "question": "The total area between f(x) = x² − 5x + 6 and the x-axis is:",
+    "options": [
+      "1/2",
+      "2/3",
+      "1/6",
+      "1/3"
+    ],
+    "correct": 2,
+    "explanation": "The x-intercepts are x = 2 and x = 3, and the graph lies below the x-axis on (2, 3). So the total area is -∫₂³ (x² − 5x + 6) dx = 1/6."
+  },
+  {
+    "question": "What is the area bounded by f(x) = −x(x+3)(x−2) and the x-axis?",
+    "options": [
+      "125/12",
+      "253/12",
+      "16/3",
+      "63/4"
+    ],
+    "correct": 1,
+    "explanation": "Roots: x = −3, 0, 2. f ≤ 0 on [−3,0], f ≥ 0 on [0,2]. Area = −∫₋₃⁰ f(x)dx + ∫₀² f(x)dx = 63/4 + 16/3 = (189+64)/12 = 253/12."
+  },
+  {
+    "question": "For the piecewise function f(x) = {1−x for −1≤x<0; x² for 0≤x<2; −1 for 2≤x≤3}, the value of ∫₋₁³ f(x)dx is:",
+    "options": [
+      "19/6",
+      "−1",
+      "3/2",
+      "8/3"
+    ],
+    "correct": 0,
+    "explanation": "∫₋₁⁰(1−x)dx + ∫₀²x²dx + ∫₂³(−1)dx = [x−x²/2]₋₁⁰ + [x³/3]₀² + [−x]₂³ = (0−(−1−1/2)) + 8/3 + (−3−(−2)) = 3/2 + 8/3 − 1 = 9/6+16/6−6/6 = 19/6."
+  },
+  {
+    "question": "Suppose F'(x) = f(x), F(1) = −11, and F(0) = 11. Then ∫₀¹ f(x)dx equals:",
+    "options": [
+      "0",
+      "11",
+      "22",
+      "−22"
+    ],
+    "correct": 3,
+    "explanation": "By the Fundamental Theorem: ∫₀¹ f(x)dx = F(1) − F(0) = −11 − 11 = −22."
+  },
+  {
+    "question": "A particle has velocity V(t) = t³ − 5t² + 6t m/s. Its displacement over [0, 3] is:",
+    "options": [
+      "8/3 m",
+      "37/12 m",
+      "9/4 m",
+      "3 m"
+    ],
+    "correct": 2,
+    "explanation": "Displacement = ∫₀³(t³−5t²+6t)dt = [t⁴/4 − 5t³/3 + 3t²]₀³ = 81/4 − 45 + 27 = 81/4 − 18 = 81/4 − 72/4 = 9/4 m."
+  },
+  {
+    "question": "A particle has V(t) = t³ − 5t² + 6t m/s. Its total distance traveled over [0, 3] is:",
+    "options": [
+      "8/3 m",
+      "37/12 m",
+      "13/4 m",
+      "9/4 m"
+    ],
+    "correct": 1,
+    "explanation": "V(t) = t(t−2)(t−3); V ≥ 0 on [0,2], V ≤ 0 on [2,3]. Distance = ∫₀²V dt + |∫₂³V dt| = 8/3 + 5/12 = 32/12 + 5/12 = 37/12 m."
+  },
+  {
+    "question": "For a(t) = 6t² + 5 and V(0) = 8, the velocity function V(t) is:",
+    "options": [
+      "V(t) = 2t³ + 5t + 8",
+      "V(t) = 6t² + 5t + 8",
+      "V(t) = 2t³ + 5t",
+      "V(t) = 3t³ + 5t + 8"
+    ],
+    "correct": 0,
+    "explanation": "V(t) = ∫(6t²+5)dt = 2t³ + 5t + C. V(0) = C = 8. So V(t) = 2t³ + 5t + 8."
+  },
+  {
+    "question": "The marginal cost of producing x tablets is C'(x) = 60x² − 400x (ETB/tablet). The cost of increasing production from 10 to 15 tablets is:",
+    "options": [
+      "20,000 ETB",
+      "45,000 ETB",
+      "25,000 ETB",
+      "22,500 ETB"
+    ],
+    "correct": 3,
+    "explanation": "Cost = ∫₁₀¹⁵(60x²−400x)dx = [20x³−200x²]₁₀¹⁵ = (67,500−45,000) − (20,000−20,000) = 22,500 ETB."
+  },
+  {
+    "question": "Water flows into an empty reservoir at S(t) = 3000 + 20t litres/hour. The total volume after 5 hours is:",
+    "options": [
+      "15,000 litres",
+      "15,500 litres",
+      "15,250 litres",
+      "14,750 litres"
+    ],
+    "correct": 2,
+    "explanation": "Volume = ∫₀⁵(3000+20t)dt = [3000t+10t²]₀⁵ = 15,000 + 250 = 15,250 litres."
+  },
+  {
+    "question": "The total area between f(x) = 9 − x² and the x-axis on [0, 4] is:",
+    "options": [
+      "64/3",
+      "44/3",
+      "18",
+      "10/3"
+    ],
+    "correct": 0,
+    "explanation": "f = 0 at x = 3. f ≥ 0 on [0,3], f < 0 on [3,4]. A₁ = ∫₀³(9−x²)dx = [9x−x³/3]₀³ = 18. A₂ = −∫₃⁴(9−x²)dx = −[9x−x³/3]₃⁴ = −(36−64/3−27+9) = 10/3. Total = 18 + 10/3 = 64/3."
+  },
+  {
+    "question": "The total area between f(x) = x³ − 4x and the x-axis over all x-intercepts is:",
+    "options": [
+      "4",
+      "8",
+      "0",
+      "16"
+    ],
+    "correct": 1,
+    "explanation": "x-intercepts: x = −2, 0, 2. f ≥ 0 on [−2,0], f ≤ 0 on [0,2] (by symmetry). Area = ∫₋₂⁰(x³−4x)dx + |∫₀²(x³−4x)dx| = 4 + 4 = 8."
+  },
+  {
+    "question": "∫(3x⁴ − 5x^(2/3) + x^(−3)) dx equals:",
+    "options": [
+      "(3/5)x⁵ + 3x^(5/3) − (1/2)x⁻² + C",
+      "(3/5)x⁵ − 3x^(2/3) − (1/2)x⁻² + C",
+      "x³ − 3x^(5/3) − (1/2)x⁻² + C",
+      "(3/5)x⁵ − 3x^(5/3) − (1/2)x⁻² + C"
+    ],
+    "correct": 3,
+    "explanation": "Integrate term by term: ∫3x⁴dx = (3/5)x⁵, ∫−5x^(2/3)dx = −3x^(5/3), and ∫x⁻³dx = −(1/2)x⁻². Add C."
+  },
+  {
+    "question": "∫(x−2)/√x dx equals:",
+    "options": [
+      "(2/3)x^(3/2) + 4x^(1/2) + C",
+      "(1/2)x^(3/2) − 2x^(1/2) + C",
+      "(2/3)x^(3/2) − 4x^(1/2) + C",
+      "(2/3)x^(3/2) − 2x^(1/2) + C"
+    ],
+    "correct": 2,
+    "explanation": "Rewrite: (x−2)/√x = x^(1/2) − 2x^(−1/2). Integrate: (2/3)x^(3/2) − 2·2x^(1/2) + C = (2/3)x^(3/2) − 4x^(1/2) + C."
+  },
+  {
+    "question": "Given f(x) = 3x² + 4x, at which point does the normal line to the curve have slope 2?",
+    "options": [
+      "(3/4, -21/16)",
+      "(0, 0)",
+      "(-3/4, 21/16)",
+      "(-3/4, -21/16)"
+    ],
+    "correct": 3,
+    "explanation": "A normal slope of 2 means the tangent slope is -1/2. Since f'(x) = 6x + 4, solve 6x + 4 = -1/2 to get x = -3/4. Then f(-3/4) = -21/16."
+  },
+  {
+    "question": "For f(x) = ax² + bx, if the curve passes through (1, 7) and the slope of the tangent at that point is 2, then a and b are:",
+    "options": [
+      "a = −5, b = 2",
+      "a = −5, b = 12",
+      "a = 3, b = 4",
+      "a = 5, b = 2"
+    ],
+    "correct": 1,
+    "explanation": "Point condition: a + b = 7. Tangent slope: f'(1) = 2a + b = 2. Subtracting: a = 2 − 7 = −5, then b = 7 − (−5) = 12."
+  },
+  {
+    "question": "The average rate of change of f(x) = x³ − x over [1, 2] is:",
+    "options": [
+      "6",
+      "7",
+      "3",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "Average rate = (f(2)−f(1))/(2−1) = (8−2−(1−1))/1 = 6/1 = 6."
+  },
+  {
+    "question": "If f(1) = 2, f'(1) = −3, g(1) = 6, g'(1) = 6, then d/dx[f(x)g(x)] at x = 1 equals:",
+    "options": [
+      "0",
+      "−18",
+      "−6",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "Product rule: f'(1)g(1) + f(1)g'(1) = (−3)(6) + (2)(6) = −18 + 12 = −6."
+  },
+  {
+    "question": "If f(1) = 2, f'(1) = −3, g(1) = 6, g'(1) = 6, then d/dx[g(x)/f(x)] at x = 1 equals:",
+    "options": [
+      "−15/2",
+      "6",
+      "3/2",
+      "15/2"
+    ],
+    "correct": 3,
+    "explanation": "Quotient rule: [g'(1)f(1) − f'(1)g(1)] / f(1)² = [(6)(2) − (−3)(6)] / 4 = (12+18)/4 = 30/4 = 15/2."
+  },
+  {
+    "question": "For f(x) = x²/(x−1), the critical numbers are:",
+    "options": [
+      "x = 0 and x = 2",
+      "x = 0, x = 1, and x = 2",
+      "x = 0 only",
+      "x = 1 and x = 2"
+    ],
+    "correct": 0,
+    "explanation": "f'(x) = (x²−2x)/(x−1)² = x(x−2)/(x−1)². Setting f'(x) = 0: x = 0 or x = 2. (x = 1 is not in the domain.) Critical numbers: x = 0 and x = 2."
+  },
+  {
+    "question": "The area bounded by f(x) = x^(1/3) and the x-axis on [−1, 8] is:",
+    "options": [
+      "3/4",
+      "51/4",
+      "45/4",
+      "12"
+    ],
+    "correct": 1,
+    "explanation": "f < 0 on [−1,0], f ≥ 0 on [0,8]. Area = −∫₋₁⁰x^(1/3)dx + ∫₀⁸x^(1/3)dx = (3/4)(1) + (3/4)(16) = 3/4 + 12 = 51/4."
+  }
+]
