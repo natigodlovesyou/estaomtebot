@@ -1,0 +1,1619 @@
+[
+  {
+    "question": "Under normal conditions, an object cannot gain or lose protons because:",
+    "options": [
+      "Protons carry positive charge and repel each other",
+      "Protons are heavier than electrons and cannot move",
+      "Protons are shielded by the electron cloud",
+      "Protons are bound in the nucleus by the strong nuclear force"
+    ],
+    "correct": 3,
+    "explanation": "Protons are confined inside the nucleus and held tightly by the strong nuclear force. Removing a proton requires nuclear-level energy (MeV range), not ordinary chemical or electrostatic processes. Only electrons are exchanged in normal charging."
+  },
+  {
+    "question": "A body acquires a charge of +3.2 × 10⁻¹⁸ C. How many electrons were transferred, and in which direction?",
+    "options": [
+      "20 electrons gained",
+      "2 electrons lost",
+      "20 electrons lost",
+      "32 electrons gained"
+    ],
+    "correct": 2,
+    "explanation": "Q = ne → n = Q/e = (3.2 × 10⁻¹⁸)/(1.6 × 10⁻¹⁹) = 20 electrons. A positive charge means electrons were removed (lost) from the body."
+  },
+  {
+    "question": "Which of the following charge values is physically impossible?",
+    "options": [
+      "3.2 × 10⁻¹⁹ C",
+      "1.6 × 10⁻¹⁸ C",
+      "2.4 × 10⁻¹⁹ C",
+      "8.0 × 10⁻¹⁹ C"
+    ],
+    "correct": 2,
+    "explanation": "By charge quantization, Q = ne where n is an integer. 2.4 × 10⁻¹⁹ / 1.6 × 10⁻¹⁹ = 1.5, which is not an integer. The other values give n = 2, 10, and 5 respectively — all valid."
+  },
+  {
+    "question": "Two conducting spheres carry charges Q₁ = 5 × 10⁻¹¹ C and Q₂ = −11 × 10⁻¹¹ C. After contact and separation, how many excess electrons are on each sphere?",
+    "options": [
+      "3.75 × 10⁸ electrons",
+      "1.0 × 10⁸ electrons",
+      "1.875 × 10⁸ electrons",
+      "5.0 × 10⁸ electrons"
+    ],
+    "correct": 2,
+    "explanation": "After contact: Q = (Q₁ + Q₂)/2 = (5 − 11) × 10⁻¹¹ / 2 = −3 × 10⁻¹¹ C. n = |Q|/e = (3 × 10⁻¹¹)/(1.6 × 10⁻¹⁹) = 1.875 × 10⁸ excess electrons on each sphere."
+  },
+  {
+    "question": "A conductor has 20 protons and 12 electrons. What is its net charge?",
+    "options": [
+      "3.2 × 10⁻¹⁸ C",
+      "5.12 × 10⁻¹⁸ C",
+      "1.92 × 10⁻¹⁸ C",
+      "1.28 × 10⁻¹⁸ C"
+    ],
+    "correct": 3,
+    "explanation": "Net charge = (protons − electrons) × e = (20 − 12) × 1.6 × 10⁻¹⁹ = 8 × 1.6 × 10⁻¹⁹ = 1.28 × 10⁻¹⁸ C (positive)."
+  },
+  {
+    "question": "Which relation contradicts Coulomb's law?",
+    "options": [
+      "F ∝ 1/r²",
+      "F ∝ Q₁Q₂",
+      "F ∝ r²",
+      "F_12 = −F_21"
+    ],
+    "correct": 2,
+    "explanation": "Coulomb's law gives F = KQ₁Q₂/r² — force is inversely proportional to r², not directly proportional. F ∝ r² (option C) contradicts this. Options A, B, and D are all consistent with Coulomb's law; option D reflects Newton's third law applied to electrostatic forces."
+  },
+  {
+    "question": "Two charges 6 nC and 3 nC are placed 30 mm apart. What is the electrostatic force between them?",
+    "options": [
+      "1.8 × 10⁻² N",
+      "5.4 × 10⁻⁴ N",
+      "6.0 × 10⁻⁵ N",
+      "1.8 × 10⁻⁴ N"
+    ],
+    "correct": 3,
+    "explanation": "F = KQ₁Q₂/r² = (9 × 10⁹)(6 × 10⁻⁹)(3 × 10⁻⁹)/(3 × 10⁻²)² = (162 × 10⁻⁹)/(9 × 10⁻⁴) = 1.8 × 10⁻⁴ N."
+  },
+  {
+    "question": "The electrostatic force between two equal charges separated by 3 cm is 3.6 N. What is the charge of each?",
+    "options": [
+      "4 × 10⁻⁷ C",
+      "2 × 10⁻⁶ C",
+      "2 × 10⁻⁷ C",
+      "6 × 10⁻⁷ C"
+    ],
+    "correct": 2,
+    "explanation": "F = KQ²/r² → Q² = Fr²/K = (3.6)(3 × 10⁻²)²/(9 × 10⁹) = (3.6 × 9 × 10⁻⁴)/(9 × 10⁹) = 4 × 10⁻¹⁴. Q = 2 × 10⁻⁷ C."
+  },
+  {
+    "question": "Two charges Q₁ = 6 nC and Q₂ = 15 nC experience a force of 900 N. What is their separation?",
+    "options": [
+      "3 cm",
+      "0.3 cm",
+      "30 cm",
+      "3 mm"
+    ],
+    "correct": 0,
+    "explanation": "r = √(KQ₁Q₂/F) = √((9 × 10⁹)(6 × 10⁻⁹)(15 × 10⁻⁹)/900) = √(9 × 10⁻⁴) = 3 × 10⁻² m = 3 cm."
+  },
+  {
+    "question": "Spheres with +6 × 10⁻⁵ C and −4 × 10⁻⁵ C touch and are then placed 40 mm apart. What is the force between them?",
+    "options": [
+      "225 N",
+      "562.5 N",
+      "1125 N",
+      "281.3 N"
+    ],
+    "correct": 1,
+    "explanation": "After contact: Q = (6 − 4) × 10⁻⁵/2 = 1 × 10⁻⁵ C each. F = KQ²/r² = (9 × 10⁹)(10⁻⁵)²/(4 × 10⁻²)² = (9 × 10⁻¹)/(16 × 10⁻⁴) = 562.5 N."
+  },
+  {
+    "question": "Two equal charges repel with force F at distance r. They are moved to distance r/10. What is the new force?",
+    "options": [
+      "10F",
+      "F/100",
+      "100F",
+      "F/10"
+    ],
+    "correct": 2,
+    "explanation": "F ∝ 1/r². F₂ = F₁(r₁/r₂)² = F(r/(r/10))² = F × 100 = 100F. Reducing separation by a factor of 10 increases force by 100."
+  },
+  {
+    "question": "Two positive charges repel with 0.16 N at 1.5 m separation. What is the force at 1 m separation?",
+    "options": [
+      "0.36 N",
+      "0.24 N",
+      "0.54 N",
+      "1.64 N"
+    ],
+    "correct": 0,
+    "explanation": "F₂ = F₁(r₁/r₂)² = 0.16 × (1.5/1)² = 0.16 × 2.25 = 0.36 N."
+  },
+  {
+    "question": "Two charges are separated by distance r. If both charges are tripled and r is doubled, the force becomes:",
+    "options": [
+      "9F/4",
+      "4F/9",
+      "9F/2",
+      "3F/4"
+    ],
+    "correct": 0,
+    "explanation": "F' = K(3Q₁)(3Q₂)/(2r)² = 9KQ₁Q₂/4r² = (9/4)F. Tripling each charge multiplies F by 9; doubling r divides F by 4. Net factor = 9/4."
+  },
+  {
+    "question": "Charges Q₁ = −4 μC and Q₂ = 2 μC are at x = 0 and x = 30 cm. Q₃ = −6 μC is at x = 60 cm. What is the net force on Q₂?",
+    "options": [
+      "0.4 N to the right",
+      "0.4 N to the left",
+      "2.0 N to the right",
+      "0.8 N to the left"
+    ],
+    "correct": 0,
+    "explanation": "F₁₂ = K|Q₁||Q₂|/r² = (9×10⁹)(4×10⁻⁶)(2×10⁻⁶)/(0.3)² = 0.8 N. Q₁ attracts Q₂ leftward. F₃₂ = K|Q₃||Q₂|/r² = (9×10⁹)(6×10⁻⁶)(2×10⁻⁶)/(0.3)² = 1.2 N. Q₃ attracts Q₂ rightward. F_net = 1.2 − 0.8 = 0.4 N to the right."
+  },
+  {
+    "question": "Charge q lies between Q₁ and Q₂. If q is closer to Q₁ and the net force on q is zero, which must be true?",
+    "options": [
+      "Q₁ = Q₂, same sign",
+      "Q₁ = Q₂, opposite signs",
+      "Q₁ < Q₂, same sign",
+      "Q₁ < Q₂, opposite signs"
+    ],
+    "correct": 2,
+    "explanation": "For equilibrium: KQ₁q/r₁² = KQ₂q/r₂². So Q₁/r₁² = Q₂/r₂². Since r₁ < r₂, we need Q₁ < Q₂. For forces to cancel, Q₁ and Q₂ must push/pull q in opposite directions → same sign."
+  },
+  {
+    "question": "Two electrons are 10⁻⁸ m apart. What is the electrostatic repulsion between them?",
+    "options": [
+      "2.3 × 10⁻¹¹ N",
+      "2.3 × 10⁻¹² N",
+      "1.2 × 10⁻¹² N",
+      "4.6 × 10⁻¹² N"
+    ],
+    "correct": 1,
+    "explanation": "F = Ke²/r² = (9×10⁹)(1.6×10⁻¹⁹)²/(10⁻⁸)² = (9×10⁹ × 2.56×10⁻³⁸)/10⁻¹⁶ = 2.3×10⁻¹² N. Option A results from not squaring r (using r = 10⁻⁸ instead of r² = 10⁻¹⁶). Option C arises from using only one factor of e instead of e². Option D doubles the charge, confusing total charge with individual charge."
+  },
+  {
+    "question": "Charges Q₁ = −4 μC at (3, 0) m and Q₂ = −3 μC at (0, 0.3) m. What are the force components on a +1 μC charge at the origin?",
+    "options": [
+      "Fx = −4 × 10⁻³ N, Fy = −3 × 10⁻³ N",
+      "Fx = 4 × 10⁻³ N, Fy = 3 × 10⁻³ N",
+      "Fx = 3 × 10⁻³ N, Fy = 4 × 10⁻³ N",
+      "Fx = −3 × 10⁻³ N, Fy = 4 × 10⁻³ N"
+    ],
+    "correct": 1,
+    "explanation": "Both Q₁ and Q₂ are negative, so they attract the +1 μC charge. Fx = K|Q₁||Q|/r₁² = (9×10⁹)(4×10⁻⁶)(10⁻⁶)/9 = 4×10⁻³ N (toward +x). Fy = K|Q₂||Q|/r₂² = (9×10⁹)(3×10⁻⁶)(10⁻⁶)/0.09 = 3×10⁻³ N (toward +y)."
+  },
+  {
+    "question": "Two negative charges repel with 2 N at 2 m. When separation is doubled, the force becomes:",
+    "options": [
+      "One half as great",
+      "One fourth as great",
+      "Twice as great",
+      "Four times as great"
+    ],
+    "correct": 1,
+    "explanation": "F ∝ 1/r². Doubling r multiplies F by (1/2)² = 1/4. New force = 0.5 N, which is one fourth of 2 N."
+  },
+  {
+    "question": "Two charges 2Q and −Q are separated by distance r with force F. After contact and re-separation, the new force is:",
+    "options": [
+      "F/8",
+      "F",
+      "F/4",
+      "F/2"
+    ],
+    "correct": 0,
+    "explanation": "Initial: F = K(2Q)(Q)/r² = 2KQ²/r². After contact: each gets (2Q − Q)/2 = Q/2. New force: F' = K(Q/2)(Q/2)/r² = KQ²/4r² = (1/8)(2KQ²/r²) = F/8."
+  },
+  {
+    "question": "A charge of 2 μC in an electric field experiences 8 × 10⁻⁴ N force. What is the field strength?",
+    "options": [
+      "400 N/C",
+      "40 N/C",
+      "4000 N/C",
+      "4 N/C"
+    ],
+    "correct": 0,
+    "explanation": "E = F/Q = (8 × 10⁻⁴)/(2 × 10⁻⁶) = 400 N/C."
+  },
+  {
+    "question": "A point charge of 2 μC is located at the origin. Find the electric field magnitude at 30 cm.",
+    "options": [
+      "2 × 10⁵ N/C",
+      "6 × 10⁴ N/C",
+      "2 × 10⁴ N/C",
+      "6 × 10⁵ N/C"
+    ],
+    "correct": 0,
+    "explanation": "E = KQ/r² = (9×10⁹)(2×10⁻⁶)/(0.3)² = 18×10³/0.09 = 2×10⁵ N/C."
+  },
+  {
+    "question": "Q₁ = −2 μC and Q₂ = +2 μC are 12 cm apart. What is the net electric field at their midpoint?",
+    "options": [
+      "Zero",
+      "0.5 × 10⁷ N/C toward Q₂",
+      "1 × 10⁷ N/C toward Q₂",
+      "1 × 10⁷ N/C toward Q₁"
+    ],
+    "correct": 3,
+    "explanation": "At the midpoint (r = 6 cm from each), E₁ from −Q points toward Q₁ (leftward), E₂ from +Q also points toward Q₁ (leftward). Both add: E = 2KQ/r² = 2(9×10⁹)(2×10⁻⁶)/(6×10⁻²)² = 1×10⁷ N/C toward the negative charge."
+  },
+  {
+    "question": "Four equal charges +4 μC are placed at the four corners of a square. What is the electric field at the center?",
+    "options": [
+      "Depends on the side length",
+      "4KQ/r²",
+      "2KQ/r²",
+      "Zero"
+    ],
+    "correct": 3,
+    "explanation": "By symmetry, the four field vectors point outward from each corner toward the center at equal angles. They cancel in pairs, giving a net field of zero at the center."
+  },
+  {
+    "question": "A particle with charge 6 μC moves in a uniform field of 3 × 10⁴ N/C. What is the force on it?",
+    "options": [
+      "1.8 N",
+      "18 N",
+      "180 N",
+      "0.18 N"
+    ],
+    "correct": 3,
+    "explanation": "F = QE = (6 × 10⁻⁶)(3 × 10⁴) = 18 × 10⁻² = 0.18 N."
+  },
+  {
+    "question": "An oil drop weighing 3.2 × 10⁻¹³ N is suspended by a field of 5 × 10⁵ N/C. What is the charge on the drop?",
+    "options": [
+      "3.2 × 10⁻¹⁹ C",
+      "6.4 × 10⁻¹⁹ C",
+      "1.6 × 10⁻¹⁸ C",
+      "6.4 × 10⁻¹⁸ C"
+    ],
+    "correct": 1,
+    "explanation": "At equilibrium QE = mg → Q = mg/E = (3.2 × 10⁻¹³)/(5 × 10⁵) = 6.4 × 10⁻¹⁹ C = 4e (four electron charges)."
+  },
+  {
+    "question": "A surface of 400 cm² is placed at 30° to a uniform 600 N/C field (angle measured from the surface plane). What is the electric flux through the surface?",
+    "options": [
+      "24 Nm²/C",
+      "0 Nm²/C",
+      "12 Nm²/C",
+      "20.8 Nm²/C"
+    ],
+    "correct": 2,
+    "explanation": "The angle with the normal is 90° − 30° = 60°. Φ = EAcosθ = (600)(4 × 10⁻²)cos(60°) = 24 × 0.5 = 12 Nm²/C."
+  },
+  {
+    "question": "A 5 cm × 8 cm plate lies in the xy-plane in a field E = 100ĵ + 10k̂ N/C. What is the electric flux through the plate?",
+    "options": [
+      "0.40 Nm²/C",
+      "4.0 Nm²/C",
+      "0.004 Nm²/C",
+      "0.04 Nm²/C"
+    ],
+    "correct": 3,
+    "explanation": "Plate in xy-plane has area vector A = 0.004 k̂ m². Φ = E · A = (100ĵ + 10k̂)·(0.004k̂) = 10 × 0.004 = 0.04 Nm²/C. The ĵ component contributes zero."
+  },
+  {
+    "question": "Find the electric field magnitude 20 m from a point charge of 8 × 10⁻¹⁰ C.",
+    "options": [
+      "1.8 × 10⁻² N/C",
+      "0.72 × 10⁻³ N/C",
+      "3.6 × 10⁻² N/C",
+      "3.5 × 10⁻² N/C"
+    ],
+    "correct": 0,
+    "explanation": "E = KQ/r² = (9 × 10⁹)(8 × 10⁻¹⁰)/(20)² = 7.2/400 = 1.8 × 10⁻² N/C."
+  },
+  {
+    "question": "The electric field between parallel plates is 1000 N/C and they are 1 cm apart. What is the potential difference between them?",
+    "options": [
+      "10 V",
+      "1000 V",
+      "100 V",
+      "0.1 V"
+    ],
+    "correct": 0,
+    "explanation": "V = Ed = (1000)(0.01) = 10 V. Do not confuse E (field strength) with V (potential); V = Ed only works for uniform fields."
+  },
+  {
+    "question": "Two parallel plates are 5 mm apart with a field of 2 × 10⁶ N/C. What is the potential difference?",
+    "options": [
+      "10 kV",
+      "100 V",
+      "1 kV",
+      "400 V"
+    ],
+    "correct": 0,
+    "explanation": "V = Ed = (2 × 10⁶)(5 × 10⁻³) = 10⁴ V = 10 kV."
+  },
+  {
+    "question": "Calculate the electric potential 30 cm from a point charge of 6 μC.",
+    "options": [
+      "1.8 × 10⁴ V",
+      "1.8 × 10³ V",
+      "1.8 × 10⁵ V",
+      "1.8 × 10⁶ V"
+    ],
+    "correct": 2,
+    "explanation": "V = KQ/r = (9 × 10⁹)(6 × 10⁻⁶)/(0.3) = 54000/0.3 = 1.8 × 10⁵ V."
+  },
+  {
+    "question": "Q₁ = 6 μC at x = 0 and Q₂ = −6 μC at x = 12 cm. What is the total electric potential at a point 4 cm from Q₁?",
+    "options": [
+      "6.75 × 10⁵ V",
+      "0 V",
+      "1.35 × 10⁶ V",
+      "−6.75 × 10⁵ V"
+    ],
+    "correct": 0,
+    "explanation": "Point is 4 cm from Q₁ and 8 cm from Q₂. V = K[Q₁/r₁ + Q₂/r₂] = 9×10⁹[(6×10⁻⁶/0.04) + (−6×10⁻⁶/0.08)] = 9×10⁹[150×10⁻⁶ − 75×10⁻⁶] = 6.75×10⁵ V."
+  },
+  {
+    "question": "Two charges +q and −q are at equal distance r from apex A of an isosceles triangle. What is the electric potential at A?",
+    "options": [
+      "2Kq/r",
+      "Zero",
+      "Kq/r",
+      "−Kq/r"
+    ],
+    "correct": 1,
+    "explanation": "V = V₁ + V₂ = Kq/r + K(−q)/r = 0. Electric potential is a scalar; equal and opposite charges at equal distances cancel. (Note: the electric field at A is NOT zero.)"
+  },
+  {
+    "question": "Two 1 μC charges are 1 m apart. What is their electrostatic potential energy?",
+    "options": [
+      "9 × 10⁻² J",
+      "9 × 10⁻³ J",
+      "4.5 × 10⁻³ J",
+      "1.8 × 10⁻² J"
+    ],
+    "correct": 1,
+    "explanation": "U = KQ₁Q₂/r = (9×10⁹)(10⁻⁶)(10⁻⁶)/1 = 9×10⁻³ J. Option A results from an exponent error (treating the product as 10⁻² instead of 10⁻³). Option C confuses potential energy with the capacitor stored-energy formula U = QV/2. Option D uses a combined charge of 2 μC instead of the product of two 1 μC charges."
+  },
+  {
+    "question": "A −5 C charge is brought from infinity to a point and 100 J of work is done. What is the potential at that point?",
+    "options": [
+      "+20 V",
+      "−20 V",
+      "+10 V",
+      "−10 V"
+    ],
+    "correct": 1,
+    "explanation": "V = W_ext / q, where W_ext is work done by the external agent on the charge. Here W_ext = +100 J and q = −5 C, so V = 100 / (−5) = −20 V. The negative potential makes sense: a negative charge naturally moves toward higher potential, so to bring it to a point of lower (negative) potential requires positive external work."
+  },
+  {
+    "question": "0.4 C of charge is moved from infinity to point P and 20 J of work is done. What is the electric potential at P?",
+    "options": [
+      "50 V",
+      "8 V",
+      "160 V",
+      "1000 V"
+    ],
+    "correct": 0,
+    "explanation": "V = W/Q = 20/0.4 = 50 V."
+  },
+  {
+    "question": "A nucleus carries charge 50e. What is its electric potential at 10⁻¹² m?",
+    "options": [
+      "1.44 × 10⁵ V",
+      "7.2 × 10⁵ V",
+      "7.2 × 10⁴ V",
+      "3.6 × 10⁴ V"
+    ],
+    "correct": 2,
+    "explanation": "V = KQ/r = (9×10⁹)(50 × 1.6×10⁻¹⁹)/(10⁻¹²) = (9×10⁹)(8×10⁻¹⁸)/10⁻¹² = 7.2×10⁴ V. Option A uses K = 9×10⁹ but incorrectly rounds 50e to 1.6×10⁻¹⁷ C instead of 8×10⁻¹⁸ C. Option B is a factor-of-10 error — misplacing the decimal in the final multiplication. Option D uses charge 25e instead of 50e, halving the result."
+  },
+  {
+    "question": "A proton is placed midway between point A (10 V) and point B (30 V). In which direction does it move?",
+    "options": [
+      "Toward A, the lower potential region",
+      "Toward B, the higher potential region",
+      "It remains stationary since the field is uniform",
+      "It moves perpendicular to the field"
+    ],
+    "correct": 0,
+    "explanation": "The electric field points from high to low potential, i.e., from B (30 V) toward A (10 V). A proton (positive charge) experiences a force in the direction of E, so it accelerates toward A, the lower potential region. Positive charges move from high to low potential."
+  },
+  {
+    "question": "An electron is placed midway between point A (10 V) and point B (30 V). In which direction will it move?",
+    "options": [
+      "Toward B, the higher potential region",
+      "Toward A, the lower potential region",
+      "It stays at rest since the field is uniform",
+      "It moves perpendicular to the field"
+    ],
+    "correct": 0,
+    "explanation": "E points from high to low potential, i.e., from B toward A. Force on electron F = −eE, opposite to E, so the electron accelerates toward B (the higher potential). Unlike positive charges, electrons move toward higher potential."
+  },
+  {
+    "question": "Which of the following is dimensionally equivalent to the volt?",
+    "options": [
+      "N·m/C",
+      "N/C",
+      "J/(C·m)",
+      "C/J"
+    ],
+    "correct": 0,
+    "explanation": "1 V = 1 J/C = 1 N·m/C (since J = N·m). Option A is therefore correct. Option B (N/C) is the unit of electric field, not potential. Option C (J/C·m) is the unit of electric field written differently (V/m = J/C·m = N/C). Option D inverts the definition."
+  },
+  {
+    "question": "Two capacitors C₁ < C₂ are connected in series. Their equivalent capacitance C_eq is:",
+    "options": [
+      "Between C₁ and C₂",
+      "Less than C₁",
+      "Greater than C₂",
+      "Equal to C₁ + C₂"
+    ],
+    "correct": 1,
+    "explanation": "For series capacitors: 1/C_eq = 1/C₁ + 1/C₂. This gives C_eq < C₁ < C₂. Series combination always yields a capacitance smaller than the smallest individual capacitor."
+  },
+  {
+    "question": "Three capacitors of 4 μF, 8 μF, and C are connected in series. The effective capacitance is 24/11 μF. What is C?",
+    "options": [
+      "10 μF",
+      "8 μF",
+      "6 μF",
+      "12 μF"
+    ],
+    "correct": 3,
+    "explanation": "1/C_eq = 1/C + 1/4 + 1/8 → 11/24 = 1/C + 3/8 → 1/C = 11/24 − 9/24 = 2/24 = 1/12. So C = 12 μF."
+  },
+  {
+    "question": "Two metal spheres with charges 7 C and −3 C are brought into contact then separated. How many electrons are surplus/deficient on each?",
+    "options": [
+      "3.15 × 10¹⁹",
+      "2.5 × 10¹⁹",
+      "1.25 × 10¹⁹",
+      "6.25 × 10¹⁸"
+    ],
+    "correct": 2,
+    "explanation": "After contact: Q = (7 − 3)/2 = 2 C on each. n = Q/e = 2/(1.6 × 10⁻¹⁹) = 1.25 × 10¹⁹ electrons deficient (each sphere is positively charged)."
+  },
+  {
+    "question": "Both charges are doubled and their separation is halved. The new electrostatic force is:",
+    "options": [
+      "4F",
+      "F/4",
+      "8F",
+      "16F"
+    ],
+    "correct": 3,
+    "explanation": "F' = K(2Q₁)(2Q₂)/(r/2)² = 4KQ₁Q₂/(r²/4) = 16KQ₁Q₂/r² = 16F."
+  },
+  {
+    "question": "Two equal spheres lose the same number of electrons so that each has charge Q. They repel with 10⁻³ N at 3 mm apart. How many electrons were lost by each?",
+    "options": [
+      "6.25 × 10⁷",
+      "6.25 × 10⁹",
+      "3.9 × 10⁹",
+      "1.25 × 10¹⁰"
+    ],
+    "correct": 1,
+    "explanation": "F = KQ²/r² → Q² = Fr²/K = (10⁻³)(3×10⁻³)²/(9×10⁹) = 10⁻¹⁸ → Q = 10⁻⁹ C. n = Q/e = 10⁻⁹/(1.6×10⁻¹⁹) = 6.25×10⁹. Option A omits the square root, reporting n² instead of n. Option C uses r = 3 mm correctly but makes a rounding error in the intermediate Q step. Option D doubles the result by using r = 3 mm on both sides of the equation without squaring."
+  },
+  {
+    "question": "At what distance from a 1 μC charge is the electric potential equal to 3 × 10⁴ V?",
+    "options": [
+      "1.0 m",
+      "0.3 m",
+      "3.0 m",
+      "0.03 m"
+    ],
+    "correct": 1,
+    "explanation": "V = KQ/r → r = KQ/V = (9×10⁹)(10⁻⁶)/(3×10⁴) = 9000/30000 = 0.3 m."
+  },
+  {
+    "question": "At what separation will a 2 nC and a 2 μC charge experience 1 N force?",
+    "options": [
+      "6 mm",
+      "6 cm",
+      "6 m",
+      "0.6 m"
+    ],
+    "correct": 0,
+    "explanation": "r = √(KQ₁Q₂/F) = √((9×10⁹)(2×10⁻⁹)(2×10⁻⁶)/1) = √(36×10⁻⁶) = 6×10⁻³ m = 6 mm."
+  },
+  {
+    "question": "Charge Q is divided into two parts q and (Q−q). For the repulsive force between them (at fixed separation) to be maximum, q should be:",
+    "options": [
+      "Q/4",
+      "Q/3",
+      "2Q/3",
+      "Q/2"
+    ],
+    "correct": 3,
+    "explanation": "F ∝ q(Q−q). Differentiate: dF/dq = Q − 2q = 0 → q = Q/2. Maximum force occurs when the charge is split equally."
+  },
+  {
+    "question": "10¹⁹ electrons are removed from a metal plate. What is the resulting charge?",
+    "options": [
+      "−1.6 C",
+      "+16 C",
+      "+1.6 C",
+      "−16 C"
+    ],
+    "correct": 2,
+    "explanation": "Q = ne = (10¹⁹)(1.6×10⁻¹⁹) = 1.6 C. Since electrons are removed, the plate is left with a positive charge of +1.6 C."
+  },
+  {
+    "question": "The electrostatic force between a proton and an electron is compared to the gravitational force between them. Which is correct?",
+    "options": [
+      "F_E ≈ F_G",
+      "F_G ≈ 10³⁹ × F_E",
+      "F_E ≈ 10³⁹ × F_G",
+      "F_E ≈ 1836 × F_G"
+    ],
+    "correct": 2,
+    "explanation": "F_E/F_G = Ke²/(Gm_e·m_p) = (9×10⁹)(1.6×10⁻¹⁹)²/[(6.67×10⁻¹¹)(9.1×10⁻³¹)(1.67×10⁻²⁷)] ≈ 10³⁹. Electrostatic force dominates enormously over gravity at atomic scales."
+  },
+  {
+    "question": "A proton and an electron have the same magnitude of charge. If the repulsive force between two protons at a given separation is F, the force between two electrons at the same separation is:",
+    "options": [
+      "F",
+      "1836F",
+      "F/1836",
+      "F/1836²"
+    ],
+    "correct": 0,
+    "explanation": "Coulomb's law depends only on charge magnitude, not mass. Both proton and electron carry |e| = 1.6×10⁻¹⁹ C. The electrostatic forces are identical; mass is irrelevant here."
+  },
+  {
+    "question": "What electric field would exert a force on a proton equal to its weight? (m_p = 1.67×10⁻²⁷ kg, g = 10 m/s²)",
+    "options": [
+      "1.64 × 10⁻⁷ N/C",
+      "1.02 × 10⁻⁷ N/C",
+      "6.4 × 10⁻⁸ N/C",
+      "1.02 × 10⁻⁸ N/C"
+    ],
+    "correct": 1,
+    "explanation": "At equilibrium: eE = m_p·g → E = m_p·g/e = (1.67×10⁻²⁷ × 10)/(1.6×10⁻¹⁹) = 1.04×10⁻⁷ ≈ 1.02×10⁻⁷ N/C. Option A uses g = 9.8 m/s² instead of the rounded value 10, giving a slightly higher result. Option C divides by e twice — treating the denominator as e² rather than e. Option D is a factor-of-10 exponent slip in m_p (using 1.67×10⁻²⁸ instead of 10⁻²⁷)."
+  },
+  {
+    "question": "A cube with identical charge Q at each vertex has net electric field at its center equal to:",
+    "options": [
+      "8KQ/r²",
+      "KQ/r²",
+      "4KQ/r²",
+      "Zero"
+    ],
+    "correct": 3,
+    "explanation": "By symmetry, the cube has 8 vertices. Each charge produces a field directed from its vertex toward the center. For every charge, there is an opposite vertex whose field vector is equal and opposite. All 4 pairs cancel, giving E = 0 at the center."
+  },
+  {
+    "question": "Current density J is the same in wires A and B. Wire A has twice the electron number density of wire B. How does the drift velocity of A compare to B?",
+    "options": [
+      "v_A = 2v_B",
+      "v_A = v_B",
+      "v_A = v_B / 2",
+      "v_A = 4v_B"
+    ],
+    "correct": 2,
+    "explanation": "J = nqv_d → v_d = J/(nq). Since J is equal and n_A = 2n_B: v_A = J/(2n_B·q) = v_B/2. Higher carrier density means lower drift velocity for the same current density."
+  },
+  {
+    "question": "A wire (diameter 4 mm) transfers 960 C in 80 minutes. With n = 5.8×10²⁸ electrons/m³, what is the drift velocity?",
+    "options": [
+      "1.7 × 10⁻³ m/s",
+      "1.7 × 10⁻⁶ m/s",
+      "3.4 × 10⁻⁶ m/s",
+      "8.5 × 10⁻⁷ m/s"
+    ],
+    "correct": 1,
+    "explanation": "I = Q/t = 960/(80×60) = 0.2 A. A = π(2×10⁻³)² = 4π×10⁻⁶ m². v_d = I/(nqA) = 0.2/[(5.8×10²⁸)(1.6×10⁻¹⁹)(4π×10⁻⁶)] ≈ 1.7×10⁻⁶ m/s."
+  },
+  {
+    "question": "A wire of cross-section 8 mm² carries 0.5 A. With n = 5×10²⁸ electrons/m³, the drift velocity is:",
+    "options": [
+      "7.8 × 10⁻³ m/s",
+      "3.9 × 10⁻⁶ m/s",
+      "7.8 × 10⁻⁶ m/s",
+      "1.56 × 10⁻⁵ m/s"
+    ],
+    "correct": 2,
+    "explanation": "v_d = I/(nqA) = 0.5/[(5×10²⁸)(1.6×10⁻¹⁹)(8×10⁻⁶)] = 0.5/(6.4×10⁴) ≈ 7.8×10⁻⁶ m/s."
+  },
+  {
+    "question": "A conductor has conductivity σ = 2×10⁻² Ω⁻¹m⁻¹ and is placed in a uniform electric field E = 6×10⁵ N/C. Determine the current density.",
+    "options": [
+      "1.2 × 10⁴ A/m²",
+      "3.0 × 10⁷ A/m²",
+      "1.2 × 10² A/m²",
+      "1.2 × 10³ A/m²"
+    ],
+    "correct": 3,
+    "explanation": "J = σE = (2×10⁻²)(6×10⁵) = 1.2×10³ A/m². Ohm's microscopic law: J = σE."
+  },
+  {
+    "question": "How long does 60 C of charge take to pass through a 12 Ω resistor under 3 V?",
+    "options": [
+      "20 s",
+      "240 s",
+      "180 s",
+      "60 s"
+    ],
+    "correct": 1,
+    "explanation": "I = V/R = 3/12 = 0.25 A. t = Q/I = 60/0.25 = 240 s. Do not confuse with t = Q/I where I = V/R must be found first."
+  },
+  {
+    "question": "A 27 V potential is applied across a resistor and 5 μC passes in 30 minutes. What is the resistance?",
+    "options": [
+      "~27 Ω",
+      "~10¹¹ Ω",
+      "~10⁸ Ω",
+      "~5400 Ω"
+    ],
+    "correct": 1,
+    "explanation": "I = Q/t = (5×10⁻⁶)/(30×60) = 5×10⁻⁶/1800 ≈ 2.78×10⁻⁹ A. R = V/I = 27/(2.78×10⁻⁹) ≈ 9.7×10⁹ Ω ≈ 10¹⁰ Ω. The closest answer choice is ~10¹¹ Ω (order-of-magnitude). This is characteristic of an insulator or leaky capacitor dielectric."
+  },
+  {
+    "question": "How many electrons pass through a conductor in 5 s when the current is 8 A?",
+    "options": [
+      "2.5 × 10¹⁹",
+      "4.0 × 10²⁰",
+      "2.5 × 10²⁰",
+      "1.6 × 10²⁰"
+    ],
+    "correct": 2,
+    "explanation": "Q = It = 8×5 = 40 C. n = Q/e = 40/(1.6×10⁻¹⁹) = 2.5×10²⁰ electrons."
+  },
+  {
+    "question": "What voltage drives 8 A through a 40 Ω conductor?",
+    "options": [
+      "32 V",
+      "320 V",
+      "5 V",
+      "3200 V"
+    ],
+    "correct": 1,
+    "explanation": "V = IR = (8)(40) = 320 V."
+  },
+  {
+    "question": "One lamp in a series circuit burns out. What happens to the others?",
+    "options": [
+      "Remaining lamps get brighter",
+      "Remaining lamps are unaffected",
+      "Only adjacent lamps go out",
+      "All other lamps go out"
+    ],
+    "correct": 3,
+    "explanation": "In a series circuit, all components share a single path. If one lamp burns out (open circuit), the current path is broken and all lamps go out. Compare with parallel circuits where each lamp has its own independent path."
+  },
+  {
+    "question": "Which combination gives the larger equivalent resistance: series or parallel?",
+    "options": [
+      "Parallel",
+      "They are equal",
+      "Depends on the values of the resistors",
+      "Series"
+    ],
+    "correct": 3,
+    "explanation": "Series: R_eq = R₁ + R₂ + ... (always > any individual R). Parallel: 1/R_eq = 1/R₁ + 1/R₂ + ... (always < the smallest R). Series always yields the larger equivalent resistance."
+  },
+  {
+    "question": "Which of the following statements about charge is incorrect?",
+    "options": [
+      "Charge is quantized in integral multiples of e",
+      "Coulomb's law applies only when both charges are stationary",
+      "Charge is conserved in any isolated system",
+      "The proton and electron carry equal and opposite charges"
+    ],
+    "correct": 1,
+    "explanation": "Coulomb's law gives the electrostatic force between point charges regardless of their state of motion — it is not restricted to stationary charges (option B is incorrect). Moving charges additionally experience magnetic forces, but the electrostatic component still obeys Coulomb's law. Options A, C, and D are all correct fundamental properties of charge."
+  },
+  {
+    "question": "Pith ball charges are 20 nC each. What separation balances the electrostatic repulsion with the weight of the upper ball (m = 0.1 g, g = 10 m/s²)?",
+    "options": [
+      "1.8 mm",
+      "6 cm",
+      "6 mm",
+      "18 cm"
+    ],
+    "correct": 1,
+    "explanation": "KQ²/d² = mg → d = √(KQ²/mg) = √((9×10⁹)(20×10⁻⁹)²/(10⁻⁴×10)) = √(3.6×10⁻³) = 0.06 m = 6 cm."
+  },
+  {
+    "question": "Positively charged balloon A repels balloon B. Balloon B attracts balloon C. Balloon B must be:",
+    "options": [
+      "Positively charged",
+      "Negatively charged",
+      "Uncharged",
+      "Cannot be determined"
+    ],
+    "correct": 0,
+    "explanation": "Balloon A (positive) repels B → B is also positive. Balloon B (positive) attracts C → C is negative or uncharged. B must be positively charged."
+  },
+  {
+    "question": "Volt per meter (V/m) is dimensionally equivalent to:",
+    "options": [
+      "Joule per meter (J/m)",
+      "Joule per coulomb (J/C)",
+      "Newton per meter (N/m)",
+      "Newton per coulomb (N/C)"
+    ],
+    "correct": 3,
+    "explanation": "E = V/d → V/m = (J/C)/m = J/(C·m) = N·m/(C·m) = N/C. Electric field can be expressed as V/m or N/C; they are equivalent."
+  },
+  {
+    "question": "Electric flux is negative through a closed surface when:",
+    "options": [
+      "The field is parallel to the surface",
+      "The surface area is decreasing",
+      "The field is perpendicular to the surface",
+      "The enclosed charge is negative"
+    ],
+    "correct": 3,
+    "explanation": "By Gauss's law: Φ = Q_enc/ε₀. If Q_enc < 0, then Φ < 0. Negative flux means field lines are entering the surface (directed inward), which corresponds to a net enclosed negative charge."
+  },
+  {
+    "question": "Three equal charges of 2 μC sit at three corners of a 5 cm square. What is the electric potential at the fourth corner?",
+    "options": [
+      "1.08 × 10⁶ V",
+      "5.4 × 10⁵ V",
+      "3.6 × 10⁵ V",
+      "9.7 × 10⁵ V"
+    ],
+    "correct": 3,
+    "explanation": "Two charges are 5 cm away, one is 5√2 cm away. V = KQ(1/r₁ + 1/r₂ + 1/r₃) = (9×10⁹)(2×10⁻⁶)[1/0.05 + 1/(0.05√2) + 1/0.05] = 18×10³[20 + 14.14 + 20] ≈ 9.7×10⁵ V."
+  },
+  {
+    "question": "Work done to bring a +2 μC charge to a point where V = 100 V is:",
+    "options": [
+      "2 × 10⁻² J",
+      "50 J",
+      "2 × 10⁻⁴ J",
+      "200 J"
+    ],
+    "correct": 2,
+    "explanation": "W = QV = (2×10⁻⁶)(100) = 2×10⁻⁴ J. Work equals charge times potential at the destination (measuring from infinity)."
+  },
+  {
+    "question": "Two resistors R₁ = 1Ω and R₂ = 2Ω are connected in series to a 6V battery. What is the ratio of the potential drop across R₁ to that across R₂?",
+    "options": [
+      "1:1",
+      "1:2",
+      "2:1",
+      "1:3"
+    ],
+    "correct": 1,
+    "explanation": "In series, same current flows: I = V/(R₁+R₂) = 6/3 = 2A. V₁ = 2×1 = 2V, V₂ = 2×2 = 4V. Ratio V₁:V₂ = 2:4 = 1:2."
+  },
+  {
+    "question": "R₁ = 3Ω and R₂ = 6Ω are connected in parallel across 12V. What is the ratio of current through R₁ to that through R₂?",
+    "options": [
+      "1:2",
+      "2:1",
+      "1:1",
+      "3:6"
+    ],
+    "correct": 1,
+    "explanation": "In parallel, same voltage. I₁ = 12/3 = 4A, I₂ = 12/6 = 2A. Ratio = 4:2 = 2:1. Current splits inversely with resistance."
+  },
+  {
+    "question": "In a circuit, R₁ = 4Ω is in series with a parallel combination of R₂ = 6Ω and R₃ = 3Ω, supplied by 18V. What is the voltage across the parallel combination?",
+    "options": [
+      "12V",
+      "6V",
+      "9V",
+      "3V"
+    ],
+    "correct": 1,
+    "explanation": "R₂₃ = (6×3)/(6+3) = 2Ω. Total R = 4+2 = 6Ω. I = 18/6 = 3A. V_parallel = 3×2 = 6V."
+  },
+  {
+    "question": "In the circuit: R_A = 1.5Ω in series with parallel combination of R_B = 125Ω and R_C = 12Ω, supplied by 125V. What is the potential drop across R_A?",
+    "options": [
+      "1.5V",
+      "12.5V",
+      "15V",
+      "25V"
+    ],
+    "correct": 2,
+    "explanation": "1/R_BC = 1/125 + 1/12 ≈ 1/11. R_BC ≈ 11Ω. Total R = 1.5+11 = 12.5Ω. I = 125/12.5 = 10A. V_A = 10×1.5 = 15V."
+  },
+  {
+    "question": "A circuit has R₁ = 3Ω in parallel with a series combination of R₂ = 6Ω and R₃ = 6Ω, connected to 4.8V. What is the total current drawn from the source?",
+    "options": [
+      "1A",
+      "2A",
+      "3A",
+      "4A"
+    ],
+    "correct": 1,
+    "explanation": "R₂₃ = 6+6 = 12Ω. R₁ ∥ R₂₃ = (3×12)/(3+12) = 2.4Ω. I = 4.8/2.4 = 2A."
+  },
+  {
+    "question": "A wire of resistance R is cut into n equal pieces, then all pieces are connected in parallel. The new equivalent resistance is:",
+    "options": [
+      "R/n",
+      "nR",
+      "R/n²",
+      "n²R"
+    ],
+    "correct": 2,
+    "explanation": "Each piece has resistance R/n. In parallel: R_T = (R/n)/n = R/n². Both the individual resistance and number of parallel branches scale with n."
+  },
+  {
+    "question": "An ideal ammeter should have ______ internal resistance, and an ideal voltmeter should have ______ internal resistance.",
+    "options": [
+      "zero; infinite",
+      "infinite; zero",
+      "zero; zero",
+      "infinite; infinite"
+    ],
+    "correct": 0,
+    "explanation": "Ammeter is in series — zero resistance ensures it doesn't reduce the circuit current. Voltmeter is in parallel — infinite resistance ensures no current is diverted through it."
+  },
+  {
+    "question": "A real ammeter with resistance r is mistakenly connected in parallel with a resistor R. Compared to the true current through R, the measured reading will be:",
+    "options": [
+      "Higher than the true current",
+      "Lower than the true current",
+      "Equal to the true current",
+      "Zero, since it's incorrectly connected"
+    ],
+    "correct": 0,
+    "explanation": "Connecting the ammeter in parallel lowers the equivalent resistance of that branch, increasing total current drawn. The ammeter reads its own branch current, which is higher than what R alone would carry."
+  },
+  {
+    "question": "A galvanometer (R_g = 50Ω, I_g = 5mA) is to be converted into a 10A ammeter. What shunt resistance is required?",
+    "options": [
+      "0.025Ω",
+      "0.25Ω",
+      "2.5Ω",
+      "25Ω"
+    ],
+    "correct": 0,
+    "explanation": "R_sh = (I_g × R_g)/(I − I_g) = (0.005 × 50)/(10 − 0.005) ≈ 0.25/10 = 0.025Ω."
+  },
+  {
+    "question": "A galvanometer (R_g = 50Ω, I_g = 5mA) is converted into a 10V voltmeter. What series multiplier resistance is required?",
+    "options": [
+      "950Ω",
+      "1950Ω",
+      "2000Ω",
+      "1000Ω"
+    ],
+    "correct": 1,
+    "explanation": "R_m = (V/I_g) − R_g = (10/0.005) − 50 = 2000 − 50 = 1950Ω."
+  },
+  {
+    "question": "To convert a galvanometer into an ammeter, which of the following is correct?",
+    "options": [
+      "High-resistance shunt in series",
+      "Low-resistance shunt in series",
+      "High-resistance shunt in parallel",
+      "Low-resistance shunt in parallel"
+    ],
+    "correct": 3,
+    "explanation": "A low-resistance shunt in parallel allows most of the circuit current to bypass the sensitive galvanometer coil, extending its current range."
+  },
+  {
+    "question": "Two resistors of 200Ω and 100Ω are connected in series across 6V (voltage divider). The output voltage across the 100Ω resistor is:",
+    "options": [
+      "4V",
+      "3V",
+      "2V",
+      "1V"
+    ],
+    "correct": 2,
+    "explanation": "V(100Ω) = [100/(200+100)] × 6 = (1/3) × 6 = 2V. Voltage divides proportionally to resistance."
+  },
+  {
+    "question": "In a potentiometer experiment, the balancing length is (1/3) of the total wire length AB, and the driver cell has an EMF of 3V. What is the EMF of the unknown cell?",
+    "options": [
+      "0.5V",
+      "1V",
+      "2V",
+      "3V"
+    ],
+    "correct": 1,
+    "explanation": "E_x = E₀ × (AY/AB) = 3 × (1/3) = 1V. The potentiometer compares EMFs via balancing lengths."
+  },
+  {
+    "question": "In a potentiometer circuit with a 4.5V source, cell X balances at AC = (1/3)AB and cell Y balances at AD = (2/3)AB. The ratio E_x : E_y is:",
+    "options": [
+      "2:1",
+      "1:1",
+      "1:2",
+      "1:3"
+    ],
+    "correct": 2,
+    "explanation": "E_x/E_y = AC/AD = (1/3)/(2/3) = 1/2. Therefore E_x : E_y = 1:2."
+  },
+  {
+    "question": "In a balanced Wheatstone bridge, R_x is in one arm and 3Ω in the adjacent arm; the other two arms have 10Ω and 2Ω. What is R_x?",
+    "options": [
+      "6Ω",
+      "10Ω",
+      "15Ω",
+      "30Ω"
+    ],
+    "correct": 2,
+    "explanation": "Balance condition: R_x/3 = 10/2 → R_x = 15Ω. Current through the galvanometer is zero when the bridge is balanced."
+  },
+  {
+    "question": "Kirchhoff's Current Law (KCL) is fundamentally a statement of conservation of:",
+    "options": [
+      "Energy",
+      "Charge",
+      "Momentum",
+      "Voltage"
+    ],
+    "correct": 1,
+    "explanation": "KCL states ΣI_in = ΣI_out at a junction. This reflects charge conservation — charge cannot accumulate at a node."
+  },
+  {
+    "question": "In a two-loop circuit, applying Kirchhoff's laws yields I₁ = −1A. What does the negative sign physically mean?",
+    "options": [
+      "Current is zero in that branch",
+      "Current flows opposite to the assumed direction",
+      "Kirchhoff's law is violated",
+      "The branch has no resistance"
+    ],
+    "correct": 1,
+    "explanation": "A negative value for current means the actual current direction is opposite to the initially assumed direction. The magnitude is still valid."
+  },
+  {
+    "question": "In a Kirchhoff circuit, the junction rule gives I₂ = I₁ + I₃. If I₁ = −1A and I₃ = 2A, then I₂ =",
+    "options": [
+      "3A",
+      "1A",
+      "−1A",
+      "2A"
+    ],
+    "correct": 1,
+    "explanation": "I₂ = I₁ + I₃ = −1 + 2 = 1A. The negative I₁ indicates that branch actually feeds into the junction rather than drawing from it."
+  },
+  {
+    "question": "The net charge stored by a capacitor is:",
+    "options": [
+      "+Q on both plates",
+      "2Q total",
+      "Q, equal to charge on one plate",
+      "Zero"
+    ],
+    "correct": 3,
+    "explanation": "One plate stores +Q and the other −Q. The net charge is +Q + (−Q) = 0. A capacitor redistributes charge, it doesn't create it."
+  },
+  {
+    "question": "A capacitor of 5μF stores 15μC of charge. What is the potential difference between its plates?",
+    "options": [
+      "75V",
+      "10V",
+      "5V",
+      "3V"
+    ],
+    "correct": 3,
+    "explanation": "V = Q/C = 15μC / 5μF = 3V."
+  },
+  {
+    "question": "Two 2μF capacitors are connected first in series, then in parallel. The ratio of equivalent capacitance (series : parallel) is:",
+    "options": [
+      "2:1",
+      "1:2",
+      "4:1",
+      "1:4"
+    ],
+    "correct": 3,
+    "explanation": "Series: C_s = C/2 = 1μF. Parallel: C_p = 2C = 4μF. Ratio = 1:4."
+  },
+  {
+    "question": "A 3μF capacitor is in series with the parallel combination of 2μF and 4μF capacitors, connected across a voltage source. The equivalent capacitance is:",
+    "options": [
+      "9μF",
+      "3μF",
+      "2μF",
+      "1.5μF"
+    ],
+    "correct": 2,
+    "explanation": "2μF ∥ 4μF = 6μF. Then series with 3μF: 1/C_T = 1/3 + 1/6 = 1/2 → C_T = 2μF."
+  },
+  {
+    "question": "C₁ = 1μF and C₂ = 2μF are in parallel, then in series with C₃ = 3μF across 9V. What is the charge on C₃?",
+    "options": [
+      "4.5μC",
+      "9μC",
+      "13.5μC",
+      "27μC"
+    ],
+    "correct": 2,
+    "explanation": "C₁₂ = 1+2 = 3μF. Series with 3μF: C_T = 1.5μF. Q_total = 1.5×9 = 13.5μC. Since C₃ is in series with C₁₂, it carries the full series charge Q₃ = 13.5μC."
+  },
+  {
+    "question": "An air-filled capacitor has capacitance C₀. The plate separation is doubled and a dielectric of constant K is inserted. The new capacitance equals 2C₀. What is K?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "explanation": "C = Kε₀A/d. Doubling d halves C to C₀/2. For new C = 2C₀: K×(C₀/2) = 2C₀ → K = 4."
+  },
+  {
+    "question": "When a dielectric is inserted into an isolated (disconnected) charged capacitor, which quantity increases?",
+    "options": [
+      "Charge stored",
+      "Electric field between plates",
+      "Capacitance",
+      "Potential difference"
+    ],
+    "correct": 2,
+    "explanation": "Inserting a dielectric increases C (C = Kε₀A/d). Since the capacitor is isolated, Q is fixed. V = Q/C decreases. E = V/d also decreases. Only C increases."
+  },
+  {
+    "question": "What dielectric constant reduces the potential difference between capacitor plates from 12V to 5V (charge held constant)?",
+    "options": [
+      "2.0",
+      "4.0",
+      "2.4",
+      "4.2"
+    ],
+    "correct": 2,
+    "explanation": "V = V₀/K → K = V₀/V = 12/5 = 2.4. The dielectric weakens the electric field and thus reduces V."
+  },
+  {
+    "question": "The electric potential along the x-axis is V(x) = 4x + 5x². The electric field at x = 2m is:",
+    "options": [
+      "20 V/m in +x direction",
+      "20 V/m in −x direction",
+      "24 V/m in −x direction",
+      "24 V/m in +x direction"
+    ],
+    "correct": 2,
+    "explanation": "E = −dV/dx = −(4 + 10x). At x=2: E = −(4+20) = −24 V/m. The negative sign means the field points in the −x direction."
+  },
+  {
+    "question": "A uniform electric field points in the +x direction. Points A (origin), B (x = 1cm), and C (y = 1cm) are considered. Which is true?",
+    "options": [
+      "V_A < V_B",
+      "V_A > V_B",
+      "V_A < V_C",
+      "V_A > V_C"
+    ],
+    "correct": 1,
+    "explanation": "Potential decreases in the direction of E. Since B is further in the +x direction, V_B < V_A. C is perpendicular to E, so V_C = V_A."
+  },
+  {
+    "question": "An electron is released from rest in a uniform electric field. Which direction does it move, and what happens to its potential?",
+    "options": [
+      "Along E; potential decreases",
+      "Opposite to E; potential decreases",
+      "Along E; potential increases",
+      "Opposite to E; potential increases"
+    ],
+    "correct": 3,
+    "explanation": "The electron (negative charge) experiences force opposite to E, so it moves against E. Moving against E means moving toward higher potential — potential increases."
+  },
+  {
+    "question": "A parallel plate capacitor has capacitance 10μF. If the plate separation is doubled, the new capacitance is:",
+    "options": [
+      "1.25μF",
+      "5μF",
+      "10μF",
+      "20μF"
+    ],
+    "correct": 1,
+    "explanation": "C = Kε₀A/d. Doubling d halves C: C_new = 10/2 = 5μF."
+  },
+  {
+    "question": "Eight identical capacitors in series give equivalent capacitance C. Their equivalent capacitance when connected in parallel is:",
+    "options": [
+      "8C",
+      "64C",
+      "C/8",
+      "C/64"
+    ],
+    "correct": 1,
+    "explanation": "Series: C_each/8 = C → C_each = 8C. Parallel: C_T = 8 × 8C = 64C."
+  },
+  {
+    "question": "A capacitor network has C₁ = 4.5μF in series with a parallel combination of C₂ = 3μF and C₃ = 6μF across 12V. What is the potential difference across C₁?",
+    "options": [
+      "3V",
+      "4V",
+      "6V",
+      "8V"
+    ],
+    "correct": 3,
+    "explanation": "C₂₃ = 3+6 = 9μF. Series: 1/C_T = 1/4.5 + 1/9 = 1/3 → C_T = 3μF. Q = 3×12 = 36μC. V₁ = Q/C₁ = 36/4.5 = 8V."
+  },
+  {
+    "question": "A resistor with color bands Green-Blue-Yellow-Gold has resistance:",
+    "options": [
+      "5.6kΩ ± 5%",
+      "56kΩ ± 5%",
+      "560kΩ ± 5%",
+      "5.6MΩ ± 5%"
+    ],
+    "correct": 2,
+    "explanation": "Green=5, Blue=6, Yellow=×10⁴Ω, Gold=±5%. R = 56 × 10⁴ Ω = 560kΩ ± 5%."
+  },
+  {
+    "question": "A five-band resistor has bands Red-Blue-Green-Black-Silver. Its resistance and tolerance are:",
+    "options": [
+      "265Ω ± 5%",
+      "265Ω ± 10%",
+      "2650Ω ± 10%",
+      "26.5Ω ± 10%"
+    ],
+    "correct": 1,
+    "explanation": "Red=2, Blue=6, Green=5, Black=×1Ω, Silver=±10%. R = 265 × 1 = 265Ω ± 10%."
+  },
+  {
+    "question": "A current of 16A flows through a resistor for 4 minutes. How many electrons pass through it?",
+    "options": [
+      "6.8 × 10²²",
+      "1.4 × 10²²",
+      "2.4 × 10²²",
+      "3.4 × 10²²"
+    ],
+    "correct": 2,
+    "explanation": "Q = It = 16 × 240 = 3840C. n = Q/e = 3840/(1.6×10⁻¹⁹) = 2.4 × 10²² electrons."
+  },
+  {
+    "question": "In a metallic conductor carrying current, which statement is correct?",
+    "options": [
+      "Conventional current is in the direction of electron flow",
+      "Current is due to random thermal motion of electrons",
+      "Conventional current is opposite to the direction of electron flow",
+      "Electrons move perpendicular to the wire axis"
+    ],
+    "correct": 2,
+    "explanation": "Conventional current is defined as the direction positive charge would flow — opposite to actual electron flow. This is a historical convention."
+  },
+  {
+    "question": "At constant voltage, a resistor's resistance is increased by increasing its length. The current through it will:",
+    "options": [
+      "Increase, since longer wire has more free electrons",
+      "Decrease, because R = ρl/A increases with l, reducing I = V/R",
+      "Remain the same by Ohm's law",
+      "Double if length doubles"
+    ],
+    "correct": 1,
+    "explanation": "R = ρl/A. A longer wire has higher resistance. At constant voltage, I = V/R, so current decreases as R increases. The number of free electrons is irrelevant to this macroscopic relationship."
+  },
+  {
+    "question": "You have three 1Ω resistors (all must be used). Which equivalent resistance CANNOT be achieved?",
+    "options": [
+      "1/3 Ω",
+      "3/2 Ω",
+      "1 Ω",
+      "3 Ω"
+    ],
+    "correct": 2,
+    "explanation": "All parallel = 1/3Ω ✓. All series = 3Ω ✓. One series with two parallel = 1 + 1/2 = 3/2Ω ✓. No valid combination of all three 1Ω resistors gives exactly 1Ω."
+  },
+  {
+    "question": "Two 6Ω resistors in parallel are connected in series with a 3Ω resistor across 12V. The potential drop across the 3Ω resistor is:",
+    "options": [
+      "6V",
+      "3V",
+      "12V",
+      "9V"
+    ],
+    "correct": 0,
+    "explanation": "Two 6Ω in parallel: R_par = 3Ω. Total R = 3+3 = 6Ω. I = 12/6 = 2A. V(3Ω) = 2×3 = 6V."
+  },
+  {
+    "question": "A 4Ω and 12Ω resistor are in parallel, connected in series with a 5Ω resistor across 8V. What is the current through the 4Ω resistor?",
+    "options": [
+      "0.125A",
+      "0.25A",
+      "0.75A",
+      "0.5A"
+    ],
+    "correct": 2,
+    "explanation": "4∥12 = (4×12)/(4+12) = 3Ω. Total R = 3+5 = 8Ω. I_total = 8/8 = 1A. V_parallel = 1×3 = 3V. I₄ = V_parallel/4 = 3/4 = 0.75A."
+  },
+  {
+    "question": "A 100Ω wire is cut into n equal pieces and connected in parallel to give 1Ω equivalent resistance. What is n?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "50"
+    ],
+    "correct": 1,
+    "explanation": "Each piece = 100/n Ω. In parallel: R_T = (100/n)/n = 100/n². Set 100/n² = 1 → n² = 100 → n = 10."
+  },
+  {
+    "question": "Three 12Ω resistors form a triangle. The equivalent resistance between two vertices is:",
+    "options": [
+      "12Ω",
+      "24Ω",
+      "8Ω",
+      "36Ω"
+    ],
+    "correct": 2,
+    "explanation": "Between two vertices: one 12Ω directly, and two 12Ω in series (24Ω) via the other vertex. Parallel: 1/R = 1/12 + 1/24 = 3/24 → R = 8Ω."
+  },
+  {
+    "question": "A total charge of 5C passes through a conductor in 10ms. The current is:",
+    "options": [
+      "50A",
+      "125A",
+      "500A",
+      "250A"
+    ],
+    "correct": 2,
+    "explanation": "I = Q/t = 5/(10×10⁻³) = 5/0.01 = 500A. Be careful: 10ms = 0.01s, not 0.1s."
+  },
+  {
+    "question": "An ammeter is placed in series with a 5Ω resistor branch (in parallel with a 4Ω branch), across 10V. What does the ammeter read?",
+    "options": [
+      "40A",
+      "10A",
+      "5A",
+      "2A"
+    ],
+    "correct": 3,
+    "explanation": "The ammeter reads the current through the 5Ω branch only: I = V/R = 10/5 = 2A."
+  },
+  {
+    "question": "15Ω and 30Ω resistors are in parallel. What series resistance R must be added to make the total resistance 20Ω?",
+    "options": [
+      "5Ω",
+      "10Ω",
+      "15Ω",
+      "120Ω"
+    ],
+    "correct": 1,
+    "explanation": "15∥30 = (15×30)/(15+30) = 450/45 = 10Ω. 10 + R = 20 → R = 10Ω."
+  },
+  {
+    "question": "Three 2Ω resistors in series (= 6Ω) are connected in parallel with one 2Ω resistor across 3V. The total current from the source is:",
+    "options": [
+      "1A",
+      "0.5A",
+      "1.5A",
+      "2A"
+    ],
+    "correct": 3,
+    "explanation": "6Ω ∥ 2Ω: 1/R = 1/6 + 1/2 = 4/6 → R = 1.5Ω. I = V/R = 3/1.5 = 2A."
+  },
+  {
+    "question": "A student has 10 identical R-ohm resistors. The minimum achievable equivalent resistance is:",
+    "options": [
+      "10R",
+      "R/10",
+      "R/100",
+      "R/5"
+    ],
+    "correct": 1,
+    "explanation": "Minimum resistance: all 10 in parallel → R_T = R/10. More resistors in parallel always reduces equivalent resistance below any individual value."
+  },
+  {
+    "question": "For the network: C₁ = 3μF in series with the parallel combination of C₂ = 1μF and C₃ = 5μF, across 18V — what is the charge on C₁?",
+    "options": [
+      "12μC",
+      "24μC",
+      "36μC",
+      "54μC"
+    ],
+    "correct": 2,
+    "explanation": "C₂₃ = 1+5 = 6μF. Series: 1/C_T = 1/3 + 1/6 = 1/2 → C_T = 2μF. Q = C_T × V = 2×18 = 36μC. C₁ is in series, so Q₁ = 36μC."
+  },
+  {
+    "question": "In the network: C₁ = 4μF and C₂ = 12μF in series, then in parallel with C₃ = 2μF, across 12V — what is the voltage across C₁?",
+    "options": [
+      "3V",
+      "6V",
+      "9V",
+      "12V"
+    ],
+    "correct": 2,
+    "explanation": "C₁₂ series: 1/C = 1/4+1/12 = 1/3 → C₁₂ = 3μF. Parallel with C₃: C_T = 5μF. Series branch carries Q₁₂ = 3×12 = 36μC. V₁ = 36/4 = 9V."
+  },
+  {
+    "question": "To design a small-size, large-capacitance capacitor, one should:",
+    "options": [
+      "Increase plate area and plate separation",
+      "Decrease plate area and use vacuum between plates",
+      "Use small plate separation and a high dielectric constant material",
+      "Use large plate separation and low dielectric constant material"
+    ],
+    "correct": 2,
+    "explanation": "C = Kε₀A/d. To maximize C in small size: minimize d (small separation) and use large K (high dielectric constant). This increases C without increasing physical dimensions."
+  },
+  {
+    "question": "An isolated charged capacitor has a dielectric inserted between its plates. Which effect does NOT occur?",
+    "options": [
+      "Capacitance increases",
+      "Electric field between plates decreases",
+      "Charge on plates increases",
+      "Potential difference between plates decreases"
+    ],
+    "correct": 0,
+    "explanation": "The capacitor is isolated, so charge Q is fixed. Inserting a dielectric increases capacitance (C = Kε₀A/d, K > 1). As a consequence: V = Q/C decreases, E = V/d decreases, and Q is unchanged. The only quantity that increases is the capacitance."
+  },
+  {
+    "question": "A parallel plate capacitor (A = 100cm², d = 2mm, air-filled) has a capacitance approximately equal to:",
+    "options": [
+      "8.85 × 10⁻¹¹ F",
+      "4.4 × 10⁻¹¹ F",
+      "2.2 × 10⁻¹¹ F",
+      "4.4 × 10⁻¹² F"
+    ],
+    "correct": 1,
+    "explanation": "C = ε₀A/d = (8.85×10⁻¹²)(10⁻²)/(2×10⁻³) = 8.85×10⁻¹⁴/2×10⁻³ ≈ 4.4×10⁻¹¹ F. Option A uses d = 1 mm instead of 2 mm (forgetting to halve). Option C doubles the plate separation to 4 mm or halves the area. Option D omits the cm²→m² conversion factor of 10⁻⁴, leaving the area as 100 instead of 10⁻²."
+  },
+  {
+    "question": "When a p.d of 150V is applied to a parallel plate capacitor with surface charge density 30nC/cm², the plate separation is approximately:",
+    "options": [
+      "2.24μm",
+      "3.52μm",
+      "12.24μm",
+      "4.42μm"
+    ],
+    "correct": 3,
+    "explanation": "σ = 30nC/cm² = 3×10⁻⁴ C/m². E = σ/ε₀. d = V/E = Vε₀/σ = (150)(8.85×10⁻¹²)/(3×10⁻⁴) ≈ 4.42×10⁻⁶ m = 4.42μm."
+  },
+  {
+    "question": "A capacitor of 1F stores charge Q at potential V. Which statement is correct?",
+    "options": [
+      "It fully charges in 1 second from 1A current",
+      "It stores 1C of charge at 1V",
+      "It discharges in 1s through a 1Ω resistor",
+      "It gains 1J when 1C is stored"
+    ],
+    "correct": 1,
+    "explanation": "C = Q/V → 1F stores 1C at 1V by definition. Option A is incorrect (charging time depends on the circuit). Option D is wrong: U = Q²/2C = 1/2 J, not 1J."
+  },
+  {
+    "question": "The minimum number of 2μF capacitors needed to achieve exactly 5μF equivalent capacitance is:",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "explanation": "Place two in parallel (4μF), then two in series (1μF), then combine all in parallel: 4+1 = 5μF. This uses exactly 4 capacitors."
+  },
+  {
+    "question": "Three 6μF capacitors are available. The minimum and maximum equivalent capacitances possible are:",
+    "options": [
+      "6μF and 19μF",
+      "3μF and 12μF",
+      "12μF and 26μF",
+      "2μF and 18μF"
+    ],
+    "correct": 3,
+    "explanation": "Minimum (all in series): 1/C = 3/6 → C = 2μF. Maximum (all in parallel): C = 18μF."
+  },
+  {
+    "question": "In the potentiometer principle, why must the EMF of the driver cell be greater than the EMF of the cell being measured?",
+    "options": [
+      "To prevent the galvanometer from burning",
+      "To ensure a balance point exists on the wire",
+      "To reduce internal resistance effects",
+      "To make the wire resistance negligible"
+    ],
+    "correct": 1,
+    "explanation": "The potential gradient along the wire must be able to equal the unknown EMF at some point. If the driver EMF is less than the unknown EMF, no balance point exists on the wire."
+  },
+  {
+    "question": "The Earth (radius 6400km) treated as a spherical conductor has capacitance of order:",
+    "options": [
+      "1μF",
+      "1mF",
+      "1F",
+      "1000F"
+    ],
+    "correct": 1,
+    "explanation": "C = 4πε₀R = R/k = 6.4×10⁶/(9×10⁹) ≈ 7×10⁻⁴ F ≈ 1mF."
+  },
+  {
+    "question": "In a Wheatstone bridge circuit with arms 100Ω, 200Ω, 40Ω, and unknown R — balance is achieved. Given the topology leads to R_balance = 20Ω in a parallel sub-network with 100Ω, find R:",
+    "options": [
+      "20Ω",
+      "25Ω",
+      "50Ω",
+      "80Ω"
+    ],
+    "correct": 1,
+    "explanation": "Balance: 100/200 = R'/40 → R' = 20Ω. R' is in parallel with R and 100Ω in series gives 1/20 = 1/100 + 1/R → 1/R = 1/20−1/100 = 4/100 → R = 25Ω."
+  },
+  {
+    "question": "In a two-loop Kirchhoff circuit with 16V and 4V sources, solving simultaneous loop equations gives I₁ = −3A, I₂ = 2A, I₃ = −1A. What is the physical meaning of I₃ = −1A?",
+    "options": [
+      "No current flows in branch 3",
+      "Branch 3 carries 1A opposite to assumed direction",
+      "The circuit violates KVL in loop 3",
+      "Branch 3 is open"
+    ],
+    "correct": 1,
+    "explanation": "Negative current means 1A flows in the direction opposite to that assumed when setting up the equations. The magnitude is real and valid."
+  },
+  {
+    "question": "For two EMF sources ε₁ and ε₂ in a multi-loop circuit where I₁ = 1/3 A, I₂ = 1/2 A, and I₃ = I₁+I₂ = 5/6 A flows through a 6Ω resistor — what is ε₁ if loop equation gives ε₁ = 6I₃ + 3I₁?",
+    "options": [
+      "3V",
+      "6V",
+      "9V",
+      "12V"
+    ],
+    "correct": 1,
+    "explanation": "ε₁ = 6×(5/6) + 3×(1/3) = 5 + 1 = 6V."
+  },
+  {
+    "question": "A 2μF capacitor charged from a 6V battery stores a charge of:",
+    "options": [
+      "3μC",
+      "6μC",
+      "12μC",
+      "24μC"
+    ],
+    "correct": 2,
+    "explanation": "Q = CV = (2×10⁻⁶)(6) = 12×10⁻⁶ C = 12μC."
+  },
+  {
+    "question": "A 4.5V source charges a capacitor and stores 5.4μC. What is the capacitance?",
+    "options": [
+      "0.83μF",
+      "1.2μF",
+      "2.4μF",
+      "4.5μF"
+    ],
+    "correct": 1,
+    "explanation": "C = Q/V = 5.4μC / 4.5V = 1.2μF."
+  },
+  {
+    "question": "3C and 6C capacitors are connected in series. Their equivalent capacitance is:",
+    "options": [
+      "9μF",
+      "4.5μF",
+      "3μF",
+      "2μF"
+    ],
+    "correct": 3,
+    "explanation": "1/C = 1/3 + 1/6 = 3/6 = 1/2 → C = 2μF. Series capacitance is always less than the smallest individual capacitor."
+  },
+  {
+    "question": "A charge of 360C passes a point in a wire when 3A flows for some time. How long did the current flow?",
+    "options": [
+      "1 min",
+      "2 min",
+      "3 min",
+      "4 min"
+    ],
+    "correct": 1,
+    "explanation": "t = Q/I = 360/3 = 120 seconds = 2 minutes."
+  },
+  {
+    "question": "Three resistors 1Ω, 2Ω, and 3Ω are available. The largest and smallest equivalent resistances using all three are:",
+    "options": [
+      "6Ω and 0.5Ω",
+      "6Ω and 6/11 Ω",
+      "5Ω and 1Ω",
+      "3Ω and 0.5Ω"
+    ],
+    "correct": 1,
+    "explanation": "Largest (series) = 1+2+3 = 6Ω. Smallest (parallel): 1/R = 1/1+1/2+1/3 = 11/6 → R = 6/11 ≈ 0.545Ω."
+  },
+  {
+    "question": "In a circuit with 12Ω and 6Ω in parallel, in series with 2Ω, across 12V — the current through the 6Ω resistor is:",
+    "options": [
+      "1A",
+      "4/3 A",
+      "2A",
+      "3A"
+    ],
+    "correct": 1,
+    "explanation": "12∥6 = 4Ω. Total R = 2+4 = 6Ω. I_total = 2A. V_par = 2×4 = 8V. I₆ = 8/6 = 4/3 A ≈ 1.33A."
+  },
+  {
+    "question": "A conductor of resistance R = 12Ω is cut into 3 equal parts and all parts are reconnected in parallel. What is the new resistance?",
+    "options": [
+      "4Ω",
+      "3Ω",
+      "1.33Ω",
+      "36Ω"
+    ],
+    "correct": 2,
+    "explanation": "Each piece = 12/3 = 4Ω. Three in parallel: R_T = 4/3 ≈ 1.33Ω. Using the formula R/n² = 12/9 = 4/3 Ω."
+  },
+  {
+    "question": "A body (mass = 10⁻¹⁰ kg, charge = 10⁻⁸ C) is in equilibrium in an upward electric field. The required field strength is:",
+    "options": [
+      "0.01 N/C",
+      "0.1 N/C",
+      "1 N/C",
+      "10 N/C"
+    ],
+    "correct": 1,
+    "explanation": "qE = mg → E = mg/q = (10⁻¹⁰ × 10)/(10⁻⁸) = 10⁻⁹/10⁻⁸ = 0.1 N/C upward."
+  },
+  {
+    "question": "The electric field 0.4m from a 7×10⁻⁵ C charge is approximately:",
+    "options": [
+      "3.9 × 10⁵ N/C",
+      "3.9 × 10⁶ N/C",
+      "9.8 × 10⁵ N/C",
+      "1.6 × 10⁶ N/C"
+    ],
+    "correct": 1,
+    "explanation": "E = KQ/r² = (9×10⁹)(7×10⁻⁵)/(0.4)² = (63×10⁴)/0.16 = 3.9×10⁶ N/C. Option A uses r = 4 m instead of 0.4 m, a common decimal slip. Option C correctly handles r but makes a factor-of-10 error in the numerator (63×10³ instead of 63×10⁴). Option D mistakes the charge unit, treating 7×10⁻⁵ C as 7 μC (7×10⁻⁶ C)."
+  },
+  {
+    "question": "Two electrons are separated by a distance r such that the electrostatic force equals the weight of one electron (m = 9.11×10⁻³¹ kg, e = 1.6×10⁻¹⁹ C, g = 10 m/s²). What is r?",
+    "options": [
+      "0.508m",
+      "5.08m",
+      "50.8m",
+      "0.0508m"
+    ],
+    "correct": 1,
+    "explanation": "ke²/r² = mg → r² = ke²/mg = (9×10⁹)(1.6×10⁻¹⁹)²/(9.11×10⁻³¹×10) ≈ 25.8 → r ≈ 5.08m."
+  },
+  {
+    "question": "On a damp day, a charged plastic rod loses its charge faster than on a dry day. The reason is:",
+    "options": [
+      "Humidity lowers the dielectric constant of air",
+      "Moisture on the plastic surface provides a conducting path for charge leakage",
+      "Water molecules neutralize the charges by chemical reaction",
+      "High humidity increases the plastic's permittivity"
+    ],
+    "correct": 1,
+    "explanation": "Moisture forms a thin conducting film on the plastic surface, giving charges a low-resistance path to leak away to the surroundings."
+  },
+  {
+    "question": "A wire with resistance R is stretched to double its original length (volume remains constant). Its new resistance is:",
+    "options": [
+      "R/2",
+      "2R",
+      "4R",
+      "R/4"
+    ],
+    "correct": 2,
+    "explanation": "R = ρl/A. Volume = lA = constant → A' = A/2 when l' = 2l. R' = ρ(2l)/(A/2) = 4ρl/A = 4R."
+  },
+  {
+    "question": "Two resistors are connected in parallel. If one resistor is removed, what happens to the total current drawn from the battery (assuming constant voltage)?",
+    "options": [
+      "Increases, because fewer resistors reduce total resistance",
+      "Decreases, because removing a path increases total resistance",
+      "Stays the same by KVL",
+      "Doubles, since current must redistribute"
+    ],
+    "correct": 1,
+    "explanation": "In parallel, each resistor adds a current path. Removing one increases total R (fewer parallel paths), so by I = V/R, total current decreases."
+  },
+  {
+    "question": "Which combination of identical capacitors C gives the smallest equivalent capacitance?",
+    "options": [
+      "All in parallel",
+      "All in series",
+      "Two in parallel then in series with one",
+      "Two in series then in parallel with one"
+    ],
+    "correct": 1,
+    "explanation": "All in series gives C/n (smallest). All in parallel gives nC (largest). Any mixed arrangement gives a value between these extremes."
+  },
+  {
+    "question": "A galvanometer has full-scale deflection current I_g and internal resistance R_g. To double the voltage range of a voltmeter made from it (without changing R_g), the multiplier resistance should be:",
+    "options": [
+      "Doubled",
+      "Halved",
+      "Increased by R_g",
+      "Unchanged"
+    ],
+    "correct": 0,
+    "explanation": "V = I_g(R_m + R_g). To double V, double (R_m + R_g). Since R_g is small, R_m ≈ (R_m + R_g), so effectively R_m must double."
+  },
+  {
+    "question": "In a potentiometer used to compare two EMFs, what is the key condition for an accurate measurement?",
+    "options": [
+      "The galvanometer must be highly sensitive",
+      "No current should flow through the cell under test at balance",
+      "The wire must be made of low resistivity material",
+      "The driver battery must have zero internal resistance"
+    ],
+    "correct": 1,
+    "explanation": "At balance, no current flows through the cell under test. This means the cell's terminal voltage equals its EMF, making the measurement accurate regardless of the cell's internal resistance."
+  }
+]
