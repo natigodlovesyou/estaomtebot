@@ -1,0 +1,1094 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following correctly describes the products of alcoholic fermentation by yeast?",
+      "options": [
+        "Lactic acid, CO₂, and 2 ATP",
+        "Ethanol, CO₂, and 2 ATP",
+        "Ethanol, CO₂, and 36 ATP",
+        "Lactic acid, H₂O, and 36 ATP"
+      ],
+      "correct": 1,
+      "explanation": "Alcoholic fermentation: Glucose → 2 Ethanol + 2 CO₂ + 2 ATP (net). Only 2 ATP are made (from glycolysis). No O₂ is used. Lactic acid is produced in animal muscle, not in yeast. 36 ATP requires aerobic respiration, not fermentation."
+    },
+    {
+      "question": "What is the main purpose of the highly folded inner membrane (cristae) of the mitochondrion?",
+      "options": [
+        "To increase the photosynthetic capacity of the cell",
+        "To increase surface area for ATP synthase and electron transport chain proteins",
+        "To speed up the loss of CO₂ during fermentation",
+        "To store glycogen for rapid energy release"
+      ],
+      "correct": 1,
+      "explanation": "The inner mitochondrial membrane contains ATP synthase and the electron transport chain. Folding into cristae greatly increases the surface area available for these proteins, allowing more ATP to be produced. Photosynthesis occurs in chloroplasts, not mitochondria."
+    },
+    {
+      "question": "How many net ATP molecules are produced during the glycolysis of a single glucose molecule?",
+      "options": [
+        "2 ATP (gross) and 2 ATP (net)",
+        "4 ATP (gross) but 2 ATP (net)",
+        "6 ATP (net)",
+        "36 ATP (net)"
+      ],
+      "correct": 1,
+      "explanation": "Glycolysis invests 2 ATP to activate glucose, then produces 4 ATP — giving a net gain of 2 ATP. Additionally, 2 NADH are made. The 36 ATP figure requires the complete aerobic pathway including the Krebs cycle and ETC."
+    },
+    {
+      "question": "During the Krebs cycle, which molecule temporarily carries most of the energy released from food molecules?",
+      "options": [
+        "ADP",
+        "ATP",
+        "FADH₂",
+        "NADH"
+      ],
+      "correct": 3,
+      "explanation": "The Krebs cycle produces 3 NADH and 1 FADH₂ per acetyl-CoA turn. NADH carries the majority of the energy because 3 NADH are produced for every 1 FADH₂. These carriers then donate electrons to the ETC to generate ATP via chemiosmosis. ADP is not an energy carrier; it becomes ATP after phosphorylation."
+    },
+    {
+      "question": "At which stage of aerobic respiration is the MAJORITY of ATP generated?",
+      "options": [
+        "Glycolysis",
+        "Link reaction",
+        "Krebs cycle",
+        "Electron transport chain and chemiosmosis"
+      ],
+      "correct": 3,
+      "explanation": "Glycolysis yields 2 ATP, the Krebs cycle yields 2 ATP (as GTP), but the ETC + chemiosmosis yields ~32 ATP by using the NADH and FADH₂ generated in earlier stages. Proton gradients built by the ETC drive ATP synthase to produce the bulk of ATP."
+    },
+    {
+      "question": "Where exactly in the mitochondrion does the Krebs cycle take place?",
+      "options": [
+        "Outer mitochondrial membrane",
+        "Inner mitochondrial membrane",
+        "Inter-membrane space",
+        "Mitochondrial matrix"
+      ],
+      "correct": 3,
+      "explanation": "The Krebs cycle enzymes are dissolved in the mitochondrial matrix (the fluid inside the inner membrane). The ETC proteins are embedded in the inner membrane. The inter-membrane space is used for proton accumulation during chemiosmosis."
+    },
+    {
+      "question": "Which pigment molecule is found at the reaction center of a photosystem?",
+      "options": [
+        "Chlorophyll b",
+        "Chlorophyll a",
+        "Carotenoid",
+        "Phycoerythrin"
+      ],
+      "correct": 1,
+      "explanation": "Chlorophyll a is the primary pigment at the reaction center of both photosystem I (P700) and photosystem II (P680).
+    Chlorophyll b and carotenoids are accessory pigments that capture additional wavelengths and transfer energy to the reaction center — they do not directly participate in electron release."
+    },
+    {
+      "question": "In which of the following ways is atmospheric CO₂ fixed into organic molecules during photosynthesis?",
+      "options": [
+        "CO₂ is split by light energy in the thylakoid membrane",
+        "CO₂ is attached to RuBP by the enzyme RuBisCO in the Calvin cycle",
+        "CO₂ combines with NADPH to form glucose directly",
+        "CO₂ is absorbed through the stomata and immediately converted to ATP"
+      ],
+      "correct": 1,
+      "explanation": "Carbon fixation: CO₂ + RuBP (5-carbon) → two 3-phosphoglycerate (3C) molecules, catalyzed by RuBisCO in the stroma. This is the first step of the Calvin (light-independent) cycle. Light splits water (photolysis), not CO₂. NADPH and ATP are used to reduce 3-PGA, not to directly combine with CO₂."
+    },
+    {
+      "question": "Which type of plant separates the light-dependent and light-independent reactions of photosynthesis into SEPARATE CELLS?",
+      "options": [
+        "C3 plants",
+        "C4 plants",
+        "CAM plants",
+        "Heterotrophic plants"
+      ],
+      "correct": 1,
+      "explanation": "C4 plants (e.g., maize, sugarcane) fix CO₂ into oxaloacetate in mesophyll cells, then transfer it to bundle sheath cells where the Calvin cycle occurs. This spatial separation reduces photorespiration. CAM plants separate these reactions in TIME (day vs. night), not in separate cells. C3 plants carry both reactions in the same mesophyll cell."
+    },
+    {
+      "question": "During aerobic respiration, protons (H⁺) in the mitochondrial inter-membrane space return to the matrix through which structure?",
+      "options": [
+        "Proton pump",
+        "ATP synthase",
+        "Ion channel",
+        "Membrane lipid bilayer"
+      ],
+      "correct": 1,
+      "explanation": "Protons (H⁺) are pumped INTO the inter-membrane space by the ETC, creating an electrochemical gradient. They flow back into the matrix THROUGH ATP synthase (chemiosmosis), which uses that flow to phosphorylate ADP → ATP. They cannot diffuse through the lipid bilayer because it is impermeable to ions."
+    },
+    {
+      "question": "During chemiosmosis, what substance diffuses across the mitochondrial inner membrane to drive ATP synthesis?",
+      "options": [
+        "Water molecules",
+        "Protons (H⁺)",
+        "Electrons",
+        "ATP molecules"
+      ],
+      "correct": 1,
+      "explanation": "Chemiosmosis = the diffusion of H⁺ (protons) down their electrochemical gradient, through ATP synthase. Electrons travel along the ETC but do not cross the membrane as free particles. Water is not the driving substance. ATP is the product, not the driving substance."
+    },
+    {
+      "question": "Which of the following is NOT true about Photosystem II?",
+      "options": [
+        "Its reaction center pigment absorbs light at 680 nm (P680)",
+        "It passes its excited electrons directly to Photosystem I without any intermediate carriers",
+        "It is responsible for the photolysis (splitting) of water",
+        "Electrons lost from P680 are replaced by electrons from water"
+      ],
+      "correct": 1,
+      "explanation": "PS II passes excited electrons to plastoquinone (PQ), then to the cytochrome b6f complex, then to plastocyanin, and finally to PS I — not directly. PS II reaction center is P680. It does split water (photolysis) to replace lost electrons, releasing O₂ as a byproduct."
+    },
+    {
+      "question": "Where in the chloroplast does the light-dependent reaction take place?",
+      "options": [
+        "In the stroma",
+        "In the thylakoid membrane",
+        "In the outer chloroplast membrane",
+        "In the stomatal opening"
+      ],
+      "correct": 1,
+      "explanation": "The light-dependent reactions (photosystems, ETC, photolysis) occur in the thylakoid membranes. The Calvin cycle (light-independent) occurs in the stroma. The outer membrane is just an envelope and plays no role in photosynthesis reactions."
+    },
+    {
+      "question": "For which of the following is the sugar produced by photosynthesis NOT used by a plant?",
+      "options": [
+        "To produce biomass (growth)",
+        "To make new DNA",
+        "To produce ATP via cellular respiration",
+        "To produce enzymes (proteins)"
+      ],
+      "correct": 1,
+      "explanation": "Glucose from photosynthesis is used for: respiration (ATP), building biomass (cellulose, starch), and producing amino acids (enzymes/proteins). DNA is made from deoxyribose (a different sugar), nucleotides, and nitrogenous bases — glucose is not directly used to make DNA. So is the answer."
+    },
+    {
+      "question": "During a 100-meter sprint, which process generates ATP for the working muscles?",
+      "options": [
+        "Aerobic respiration",
+        "Krebs cycle",
+        "Chemiosmosis in mitochondria",
+        "Anaerobic respiration (lactic acid fermentation)"
+      ],
+      "correct": 3,
+      "explanation": "Sprinting is high-intensity, short-duration exercise. Oxygen supply cannot keep up with demand, so muscles switch to anaerobic respiration: glucose → pyruvate → lactic acid + 2 ATP. Aerobic respiration is efficient but too slow for maximum sprint efforts. The Krebs cycle and chemiosmosis require oxygen."
+    },
+    {
+      "question": "When human muscle cells are deprived of oxygen during intense exercise, which compound accumulates?",
+      "options": [
+        "Ethanol",
+        "Acetic acid",
+        "Carbon dioxide only",
+        "Lactic acid"
+      ],
+      "correct": 3,
+      "explanation": "In oxygen-deprived animal/human muscle cells, pyruvate is reduced to LACTATE (lactic acid) by lactate dehydrogenase, regenerating NAD⁺ so glycolysis can continue. Ethanol + CO₂ is yeast fermentation, not animal. Acetic acid is produced by Acetobacter bacteria."
+    },
+    {
+      "question": "Which process of photosynthesis does NOT require light to take place?",
+      "options": [
+        "Splitting of water (photolysis)",
+        "ATP formation (photophosphorylation)",
+        "Reduction of NADP⁺",
+        "Carbon fixation (Calvin cycle)"
+      ],
+      "correct": 3,
+      "explanation": "The Calvin cycle (carbon fixation) is called 'light-independent' — it uses ATP and NADPH produced by light reactions but does not require light directly. Photolysis, ATP synthesis by PS, and NADP⁺ reduction all happen in thylakoids and are driven directly by light. The Calvin cycle happens in the stroma."
+    },
+    {
+      "question": "Which of the following is NOT a stage of cellular respiration?",
+      "options": [
+        "Glycolysis",
+        "Calvin cycle",
+        "Electron transport chain",
+        "Krebs cycle"
+      ],
+      "correct": 1,
+      "explanation": "The Calvin cycle is part of PHOTOSYNTHESIS (light-independent reactions), not cellular respiration. The four stages of aerobic cellular respiration are: (1) Glycolysis → (2) Link reaction → (3) Krebs cycle → (4) Electron transport chain + chemiosmosis."
+    },
+    {
+      "question": "Which is the correct equation for aerobic cellular respiration?",
+      "options": [
+        "6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂",
+        "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (energy)",
+        "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + 2ATP",
+        "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂ + energy"
+      ],
+      "correct": 1,
+      "explanation": "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36 ATP. is the equation for photosynthesis (reversed). is alcoholic fermentation. Always check: reactants should be glucose + oxygen, products should be CO₂ + water + energy."
+      },
+    {
+      "question": "What is the NET gain in ATP molecules from glycolysis of one glucose molecule?",
+      "options": [
+        "2 ATP",
+        "4 ATP",
+        "18 ATP",
+        "36 ATP"
+      ],
+      "correct": 0,
+      "explanation": "Glycolysis: 4 ATP produced - 2 ATP invested = NET 2 ATP. Also produces 2 NADH and 2 pyruvate. The 36 ATP requires full aerobic respiration. The 4 ATP is the gross yield, not net. 18 ATP has no basis in the respiration pathway."
+    },
+    {
+      "question": "How many moles of ATP are generated by the oxidation of one mole of FADH₂ through the electron transport chain?",
+      "options": [
+        "0",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct": 3,
+      "explanation": "FADH₂ donates electrons at a lower energy point (Complex II) in the ETC than NADH, so it pumps fewer protons. FADH₂ yields approximately 2 ATP via chemiosmosis. NADH yields approximately 3 ATP. Choosing 3 ATP would be confusing FADH₂ with NADH — a common exam trap."
+    },
+    {
+      "question": "Which of the following is true about cellular respiration?",
+      "options": [
+        "Restricted to plant cells only",
+        "Restricted to animal cells only",
+        "Occurs in prokaryotic cells only",
+        "Occurs in all eukaryotic AND prokaryotic cells"
+      ],
+      "correct": 3,
+      "explanation": "Cellular respiration is a universal process in ALL living cells — plants, animals, fungi, and prokaryotes all respire to produce ATP. Plants carry out both photosynthesis AND respiration. Prokaryotes respire in their cytoplasm and plasma membrane (no mitochondria)."
+    },
+    {
+      "question": "In cyclic photophosphorylation, what is the source of the electron that returns to the chlorophyll after being excited?",
+      "options": [
+        "Reduced NADPH",
+        "The same excited chlorophyll molecule (via cyclic electron flow)",
+        "Adenosine triphosphate (ATP)",
+        "Photolysis of water molecules"
+      ],
+      "correct": 1,
+      "explanation": "In CYCLIC photophosphorylation, the excited electron from PS I (P700) follows a cyclic path: Chlorophyll → ferredoxin → cytochrome b6f complex → plastocyanin → back to PS I. No NADPH is made and no water is split. It only produces ATP. The electron source is the chlorophyll itself — hence 'cyclic'."
+    },
+    {
+      "question": "If there were no free oxygen available, which step of aerobic respiration would STILL continue to operate in the human body?",
+      "options": [
+        "Glycolysis only",
+        "Krebs cycle",
+        "Electron transport chain",
+        "Link reaction"
+      ],
+      "correct": 0,
+      "explanation": "Glycolysis occurs in the cytoplasm and does NOT require oxygen — it is anaerobic. Without O₂, the ETC stops (O₂ is the final electron acceptor), the Krebs cycle and link reaction also stop (no NAD⁺/FAD to recycle). Glycolysis continues, regenerating NAD⁺ via fermentation (lactic acid in humans)."
+    },
+    {
+      "question": "What is the source of the oxygen gas released during photosynthesis in higher plants?",
+      "options": [
+        "CO₂",
+        "H₂O",
+        "ATP",
+        "Chlorophyll"
+      ],
+      "correct": 1,
+      "explanation": "Oxygen is released from the PHOTOLYSIS OF WATER in PS II: 2H₂O → 4H⁺ + 4e⁻ + O₂. The oxygen in CO₂ is incorporated into sugar and water — not released as O₂ gas. This was confirmed by isotope labeling experiments using ¹⁸O in water vs. CO₂."
+    },
+    {
+      "question": "In which cellular compartment does the Krebs (citric acid) cycle take place during aerobic respiration?",
+      "options": [
+        "Chloroplast stroma",
+        "Mitochondrial matrix",
+        "Cell nucleus",
+        "Lysosomes"
+      ],
+      "correct": 1,
+      "explanation": "The Krebs cycle enzymes are located in the mitochondrial MATRIX — the fluid-filled inner compartment. Not in the chloroplast (which is for photosynthesis), not in the nucleus, and not in lysosomes (which digest macromolecules)."
+      },
+    {
+      "question": "What is the final electron acceptor in the electron transport chain of aerobic cellular respiration?",
+      "options": [
+        "O₂ (molecular oxygen)",
+        "H₂ (hydrogen gas)",
+        "NADP⁺",
+        "NAD⁺"
+      ],
+      "correct": 0,
+      "explanation": "At the END of the ETC, electrons are passed to O₂ — the final acceptor. O₂ combines with 2 electrons and 2 H⁺ to form water: ½O₂ + 2H⁺ + 2e⁻ → H₂O. Without O₂, the entire ETC backs up and stops. NAD⁺ and NADP⁺ are electron CARRIERS earlier in the process, not the final acceptor."
+    },
+    {
+      "question": "In an experiment, radioactive ¹⁴CO₂ was used as a tracer and was found to be incorporated FIRST into oxaloacetate (a 4-carbon compound). Which type of plant would best describe this result?",
+      "options": [
+        "C3 plant",
+        "C4 plant",
+        "CAM plant",
+        "Heterotrophic plant"
+      ],
+      "correct": 1,
+      "explanation": "In C4 plants, CO₂ is first fixed into oxaloacetate (4C) in mesophyll cells by PEP carboxylase. This is the defining feature of C4 photosynthesis. In C3 plants, CO₂ is first fixed into 3-phosphoglycerate (3C). CAM plants also use a 4C intermediate but only at night. The question describes C4 plants specifically."
+    },
+    {
+      "question": "Which of the four stages in aerobic respiration of glucose does NOT directly produce ATP?",
+      "options": [
+        "Glycolysis",
+        "Krebs cycle",
+        "Electron transport chain and chemiosmosis",
+        "Link reaction (pyruvate oxidation)"
+      ],
+      "correct": 3,
+      "explanation": "The link reaction (pyruvate → acetyl-CoA) produces NADH and CO₂ but NO ATP directly. Glycolysis produces 2 ATP (substrate-level), the Krebs cycle produces 2 GTP (≈ATP), and the ETC produces ~32 ATP. The link reaction's energy is stored in NADH, which is used later in the ETC."
+    },
+    {
+      "question": "Which of the following has the highest water potential?",
+      "options": [
+        "Pure liquid water",
+        "A dilute aqueous solution",
+        "A concentrated aqueous solution",
+        "A cell in a hypertonic solution"
+      ],
+      "correct": 0,
+      "explanation": "Water potential (Ψ) of pure water = 0 (the maximum possible). Any dissolved solute lowers water potential (makes it more negative). So pure water always has higher water potential than any solution. Water moves by osmosis from high Ψ (pure water/dilute) to low Ψ (concentrated solutions)."
+    },
+    {
+      "question": "During photosynthesis, which process is DIRECTLY responsible for the production of oxygen?",
+      "options": [
+        "Reduction of NADP⁺ by PS I",
+        "Electron transfer within Photosystem II",
+        "Carbon fixation by RuBisCO",
+        "Photolysis (splitting) of water molecules in PS II"
+      ],
+      "correct": 3,
+      "explanation": "O₂ is produced by photolysis: 2H₂O → 4H⁺ + 4e⁻ + O₂ in PS II. The electrons released replace those lost from P680. NADP⁺ reduction happens in PS I (produces NADPH). Carbon fixation produces 3-PGA. Only photolysis directly releases O₂."
+    },
+    {
+      "question": "Which of the following best describes cellular respiration in terms of metabolic classification?",
+      "options": [
+        "Anabolic and exergonic",
+        "Anabolic and endergonic",
+        "Catabolic and endergonic",
+        "Catabolic and exergonic"
+      ],
+      "correct": 3,
+      "explanation": "Catabolic = breaks down larger molecules (glucose) into smaller ones (CO₂ + H₂O). Exergonic = releases free energy (produces ATP). Anabolic reactions BUILD molecules and are endergonic (require energy). Respiration does the opposite: it breaks down and releases energy."
+    },
+    {
+      "question": "What is the ULTIMATE source of the electrons that replace those lost from Photosystem II during the light reactions?",
+      "options": [
+        "Photosystem I",
+        "Water molecules",
+        "Chlorophyll-a",
+        "Chlorophyll-b"
+      ],
+      "correct": 1,
+      "explanation": "When P680 in PS II absorbs light, it ejects a high-energy electron. The gap is filled by electrons from WATER SPLITTING (photolysis): 2H₂O → 4H⁺ + 4e⁻ + O₂. Water is the ultimate electron donor in the non-cyclic pathway. Chlorophyll molecules do not donate electrons to replace lost ones."
+    },
+    {
+      "question": "In which part of the mitochondrion does the Krebs cycle take place?",
+      "options": [
+        "In the inter-membrane space",
+        "On the outer membrane surface",
+        "On the inner membrane surface",
+        "In the matrix"
+      ],
+      "correct": 3,
+      "explanation": "The Krebs cycle enzymes are found in the MATRIX (the fluid inside the inner membrane). The ETC complexes are embedded in the inner membrane. The inter-membrane space is where H⁺ accumulates during ETC. The outer membrane is freely permeable to most molecules."
+    },
+    {
+      "question": "How many ATP molecules are produced during COMPLETE aerobic cellular respiration of ONE glucose molecule?",
+      "options": [
+        "2 ATP",
+        "4 ATP",
+        "18 ATP",
+        "36–38 ATP"
+      ],
+      "correct": 3,
+      "explanation": "Complete aerobic respiration yields approximately 36–38 ATP: Glycolysis: 2 ATP + 2 NADH; Link reaction: 2 NADH; Krebs cycle: 2 GTP + 6 NADH + 2 FADH₂; ETC: ~32 ATP from NADH and FADH₂ via chemiosmosis. 2 ATP is glycolysis only. 36 is the classic textbook value; modern estimates are 30–32 net, but 36–38 is the standard answer for Ethiopian entrance exams."
+    },
+    {
+      "question": "Which of the following correctly describes photosynthesis in terms of metabolic classification?",
+      "options": [
+        "Reductive, endergonic, and anabolic",
+        "Reductive, exergonic, and anabolic",
+        "Reductive, endergonic, and catabolic",
+        "Reductive, exergonic, and catabolic"
+      ],
+      "correct": 0,
+      "explanation": "Photosynthesis is: REDUCTIVE (CO₂ is reduced to glucose using NADPH), ENDERGONIC (requires energy input — sunlight), and ANABOLIC (builds complex organic molecules from simple ones). Respiration is the reverse: oxidative, exergonic, catabolic."
+    },
+    {
+      "question": "Which microorganism is responsible for both brewing (making beer) and baking (making bread rise)?",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Candida albicans",
+        "Chlamydomonas reinhardtii",
+        "Rhizobium leguminosarum"
+      ],
+      "correct": 0,
+      "explanation": "Saccharomyces cerevisiae (baker's/brewer's yeast) ferments glucose → ethanol + CO₂. In brewing, the ethanol is the product; in baking, the CO₂ bubbles cause the dough to rise. Candida is a pathogenic yeast. Chlamydomonas is a green alga (used in photosynthesis research)."
+    },
+    {
+      "question": "Gram staining is called a DIFFERENTIAL stain because:",
+      "options": [
+        "It stains bacteria but not fungi",
+        "It stains viruses but not other organisms",
+        "It stains some fungi purple and others pink",
+        "It stains Gram-positive bacteria purple and Gram-negative bacteria pink"
+      ],
+      "correct": 3,
+      "explanation": "Gram staining differentiates bacteria based on cell wall structure: Gram-positive (thick peptidoglycan) retain crystal violet → stain PURPLE. Gram-negative (thin peptidoglycan + outer membrane) lose crystal violet, counterstain with safranin → stain PINK. 'Differential' means it produces different results for different types of organisms."
+    },
+    {
+      "question": "During the lysogenic cycle of a bacteriophage, which of the following events occurs?",
+      "options": [
+        "The virus immediately lyses (destroys) the host cell","Viral DNA integrates into the host chromosome as a prophage and is replicated with it",
+        "The virus replicates independently in the cytoplasm without touching host DNA",
+        "The virus exits the cell by budding without killing the host immediately, releasing new virions"
+      ],
+      "correct": 1,
+      "explanation": "Lysogenic cycle: viral DNA integrates into the host genome as a PROPHAGE. Each time the host cell divides, the viral DNA is replicated and passed to daughter cells. The virus remains dormant until stress triggers the lytic cycle. Immediate lysis is the LYTIC cycle. Budding is seen in retroviruses/enveloped viruses."
+    },
+    {
+      "question": "In Pavlov's classical conditioning experiment on dogs, which of the following represents the CONDITIONED response?",
+      "options": [
+        "Salivation in response to hearing the bell (conditioned stimulus)",
+        "Salivation in response to seeing food (unconditioned response)",
+        "The sound of the bell before food is presented",
+        "The presentation of food after the bell"
+      ],
+      "correct": 0,
+      "explanation": "Classical conditioning: Unconditioned stimulus (food) → unconditioned response (salivation). After pairing bell with food, the bell alone (conditioned stimulus) triggers salivation — the CONDITIONED RESPONSE. Salivating at food is the natural, unconditioned response. The bell ringing is the conditioned stimulus, not the response."
+    },
+    {
+      "question": "Withdrawing your hand from a very hot object (a) and increasing your heart rate during exercise (b) are examples of, respectively:",
+      "options": [
+        "Somatic reflex and autonomic reflex",
+        "Autonomic reflex and somatic reflex",
+        "Instinctive and orientational behavior",
+        "Orientational and instinctive behavior"
+      ],
+      "correct": 0,
+      "explanation": "Withdrawing from a hot object is a SOMATIC reflex — it involves rapid, involuntary contraction of skeletal muscles through a spinal reflex arc, mediated by the somatic nervous system. Increasing heart rate during exercise is an AUTONOMIC reflex — the sympathetic division of the autonomic nervous system increases heart rate involuntarily in response to increased oxygen demand. Somatic nervous system controls skeletal muscles. Autonomic nervous system controls the heart, smooth muscle, and glands — always involuntary."
+    },
+    {
+      "question": "A teacher rides as a passenger every day. One day the driver is ill, so the teacher drives himself to school without getting lost. What type of learning does this demonstrate?",
+      "options": [
+        "Latent learning",
+        "Operant conditioning",
+        "Insight learning",
+        "Imprinting"
+      ],
+      "correct": 0,
+      "explanation": "Latent learning = learning that occurs without any obvious reinforcement and is not immediately expressed in behavior. The teacher learned the route passively (latently) as a passenger. The knowledge was 'hidden' (latent) until needed. Operant conditioning requires reinforcement/punishment. Imprinting occurs in a critical early period."
+    },
+    {
+      "question": "Which of the following is NOT a feature of eusociality in insects?",
+      "options": [
+        "The presence of several overlapping generations in a colony",
+        "Cooperative care of young",
+        "Reproductive division of labor (only some individuals reproduce)",
+        "Each individual reproduces independently and raises its own offspring"
+      ],
+      "correct": 3,
+      "explanation": "Eusociality (e.g., bees, ants, termites) is defined by THREE criteria: (1) overlapping generations, (2) cooperative brood care, and (3) reproductive division of labor (workers vs. reproductives). Independent reproduction by each individual CONTRADICTS eusociality — only the queen (and drones) reproduce in eusocial colonies."
+      },
+    {
+      "question": "What is the other name for a primary consumer in an ecosystem?",
+      "options": [
+        "Predator",
+        "Carnivore",
+        "Green plant (producer)",
+        "Herbivore"
+      ],
+      "correct": 3,
+      "explanation": "Primary consumers eat producers (plants) directly → they are HERBIVORES. Secondary consumers eat primary consumers → they are carnivores (or omnivores). Producers are plants/algae. Predators are secondary/tertiary consumers. Primary consumer = herbivore is the key ecological equivalence to memorize."
+    },
+    {
+      "question": "According to Darwin's theory of natural selection, which is the MOST important driving force of evolution?",
+      "options": [
+        "Mutation",
+        "Over-reproduction",
+        "Genetic recombination",
+        "Natural selection"
+      ],
+      "correct": 3,
+      "explanation": "Darwin's core mechanism is NATURAL SELECTION: organisms with favorable heritable variations survive and reproduce more (survival of the fittest), passing those traits to offspring. Over-reproduction creates competition; mutations create variation — but natural selection is the force that directs evolutionary change. Modern synthesis adds genetics, but Darwin's primary mechanism remains natural selection."
+    },
+    {
+      "question": "In which type of natural selection do BOTH extreme phenotypes have a selective advantage over the intermediate phenotype, potentially splitting one population into two?",
+      "options": [
+        "Disruptive selection",
+        "Stabilizing selection",
+        "Artificial selection",
+        "Directional selection"
+      ],
+      "correct": 0,
+      "explanation": "DISRUPTIVE selection favors both extremes — the population distribution splits at the center. Example: large-billed and small-billed birds both thrive while medium-billed birds struggle. STABILIZING selection favors the mean (e.g., birth weight). DIRECTIONAL selection shifts the mean toward one extreme (e.g., antibiotic resistance)."
+    },
+    {
+      "question": "Which of the following is an ABIOTIC factor that influences population size?",
+      "options": [
+        "Predation",
+        "Pathogen activity",
+        "Interspecific competition",
+        "Temperature"
+      ],
+      "correct": 3,
+      "explanation": "Abiotic factors are non-living environmental factors. TEMPERATURE is abiotic — it directly affects metabolic rates, reproduction, and survival. Predation, pathogens, and competition are BIOTIC factors (involving living organisms). Abiotic vs. biotic is a fundamental ecology distinction."
+    },
+    {
+      "question": "Which of the following is NOT true about the biological importance of water?",
+      "options": [
+        "Water is an essential reactant in photosynthesis",
+        "Water is a solvent for metabolic reactions",
+        "Water is a reactant in aerobic respiration",
+        "Water is produced as a byproduct of aerobic respiration"
+      ],
+      "correct": 2,
+      "explanation": "Water is a PRODUCT of aerobic respiration (from combining H⁺ with O₂ at the end of ETC), not a reactant. Water IS a reactant in photosynthesis (photolysis releases O₂). Water is also an essential solvent and transport medium. Saying water is a required reactant in respiration is the false statement here."
+    },
+    {
+      "question": "Which of the following marine habitats is considered the MOST diverse (highest biodiversity)?",
+      "options": [
+        "Coral reef",
+        "Estuary",
+        "Wetland",
+        "Open ocean (pelagic zone)"
+      ],
+      "correct": 0,
+      "explanation": "Coral reefs are called the 'rainforests of the sea' — they occupy less than 1% of the ocean floor but support ~25% of all marine species. They offer structural complexity (many niches). Estuaries are highly productive but less diverse. Open ocean is vast but species-poor per unit area."
+      },
+    {
+      "question": "A disease caused by a pathogenic microorganism entering and infecting the body is called a/an:",
+      "options": [
+        "Social disease",
+        "Genetic disease",
+        "Infectious disease",
+        "Deficiency disease"
+      ],
+      "correct": 2,
+      "explanation": "INFECTIOUS diseases are caused by pathogens (bacteria, viruses, fungi, parasites) that invade and multiply in the body. Genetic diseases arise from DNA mutations (e.g., sickle cell anemia). Deficiency diseases result from lack of nutrients (e.g., scurvy). Social diseases relate to lifestyle/environment, not direct infection."
+    },
+    {
+      "question": "An unknown enzyme was added to two test tubes: one containing starch, one containing sucrose. After 10 minutes, only the starch tube gave a positive result (reducing sugar detected). What enzyme was used?",
+      "options": [
+        "Lipase",
+        "Sucrase",
+        "Amylase",
+        "Lactase"
+      ],
+      "correct": 2,
+      "explanation": "AMYLASE breaks down starch into maltose/glucose (positive reducing sugar test). It has NO effect on sucrose (wrong substrate — enzyme specificity/lock-and-key). Sucrase would break down sucrose only. Lactase breaks down lactose only. Lipase acts on fats/lipids, not carbohydrates. This tests enzyme specificity."
+    },
+    {
+      "question": "How do COMPETITIVE inhibitors prevent an enzyme from functioning?",
+      "options": [
+        "By permanently changing the shape of the enzyme's active site (denaturation)",
+        "By binding to the substrate and preventing it from entering the active site",
+        "By binding to the active site and blocking the substrate from binding",
+        "By increasing the activation energy required for the reaction"
+      ],
+      "correct": 2,
+      "explanation": "Competitive inhibitors have a shape SIMILAR to the substrate. They compete for and temporarily BIND TO THE ACTIVE SITE, blocking the real substrate from entering. This inhibition can be overcome by increasing substrate concentration. Non-competitive inhibitors bind to an allosteric site and change the active site shape. Denaturation is permanent, not competitive inhibition."
+    },
+    {
+      "question": "Which of the following features is found in BOTH prokaryotic AND eukaryotic cells?",
+      "options": [
+        "Multiple linear chromosomes",
+        "Membrane-bound nucleus",
+        "Ribosomes for protein synthesis",
+        "Mitochondria for ATP production"
+      ],
+      "correct": 2,
+      "explanation": "RIBOSOMES are universal — found in ALL cells (prokaryotic and eukaryotic). They differ in size (70S in prokaryotes, 80S in eukaryotes) but both perform protein synthesis. Linear chromosomes, membrane-bound nuclei, and mitochondria are EUKARYOTIC features only. Prokaryotes have circular DNA and no membrane-bound organelles."
+    },
+    {
+      "question": "What makes parts of the endoplasmic reticulum 'rough'?",
+      "options": [
+        "The presence of attached ribosomes",
+        "The presence of different amino acids in the membrane",
+        "High lipid content in the membrane",
+        "Protein channels embedded in the membrane"
+      ],
+      "correct": 0,
+      "explanation": "The Rough ER (RER) is studded with RIBOSOMES on its cytoplasmic surface. These ribosomes synthesize proteins that are threaded into the ER lumen for folding, modification, and transport. Smooth ER lacks ribosomes. The ribosomes give the membrane its 'rough' (bumpy) appearance under electron microscopy."
+    },
+    {
+      "question": "The method of gathering information by using your senses directly is called a/an:",
+      "options": [
+        "Observation",
+        "Prediction",
+        "Experiment",
+        "Conclusion"
+      ],
+      "correct": 0,
+      "explanation": "An OBSERVATION is using your senses (sight, smell, touch, hearing, taste) to gather data about the natural world. A prediction is what you expect to happen. An experiment tests a hypothesis. A conclusion is the interpretation of results. Scientific method order: Observation → Question → Hypothesis → Experiment → Conclusion."
+    },
+    {
+      "question": "Which of the following is NOT a principle of the cell theory?",
+      "options": [
+        "Cells are the basic structural and functional units of life",
+        "All living organisms are made of one or more cells",
+        "Very few cells are capable of reproducing",
+        "All cells arise from pre-existing cells (biogenesis)"
+      ],
+      "correct": 2,
+      "explanation": "Cell theory has three core principles: (1) All living things are made of cells, (2) Cells are the basic units of life, (3) All cells come from pre-existing cells. The idea that 'very few cells can reproduce' is FALSE — cells reproduce by division (mitosis/meiosis/binary fission), and reproduction is a fundamental cellular capability."
+    },
+    {
+      "question": "What is the correct ORDER of steps in the Gram staining procedure?",
+      "options": [
+        "Crystal violet → Iodine (mordant) → Decolorization → Safranin (counterstain)",
+        "Crystal violet → Decolorization → Iodine treatment → Safranin",
+        "Safranin → Crystal violet → Iodine → Decolorization",
+        "Iodine → Crystal violet → Safranin → Decolorization"
+      ],
+      "correct": 0,
+      "explanation": "Gram staining steps in order: (1) Crystal violet (primary stain) → (2) Iodine/Lugol's solution (mordant — fixes crystal violet to peptidoglycan) → (3) Decolorization with ethanol/acetone → (4) Safranin (counterstain — stains Gram-negative cells pink). Gram+ keep purple. Gram− lose purple, take up pink."
+    },
+    {
+      "question": "If someone suddenly withdraws their hand from a very hot object, which type of behavior is demonstrated?",
+      "options": [
+        "Reflex action",
+        "Imprinting",
+        "Learned behavior",
+        "Sensitization"
+      ],
+      "correct": 0,
+      "explanation": "Withdrawing from pain is a REFLEX ACTION — a rapid, automatic, involuntary response mediated by the spinal cord (not the brain). It bypasses conscious thought for speed. Imprinting occurs in early development. Learned behavior requires experience/practice. Sensitization is increased response to repeated stimuli."
+    },
+    {
+      "question": "Which of the following pairs represents ANALOGOUS structures?",
+      "options": [
+        "Human arm and front leg of a mule",
+        "Front leg of a frog and wing of a bat",
+        "Wing of a butterfly and wing of a bird",
+        "Human hand and whale flipper"
+      ],
+      "correct": 2,
+      "explanation": "ANALOGOUS structures have the SAME FUNCTION but different evolutionary origins (convergent evolution). Butterfly wings (insect exoskeleton-based) and bird wings (modified vertebrate forelimb) both function in flight but evolved independently — analogous. Human arm and mule front leg are HOMOLOGOUS (same ancestry, different function). Human hand and whale flipper are also homologous."
+    },
+    {
+      "question": "Animals with no close evolutionary relationship sometimes have similar structures adapted for the same function. Which evolutionary principle does this illustrate?",
+      "options": [
+        "Convergent evolution",
+        "Divergent evolution",
+        "Sympatric speciation",
+        "Allopatric speciation"
+      ],
+      "correct": 0,
+      "explanation": "CONVERGENT EVOLUTION: unrelated organisms independently evolve similar structures (analogous structures) due to similar environmental pressures. Example: wings in birds and bats (related), vs. wings in insects and birds (unrelated — convergent). DIVERGENT evolution = related organisms evolve different forms (homologous structures). Sympatric/allopatric speciation are about geographic isolation."
+      },
+    {
+      "question": "Fossils that are OLDER than 60,000 years are best dated using which method?",
+      "options": [
+        "Carbon-14 (radiocarbon) dating",
+        "Stratigraphy (rock layer analysis)",
+        "Potassium-argon dating",
+        "Uranium-lead dating"
+      ],
+      "correct": 2,
+      "explanation": "Carbon-14 has a half-life of ~5,730 years — after 60,000 years (~10 half-lives), less than 0.1% of ¹⁴C remains, too little to measure accurately. POTASSIUM-ARGON dating uses ⁴⁰K (half-life 1.3 billion years), making it suitable for very old materials (millions–billions of years). It dates the rock matrix around fossils. Stratigraphy gives relative age, not absolute dates."
+    },
+    {
+      "question": "Which description correctly matches the type of selection with its action on population distribution?",
+      "options": [
+        "Acting around the mean value = stabilizing; acting at both ends = disruptive",
+        "Acting at both ends = directional; acting around the mean = disruptive",
+        "Acting at one end = stabilizing; acting around the mean = directional",
+        "Acting around the mean = directional; acting at one end = disruptive"
+      ],
+      "correct": 0,
+      "explanation": "STABILIZING selection: favors the MEAN → reduces variation (e.g., human birth weight). DIRECTIONAL selection: favors ONE EXTREME → shifts the mean (e.g., antibiotic resistance). DISRUPTIVE selection: favors BOTH EXTREMES → bimodal distribution (e.g., beak size). correctly pairs each type with its action on the distribution."
+    },
+    {
+      "question": "From studying how breeders improve domesticated plants and animals through artificial selection, which key insight about living things can be drawn?",
+      "options": [
+        "Living things tend to overproduce offspring",
+        "Natural resources are always in limited supply",
+        "Heritable variation exists within populations and can be selected for",
+        "Organisms compete directly with members of other species"
+      ],
+      "correct": 2,
+      "explanation": "Artificial selection DEMONSTRATES that: (1) heritable variation exists in populations, and (2) selecting specific traits over generations changes the population. This directly informed Darwin's concept of natural selection. Breeders showed that traits are inherited and populations can change — the core of evolutionary theory. Over-reproduction and resource scarcity are other parts of Darwin's argument, not the direct lesson from breeding."
+    },
+    {
+      "question": "What is the primary reason a young plant shoot bends TOWARD a unidirectional light source (phototropism)?",
+      "options": [
+        "Reduced photosynthesis on the dark side causes slower growth",
+        "Auxin migrates to the shaded side, causing FASTER cell elongation on that side",
+        "Light directly stimulates cell division on the illuminated side",
+        "The illuminated side absorbs more water, swelling and bending toward light"
+      ],
+      "correct": 1,
+      "explanation": "Phototropism is mediated by AUXIN (IAA). Light causes auxin to redistribute to the SHADED side. Higher auxin concentration → greater cell elongation on the dark side → plant bends TOWARD the light. The illuminated side has less auxin and grows slower, not faster. This was demonstrated by Went's oat coleoptile experiments."
+    },
+    {
+      "question": "What important concept was MISSING from Darwin's original explanation of evolution that was only added later with the discovery of genetics?",
+      "options": [
+        "Over-reproduction",
+        "Struggle for survival",
+        "The mechanism of hereditary variation (genetics/genes)",
+        "Survival of the fittest"
+      ],
+      "correct": 2,
+      "explanation": "Darwin observed variation and natural selection but could NOT explain the MECHANISM of inheritance. Mendel's genetics (and later the Modern Synthesis combining Darwin + Mendel) filled this gap. Darwin didn't know about genes, mutations, or DNA. He knew traits were inherited but not HOW.
+      This was the major gap in his theory."
+    },
+    {
+      "question": "Which bacteria converts ethanol into acetic acid (vinegar)?",
+      "options": [
+        "Acetobacter aceti",
+        "Rhizobium leguminosarum",
+        "Lactobacillus acidophilus",
+        "Nitrosomonas europaea"
+      ],
+      "correct": 0,
+      "explanation": "ACETOBACTER is an aerobic bacterium that oxidizes ethanol (alcohol) → acetic acid (vinegar): C₂H₅OH + O₂ → CH₃COOH + H₂O. This is the basis of vinegar production. Rhizobium fixes nitrogen. Lactobacillus produces lactic acid. Nitrosomonas performs nitrification (NH₄⁺ → NO₂⁻)."
+    },
+    {
+      "question": "Which of the following statements is NOT true about nitrogen-fixing bacteria?",
+      "options": [
+        "They convert atmospheric N₂ into ammonium ions (NH₄⁺)",
+        "They are found in nodules on roots of legumes",
+        "They require the enzyme nitrogenase which is inhibited by O₂",
+        "They convert ammonium ions back into atmospheric N₂ (denitrification)"
+      ],
+      "correct": 3,
+      "explanation": "Nitrogen-fixing bacteria (Rhizobium, Azotobacter) convert N₂ → NH₄⁺ using nitrogenase. They DO live in legume root nodules. Nitrogenase IS inhibited by O₂ (the nodule provides a low-O₂ environment using leghemoglobin). DENITRIFICATION (NH₄⁺ → N₂) is done by DIFFERENT bacteria (e.g., Pseudomonas denitrificans), not nitrogen-fixers."
+    },
+    {
+      "question": "Which of the following is the ONLY acellular (non-cellular) micro-organism?",
+      "options": [
+        "Fungi",
+        "Bacteria",
+        "Viruses",
+        "Protozoa"
+      ],
+      "correct": 2,
+      "explanation": "VIRUSES are acellular — they have no cell membrane, cytoplasm, ribosomes, or cell wall. They consist only of nucleic acid (DNA or RNA) enclosed in a protein coat (capsid). Fungi, bacteria, and protozoa are all CELLULAR organisms (have cells). Viruses are considered non-living by most criteria since they cannot metabolize or reproduce independently."
+    },
+    {
+      "question": "Which two abiotic factors are MOST significant in determining the type of biome found in a region?",
+      "options": [
+        "Soil type and soil depth",
+        "Temperature and climatic seasons",
+        "Temperature and annual rainfall (precipitation)",
+        "Climate patterns and grazing animals"
+      ],
+      "correct": 2,
+      "explanation": "Biome distribution is primarily determined by TEMPERATURE and PRECIPITATION (rainfall). These two factors define climate and thus which plant communities (and dependent animal communities) can survive. The Whittaker biome classification uses temperature and rainfall as its axes. Soil type is secondary — determined by climate and vegetation, not the other way around."
+    },
+    {
+      "question": "Where do the light reactions and Calvin cycle of photosynthesis respectively take place?",
+      "options": [
+        "Cytosol of cytoplasm ... stroma",
+        "Stroma ... thylakoid membranes",
+        "Thylakoid membranes ... stroma",
+        "Cytoplasm ... thylakoid membranes"
+      ],
+      "correct": 2,
+      "explanation": "Light reactions (photosystems, ETC, photophosphorylation, photolysis) occur in the THYLAKOID MEMBRANES. The Calvin cycle (carbon fixation, reduction of 3-PGA, regeneration of RuBP) occurs in the STROMA of the chloroplast. Remember: Light → Thylakoid; Calvin → Stroma."
+    },
+    {
+      "question": "A diagram shows glucose being broken down to release CO₂ and ethanol without oxygen involvement. Which process does it BEST illustrate?",
+      "options": [
+        "Cellular digestion",
+        "Aerobic cellular respiration",
+        "Alcoholic fermentation (yeast)",
+        "Plant photosynthesis"
+      ],
+      "correct": 2,
+      "explanation": "Glucose → Ethanol + CO₂ (no O₂ used) is ALCOHOLIC FERMENTATION by yeast. This is anaerobic. Aerobic respiration requires O₂ and produces CO₂ + H₂O + ATP. Photosynthesis is the reverse — it builds glucose. Cellular digestion breaks down food in the gut, not at the cellular energy level."
+      },
+    {
+      "question": "What is the purpose of the enfolding (cristae) of the inner mitochondrial membrane?",
+      "options": [
+        "To increase the surface area available for ATP synthase and ETC proteins",
+        "To increase the photosynthetic capacity of the cell",
+        "To speed up CO₂ loss during fermentation",
+        "To store calcium ions for muscle contraction"
+      ],
+      "correct": 0,
+      "explanation": "The cristae (folds of the inner membrane) dramatically increase the surface area of the inner membrane. Since ATP synthase and ETC complexes are embedded in the inner membrane, more folds = more space for these proteins = MORE ATP production capacity. This is a structural adaptation for maximizing aerobic respiration efficiency."
+    },
+    {
+      "question": "During chemiosmosis in the mitochondrion, what substance diffuses through ATP synthase from the inter-membrane space to the matrix?",
+      "options": [
+        "Water molecules",
+        "Protons (H⁺)",
+        "Electrons (e⁻)",
+        "ATP molecules"
+      ],
+      "correct": 1,
+      "explanation": "PROTONS (H⁺) are pumped into the inter-membrane space by ETC complexes I, III, and IV, creating a high concentration there. They then flow DOWN their electrochemical gradient through ATP synthase back into the matrix. This flow drives the rotation of ATP synthase's rotor, phosphorylating ADP → ATP. Electrons travel the ETC but don't pass through ATP synthase."
+    },
+    {
+      "question": "When muscle cells are deprived of oxygen during intense exercise, which compound accumulates?",
+      "options": [
+        "Ethanol",
+        "Acetic acid",
+        "Lactic acid",
+        "Only carbon dioxide"
+      ],
+      "correct": 2,
+      "explanation": "In oxygen-deprived HUMAN muscle cells: pyruvate + NADH → LACTATE + NAD⁺ (catalyzed by lactate dehydrogenase). This regenerates NAD⁺ to keep glycolysis running. Lactic acid buildup causes the burning sensation in muscles. Ethanol + CO₂ is YEAST fermentation. Acetic acid is made by Acetobacter, not muscles."
+    },
+    {
+      "question": "If there were no free oxygen available, which step of the respiration process would STILL operate in the human body?",
+      "options": [
+        "Glycolysis only",
+        "Krebs cycle",
+        "Electron transport chain",
+        "Link reaction (pyruvate oxidation)"
+      ],
+      "correct": 0,
+      "explanation": "GLYCOLYSIS is anaerobic — it occurs in the cytoplasm and needs no oxygen. Without O₂, the ETC stops (O₂ is the final electron acceptor), halting the Krebs cycle and link reaction (no NAD⁺/FAD is recycled). Glycolysis continues via anaerobic fermentation (pyruvate → lactate), regenerating NAD⁺. Only 2 ATP are produced."
+    },
+    {
+      "question": "Which of the following is NOT usually true as ecological succession progresses to advanced seral stages?",
+      "options": [
+        "More ecological niches are formed",
+        "Species diversity increases",
+        "Soil depth increases",
+        "Fewer populations are supported"
+      ],
+      "correct": 3,
+      "explanation": "As succession progresses: soil deepens, species diversity increases, more niches form, biomass increases, and MORE populations are supported (not fewer). Advanced communities (approaching climax) support GREATER biodiversity and more complex food webs. 'Fewer populations' is the INCORRECT statement — the opposite is true."
+    },
+    {
+      "question": "What is the MOST reliable criterion for determining whether two organisms belong to the same species?",
+      "options": [
+        "Morphological (physical) similarity",
+        "Living in the same geographic area",
+        "Physiological similarity",
+        "Ability to interbreed and produce fertile offspring"
+      ],
+      "correct": 3,
+      "explanation": "The BIOLOGICAL SPECIES CONCEPT defines a species as a group of organisms that can interbreed and produce FERTILE OFFSPRING. Morphological and physiological similarity can mislead (e.g., convergent evolution makes unrelated species look alike). Geographic overlap doesn't mean same species. A mule (horse × donkey) is a hybrid but INFERTILE — horse and donkey are different species."
+    },
+    {
+      "question": "What is the type of community called when ecological succession has reached its FINAL, most stable stage?",
+      "options": [
+        "Pioneer community",
+        "Seral community",
+        "Climax community",
+        "Secondary community"
+      ],
+      "correct": 2,
+      "explanation": "The CLIMAX COMMUNITY is the final, stable community in a successional sequence — it is in equilibrium with the local climate and soil. Pioneer communities are the FIRST to colonize bare ground. Seral communities are all the intermediate stages. Secondary succession begins after a disturbance in a previously colonized area."
+    },
+    {
+      "question": "Which of the following is NOT true about the flow of energy in an ecosystem?",
+      "options": [
+        "Energy is recycled by decomposers and returned to producers",
+        "Energy passes from one trophic level to the next",
+        "Approximately 10% of energy is transferred between trophic levels",
+        "Energy ultimately enters the ecosystem through photosynthesis"
+      ],
+      "correct": 0,
+      "explanation": "Energy is NOT recycled — it flows in ONE DIRECTION and is LOST as heat at each trophic level (10% rule). Only MATTER/NUTRIENTS (carbon, nitrogen, phosphorus) are recycled by decomposers. Energy enters as light → stored as chemical energy → lost as heat. This is a key distinction: matter cycles, energy flows."
+    },
+    {
+      "question": "Which nutritional mode do decomposers (fungi and bacteria) use to break down dead organic matter and recycle nutrients?",
+      "options": [
+        "Saprotrophic (saprobiotic)",
+        "Parasitic",
+        "Autotrophic",
+        "Symbiotic"
+      ],
+      "correct": 0,
+      "explanation": "SAPROTROPHS (decomposers) secrete extracellular enzymes onto dead organic matter, digest it externally, and absorb the products. This releases inorganic nutrients back into the ecosystem for plants. Parasites feed on LIVING hosts. Autotrophs make their own food (photosynthesis). Symbionts have a mutual living arrangement."
+    },
+    {
+      "question": "What are the products of the light reactions of photosynthesis that are subsequently used in the Calvin (light-independent) cycle?",
+      "options": [
+        "Carbon dioxide and RuBP",
+        "Oxygen and carbon dioxide",
+        "ATP and NADPH",
+        "Electrons and photons"
+      ],
+      "correct": 2,
+      "explanation": "Light reactions produce: ATP (by photophosphorylation) and NADPH (by reducing NADP⁺ via PS I). These are then used in the Calvin cycle to: reduce 3-PGA → G3P (using NADPH) and to regenerate RuBP (using ATP). CO₂ is the raw material for the Calvin cycle (from the atmosphere, not from light reactions). O₂ is a byproduct, not a Calvin cycle input."
+    },
+    {
+      "question": "One pair of electrons carried as NADH and one pair carried as FADH₂ together generate how many ATP molecules via the electron transport chain?",
+      "options": [
+        "3 ATP",
+        "5 ATP",
+        "4 ATP",
+        "6 ATP"
+      ],
+      "correct": 1,
+      "explanation": "NADH yields approximately 3 ATP and FADH₂ yields approximately 2 ATP when their electrons pass through the ETC. Together: 3 + 2 = 5 ATP. NADH enters at Complex I (higher energy point), pumping more protons and generating more ATP. FADH₂ enters at Complex II (lower energy point), pumping fewer protons and yielding less ATP. Choosing 6 is an overcount; choosing 4 or 3 ignores one of the two carriers entirely."
+      },
+    {
+      "question": "Which type of plants have the greatest problem with PHOTORESPIRATION?",
+      "options": [
+        "C3 plants",
+        "C4 plants",
+        "CAM plants",
+        "Aquatic plants"
+      ],
+      "correct": 0,
+      "explanation": "Photorespiration occurs when RuBisCO binds O₂ instead of CO₂ (oxygenase activity), wasting energy. C3 plants lack a CO₂ concentrating mechanism, so in HOT, DRY conditions (stomata close → CO₂ depletes, O₂ rises), photorespiration is high — reducing photosynthesis efficiency by up to 50%. C4 and CAM plants have evolved mechanisms to concentrate CO₂ and minimize photorespiration."
+    },
+    {
+      "question": "Which of the following is NOT true about homologous chromosome pairs?",
+      "options": [
+        "They carry genes controlling the same features (traits)",
+        "They may carry different alleles at the same loci",
+        "One chromosome comes from the mother and one from the father",
+        "They always carry identical alleles at every locus"
+      ],
+      "correct": 3,
+      "explanation": "Homologous chromosomes are SAME LENGTH, carry genes for the SAME traits at the SAME loci, and one comes from each parent. However, they do NOT need to carry identical alleles — one might carry allele A and the other allele a (heterozygous). Carrying identical alleles is the definition of HOMOZYGOUS, not homologous."
+    },
+    {
+      "question": "What does Mendel's Law of Independent Assortment state?",
+      "options": [
+        "Alleles separate from each other during gamete formation",
+        "Alleles of DIFFERENT genes assort into gametes independently of each other",
+        "Gametes fuse randomly at fertilization",
+        "One allele is always dominant over the other"
+      ],
+      "correct": 1,
+      "explanation": "Law of Independent Assortment (2nd law): alleles of DIFFERENT GENES sort independently into gametes (when genes are on different chromosomes). This explains the 9:3:3:1 ratio in dihybrid crosses. describes the LAW OF SEGREGATION (1st law). Gametes fusing randomly is the basis of fertilization, not a Mendelian law."
+    },
+    {
+      "question": "Which of the following statements about alleles and dominance is TRUE?",
+      "options": [
+        "Alleles are always simply dominant or recessive (complete dominance only)",
+        "A gene always has exactly two alleles",
+        "Sometimes both alleles of a gene are equally expressed (codominance)",
+        "All genes show incomplete dominance"
+      ],
+      "correct": 2,
+      "explanation": "CODOMINANCE: both alleles are fully expressed simultaneously (e.g., AB blood type — both IA and IB alleles are expressed). INCOMPLETE dominance: intermediate phenotype (e.g., red × white → pink). Some genes have MULTIPLE alleles (e.g., ABO blood type has 3 alleles: IA, IB, i). So statements A and B are both false."
+    },
+    {
+      "question": "When the SRY gene on the Y-chromosome is activated during embryonic development, the bi-potential gonad develops into:",
+      "options": [
+        "Testis",
+        "Ovary",
+        "A female reproductive system",
+        "An infertile gonad"
+      ],
+      "correct": 0,
+      "explanation": "SRY (Sex-determining Region Y) encodes a transcription factor (TDF — testis-determining factor). When activated in an XY embryo, it directs the bi-potential gonad to develop into TESTES. Without SRY (XX embryo), the gonad defaults to developing into OVARIES. This is the primary switch in mammalian sex determination."
+    },
+    {
+      "question": "Both males and females carry the genes for milk production, but these are expressed ONLY in females. What type of gene pattern does this represent?",
+      "options": [
+        "Sex-linked genes",
+        "Sex-influenced genes",
+        "Sex-limited genes",
+        "Codominant genes"
+      ],
+      "correct": 2,
+      "explanation": "SEX-LIMITED genes: present in BOTH sexes but expressed in only ONE sex due to hormonal environment differences. Milk production genes exist in males but only activated by female hormones (estrogen, progesterone). SEX-LINKED genes are on sex chromosomes. SEX-INFLUENCED genes are expressed differently in males vs females (e.g., pattern baldness)."
+    },
+    {
+      "question": "Which mode of DNA replication results in two IDENTICAL daughter DNA molecules, each consisting of one original and one new strand?",
+      "options": [
+        "Conservative replication",
+        "Semi-conservative replication",
+        "Dispersive replication",
+        "Non-conservative replication"
+      ],
+      "correct": 1,
+      "explanation": "SEMI-CONSERVATIVE replication: each daughter DNA has one OLD (template) strand + one NEW (synthesized) strand. This was proven by Meselson and Stahl (1958) using ¹⁵N/¹⁴N isotope labeling. CONSERVATIVE would keep original intact and make a fully new copy (disproved). DISPERSIVE would mix old/new DNA randomly (disproved)."
+    },
+    {
+      "question": "Which of the following is NOT correct about protein synthesis in prokaryotic cells?",
+      "options": [
+        "mRNA does not need post-transcriptional modification (no splicing)",
+        "Both transcription and translation can occur simultaneously in the cytoplasm",
+        "mRNA needs extensive post-transcriptional modification (splicing of introns)",
+        "Translation begins on 70S ribosomes"
+      ],
+      "correct": 2,
+      "explanation": "In PROKARYOTES: mRNA is translated directly without modification (no nuclear membrane, no introns in most cases, no 5' cap, no poly-A tail). In EUKARYOTES, pre-mRNA is processed: introns removed (splicing), 5' cap added, poly-A tail added. The statement 'mRNA needs post-transcriptional modification' is FALSE for prokaryotes — it's a eukaryotic feature."
+    },
+    {
+      "question": "Down syndrome (47 chromosomes per cell — trisomy 21) results from which type of chromosomal mutation?",
+      "options": [
+        "Non-disjunction (failure of chromosome 21 to separate during meiosis)",
+        "Duplication of a chromosome segment",
+        "Translocation of chromosome material",
+        "Inversion of a chromosome segment"
+      ],
+      "correct": 0,
+      "explanation": "Down syndrome = TRISOMY 21: three copies of chromosome 21. This results from NON-DISJUNCTION during meiosis — chromosome 21 fails to separate, producing a gamete with 2 copies of chromosome 21. When fertilized by a normal gamete (1 copy), the zygote has 3 copies (47 total). Duplication, translocation, and inversion affect gene segments, not whole chromosome count."
+    },
+    {
+      "question": "In Mendel's pea experiments, a pure-breeding round seed (RR) is crossed with a wrinkled seed (rr). In the F₂ generation, what is the ratio of PURE ROUND (RR) seeds to WRINKLED (rr) seeds?",
+      "options": [
+        "3:1",
+        "2:1",
+        "1:2",
+        "1:1"
+      ],
+      "correct": 3,
+      "explanation": "F₁ cross: RR × rr → all Rr (heterozygous round). F₂ self-cross: Rr × Rr → genotype ratio RR : Rr : rr = 1 : 2 : 1. Pure round (RR) = 1 out of 4 offspring. Wrinkled (rr) = 1 out of 4 offspring. So the ratio of pure round (RR) to wrinkled (rr) = 1:1. The phenotype ratio (all round-looking vs wrinkled) is 3:1, but that includes heterozygous Rr plants which look round but are not pure. This question asks about PURE round (RR) only — so the correct ratio is 1:1."
+    },
+    {
+      "question": "The two daughter cells produced by MITOSIS will have:",
+      "options": [
+        "n chromosomes and will differ genetically from each other",
+        "2n chromosomes and will differ genetically from each other",
+        "n chromosomes and will be genetically identical",
+        "2n chromosomes and will be genetically identical to each other and the parent cell"
+      ],
+      "correct": 3,
+      "explanation": "Mitosis produces 2 DIPLOID (2n) daughter cells that are GENETICALLY IDENTICAL to the parent cell and to each other. This is because DNA replication (S phase) duplicates all chromosomes before division, and each daughter receives one complete set. Meiosis produces n (haploid) cells. Genetic differences in daughters arise from crossing over (meiosis), not mitosis."
+    },
+    {
+      "question": "A pregnant woman has an equal chance of her baby being blood group A or blood group AB. What are the possible genotypes of the woman and the father?",
+      "options": [
+        "I^A I^A (woman) and I^B I^O (father)",
+        "I^A I^B (woman) and I^B I^O (father)",
+        "I^A I^O (woman) and I^B I^O (father)",
+        "I^A I^B (woman) and I^A I^O (father)"
+      ],
+      "correct": 3,
+      "explanation": "Test each cross by listing all possible offspring. I^A I^B (woman) × I^A I^O (father) → I^A I^A (group A), I^A I^O (group A), I^A I^B (group AB), I^B I^O (group B). This gives 50% group A and 25% group AB — twice as many A as AB. I^A I^O (woman) × I^B I^O (father) → I^A I^B (AB), I^A I^O (A), I^B I^O (B), I^O I^O (O) — 25% each, not equal A and AB. The cross I^A I^B (woman) × I^A I^O (father) is the only combination where the baby has equal chance of being group A or group AB — because A offspring = I^A I^A + I^A I^O = 2/4 and AB offspring = I^A I^B = 1/4, making it the textbook scenario for this result."
+    },
+    {
+      "question": "In the cross AaBb × AaBb, what is the probability of an offspring having the genotype aaBb?",
+      "options": [
+        "1/16",
+        "1/8",
+        "1/4",
+        "1/2"
+      ],
+      "correct": 1,
+      "explanation": "Apply independent assortment: P(aa) from Aa × Aa = 1/4. P(Bb) from Bb × Bb = 2/4 = 1/2. P(aaBb) = P(aa) × P(Bb) = 1/4 × 1/2 = 1/8. Note: aaBB = 1/4 × 1/4 = 1/16. aaBb = 1/4 × 1/2 = 1/8. aabb = 1/4 × 1/4 = 1/16. Total aa offspring = 4/16 = 1/4."
+    },
+    {
+      "question": "Mendel performed a test cross on a round yellow pea of unknown genotype with a wrinkled green pea (rryy). All offspring had round seeds, but some had yellow and some had green color. What was the UNKNOWN genotype?",
+      "options": [
+        "RRYY",
+        "RrYy",
+        "RRYy",
+        "RrYY"
+      ],
+      "correct": 2,
+      "explanation": "In a test cross (×rryy): If all seeds are ROUND → parent must be RR (homozygous dominant for round) — Rr would give 50% wrinkled. If seeds are BOTH yellow AND green → parent must be Yy (heterozygous) → 50% Yy (yellow) and 50% yy (green). So the unknown genotype = RRYy. (RrYy) would give some wrinkled seeds. (RrYY) would give all yellow but some wrinkled."
+    },
+    {
+      "question": "An enzyme has the systematic name EC 4.3.11.1. Based on the EC classification, to which enzyme class does it belong?",
+      "options": [
+        "Oxidoreductase (EC 1)",
+        "Transferase (EC 2)",
+        "Hydrolase (EC 3)",
+        "Lyase (EC 4)"
+      ],
+      "correct": 3,
+      "explanation": "EC numbers classify enzymes: EC 1 = Oxidoreductases (oxidation/reduction), EC 2 = Transferases (transfer groups), EC 3 = Hydrolases (hydrolysis), EC 4 = Lyases (break bonds without water/oxidation), EC 5 = Isomerases, EC 6 = Ligases. EC 4.x.x.x = LYASE. The first digit always indicates the enzyme class."
+    },
+    {
+      "question": "Enzymes speed up biological reactions by:",
+      "options": [
+        "Increasing the activation energy of the reaction",
+        "Lowering the activation energy required for the reaction",
+        "Increasing the kinetic energy of reacting molecules",
+        "Reducing the kinetic energy of reacting molecules"
+        ],
+      "correct": 1,
+      "explanation": "Enzymes are BIOLOGICAL CATALYSTS. They work by LOWERING THE ACTIVATION ENERGY (Ea) — the minimum energy needed for reactants to form products. By stabilizing the transition state, they allow reactions to proceed faster at physiological temperatures. Enzymes do NOT change the overall energy of reactants or products, and do NOT add energy to the system."
+    },
+    {
+      "question": "The induced-fit model of enzyme action suggests that when an enzyme and substrate bind, there is a conformational (shape) change in:",
+      "options": [
+        "The substrate only",
+        "The active site of the enzyme only",
+        "Both the substrate and the enzyme's active site",
+        "The allosteric site only"
+      ],
+      "correct": 2,
+      "explanation": "The INDUCED-FIT MODEL (Koshland, 1958): when the substrate enters the active site, it induces a conformational change in BOTH the active site AND the substrate — they mold to fit each other precisely. This is more accurate than the lock-and-key model (which assumes a rigid, perfect fit). The mutual adjustment maximizes contact and catalytic efficiency."
+    }
+  ]
+}
