@@ -1,145 +1,381 @@
-{
-  "questions": [
-    {
-      "question": "Which of the following correctly describes the products of alcoholic fermentation by yeast?",
-      "options": [
-        "Lactic acid, CO₂, and 2 ATP",
-        "Ethanol, CO₂, and 2 ATP",
-        "Ethanol, CO₂, and 36 ATP",
-        "Lactic acid, H₂O, and 36 ATP"
-      ],
-      "correct": 1,
-      "explanation": "Alcoholic fermentation: Glucose → 2 Ethanol + 2 CO₂ + 2 ATP (net). Only 2 ATP are made (from glycolysis). No O₂ is used. Lactic acid is produced in animal muscle, not in yeast. 36 ATP requires aerobic respiration, not fermentation."
-    },
-    {
-      "question": "What is the main purpose of the highly folded inner membrane (cristae) of the mitochondrion?",
-      "options": [
-        "To increase the photosynthetic capacity of the cell",
-        "To increase surface area for ATP synthase and electron transport chain proteins",
-        "To speed up the loss of CO₂ during fermentation",
-        "To store glycogen for rapid energy release"
-      ],
-      "correct": 1,
-      "explanation": "The inner mitochondrial membrane contains ATP synthase and the electron transport chain. Folding into cristae greatly increases the surface area available for these proteins, allowing more ATP to be produced. Photosynthesis occurs in chloroplasts, not mitochondria."
-    },
-    {
-      "question": "How many net ATP molecules are produced during the glycolysis of a single glucose molecule?",
-      "options": [
-        "2 ATP (gross) and 2 ATP (net)",
-        "4 ATP (gross) but 2 ATP (net)",
-        "6 ATP (net)",
-        "36 ATP (net)"
-      ],
-      "correct": 1,
-      "explanation": "Glycolysis invests 2 ATP to activate glucose, then produces 4 ATP — giving a net gain of 2 ATP. Additionally, 2 NADH are made. The 36 ATP figure requires the complete aerobic pathway including the Krebs cycle and ETC."
-    },
-    {
-      "question": "During the Krebs cycle, which molecule temporarily carries most of the energy released from food molecules?",
-      "options": [
-        "ADP",
-        "ATP",
-        "FADH₂",
-        "NADH"
-      ],
-      "correct": 3,
-      "explanation": "The Krebs cycle produces 3 NADH and 1 FADH₂ per acetyl-CoA turn. NADH carries the majority of the energy because 3 NADH are produced for every 1 FADH₂. These carriers then donate electrons to the ETC to generate ATP via chemiosmosis. ADP is not an energy carrier; it becomes ATP after phosphorylation."
-    },
-    {
-      "question": "At which stage of aerobic respiration is the MAJORITY of ATP generated?",
-      "options": [
-        "Glycolysis",
-        "Link reaction",
-        "Krebs cycle",
-        "Electron transport chain and chemiosmosis"
-      ],
-      "correct": 3,
-      "explanation": "Glycolysis yields 2 ATP, the Krebs cycle yields 2 ATP (as GTP), but the ETC + chemiosmosis yields ~32 ATP by using the NADH and FADH₂ generated in earlier stages. Proton gradients built by the ETC drive ATP synthase to produce the bulk of ATP."
-    },
-    {
-      "question": "Where exactly in the mitochondrion does the Krebs cycle take place?",
-      "options": [
-        "Outer mitochondrial membrane",
-        "Inner mitochondrial membrane",
-        "Inter-membrane space",
-        "Mitochondrial matrix"
-      ],
-      "correct": 3,
-      "explanation": "The Krebs cycle enzymes are dissolved in the mitochondrial matrix (the fluid inside the inner membrane). The ETC proteins are embedded in the inner membrane. The inter-membrane space is used for proton accumulation during chemiosmosis."
-    },
-    {
-      "question": "Which pigment molecule is found at the reaction center of a photosystem?",
-      "options": [
-        "Chlorophyll b",
-        "Chlorophyll a",
-        "Carotenoid",
-        "Phycoerythrin"
-      ],
-      "correct": 1,
-      "explanation": "Chlorophyll a is the primary pigment at the reaction center of both photosystem I (P700) and photosystem II (P680). Chlorophyll b and carotenoids are accessory pigments that capture additional wavelengths and transfer energy to the reaction center — they do not directly participate in electron release."
-    },
-    {
-      "question": "In which of the following ways is atmospheric CO₂ fixed into organic molecules during photosynthesis?",
-      "options": [
-        "CO₂ is split by light energy in the thylakoid membrane",
-        "CO₂ is attached to RuBP by the enzyme RuBisCO in the Calvin cycle",
-        "CO₂ combines with NADPH to form glucose directly",
-        "CO₂ is absorbed through the stomata and immediately converted to ATP"
-      ],
-      "correct": 1,
-      "explanation": "Carbon fixation: CO₂ + RuBP (5-carbon) → two 3-phosphoglycerate (3C) molecules, catalyzed by RuBisCO in the stroma. This is the first step of the Calvin (light-independent) cycle. Light splits water (photolysis), not CO₂. NADPH and ATP are used to reduce 3-PGA, not to directly combine with CO₂."
-    },
-    {
-      "question": "Which type of plant separates the light-dependent and light-independent reactions of photosynthesis into SEPARATE CELLS?",
-      "options": [
-        "C3 plants",
-        "C4 plants",
-        "CAM plants",
-        "Heterotrophic plants"
-      ],
-      "correct": 1,
-      "explanation": "C4 plants (e.g., maize, sugarcane) fix CO₂ into oxaloacetate in mesophyll cells, then transfer it to bundle sheath cells where the Calvin cycle occurs. This spatial separation reduces photorespiration. CAM plants separate these reactions in TIME (day vs. night), not in separate cells. C3 plants carry both reactions in the same mesophyll cell."
-    },
-    {
-      "question": "During aerobic respiration, protons (H⁺) in the mitochondrial inter-membrane space return to the matrix through which structure?",
-      "options": [
-        "Proton pump",
-        "ATP synthase",
-        "Ion channel",
-        "Membrane lipid bilayer"
-      ],
-      "correct": 1,
-      "explanation": "Protons (H⁺) are pumped INTO the inter-membrane space by the ETC, creating an electrochemical gradient. They flow back into the matrix THROUGH ATP synthase (chemiosmosis), which uses that flow to phosphorylate ADP → ATP. They cannot diffuse through the lipid bilayer because it is impermeable to ions."
-    },
-    {
-      "question": "During chemiosmosis, what substance diffuses across the mitochondrial inner membrane to drive ATP synthesis?",
-      "options": [
-        "Water molecules",
-        "Protons (H⁺)",
-        "Electrons",
-        "ATP molecules"
-      ],
-      "correct": 1,
-      "explanation": "Chemiosmosis = the diffusion of H⁺ (protons) down their electrochemical gradient, through ATP synthase. Electrons travel along the ETC but do not cross the membrane as free particles. Water is not the driving substance. ATP is the product, not the driving substance."
-    },
-    {
-      "question": "Which of the following is NOT true about Photosystem II?",
-      "options": [
-        "Its reaction center pigment absorbs light at 680 nm (P680)",
-        "It passes its excited electrons directly to Photosystem I without any intermediate carriers",
-        "It is responsible for the photolysis (splitting) of water",
-        "Electrons lost from P680 are replaced by electrons from water"
-      ],
-      "correct": 1,
-      "explanation": "PS II passes excited electrons to plastoquinone (PQ), then to the cytochrome b6f complex, then to plastocyanin, and finally to PS I — not directly. PS II reaction center is P680. It does split water (photolysis) to replace lost electrons, releasing O₂ as a byproduct."
-    },
-    {
-      "question": "Where in the chloroplast does the light-dependent reaction take place?",
-      "options": [
-        "In the stroma",
-        "In the thylakoid membrane",
-        "In the outer chloroplast membrane",
-        "In the stomatal opening"
-      ],
+[
+  {
+    "question": "Which of the following correctly describes the products of alcoholic fermentation by yeast?",
+    "options": [
+      "Lactic acid, CO₂, and 2 ATP",
+      "Ethanol, CO₂, and 2 ATP",
+      "Ethanol, CO₂, and 36 ATP",
+      "Lactic acid, H₂O, and 36 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Alcoholic fermentation: Glucose → 2 Ethanol + 2 CO₂ + 2 ATP (net). Only 2 ATP are made (from glycolysis). No O₂ is used. Lactic acid is produced in animal muscle, not in yeast. 36 ATP requires aerobic respiration, not fermentation."
+  },
+  {
+    "question": "What is the main purpose of the highly folded inner membrane (cristae) of the mitochondrion?",
+    "options": [
+      "To increase the photosynthetic capacity of the cell",
+      "To increase surface area for ATP synthase and electron transport chain proteins",
+      "To speed up the loss of CO₂ during fermentation",
+      "To store glycogen for rapid energy release"
+    ],
+    "correct": 1,
+    "explanation": "The inner mitochondrial membrane contains ATP synthase and the electron transport chain. Folding into cristae greatly increases the surface area available for these proteins, allowing more ATP to be produced. Photosynthesis occurs in chloroplasts, not mitochondria."
+  },
+  {
+    "question": "How many net ATP molecules are produced during the glycolysis of a single glucose molecule?",
+    "options": [
+      "2 ATP (gross) and 2 ATP (net)",
+      "4 ATP (gross) but 2 ATP (net)",
+      "6 ATP (net)",
+      "36 ATP (net)"
+    ],
+    "correct": 1,
+    "explanation": "Glycolysis invests 2 ATP to activate glucose, then produces 4 ATP — giving a net gain of 2 ATP. Additionally, 2 NADH are made. The 36 ATP figure requires the complete aerobic pathway including the Krebs cycle and ETC."
+  },
+  {
+    "question": "During the Krebs cycle, which molecule temporarily carries most of the energy released from food molecules?",
+    "options": [
+      "ADP",
+      "ATP",
+      "FADH₂",
+      "NADH"
+    ],
+    "correct": 3,
+    "explanation": "The Krebs cycle produces 3 NADH and 1 FADH₂ per acetyl-CoA turn. NADH carries the majority of the energy because 3 NADH are produced for every 1 FADH₂. These carriers then donate electrons to the ETC to generate ATP via chemiosmosis. ADP is not an energy carrier; it becomes ATP after phosphorylation."
+  },
+  {
+    "question": "At which stage of aerobic respiration is the MAJORITY of ATP generated?",
+    "options": [
+      "Glycolysis",
+      "Link reaction",
+      "Krebs cycle",
+      "Electron transport chain and chemiosmosis"
+    ],
+    "correct": 3,
+    "explanation": "Glycolysis yields 2 ATP, the Krebs cycle yields 2 ATP (as GTP), but the ETC + chemiosmosis yields ~32 ATP by using the NADH and FADH₂ generated in earlier stages. Proton gradients built by the ETC drive ATP synthase to produce the bulk of ATP."
+  },
+  {
+    "question": "Where exactly in the mitochondrion does the Krebs cycle take place?",
+    "options": [
+      "Outer mitochondrial membrane",
+      "Inner mitochondrial membrane",
+      "Inter-membrane space",
+      "Mitochondrial matrix"
+    ],
+    "correct": 3,
+    "explanation": "The Krebs cycle enzymes are dissolved in the mitochondrial matrix (the fluid inside the inner membrane). The ETC proteins are embedded in the inner membrane. The inter-membrane space is used for proton accumulation during chemiosmosis."
+  },
+  {
+    "question": "Which pigment molecule is found at the reaction center of a photosystem?",
+    "options": [
+      "Chlorophyll b",
+      "Chlorophyll a",
+      "Carotenoid",
+      "Phycoerythrin"
+    ],
+    "correct": 1,
+    "explanation": "Chlorophyll a is the primary pigment at the reaction center of both photosystem I (P700) and photosystem II (P680). Chlorophyll b and carotenoids are accessory pigments that capture additional wavelengths and transfer energy to the reaction center — they do not directly participate in electron release."
+  },
+  {
+    "question": "In which of the following ways is atmospheric CO₂ fixed into organic molecules during photosynthesis?",
+    "options": [
+      "CO₂ is split by light energy in the thylakoid membrane",
+      "CO₂ is attached to RuBP by the enzyme RuBisCO in the Calvin cycle",
+      "CO₂ combines with NADPH to form glucose directly",
+      "CO₂ is absorbed through the stomata and immediately converted to ATP"
+    ],
+    "correct": 1,
+    "explanation": "Carbon fixation: CO₂ + RuBP (5-carbon) → two 3-phosphoglycerate (3C) molecules, catalyzed by RuBisCO in the stroma. This is the first step of the Calvin (light-independent) cycle. Light splits water (photolysis), not CO₂. NADPH and ATP are used to reduce 3-PGA, not to directly combine with CO₂."
+  },
+  {
+    "question": "Which type of plant separates the light-dependent and light-independent reactions of photosynthesis into SEPARATE CELLS?",
+    "options": [
+      "C3 plants",
+      "C4 plants",
+      "CAM plants",
+      "Heterotrophic plants"
+    ],
+    "correct": 1,
+    "explanation": "C4 plants (e.g., maize, sugarcane) fix CO₂ into oxaloacetate in mesophyll cells, then transfer it to bundle sheath cells where the Calvin cycle occurs. This spatial separation reduces photorespiration. CAM plants separate these reactions in TIME (day vs. night), not in separate cells. C3 plants carry both reactions in the same mesophyll cell."
+  },
+  {
+    "question": "During aerobic respiration, protons (H⁺) in the mitochondrial inter-membrane space return to the matrix through which structure?",
+    "options": [
+      "Proton pump",
+      "ATP synthase",
+      "Ion channel",
+      "Membrane lipid bilayer"
+    ],
+    "correct": 1,
+    "explanation": "Protons (H⁺) are pumped INTO the inter-membrane space by the ETC, creating an electrochemical gradient. They flow back into the matrix THROUGH ATP synthase (chemiosmosis), which uses that flow to phosphorylate ADP → ATP. They cannot diffuse through the lipid bilayer because it is impermeable to ions."
+  },
+  {
+    "question": "During chemiosmosis, what substance diffuses across the mitochondrial inner membrane to drive ATP synthesis?",
+    "options": [
+      "Water molecules",
+      "Protons (H⁺)",
+      "Electrons",
+      "ATP molecules"
+    ],
+    "correct": 1,
+    "explanation": "Chemiosmosis = the diffusion of H⁺ (protons) down their electrochemical gradient, through ATP synthase. Electrons travel along the ETC but do not cross the membrane as free particles. Water is not the driving substance. ATP is the product, not the driving substance."
+  },
+  {
+    "question": "Which of the following is NOT true about Photosystem II?",
+    "options": [
+      "Its reaction center pigment absorbs light at 680 nm (P680)",
+      "It passes its excited electrons directly to Photosystem I without any intermediate carriers",
+      "It is responsible for the photolysis (splitting) of water",
+      "Electrons lost from P680 are replaced by electrons from water"
+    ],
+    "correct": 1,
+    "explanation": "PS II passes excited electrons to plastoquinone (PQ), then to the cytochrome b6f complex, then to plastocyanin, and finally to PS I — not directly. PS II reaction center is P680. It does split water (photolysis) to replace lost electrons, releasing O₂ as a byproduct."
+  },
+  {
+    "question": "Where in the chloroplast does the light-dependent reaction take place?",
+    "options": [
+      "In the stroma",
+      "In the thylakoid membrane",
+      "In the outer chloroplast membrane",
+      "In the stomatal opening"
+    ],
+    "correct": 1,
+    "explanation": "The light-dependent reactions (photosystems, ETC, photolysis) occur in the thylakoid membranes. The Calvin cycle (light-independent) occurs in the stroma. The outer membrane is just an envelope and plays no role in photosynthesis reactions."
+  },
+  {
+    "question": "For which of the following is the sugar produced by photosynthesis NOT used by a plant?",
+    "options": [
+      "To produce biomass (growth)",
+      "To make new DNA",
+      "To produce ATP via cellular respiration",
+      "To produce enzymes (proteins)"
+    ],
+    "correct": 1,
+    "explanation": "Glucose from photosynthesis is used for: respiration (ATP), building biomass (cellulose, starch), and producing amino acids (enzymes/proteins). DNA is made from deoxyribose (a different sugar), nucleotides, and nitrogenous bases — glucose is not directly used to make DNA. So is the answer."
+  },
+  {
+    "question": "During a 100-meter sprint, which process generates ATP for the working muscles?",
+    "options": [
+      "Aerobic respiration",
+      "Krebs cycle",
+      "Chemiosmosis in mitochondria",
+      "Anaerobic respiration (lactic acid fermentation)"
+    ],
+    "correct": 3,
+    "explanation": "Sprinting is high-intensity, short-duration exercise. Oxygen supply cannot keep up with demand, so muscles switch to anaerobic respiration: glucose → pyruvate → lactic acid + 2 ATP. Aerobic respiration is efficient but too slow for maximum sprint efforts. The Krebs cycle and chemiosmosis require oxygen."
+  },
+  {
+    "question": "When human muscle cells are deprived of oxygen during intense exercise, which compound accumulates?",
+    "options": [
+      "Ethanol",
+      "Acetic acid",
+      "Carbon dioxide only",
+      "Lactic acid"
+    ],
+    "correct": 3,
+    "explanation": "In oxygen-deprived animal/human muscle cells, pyruvate is reduced to LACTATE (lactic acid) by lactate dehydrogenase, regenerating NAD⁺ so glycolysis can continue. Ethanol + CO₂ is yeast fermentation, not animal. Acetic acid is produced by Acetobacter bacteria."
+  },
+  {
+    "question": "Which process of photosynthesis does NOT require light to take place?",
+    "options": [
+      "Splitting of water (photolysis)",
+      "ATP formation (photophosphorylation)",
+      "Reduction of NADP⁺",
+      "Carbon fixation (Calvin cycle)"
+    ],
+    "correct": 3,
+    "explanation": "The Calvin cycle (carbon fixation) is called 'light-independent' — it uses ATP and NADPH produced by light reactions but does not require light directly. Photolysis, ATP synthesis by PS, and NADP⁺ reduction all happen in thylakoids and are driven directly by light. The Calvin cycle happens in the stroma."
+  },
+  {
+    "question": "Which of the following is NOT a stage of cellular respiration?",
+    "options": [
+      "Glycolysis",
+      "Calvin cycle",
+      "Electron transport chain",
+      "Krebs cycle"
+    ],
+    "correct": 1,
+    "explanation": "The Calvin cycle is part of PHOTOSYNTHESIS (light-independent reactions), not cellular respiration. The four stages of aerobic cellular respiration are: (1) Glycolysis → (2) Link reaction → (3) Krebs cycle → (4) Electron transport chain + chemiosmosis."
+  },
+  {
+    "question": "Which is the correct equation for aerobic cellular respiration?",
+    "options": [
+      "6CO₂ + 6H₂O + energy → C₆H₁₂O₆ + 6O₂",
+      "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (energy)",
+      "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + 2ATP",
+      "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂ + energy"
+    ],
+    "correct": 1,
+    "explanation": "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36 ATP. is the equation for photosynthesis (reversed). is alcoholic fermentation. Always check: reactants should be glucose + oxygen, products should be CO₂ + water + energy."
+  },
+  {
+    "question": "What is the NET gain in ATP molecules from glycolysis of one glucose molecule?",
+    "options": [
+      "2 ATP",
+      "4 ATP",
+      "18 ATP",
+      "36 ATP"
+    ],
+    "correct": 0,
+    "explanation": "Glycolysis: 4 ATP produced - 2 ATP invested = NET 2 ATP. Also produces 2 NADH and 2 pyruvate. The 36 ATP requires full aerobic respiration. The 4 ATP is the gross yield, not net. 18 ATP has no basis in the respiration pathway."
+  },
+  {
+    "question": "How many moles of ATP are generated by the oxidation of one mole of FADH₂ through the electron transport chain?",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "correct": 3,
+    "explanation": "FADH₂ donates electrons at a lower energy point (Complex II) in the ETC than NADH, so it pumps fewer protons. FADH₂ yields approximately 2 ATP via chemiosmosis. NADH yields approximately 3 ATP. Choosing 3 ATP would be confusing FADH₂ with NADH — a common exam trap."
+  },
+  {
+    "question": "Which of the following is true about cellular respiration?",
+    "options": [
+      "Restricted to plant cells only",
+      "Restricted to animal cells only",
+      "Occurs in prokaryotic cells only",
+      "Occurs in all eukaryotic AND prokaryotic cells"
+    ],
+    "correct": 3,
+    "explanation": "Cellular respiration is a universal process in ALL living cells — plants, animals, fungi, and prokaryotes all respire to produce ATP. Plants carry out both photosynthesis AND respiration. Prokaryotes respire in their cytoplasm and plasma membrane (no mitochondria)."
+  },
+  {
+    "question": "In cyclic photophosphorylation, what is the source of the electron that returns to the chlorophyll after being excited?",
+    "options": [
+      "Reduced NADPH",
+      "The same excited chlorophyll molecule (via cyclic electron flow)",
+      "Adenosine triphosphate (ATP)",
+      "Photolysis of water molecules"
+    ],
+    "correct": 1,
+    "explanation": "In CYCLIC photophosphorylation, the excited electron from PS I (P700) follows a cyclic path: Chlorophyll → ferredoxin → cytochrome b6f complex → plastocyanin → back to PS I. No NADPH is made and no water is split. It only produces ATP. The electron source is the chlorophyll itself — hence 'cyclic'."
+  },
+  {
+    "question": "If there were no free oxygen available, which step of aerobic respiration would STILL continue to operate in the human body?",
+    "options": [
+      "Glycolysis only",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Link reaction"
+    ],
+    "correct": 0,
+    "explanation": "Glycolysis occurs in the cytoplasm and does NOT require oxygen — it is anaerobic. Without O₂, the ETC stops (O₂ is the final electron acceptor), the Krebs cycle and link reaction also stop (no NAD⁺/FAD to recycle). Glycolysis continues, regenerating NAD⁺ via fermentation (lactic acid in humans)."
+  },
+  {
+    "question": "What is the source of the oxygen gas released during photosynthesis in higher plants?",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "ATP",
+      "Chlorophyll"
+    ],
+    "correct": 1,
+    "explanation": "Oxygen is released from the PHOTOLYSIS OF WATER in PS II: 2H₂O → 4H⁺ + 4e⁻ + O₂. The oxygen in CO₂ is incorporated into sugar and water — not released as O₂ gas. This was confirmed by isotope labeling experiments using ¹⁸O in water vs. CO₂."
+  },
+  {
+    "question": "In which cellular compartment does the Krebs (citric acid) cycle take place during aerobic respiration?",
+    "options": [
+      "Chloroplast stroma",
+      "Mitochondrial matrix",
+      "Cell nucleus",
+      "Lysosomes"
+    ],
+    "correct": 1,
+    "explanation": "The Krebs cycle enzymes are located in the mitochondrial MATRIX — the fluid-filled inner compartment. Not in the chloroplast (which is for photosynthesis), not in the nucleus, and not in lysosomes (which digest macromolecules)."
+  },
+  {
+    "question": "What is the final electron acceptor in the electron transport chain of aerobic cellular respiration?",
+    "options": [
+      "O₂ (molecular oxygen)",
+      "H₂ (hydrogen gas)",
+      "NADP⁺",
+      "NAD⁺"
+    ],
+    "correct": 0,
+    "explanation": "At the END of the ETC, electrons are passed to O₂ — the final acceptor. O₂ combines with 2 electrons and 2 H⁺ to form water: ½O₂ + 2H⁺ + 2e⁻ → H₂O. Without O₂, the entire ETC backs up and stops. NAD⁺ and NADP⁺ are electron CARRIERS earlier in the process, not the final acceptor."
+  },
+  {
+    "question": "In an experiment, radioactive ¹⁴CO₂ was used as a tracer and was found to be incorporated FIRST into oxaloacetate (a 4-carbon compound). Which type of plant would best describe this result?",
+    "options": [
+      "C3 plant",
+      "C4 plant",
+      "CAM plant",
+      "Heterotrophic plant"
+    ],
+    "correct": 1,
+    "explanation": "In C4 plants, CO₂ is first fixed into oxaloacetate (4C) in mesophyll cells by PEP carboxylase. This is the defining feature of C4 photosynthesis. In C3 plants, CO₂ is first fixed into 3-phosphoglycerate (3C). CAM plants also use a 4C intermediate but only at night. The question describes C4 plants specifically."
+  },
+  {
+    "question": "Which of the four stages in aerobic respiration of glucose does NOT directly produce ATP?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain and chemiosmosis",
+      "Link reaction (pyruvate oxidation)"
+    ],
+    "correct": 3,
+    "explanation": "The link reaction (pyruvate → acetyl-CoA) produces NADH and CO₂ but NO ATP directly. Glycolysis produces 2 ATP (substrate-level), the Krebs cycle produces 2 GTP (≈ATP), and the ETC produces ~32 ATP. The link reaction's energy is stored in NADH, which is used later in the ETC."
+  },
+  {
+    "question": "Which of the following has the highest water potential?",
+    "options": [
+      "Pure liquid water",
+      "A dilute aqueous solution",
+      "A concentrated aqueous solution",
+      "A cell in a hypertonic solution"
+    ],
+    "correct": 0,
+    "explanation": "Water potential (Ψ) of pure water = 0 (the maximum possible). Any dissolved solute lowers water potential (makes it more negative). So pure water always has higher water potential than any solution. Water moves by osmosis from high Ψ (pure water/dilute) to low Ψ (concentrated solutions)."
+  },
+  {
+    "question": "During photosynthesis, which process is DIRECTLY responsible for the production of oxygen?",
+    "options": [
+      "Reduction of NADP⁺ by PS I",
+      "Electron transfer within Photosystem II",
+      "Carbon fixation by RuBisCO",
+      "Photolysis (splitting) of water molecules in PS II"
+    ],
+    "correct": 3,
+    "explanation": "O₂ is produced by photolysis: 2H₂O → 4H⁺ + 4e⁻ + O₂ in PS II. The electrons released replace those lost from P680. NADP⁺ reduction happens in PS I (produces NADPH). Carbon fixation produces 3-PGA. Only photolysis directly releases O₂."
+  },
+  {
+    "question": "Which of the following best describes cellular respiration in terms of metabolic classification?",
+    "options": [
+      "Anabolic and exergonic",
+      "Anabolic and endergonic",
+      "Catabolic and endergonic",
+      "Catabolic and exergonic"
+    ],
+    "correct": 3,
+    "explanation": "Catabolic = breaks down larger molecules (glucose) into smaller ones (CO₂ + H₂O). Exergonic = releases free energy (produces ATP). Anabolic reactions BUILD molecules and are endergonic (require energy). Respiration does the opposite: it breaks down and releases energy."
+  },
+  {
+    "question": "What is the ULTIMATE source of the electrons that replace those lost from Photosystem II during the light reactions?",
+    "options": [
+      "Photosystem I",
+      "Water molecules",
+      "Chlorophyll-a",
+      "Chlorophyll-b"
+    ],
+    "correct": 1,
+    "explanation": "When P680 in PS II absorbs light, it ejects a high-energy electron. The gap is filled by electrons from WATER SPLITTING (photolysis): 2H₂O → 4H⁺ + 4e⁻ + O₂. Water is the ultimate electron donor in the non-cyclic pathway. Chlorophyll molecules do not donate electrons to replace lost ones."
+  },
+  {
+    "question": "In which part of the mitochondrion does the Krebs cycle take place?",
+    "options": [
+      "In the inter-membrane space",
+      "On the outer membrane surface",
+      "On the inner membrane surface",
+      "In the matrix"
+    ],
+    "correct": 3,
+    "explanation": "The Krebs cycle enzymes are found in the MATRIX (the fluid inside the inner membrane). The ETC complexes are embedded in the inner membrane. The inter-membrane space is where H⁺ accumulates during ETC. The outer membrane is freely permeable to most molecules."
+  },
+  {
+    "question": "How many ATP molecules are produced during COMPLETE aerobic cellular respiration of ONE glucose molecule?",
+    "options": [      ],
       "correct": 1,
       "explanation": "The light-dependent reactions (photosystems, ETC, photolysis) occur in the thylakoid membranes. The Calvin cycle (light-independent) occurs in the stroma. The outer membrane is just an envelope and plays no role in photosynthesis reactions."
     },
