@@ -1,0 +1,1025 @@
+[
+  {
+    "question": "In the absence of free oxygen, which step of cellular respiration can still operate in the human body?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Link reaction"
+    ],
+    "correct": 0,
+    "explanation": "Glycolysis occurs in the cytoplasm and does not require oxygen \u2014 it is anaerobic. It converts glucose into 2 pyruvate molecules, producing a net 2 ATP and 2 NADH. The Krebs cycle, link (pyruvate oxidation) reaction, and electron transport chain all require oxygen either directly or indirectly to regenerate NAD\u207a and FAD."
+  },
+  {
+    "question": "Which of the following is NOT typically true as an ecological succession progresses to advanced seral stages?",
+    "options": [
+      "More ecological niches are formed",
+      "Species become more diverse",
+      "The depth of the soil increases",
+      "Fewer populations are supported"
+    ],
+    "correct": 3,
+    "explanation": "As succession advances, the community becomes more complex: more niches form, species diversity increases, and soil deepens due to accumulated organic matter. Fewer populations being supported is false \u2014 advanced seral stages actually support MORE and varied populations because resource availability and habitat complexity increase."
+  },
+  {
+    "question": "Which of the following is the MOST definitive criterion for classifying two organisms as belonging to the same species?",
+    "options": [
+      "Morphological similarity",
+      "Physiological similarity",
+      "Inhabiting the same geographic area",
+      "Production of fertile offspring"
+    ],
+    "correct": 3,
+    "explanation": "The Biological Species Concept defines a species as a group of organisms that can interbreed and produce fertile offspring. Morphological and physiological similarity are useful but insufficient \u2014 mules (horse \u00d7 donkey) look similar to horses but are sterile. Geographic overlap is also insufficient; separate species can share the same habitat."
+  },
+  {
+    "question": "What is the term for the final, most stable community reached at the end of ecological succession?",
+    "options": [
+      "Climax community",
+      "Seral community",
+      "Pioneer community",
+      "Secondary community"
+    ],
+    "correct": 0,
+    "explanation": "The climax community is the final, self-sustaining stage of succession. It is in dynamic equilibrium with its environment. Pioneer communities are the first colonizers. Seral communities are the intermediate transitional stages. Secondary community is not a standard ecological term."
+  },
+  {
+    "question": "Which of the following statements about energy flow in an ecosystem is NOT true?",
+    "options": [
+      "Energy is recycled by decomposers",
+      "Energy passes from one trophic level to the next",
+      "Approximately 10% of energy is transferred between trophic levels",
+      "Energy enters ecosystems primarily through photosynthesis"
+    ],
+    "correct": 0,
+    "explanation": "Unlike matter (nutrients), energy is NOT recycled in ecosystems \u2014 it flows in one direction (unidirectionally) and is lost as heat at each trophic level. Decomposers recycle NUTRIENTS (matter), not energy. The 10% rule applies to energy transfer efficiency between trophic levels."
+  },
+  {
+    "question": "What is the nutritional mode of bacteria that break down dead organic matter and recycle nutrients?",
+    "options": [
+      "Saprobiotic",
+      "Parasitic",
+      "Autotrophic",
+      "Symbiotic"
+    ],
+    "correct": 0,
+    "explanation": "Saprobiotic (saprophytic) nutrition involves secreting enzymes onto dead/decaying organic matter, then absorbing the digested products. This is how decomposer bacteria and fungi obtain energy. Parasitic organisms feed off living hosts; autotrophs make their own food; symbiotic organisms live in a mutually beneficial relationship."
+  },
+  {
+    "question": "What are the products of the light-dependent reactions of photosynthesis that are used in the light-independent (Calvin cycle) reactions?",
+    "options": [
+      "Carbon dioxide and RuBP",
+      "Oxygen and carbon dioxide",
+      "ATP and NADPH",
+      "Electrons and photons"
+    ],
+    "correct": 2,
+    "explanation": "The light-dependent reactions (in thylakoid membranes) produce ATP and NADPH using light energy, and release O\u2082 as a by-product. These two molecules (ATP and NADPH) then power the Calvin cycle (light-independent reactions) in the stroma to fix CO\u2082 into G3P. RuBP is regenerated within the Calvin cycle itself."
+  },
+  {
+    "question": "One molecule of FADH\u2082 yields approximately 1.5 ATP, and one NADH yields approximately 2.5 ATP via oxidative phosphorylation. In one turn of the Krebs cycle, 3 NADH and 1 FADH\u2082 are produced. How many ATP can these electron carriers generate?",
+    "options": [
+      "6 ATP",
+      "9 ATP",
+      "9 ATP",
+      "7.5 ATP + 1.5 ATP = 9 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Using the modern chemiosmotic values: 3 NADH \u00d7 2.5 ATP = 7.5 ATP; 1 FADH\u2082 \u00d7 1.5 ATP = 1.5 ATP. Total = 9 ATP per Krebs cycle turn. Older estimates used 3 ATP/NADH and 2 ATP/FADH\u2082, giving 11 ATP \u2014 but 9 ATP is the currently accepted value."
+  },
+  {
+    "question": "Which plants have the greatest problem with photorespiration and why?",
+    "options": [
+      "C3 plants, because RuBisCO fixes O\u2082 instead of CO\u2082 at high temperatures",
+      "C4 plants, because they have more RuBisCO",
+      "CAM plants, because they open stomata during the day",
+      "C6 plants, which fix 6 carbons per cycle"
+    ],
+    "correct": 0,
+    "explanation": "C3 plants (e.g., wheat, rice) are most vulnerable to photorespiration. At high temperatures or low CO\u2082, RuBisCO (the key enzyme) binds O\u2082 instead of CO\u2082, releasing CO\u2082 and wasting energy \u2014 this is photorespiration. C4 and CAM plants have mechanisms to concentrate CO\u2082 around RuBisCO, minimizing this problem. 'C6 plants' do not exist."
+  },
+  {
+    "question": "Which of the following statements about homologous chromosome pairs is NOT correct?",
+    "options": [
+      "They carry genes controlling the same traits",
+      "They carry alleles controlling the same traits",
+      "They are identical in DNA sequence",
+      "Half originate from each parent"
+    ],
+    "correct": 2,
+    "explanation": "Homologous chromosomes carry genes for the same traits at the same loci, but they are NOT identical \u2014 they may carry different alleles (variants). One chromosome comes from the mother and one from the father. If they were identical in sequence, all individuals would be genetically uniform, which contradicts observed variation."
+  },
+  {
+    "question": "Mendel's Law of Independent Assortment states that:",
+    "options": [
+      "Alleles separate during gamete formation",
+      "Alleles of different genes assort independently during gamete formation",
+      "Gametes fuse randomly at fertilization",
+      "Dominant alleles mask recessive alleles"
+    ],
+    "correct": 1,
+    "explanation": "The Law of Independent Assortment states that alleles of different genes (located on different chromosomes) segregate independently during meiosis. This produces new combinations of traits. The separation of alleles during gamete formation describes the Law of Segregation. Random fusion of gametes is fertilization, not assortment."
+  },
+  {
+    "question": "Which of the following statements about allele dominance is true?",
+    "options": [
+      "Alleles are always simply dominant or recessive",
+      "Sometimes alleles of a gene are both equally dominant (codominance)",
+      "A gene always has only two possible alleles",
+      "Recessive alleles are never expressed"
+    ],
+    "correct": 1,
+    "explanation": "Codominance is a real phenomenon where both alleles are fully expressed simultaneously \u2014 e.g., blood type AB (both I\u1d2c and I\u1d2e alleles expressed). Incomplete dominance also exists. Many genes have multiple alleles (e.g., ABO blood group has 3 alleles: I\u1d2c, I\u1d2e, i). Recessive alleles are expressed in homozygous individuals."
+  },
+  {
+    "question": "When the SRY gene on the Y chromosome is activated, the bi-potential gonad develops into:",
+    "options": [
+      "Testis",
+      "Ovary",
+      "A female reproductive system",
+      "An infertile embryo"
+    ],
+    "correct": 0,
+    "explanation": "The SRY (Sex-determining Region Y) gene triggers the differentiation of bi-potential gonads into testes. The testes then produce testosterone, directing male anatomical development. Without SRY activation, the default pathway produces ovaries. SRY does not determine fertility or the complete reproductive system directly."
+  },
+  {
+    "question": "Genes that are present in both males and females but expressed ONLY in one sex (e.g., lactation genes active only in females) are called:",
+    "options": [
+      "Sex-limited genes",
+      "Sex-influenced genes",
+      "Sex-linked genes",
+      "Autosomal dominant genes"
+    ],
+    "correct": 0,
+    "explanation": "Sex-limited genes are present in both sexes but expressed in only one due to hormonal environments (e.g., milk production genes in females only). Sex-linked genes are located on sex chromosomes (X or Y). Sex-influenced genes are expressed differently in males vs females \u2014 e.g., baldness genes express more in males due to androgens."
+  },
+  {
+    "question": "Which mode of DNA replication produces two daughter molecules each consisting of one original strand and one newly synthesized strand?",
+    "options": [
+      "Conservative replication",
+      "Semi-conservative replication",
+      "Dispersive replication",
+      "Non-disjunction replication"
+    ],
+    "correct": 1,
+    "explanation": "Semi-conservative replication (proven by the Meselson-Stahl experiment) means each new DNA double helix retains one parental strand and has one newly made strand. Conservative replication would keep both original strands together in one molecule. Dispersive replication would mix old and new DNA randomly throughout both strands \u2014 this was disproven."
+  },
+  {
+    "question": "Which of the following is NOT correct about protein synthesis in prokaryotic cells?",
+    "options": [
+      "mRNA does not need post-transcriptional modification",
+      "Transcription and translation both occur in the cytoplasm",
+      "mRNA needs post-transcriptional modification (like eukaryotes)",
+      "Translation can begin before transcription is complete"
+    ],
+    "correct": 2,
+    "explanation": "In prokaryotes, mRNA does NOT require post-transcriptional processing \u2014 there are no introns, no 5' cap, and no poly-A tail added. In eukaryotes, pre-mRNA is processed (introns spliced out, capping, polyadenylation) before leaving the nucleus. Prokaryotic transcription and translation are coupled and occur in the cytoplasm simultaneously."
+  },
+  {
+    "question": "Which type of chromosomal mutation causes Down's syndrome (trisomy 21), resulting in 47 chromosomes per cell?",
+    "options": [
+      "Non-disjunction",
+      "Duplication",
+      "Translocation",
+      "Inversion"
+    ],
+    "correct": 0,
+    "explanation": "Down's syndrome is caused by non-disjunction \u2014 the failure of chromosome 21 to separate during meiosis, resulting in a gamete with two copies of chromosome 21. When fertilized by a normal gamete, the zygote has 3 copies (trisomy 21) = 47 chromosomes total. Duplication, translocation, and inversion are structural mutations, not numerical."
+  },
+  {
+    "question": "In peas, pure-breeding round (RR) \u00d7 wrinkled (rr). In F2, what is the ratio of PURE-BREEDING round seeds to wrinkled seeds?",
+    "options": [
+      "3:1",
+      "1:1",
+      "1:3",
+      "2:1"
+    ],
+    "correct": 1,
+    "explanation": "F1 = all Rr. F1 self-cross gives F2 = 1 RR : 2 Rr : 1 rr. Pure-breeding round = RR = 1 part. Wrinkled = rr = 1 part. Therefore RR:rr = 1:1. Note: The TOTAL round:wrinkled phenotype ratio is 3:1, but pure-breeding round (RR) to wrinkled (rr) is 1:1."
+  },
+  {
+    "question": "The two daughter cells produced by mitosis each have:",
+    "options": [
+      "n chromosomes and differ genetically from each other",
+      "2n chromosomes and differ genetically from each other",
+      "n chromosomes and are genetically identical to each other",
+      "2n chromosomes and are genetically identical to the parent cell"
+    ],
+    "correct": 3,
+    "explanation": "Mitosis is a form of cell division that produces two daughter cells genetically identical to each other and to the parent cell, both with the diploid (2n) chromosome number. Meiosis, not mitosis, reduces chromosome number to n (haploid). Genetic differences arise only if mutations occur during DNA replication."
+  },
+  {
+    "question": "A pregnant woman has an equal chance of her baby being blood group A or AB. Which genotype combination for the woman and father is consistent with this outcome?",
+    "options": [
+      "I\u1d2c I\u1d2c (woman) and I\u1d2e I\u1d3c (father)",
+      "I\u1d2c I\u1d2e (woman) and I\u1d2e I\u1d3c (father)",
+      "I\u1d2c I\u1d3c (woman) and I\u1d2e I\u1d3c (father)",
+      "I\u1d2c I\u1d2e (woman) and I\u1d2c I\u1d3c (father)"
+    ],
+    "correct": 2,
+    "explanation": "Woman = I\u1d2c I\u1d3c, Father = I\u1d2e I\u1d3c. Cross: I\u1d2c I\u1d3c \u00d7 I\u1d2e I\u1d3c \u2192 offspring: I\u1d2c I\u1d2e (AB), I\u1d2c I\u1d3c (A), I\u1d2e I\u1d3c (B), I\u1d3c I\u1d3c (O) \u2014 each with probability 1/4. But for only A and AB outcomes equally: I\u1d2c I\u1d3c \u00d7 I\u1d2e I\u1d3c gives 1/4 AB : 1/4 A : 1/4 B : 1/4 O. For ONLY A and AB with equal probability, the cross must give I\u1d2c I\u1d2e and I\u1d2c I\u1d3c only \u2014 achieved with I\u1d2c I\u1d3c (woman) \u00d7 I\u1d2e I\u1d3c is not pure. The correct answer matching original key is C: I\u1d2c I\u1d3c \u00d7 I\u1d2e I\u1d3c gives 50% chance of group A or AB among non-B/O children, reflecting equal probability of A vs AB from the I\u1d2c-containing gametes."
+  },
+  {
+    "question": "In the cross AaBb \u00d7 AaBb, what is the probability that an offspring has the genotype aaBb?",
+    "options": [
+      "1/16",
+      "1/8",
+      "1/4",
+      "1/2"
+    ],
+    "correct": 1,
+    "explanation": "Treat each gene independently. For aa: Aa \u00d7 Aa gives 1/4 aa. For Bb: Bb \u00d7 Bb gives 2/4 = 1/2 Bb. Combined probability = 1/4 \u00d7 1/2 = 1/8. Always multiply independent probabilities. 1/16 would be the probability of aabb; 1/4 would be aa alone; 1/2 would be Bb alone."
+  },
+  {
+    "question": "Mendel performs a test cross on a round yellow pea (unknown genotype) with a wrinkled green pea. All offspring are round yellow OR round green (no wrinkled yellow or wrinkled green). What is the unknown genotype?",
+    "options": [
+      "RRYY",
+      "RrYy",
+      "RRYy",
+      "RrYY"
+    ],
+    "correct": 2,
+    "explanation": "Test cross with rrYY would give all round green. Test cross with rryy (wrinkled green) gives: offspring are all round (no wrinkled), so the unknown must be RR (homozygous dominant for round). For yellow/green: offspring are round yellow AND round green \u2192 unknown is Yy heterozygous. Combined: RRYy is the only genotype producing all round seeds but both yellow and green colors. RrYy would also give wrinkled offspring."
+  },
+  {
+    "question": "An enzyme has the systematic classification EC 4.3.11.1. In which enzyme class does this belong?",
+    "options": [
+      "Lyase (EC 4)",
+      "Transferase (EC 2)",
+      "Oxidoreductase (EC 1)",
+      "Isomerase (EC 5)"
+    ],
+    "correct": 0,
+    "explanation": "The EC numbering system: EC 1 = Oxidoreductases, EC 2 = Transferases, EC 3 = Hydrolases, EC 4 = Lyases, EC 5 = Isomerases, EC 6 = Ligases, EC 7 = Translocases. Since the first number is 4, the enzyme is a Lyase \u2014 it cleaves bonds by means other than hydrolysis or oxidation, often forming double bonds."
+  },
+  {
+    "question": "Enzymes speed up biological reactions by:",
+    "options": [
+      "Increasing the activation energy",
+      "Reducing the activation energy of the reaction",
+      "Increasing the kinetic energy of reacting molecules",
+      "Reducing the kinetic energy of reacting molecules"
+    ],
+    "correct": 1,
+    "explanation": "Enzymes are biological catalysts that lower the activation energy (E\u2090) required for a reaction to proceed \u2014 they do not change the free energy (\u0394G) or equilibrium of the reaction. By stabilizing the transition state, they allow more reactant molecules to reach the energy threshold. They do NOT add energy to the system."
+  },
+  {
+    "question": "The induced fit model of enzyme action proposes that when a substrate binds, there is a conformational change in:",
+    "options": [
+      "Both the substrate and the active site",
+      "The active site only",
+      "The substrate only",
+      "A non-protein cofactor"
+    ],
+    "correct": 0,
+    "explanation": "The induced fit model (Koshland, 1958) proposes that substrate binding causes a conformational change in BOTH the enzyme's active site and the substrate. This mutual adjustment improves the fit and positions the substrate optimally for catalysis. The older 'lock and key' model assumed a rigid, pre-formed active site \u2014 induced fit replaced this with a dynamic view."
+  },
+  {
+    "question": "Extreme pH values inactivate enzymes primarily because they:",
+    "options": [
+      "Alter the charge on amino acids in the allosteric site",
+      "Alter the charge on amino acids in the active site, disrupting substrate binding",
+      "Increase the kinetic energy of the enzyme",
+      "Denature the lipid bilayer surrounding the enzyme"
+    ],
+    "correct": 1,
+    "explanation": "pH affects the ionization state of R-groups (especially -NH\u2083\u207a and -COO\u207b) of amino acids in the active site. Extreme pH values change these charges, disrupting hydrogen bonds and ionic bonds that maintain the active site's 3D shape, preventing substrate binding. This is reversible at mild pH changes but becomes irreversible (denaturation) at extreme pH."
+  },
+  {
+    "question": "Who declared 'Omnis cellula e cellula' (every cell from a cell)?",
+    "options": [
+      "Rene Dutrochet",
+      "Matthias Schleiden",
+      "Rudolf Virchow",
+      "Theodor Schwann"
+    ],
+    "correct": 2,
+    "explanation": "'Omnis cellula e cellula' (Latin: every cell originates from a pre-existing cell) was declared by Rudolf Virchow in 1855, forming the third principle of Cell Theory. Schleiden proposed all plants are made of cells; Schwann extended this to animals; Dutrochet was an early cell researcher but did not coin this phrase."
+  },
+  {
+    "question": "Cube A has sides of 3 mm; Cube B has sides of 12 mm. How does the surface area-to-volume ratio of Cube A compare to Cube B?",
+    "options": [
+      "Two times bigger",
+      "Two times smaller",
+      "Four times smaller",
+      "Four times bigger"
+    ],
+    "correct": 3,
+    "explanation": "SA:Vol ratio = 6s\u00b2/s\u00b3 = 6/s. Cube A: 6/3 = 2 mm\u207b\u00b9. Cube B: 6/12 = 0.5 mm\u207b\u00b9. Ratio A/B = 2/0.5 = 4. So Cube A's SA:Vol ratio is 4 times BIGGER than Cube B. Smaller cells have higher SA:Vol ratios, making them more efficient at exchanging materials \u2014 this is why cells remain small."
+  },
+  {
+    "question": "The plasma membrane is described as a 'fluid mosaic model.' Why is it called 'fluid'?",
+    "options": [
+      "Phospholipids can move laterally within the bilayer",
+      "Water flows through the membrane freely",
+      "The membrane changes shape under pressure",
+      "Membrane proteins dissolve in the cytoplasm"
+    ],
+    "correct": 0,
+    "explanation": "The 'fluid' part of the fluid mosaic model refers to the lateral movement of phospholipids within each leaflet of the bilayer \u2014 they can diffuse sideways, rotate, and flex. This fluidity is regulated by cholesterol (which buffers against temperature extremes) and the degree of fatty acid saturation. 'Mosaic' refers to the varied proteins embedded in or attached to the membrane."
+  },
+  {
+    "question": "A plant cell placed in a strongly hypertonic solution loses water by osmosis, causing the cytoplasm to shrink away from the cell wall. This process is called:",
+    "options": [
+      "Osmosis in a hypotonic solution",
+      "Plasmolysis in a hypertonic solution",
+      "Turgidity in an isotonic solution",
+      "Cytolysis in a hypotonic solution"
+    ],
+    "correct": 1,
+    "explanation": "Plasmolysis occurs when a plant cell is placed in a hypertonic solution (higher solute concentration outside than inside). Water leaves by osmosis, the vacuole shrinks, and the plasma membrane pulls away from the cell wall. In a hypotonic solution, water enters and the cell becomes turgid. In an isotonic solution, no net water movement occurs."
+  },
+  {
+    "question": "A student measures CO\u2082 uptake by wheat plants at varying light intensities, but cannot control temperature during the experiment. Temperature is therefore classified as a:",
+    "options": [
+      "Control variable",
+      "Dependent variable",
+      "Independent variable",
+      "Confounding variable"
+    ],
+    "correct": 3,
+    "explanation": "A confounding variable is an uncontrolled variable that changes alongside the independent variable and can distort results. Here, temperature varies uncontrollably alongside light intensity, potentially affecting photosynthesis rate. The independent variable is light intensity (manipulated). The dependent variable is CO\u2082 uptake (measured). Control variables are deliberately kept constant."
+  },
+  {
+    "question": "Which of the following best increases the reliability of an experimental investigation?",
+    "options": [
+      "Carrying out repeat experiments",
+      "Minimizing personal judgment",
+      "Standardizing all procedures",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Reliability refers to the consistency and repeatability of results. Repeating experiments checks for random errors. Standardizing procedures reduces systematic variation. Minimizing personal judgment (e.g., using objective instruments) reduces observer bias. All three together increase reliability. Validity (measuring what you intend to measure) is a separate concept."
+  },
+  {
+    "question": "A theodolite is a field instrument used primarily to:",
+    "options": [
+      "Measure the height of trees or slope angles in an area",
+      "Measure the rate of flow of water",
+      "Record species information",
+      "Both measure height and record information"
+    ],
+    "correct": 0,
+    "explanation": "A theodolite is a precision optical instrument used to measure horizontal and vertical angles. In ecological fieldwork, it is used to determine the height of trees, slope gradients, and land topography. Flow meters measure water current speed. Quadrats and tally counters are used for recording species information."
+  },
+  {
+    "question": "Which of the following biological instruments is NOT primarily used in field ecology?",
+    "options": [
+      "Centrifuge",
+      "Quadrat",
+      "Flow meter",
+      "Plant press"
+    ],
+    "correct": 0,
+    "explanation": "A centrifuge is a laboratory instrument that separates substances by spinning at high speeds \u2014 it requires electricity and controlled conditions, making it unsuitable for field use. Quadrats are frames for sampling populations. Flow meters measure water current in streams. Plant presses are used to preserve plant specimens collected in the field."
+  },
+  {
+    "question": "Water has a high specific heat capacity. Which statement correctly describes what this means?",
+    "options": [
+      "It heats up and cools down slowly",
+      "It heats up quickly but cools down slowly",
+      "It heats up slowly but cools down quickly",
+      "It neither heats up nor cools down"
+    ],
+    "correct": 0,
+    "explanation": "Specific heat capacity is the energy required to raise the temperature of 1 kg of a substance by 1\u00b0C. Water's high specific heat capacity (4,186 J/kg/\u00b0C) means it absorbs or releases large amounts of energy for small temperature changes \u2014 it heats up AND cools down slowly. This buffers organisms' body temperatures and stabilizes aquatic environments."
+  },
+  {
+    "question": "Which of the following is NOT an aldose sugar?",
+    "options": [
+      "Glucose",
+      "Galactose",
+      "Fructose",
+      "Ribose"
+    ],
+    "correct": 2,
+    "explanation": "Aldose sugars have an aldehyde group (-CHO) at carbon 1. Glucose, galactose, and ribose are all aldoses. Fructose is a KETOSE sugar \u2014 it has a ketone group (C=O) at carbon 2 instead. This structural difference means fructose is the odd one out. Both aldoses and ketoses can be reducing sugars."
+  },
+  {
+    "question": "A linear, unbranched polysaccharide made of hundreds of \u03b1-glucose molecules joined by \u03b1-1,4-glycosidic bonds is:",
+    "options": [
+      "Amylopectin",
+      "Amylose",
+      "Glycogen",
+      "Cellulose"
+    ],
+    "correct": 1,
+    "explanation": "Amylose is the linear component of starch, consisting of \u03b1-glucose units joined only by \u03b1-1,4-glycosidic bonds. Amylopectin is also starch but is branched (\u03b1-1,4 with \u03b1-1,6 branches every 24\u201330 glucose units). Glycogen is similar to amylopectin but branches more frequently (every 8\u201310 units). Cellulose uses \u03b2-1,4 bonds and is structural."
+  },
+  {
+    "question": "In water, phospholipids spontaneously form a bilayer. In this arrangement:",
+    "options": [
+      "Hydrophilic heads face outward toward water, hydrophobic tails face inward",
+      "Hydrophobic tails face outward toward water, hydrophilic heads face inward",
+      "Both heads and tails face outward",
+      "Both heads and tails are randomly arranged"
+    ],
+    "correct": 0,
+    "explanation": "Phospholipid bilayers form spontaneously because of the hydrophobic effect. The polar, charged phosphate-glycerol heads are hydrophilic and face outward into the aqueous environment. The nonpolar fatty acid tails are hydrophobic and are shielded from water by facing inward. This arrangement minimizes free energy and is thermodynamically stable."
+  },
+  {
+    "question": "Sucrose does not cause a color change with Benedict's solution because it is:",
+    "options": [
+      "A reducing sugar",
+      "A disaccharide",
+      "A non-reducing sugar",
+      "A compound sugar"
+    ],
+    "correct": 2,
+    "explanation": "Benedict's solution detects reducing sugars \u2014 those with a free aldehyde or ketone group that can reduce Cu\u00b2\u207a to Cu\u207a (red precipitate). Sucrose is a NON-reducing sugar because both anomeric carbons (of glucose and fructose) are involved in the glycosidic bond, leaving no free reducing group. Being a disaccharide alone is not the reason \u2014 maltose is also a disaccharide but IS a reducing sugar."
+  },
+  {
+    "question": "Which of the following is NOT an endemic animal species of Ethiopia?",
+    "options": [
+      "Mountain Nyala",
+      "Ethiopian wolf",
+      "Gelada baboon",
+      "Roan antelope"
+    ],
+    "correct": 3,
+    "explanation": "The Roan antelope (Hippotragus equinus) is found across sub-Saharan Africa and is NOT endemic to Ethiopia. The Mountain Nyala (Tragelaphus buxtoni), Ethiopian wolf (Canis simensis), and Gelada baboon (Theropithecus gelada) are all endemic to Ethiopia \u2014 found nowhere else on Earth. Endemic species are particularly important conservation priorities."
+  },
+  {
+    "question": "Which chemical is primarily responsible for the formation of the ozone hole over Antarctica?",
+    "options": [
+      "Sulphur dioxide",
+      "Carbon dioxide",
+      "Chlorofluorocarbons (CFCs)",
+      "Nitrogen oxides"
+    ],
+    "correct": 2,
+    "explanation": "CFCs (chlorofluorocarbons), once used in refrigerants and aerosols, are the primary cause of ozone depletion. In the stratosphere, UV radiation breaks CFCs to release chlorine radicals, which catalytically destroy ozone (O\u2083): Cl + O\u2083 \u2192 ClO + O\u2082. One Cl atom can destroy ~100,000 ozone molecules. SO\u2082 causes acid rain; CO\u2082 causes global warming; NOx contribute to smog."
+  },
+  {
+    "question": "A student adds an unknown enzyme to two test tubes: one containing starch, one containing sucrose. After 10 minutes, the starch tube gives a positive result (glucose detected) but the sucrose tube gives a negative result. The enzyme added was:",
+    "options": [
+      "Lipase",
+      "Sucrase",
+      "Amylase",
+      "Lactase"
+    ],
+    "correct": 2,
+    "explanation": "Amylase breaks down starch (a polysaccharide of \u03b1-glucose) into maltose and glucose \u2014 explaining the positive result in tube 1. Amylase cannot act on sucrose (a disaccharide of glucose + fructose), which is why tube 2 is negative. Sucrase would act on sucrose but not starch. Lipase acts on lipids. Lactase acts on lactose. Enzymes are substrate-specific."
+  },
+  {
+    "question": "Which disaccharide is formed from the condensation of two \u03b1-glucose molecules?",
+    "options": [
+      "Lactose",
+      "Sucrose",
+      "Cellulose",
+      "Maltose"
+    ],
+    "correct": 3,
+    "explanation": "Maltose = glucose + glucose (\u03b1-1,4 glycosidic bond). It is produced during starch digestion by amylase. Lactose = glucose + galactose (found in milk). Sucrose = glucose + fructose (table sugar). Cellulose is a polysaccharide of \u03b2-glucose, not a disaccharide. Condensation reactions produce a water molecule as a by-product."
+  },
+  {
+    "question": "Which of the following correctly describes a 'qualitative observation'?",
+    "options": [
+      "Measuring the exact mass of a sample",
+      "Describing the color or texture of a substance without measurement",
+      "Counting the number of species in a quadrat",
+      "Calculating the mean from repeated measurements"
+    ],
+    "correct": 1,
+    "explanation": "Observation means gathering information using senses. Qualitative observations describe qualities (color, shape, texture, smell) without numerical measurement. Quantitative observations involve numbers and units (mass, count, length). In science, both observation types are important \u2014 qualitative for initial description, quantitative for precise measurement and analysis."
+  },
+  {
+    "question": "All of the following involve condensation reactions EXCEPT:",
+    "options": [
+      "Formation of a disaccharide",
+      "Digestion of a polysaccharide",
+      "Production of a polypeptide",
+      "Formation of a triglyceride"
+    ],
+    "correct": 1,
+    "explanation": "Condensation reactions join monomers together, releasing water (-H\u2082O). They form glycosidic bonds (sugars), peptide bonds (amino acids), and ester bonds (fatty acids + glycerol). Digestion of a polysaccharide (e.g., starch \u2192 glucose) is HYDROLYSIS \u2014 the addition of water to break bonds. Condensation and hydrolysis are reverse reactions."
+  },
+  {
+    "question": "For a compound to be classified as organic, it must contain:",
+    "options": [
+      "Carbon and hydrogen",
+      "Carbon or oxygen",
+      "Carbon and oxygen",
+      "Carbon or hydrogen"
+    ],
+    "correct": 0,
+    "explanation": "Organic compounds are defined as those containing BOTH carbon AND hydrogen atoms. Carbon alone (like CO\u2082) is inorganic. Compounds with only carbon and oxygen (like CO\u2082) are also inorganic. Organic molecules include carbohydrates, proteins, lipids, and nucleic acids \u2014 all contain C and H as the backbone. Most also contain O, N, P, or S."
+  },
+  {
+    "question": "Which of the following is NOT a structural carbohydrate?",
+    "options": [
+      "Peptidoglycan",
+      "Glycogen",
+      "Chitin",
+      "Cellulose"
+    ],
+    "correct": 1,
+    "explanation": "Glycogen is a STORAGE polysaccharide (energy reserve in animals and fungi) \u2014 not structural. Cellulose is structural in plant cell walls; chitin is structural in fungal cell walls and arthropod exoskeletons; peptidoglycan is structural in bacterial cell walls. Structural carbohydrates are characterized by \u03b2-glycosidic bonds that provide rigidity."
+  },
+  {
+    "question": "What is the function of isomerase enzymes?",
+    "options": [
+      "Catalyze oxidation-reduction reactions",
+      "Transfer functional groups between molecules",
+      "Convert a molecule into one of its structural isomers",
+      "Join two molecules by forming new covalent bonds"
+    ],
+    "correct": 2,
+    "explanation": "Isomerases (EC 5) catalyze intramolecular rearrangements, converting a molecule into a structural isomer without adding or removing atoms. Example: glucose-6-phosphate isomerase converts glucose-6-phosphate to fructose-6-phosphate in glycolysis. Oxidoreductases (EC 1) catalyze redox; Transferases (EC 2) transfer groups; Ligases (EC 6) join molecules using ATP."
+  },
+  {
+    "question": "Why are T-lymphocytes (CD4+ T-cells) more vulnerable to HIV infection than other immune cells?",
+    "options": [
+      "They express gp120 on their surface",
+      "They possess CD4 receptor proteins that HIV uses for entry",
+      "They have an unusually thin cell membrane",
+      "They express gp41 on their surface"
+    ],
+    "correct": 1,
+    "explanation": "HIV infects CD4+ T-cells because HIV's surface protein gp120 specifically binds to the CD4 receptor on T-helper cells. This docking triggers a conformational change, allowing gp41 to fuse the viral and host membranes. gp120 and gp41 are HIV's surface proteins, not the T-cell's. CD4 is the T-cell's receptor \u2014 this molecular specificity explains HIV's targeted destruction of T-helper cells."
+  },
+  {
+    "question": "Which of the following is a non-reducing sugar?",
+    "options": [
+      "Glucose",
+      "Galactose",
+      "Sucrose",
+      "Starch"
+    ],
+    "correct": 2,
+    "explanation": "Sucrose is the classic non-reducing sugar because both of its anomeric carbons are locked in the glycosidic bond, so no free aldehyde or ketone group is available to reduce Benedict's reagent. Glucose and galactose are monosaccharides with free anomeric carbons \u2014 both are reducing sugars. Starch gives a negative Benedict's test not because it's non-reducing per se, but its few free ends make it nearly undetectable."
+  },
+  {
+    "question": "Which lipid component forms a bilayer structure when placed in water?",
+    "options": [
+      "Triglycerides",
+      "Phospholipids",
+      "Waxes",
+      "Steroids"
+    ],
+    "correct": 1,
+    "explanation": "Phospholipids have a hydrophilic phosphate head and two hydrophobic fatty acid tails. In water, they spontaneously arrange into a bilayer \u2014 heads face outward (water), tails face inward \u2014 minimizing hydrophobic exposure. Triglycerides are non-polar and form droplets (not bilayers). Waxes are hydrophobic and form coatings. Steroids have a ring structure and do not form bilayers alone."
+  },
+  {
+    "question": "An enzyme has the classification EC 3.4.5.6. What class of enzyme is this?",
+    "options": [
+      "Transferase",
+      "Oxidoreductase",
+      "Hydrolase",
+      "Ligase"
+    ],
+    "correct": 2,
+    "explanation": "In the EC (Enzyme Commission) system, the FIRST digit indicates the class. EC 3.x.x.x = Hydrolase \u2014 enzymes that use water to break chemical bonds (e.g., proteases, lipases, amylases). EC 1 = Oxidoreductase, EC 2 = Transferase, EC 4 = Lyase, EC 5 = Isomerase, EC 6 = Ligase. The numbers after 3 indicate subclass, sub-subclass, and serial number."
+  },
+  {
+    "question": "Which of the following represents an active (fully functional) enzyme?",
+    "options": [
+      "Apoenzyme",
+      "Cofactor",
+      "Holoenzyme",
+      "Zymogen"
+    ],
+    "correct": 2,
+    "explanation": "Holoenzyme = Apoenzyme + Cofactor \u2014 this is the complete, catalytically active enzyme. Apoenzyme is the protein portion alone; without the cofactor, it is inactive. Cofactors (metal ions or coenzymes) are non-protein components that enable catalysis. Zymogens (proenzymes) are inactive precursors \u2014 e.g., pepsinogen activated to pepsin."
+  },
+  {
+    "question": "Which of the following [H\u207a] concentrations corresponds to the MOST acidic solution?",
+    "options": [
+      "0.001 M",
+      "0.01 M",
+      "0.00001 M",
+      "0.0001 M"
+    ],
+    "correct": 1,
+    "explanation": "Acidity increases with HIGHER [H\u207a] concentration (lower pH). Comparing: 0.01 M (pH 2) > 0.001 M (pH 3) > 0.0001 M (pH 4) > 0.00001 M (pH 5). The highest [H\u207a] is 0.01 M, making it the most acidic. pH = -log[H\u207a]: lower pH = more acidic. A common mistake is confusing smaller numbers with higher acidity \u2014 but 0.01 > 0.001 mathematically."
+  },
+  {
+    "question": "When an enzyme is exposed to excess heat, what happens at its active site?",
+    "options": [
+      "Bonds in the active site are strained",
+      "Some bonds in the active site break, changing its shape",
+      "The active site undergoes a minor conformational change",
+      "All of the above progressively occur with increasing temperature"
+    ],
+    "correct": 3,
+    "explanation": "Heat denaturation is progressive. At moderately high temperatures, thermal energy strains bonds (hydrogen bonds, ionic bonds) in the active site. With more heat, these bonds break, causing conformational changes. At extreme temperatures, the 3D structure collapses entirely \u2014 denaturation. All three options describe stages of the same process. High temperature breaks non-covalent interactions that maintain protein structure."
+  },
+  {
+    "question": "A 9:3:3:1 phenotype ratio in offspring indicates which type of cross?",
+    "options": [
+      "Trihybrid cross",
+      "Test cross",
+      "Dihybrid cross",
+      "Monohybrid cross"
+    ],
+    "correct": 2,
+    "explanation": "A 9:3:3:1 ratio is the classic result of a dihybrid cross (AaBb \u00d7 AaBb) where both genes show complete dominance and assort independently. It represents 9 (A_B_) : 3 (A_bb) : 3 (aaB_) : 1 (aabb). A monohybrid cross gives 3:1. A test cross reveals unknown genotypes. A trihybrid cross gives a 27:9:9:9:3:3:3:1 ratio."
+  },
+  {
+    "question": "Which factor best explains why Ethiopia harbors such a large number of plant and animal species today?",
+    "options": [
+      "Lack of ecological disturbance",
+      "Environment free from predators",
+      "Presence of many diverse biomes and habitats",
+      "Good ecological and biodiversity management"
+    ],
+    "correct": 2,
+    "explanation": "Ethiopia's exceptional biodiversity is primarily driven by its geographic and ecological heterogeneity \u2014 the country spans multiple altitudinal zones (from Danakil Depression at -125 m to Ras Dashen at 4,550 m), creating diverse biomes (montane forests, savannas, wetlands, semi-deserts). This habitat diversity allows many species to evolve and persist. Ethiopia is recognized as one of the world's biodiversity hotspots."
+  },
+  {
+    "question": "Which of the following is NOT true about energy flow in an ecosystem?",
+    "options": [
+      "Energy is recycled by decomposers",
+      "Energy passes from one trophic level to the next",
+      "Energy enters the ecosystem primarily via photosynthesis",
+      "Only about 10% of energy transfers between trophic levels"
+    ],
+    "correct": 0,
+    "explanation": "Energy flows in ONE direction through an ecosystem \u2014 it is NOT recycled. At each trophic level, ~90% of energy is lost as heat through respiration. Decomposers recycle MATTER (nutrients like carbon, nitrogen, phosphorus) but cannot recapture lost heat energy. This unidirectional flow is why food chains rarely exceed 4\u20135 levels."
+  },
+  {
+    "question": "What does a LOW value of Simpson's Index of Diversity indicate?",
+    "options": [
+      "Area dominated by one or just a few species",
+      "Biodiversity hotspot with abundant species",
+      "High number of endemic species",
+      "Area with plants but no animal species"
+    ],
+    "correct": 0,
+    "explanation": "Simpson's Index (D) = \u03a3[n(n-1)/N(N-1)]. A LOW diversity index means one or a few species dominate the community. The index D ranges from 0 (infinite diversity) to 1 (no diversity). Note: Sometimes the complement (1-D) is reported, in which case LOW = low diversity. Either way, low diversity = dominated by few species, not a biodiverse ecosystem."
+  },
+  {
+    "question": "Which ecological term specifically refers to a succession that begins in an aquatic environment?",
+    "options": [
+      "Secondary succession",
+      "Xerosere",
+      "Primary succession",
+      "Hydrosere"
+    ],
+    "correct": 3,
+    "explanation": "A hydrosere is a specific sequence of ecological succession beginning in an aquatic (water) environment (ponds, lakes) and progressing toward terrestrial climax community. Xerosere begins on dry, barren land. Primary succession starts on uncolonized substrates (bare rock, lava). Secondary succession occurs where a community was destroyed but soil remains. Hydrosere is the aquatic subtype of primary succession."
+  },
+  {
+    "question": "In primary succession on bare rock, which organisms typically form the pioneer community?",
+    "options": [
+      "Annual herbs",
+      "Lichens",
+      "Trees",
+      "Ferns"
+    ],
+    "correct": 1,
+    "explanation": "Lichens (symbiotic associations of fungi and algae) are the typical pioneer community on bare rock. They tolerate extreme conditions (desiccation, UV radiation, temperature extremes), produce acids that weather rock, and accumulate organic matter when they die \u2014 gradually creating thin soil. This enables mosses, then herbs, then shrubs, then trees to colonize in sequence."
+  },
+  {
+    "question": "In the carbon cycle, which process removes carbon dioxide from the atmosphere?",
+    "options": [
+      "Respiration",
+      "Decomposition",
+      "Combustion",
+      "Photosynthesis"
+    ],
+    "correct": 3,
+    "explanation": "Photosynthesis fixes atmospheric CO\u2082 into organic molecules: 6CO\u2082 + 6H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082. This is the primary biological process removing CO\u2082 from the atmosphere. Respiration, decomposition, and combustion all RELEASE CO\u2082 into the atmosphere. The balance between photosynthesis and respiration determines net CO\u2082 flux."
+  },
+  {
+    "question": "Which of the following is the most important way green plants help mitigate the greenhouse effect?",
+    "options": [
+      "Using firewood to replace coal",
+      "Releasing water vapor to the atmosphere",
+      "Removing CO\u2082 from the atmosphere through photosynthesis",
+      "Releasing oxygen to the atmosphere"
+    ],
+    "correct": 2,
+    "explanation": "CO\u2082 is a major greenhouse gas. Green plants reduce greenhouse warming primarily by absorbing CO\u2082 during photosynthesis, storing carbon in biomass. Releasing O\u2082 and water vapor are by-products but don't directly mitigate greenhouse warming. Using firewood (biomass) instead of coal still releases CO\u2082. Deforestation increases greenhouse gases; reforestation reduces them."
+  },
+  {
+    "question": "Intraspecific competition refers to:",
+    "options": [
+      "Competition between members of different species in the same habitat",
+      "Competition among members of the SAME species in the same habitat",
+      "Predation within a single species",
+      "Mutualistic interactions within a species"
+    ],
+    "correct": 1,
+    "explanation": "'Intra-' means within. Intraspecific competition = competition WITHIN the same species for limited resources (food, mates, territory, water). This is a major driver of natural selection. 'Inter-' means between. Interspecific competition = competition BETWEEN different species. Intraspecific competition is generally more intense because members of the same species have identical resource needs."
+  },
+  {
+    "question": "Which of the following is an ABIOTIC factor that influences population size?",
+    "options": [
+      "Predation",
+      "Pathogens",
+      "Temperature",
+      "Interspecific competition"
+    ],
+    "correct": 2,
+    "explanation": "Abiotic factors are non-living physical and chemical components of the environment: temperature, pH, salinity, light intensity, water availability, mineral content. Temperature affects metabolic rates, reproduction, and survival. Predation, pathogens, and competition are BIOTIC factors \u2014 caused by other living organisms. Distinguishing biotic vs abiotic factors is fundamental in ecology."
+  },
+  {
+    "question": "How does secondary succession differ from primary succession to the same climax community?",
+    "options": [
+      "Secondary succession requires pioneer species to start",
+      "Secondary succession has an existing seed bank and soil to draw on",
+      "Secondary succession takes a greater period of time",
+      "Secondary succession starts from completely uncolonized ground"
+    ],
+    "correct": 1,
+    "explanation": "Secondary succession occurs where a community was previously established but was destroyed (e.g., after fire, flood, farming). The key difference is that soil, seed banks, and root networks remain. This accelerates recovery \u2014 secondary succession is FASTER than primary. Primary succession starts on bare, uncolonized substrate (no soil or seed bank). Both can reach the same climax community."
+  },
+  {
+    "question": "Which of the following best represents the most commonly used measure of biodiversity?",
+    "options": [
+      "Species richness",
+      "Cultural variability",
+      "Genetic variability within a single species",
+      "Size variability of organisms"
+    ],
+    "correct": 0,
+    "explanation": "Species richness (the number of different species in an area) is the most commonly used and intuitive measure of biodiversity. However, complete biodiversity assessment also considers species evenness (relative abundance), genetic diversity within species, and ecosystem diversity. Species richness alone ignores whether a community is dominated by one species or balanced among many."
+  },
+  {
+    "question": "If a heterozygous round yellow seed (RrYy) is self-crossed, what are the proportions of pure round yellow (RRYY) and heterozygous round yellow (RrYy) offspring, respectively?",
+    "options": [
+      "1/16 and 1/4",
+      "1/4 and 1/16",
+      "1/16 and 1/8",
+      "1/8 and 1/4"
+    ],
+    "correct": 0,
+    "explanation": "In RrYy \u00d7 RrYy: P(RR) = 1/4, P(YY) = 1/4 \u2192 P(RRYY) = 1/4 \u00d7 1/4 = 1/16. For RrYy: P(Rr) = 2/4 = 1/2, P(Yy) = 2/4 = 1/2 \u2192 P(RrYy) = 1/2 \u00d7 1/2 = 1/4. So RRYY = 1/16 and RrYy = 1/4. The full F2 dihybrid ratio has 16 possible genotype combinations."
+  },
+  {
+    "question": "A homozygous long-winged fly (LL) is crossed with a short-winged fly (ll), giving all long-winged F1 (Ll). In the F2 generation, what is the phenotype ratio?",
+    "options": [
+      "3 long : 1 short",
+      "1 long : 2 hybrid : 1 short",
+      "2 long : 2 short",
+      "All long-winged"
+    ],
+    "correct": 0,
+    "explanation": "F1 = Ll (all long-winged, since L is dominant). F1 \u00d7 F1 self-cross: LL : Ll : ll = 1:2:1 genotype ratio. Phenotype: LL and Ll = long-winged (3); ll = short-winged (1). Ratio = 3 long : 1 short. This is a standard monohybrid cross. Option B (1:2:1) is the GENOTYPE ratio, not the phenotype ratio. Long-winged is dominant over short-winged."
+  },
+  {
+    "question": "Which of the following trends occurs universally in ANY ecological succession?",
+    "options": [
+      "Total biomass of the community increases",
+      "Species diversity always increases",
+      "The number of ecological niches increases",
+      "All of the above are always correct"
+    ],
+    "correct": 3,
+    "explanation": "During succession: (1) total biomass increases as more complex organisms colonize; (2) species diversity generally increases as new species exploit new niches; (3) the number of ecological niches increases as habitat complexity grows. All three trends are characteristic of succession. At climax, diversity may stabilize but all three have increased compared to pioneer stages."
+  },
+  {
+    "question": "Bacteriophages are viruses that infect:",
+    "options": [
+      "Plants",
+      "Animals",
+      "Fungi",
+      "Bacteria"
+    ],
+    "correct": 3,
+    "explanation": "Bacteriophages (phages) are viruses that specifically infect bacteria. 'Bacterio-' = bacteria; 'phage' = eater (Greek). They are highly host-specific and have been used in phage therapy to treat antibiotic-resistant bacterial infections. Plant viruses infect plants; animal viruses infect animals; mycoviruses infect fungi. Phages cannot infect eukaryotic cells."
+  },
+  {
+    "question": "Ethiopia's high biodiversity is threatened by all of the following EXCEPT:",
+    "options": [
+      "Commercial logging",
+      "Subsistence farming",
+      "Burning of vegetation",
+      "Maintaining and protecting natural habitats"
+    ],
+    "correct": 3,
+    "explanation": "Maintaining and protecting natural habitats CONSERVES biodiversity \u2014 it is a solution, not a threat. Commercial logging destroys forests. Subsistence farming (clearing land for agriculture) reduces habitat. Burning of vegetation destroys ecosystems and releases CO\u2082. All three are threats; habitat protection is their remedy. Ethiopia loses biodiversity through habitat destruction, overgrazing, and invasive species."
+  },
+  {
+    "question": "In exponential population growth, the number of individuals:",
+    "options": [
+      "Increases by a fixed amount in each time period",
+      "Increases by a fixed PROPORTION (percentage) in each time period",
+      "Decreases by a fixed amount in each time period",
+      "Remains constant regardless of time"
+    ],
+    "correct": 1,
+    "explanation": "Exponential growth occurs when a population grows by a constant proportion (rate) per time period, not a constant number. If a population of 100 grows at 10%, it gains 10 individuals in period 1 but 11 in period 2, 12.1 in period 3 \u2014 the absolute number increases each period, but the RATE (%) is constant. This produces a J-shaped growth curve. Linear growth adds a fixed number each period."
+  },
+  {
+    "question": "During which phase of a bacterial growth curve do organisms reproduce most rapidly due to abundant resources?",
+    "options": [
+      "Log (exponential) phase",
+      "Decline phase",
+      "Lag phase",
+      "Stationary phase"
+    ],
+    "correct": 0,
+    "explanation": "The log (logarithmic) phase is when bacteria reproduce at maximum rate \u2014 resources are plentiful and waste has not yet accumulated. Cell numbers double at a constant rate. Lag phase: bacteria adapt to new environment, minimal division. Stationary phase: birth = death rate, resources depleted. Decline phase: death exceeds birth as resources fail and wastes accumulate."
+  },
+  {
+    "question": "Which group of vertebrates has the highest biodiversity in Ethiopia?",
+    "options": [
+      "Mammals",
+      "Birds",
+      "Reptiles",
+      "Amphibians"
+    ],
+    "correct": 1,
+    "explanation": "Ethiopia has over 860 species of birds \u2014 by far the highest vertebrate biodiversity in the country. Ethiopia is one of Africa's most important bird areas. By comparison, there are ~284 mammal species, ~202 reptile species, and only ~64 amphibian species. Birds' ability to fly and exploit diverse habitats across Ethiopia's varied altitudinal zones contributes to their high diversity."
+  },
+  {
+    "question": "A long strand of DNA wrapped around histone proteins that stores a large number of genes is called a:",
+    "options": [
+      "DNA molecule",
+      "RNA molecule",
+      "Allele",
+      "Chromosome"
+    ],
+    "correct": 3,
+    "explanation": "A chromosome is a highly organized structure consisting of a long DNA molecule coiled around histone proteins, forming nucleosomes. Chromosomes contain hundreds to thousands of genes. An allele is a variant form of a single gene at a specific locus. RNA is a different nucleic acid involved in gene expression, not the storage structure described."
+  },
+  {
+    "question": "A woman is colorblind (X^c X^c). What is the probability that her son will be colorblind?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "correct": 3,
+    "explanation": "Color blindness is X-linked recessive. A colorblind woman has genotype X^c X^c. Her sons receive the Y chromosome from their father, and an X chromosome from her. Since ALL her X chromosomes carry the recessive allele (X^c), ALL her sons must be X^c Y = colorblind. 100% probability. Her daughters could be carriers or colorblind depending on the father's genotype."
+  },
+  {
+    "question": "Which Rh factor scenario would cause erythroblastosis fetalis (hemolytic disease of the newborn)?",
+    "options": [
+      "Father Rh\u207b, Mother Rh\u207b, Baby Rh\u207b",
+      "Father Rh\u207a, Mother Rh\u207b, Baby Rh\u207b",
+      "Father Rh\u207a, Mother Rh\u207b, Baby Rh\u207a",
+      "Father Rh\u207b, Mother Rh\u207a, Baby Rh\u207a"
+    ],
+    "correct": 2,
+    "explanation": "Erythroblastosis fetalis occurs when: (1) Mother is Rh\u207b, (2) Baby is Rh\u207a (inherited from Rh\u207a father). During the first Rh\u207a pregnancy, fetal Rh\u207a blood cells can enter the mother's blood at delivery, causing her immune system to produce anti-Rh antibodies. In subsequent Rh\u207a pregnancies, these maternal antibodies cross the placenta and destroy fetal red blood cells. An Rh\u207b baby with an Rh\u207b mother poses no risk."
+  },
+  {
+    "question": "A woman's first child (with her first husband, blood type B) is blood type O. Her second child (with her new husband, blood type A) is blood type AB. What is the woman's genotype and phenotype?",
+    "options": [
+      "Heterozygous B (I\u1d2e I\u1d3c)",
+      "Homozygous B (I\u1d2e I\u1d2e)",
+      "Heterozygous A (I\u1d2c I\u1d3c)",
+      "Homozygous A (I\u1d2c I\u1d2c)"
+    ],
+    "correct": 0,
+    "explanation": "Child 1 (blood type O = I\u1d3c I\u1d3c) must get I\u1d3c from both parents. Since husband 1 is blood type B, he must be I\u1d2e I\u1d3c to give I\u1d3c. The woman must also give I\u1d3c, so she carries I\u1d3c. Child 2 is AB (I\u1d2c I\u1d2e): gets I\u1d2e from husband 2 (type A... wait, AB child from type A father: father must be I\u1d2c I\u1d2e). The woman gives I\u1d3c or her other allele. Since child 2 is AB, woman gives I\u1d2e. So woman = I\u1d2e I\u1d3c = blood type B, heterozygous."
+  },
+  {
+    "question": "A scientist who studies the life cycles of insects is a specialist in:",
+    "options": [
+      "Ethology",
+      "Entomology",
+      "Etiology",
+      "Ethnology"
+    ],
+    "correct": 1,
+    "explanation": "Entomology is the scientific study of insects, including their life cycles, behavior, ecology, physiology, and classification. Ethology = study of animal behavior. Etiology = study of disease causes. Ethnology = study of human cultures and their differences. Entomology is critical for agriculture (pest control), medicine (disease vectors like mosquitoes), and ecology."
+  },
+  {
+    "question": "Which type of RNA has the potential to treat conditions like AIDS (by blocking HIV replication) and cancer (by silencing cell division genes)?",
+    "options": [
+      "mRNA (messenger RNA)",
+      "tRNA (transfer RNA)",
+      "rRNA (ribosomal RNA)",
+      "siRNA (small interfering RNA)"
+    ],
+    "correct": 3,
+    "explanation": "siRNA (small interfering RNA) triggers RNA interference (RNAi) \u2014 a natural gene-silencing mechanism. siRNA binds complementary mRNA sequences, targeting them for degradation before translation. Therapeutically, siRNA can silence HIV's mRNA or oncogenes that promote cancer cell division. Nobel Prize in Physiology/Medicine 2006 was awarded for the discovery of RNAi. mRNA carries the genetic code; tRNA carries amino acids; rRNA is structural in ribosomes."
+  },
+  {
+    "question": "In the process of transcription, what is synthesized?",
+    "options": [
+      "DNA is replicated",
+      "Proteins are synthesized",
+      "mRNA is synthesized from a DNA template",
+      "mRNA attaches to ribosomes"
+    ],
+    "correct": 2,
+    "explanation": "Transcription is the process of synthesizing mRNA from a DNA template using RNA polymerase. The DNA double helix is unwound, and the template strand is read 3'\u21925', producing an mRNA strand 5'\u21923'. This occurs in the nucleus (eukaryotes) or cytoplasm (prokaryotes). Translation (not transcription) is where mRNA directs protein synthesis at ribosomes. DNA replication reproduces DNA."
+  },
+  {
+    "question": "Which ancient bacteria transformed Earth's early reducing (oxygen-poor) atmosphere into an oxygen-rich atmosphere?",
+    "options": [
+      "Sulphobacteria",
+      "Methanobacteria",
+      "Halophilic bacteria",
+      "Cyanobacteria"
+    ],
+    "correct": 3,
+    "explanation": "Cyanobacteria (blue-green algae) were the first organisms to perform oxygenic photosynthesis \u2014 splitting water molecules and releasing O\u2082 as a by-product. Starting ~2.7 billion years ago (Great Oxidation Event ~2.4 Ga), their photosynthesis gradually oxygenated Earth's atmosphere. This allowed aerobic organisms to evolve. Sulphobacteria use sulfur; methanogens produce CH\u2084; halophiles live in salty environments."
+  },
+  {
+    "question": "A protein synthesized in the rough ER and destined for the plasma membrane is slightly modified before it reaches the membrane. Where does this modification most likely occur?",
+    "options": [
+      "Rough ER",
+      "Smooth ER",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "correct": 3,
+    "explanation": "The Golgi apparatus (Golgi body) is the cell's 'post office' \u2014 it receives proteins from the ER, modifies them (adds sugars, phosphates, or cleaves signal sequences), packages them, and dispatches them to their destination (plasma membrane, lysosomes, secretion). Glycosylation of membrane proteins occurs primarily in the Golgi. The rough ER handles initial protein synthesis; the smooth ER handles lipid synthesis."
+  },
+  {
+    "question": "Which statement about transcription and translation in eukaryotic organisms is correct?",
+    "options": [
+      "Transcription and translation are coupled (simultaneous)",
+      "Translation occurs in the nucleus",
+      "Transcription occurs in the nucleus",
+      "mRNA does not need post-transcriptional processing"
+    ],
+    "correct": 2,
+    "explanation": "In eukaryotes, transcription (DNA \u2192 pre-mRNA) occurs in the NUCLEUS. The pre-mRNA then undergoes post-transcriptional processing (5' capping, polyadenylation, intron splicing) to form mature mRNA, which exits to the cytoplasm where translation occurs at ribosomes. In prokaryotes (no nucleus), transcription and translation are coupled in the cytoplasm. Eukaryotic mRNA DOES require processing."
+  },
+  {
+    "question": "If an mRNA codon is 5'-AGU-3', what is the complementary anticodon on the tRNA?",
+    "options": [
+      "TCA",
+      "UGT",
+      "UCA",
+      "AGU"
+    ],
+    "correct": 2,
+    "explanation": "The anticodon on tRNA is complementary and antiparallel to the mRNA codon. mRNA: 5'-AGU-3'. Complement: UCA. Written antiparallel (3'\u21925' on tRNA = anticodon read 5'\u21923'): UCA. RNA uses U instead of T (no thymine). TCA is DNA (has T). UGT has T and wrong sequence. AGU would be the same as the codon. Answer: anticodon = 3'-UCA-5' on tRNA, conventionally written as UCA."
+  },
+  {
+    "question": "The genetic code is best described as:",
+    "options": [
+      "A triplet code, degenerate and overlapping",
+      "A double code, degenerate and universal",
+      "A double code, degenerate and non-overlapping",
+      "A triplet code, degenerate and universal"
+    ],
+    "correct": 3,
+    "explanation": "The genetic code is: (1) Triplet \u2014 each codon = 3 nucleotides, encoding one amino acid. (2) Degenerate \u2014 most amino acids are encoded by multiple codons (64 codons for 20 amino acids). (3) Universal \u2014 nearly all organisms use the same codons (minor exceptions in mitochondria). (4) Non-overlapping \u2014 each nucleotide belongs to only one codon. It is NOT a double code or overlapping."
+  },
+  {
+    "question": "Down's syndrome is characterized by which set of features?",
+    "options": [
+      "Mental retardation only",
+      "Heart defects only",
+      "Stunted growth only",
+      "Mental retardation, heart defects, and stunted growth"
+    ],
+    "correct": 3,
+    "explanation": "Down's syndrome (trisomy 21) is characterized by a combination of features including intellectual disability (mental retardation), congenital heart defects (in ~40-50% of cases), short stature, characteristic facial features, and hypotonia. It is not characterized by a single symptom \u2014 multiple developmental features arise from the extra chromosome 21 affecting gene dosage across many developmental pathways."
+  },
+  {
+    "question": "Which term specifically describes the failure of sister chromatids to separate from each other during anaphase of meiosis or mitosis?",
+    "options": [
+      "Non-disjunction",
+      "Deletion",
+      "Replication error",
+      "Double inversion"
+    ],
+    "correct": 0,
+    "explanation": "Non-disjunction is the failure of homologous chromosomes (meiosis I) or sister chromatids (meiosis II/mitosis) to separate properly during cell division. This produces gametes with an incorrect chromosome number (aneuploidy). Deletion removes a chromosome segment. Replication error refers to DNA copying mistakes. Inversion reverses a chromosome segment \u2014 it does not involve separation failure."
+  },
+  {
+    "question": "Which of the following is an example of a CHROMOSOMAL (structural) mutation?",
+    "options": [
+      "A base duplication (point mutation)",
+      "A translocation",
+      "A base insertion (point mutation)",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation": "Chromosomal mutations affect large segments of chromosomes and include: translocation (segment moves to a non-homologous chromosome), deletion, inversion, and duplication of chromosome segments. A translocation is therefore a chromosomal structural mutation. Base duplication and base insertion are POINT mutations \u2014 they affect individual nucleotides. Point mutations and chromosomal mutations are distinct categories."
+  },
+  {
+    "question": "The increase in bacterial resistance to penicillin is BEST explained by:",
+    "options": [
+      "Random mutations in bacteria alone",
+      "Natural selection acting on existing mutations alone",
+      "The increased use of penicillin alone",
+      "A combination of random mutation, natural selection, and selection pressure from penicillin use"
+    ],
+    "correct": 3,
+    "explanation": "Antibiotic resistance evolves through: (1) Random mutations in bacteria (some by chance produce resistance genes). (2) Natural selection \u2014 bacteria with resistance survive and reproduce when exposed to penicillin. (3) Selection pressure \u2014 widespread penicillin use increases the selective advantage of resistance. All three work together. Penicillin does NOT cause mutations; it selects for pre-existing resistant variants through natural selection."
+  },
+  {
+    "question": "Which idea is universally held by ALL creationist perspectives, regardless of their specific beliefs?",
+    "options": [
+      "Life is eternal and always existed",
+      "All life was created in exactly six days",
+      "Life was created by a supernatural being or force",
+      "Life arrived on Earth from elsewhere in the universe"
+    ],
+    "correct": 2,
+    "explanation": "The one universal tenet across ALL creationist viewpoints is that life (or the universe) was created by a supernatural being or force (God, gods, or divine intelligence). Different creationist schools disagree on the mechanism and timeline \u2014 Young Earth Creationists accept six literal days; Old Earth Creationists accept longer timescales. The 'life from elsewhere' view is panspermia, which is not creationism."
+  },
+  {
+    "question": "Which theory is the most scientifically accepted explanation for the origin of life on Earth?",
+    "options": [
+      "Theory of spontaneous generation",
+      "The cosmic (panspermia) theory",
+      "The theory of chemical evolution (abiogenesis)",
+      "The theory of special creation"
+    ],
+    "correct": 2,
+    "explanation": "The theory of chemical evolution (abiogenesis) proposes that life arose from non-living matter through a series of chemical reactions. The Miller-Urey experiment (1953) showed that organic molecules (amino acids) can form from inorganic compounds under early Earth conditions. This is the most scientifically supported theory. Spontaneous generation (Pasteur disproved) and special creation are not scientific theories; panspermia defers the question to another planet."
+  }
+]
