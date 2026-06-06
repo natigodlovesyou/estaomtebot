@@ -1,0 +1,827 @@
+[
+  {
+    "question": "Physics is called the foundation of natural sciences primarily because it",
+    "options": [
+      "focuses exclusively on machines and mechanical systems",
+      "eliminates the need for mathematics in other disciplines",
+      "provides fundamental laws of matter and energy used across all sciences",
+      "studies living organisms more thoroughly than biology"
+    ],
+    "correct": 2,
+    "explanation": "Physics supplies laws of motion, energy, electromagnetism, and waves that underpin chemistry, biology, geology, and engineering. Without these foundations, no natural science can be fully explained."
+  },
+  {
+    "question": "In chemistry, thermodynamics is used mainly to determine",
+    "options": [
+      "whether a reaction is energetically feasible and its equilibrium composition",
+      "the atomic number of newly discovered elements",
+      "the color and taste of a compound",
+      "the three-dimensional shape of a molecule alone"
+    ],
+    "correct": 0,
+    "explanation": "Thermodynamics predicts energy changes, reaction spontaneity, and equilibrium — all essential in deciding whether a chemical reaction can proceed under given conditions."
+  },
+  {
+    "question": "Spectroscopy reveals atomic and molecular structure because it analyzes",
+    "options": [
+      "the age of a sample without using external data",
+      "how matter interacts with electromagnetic radiation at specific wavelengths",
+      "only mass and volume of samples",
+      "heat flow through a conducting wire"
+    ],
+    "correct": 1,
+    "explanation": "Each element and molecule absorbs or emits radiation at characteristic wavelengths. By matching these spectral fingerprints, scientists identify composition and structure."
+  },
+  {
+    "question": "A student claims that atomic physics has no connection to chemistry. Which observation best refutes this claim?",
+    "options": [
+      "Electron energy levels determine chemical bonding, reactivity, and reaction energy",
+      "The periodic table is arranged by atomic number, not electron configuration",
+      "Chemical reactions occur at visible timescales, not atomic timescales",
+      "Atomic mass is the only atomic property relevant to chemistry"
+    ],
+    "correct": 0,
+    "explanation": "Electron configuration governs bond formation, ionization energy, and the energy released or absorbed in chemical reactions — directly connecting atomic physics to chemistry."
+  },
+  {
+    "question": "An object's stability increases when its base of support is widened because",
+    "options": [
+      "the center of gravity is less likely to move outside the support base",
+      "friction between the object and ground is eliminated",
+      "the object's total weight decreases with a wider base",
+      "the center of gravity rises, creating a restoring torque"
+    ],
+    "correct": 0,
+    "explanation": "Stability requires the vertical line through the center of gravity to pass within the support base. A wider base makes it harder to tilt the object enough to move the center of gravity beyond this region."
+  },
+  {
+    "question": "A person carrying a heavy load on their back leans forward. According to the physics of stability, the primary reason for leaning forward is to",
+    "options": [
+      "reduce the gravitational acceleration acting on the load",
+      "reduce friction between the person's feet and the ground",
+      "increase blood temperature to supply more energy to muscles",
+      "shift the combined center of gravity back over the base of support"
+    ],
+    "correct": 3,
+    "explanation": "Adding a rear load shifts the combined center of gravity backward. Leaning forward repositions it back above the feet (the support base), maintaining equilibrium and preventing backward toppling."
+  },
+  {
+    "question": "Blood circulation in animals is best explained using which branch of physics?",
+    "options": [
+      "Geological erosion principles",
+      "Nuclear decay equations",
+      "Radioactive half-life formulas",
+      "Fluid dynamics — including viscosity, pressure, and Pascal's principle"
+    ],
+    "correct": 3,
+    "explanation": "The physics of fluids — viscosity, pressure, continuity, and Pascal's principle — explains blood circulation in animals and how blood moves against gravity from the feet to the heart."
+  },
+  {
+    "question": "Sound production in the human vocal system depends on which physical phenomenon?",
+    "options": [
+      "Light waves stimulating the eardrum from outside",
+      "Increased heart rate generating pressure waves",
+      "Rising blood pressure compressing the larynx",
+      "Forced air causing vocal cord vibration, producing longitudinal sound waves"
+    ],
+    "correct": 3,
+    "explanation": "During exhalation, air pressure forces the vocal cords to vibrate. This creates periodic compressions and rarefactions in the air — longitudinal sound waves that travel to the listener's ear."
+  },
+  {
+    "question": "Sound cannot travel through outer space because",
+    "options": [
+      "sound travels only through solids, not gases or vacuum",
+      "the frequency of sound is too low to pass through vacuum",
+      "sound is a mechanical wave that requires a material medium to propagate",
+      "space contains electromagnetic fields that cancel sound energy"
+    ],
+    "correct": 2,
+    "explanation": "Sound is a mechanical wave: it propagates by compressing and rarefying matter. Vacuum has no particles to compress, so no medium exists for the wave to travel through."
+  },
+  {
+    "question": "Neurons transmit information across the nervous system by",
+    "options": [
+      "releasing mineral ions that form solid bridges between nerve cells",
+      "producing calcium crystals that grow toward adjacent cells",
+      "propagating electrical impulses along the axon to the brain",
+      "releasing neurotransmitters that diffuse across synapses"
+    ],
+    "correct": 2,
+    "explanation": "Life processes such as nerve communication and muscle control depend on electrical signals. Neurons transmit electrical impulses that carry information across the body."
+  },
+  {
+    "question": "Photosynthesis is an energy conversion process. Which pair correctly describes the transformation?",
+    "options": [
+      "Light energy to chemical energy stored in food",
+      "Kinetic energy to gravitational potential energy",
+      "Thermal energy to nuclear binding energy",
+      "Sound energy to electrical energy"
+    ],
+    "correct": 0,
+    "explanation": "Plants convert light energy into food through photosynthesis — a conversion of light (electromagnetic) energy into chemical energy."
+  },
+  {
+    "question": "Visible light useful for life spans approximately",
+    "options": [
+      "1000 to 5000 nm",
+      "700 to 1000 nm",
+      "10 to 100 nm",
+      "400 to 700 nm"
+    ],
+    "correct": 3,
+    "explanation": "Light in the range of 400–700 nm is essential for life, enabling photosynthesis, vision, and other biological processes."
+  },
+  {
+    "question": "Newton's Law of Gravitation and the Laws of Motion are used in astronomy to explain",
+    "options": [
+      "the chemical composition of stars",
+      "the temperature of distant galaxies",
+      "the origin of electromagnetic waves in space",
+      "the motion of planets, moons, and artificial satellites in orbit"
+    ],
+    "correct": 3,
+    "explanation": "Newton's Law of Gravitation and Laws of Motion explain the motion of planets around the Sun, the motion of moons and artificial satellites, and the relationship between centripetal and centrifugal forces."
+  },
+  {
+    "question": "Astronomers detect the composition of distant stars without physical samples mainly by analyzing",
+    "options": [
+      "seismic waves generated by stellar oscillations in the lab",
+      "the electromagnetic spectrum emitted or absorbed by the star",
+      "soil and mineral samples retrieved by space probes in all cases",
+      "gravitational waves reflected from the stellar surface"
+    ],
+    "correct": 1,
+    "explanation": "Each element absorbs or emits light at unique wavelengths. Astronomers analyze the absorption and emission spectra of starlight to determine chemical composition, temperature, and motion."
+  },
+  {
+    "question": "Emission and absorption spectra from stars can reveal which three properties of astronomical objects?",
+    "options": [
+      "Mass, volume, and magnetic field strength",
+      "Color, brightness, and orbital period only",
+      "Composition, temperature, and motion",
+      "Age, size, and gravitational pull"
+    ],
+    "correct": 2,
+    "explanation": "Emission and absorption spectra reveal the composition, temperature, and motion of astronomical objects."
+  },
+  {
+    "question": "The Bohr model of the atom is useful in astronomy because it",
+    "options": [
+      "describes the magnetic field patterns around neutron stars",
+      "explains emission and absorption lines observed in starlight",
+      "calculates the orbital speed of artificial satellites",
+      "predicts the mass of planets and moons"
+    ],
+    "correct": 1,
+    "explanation": "The Bohr model explains emission and absorption lines observed in starlight, making it a key tool in atomic astrophysics."
+  },
+  {
+    "question": "Geologists use seismic waves to study Earth's interior because",
+    "options": [
+      "seismic waves can only travel through the atmosphere, revealing surface layers",
+      "P-waves travel only through gases, revealing atmospheric layers inside Earth",
+      "seismic waves reveal internal structure through their speed changes and reflection patterns",
+      "seismic waves measure the color spectrum of mantle rocks"
+    ],
+    "correct": 2,
+    "explanation": "Seismic waves help study the Earth's interior without excavation, by revealing internal structure through their speed and reflection patterns."
+  },
+  {
+    "question": "Which physical method is most effective for identifying mineral composition in geology?",
+    "options": [
+      "Sniffing the mineral sample for volatile compounds",
+      "Measuring the sound amplitude of striking the mineral",
+      "X-ray diffraction and spectroscopy to analyze crystal structure and composition",
+      "Observing the brightness of moonlight reflected off the sample"
+    ],
+    "correct": 2,
+    "explanation": "Mineralogists analyze mineral composition and structure using physics-based methods. X-ray diffraction and spectroscopy are standard physics-based analytical tools in mineralogy."
+  },
+  {
+    "question": "Which set of properties is correctly measured in geology using physics-based instruments?",
+    "options": [
+      "Height, leaf area, and water content of trees",
+      "Hue and saturation of the sky at different altitudes",
+      "Number of organisms per unit volume of soil",
+      "Density, magnetization, radioactivity, and elasticity of rocks"
+    ],
+    "correct": 3,
+    "explanation": "The passage explicitly lists measuring the density, magnetization, radioactivity, and elasticity of rocks as applications of physics in geology."
+  },
+  {
+    "question": "The relationship between physics, technology, and other sciences is best described as",
+    "options": [
+      "linear: physics produces technology, which ends once one invention is complete",
+      "a cyclic, mutually reinforcing process driving innovation across disciplines",
+      "antagonistic: advances in technology often contradict established physics",
+      "one-directional: only biology benefits from physics, not vice versa"
+    ],
+    "correct": 1,
+    "explanation": "The passage describes a continuous cycle: physics generates scientific principles that lead to new technologies, engineering applies those technologies to create tools, and those tools in turn enable new discoveries in physics."
+  },
+  {
+    "question": "Civil engineering relies on physics most directly when engineers",
+    "options": [
+      "design the acoustic insulation of concert halls without load analysis",
+      "calculate load distribution, stress, and structural equilibrium to ensure safety",
+      "select paint colors to maximize aesthetic appeal of buildings",
+      "choose plant species for landscaping around structures"
+    ],
+    "correct": 1,
+    "explanation": "Civil engineering uses forces and equilibrium to build stable structures, fluid pressure for hydraulic systems, and gravity and motion to influence building design and structural load balance."
+  },
+  {
+    "question": "The ancient Axumite obelisks in Ethiopia demonstrate early applied physics because their construction required understanding of",
+    "options": [
+      "spectral analysis of starlight",
+      "nuclear energy and radioactive decay timelines",
+      "mechanical advantage, load distribution, and structural stability",
+      "electromagnetic induction and electrical circuits"
+    ],
+    "correct": 2,
+    "explanation": "Axumite obelisks in Ethiopia as an example of early civil engineering based on practical physics — requiring knowledge of forces, equilibrium, and structural stability."
+  },
+  {
+    "question": "Thermodynamics is important in mechanical engineering primarily for",
+    "options": [
+      "analyzing underwater sonar systems",
+      "designing electrical circuits and transformers",
+      "energy conversion and efficiency in engines and machines",
+      "studying atomic spectra of metals"
+    ],
+    "correct": 2,
+    "explanation": "Thermodynamics as a key physics concept in mechanical engineering, specifically for energy conversion and efficiency in designing engines and mechanical systems."
+  },
+  {
+    "question": "Electrical engineering is fundamentally based on electromagnetism because",
+    "options": [
+      "all electrical components operate through electromagnetic principles such as Faraday's induction law",
+      "electrical systems rely on photosynthesis to generate current",
+      "seismic waves power most electrical generators",
+      "gravity is the dominant force in all electrical circuits"
+    ],
+    "correct": 0,
+    "explanation": "Electromagnetism is the basis for electric motors, generators, and transformers, and that electrical engineers use it to design circuits, communication systems, and power transmission networks."
+  },
+  {
+    "question": "In optical fiber communication, a signal can travel thousands of kilometers inside the fiber because of",
+    "options": [
+      "radioactive decay providing energy to maintain the signal strength",
+      "nuclear reactions continuously regenerating the light signal",
+      "total internal reflection keeping light confined within the fiber",
+      "air pressure inside the fiber pushing the photons forward"
+    ],
+    "correct": 2,
+    "explanation": "Refraction and total internal reflection as key wave phenomena used in optical fiber communication, confining the light signal within the fiber over long distances."
+  },
+  {
+    "question": "Chemical engineering differs from chemistry primarily because chemical engineers focus on",
+    "options": [
+      "discovering new elements in the periodic table",
+      "planetary motion and astrophysical processes",
+      "studying the sound produced by chemical reactions",
+      "scaling chemical reactions into industrial processes efficiently and safely"
+    ],
+    "correct": 3,
+    "explanation": "Chemical engineering focuses on producing materials and products through chemical and physical processes at industrial scale, applying thermodynamics and molecular physics to ensure safety and efficiency."
+  },
+  {
+    "question": "Which pair of physics concepts is MOST central to designing a chemical reactor?",
+    "options": [
+      "Geological seismology and magnetism",
+      "Optics and astronomical spectroscopy",
+      "Acoustics and tidal wave analysis",
+      "Thermodynamics and molecular/atomic physics"
+    ],
+    "correct": 3,
+    "explanation": "Thermodynamics and molecular and atomic physics as key physics concepts used in chemical engineering, determining energy changes and explaining bonding, reaction rates, and material behavior."
+  },
+  {
+    "question": "New instruments in physics research often lead to unexpected discoveries because",
+    "options": [
+      "they automatically replace all existing scientific laws and theories",
+      "only biology requires instruments; physics relies solely on mathematics",
+      "they allow observation of phenomena previously undetectable at smaller scales or higher energies",
+      "instruments make experiments unnecessary by predicting results directly"
+    ],
+    "correct": 2,
+    "explanation": "Technology generates new physics by enabling scientists to study outer space, atomic structure, and other phenomena that were previously undetectable, forming a continuous cycle of innovation."
+  },
+  {
+    "question": "X-ray technology contributed to physics by revealing",
+    "options": [
+      "the melting points and flavors of heavy metals",
+      "atomic structure, crystal lattice spacing, and radiation phenomena",
+      "the speed of rainfall at different altitudes",
+      "the growth rate of trees in different climates"
+    ],
+    "correct": 1,
+    "explanation": "X-ray technology led to discoveries in atomic structure and radiation physics, demonstrating how technology enables new discoveries in physics."
+  },
+  {
+    "question": "Medical physics applies physical principles most directly to",
+    "options": [
+      "predicting the long-term motion of distant stars",
+      "classifying soil types by geological era",
+      "formulating perfumes and cosmetic compounds",
+      "diagnosing and treating diseases using imaging and radiation techniques"
+    ],
+    "correct": 3,
+    "explanation": "Medical physics as the branch that applies physical principles and methods to the diagnosis and treatment of diseases, especially abnormal tissues, using tools like X-ray, MRI, CT, and ultrasound."
+  },
+  {
+    "question": "MRI produces detailed soft-tissue images because hydrogen nuclei (protons) in the body",
+    "options": [
+      "emit only visible light when excited by magnetic fields",
+      "align with a strong magnetic field and emit radio signals when disturbed by RF pulses",
+      "stop all motion permanently when placed in a magnetic field",
+      "convert entirely into sound waves inside the scanner bore"
+    ],
+    "correct": 1,
+    "explanation": "Hydrogen protons in body water act as tiny magnets. In a strong magnetic field they align, and a short radio-wave pulse disturbs this alignment. When the pulse stops, protons return to alignment and release energy that forms a detailed image."
+  },
+  {
+    "question": "In an MRI scan, the radio-frequency (RF) pulse serves to",
+    "options": [
+      "disturb proton alignment so that relaxation signals can be detected",
+      "lengthen bones by stimulating growth plates",
+      "permanently destroy misaligned cells in tumor tissue",
+      "produce secondary X-rays that improve contrast"
+    ],
+    "correct": 0,
+    "explanation": "A short current pulse (radio wave) disturbs the alignment of protons. When the pulse stops, protons return to alignment, releasing energy that the computer converts into a detailed image."
+  },
+  {
+    "question": "In X-ray imaging, bones appear white on the film because they",
+    "options": [
+      "contain no atoms and allow X-rays to pass completely through",
+      "absorb X-rays more strongly than soft tissue due to their higher density and calcium content",
+      "reflect all sound waves, converting them to visible light",
+      "emit their own infrared radiation that exposes the film"
+    ],
+    "correct": 1,
+    "explanation": "Dense tissues like bone (containing calcium) absorb more X-rays and appear white, while soft tissues absorb less and appear gray or black."
+  },
+  {
+    "question": "A CT scan provides more diagnostic information than a single X-ray because it",
+    "options": [
+      "uses no ionizing radiation, making it completely safe for all patients",
+      "combines multiple rotating X-ray projections using computer processing to form 3D cross-sectional images",
+      "produces a single high-contrast shadow image from one fixed beam angle",
+      "works exclusively on dental and bone imaging with no soft-tissue application"
+    ],
+    "correct": 1,
+    "explanation": "CT uses rotating X-ray sources and detectors with computer processing, producing cross-sectional slices (tomograms) of the body and giving more detailed 3D images than conventional X-rays."
+  },
+  {
+    "question": "A doctor uses a stethoscope to listen to a patient's chest. The physical principle that makes this possible is",
+    "options": [
+      "direct measurement of bone density through vibration amplitude",
+      "the resonance of X-rays in soft tissue",
+      "acoustic amplification: the bell collects and channels sound waves to the earpiece",
+      "electromagnetic induction converts vibrations into electrical pulses"
+    ],
+    "correct": 2,
+    "explanation": "The stethoscope is used to listen to heartbeats, lung sounds, intestinal movements, and blood flow. It picks up mechanical vibrations and transmits them via a sound channel to the earpieces."
+  },
+  {
+    "question": "Ultrasound imaging forms images by",
+    "options": [
+      "passing visible light through the body and recording shadows on a sensor",
+      "detecting echoes of high-frequency sound waves reflected from tissue boundaries",
+      "measuring magnetic pole alignment in bone and cartilage",
+      "counting radioactive decays in target tissue"
+    ],
+    "correct": 1,
+    "explanation": "Ultrasound uses high-frequency sound waves (greater than 20 kHz, typically 3.5–10 MHz). These waves reflect differently from tissues, and the returning echoes form images of internal organs."
+  },
+  {
+    "question": "In an ultrasound image, an anechoic region (e.g., a fluid-filled cyst) appears black because",
+    "options": [
+      "it produces no echoes — fluid transmits sound without significant reflection",
+      "it absorbs only visible light, preventing any signal from reaching the transducer",
+      "it reflects many strong echoes that saturate the detector",
+      "it always contains dense bone that absorbs all sound"
+    ],
+    "correct": 0,
+    "explanation": "Anechoic as 'no echo,' resulting in a black appearance on the ultrasound image. Fluid-filled regions transmit sound without significant reflection."
+  },
+  {
+    "question": "Radiation therapy uses ionizing radiation to treat cancer primarily because",
+    "options": [
+      "ionizing radiation damages cancer-cell DNA, preventing replication and causing cell death",
+      "ionizing radiation increases tumor blood supply, starving surrounding healthy cells",
+      "radiation raises local blood oxygen only, changing the tumor pH",
+      "ionizing radiation converts tumor cells into benign sound wave emitters"
+    ],
+    "correct": 0,
+    "explanation": "Radiation breaks molecular bonds, damaging cancer cell DNA. This is the primary mechanism by which radiation therapy destroys abnormal tissue."
+  },
+  {
+    "question": "During radiation therapy, the beam direction is rotated through multiple angles mainly to",
+    "options": [
+      "remove all residual X-ray energy from the treatment room",
+      "make the tumor grow faster so it is easier to locate",
+      "concentrate the lethal dose at the tumor while keeping each healthy tissue path's dose low",
+      "convert the remaining radiation into harmless sound"
+    ],
+    "correct": 2,
+    "explanation": "Changing beam direction frequently ensures the tumor receives a maximum dose while other tissues receive minimal exposure — protecting healthy tissue during treatment."
+  },
+  {
+    "question": "The Navy uses sonar for submarine detection. Sonar exploits which physical principle?",
+    "options": [
+      "X-ray backscatter from submerged objects",
+      "Electrical resistance changes in seawater near metallic hulls",
+      "Bending of light rays at the water-metal interface",
+      "Reflection and time-of-flight measurement of sound waves in water"
+    ],
+    "correct": 3,
+    "explanation": "The Navy uses sound propagation in water (sonar) for submarine and ship detection — relying on sound wave reflection to locate objects underwater."
+  },
+  {
+    "question": "The Air Force uses fluid dynamics and aerodynamics primarily for",
+    "options": [
+      "turbulent flow analysis, radar navigation, and long-range observation",
+      "designing sonar systems for underwater navigation",
+      "night vision targeting and infrared detection",
+      "satellite communication and surveillance"
+    ],
+    "correct": 0,
+    "explanation": "The Air Force's physics applications as fluid dynamics (turbulent flow), aerodynamics, radar navigation, long-range observation, and pattern recognition."
+  },
+  {
+    "question": "Space Force operations rely on which physics applications?",
+    "options": [
+      "Fluid dynamics and turbulent airflow",
+      "Sound propagation and sonar systems",
+      "Satellite communication, surveillance, advanced optics, and orbital physics",
+      "Night vision and stealth technology"
+    ],
+    "correct": 2,
+    "explanation": "The passage specifically lists satellite communication, surveillance, and advanced optics and materials as the physics applications used by the Space Force."
+  },
+  {
+    "question": "RADAR stands for",
+    "options": [
+      "Receiver Display and Routing",
+      "Radio Detection And Ranging",
+      "Radiation Design and Repair",
+      "Rapid Antenna Directional Array Response"
+    ],
+    "correct": 1,
+    "explanation": "RADAR as Radio Detection And Ranging — an electronic system that detects and tracks objects by sending electromagnetic waves and analyzing their echoes."
+  },
+  {
+    "question": "A radar system detects an aircraft by transmitting a pulse and analyzing the returning echo. The physical principle involved is",
+    "options": [
+      "sound absorption by the aircraft body",
+      "reflection of electromagnetic waves and echo detection",
+      "infrared emission from the radar antenna",
+      "nuclear decay producing the signal"
+    ],
+    "correct": 1,
+    "explanation": "Radar sends electromagnetic waves toward a target and uses the returning echo to determine its position. The key idea is reflection of waves and signal detection."
+  },
+  {
+    "question": "A ballistic missile differs from a cruise missile in that, after the powered launch phase, a ballistic missile",
+    "options": [
+      "continues to receive jet propulsion throughout its entire flight path",
+      "immediately stops and deploys a parachute for precision delivery",
+      "follows a parabolic arc governed by gravity and air resistance with no further propulsion",
+      "travels entirely underwater using hydrodynamic lift"
+    ],
+    "correct": 2,
+    "explanation": "Ballistic missiles are rocket-propelled only in the initial phase. After that, they follow a parabolic path under gravity and air resistance, governed by Newtonian mechanics."
+  },
+  {
+    "question": "A cruise missile maintains a low, terrain-following flight path throughout its journey. This is possible because it uses",
+    "options": [
+      "continuous jet propulsion combined with an active guidance system throughout flight",
+      "underwater sonar navigation adapted for air travel",
+      "a one-time rocket boost and then relies on aerodynamic glide only",
+      "a ballistic arc with no mid-course correction"
+    ],
+    "correct": 0,
+    "explanation": "Cruise missiles are jet-propelled during the entire flight and can be guided precisely, moving at low altitude."
+  },
+  {
+    "question": "The guidance and control system of a missile is responsible for",
+    "options": [
+      "continuously computing and correcting the missile's trajectory to intercept the target",
+      "cooling the propulsion exhaust to prevent engine damage",
+      "storing and detonating the warhead upon target impact",
+      "generating the initial thrust needed to lift the missile off the launch pad"
+    ],
+    "correct": 0,
+    "explanation": "The guidance and control system as one of the main systems in a missile, responsible for tracking and guiding the missile. Continuous radio communication tracks and guides the missile."
+  },
+  {
+    "question": "Infrared detection devices are effective for night vision because",
+    "options": [
+      "only living organisms emit IR, making them the sole detectable targets",
+      "IR radiation is identical in wavelength to visible light and requires no conversion",
+      "IR detectors amplify reflected moonlight, not emitted radiation",
+      "all objects above absolute zero emit infrared radiation proportional to their temperature"
+    ],
+    "correct": 3,
+    "explanation": "All objects emit infrared radiation proportional to their temperature, and infrared detection devices detect this IR radiation and convert it to an electronic image based on temperature differences."
+  },
+  {
+    "question": "In a thermal infrared image, a running engine appears much brighter than the surrounding cold ground. This is because",
+    "options": [
+      "the engine becomes transparent to IR at high temperatures",
+      "the engine emits significantly more infrared radiation due to its higher temperature",
+      "cold ground absorbs IR while the engine emits only radio waves",
+      "the engine reflects more visible light due to its polished metal surface"
+    ],
+    "correct": 1,
+    "explanation": "Hotter objects appear brighter on an infrared display and cooler objects appear darker, because infrared emission is proportional to temperature."
+  },
+  {
+    "question": "Night-vision display screens are traditionally shown in green because",
+    "options": [
+      "green light travels faster than other colors through display glass",
+      "green is the only color the human eye can detect",
+      "all night-vision targets naturally emit green photons",
+      "the human eye can distinguish the greatest number of shades of green, improving detail perception"
+    ],
+    "correct": 3,
+    "explanation": "Night-vision images are shown in green because the human eye can detect more shades of green than any other color, which enhances visibility and reduces eye strain at night."
+  },
+  {
+    "question": "A communication system fundamentally requires a channel (medium) because",
+    "options": [
+      "communication systems operate only in complete vacuum",
+      "the channel stores information permanently at the sender's location",
+      "information can spontaneously teleport from sender to receiver without a medium",
+      "information must be carried from sender to receiver via some physical mechanism"
+    ],
+    "correct": 3,
+    "explanation": "Communication as the process of transferring information from one point to another, and states that to transfer information, a medium of transmission is required."
+  },
+  {
+    "question": "Which of the following is an example of wired (guided) communication?",
+    "options": [
+      "4G mobile phone transmission between cell towers",
+      "Optical fiber network carrying internet data",
+      "Satellite television uplink and downlink",
+      "AM radio broadcasting to household receivers"
+    ],
+    "correct": 1,
+    "explanation": "The passage classifies wired communication as using wire or optical fiber, with examples including telephone, internet cables, and fiber networks. Radio, mobile, and satellite links are wireless."
+  },
+  {
+    "question": "A mobile phone communicates wirelessly by transmitting",
+    "options": [
+      "gravitational pulses modulated with digital information",
+      "electromagnetic waves such as radio or microwave without physical conductors",
+      "chemical bond energy converted directly into audio signals",
+      "high-frequency sound waves through the atmosphere"
+    ],
+    "correct": 1,
+    "explanation": "Wireless communication is the transfer of information through electromagnetic waves without using physical conductors, with radio waves used in mobile networks as a key example."
+  },
+  {
+    "question": "Which type of electromagnetic wave is used for satellite communication?",
+    "options": [
+      "Infrared waves used for long-range space links",
+      "Radio waves used in household AM broadcasts",
+      "Microwaves used in satellite communication and Wi-Fi",
+      "Visible light waves used in open-air transmission"
+    ],
+    "correct": 2,
+    "explanation": "The passage explicitly lists microwaves as being used in satellite communication and Wi-Fi, making them the correct answer for this question."
+  },
+  {
+    "question": "Microwave signals are preferred for satellite communication because microwaves",
+    "options": [
+      "are blocked by the ionosphere, preventing interference with other users",
+      "have wavelengths too long to be focused by dish antennas",
+      "pass through the ionosphere and atmosphere with relatively low absorption",
+      "travel only through wires, making satellite links unnecessary"
+    ],
+    "correct": 2,
+    "explanation": "Microwaves pass through Earth's atmosphere with relatively low absorption, making them suitable for reliable communication links to and from satellites in orbit — consistent with the passage's description of satellite communication."
+  },
+  {
+    "question": "Infrared signals are widely used in television remote controls because infrared",
+    "options": [
+      "carries information by ionizing molecules in the air between controller and TV",
+      "is the same as visible red light and easily detected by standard cameras",
+      "has a short effective range that limits interference with nearby devices",
+      "penetrates walls and travels kilometers, ensuring long-range control"
+    ],
+    "correct": 2,
+    "explanation": "Infrared waves are used in remote controls and short-range devices, indicating their limited range is a characteristic feature that suits them for close-range applications like TV remotes."
+  },
+  {
+    "question": "The key physical principle that enables optical fiber to transmit light over long distances without leakage is",
+    "options": [
+      "total internal reflection at the core-cladding interface",
+      "nuclear fission inside the fiber converting mass to photon energy",
+      "radioactive stimulated emission continuously amplifying the light signal",
+      "air pressure inside a hollow fiber pushing photon packets forward"
+    ],
+    "correct": 0,
+    "explanation": "Refraction and total internal reflection as the key wave phenomena used in optical fiber communication, keeping the light signal confined within the fiber."
+  },
+  {
+    "question": "Interference as a wave phenomenon in communication systems mainly",
+    "options": [
+      "has no measurable effect on wireless signals",
+      "increases the speed of signal transmission",
+      "converts radio waves into sound automatically",
+      "affects signal clarity"
+    ],
+    "correct": 3,
+    "explanation": "Interference affects signal clarity in communication systems — making it an important wave phenomenon to understand and manage in communication technology."
+  },
+  {
+    "question": "Diffraction as a wave phenomenon explains how waves behave in communication by",
+    "options": [
+      "bending around obstacles",
+      "increasing signal frequency as signals pass through buildings",
+      "eliminating signal reflection off surfaces",
+      "converting microwaves into visible light"
+    ],
+    "correct": 0,
+    "explanation": "Diffraction explains how waves bend around obstacles — an important property in communication that allows signals to reach receivers even when not in a direct line of sight."
+  },
+  {
+    "question": "Which statement correctly describes the role of physics in modern communication technology?",
+    "options": [
+      "Physics is completely unrelated to antenna design and circuit analysis",
+      "Physics only studies sound propagation in air, not electrical or optical signals",
+      "Physics provides the scientific foundation for electromagnetic wave generation, propagation, modulation, and signal processing",
+      "Physics is useful only for painting and insulating communication wires"
+    ],
+    "correct": 2,
+    "explanation": "Physics provides a scientific foundation for all communication systems, with electromagnetic theory, electricity and magnetism, electrical circuits, energy and electronics, and wave phenomena all playing central roles."
+  },
+  {
+    "question": "An X-ray telescope in orbit can observe phenomena invisible to ground-based optical telescopes because",
+    "options": [
+      "all astronomical objects emit only X-rays, making optical telescopes obsolete",
+      "X-rays reflect off the ground and are blocked by the atmosphere, so must be detected from orbit",
+      "X-rays and visible light are identical; the difference is only in detector sensitivity",
+      "Earth's atmosphere absorbs X-rays, so orbiting telescopes above the atmosphere can detect them"
+    ],
+    "correct": 3,
+    "explanation": "Astronomers collect radiation including X-rays from space objects using different telescopes that detect different parts of the electromagnetic spectrum, and computers convert invisible data into false-color images for analysis."
+  },
+  {
+    "question": "A hypoechoic region in an ultrasound image appears darker than surrounding tissue because it",
+    "options": [
+      "it contains dense bone that absorbs all sound before reflection",
+      "it produces fewer echoes than adjacent tissue",
+      "it produces more echoes, saturating the detector and appearing white",
+      "it completely blocks ultrasound, appearing as a bright white shadow"
+    ],
+    "correct": 1,
+    "explanation": "Hypoechoic as producing few echoes, resulting in a dark gray appearance on the ultrasound image — less reflection than surrounding tissue."
+  },
+  {
+    "question": "Physics and biology cooperate most directly in explaining how the human eye perceives color because",
+    "options": [
+      "color perception depends only on chemical pigment concentration, not wavelength",
+      "biology explains light speed and refraction without any input from physics",
+      "physics and biology are unrelated; color is purely a psychological phenomenon",
+      "electromagnetic wave theory (physics) explains how different wavelengths stimulate photoreceptors (biology)"
+    ],
+    "correct": 3,
+    "explanation": "Optical physics and biology both play roles in vision: physics explains light in the 400–700 nm range, and the eyes detect this light to form images — a clear example of physics and biology cooperating."
+  },
+  {
+    "question": "An object is in stable equilibrium if, when slightly displaced, it",
+    "options": [
+      "remains in its new position with no net force acting on it",
+      "experiences a restoring force that returns it toward the original position",
+      "continues moving away with increasing acceleration",
+      "immediately collapses because any displacement breaks equilibrium"
+    ],
+    "correct": 1,
+    "explanation": "The passage describes stability as related to center of gravity and base of support. A wider base and a lower center of gravity increase stability, meaning the object returns to its original position when displaced."
+  },
+  {
+    "question": "A person stands on one foot. Compared to standing on two feet, which physical quantity changes MOST to affect balance?",
+    "options": [
+      "The gravitational acceleration acting on the person",
+      "The normal force exerted by the ground on the person",
+      "The person's total weight",
+      "The size of the base of support available to keep the center of gravity within"
+    ],
+    "correct": 3,
+    "explanation": "A wider base and a lower center of gravity increase stability. Standing on one foot reduces the base of support, making it much harder to keep the center of gravity within the support area."
+  },
+  {
+    "question": "Bioluminescence is an example of which interaction between physics and biology?",
+    "options": [
+      "Some organisms produce light chemically — an application of optical physics to biology",
+      "Some organisms use sound waves to generate heat for warmth",
+      "Some organisms use electrical signals to navigate underground",
+      "Some organisms convert gravitational energy directly into food"
+    ],
+    "correct": 0,
+    "explanation": "Bioluminescence as an example under optical physics and biology, noting that some organisms produce light chemically — illustrating how optical physics principles apply in living systems."
+  },
+  {
+    "question": "A key difference between X-ray imaging and MRI is that MRI",
+    "options": [
+      "works only for bone imaging and cannot distinguish soft tissue types",
+      "produces only 2D shadow images, while X-ray produces 3D volumes",
+      "uses non-ionizing magnetic fields and radio waves, offering excellent soft-tissue contrast without radiation dose",
+      "uses ionizing radiation and is therefore more dangerous than X-ray for soft tissue"
+    ],
+    "correct": 2,
+    "explanation": "MRI is based on magnetic resonance — using magnetic fields and radio waves (non-ionizing) — whereas X-ray uses ionizing radiation. MRI produces detailed images of different tissues based on the energy they release."
+  },
+  {
+    "question": "Ultrasound is preferred for monitoring pregnancy because",
+    "options": [
+      "it uses high-frequency mechanical sound waves, which are non-ionizing",
+      "it is the only method that can detect fetal heartbeat",
+      "it produces the clearest 3D images of bone structure",
+      "it uses ionizing radiation at a very low dose, making it safe"
+    ],
+    "correct": 0,
+    "explanation": "Pregnancy monitoring as a key use of ultrasound imaging, which uses high-frequency sound waves (greater than 20 kHz) — a non-ionizing, mechanical wave that is safe for repeated use."
+  },
+  {
+    "question": "Geology uses physics to help locate which of the following resources?",
+    "options": [
+      "Ore deposits, fossil fuels, geothermal sources, and groundwater",
+      "Cloud formations and atmospheric layers",
+      "Stellar dust and interplanetary debris",
+      "New plant species and marine organisms"
+    ],
+    "correct": 0,
+    "explanation": "Physics helps locate ore deposits, fossil fuels, geothermal sources, and groundwater — demonstrating the practical application of physics in geology."
+  },
+  {
+    "question": "Which types of radiation are used in external beam radiation therapy?",
+    "options": [
+      "Gamma rays or X-ray beams directed externally at the tumor",
+      "Visible light and infrared waves",
+      "Microwave and radio frequency pulses",
+      "Sound waves and ultrasonic pulses"
+    ],
+    "correct": 0,
+    "explanation": "External beam therapy uses a gamma or X-ray beam directed externally. These are forms of ionizing radiation used to destroy cancer cells."
+  },
+  {
+    "question": "The stethoscope was invented in 1816 by René Laennec. which of the following sounds can it detect?",
+    "options": [
+      "Only lung sounds during deep breathing",
+      "Heartbeats, lung sounds, intestinal movements, and blood flow",
+      "Brain waves and electrical activity of the nervous system",
+      "Only heartbeats and nothing else"
+    ],
+    "correct": 1,
+    "explanation": "The stethoscope is used to listen to heartbeats, lung sounds, intestinal movements, and blood flow, detecting frequencies from tens to thousands of Hz."
+  },
+  {
+    "question": "Internal radiation therapy (brachytherapy) involves",
+    "options": [
+      "directing an external X-ray beam at the patient from multiple angles",
+      "placing radioactive material such as radium or cobalt-60 near the tumor",
+      "injecting radio-opaque dye to highlight tumors on X-ray",
+      "using ultrasound pulses to heat and destroy cancer cells"
+    ],
+    "correct": 1,
+    "explanation": "Internal radiation therapy (brachytherapy) as placing radioactive material — such as radium or cobalt-60 — near the tumor, as opposed to external beam therapy."
+  },
+  {
+    "question": "Which wave phenomena listed are most relevant to how radar works in defense?",
+    "options": [
+      "Interference and sound compression only",
+      "Diffraction and rarefaction only",
+      "Refraction and total internal reflection",
+      "Reflection of electromagnetic waves and signal detection"
+    ],
+    "correct": 3,
+    "explanation": "The passage describes radar as sending electromagnetic waves and analyzing their echoes (reflection). It also lists reflection as a key wave phenomenon used in communication and radar systems."
+  },
+  {
+    "question": "Rocket technology is an example of technology generating new physics. This means it allowed scientists to",
+    "options": [
+      "study outer space and gather new data that reveals new physics phenomena",
+      "prove that Newtonian mechanics no longer applies at high altitudes",
+      "replace all ground-based experiments with space-based simulations",
+      "eliminate the need for telescopes in astronomical research"
+    ],
+    "correct": 0,
+    "explanation": "The passage explicitly uses rocket technology as an example of how technology enables new physics discoveries — specifically by allowing scientists to study outer space and gather new data."
+  },
+  {
+    "question": "Medical physics began after Wilhelm Conrad Roentgen's discovery in 1895. What did he discover?",
+    "options": [
+      "X-rays, which led to the development of medical imaging technologies",
+      "The magnetic resonance property of hydrogen nuclei",
+      "The stethoscope and its acoustic amplification properties",
+      "Ultrasound waves and their echoes in soft tissue"
+    ],
+    "correct": 0,
+    "explanation": "Medical physics began after Wilhelm Conrad Roentgen discovered X-rays in 1895, which led to medical imaging technologies like X-rays, CT, MRI, and ultrasound, and radiation therapy for treatment."
+  }
+]
