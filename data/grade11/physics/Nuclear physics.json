@@ -1,0 +1,398 @@
+[
+  {
+    "question": "An atom has atomic number Z and mass number A. How many neutrons are in its nucleus?",
+    "options": [
+      "A - Z",
+      "A + Z",
+      "Z - A",
+      "A × Z"
+    ],
+    "correct": 0,
+    "explanation": "Mass number A = protons + neutrons. Protons = Z. So neutrons = A - Z."
+  },
+  {
+    "question": "Which of the following correctly describes a nucleon?",
+    "options": [
+      "Only a proton inside the nucleus",
+      "Either a proton or a neutron",
+      "Only a neutron inside the nucleus",
+      "The entire nucleus of an atom"
+    ],
+    "correct": 1,
+    "explanation": "A nucleon refers to either a proton or a neutron. Both are constituents of the nucleus and are collectively called nucleons."
+  },
+  {
+    "question": "Despite strong electrostatic repulsion between protons, the nucleus remains stable. What force is responsible?",
+    "options": [
+      "Gravitational force between nucleons",
+      "Electromagnetic attraction between protons and electrons",
+      "Strong nuclear force driven by chromodynamics",
+      "Weak nuclear force between neutrons"
+    ],
+    "correct": 2,
+    "explanation": "The strong nuclear force, whose driving mechanism is the chromodynamics of color charges, overcomes the repulsive electrostatic force and binds protons and neutrons tightly in the nucleus."
+  },
+  {
+    "question": "Two atoms are isotopes of the same element. Which quantity is the same for both?",
+    "options": [
+      "Mass number",
+      "Number of neutrons",
+      "Atomic mass",
+      "Atomic number (Z)"
+    ],
+    "correct": 3,
+    "explanation": "Isotopes have the same number of protons (same atomic number Z) but different numbers of neutrons, giving them different mass numbers."
+  },
+  {
+    "question": "1 atomic mass unit (amu) is equal to:",
+    "options": [
+      "1.66053 × 10⁻²⁷ kg",
+      "1.66053 × 10⁻²⁴ kg",
+      "1.66053 × 10⁻²⁵ kg",
+      "1.66053 × 10⁻³¹ kg"
+    ],
+    "correct": 0,
+    "explanation": "By definition, 1 amu = 1.66053 × 10⁻²⁷ kg. The other options are off by factors of 10 — common confusion from misremembering the exponent."
+  },
+  {
+    "question": "The binding energy of a nucleus is best described as:",
+    "options": [
+      "Energy released when a nucleus captures an electron",
+      "Energy needed to completely separate a nucleus into its protons and neutrons",
+      "Energy stored in the electron shells of an atom",
+      "Energy released during gamma emission"
+    ],
+    "correct": 1,
+    "explanation": "Binding energy is the energy required to break a nucleus into its individual constituent nucleons (protons and neutrons). It equals Δm·c², where Δm is the mass defect."
+  },
+  {
+    "question": "The mass defect of a nucleus is defined as:",
+    "options": [
+      "The mass of the nucleus minus the mass of its electrons",
+      "The mass lost during gamma decay",
+      "The difference between the total mass of free nucleons and the actual nuclear mass",
+      "The mass of neutrons minus the mass of protons"
+    ],
+    "correct": 2,
+    "explanation": "Mass defect Δm = (sum of masses of free protons + neutrons) − (actual nuclear mass). This missing mass is converted to binding energy via E = Δmc²."
+  },
+  {
+    "question": "The binding energy of deuterium (mass = 2.01402 u, mₚ = 1.007825 u, mₙ = 1.008665 u, 1u = 931.1 MeV/c²) is:",
+    "options": [
+      "1.112 MeV",
+      "4.448 MeV",
+      "3.336 MeV",
+      "2.224 MeV"
+    ],
+    "correct": 3,
+    "explanation": "Δm = (1.007825 + 1.008665) − 2.01402 = 0.002388 u. Eb = 0.002388 × 931.1 = 2.224 MeV. Half this value (1.112) is a trap from dividing by nucleon count; double (4.448) comes from multiplying by 2 in error."
+  },
+  {
+    "question": "An electron transitions from n = 3 to n = 2 in a hydrogen atom. Using R_H = 1.097 × 10⁷ m⁻¹, what is the wavelength of the emitted photon?",
+    "options": [
+      "656.3 nm",
+      "364.6 nm",
+      "486.1 nm",
+      "121.6 nm"
+    ],
+    "correct": 0,
+    "explanation": "1/λ = 1.097×10⁷(1/4 − 1/9) = 1.097×10⁷ × 5/36 = 1.524×10⁶ m⁻¹. λ = 656.3 nm. This is the red Hα line of the Balmer series."
+  },
+  {
+    "question": "For the n=3 to n=2 hydrogen transition (λ = 656.3 nm), the frequency of the emitted photon is:",
+    "options": [
+      "4.568 × 10¹² Hz",
+      "4.568 × 10¹⁴ Hz",
+      "4.568 × 10¹⁶ Hz",
+      "4.568 × 10¹³ Hz"
+    ],
+    "correct": 1,
+    "explanation": "f = c/λ = (3×10⁸)/(6.563×10⁻⁷) = 4.568×10¹⁴ Hz. Options with 10¹² or 10¹³ result from unit conversion errors (treating nm as μm or mm)."
+  },
+  {
+    "question": "Using h = 6.63 × 10⁻³⁴ J·s and f = 4.568 × 10¹⁴ Hz, the energy of the photon emitted during the n=3 to n=2 transition is:",
+    "options": [
+      "3.400 eV",
+      "0.946 eV",
+      "1.892 eV",
+      "13.60 eV"
+    ],
+    "correct": 2,
+    "explanation": "E = hf = (6.63×10⁻³⁴)(4.568×10¹⁴) = 3.027×10⁻¹⁹ J = 1.892 eV. 3.4 eV is the n=2 energy level itself, a common confusion."
+  },
+  {
+    "question": "An electron transitions from n = 4 to n = 2. Using R_H = 1.1 × 10⁷ m⁻¹, the wavelength is:",
+    "options": [
+      "656.3 nm",
+      "121.6 nm",
+      "364.6 nm",
+      "486.0 nm"
+    ],
+    "correct": 3,
+    "explanation": "1/λ = 1.1×10⁷(1/4 − 1/16) = 1.1×10⁷ × 3/16 = 2.0625×10⁶ m⁻¹. λ = 4.848×10⁻⁷ m ≈ 485 nm. Closest option is 486.0 nm (Hβ line). 656.3 nm is for n=3→2."
+  },
+  {
+    "question": "For the n=4 to n=2 transition (λ = 4.84 × 10⁻⁷ m), the frequency of the emitted photon is:",
+    "options": [
+      "0.62 × 10¹⁵ Hz",
+      "0.62 × 10¹³ Hz",
+      "0.62 × 10¹⁷ Hz",
+      "0.62 × 10¹¹ Hz"
+    ],
+    "correct": 0,
+    "explanation": "f = c/λ = (3×10⁸)/(4.84×10⁻⁷) = 6.2×10¹⁴ = 0.62×10¹⁵ Hz. Wrong exponents arise from misplacing the decimal in λ."
+  },
+  {
+    "question": "The nuclear reaction ¹⁸⁶₇₃Ta → ¹⁸⁶₇₄W involves which type of decay?",
+    "options": [
+      "Alpha decay",
+      "Beta minus decay",
+      "Gamma decay",
+      "Beta plus decay"
+    ],
+    "correct": 1,
+    "explanation": "Mass number unchanged (186=186), atomic number increases by 1 (73→74). This is beta minus decay: a neutron converts to a proton, emitting an electron."
+  },
+  {
+    "question": "The reaction ¹⁵⁷₇₂Hf → ¹⁵³₇₀Yb involves which type of decay?",
+    "options": [
+      "Beta minus decay",
+      "Beta plus decay",
+      "Alpha decay",
+      "Gamma decay"
+    ],
+    "correct": 2,
+    "explanation": "Mass number decreases by 4 (157→153) and atomic number decreases by 2 (72→70). These are the signatures of alpha decay (emission of ⁴₂He)."
+  },
+  {
+    "question": "In the decay ¹⁸₁₀Ne → ¹⁸₉F, the atomic number decreases by 1 while mass number is unchanged. This is:",
+    "options": [
+      "Alpha decay",
+      "Gamma decay",
+      "Beta minus decay",
+      "Beta plus decay"
+    ],
+    "correct": 3,
+    "explanation": "Z decreases by 1 (10→9) with no change in A. This is beta plus decay: a proton converts to a neutron, emitting a positron (e⁺)."
+  },
+  {
+    "question": "In the decay ¹⁴₇N → ¹⁴₇N, both Z and A are unchanged. Which decay type is this?",
+    "options": [
+      "Gamma decay",
+      "Alpha decay",
+      "Beta minus decay",
+      "Beta plus decay"
+    ],
+    "correct": 0,
+    "explanation": "Gamma decay releases energy as a photon (γ) without changing the proton or neutron count. A and Z remain the same — only the nuclear energy state changes."
+  },
+  {
+    "question": "A radioactive source decays to 12.5% of its initial value in 210 seconds. What is its half-life?",
+    "options": [
+      "30 s",
+      "70 s",
+      "105 s",
+      "52.5 s"
+    ],
+    "correct": 1,
+    "explanation": "Remaining fraction = 0.125 = (1/2)³, so n = 3 half-lives. t₁/₂ = 210/3 = 70 s. 30 s comes from dividing 210 by 7; 105 from dividing by 2 only."
+  },
+  {
+    "question": "In the series ²³⁸₉₂U →(α) X →(β⁻) Y, what are the mass number A and atomic number Z of Y?",
+    "options": [
+      "A=234, Z=90",
+      "A=236, Z=92",
+      "A=234, Z=91",
+      "A=230, Z=88"
+    ],
+    "correct": 2,
+    "explanation": "Alpha: A→234, Z→90 (X = ²³⁴₉₀Th). Beta minus: A unchanged at 234, Z→91 (Y = ²³⁴₉₁Pa). Answer: A=234, Z=91."
+  },
+  {
+    "question": "A 10 mg radioactive sample with half-life 270 days is measured after 540 days. What mass remains?",
+    "options": [
+      "5.0 mg",
+      "1.25 mg",
+      "0.625 mg",
+      "2.5 mg"
+    ],
+    "correct": 3,
+    "explanation": "n = 540/270 = 2 half-lives. N = 10 × (1/2)² = 10/4 = 2.5 mg. 5 mg is after only 1 half-life; 1.25 mg is after 3."
+  },
+  {
+    "question": "Which expression correctly represents gamma decay, where neither A nor Z changes?",
+    "options": [
+      "ᴬ_Z X* → ᴬ_Z X + γ",
+      "ᴬ_Z X → ᴬ⁻⁴_(Z-2) Y + ⁴₂He",
+      "ᴬ_Z X → ᴬ_(Z+1) Y + ⁰₋₁e",
+      "ᴬ_Z X + e⁻ → ᴬ_(Z-1) Y + ν"
+    ],
+    "correct": 0,
+    "explanation": "Gamma decay: an excited nucleus X* releases energy as a gamma photon γ, with no change in A or Z. Options A and B are alpha and beta minus respectively; D is electron capture."
+  },
+  {
+    "question": "In the fusion reaction ²₁H + ²₁H → ⁴₂He + x, what is particle x?",
+    "options": [
+      "Neutron (¹₀n)",
+      "Photon (γ)",
+      "Electron (e⁻)",
+      "Proton (¹₁H)"
+    ],
+    "correct": 1,
+    "explanation": "Left side: A=4, Z=2. Right side: ⁴₂He has A=4, Z=2. Conservation is satisfied. x carries no mass number and no charge, so x is a gamma photon (γ). Not a neutron, which would give A=5 total."
+  },
+  {
+    "question": "What is NOT a mode of radioactive decay?",
+    "options": [
+      "Positron emission",
+      "Electron capture",
+      "Nuclear fusion",
+      "Alpha emission"
+    ],
+    "correct": 2,
+    "explanation": "Fusion is not a radioactive decay mode; it is a nuclear reaction where two light nuclei combine. Radioactive decay modes include alpha, beta minus, beta plus, electron capture, and gamma emission."
+  },
+  {
+    "question": "The half-life of radium is 3.5 days. What fraction of a sample remains undecayed after 14 days?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/32",
+      "1/16"
+    ],
+    "correct": 3,
+    "explanation": "n = 14/3.5 = 4 half-lives. N/N₀ = (1/2)⁴ = 1/16. Choosing 1/4 ignores 2 half-lives; 1/8 corresponds to 3 half-lives."
+  },
+  {
+    "question": "A 16 g sample of radon (half-life = 4 days) decays for 24 days. What mass remains?",
+    "options": [
+      "0.25 g",
+      "1.0 g",
+      "0.5 g",
+      "0.125 g"
+    ],
+    "correct": 0,
+    "explanation": "n = 24/4 = 6 half-lives. N = 16 × (1/2)⁶ = 16/64 = 0.25 g. 0.5 g corresponds to 5 half-lives; 0.125 g to 7."
+  },
+  {
+    "question": "The half-life of radium given a decay constant λ = 1.07 × 10⁻⁴ yr⁻¹ is:",
+    "options": [
+      "3238 years",
+      "6476 years",
+      "9714 years",
+      "4850 years"
+    ],
+    "correct": 1,
+    "explanation": "t₁/₂ = 0.693/λ = 0.693/(1.07×10⁻⁴) = 6476 years. 3238 is half this value (error: dividing 0.693 by 2λ); 9714 is dividing by ln(2)/1.5 in error."
+  },
+  {
+    "question": "After two half-lives, what fraction of the original radioactive sample has DECAYED?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "7/8"
+    ],
+    "correct": 2,
+    "explanation": "After 2 half-lives, fraction remaining = (1/2)² = 1/4. Fraction decayed = 1 − 1/4 = 3/4. A common mistake is confusing 'remaining' (1/4) with 'decayed' (3/4)."
+  },
+  {
+    "question": "What is the activity of 2 × 10⁸ atoms of C-14 with decay constant λ = 3.84 × 10⁻¹² s⁻¹?",
+    "options": [
+      "7.68 × 10⁻² Bq",
+      "7.68 × 10⁻⁶ Bq",
+      "7.68 × 10² Bq",
+      "7.68 × 10⁻⁴ Bq"
+    ],
+    "correct": 3,
+    "explanation": "Activity A = λN = (3.84×10⁻¹²)(2×10⁸) = 7.68×10⁻⁴ Bq. Errors in exponent addition: −12+8 = −4, not −2 or −6."
+  },
+  {
+    "question": "After how many years does cesium-137 (t₁/₂ = 30 yr) decay from activity 5.8 × 10¹⁵ Bq to 1.6 × 10⁶ Bq?",
+    "options": [
+      "1016 years",
+      "480 years",
+      "750 years",
+      "1200 years"
+    ],
+    "correct": 0,
+    "explanation": "2ⁿ = N₀/N = 5.8×10¹⁵/1.6×10⁶ = 3.625×10⁹ ≈ 2³², so n ≈ 32. t = 32 × 30 = 1016 years. 480 uses n=16; 750 uses n=25 incorrectly."
+  },
+  {
+    "question": "In alpha decay, what happens to the mass number (A) and atomic number (Z) of the parent nucleus?",
+    "options": [
+      "A decreases by 2, Z decreases by 4",
+      "A decreases by 4, Z decreases by 2",
+      "A unchanged, Z decreases by 1",
+      "A decreases by 4, Z unchanged"
+    ],
+    "correct": 1,
+    "explanation": "Alpha particle = ⁴₂He. Emitting it reduces A by 4 and Z by 2. A common error swaps the changes (A−2, Z−4) or confuses it with beta decay."
+  },
+  {
+    "question": "Which of the following correctly describes the charge of each radiation type: alpha, beta minus, gamma?",
+    "options": [
+      "Positive, Positive, Neutral",
+      "Negative, Positive, Neutral",
+      "Positive, Negative, Neutral",
+      "Positive, Neutral, Negative"
+    ],
+    "correct": 2,
+    "explanation": "Alpha particles (⁴₂He²⁺) are positively charged. Beta minus particles (electrons) are negatively charged. Gamma rays are electromagnetic radiation — electrically neutral."
+  },
+  {
+    "question": "The nuclear radius is related to mass number A by the formula r = r₀A^(1/3). If nucleus X has mass number 8 times that of nucleus Y, what is the ratio of their radii (rₓ/r_Y)?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "2"
+    ],
+    "correct": 3,
+    "explanation": "rₓ/r_Y = (Aₓ/A_Y)^(1/3) = (8)^(1/3) = 2. Choosing 4 or 8 results from using exponents 1/2 or 1 instead of 1/3."
+  },
+  {
+    "question": "A nucleus emits a gamma ray. Which statement about the resulting nucleus is correct?",
+    "options": [
+      "Both Z and A remain unchanged",
+      "Its atomic number increases by 1",
+      "Its mass number decreases by 4",
+      "Its mass number decreases by 1"
+    ],
+    "correct": 0,
+    "explanation": "Gamma decay releases energy as a photon from an excited nuclear state. No nucleons are emitted, so both A and Z remain the same. Only the energy state of the nucleus changes."
+  },
+  {
+    "question": "Nuclear fission and nuclear fusion differ in that:",
+    "options": [
+      "Fission combines nuclei; fusion splits them",
+      "Fission splits a heavy nucleus; fusion combines light nuclei",
+      "Both fission and fusion combine light nuclei",
+      "Fission is radioactive decay; fusion is not a nuclear process"
+    ],
+    "correct": 1,
+    "explanation": "Fission = splitting a heavy nucleus into smaller fragments. Fusion = combining lighter nuclei into a heavier nucleus. Options A and B reverse or confuse the definitions."
+  },
+  {
+    "question": "The reaction ²³⁸₉₂U → ²³⁴₉₀Th + X represents alpha decay. What is particle X?",
+    "options": [
+      "²₁H (deuteron)",
+      "¹₀n (neutron)",
+      "⁴₂He (alpha particle)",
+      "⁰₋₁e (beta minus)"
+    ],
+    "correct": 2,
+    "explanation": "By conservation: A: 238 = 234 + A_X → A_X = 4; Z: 92 = 90 + Z_X → Z_X = 2. So X = ⁴₂He, the alpha particle."
+  },
+  {
+    "question": "In beta minus decay of ²³⁴₉₀Th, the daughter nucleus is:",
+    "options": [
+      "²³⁴₈₈Ra",
+      "²³⁰₈₈Ra",
+      "²³⁴₈₉Ac",
+      "²³⁴₉₁Pa"
+    ],
+    "correct": 3,
+    "explanation": "Beta minus: A unchanged (234), Z increases by 1 (90→91). Daughter = ²³⁴₉₁Pa (Protactinium). Choosing Ra or Ac means Z decreased or changed by 2, which is incorrect for beta minus."
+  }
+]
