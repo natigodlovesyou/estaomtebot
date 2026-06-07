@@ -1,0 +1,794 @@
+[
+  {
+    "question": "Which of the following correctly describes an electromagnetic wave?",
+    "options": [
+      "A transverse wave produced by an accelerating charge, with E ⊥ B ⊥ direction of propagation",
+      "A longitudinal wave requiring a medium, with E and B fields parallel to each other",
+      "A transverse wave in which only the electric field oscillates, propagating at 3 × 10⁸ m/s in all media",
+      "A mechanical wave where E and B fields oscillate in the same plane as propagation"
+    ],
+    "correct": 0,
+    "explanation": "EM waves are transverse: E and B are mutually perpendicular and both perpendicular to the direction of travel. They are produced by accelerating charges and travel at c = 3 × 10⁸ m/s in vacuum — no medium required. Both fields oscillate simultaneously."
+  },
+  {
+    "question": "Two students debate the orientation of fields in an EM wave traveling in the +x direction. Student A says E is along y and B is along z. Student B says E is along z and B is along y. Who is correct?",
+    "options": [
+      "Only Student A, since E must always be vertical",
+      "Only Student B, since B must always be vertical",
+      "Neither; E and B must be parallel to the direction of travel",
+      "Both are correct, as long as E ⊥ B ⊥ x̂"
+    ],
+    "correct": 3,
+    "explanation": "The only requirement is E ⊥ B and both ⊥ direction of propagation. Both configurations satisfy this, so both students are correct. EM waves are transverse — field orientations can vary (polarization), but perpendicularity must hold."
+  },
+  {
+    "question": "Which ordering correctly lists EM radiations from LOWEST to HIGHEST frequency?",
+    "options": [
+      "Radio → Microwave → IR → Visible → UV → X-ray → γ-ray",
+      "γ-ray → X-ray → UV → Visible → IR → Microwave → Radio",
+      "Radio → IR → Microwave → Visible → UV → X-ray → γ-ray",
+      "Microwave → Radio → IR → Visible → UV → X-ray → γ-ray"
+    ],
+    "correct": 0,
+    "explanation": "Frequency and wavelength are inversely related (c = fλ). Radio waves have the longest wavelength and lowest frequency; gamma rays have the shortest wavelength and highest frequency. The correct order from low to high frequency is: Radio → Microwave → IR → Visible → UV → X-ray → γ-ray."
+  },
+  {
+    "question": "An X-ray machine and a microwave oven both use electromagnetic radiation. Which statement correctly compares them?",
+    "options": [
+      "X-rays have longer wavelength and lower frequency than microwaves",
+      "Microwaves and X-rays travel at different speeds in vacuum",
+      "Microwaves carry more energy per photon than X-rays",
+      "X-rays have higher frequency and shorter wavelength than microwaves"
+    ],
+    "correct": 3,
+    "explanation": "All EM waves travel at c in vacuum. X-rays (λ ~ 10⁻¹⁰ m) have much shorter wavelengths and higher frequencies than microwaves (λ ~ 10⁻² m). Since E = hf, X-ray photons carry far more energy per photon than microwave photons."
+  },
+  {
+    "question": "Light takes approximately how long to travel from the Sun to Earth (distance ≈ 1.5 × 10¹¹ m)?",
+    "options": [
+      "510 s",
+      "50 s",
+      "5000 s",
+      "500 s"
+    ],
+    "correct": 3,
+    "explanation": "t = d/c = (1.5 × 10¹¹ m) / (3 × 10⁸ m/s) = 500 s ≈ 8.33 minutes. Note: 150 million km = 1.5 × 10¹¹ m."
+  },
+  {
+    "question": "An FM station broadcasts at 102.1 MHz. What is the wavelength of its radio wave?",
+    "options": [
+      "0.294 m",
+      "29.4 m",
+      "294 m",
+      "2.94 m"
+    ],
+    "correct": 3,
+    "explanation": "λ = c/f = (3 × 10⁸ m/s) / (102.1 × 10⁶ Hz) ≈ 2.94 m. FM radio wavelengths are on the order of a few metres."
+  },
+  {
+    "question": "A gamma ray has a wavelength of 1.0 × 10⁻¹³ m. What is its frequency?",
+    "options": [
+      "3 × 10²¹ Hz",
+      "3 × 10¹⁹ Hz",
+      "3 × 10²³ Hz",
+      "3 × 10¹⁵ Hz"
+    ],
+    "correct": 0,
+    "explanation": "f = c/λ = (3 × 10⁸ m/s) / (1.0 × 10⁻¹³ m) = 3 × 10²¹ Hz. This extremely high frequency confirms it is a gamma ray — the most energetic part of the EM spectrum."
+  },
+  {
+    "question": "Light of wavelength 600 nm travels from air into glass (n = 1.5). What is its wavelength inside the glass?",
+    "options": [
+      "900 nm",
+      "600 nm",
+      "300 nm",
+      "400 nm"
+    ],
+    "correct": 3,
+    "explanation": "n₁λ₁ = n₂λ₂ → λ₂ = (n₁/n₂)λ₁ = (1/1.5) × 600 = 400 nm. The frequency stays constant when light enters a new medium, but wavelength decreases as the wave slows down."
+  },
+  {
+    "question": "Light travels from air into glass (n = 1.5). Which pair of values is correct for the wave inside the glass?",
+    "options": [
+      "Speed = 2 × 10⁸ m/s, Frequency unchanged",
+      "Speed = 3 × 10⁸ m/s, Wavelength = 400 nm",
+      "Speed = 2 × 10⁸ m/s, Frequency increases by factor 1.5",
+      "Speed = 1.5 × 10⁸ m/s, Wavelength unchanged"
+    ],
+    "correct": 0,
+    "explanation": "v = c/n = (3 × 10⁸)/1.5 = 2 × 10⁸ m/s. Frequency never changes when light enters a new medium — it is set by the source. Only speed and wavelength adjust. So the correct pair is: speed = 2 × 10⁸ m/s and frequency unchanged."
+  },
+  {
+    "question": "A ray of light hits a water surface (n = 1.3) from air at an angle of incidence of 45°. What is the angle of refraction inside water?",
+    "options": [
+      "33°",
+      "45°",
+      "57°",
+      "22°"
+    ],
+    "correct": 0,
+    "explanation": "Snell's law: n₁ sin θ₁ = n₂ sin θ₂ → sin θ₂ = sin 45°/1.3 = 0.707/1.3 ≈ 0.544 → θ₂ = sin⁻¹(0.544) ≈ 33°. The ray bends toward the normal when entering a denser medium."
+  },
+  {
+    "question": "What is the critical angle for light passing from glass (n = 1.5) into air?",
+    "options": [
+      "30.0°",
+      "48.6°",
+      "60.0°",
+      "41.8°"
+    ],
+    "correct": 3,
+    "explanation": "At the critical angle, the refracted ray runs along the interface (θ_r = 90°). Snell's law: n_glass sin θ_c = n_air sin 90° → sin θ_c = 1/1.5 = 0.667 → θ_c = sin⁻¹(0.667) ≈ 41.8°."
+  },
+  {
+    "question": "A fiber optic cable works by total internal reflection. Which condition is NECESSARY for this to occur?",
+    "options": [
+      "Light must travel from a denser medium and the angle of incidence must exceed the critical angle",
+      "The angle of incidence must be less than the critical angle",
+      "Light must travel from a less dense to a more dense medium",
+      "The frequency of light must match the natural frequency of the medium"
+    ],
+    "correct": 0,
+    "explanation": "Total internal reflection requires: (1) light traveling from a denser medium (higher n) to a less dense medium, and (2) angle of incidence > critical angle. Both conditions must be met simultaneously. If the angle is less than critical, light partially refracts out."
+  },
+  {
+    "question": "A diamond has a critical angle of about 24°. What does this tell you about light hitting a diamond facet at 30°?",
+    "options": [
+      "Total internal reflection occurs since 30° > 24°",
+      "The light refracts out normally since 30° is a small angle",
+      "The light is partially absorbed since it is above the critical angle",
+      "The critical angle only applies to glass, not diamond"
+    ],
+    "correct": 0,
+    "explanation": "Whenever the angle of incidence exceeds the critical angle, total internal reflection occurs — 100% of the light reflects back into the denser medium. Since 30° > 24°, total internal reflection occurs. This is why diamonds sparkle: multiple internal reflections redirect light dramatically."
+  },
+  {
+    "question": "When the letter 'p' is placed in front of a plane mirror, its image appears as:",
+    "options": [
+      "q",
+      "b",
+      "p",
+      "d"
+    ],
+    "correct": 0,
+    "explanation": "A plane mirror produces lateral inversion — left and right are swapped. The letter 'p' when laterally inverted becomes 'q'. The image is not flipped top-to-bottom, so it does not become 'b' or 'd'."
+  },
+  {
+    "question": "Two plane mirrors are inclined at 60°. How many images of an object placed between them are formed?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "explanation": "360°/60° = 6 (even number). When 360°/θ is even: N = (360°/θ) − 1 = 6 − 1 = 5 images."
+  },
+  {
+    "question": "To obtain exactly 3 images of an object placed between two inclined plane mirrors, the angle between the mirrors should be:",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 2,
+    "explanation": "360°/90° = 4 (even) → N = 4 − 1 = 3 images. Alternatively for odd result (360°/θ is odd): N = 360°/θ directly. At 90°, 360/90 = 4 (even), so N = 3. ✓"
+  },
+  {
+    "question": "A pencil 10 cm long is placed 20 cm in front of a plane mirror. What is the distance between the pencil and its image?",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "30 cm",
+      "40 cm"
+    ],
+    "correct": 3,
+    "explanation": "A plane mirror forms an image as far behind the mirror as the object is in front. Object distance = 20 cm → image distance = 20 cm behind mirror. Total distance = 20 + 20 = 40 cm."
+  },
+  {
+    "question": "A concave mirror has a radius of curvature of 20 cm. A distant star is observed with this mirror. Where does the star's image form?",
+    "options": [
+      "10 cm in front of the mirror",
+      "20 cm in front of the mirror",
+      "5 cm in front of the mirror",
+      "At the mirror surface"
+    ],
+    "correct": 0,
+    "explanation": "f = R/2 = 20/2 = 10 cm. For a very distant object (u → ∞): 1/f = 1/∞ + 1/v → v = f = 10 cm in front of the mirror. The star forms at the focal point."
+  },
+  {
+    "question": "A 20 cm tall object is placed 6 cm in front of a concave mirror of focal length 5 cm. What is the magnification?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "10"
+    ],
+    "correct": 2,
+    "explanation": "1/f = 1/u + 1/v → 1/5 = 1/6 + 1/v → 1/v = 1/5 − 1/6 = 1/30 → v = 30 cm. m = −v/u = −30/6 = −5. The negative sign confirms the image is real and inverted. |m| = 5, so the image is 5× the object size."
+  },
+  {
+    "question": "A converging (concave) mirror of focal length 20 cm forms an erect image five times the size of the object. What is the image distance?",
+    "options": [
+      "−80 cm (virtual image)",
+      "+80 cm (real image)",
+      "+100 cm (real image)",
+      "−100 cm (virtual image)"
+    ],
+    "correct": 0,
+    "explanation": "Erect image from a concave mirror means virtual → v is negative. m = −v/u = 5 → v = −5u. Substituting into mirror equation: 1/20 = 1/u + 1/(−5u) = 4/(5u) → u = 16 cm → v = −80 cm. Negative confirms virtual, erect."
+  },
+  {
+    "question": "A concave mirror of focal length 20 cm forms a real image 30 cm in front of it. How far is the object from the mirror?",
+    "options": [
+      "12 cm",
+      "30 cm",
+      "60 cm",
+      "120 cm"
+    ],
+    "correct": 2,
+    "explanation": "1/f = 1/u + 1/v → 1/u = 1/20 − 1/30 = 3/60 − 2/60 = 1/60 → u = 60 cm. The object is 60 cm in front, beyond the centre of curvature (2f = 40 cm), consistent with a diminished real image."
+  },
+  {
+    "question": "An object is 30 cm in front of a convex mirror. A virtual image forms 10 cm behind it. What is the focal length of this mirror?",
+    "options": [
+      "+15 cm",
+      "−15 cm",
+      "+7.5 cm",
+      "−7.5 cm"
+    ],
+    "correct": 1,
+    "explanation": "For a convex mirror, image is virtual so v = −10 cm. 1/f = 1/u + 1/v = 1/30 + 1/(−10) = 1/30 − 3/30 = −2/30 → f = −15 cm. The negative focal length confirms this is a convex (diverging) mirror."
+  },
+  {
+    "question": "A convex mirror has a focal length of magnitude 20 cm. An object is placed 10 cm in front of it. What is the magnification?",
+    "options": [
+      "2.0 (enlarged)",
+      "0.67 (diminished)",
+      "0.50 (diminished)",
+      "1.5 (enlarged)"
+    ],
+    "correct": 1,
+    "explanation": "For convex mirror f = −20 cm. 1/v = 1/(−20) − 1/10 = −1/20 − 2/20 = −3/20 → v = −6.67 cm. m = −v/u = 6.67/10 ≈ 0.67. Less than 1, confirming the image is diminished."
+  },
+  {
+    "question": "A convex mirror forms an image one-quarter the size of the object. If the object is 0.5 m from the mirror, what is the magnitude of the focal length?",
+    "options": [
+      "0.10 m",
+      "0.17 m",
+      "0.25 m",
+      "0.50 m"
+    ],
+    "correct": 1,
+    "explanation": "m = −v/u = 1/4 → v = −u/4 = −0.125 m. 1/f = 1/u + 1/v = 1/0.5 + 1/(−0.125) = 2 − 8 = −6 → f = −1/6 m ≈ −0.167 m. |f| ≈ 0.17 m."
+  },
+  {
+    "question": "A concave mirror of focal length f forms an image of the same size as the object. Where is the object placed?",
+    "options": [
+      "At f",
+      "At 2f",
+      "At f/2",
+      "Between f and 2f"
+    ],
+    "correct": 1,
+    "explanation": "Same-size image means m = 1 → v = u. Mirror equation: 1/f = 1/u + 1/u = 2/u → u = 2f. The object must be at the centre of curvature (R = 2f), producing a real, inverted, same-size image also at 2f."
+  },
+  {
+    "question": "A mirror of focal length −18 cm (convex) produces a virtual image with magnification 1/3. What is the object distance?",
+    "options": [
+      "18 cm",
+      "27 cm",
+      "36 cm",
+      "54 cm"
+    ],
+    "correct": 2,
+    "explanation": "m = −v/u = 1/3 → v = −u/3. 1/(−18) = 1/u + 1/(−u/3) = 1/u − 3/u = −2/u → −2/u = −1/18 → u = 36 cm."
+  },
+  {
+    "question": "An object 4 cm tall is placed at the focal point of a convex mirror of focal length f. What is the image size?",
+    "options": [
+      "2 cm",
+      "4 cm",
+      "8 cm",
+      "0 cm"
+    ],
+    "correct": 0,
+    "explanation": "Convex mirror: f = −f (negative). Object at u = f (positive). 1/v = 1/(−f) − 1/f = −2/f → v = −f/2. m = −v/u = (f/2)/f = 0.5. Image size = 0.5 × 4 = 2 cm. The image is virtual, erect, and half the object size."
+  },
+  {
+    "question": "The refractive index of diamond is 2.0. What is the speed of light through it?",
+    "options": [
+      "3.0 × 10⁸ m/s",
+      "1.5 × 10⁸ m/s",
+      "6.0 × 10⁸ m/s",
+      "2.0 × 10⁸ m/s"
+    ],
+    "correct": 1,
+    "explanation": "v = c/n = (3 × 10⁸ m/s) / 2.0 = 1.5 × 10⁸ m/s. The refractive index equals c/v, so a higher n means slower light within the material."
+  },
+  {
+    "question": "The critical angle for a transparent medium is 45°. What is its refractive index?",
+    "options": [
+      "1/√2",
+      "√3/2",
+      "√2",
+      "2/√3"
+    ],
+    "correct": 2,
+    "explanation": "At critical angle: n·sin θ_c = 1·sin 90° → n = 1/sin 45° = 1/(1/√2) = √2 ≈ 1.414. A higher refractive index means a smaller critical angle and greater tendency for total internal reflection."
+  },
+  {
+    "question": "Total internal reflection is possible when light travels from:",
+    "options": [
+      "Air into water",
+      "Air into glass",
+      "Water into glass (n_glass = 1.5, n_water = 1.33)",
+      "Glass into water"
+    ],
+    "correct": 3,
+    "explanation": "Total internal reflection requires the light to move from a higher-n medium to a lower-n medium. Glass (n≈1.5) is denser than water (n≈1.33), so glass→water satisfies this. Air→water or air→glass are the wrong direction. Water→glass also goes from less to more dense — no TIR."
+  },
+  {
+    "question": "Light has wavelength 500 nm in air and 400 nm in a material. What is the refractive index of the material?",
+    "options": [
+      "0.80",
+      "0.65",
+      "1.50",
+      "1.25"
+    ],
+    "correct": 3,
+    "explanation": "n = λ_air/λ_material = 500/400 = 1.25. The refractive index equals the ratio of wavelengths (since frequency is constant). The shorter wavelength in the medium indicates slower wave speed."
+  },
+  {
+    "question": "Light refracts when traveling from air into glass because it:",
+    "options": [
+      "Has greater frequency in glass than in air",
+      "Has greater frequency in air than in glass",
+      "Travels at the same speed in both media",
+      "Travels slower in glass than in air"
+    ],
+    "correct": 3,
+    "explanation": "Refraction occurs because the wave speed changes at the boundary. Glass is optically denser, so c_glass < c_air. Frequency never changes across media; only speed (and hence wavelength) changes. The change in speed causes the direction change."
+  },
+  {
+    "question": "An object 15 cm tall is placed 10 cm in front of a converging lens. A real image forms 25 cm from the lens on the opposite side. What is the image height?",
+    "options": [
+      "6 cm",
+      "15 cm",
+      "25 cm",
+      "37.5 cm"
+    ],
+    "correct": 3,
+    "explanation": "m = −v/u = −25/10 = −2.5. Image height = m × object height = −2.5 × 15 = −37.5 cm. The negative sign confirms the image is inverted (real image). |hi| = 37.5 cm."
+  },
+  {
+    "question": "As an object moves toward the focal point of a convex (converging) lens from beyond 2f, the image:",
+    "options": [
+      "Gets smaller and moves closer to the lens",
+      "Stays the same size but moves farther away",
+      "Gets larger and moves farther from the lens",
+      "Becomes virtual and moves to the same side as the object"
+    ],
+    "correct": 2,
+    "explanation": "From 1/v = 1/f − 1/u: as u decreases toward f, v increases → image moves farther from lens. m = −v/u: as v grows and u shrinks, |m| increases → image grows larger. At u = f, the image is at infinity. The image remains real and inverted throughout."
+  },
+  {
+    "question": "A real object is placed beyond 2f in front of a converging lens. As the object is slowly moved toward f (without reaching it), which statement correctly describes the image?",
+    "options": [
+      "The image moves closer to the lens and becomes smaller",
+      "The image stays at 2f and remains the same size",
+      "The image moves farther from the lens and becomes larger, remaining real and inverted",
+      "The image flips from real to virtual as soon as the object passes 2f"
+    ],
+    "correct": 2,
+    "explanation": "From 1/v = 1/f − 1/u: as u decreases from beyond 2f toward f, the term 1/u increases, so 1/v decreases → v increases (image moves farther). m = −v/u: as v grows and u shrinks, |m| grows (image enlarges). Since v remains positive throughout, the image is real and inverted. The image only becomes virtual when the object crosses inside f."
+  },
+  {
+    "question": "A diverging (concave) lens always forms an image that is:",
+    "options": [
+      "Real and inverted",
+      "Real and erect",
+      "Virtual and erect",
+      "Virtual and inverted"
+    ],
+    "correct": 2,
+    "explanation": "A concave lens is diverging — it cannot converge rays to form a real image for real objects. The image is always virtual (on the same side as the object), erect, and diminished. This makes it useful for correcting myopia."
+  },
+  {
+    "question": "An object is placed 24 cm in front of a concave lens of focal length 12 cm. Where does the image form?",
+    "options": [
+      "−6 cm (virtual, same side as object)",
+      "+6 cm (real, opposite side)",
+      "−8 cm (virtual, same side as object)",
+      "+8 cm (real, opposite side)"
+    ],
+    "correct": 2,
+    "explanation": "1/v = 1/f − 1/u = 1/(−12) − 1/24 = −2/24 − 1/24 = −3/24 = −1/8 → v = −8 cm. Negative sign confirms the image is virtual and on the same side as the object, 8 cm from the lens."
+  },
+  {
+    "question": "An object is placed 40 cm in front of a converging lens of focal length 30 cm. Where does the image form?",
+    "options": [
+      "24 cm in front (virtual)",
+      "120 cm behind (real)",
+      "60 cm behind (real)",
+      "40 cm behind (real)"
+    ],
+    "correct": 1,
+    "explanation": "1/v = 1/f − 1/u = 1/30 − 1/40 = 4/120 − 3/120 = 1/120 → v = 120 cm. Positive value confirms the image is real, on the opposite side of the lens from the object."
+  },
+  {
+    "question": "A convex lens produces a virtual, upright image four times the object size. The image is 15 cm from the lens. What is the focal length?",
+    "options": [
+      "3.75 cm",
+      "5 cm",
+      "7.5 cm",
+      "20 cm"
+    ],
+    "correct": 1,
+    "explanation": "Virtual image means v = −15 cm (for convex lens, object inside focal length). m = −v/u = 4 → 15/u = 4 → u = 3.75 cm. 1/f = 1/u + 1/v = 1/3.75 + 1/(−15) = 4/15 − 1/15 = 3/15 → f = 5 cm."
+  },
+  {
+    "question": "A body placed in front of a concave lens of magnification 0.2 forms an image 5 cm from the lens. What is the object distance?",
+    "options": [
+      "5 cm",
+      "10 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "correct": 3,
+    "explanation": "For a concave lens, the image is virtual (v = −5 cm) and the magnification |m| = |v|/u = 0.2 → u = |v|/0.2 = 5/0.2 = 25 cm. Verification: 1/f = 1/(−5) − 1/25 → this gives the focal length of the concave lens."
+  },
+  {
+    "question": "A concave lens of focal length 15 cm forms a virtual image 10 cm from the lens. What is the object distance?",
+    "options": [
+      "6 cm",
+      "15 cm",
+      "30 cm",
+      "60 cm"
+    ],
+    "correct": 2,
+    "explanation": "Concave lens: f = −15 cm, virtual image so v = −10 cm. 1/u = 1/v − 1/f = 1/(−10) − 1/(−15) = −1/10 + 1/15 = −3/30 + 2/30 = −1/30 → u = 30 cm."
+  },
+  {
+    "question": "An object 5 cm tall is placed 25 cm from a converging lens of focal length 10 cm. What is the image size and nature?",
+    "options": [
+      "3.33 cm, real and inverted",
+      "3.33 cm, virtual and erect",
+      "7.5 cm, real and inverted",
+      "7.5 cm, virtual and erect"
+    ],
+    "correct": 0,
+    "explanation": "1/v = 1/10 − 1/25 = 5/50 − 2/50 = 3/50 → v = 50/3 ≈ 16.67 cm. m = −v/u = −(50/3)/25 = −2/3. Image height = m × ho = −2/3 × 5 ≈ −3.33 cm. The negative sign confirms the image is real and inverted. |hi| = 3.33 cm."
+  },
+  {
+    "question": "A person can see distant objects clearly but struggles to read books held at 25 cm. What eye defect does this describe, and what corrective lens is needed?",
+    "options": [
+      "Myopia; corrected by a concave lens",
+      "Hypermetropia; corrected by a convex lens",
+      "Astigmatism; corrected by a cylindrical lens",
+      "Presbyopia; no correction possible"
+    ],
+    "correct": 1,
+    "explanation": "The ability to see distant objects but not near ones describes hypermetropia (far-sightedness). The eye's focal length is too long, so near images form behind the retina. A convex (converging) lens pre-converges the light, bringing the image onto the retina."
+  },
+  {
+    "question": "A student sitting at the back of the class cannot read the blackboard clearly. Which corrective lens does this student need?",
+    "options": [
+      "Convex lens, to converge distant light",
+      "Concave lens, to diverge distant light",
+      "Bifocal lens, to correct both near and far vision",
+      "Plane glass, since no refraction is needed"
+    ],
+    "correct": 1,
+    "explanation": "Difficulty seeing distant objects indicates myopia (short-sightedness). The eye forms the image in front of the retina. A concave (diverging) lens diverges the rays before they enter the eye, effectively moving the image back to the retina."
+  },
+  {
+    "question": "Which colour combination produces MAGENTA when mixing lights?",
+    "options": [
+      "Red + Green",
+      "Green + Blue",
+      "Red + Blue",
+      "Red + Green + Blue"
+    ],
+    "correct": 2,
+    "explanation": "Additive colour mixing: Red + Blue = Magenta; Red + Green = Yellow; Green + Blue = Cyan; Red + Green + Blue = White. Magenta is a secondary additive colour formed by combining the two primary colours that exclude green."
+  },
+  {
+    "question": "A book cover appears magenta under white light. Which wavelengths of light does it ABSORB?",
+    "options": [
+      "Red and Blue",
+      "Red only",
+      "Blue only",
+      "Green only"
+    ],
+    "correct": 3,
+    "explanation": "Objects appear the colour of light they REFLECT. Magenta = Red + Blue reflected → Green is absorbed. Subtractive colour: Magenta pigment absorbs green and reflects red and blue. Cyan absorbs red, Yellow absorbs blue."
+  },
+  {
+    "question": "Which of the following is NOT an electromagnetic wave?",
+    "options": [
+      "Sound wave",
+      "Radio wave",
+      "X-ray",
+      "Infrared radiation"
+    ],
+    "correct": 0,
+    "explanation": "Sound waves are longitudinal mechanical waves — they require a medium (air, water, solid) and involve oscillations of matter, not electric and magnetic fields. All others (radio, X-ray, infrared) are electromagnetic and can travel through vacuum."
+  },
+  {
+    "question": "Refraction of a light wave is fundamentally caused by a change in:",
+    "options": [
+      "Frequency as it crosses the boundary",
+      "Amplitude due to partial absorption",
+      "Speed as it enters a medium of different optical density",
+      "Wavelength due to energy loss at the boundary"
+    ],
+    "correct": 2,
+    "explanation": "Refraction is caused by the change in wave speed at the interface between media of different optical density. Frequency is invariant across media. Wavelength does change (λ = v/f), but this is a consequence of the speed change, not the cause of refraction."
+  },
+  {
+    "question": "An object 5 cm tall is placed 20 cm in front of a convex mirror of radius of curvature 30 cm. What is the image height?",
+    "options": [
+      "1.5 cm",
+      "2.14 cm",
+      "3.33 cm",
+      "5.00 cm"
+    ],
+    "correct": 1,
+    "explanation": "f = −R/2 = −15 cm (convex). 1/v = 1/(−15) − 1/20 = −4/60 − 3/60 = −7/60 → v = −60/7 ≈ −8.57 cm. m = −v/u = (60/7)/20 = 3/7 ≈ 0.429. hi = 0.429 × 5 ≈ 2.14 cm."
+  },
+  {
+    "question": "A 7 cm object is placed 27 cm in front of a concave mirror of focal length 18 cm. What is the image distance and magnification?",
+    "options": [
+      "v = +54 cm, m = −2 (real, inverted, enlarged)",
+      "v = −54 cm, m = −2 (virtual, inverted, enlarged)",
+      "v = +27 cm, m = −1 (real, inverted, same size)",
+      "v = −27 cm, m = +1 (virtual, erect, same size)"
+    ],
+    "correct": 0,
+    "explanation": "1/f = 1/u + 1/v → 1/v = 1/18 − 1/27 = 3/54 − 2/54 = 1/54 → v = +54 cm. Positive v means the image is real and in front of the mirror. m = −v/u = −54/27 = −2. The negative magnification confirms the image is inverted. Since |m| = 2, the image is enlarged. Object at u = 27 cm is between f (18 cm) and 2f (36 cm), so a real, inverted, enlarged image beyond 2f is expected."
+  },
+  {
+    "question": "A convex mirror always forms an image that is:",
+    "options": [
+      "Real and inverted",
+      "Real and erect",
+      "Virtual and erect",
+      "Virtual and inverted"
+    ],
+    "correct": 2,
+    "explanation": "A convex (diverging) mirror has its focal point behind it. Reflected rays always diverge, so they can never converge to form a real image. The image is always virtual (behind the mirror), erect, and diminished — regardless of where the object is placed. This is why convex mirrors are used as rear-view mirrors."
+  },
+  {
+    "question": "The colour of an object under white light is determined by the light that is:",
+    "options": [
+      "Transmitted through it",
+      "Reflected from it",
+      "Refracted at its surface",
+      "Diffracted around it"
+    ],
+    "correct": 1,
+    "explanation": "We see objects because they reflect light into our eyes. An object appears red because it reflects red wavelengths and absorbs all others. A black object absorbs all colours and reflects none. A white object reflects all wavelengths equally."
+  },
+  {
+    "question": "Which part of the electromagnetic spectrum is used in TV remote controls?",
+    "options": [
+      "Infrared radiation",
+      "Ultraviolet light",
+      "Microwave radiation",
+      "X-rays"
+    ],
+    "correct": 0,
+    "explanation": "TV remote controls use infrared (IR) radiation. IR has a wavelength just beyond the red end of visible light (~700 nm–1 mm). It is safe, cheap to produce with LEDs, and carries enough range for domestic use."
+  },
+  {
+    "question": "A girl stands 3 m in front of a plane mirror. Her image appears to be:",
+    "options": [
+      "1.5 m behind the mirror",
+      "3 m behind the mirror",
+      "3 m in front of the mirror",
+      "6 m behind the mirror"
+    ],
+    "correct": 1,
+    "explanation": "A plane mirror forms an image as far behind the mirror as the object is in front. The girl is 3 m in front, so her image is 3 m behind the mirror — virtual, erect, and the same size."
+  },
+  {
+    "question": "Which type of mirror is used as a rear-view mirror in vehicles, and why?",
+    "options": [
+      "Concave; it produces an enlarged image for better visibility",
+      "Plane; it produces a true-size image with no distortion",
+      "Convex; it provides a wider field of view in a smaller mirror",
+      "Concave; it produces a real image that can be projected"
+    ],
+    "correct": 2,
+    "explanation": "Convex mirrors always produce a virtual, erect, diminished image — but the key advantage is the wide field of view. The diverging shape allows the driver to see a much larger area behind the vehicle compared to a flat mirror of the same size."
+  },
+  {
+    "question": "A myopic person can see clearly only up to 80 cm. What type and power of corrective lens is required?",
+    "options": [
+      "Convex lens, +1.25 D",
+      "Concave lens, −1.25 D",
+      "Convex lens, +0.80 D",
+      "Concave lens, −0.80 D"
+    ],
+    "correct": 1,
+    "explanation": "Myopia is corrected by a concave (diverging) lens. The lens must form a virtual image of a distant object (u → ∞) at the person's far point (80 cm = 0.80 m). P = 1/f = 1/v − 1/u = 1/(−0.80) − 0 = −1.25 D."
+  },
+  {
+    "question": "A red shirt is viewed under pure green light in a dark room. What colour does it appear?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Black",
+      "Green"
+    ],
+    "correct": 2,
+    "explanation": "A red shirt reflects only red light and absorbs all other colours. Under pure green light there is no red light to reflect, so the shirt absorbs all the green light. It reflects nothing and appears black."
+  },
+  {
+    "question": "A compound microscope differs from a simple microscope (magnifying glass) primarily because it:",
+    "options": [
+      "Uses mirrors instead of lenses to form the image",
+      "Can only view opaque objects, not transparent slides",
+      "Uses two converging lenses to achieve much higher magnification",
+      "Forms a real, upright image directly viewable by the eye"
+    ],
+    "correct": 2,
+    "explanation": "A compound microscope uses an objective lens (short focal length) to form a real, magnified intermediate image, which is then re-magnified by the eyepiece lens. This two-stage magnification achieves far greater total magnification than a single lens (simple microscope/magnifying glass) can."
+  },
+  {
+    "question": "A person enters a very dark room from bright sunlight and initially cannot see well. Which cells on the retina are responsible for vision in low light, and why does adjustment take time?",
+    "options": [
+      "Cone cells; they need time to increase pigment sensitivity to colour",
+      "Rod cells; they need time to regenerate light-sensitive pigment (rhodopsin) after bleaching in bright light",
+      "Cone cells; they must switch from colour vision to monochrome mode",
+      "Rod cells; they need time to physically move toward the centre of the retina"
+    ],
+    "correct": 1,
+    "explanation": "Rod cells handle low-light (scotopic) vision using a pigment called rhodopsin, which is bleached (broken down) in bright light. Dark adaptation takes 20–30 minutes as rhodopsin is regenerated. Cone cells require much brighter light and are responsible for colour vision."
+  },
+  {
+    "question": "Light travels from medium A (n = 1.6) into medium B (n = 1.2). What is the critical angle, and what happens at an incidence angle of 50°?",
+    "options": [
+      "θ_c ≈ 41°; at 50° total internal reflection occurs",
+      "θ_c ≈ 49°; at 50° total internal reflection occurs",
+      "θ_c ≈ 49°; at 50° refraction into B still occurs",
+      "θ_c ≈ 41°; at 50° the light is fully absorbed"
+    ],
+    "correct": 1,
+    "explanation": "sin θ_c = n_B/n_A = 1.2/1.6 = 0.75 → θ_c = sin⁻¹(0.75) ≈ 48.6° ≈ 49°. Since the incidence angle (50°) exceeds the critical angle (49°), total internal reflection occurs — all light reflects back into medium A with no refraction into B."
+  },
+  {
+    "question": "White light enters a glass prism. Violet light deviates more than red light. The best explanation is:",
+    "options": [
+      "Violet photons have less energy so they slow down more in glass",
+      "Red light travels faster in glass than violet, so red has a larger refractive index",
+      "Red light has a shorter wavelength and is therefore refracted more",
+      "Violet light has a higher frequency, so it has a larger refractive index in glass and bends more"
+    ],
+    "correct": 3,
+    "explanation": "Refractive index varies with frequency (dispersion). Higher frequency (violet) → larger n → greater bending. Red light has lower frequency, smaller n, and deviates less. This separates white light into its spectrum. Red has the longest wavelength, not shortest."
+  },
+  {
+    "question": "A converging lens of focal length 20 cm and a diverging lens of focal length 30 cm are placed in contact. What is the power of the combination?",
+    "options": [
+      "+1.67 D",
+      "−1.67 D",
+      "+1.17 D",
+      "+8.33 D"
+    ],
+    "correct": 0,
+    "explanation": "Power of a lens: P = 1/f (in metres). P₁ = 1/0.20 = +5 D; P₂ = 1/(−0.30) = −3.33 D. Combined power P = P₁ + P₂ = 5 − 3.33 = +1.67 D. Positive result means the combination is converging overall."
+  },
+  {
+    "question": "What colour is produced when red, green, and blue lights are mixed together in equal proportions?",
+    "options": [
+      "Yellow",
+      "Cyan",
+      "Magenta",
+      "White"
+    ],
+    "correct": 3,
+    "explanation": "The three primary additive colours are red, green, and blue (RGB). When all three are combined equally they produce white light. This is the principle behind colour television and computer monitors, where pixels emit RGB light to create any visible colour."
+  },
+  {
+    "question": "A refracting telescope and a reflecting telescope both magnify distant objects. What is the key structural difference?",
+    "options": [
+      "A refracting telescope uses a concave mirror as its objective; a reflecting telescope uses a convex lens",
+      "A reflecting telescope always produces an inverted image; a refracting telescope always produces an upright image",
+      "A refracting telescope can only observe stars; a reflecting telescope is used for terrestrial objects",
+      "A refracting telescope uses lenses to collect and focus light; a reflecting telescope uses a concave mirror as the objective"
+    ],
+    "correct": 3,
+    "explanation": "The objective of a refracting telescope is a large convex (converging) lens that collects and focuses incoming light. A reflecting telescope replaces this with a large concave mirror. Mirrors are easier to make large, do not suffer chromatic aberration, and are lighter — which is why large astronomical telescopes (like Hubble) are reflectors."
+  },
+  {
+    "question": "Which of the following is a beneficial medical use of X-rays?",
+    "options": [
+      "Treating sunburn by exposing skin to controlled doses",
+      "Diagnosing bone fractures and internal injuries without surgery",
+      "Heating food evenly through molecular vibration",
+      "Sterilising water supplies in remote areas"
+    ],
+    "correct": 1,
+    "explanation": "X-rays penetrate soft tissue but are absorbed by denser materials like bone, making them invaluable for imaging fractures and internal structures. However, overexposure is harmful — X-rays are ionising radiation and can damage DNA, potentially causing cancer."
+  },
+  {
+    "question": "Why should we protect ourselves from prolonged exposure to ultraviolet (UV) radiation from the sun?",
+    "options": [
+      "UV radiation is cold and causes hypothermia in the skin",
+      "UV radiation is a longitudinal wave and vibrates skin cells destructively",
+      "UV radiation is ionising and can cause sunburn and increase the risk of skin cancer",
+      "UV radiation travels faster than visible light and causes thermal shock"
+    ],
+    "correct": 2,
+    "explanation": "UV radiation has enough energy to ionise molecules in skin cells and damage DNA. Short-term overexposure causes sunburn; repeated long-term exposure raises the risk of skin cancer. It also promotes vitamin D synthesis in small doses, but protection (sunscreen, clothing) is needed for prolonged exposure."
+  },
+  {
+    "question": "Microwave ovens cook food by using electromagnetic radiation at a frequency that:",
+    "options": [
+      "Ionises food molecules, breaking chemical bonds to release heat",
+      "Is absorbed by water molecules in food, causing them to vibrate and generate heat",
+      "Reflects off food surfaces, heating the air inside the oven",
+      "Passes through food without absorption, heating the container instead"
+    ],
+    "correct": 1,
+    "explanation": "Microwaves used in ovens (~2.45 GHz) are tuned to be absorbed by water molecules in food. The absorbed energy causes rapid molecular vibration, which generates heat throughout the food — not just at the surface. Microwaves are non-ionising, so they heat rather than chemically alter food."
+  },
+  {
+    "question": "Gamma rays are produced by:",
+    "options": [
+      "Electrons accelerating in a magnetic field",
+      "Radioactive decay of unstable atomic nuclei",
+      "Very hot objects radiating excess thermal energy",
+      "Reflection of X-rays from metal surfaces"
+    ],
+    "correct": 1,
+    "explanation": "Gamma rays are emitted during radioactive decay when an unstable nucleus releases excess energy. They have the highest frequency and shortest wavelength in the EM spectrum, carry the most energy per photon, and are highly penetrating. X-rays are produced by decelerating electrons, not nuclear decay."
+  },
+  {
+    "question": "An object is placed between the focal point and the pole of a concave mirror. The image formed is:",
+    "options": [
+      "Real, inverted, and diminished",
+      "Real, inverted, and enlarged",
+      "Virtual, erect, and diminished",
+      "Virtual, erect, and enlarged"
+    ],
+    "correct": 3,
+    "explanation": "When an object is inside the focal length of a concave mirror (between F and the pole), the reflected rays diverge and appear to come from a point behind the mirror. The image is virtual (behind the mirror), erect (same orientation as object), and enlarged. This is how a concave mirror is used as a shaving or makeup mirror."
+  },
+  {
+    "question": "A convex lens is used as a magnifying glass. For this to work, the object must be placed:",
+    "options": [
+      "Beyond 2f, to produce an enlarged real image",
+      "At 2f, to produce a same-size real image",
+      "At f, to produce an image at infinity",
+      "Between f and the lens, to produce an enlarged virtual image"
+    ],
+    "correct": 3,
+    "explanation": "A magnifying glass works by placing the object inside the focal length (between F and the lens). The diverging refracted rays appear to come from a virtual image that is enlarged and erect — on the same side as the object. The eye then views this virtual image comfortably."
+  },
+  {
+    "question": "For a concave mirror, the mirror equation gives m = −v/u. If an object is 15 cm in front of the mirror and the image forms 45 cm in front, what does the sign of m tell you about the image?",
+    "options": [
+      "m = −3; the image is real and inverted",
+      "m = +3; the image is virtual and erect",
+      "m = −3; the image is virtual and erect",
+      "m = +3; the image is real and inverted"
+    ],
+    "correct": 0,
+    "explanation": "Mirror sign convention: object in front of mirror → u = +15 cm; real image in front of mirror → v = +45 cm. m = −v/u = −45/15 = −3. Negative m → image is inverted (real). |m| = 3 → image is 3× enlarged. Real images formed by concave mirrors always have m < 0."
+  },
+  {
+    "question": "An object 8 cm from a converging lens forms a real image 24 cm away on the opposite side. Using m = −v/u, what is the magnification and what does its sign tell you?",
+    "options": [
+      "m = −3; the image is real and inverted",
+      "m = +3; the image is virtual and erect",
+      "m = −3; the image is virtual and inverted",
+      "m = +3; the image is real and erect"
+    ],
+    "correct": 0,
+    "explanation": "m = −v/u = −24/8 = −3. The negative sign means the image is inverted (flipped relative to the object). For a converging lens with a real object beyond f, real images are always inverted (m < 0). |m| = 3 means the image is 3× larger than the object."
+  }
+]
