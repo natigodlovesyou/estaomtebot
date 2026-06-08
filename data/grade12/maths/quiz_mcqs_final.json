@@ -1,0 +1,827 @@
+[
+  {
+    "question": "A line l is given by (x, y) = (2, 0) + t(−1, 1). Which statement about l and the circle x² + y² = 2 is TRUE?",
+    "options": [
+      "l is tangent to the circle at (1/2, √7/2)",
+      "l intersects the circle at two distinct points",
+      "l and the circle share no common point",
+      "The distance from the center to l equals the radius"
+    ],
+    "correct": 3,
+    "explanation": "Line: x=2−t, y=t → x+y=2. Distance from origin to x+y−2=0 is |0+0−2|/√2 = √2. Radius = √2. Distance = radius → tangent. Tangent point is (1,1), not (1/2, √7/2). Option D is correct."
+  },
+  {
+    "question": "Line l: 2x − y = 10 is reflected in the line y = 2x − 5, then the image is rotated 90° counterclockwise about the origin. What is the final equation?",
+    "options": [
+      "x − 2y = 0",
+      "x + 2y = 0",
+      "2x + y = 0",
+      "x + 2y = 5"
+    ],
+    "correct": 1,
+    "explanation": "Step 1: Reflect 2x−y=10 in 2x−y=5. Lines are parallel; c=10 reflects to c=0 (equidistant about c=5). Image: 2x−y=0. Step 2: Rotate 90° CCW: (x,y)→(−y,x). Points y=2x map to (−2t,t): setting x′=−2t, y′=t gives x′=−2y′ → x+2y=0."
+  },
+  {
+    "question": "Which vector equation represents the tangent to x² + y² + 2x − 7 = 0 at the point (1, 2)?",
+    "options": [
+      "(x, y) = (1, 2) + λ(2, −1)",
+      "(x, y) = (0, 3) + λ(1, −1)",
+      "(x, y) = (1, 2) + λ(−1, 2)",
+      "(x, y) = (0, 3) + λ(−1, 2)"
+    ],
+    "correct": 1,
+    "explanation": "Rewrite: (x+1)²+y²=8, center (−1,0). Radius to (1,2) has slope (2−0)/(1+1)=1. Tangent slope=−1, direction (1,−1). Tangent line: y=−x+3. Through (0,3): (x,y)=(0,3)+λ(1,−1). Verify: x=λ, y=3−λ → y=−x+3 ✓."
+  },
+  {
+    "question": "The ellipse 3x² + (y+1)² = 1 is translated so that (0,1) maps to (2,2), then reflected through the y-axis. What is the resulting equation?",
+    "options": [
+      "(x+2)² + 3(y−2)² = 1",
+      "3(x−2)² + y² = 1",
+      "(x+2)² + 3y² = 1",
+      "3(x+2)² + y² = 1"
+    ],
+    "correct": 3,
+    "explanation": "Translation vector: (2,2)−(0,1)=(2,1). Replace x→x−2, y→y−1: 3(x−2)²+(y−1+1)²=1 → 3(x−2)²+y²=1. Reflect through y-axis (x→−x): 3(−x−2)²+y²=1 → 3(x+2)²+y²=1."
+  },
+  {
+    "question": "The line y = x + 1 is rotated 90° counterclockwise about the origin. What is the image?",
+    "options": [
+      "y = −x",
+      "y = −x + 1",
+      "y = x − 1",
+      "y = −x − 1"
+    ],
+    "correct": 3,
+    "explanation": "Under 90° CCW rotation, (x,y)→(−y,x). A point (t, t+1) maps to (−(t+1), t). Let x′=−t−1, y′=t: then t=y′ and x′=−y′−1, so y=−x−1."
+  },
+  {
+    "question": "A translation T maps every point (x, y) to (x+3, y−2). What is the image of the line 3x − 4y + 10 = 0 under T?",
+    "options": [
+      "3x − 4y + 27 = 0",
+      "3x − 4y − 7 = 0",
+      "3x − 4y + 9 = 0",
+      "3x − 4y + 7 = 0"
+    ],
+    "correct": 1,
+    "explanation": "A point (x′,y′) on the image corresponds to (x′−3, y′+2) on the original line. Substituting: 3(x′−3)−4(y′+2)+10=0 → 3x′−9−4y′−8+10=0 → 3x′−4y′−7=0."
+  },
+  {
+    "question": "A line passes through (1, 0) and the center of the circle (x−2)² + (y+1)² = 4. Which is the parametric equation of the line?",
+    "options": [
+      "(x, y) = (1, 0) + t(2, −1)",
+      "(x, y) = (1, 0) + t(−2, 1)",
+      "(x, y) = (2, −1) + t(1, 0)",
+      "(x, y) = (1, 0) + t(1, −1)"
+    ],
+    "correct": 3,
+    "explanation": "Center: (2,−1). Direction from (1,0) to (2,−1): (1,−1). Parametric: (x,y)=(1,0)+t(1,−1). Check: t=0→(1,0) ✓; t=1→(2,−1) ✓."
+  },
+  {
+    "question": "Under reflection across the line y = x, what is the image of (−1, 3)?",
+    "options": [
+      "(−1, −3)",
+      "(3, −1)",
+      "(1, 3)",
+      "(−3, 1)"
+    ],
+    "correct": 1,
+    "explanation": "Reflection across y=x swaps coordinates: (x,y)→(y,x). So (−1,3)→(3,−1)."
+  },
+  {
+    "question": "The ellipse 2(x+2)² + (y−1)² = 2 is translated so that (2,1) maps to (4,0), then rotated 90° counterclockwise about the origin. What is the resulting equation?",
+    "options": [
+      "(x−4)² + 2y² = 2",
+      "x² + 2y² = 2",
+      "2x² + y² = 2",
+      "2(x−4)² + y² = 2"
+    ],
+    "correct": 1,
+    "explanation": "Translation vector: (2,−1). Replace x→x−2, y→y+1: 2(x−2+2)²+(y+1−1)²=2 → 2x²+y²=2. Rotate 90° CCW: substitute x=−y′, y=x′: 2y′²+x′²=2 → x²+2y²=2."
+  },
+  {
+    "question": "Lines y = x and y = x − 4 are tangent to a circle at (2, 2) and (4, 0) respectively. What is the equation of the circle?",
+    "options": [
+      "(x−4)² + (y−2)² = 4",
+      "(x−3)² + (y−1)² = 2",
+      "(x−1)² + (y+1)² = 10",
+      "(x−2)² + y² = 4"
+    ],
+    "correct": 1,
+    "explanation": "Both tangents have slope 1, so radii have slope −1. Perpendicular at (2,2): y=−x+4. Perpendicular at (4,0): y=−x+4 (same line). Center also equidistant from y=x and y=x−4 → on y=x−2. Solving: center=(3,1). Radius=√((3−2)²+(1−2)²)=√2. Equation: (x−3)²+(y−1)²=2."
+  },
+  {
+    "question": "A line passes through (−1, 2) and is parallel to the vector (1, −1). What is its Cartesian equation?",
+    "options": [
+      "2x − y = 1",
+      "x + y − 1 = 0",
+      "x − 2y = 3",
+      "y − 2x + 1 = 0"
+    ],
+    "correct": 1,
+    "explanation": "Direction (1,−1) gives slope −1. Through (−1,2): y−2=−(x+1) → x+y=1 → x+y−1=0. Verify: −1+2=1 ✓."
+  },
+  {
+    "question": "Line l passes through (0, 2) parallel to V = î + 3ĵ. Which statement about l and the circle (x−2)² + (y−1)² = 5 is TRUE?",
+    "options": [
+      "l is tangent to the circle at some other point",
+      "l intersects the circle at two distinct points",
+      "The distance from the center to l is greater than √5",
+      "l is tangent to the circle at (0, 2)"
+    ],
+    "correct": 1,
+    "explanation": "Line l: (x,y)=(0,2)+t(1,3) → 3x−y+2=0. Distance from center (2,1): |6−1+2|/√10=7/√10. Comparing: (7/√10)²=4.9 < 5=r². Since distance < radius, l intersects at two distinct points."
+  },
+  {
+    "question": "Translation T maps the circle x²+y²−2x+6y+3=0 to (x+2)²+(y−7)²=7. What is the image of point (1,−3) under T?",
+    "options": [
+      "(−2, 4)",
+      "(−2, 7)",
+      "(4, 4)",
+      "(−1, 4)"
+    ],
+    "correct": 1,
+    "explanation": "Original circle: (x−1)²+(y+3)²=7, center (1,−3). Image center: (−2,7). Translation vector: (−3,10). Apply to (1,−3): (1−3, −3+10)=(−2,7)."
+  },
+  {
+    "question": "Point P(4, 6) reflects to P′(−2, 2). What is the equation of the line of reflection?",
+    "options": [
+      "3x + 2y − 11 = 0",
+      "x + y − 5 = 0",
+      "2x − 3y + 6 = 0",
+      "x − y + 1 = 0"
+    ],
+    "correct": 0,
+    "explanation": "Midpoint M=(1,4). Slope of PP′=(2−6)/(−2−4)=2/3. Perpendicular bisector slope=−3/2. Line through (1,4): 2(y−4)=−3(x−1) → 3x+2y=11. Verify M: 3(1)+2(4)=11 ✓. Slopes: (2/3)×(−3/2)=−1 ✓."
+  },
+  {
+    "question": "The line (x,y)=(−1,0)+t(3,6) is translated so that (1,0) maps to (0,1), then reflected about y=2x. What is the final equation?",
+    "options": [
+      "y = 2x + 3",
+      "y = 2x − 3",
+      "y = 2x + 6",
+      "y = 2x − 5"
+    ],
+    "correct": 3,
+    "explanation": "Original line: slope=6/3=2, through (−1,0): y=2x+2. Translation vector (−1,1): substitute x→x+1, y→y−1 → y=2x+5. Reflect y=2x+5 about y=2x: both have slope 2 (parallel), so c=5 reflects to c=−5. Final: y=2x−5."
+  },
+  {
+    "question": "The ellipse (x−1)² + 4y² = 1 is translated so that (1,1) maps to (0,2), then reflected through the x-axis. What is the image?",
+    "options": [
+      "4x² + (y−1)² = 1",
+      "x² + 4(y+1)² = 1",
+      "4x² + (y+1)² = 1",
+      "x² + 4(y−1)² = 1"
+    ],
+    "correct": 1,
+    "explanation": "Translation vector: (−1,1). Replace x→x+1, y→y−1: (x+1−1)²+4(y−1)²=1 → x²+4(y−1)²=1. Reflect through x-axis (y→−y): x²+4(−y−1)²=1 → x²+4(y+1)²=1."
+  },
+  {
+    "question": "What is the image of vertices A(1,2), B(3,6), C(−1,2), D(−2,−2) after reflection across the x-axis?",
+    "options": [
+      "A′(−1,2), B′(−3,6), C′(1,−2), D′(2,−2)",
+      "A′(1,−2), B′(3,−6), C′(−1,−2), D′(−2,2)",
+      "A′(1,−2), B′(3,6), C′(−1,2), D′(−2,−2)",
+      "A′(1,−2), B′(−3,−6), C′(1,−2), D′(2,2)"
+    ],
+    "correct": 1,
+    "explanation": "Reflection across x-axis: (x,y)→(x,−y). A(1,2)→(1,−2), B(3,6)→(3,−6), C(−1,2)→(−1,−2), D(−2,−2)→(−2,2)."
+  },
+  {
+    "question": "Translation T maps (1,2) to (3,−2). Which statement is NOT true?",
+    "options": [
+      "T⁻¹(x, y) = (x−2, y+4)",
+      "T(x, y) = (x+2, y−4)",
+      "(T⁻¹ ∘ T)(x, y) = (x, y)",
+      "(T ∘ T)(x, y) = (4+2x, 2y−8)"
+    ],
+    "correct": 3,
+    "explanation": "T translates by (2,−4). A: T(x,y)=(x+2,y−4) ✓. B: T⁻¹∘T = identity ✓. D: T⁻¹(x,y)=(x−2,y+4) ✓. C: (T∘T)(x,y)=T(x+2,y−4)=(x+4,y−8), not (4+2x, 2y−8). C is NOT true."
+  },
+  {
+    "question": "What is the reflection of (1, −1) across the line y = x + 2?",
+    "options": [
+      "(−1, 1)",
+      "(−3, 3)",
+      "(−7, −1)",
+      "(1, 7)"
+    ],
+    "correct": 1,
+    "explanation": "Perpendicular from (1,−1) to y=x+2 has slope −1: parametric (1+t,−1−t). On line: −1−t=(1+t)+2 → −4=2t → t=−2. Foot=(−1,1). Reflection=2(−1,1)−(1,−1)=(−3,3)."
+  },
+  {
+    "question": "Which ordered pair is the reflection of (4, 1) across the line y = x + 1?",
+    "options": [
+      "(−4, 3)",
+      "(−1, 8)",
+      "(−3, 4)",
+      "(0, 5)"
+    ],
+    "correct": 3,
+    "explanation": "Perpendicular from (4,1) slope=−1: (4+t, 1−t). On y=x+1: 1−t=(4+t)+1 → −4=2t → t=−2. Foot=(2,3). Reflection=2(2,3)−(4,1)=(0,5)."
+  },
+  {
+    "question": "Translation T maps (1,2) to (3,4). Which statement is NOT true?",
+    "options": [
+      "T(5, 6) = (7, 8)",
+      "T(0, 0) = (2, 2)",
+      "T⁻¹(0, 0) = (−2, −2)",
+      "T(−3, 2) = (−2, 4)"
+    ],
+    "correct": 3,
+    "explanation": "T translates by (2,2). A: T(5,6)=(7,8) ✓. B: T(0,0)=(2,2) ✓. C: T⁻¹(0,0)=(−2,−2) ✓. D: T(−3,2)=(−3+2,2+2)=(−1,4)≠(−2,4). D is NOT true."
+  },
+  {
+    "question": "The image of circle x²+y²−x+2y=0 reflected over line L is x²+y²−2x+y=0. What is L?",
+    "options": [
+      "y = x/2",
+      "y = x",
+      "y = 2x",
+      "y = −x"
+    ],
+    "correct": 3,
+    "explanation": "Circle 1: center (1/2,−1). Circle 2: center (1,−1/2). L is the perpendicular bisector of segment joining centers. Midpoint: (3/4,−3/4). Slope of segment: 1. Slope of L: −1. Line through (3/4,−3/4): y=−x. Verify: −3/4=−3/4 ✓."
+  },
+  {
+    "question": "The circle (x+2)² + (y−2)² = 1 is rotated through π/6 about the origin. What is the image?",
+    "options": [
+      "(x+(√3+1))² + (y−(√3−1))² = 1",
+      "(x−(√3+1))² + (y+(√3−1))² = 1",
+      "(x+(√3+1))² + (y+(√3−1))² = 1",
+      "(x−(√3−1))² + (y+(√3+1))² = 1"
+    ],
+    "correct": 0,
+    "explanation": "Center (−2,2). Rotate by 30°: x′=−2cos30°−2sin30°=−√3−1, y′=−2sin30°+2cos30°=−1+√3=√3−1. New center: (−(√3+1), √3−1). Equation: (x+(√3+1))²+(y−(√3−1))²=1."
+  },
+  {
+    "question": "Which statement about geometric transformations is NOT true?",
+    "options": [
+      "Rotation is a rigid motion that preserves distances",
+      "Reflection is not a rigid motion",
+      "Rotations map triangles to congruent triangles",
+      "Translations preserve angle measures"
+    ],
+    "correct": 1,
+    "explanation": "Rigid motions (isometries) preserve distances and angles. Reflection preserves all distances, so it IS a rigid motion. Options A, C, D are all true. B is NOT true."
+  },
+  {
+    "question": "Three Grade 11 classrooms have 28, 20, and 22 students with average scores 60, 70, and 70. What is the overall mean score?",
+    "options": [
+      "66",
+      "66.67",
+      "65",
+      "65.67"
+    ],
+    "correct": 0,
+    "explanation": "Weighted mean = (28×60+20×70+22×70)/(28+20+22) = (1680+1400+1540)/70 = 4620/70 = 66."
+  },
+  {
+    "question": "Ages 8,10,11,12,13 have frequencies 5,15,8,10,2. Which statement is NOT true?",
+    "options": [
+      "The median age is 10.5",
+      "The modal age is 10",
+      "The mean age is 10.5",
+      "The range is 5"
+    ],
+    "correct": 2,
+    "explanation": "n=40. Mode=10 (freq 15) ✓. Range=13−8=5 ✓. Median: 20th value=10, 21st value=11; median=(10+11)/2=10.5 ✓. Mean=(5×8+15×10+8×11+10×12+2×13)/40=424/40=10.6≠10.5. Option C is NOT true."
+  },
+  {
+    "question": "Data values 1,3,4,5,7 have frequencies 2,5,6,5,2. What is the standard deviation?",
+    "options": [
+      "√3",
+      "3",
+      "√2.3",
+      "√3.6"
+    ],
+    "correct": 2,
+    "explanation": "n=20, mean=(2+15+24+25+14)/20=80/20=4. Variance=Σf(x−x̄)²/n=(2×9+5×1+6×0+5×1+2×9)/20=46/20=2.3. Standard deviation=√2.3."
+  },
+  {
+    "question": "3-digit library IDs are formed from {0,1,2,3,4,5} with no repetition and first digit nonzero. How many such IDs exist?",
+    "options": [
+      "100",
+      "120",
+      "150",
+      "180"
+    ],
+    "correct": 0,
+    "explanation": "First digit: 5 choices (1–5). Second: 5 choices (0 + 4 remaining non-first digits). Third: 4 choices. Total=5×5×4=100."
+  },
+  {
+    "question": "Class intervals 3–7, 8–12, 13–17, 18–22 have frequencies f₁, 9, 4, 1. If the mean is 10, what is f₁?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 1,
+    "explanation": "Midpoints: 5,10,15,20. Mean=(5f₁+10×9+15×4+20×1)/(f₁+14)=10 → 5f₁+170=10f₁+140 → 5f₁=30 → f₁=6."
+  },
+  {
+    "question": "Marks in class intervals 20–40, 40–60, 60–80, 80–100 have frequencies 4,10,4,2. What is the variance?",
+    "options": [
+      "107.2",
+      "4",
+      "304",
+      "17.5"
+    ],
+    "correct": 2,
+    "explanation": "n=20, midpoints 30,50,70,90. Mean=(120+500+280+180)/20=54. Variance=(4×576+10×16+4×256+2×1296)/20=(2304+160+1024+2592)/20=6080/20=304."
+  },
+  {
+    "question": "If Qᵢ, Dᵢ, Pᵢ are the iᵗʰ quartile, decile, percentile of data in increasing order, which is necessarily TRUE?",
+    "options": [
+      "Q₂ = (Q₁ + Q₃) / 2",
+      "Q₂ = mean of the data",
+      "P₂₅ > Q₁",
+      "D₃ > P₂₅"
+    ],
+    "correct": 3,
+    "explanation": "P₂₅=Q₁ by definition, so P₂₅>Q₁ is false. Q₂=(Q₁+Q₃)/2 and Q₂=mean hold only for symmetric distributions. D₃=P₃₀ and P₃₀>P₂₅=Q₁ is necessarily true for any non-degenerate data set."
+  },
+  {
+    "question": "In a quiz: 15 students scored 6, 20 scored 7, 10 scored 8, 5 scored 10. What is the mean score?",
+    "options": [
+      "7.8",
+      "7.5",
+      "7.2",
+      "7.0"
+    ],
+    "correct": 2,
+    "explanation": "Mean=(15×6+20×7+10×8+5×10)/50=(90+140+80+50)/50=360/50=7.2."
+  },
+  {
+    "question": "Data in classes 45–55,55–65,65–75,75–85,85–95 has frequencies 26,38,33,16,7 (n=120). Find Q₁ and P₇₅.",
+    "options": [
+      "Q₁=30.50, P₇₅=90.50",
+      "Q₁=30.50, P₇₅=72.88",
+      "Q₁=56.05, P₇₅=90.50",
+      "Q₁=56.05, P₇₅=72.88"
+    ],
+    "correct": 3,
+    "explanation": "Q₁ at position 30. Cumulative up to 55: 26. Q₁ class 55–65: Q₁=55+(30−26)/38×10=56.05. P₇₅ at position 90. Cumulative up to 65: 64. P₇₅ class 65–75: P₇₅=65+(90−64)/33×10=72.88."
+  },
+  {
+    "question": "Marks grouped as 55–64(8), 65–74(12), 75–84(20), 85–94(6), 95–104(4). What is the median?",
+    "options": [
+      "25.0",
+      "75.5",
+      "77.0",
+      "79.5"
+    ],
+    "correct": 2,
+    "explanation": "n=50, median position=25. Cumulative: 8, 20, 40. 25th value falls in class 75–84 (boundary 74.5–84.5). Median=74.5+(25−20)/20×10=74.5+2.5=77.0."
+  },
+  {
+    "question": "Grouped data with class intervals 3–7, 8–12, 13–17, 18–22 and frequencies 2,2,10,6. What are the mean and standard deviation?",
+    "options": [
+      "Mean=15 and SD=2√5",
+      "Mean=15 and SD=√7.5",
+      "Mean=12.5 and SD=5√2",
+      "Mean=12.5 and SD=√15"
+    ],
+    "correct": 0,
+    "explanation": "n=20, midpoints 5,10,15,20. Mean=(10+20+150+120)/20=300/20=15. Variance=(2×100+2×25+10×0+6×25)/20=400/20=20. SD=√20=2√5."
+  },
+  {
+    "question": "Classes 5–15,15–25,25–35,35–45,45–55 have frequencies 22,40,68,50,20 (n=200). Find Q₁ and P₇₅.",
+    "options": [
+      "Q₁=20, P₇₅=40",
+      "Q₁=22, P₇₅=40",
+      "Q₁=20, P₇₅=39",
+      "Q₁=22, P₇₅=39"
+    ],
+    "correct": 3,
+    "explanation": "Q₁ at position 50. Cumulative up to 15: 22. Class 15–25: Q₁=15+(50−22)/40×10=22. P₇₅ at position 150. Cumulative up to 35: 130. Class 35–45: P₇₅=35+(150−130)/50×10=39."
+  },
+  {
+    "question": "Data X=3,5,6,7 with frequencies 2,5,2,1. What are the mean x̄ and variance δ²?",
+    "options": [
+      "x̄=5, δ²=0.7",
+      "x̄=6, δ²=0.7",
+      "x̄=6, δ²=1.4",
+      "x̄=5, δ²=1.4"
+    ],
+    "correct": 3,
+    "explanation": "n=10. Mean=(2×3+5×5+2×6+1×7)/10=50/10=5. Variance=(2×4+5×0+2×1+1×4)/10=14/10=1.4."
+  },
+  {
+    "question": "Set S has 10 elements. A subset A⊆S is chosen by including each element independently with probability 1/2. What is P(|A|≥3)?",
+    "options": [
+      "7/10",
+      "8/11",
+      "121/128",
+      "7/128"
+    ],
+    "correct": 2,
+    "explanation": "Total subsets=2¹⁰=1024. P(|A|<3)=(C(10,0)+C(10,1)+C(10,2))/1024=(1+10+45)/1024=56/1024. P(|A|≥3)=1−56/1024=968/1024=121/128."
+  },
+  {
+    "question": "A student selects 3 books from 3 math, 3 physics, and 1 history book. What is the probability of choosing exactly 1 math book and 2 non-math books?",
+    "options": [
+      "3/35",
+      "9/35",
+      "15/35",
+      "18/35"
+    ],
+    "correct": 3,
+    "explanation": "Total ways: C(7,3)=35. Favorable: C(3,1)×C(4,2)=3×6=18. Probability=18/35."
+  },
+  {
+    "question": "Three children aged 3, 4, 5 are in a room. A 4-year-old child enters. What happens to the mean and standard deviation?",
+    "options": [
+      "Mean stays the same; standard deviation increases",
+      "Mean stays the same; standard deviation decreases",
+      "Both mean and standard deviation increase",
+      "Both mean and standard deviation stay the same"
+    ],
+    "correct": 1,
+    "explanation": "Mean=(3+4+4+5)/4=4 (unchanged). Old variance=(1+0+1)/3=2/3. New variance=(1+0+0+1)/4=0.5. Since 0.5<2/3, standard deviation decreases."
+  },
+  {
+    "question": "Items have defect D₁ with probability 0.05, defect D₂ with probability 0.10, and both with probability 0.02. What is P(D₂|D₁)?",
+    "options": [
+      "0.2",
+      "0.05",
+      "0.1",
+      "0.4"
+    ],
+    "correct": 3,
+    "explanation": "P(D₂|D₁)=P(D₁∩D₂)/P(D₁)=0.02/0.05=0.4."
+  },
+  {
+    "question": "5-character codes have first two characters from {A,B} and last three from digits 0–9. How many distinct codes exist?",
+    "options": [
+      "4000",
+      "3600",
+      "3000",
+      "2400"
+    ],
+    "correct": 0,
+    "explanation": "First two: 2×2=4 choices. Last three: 10×10×10=1000 choices. Total=4×1000=4000."
+  },
+  {
+    "question": "A = getting heads on a coin flip; B = rolling a 5 on a die. These events are independent. Which statement is TRUE?",
+    "options": [
+      "P(A|B) = 1/6",
+      "P(A∩B) = 1/10",
+      "P(A∪B) = 7/12",
+      "P(A)×P(B) = 1/10"
+    ],
+    "correct": 2,
+    "explanation": "P(A)=1/2, P(B)=1/6. Independent: P(A∩B)=1/12. P(A∪B)=1/2+1/6−1/12=6/12+2/12−1/12=7/12 ✓. P(A|B)=P(A)=1/2 (not 1/6). P(A)×P(B)=1/12 (not 1/10)."
+  },
+  {
+    "question": "Three men fire independently with hit probabilities 0.20, 0.25, and 0.30. What is the probability that at least one hits the target?",
+    "options": [
+      "0.30",
+      "0.42",
+      "0.58",
+      "0.75"
+    ],
+    "correct": 2,
+    "explanation": "P(none hits)=(1−0.20)(1−0.25)(1−0.30)=0.80×0.75×0.70=0.42. P(at least one)=1−0.42=0.58."
+  },
+  {
+    "question": "Events A, B, C are independent with P(A)=0.3, P(B)=0.4, P(C)=0.2. What is the probability that exactly one of the three events occurs?",
+    "options": [
+      "0.900",
+      "0.452",
+      "0.336",
+      "0.024"
+    ],
+    "correct": 1,
+    "explanation": "P(exactly one)=P(A)P(B̄)P(C̄)+P(Ā)P(B)P(C̄)+P(Ā)P(B̄)P(C)=(0.3×0.6×0.8)+(0.7×0.4×0.8)+(0.7×0.6×0.2)=0.144+0.224+0.084=0.452."
+  },
+  {
+    "question": "A committee of 3 is selected from 4 girls and 6 boys. What is the probability that at least one girl is selected?",
+    "options": [
+      "5/6",
+      "2/3",
+      "1/3",
+      "1/6"
+    ],
+    "correct": 0,
+    "explanation": "P(no girl)=C(6,3)/C(10,3)=20/120=1/6. P(at least one girl)=1−1/6=5/6."
+  },
+  {
+    "question": "Six students sit randomly at a round table. What is the probability that two specific students do NOT sit adjacent to each other?",
+    "options": [
+      "3/5",
+      "2/3",
+      "2/5",
+      "1/3"
+    ],
+    "correct": 0,
+    "explanation": "Total circular arrangements: (6−1)!=120. A and B adjacent: treat as unit → (5−1)!=24 arrangements × 2 (A,B order)=48. P(adjacent)=48/120=2/5. P(NOT adjacent)=1−2/5=3/5."
+  },
+  {
+    "question": "How many distinct arrangements of the letters of 'ABBEBAYE' begin with the letter B?",
+    "options": [
+      "840",
+      "630",
+      "1680",
+      "420"
+    ],
+    "correct": 1,
+    "explanation": "ABBEBAYE has A(2),B(3),E(2),Y(1). Fix first letter as B. Remaining 7 letters: A(2),B(2),E(2),Y(1). Arrangements=7!/(2!×2!×2!×1!)=5040/8=630."
+  },
+  {
+    "question": "In how many MORE ways can 4 people be arranged in a row than in a circle?",
+    "options": [
+      "1",
+      "6",
+      "18",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "Row: 4!=24 arrangements. Circular: (4−1)!=6 arrangements. Difference: 24−6=18."
+  },
+  {
+    "question": "5-character codes have the first two characters as any capital letter (A–Z) and the last three as digits 0–9. How many distinct codes are possible?",
+    "options": [
+      "468,000",
+      "260",
+      "676,000",
+      "26! × 10!"
+    ],
+    "correct": 2,
+    "explanation": "First two: 26×26=676. Last three: 10×10×10=1000. Total=676×1000=676,000."
+  },
+  {
+    "question": "Car plates use letters from {A,B,C} followed by exactly 3 digits (0–9). Plates have 1, 2, or 3 letters (repetition allowed). What is the total number of distinct plates?",
+    "options": [
+      "3,000",
+      "27,000",
+      "39,000",
+      "100,000"
+    ],
+    "correct": 2,
+    "explanation": "1-letter plates: 3¹×10³=3000. 2-letter: 3²×10³=9000. 3-letter: 3³×10³=27000. Total=3000+9000+27000=39,000."
+  },
+  {
+    "question": "A box has 10 items, 3 defective. Two are selected randomly. What is the probability both are non-defective?",
+    "options": [
+      "7/10",
+      "4/7",
+      "7/15",
+      "49/100"
+    ],
+    "correct": 2,
+    "explanation": "P(both non-defective)=C(7,2)/C(10,2)=21/45=7/15."
+  },
+  {
+    "question": "Items have P(defect D₁)=0.05, P(defect D₂)=0.10, P(both)=0.02. What is the probability of having neither defect?",
+    "options": [
+      "0.13",
+      "0.50",
+      "0.98",
+      "0.87"
+    ],
+    "correct": 3,
+    "explanation": "P(D₁∪D₂)=0.05+0.10−0.02=0.13. P(neither)=1−0.13=0.87."
+  },
+  {
+    "question": "Machines A and B work independently. P(both work)=0.4 and P(B works|A works)=0.5. What is P(A works|B works)?",
+    "options": [
+      "0.8",
+      "0.3",
+      "0.5",
+      "0.7"
+    ],
+    "correct": 0,
+    "explanation": "Since A and B are independent: P(B|A)=P(B)=0.5. From P(A∩B)=P(A)×P(B): 0.4=P(A)×0.5 → P(A)=0.8. Since independent: P(A|B)=P(A)=0.8."
+  },
+  {
+    "question": "A librarian arranges 15 distinct books in a row. Which principle applies?",
+    "options": [
+      "Principle of Combination",
+      "Principle of Permutation",
+      "Product Rule only",
+      "Sum Rule only"
+    ],
+    "correct": 1,
+    "explanation": "When ORDER matters and all n objects are used, it is a permutation: P(15,15)=15!. Combinations apply when order is irrelevant. The Product Rule applies to sequential independent choices."
+  },
+  {
+    "question": "3-digit numbers starting with 2 are formed from digits {1,2,3,4} without repetition. Which formula counts them?",
+    "options": [
+      "P(4,3)/4",
+      "C(4,3)/6",
+      "P(3,2)",
+      "C(3,2)"
+    ],
+    "correct": 2,
+    "explanation": "First digit fixed as 2. Remaining two positions filled from {1,3,4} without repetition, order matters: P(3,2)=3×2=6 arrangements."
+  },
+  {
+    "question": "The odds in favor of an event are 3:8. What is its probability?",
+    "options": [
+      "3/8",
+      "3/11",
+      "11/21",
+      "8/3"
+    ],
+    "correct": 1,
+    "explanation": "Odds in favor = favorable:unfavorable = 3:8. Total outcomes: 3+8=11. P(E)=3/11."
+  },
+  {
+    "question": "On a fair die: E₁=even, E₂=prime, E₃=greater than 3. Which is TRUE?",
+    "options": [
+      "E₁∩E₂ has zero elements",
+      "P(E₁∩E₂) = 1/2",
+      "P(E₁∩E₂∩E₃) = 1/6",
+      "P(E₁∪E₂∪E₃) = 5/6"
+    ],
+    "correct": 3,
+    "explanation": "E₁={2,4,6}, E₂={2,3,5}, E₃={4,5,6}. E₁∩E₂={2}≠∅ → A false. P(E₁∩E₂)=1/6≠1/2 → B false. E₁∩E₂∩E₃={} so P=0≠1/6 → C false. E₁∪E₂∪E₃={2,3,4,5,6}: P=5/6 → D TRUE."
+  },
+  {
+    "question": "Birr 5,000 is deposited at 14% annual interest compounded semi-annually. What is the total interest earned after 2 years?",
+    "options": [
+      "Birr 5,554",
+      "Birr 6,554",
+      "Birr 1,654",
+      "Birr 1,554"
+    ],
+    "correct": 3,
+    "explanation": "Semi-annual rate=7%, n=4 periods. A=5000×(1.07)⁴=5000×1.3108≈6554. Interest=6554−5000=Birr 1,554."
+  },
+  {
+    "question": "A house costs Birr 3,550,000. After a 20% down payment, the balance is financed at 8% annual interest for 15 years. What is the monthly mortgage payment?",
+    "options": [
+      "Birr 27,140.52",
+      "Birr 21,512.18",
+      "Birr 18,934.00",
+      "Birr 23,680.44"
+    ],
+    "correct": 0,
+    "explanation": "Loan=0.80×3,550,000=2,840,000. Monthly rate i=0.08/12≈0.006667, n=180. M=P×i(1+i)ⁿ/((1+i)ⁿ−1)≈Birr 27,140.52."
+  },
+  {
+    "question": "A shop owner bought 75 T-shirts for a total of Birr 25,000 and sells each at Birr 325. What is the percentage price decrease per shirt?",
+    "options": [
+      "5.0%",
+      "3.5%",
+      "2.5%",
+      "1.5%"
+    ],
+    "correct": 2,
+    "explanation": "Cost per shirt=25000/75≈333.33 Birr. Sell price=325. Decrease=(333.33−325)/333.33×100=8.33/333.33×100≈2.5%."
+  },
+  {
+    "question": "Sales S is directly proportional to items sold N and inversely proportional to tax (5% of S). If S=15,000 when N=3,000, what is the constant k?",
+    "options": [
+      "7,500",
+      "3,650",
+      "5,700",
+      "3,750"
+    ],
+    "correct": 3,
+    "explanation": "S=kN/(0.05S) → S²=20kN. At S=15000, N=3000: 225,000,000=20k×3000=60,000k → k=3750."
+  },
+  {
+    "question": "A factory's daily sales start at Birr 1,000,000 and increase by Birr 10,000 each day. What are the total sales in the first 10 days?",
+    "options": [
+      "Birr 20,900,000",
+      "Birr 10,450,000",
+      "Birr 10,000,000",
+      "Birr 1,090,000"
+    ],
+    "correct": 1,
+    "explanation": "Arithmetic series: a₁=1,000,000, d=10,000, n=10. S₁₀=10/2×(2×1,000,000+9×10,000)=5×2,090,000=Birr 10,450,000."
+  },
+  {
+    "question": "A, B, C invest Birr 20,000, 24,000, 36,000. From profit: 18⅔% to A (salary), 2½% to relief, 3⅚% to welfare; balance shared by capital ratio. Which is NOT true?",
+    "options": [
+      "A received 37 5/12% of total profit",
+      "B received 22½% of total profit",
+      "C received 33¾% of total profit",
+      "If welfare fund = Birr 1,380, then A received exactly Birr 6,750"
+    ],
+    "correct": 3,
+    "explanation": "Deductions: 56/3+5/2+23/6=25%. Balance=75% shared 20:24:36=5:6:9. A: 5/20×75%=18.75%+18.67%≈37 5/12% ✓. Welfare=3⅚%: 1380/(23/600)=profit=36,000. A salary=6720; A share=6750; A total=13,470≠6,750. D is NOT true."
+  },
+  {
+    "question": "Butter A costs Birr 30/kg and Butter B costs Birr 19/kg. A mixture is sold at Birr 26/kg with 30% profit. In what ratio A:B should they be mixed?",
+    "options": [
+      "5:2",
+      "1:10",
+      "30:26",
+      "30:19"
+    ],
+    "correct": 1,
+    "explanation": "Required cost price=26/1.30=Birr 20/kg. Alligation: A:B=(desired−B cost):(A cost−desired)=(20−19):(30−20)=1:10."
+  },
+  {
+    "question": "Birr 8,400 is split: part at 5% and rest at 7% annual interest. Total yearly income is Birr 486. Which statement is TRUE?",
+    "options": [
+      "Investment at 5% is Birr 3,300",
+      "Investment at 7% is Birr 5,000",
+      "Birr 5,100 at 5% and Birr 3,300 at 7%",
+      "Birr 5,100 at 7% and Birr 3,300 at 5%"
+    ],
+    "correct": 2,
+    "explanation": "Let x=amount at 5%. 0.05x+0.07(8400−x)=486 → 588−0.02x=486 → x=5100. Investment at 5%=5100, at 7%=3300. Option C ✓."
+  },
+  {
+    "question": "Birr 20,000 borrowed for 2 years. Option 1: 13% simple interest. Option 2: 12% compounded semi-annually. Which statement is TRUE?",
+    "options": [
+      "Simple interest total is Birr 2,600",
+      "Compound interest total is Birr 5,048",
+      "Compound interest exceeds simple interest by Birr 49.54",
+      "Simple interest total is Birr 6,200"
+    ],
+    "correct": 2,
+    "explanation": "Simple interest=20000×0.13×2=Birr 5,200. Compound: i=6%/period, n=4: A=20000×(1.06)⁴=25,249.54; interest≈5,249.54. Difference=5249.54−5200≈Birr 49.54 more for compound. C is TRUE."
+  },
+  {
+    "question": "Which statement is NOT true?",
+    "options": [
+      "½ percent of 480 equals 2.40",
+      "75 is 33⅓% of 225",
+      "24 increased by 37½% gives 32.88",
+      "If 75% of 40% of a number is 132, the number is 440"
+    ],
+    "correct": 2,
+    "explanation": "C: 24×(1+0.375)=24×1.375=33≠32.88. A: 0.005×480=2.40 ✓. B: (1/3)×225=75 ✓. D: 0.75×0.40×x=132 → x=440 ✓. C is NOT true."
+  },
+  {
+    "question": "A TV costs Birr 3,000. Buyer pays 30% down and Birr 240/month for 10 months. Which statement is NOT true?",
+    "options": [
+      "The outstanding balance is Birr 2,100",
+      "The installment price is Birr 3,300",
+      "The installment charge is Birr 300",
+      "The nominal interest rate is 14 2/7%"
+    ],
+    "correct": 3,
+    "explanation": "Down=900, balance=2100 ✓. Installment price=900+10×240=3300 ✓. Charge=3300−3000=300 ✓. Nominal rate=I/(P×n/12)=300/(2100×10/12)=300/1750≈17.14%≠14 2/7%≈14.29%. D is NOT true."
+  },
+  {
+    "question": "A car is listed at Birr 60,000 with 2.5% cash discount. Oromia pays cash; Sena pays Birr 30,000 down and Birr 1,750/month for 18 months. How much MORE than Oromia did Sena pay?",
+    "options": [
+      "Birr 1,500",
+      "Birr 2,000",
+      "Birr 3,000",
+      "Birr 4,500"
+    ],
+    "correct": 2,
+    "explanation": "Oromia: 60,000×0.975=Birr 58,500. Sena: 30,000+18×1,750=Birr 61,500. Difference: 61,500−58,500=Birr 3,000."
+  },
+  {
+    "question": "Ahmed buys a house for Birr 300,000, pays 5% brokerage and 20% of purchase price for renovation. He sells for Birr 566,000 after paying Birr 41,000 capital gain tax. What is his profit rate?",
+    "options": [
+      "40%",
+      "50 14/15%",
+      "50%",
+      "40 14/15%"
+    ],
+    "correct": 0,
+    "explanation": "Total cost=300,000+15,000+60,000=375,000. Net proceeds=566,000−41,000=525,000. Profit=150,000. Profit rate=150,000/375,000×100=40%."
+  },
+  {
+    "question": "A sum is shared among A,B,C,D in ratio ¼:⅔:1:½. If A received Birr 102, which statement is NOT true?",
+    "options": [
+      "D received twice as much as A",
+      "The total sum is 5 times D's share",
+      "B received 4/3 times D's share",
+      "B received Birr 272"
+    ],
+    "correct": 1,
+    "explanation": "Ratio: ¼:⅔:1:½ → 3:8:12:6. A=3 parts=102 → 1 part=34. D=6×34=204=2×102 ✓. Total=29×34=986. 5×D=1020≠986 → B NOT true. B(person)=8×34=272 ✓. B/D=8/6=4/3 ✓."
+  },
+  {
+    "question": "A salesperson earns Birr 300/month fixed salary, 5% commission on sales, and Birr 15/day for rural work. He works 12 rural days and achieves total sales of Birr 11,688. What is his monthly income?",
+    "options": [
+      "Birr 1,064.40",
+      "Birr 674.40",
+      "Birr 854.40",
+      "Birr 912.00"
+    ],
+    "correct": 0,
+    "explanation": "Fixed salary=300. Commission=5%×11,688=584.40. Rural per diem=15×12=180. Total=300+584.40+180=Birr 1,064.40."
+  },
+  {
+    "question": "A house (Birr 120,000) and contents (Birr 60,000) are insured for a total annual premium of Birr 720. The house rate is 40 cents per Birr 100. Which statement is NOT true?",
+    "options": [
+      "The contents premium rate equals the house rate",
+      "The house premium rate is 40 cents per Birr 100",
+      "The house premium rate is twice the contents rate",
+      "The annual premium for the contents is Birr 240"
+    ],
+    "correct": 2,
+    "explanation": "House premium=120,000/100×0.40=Birr 480. Contents premium=720−480=Birr 240. Contents rate=240/60,000×100=0.40 per Birr 100. Both rates are EQUAL, so 'house rate is twice contents rate' is NOT true."
+  },
+  {
+    "question": "A car is bought with 5% brokerage and sold with 3% brokerage, gaining Birr 6,500. The sum of cost price and selling price is Birr 90,000. Which statement is NOT true?",
+    "options": [
+      "The brokerage paid when buying was Birr 1,500",
+      "The brokerage paid when selling was Birr 1,500",
+      "The cost price was Birr 40,000",
+      "The selling price was Birr 50,000"
+    ],
+    "correct": 0,
+    "explanation": "Let C=cost price, S=selling price. C+S=90,000 and 0.97S−1.05C=6,500. Solving: 0.97(90,000−C)−1.05C=6,500 → C=40,000, S=50,000. Brokerage buying=5%×40,000=Birr 2,000≠1,500. A is NOT true."
+  }
+]
