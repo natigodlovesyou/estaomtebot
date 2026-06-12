@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "Democritus's atomic theory differed from modern atomic theory in one fundamental way. Which statement correctly identifies that difference?",
+    "options": [
+      "Democritus believed atoms were indivisible and indestructible, while modern theory recognizes subatomic particles",
+      "Democritus believed atoms combined in fixed ratios, while modern theory allows variable ratios",
+      "Democritus's atoms had positive and negative regions, unlike modern neutral atoms",
+      "Democritus placed electrons in fixed orbits around a nucleus"
+    ],
+    "correct": 0,
+    "explanation": "Democritus's atoms were truly indivisible (atomos = uncuttable). Modern atomic theory reveals protons, neutrons, and electrons inside the atom. The other options describe ideas from later scientists (Dalton, Thomson, Bohr)."
+  },
+  {
+    "question": "Which statement is NOT one of Dalton's original atomic theory postulates?",
+    "options": [
+      "Atoms of the same element are identical in mass and properties",
+      "Atoms contain a dense positive nucleus surrounded by orbiting electrons",
+      "Chemical reactions involve rearrangement of atoms, not creation or destruction",
+      "Atoms combine in simple whole-number ratios to form compounds"
+    ],
+    "correct": 1,
+    "explanation": "The nuclear model (positive nucleus + orbiting electrons) came from Rutherford (1911) and Bohr (1913), long after Dalton. Dalton's 1803 theory stated atoms are indivisible, identical within an element, combine in whole-number ratios, and are conserved in reactions."
+  },
+  {
+    "question": "Chlorine has two stable isotopes: ³⁵Cl (75.77%) and ³⁷Cl (24.23%). This observation directly contradicts which postulate of Dalton's atomic theory?",
+    "options": [
+      "Atoms of different elements combine in simple whole-number ratios",
+      "Atoms are neither created nor destroyed in chemical reactions",
+      "All atoms of a given element have identical mass",
+      "Compounds are formed by combining atoms of different elements"
+    ],
+    "correct": 2,
+    "explanation": "Dalton postulated that all atoms of the same element are identical in mass. Isotopes are atoms of the same element (same Z=17) with different neutron counts, giving different masses (35 vs 37 amu) — a direct contradiction."
+  },
+  {
+    "question": "17.0 g of NH₃ is formed from nitrogen and hydrogen with no leftover reactants. This illustrates which pair of laws that formed the empirical foundation of Dalton's atomic theory?",
+    "options": [
+      "Boyle's law and Gay-Lussac's law",
+      "Law of multiple proportions and Avogadro's law",
+      "Law of conservation of energy and Charles's law",
+      "Law of conservation of mass and law of definite proportions"
+    ],
+    "correct": 3,
+    "explanation": "Total mass is conserved (conservation of mass), and NH₃ always contains 82.4% N and 17.6% H by mass regardless of sample size (definite proportions). These two laws were the empirical pillars Dalton used to develop atomic theory."
+  },
+  {
+    "question": "HCl is 97.26% chlorine by mass. A sample of HCl contains 2.00 g of hydrogen. What mass of chlorine is present?",
+    "options": [
+      "71.0 g",
+      "35.5 g",
+      "36.5 g",
+      "73.0 g"
+    ],
+    "correct": 0,
+    "explanation": "If 2.74% is H, then 97.26% is Cl. Ratio Cl:H = 97.26:2.74 = 35.5:1. Mass Cl = 35.5 × 2.00 g = 71.0 g. (35.5 g is the atomic mass of Cl; 36.5 g is the molar mass of HCl; 73.0 g is the total sample mass.)"
+  },
+  {
+    "question": "17.52 g of metal M reacts completely with 46.52 g of nonmetal N, leaving no unreacted material. What mass of product forms, and which law does this demonstrate?",
+    "options": [
+      "64.04 g; law of multiple proportions",
+      "64.04 g; law of conservation of mass",
+      "29.00 g; law of definite proportions",
+      "64.04 g; law of definite proportions"
+    ],
+    "correct": 1,
+    "explanation": "Mass of product = 17.52 + 46.52 = 64.04 g. Since total mass is unchanged by the chemical reaction, this illustrates the law of conservation of mass (Lavoisier)."
+  },
+  {
+    "question": "Carbon forms two oxides: CO (carbon monoxide) and CO₂ (carbon dioxide). For a fixed mass of carbon (12 g), CO requires 16 g of oxygen and CO₂ requires 32 g. What is the ratio of oxygen in CO₂ to CO, and which law does this illustrate?",
+    "options": [
+      "1:2 — law of definite proportions",
+      "3:1 — law of conservation of mass",
+      "2:1 — law of multiple proportions",
+      "2:1 — law of definite proportions"
+    ],
+    "correct": 2,
+    "explanation": "For fixed C = 12 g: O in CO₂ : O in CO = 32:16 = 2:1, a simple whole-number ratio. When the same two elements form different compounds, the masses of one element that combine with a fixed mass of the other are in simple whole-number ratios — the law of multiple proportions (Dalton, 1803)."
+  },
+  {
+    "question": "In cathode ray tube experiments, the ray deflected toward the positive plate regardless of the cathode material used. What conclusion did Thomson draw from this observation?",
+    "options": [
+      "The rays were positively charged particles unique to each metal",
+      "The rays were electromagnetic radiation with no charge",
+      "The rays were protons ejected from the cathode surface",
+      "The rays consisted of negatively charged particles common to all matter"
+    ],
+    "correct": 3,
+    "explanation": "Deflection toward the positive plate confirmed the particles carried negative charge. The same charge-to-mass ratio regardless of cathode material showed these particles were a universal constituent of matter — Thomson's discovery of the electron (1897)."
+  },
+  {
+    "question": "In Millikan's oil-drop experiment, charged droplets were suspended motionless when the electric force exactly balanced gravity. What fundamental quantity did this experiment determine?",
+    "options": [
+      "The elementary charge of the electron",
+      "The charge-to-mass ratio of the electron",
+      "The mass of the proton",
+      "The velocity of electrons in a conductor"
+    ],
+    "correct": 0,
+    "explanation": "By varying the electric field and measuring droplet charges, Millikan found all charges were integer multiples of 1.602 × 10⁻¹⁹ C — the elementary charge of a single electron. Thomson had earlier found e/m; with e now known, m could be calculated."
+  },
+  {
+    "question": "The mass of a single electron is 9.10 × 10⁻²⁸ g and Avogadro's number is 6.02 × 10²³ mol⁻¹. What is the mass of exactly one mole of electrons?",
+    "options": [
+      "9.10 × 10⁻²⁸ g",
+      "5.48 × 10⁻⁴ g",
+      "5.48 × 10⁻⁵ g",
+      "1.66 × 10⁻²⁴ g"
+    ],
+    "correct": 1,
+    "explanation": "Mass = (9.10 × 10⁻²⁸ g)(6.02 × 10²³) = 5.48 × 10⁻⁴ g ≈ 0.548 mg. Option A is a single electron's mass; option C has an incorrect exponent; option D is approximately 1 amu (mass of one hydrogen atom)."
+  },
+  {
+    "question": "What is the total charge, in coulombs, carried by one mole of electrons? (e = 1.602 × 10⁻¹⁹ C, Nₐ = 6.02 × 10²³)",
+    "options": [
+      "−1.602 × 10⁻¹⁹ C",
+      "−9.65 × 10⁻⁴ C",
+      "−9.65 × 10⁴ C",
+      "+9.65 × 10⁴ C"
+    ],
+    "correct": 2,
+    "explanation": "Q = (−1.602 × 10⁻¹⁹ C)(6.02 × 10²³) = −9.65 × 10⁴ C. This is the Faraday constant (F ≈ 96,500 C/mol) with a negative sign for electrons. Option A is a single electron; option C has wrong sign."
+  },
+  {
+    "question": "An electron and a proton have charges of equal magnitude. The electron's e/m ratio is approximately 1.76 × 10⁸ C/g, while the proton's is 9.58 × 10⁴ C/g. What is the ratio (e/m)_electron / (e/m)_proton, and what does it reveal?",
+    "options": [
+      "≈ 1836; the electron is about 1836 times heavier than the proton",
+      "≈ 0.000544; the proton has a smaller charge than the electron",
+      "≈ 1836; the proton has a charge 1836 times larger than the electron",
+      "≈ 1836; the proton is about 1836 times heavier than the electron"
+    ],
+    "correct": 3,
+    "explanation": "(e/m)_e / (e/m)_p = (1.76 × 10⁸)/(9.58 × 10⁴) ≈ 1836. Since both charges are equal, e/m ∝ 1/m. A larger ratio means smaller mass, so the electron is ~1836 times lighter than the proton (equivalently, the proton is ~1836 times heavier)."
+  },
+  {
+    "question": "Alpha particles emitted by radioactive nuclei are identical to the nuclei of which element?",
+    "options": [
+      "Helium (⁴He)",
+      "Hydrogen (²H)",
+      "Lithium (⁶Li)",
+      "Beryllium (⁸Be)"
+    ],
+    "correct": 0,
+    "explanation": "An alpha particle consists of 2 protons and 2 neutrons (charge +2, mass number 4), identical to a helium-4 nucleus. Capturing 2 electrons converts it to a neutral He atom."
+  },
+  {
+    "question": "In Rutherford's gold foil experiment, approximately 1 in 20,000 alpha particles was deflected by more than 90°. What model of atomic structure does this result demand?",
+    "options": [
+      "A uniform sphere of positive charge with embedded electrons (Thomson model)",
+      "A tiny, dense, positively charged nucleus with electrons occupying surrounding empty space",
+      "A nucleus containing both protons and electrons, with no surrounding electrons",
+      "A flat disc of positive charge through which alpha particles easily pass"
+    ],
+    "correct": 1,
+    "explanation": "Most alpha particles passing through undeflected means atoms are mostly empty space. The rare, large-angle backscattering requires an extremely small, dense, positively charged core — the nucleus. Only ~1/20,000 come close enough to the nucleus to be significantly deflected."
+  },
+  {
+    "question": "Rutherford's scattering results were completely inconsistent with Thomson's 'plum pudding' model. Why could that model NOT explain large-angle deflections?",
+    "options": [
+      "Thomson's model predicted all alpha particles would be absorbed",
+      "Thomson's model had no protons, so alpha particles experienced no repulsion",
+      "In Thomson's model, positive charge is spread throughout the atom, so the electric force on any alpha particle is too weak and diffuse to cause large deflections",
+      "Thomson's model predicted electrons would spiral into the nucleus"
+    ],
+    "correct": 2,
+    "explanation": "If positive charge is spread uniformly across the atom's full volume (~10⁻¹⁰ m), the electric field at any point is weak — insufficient to deflect a fast, heavy alpha particle by 90° or more. Only a concentrated nuclear charge (radius ~10⁻¹⁵ m) can produce the required intense repulsive force."
+  },
+  {
+    "question": "²³⁸₉₂U undergoes alpha (α) decay. What is the resulting nuclide?",
+    "options": [
+      "²³⁴₈₈Ra",
+      "²³⁴₉₄Pu",
+      "²⁴²₉₀Th",
+      "²³⁴₉₀Th"
+    ],
+    "correct": 3,
+    "explanation": "Alpha decay: A decreases by 4, Z decreases by 2. A = 238 − 4 = 234; Z = 92 − 2 = 90 (Thorium). Product: ²³⁴₉₀Th. Ra (Z=88) would require losing 4 protons; Pu (Z=94) would require gaining protons."
+  },
+  {
+    "question": "A proton has mass 1.673 × 10⁻²⁴ g and charge 1.602 × 10⁻¹⁹ C. What is its charge-to-mass ratio?",
+    "options": [
+      "9.58 × 10⁴ C/g",
+      "1.04 × 10⁻⁵ C/g",
+      "2.68 × 10⁻⁴³ C·g",
+      "9.58 × 10⁻⁴ C/g"
+    ],
+    "correct": 0,
+    "explanation": "e/m = (1.602 × 10⁻¹⁹ C)/(1.673 × 10⁻²⁴ g) = 9.58 × 10⁴ C/g. Option A is the mass/charge ratio (inverted). Option D has incorrect exponent."
+  },
+  {
+    "question": "²²⁶₈₈Ra undergoes alpha decay. Identify the daughter nuclide.",
+    "options": [
+      "²²²₈₄Po",
+      "²²²₈₆Rn",
+      "²³⁰₉₀Th",
+      "²²²₉₀Th"
+    ],
+    "correct": 1,
+    "explanation": "Alpha decay: A = 226 − 4 = 222; Z = 88 − 2 = 86 (Radon). Product: ²²²₈₆Rn. Po has Z=84 (wrong); Th has Z=90 (wrong); the Z=90,A=222 combination violates conservation of both A and Z."
+  },
+  {
+    "question": "²³⁴₉₀Th undergoes beta-minus (β⁻) decay. What is the resulting nuclide?",
+    "options": [
+      "²³⁴₈₉Ac",
+      "²³⁰₉₂U",
+      "²³⁴₉₁Pa",
+      "²³⁸₉₁Pa"
+    ],
+    "correct": 2,
+    "explanation": "Beta-minus decay converts a neutron → proton + electron (emitted). Mass number unchanged (A=234); Z increases by 1: 90 + 1 = 91 (Protactinium). Product: ²³⁴₉₁Pa. Ac has Z=89 (decreased, wrong); U has Z=92 (too high); ²³⁸₉₁Pa has wrong mass number."
+  },
+  {
+    "question": "Which two particles are found inside the atomic nucleus?",
+    "options": [
+      "Proton and electron",
+      "Neutron and electron",
+      "Proton, neutron, and electron",
+      "Proton and neutron"
+    ],
+    "correct": 3,
+    "explanation": "The nucleus contains protons (positive) and neutrons (neutral), collectively called nucleons. Electrons occupy the extranuclear space. (The nuclear electron model was disproved; beta decay involves electrons created and emitted during neutron decay, not stored electrons.)"
+  },
+  {
+    "question": "An atom of phosphorus (Z=15) in its ground state is electrically neutral. How many electrons does it have?",
+    "options": [
+      "15",
+      "16",
+      "31",
+      "30"
+    ],
+    "correct": 0,
+    "explanation": "For a neutral atom, the number of electrons equals the number of protons. Z=15 means 15 protons, so 15 electrons. (16 = number of neutrons in ³¹P; 31 = mass number.)"
+  },
+  {
+    "question": "Given mₚ = 1.673 × 10⁻²⁴ g and mₑ = 9.1 × 10⁻²⁸ g, approximately how many times heavier is a proton than an electron?",
+    "options": [
+      "~1673",
+      "~1838",
+      "~1.838",
+      "~18380"
+    ],
+    "correct": 1,
+    "explanation": "Ratio = (1.673 × 10⁻²⁴)/(9.1 × 10⁻²⁸) = (1.673/9.1) × 10⁴ = 0.1838 × 10⁴ ≈ 1838. Option A (1673) incorrectly ignores the exponent difference. Option C (1.838) misplaces the decimal."
+  },
+  {
+    "question": "Chlorine-35 and chlorine-37 are both neutral atoms of the same element. How do they differ?",
+    "options": [
+      "Cl-37 has two more protons than Cl-35",
+      "Cl-37 has two more electrons than Cl-35",
+      "Cl-37 has two more neutrons than Cl-35",
+      "Cl-37 has one more proton and one more neutron than Cl-35"
+    ],
+    "correct": 2,
+    "explanation": "Both isotopes: Z=17 (same element, same protons and electrons). Neutrons = A − Z: Cl-35 has 18 neutrons; Cl-37 has 20 neutrons. Difference = 2 neutrons. Isotopes differ only in neutron (and hence mass) number."
+  },
+  {
+    "question": "What are the numbers of protons, neutrons, and electrons in the ion ³¹₁₅P³⁻?",
+    "options": [
+      "p=15, n=16, e=15",
+      "p=15, n=18, e=16",
+      "p=18, n=16, e=15",
+      "p=15, n=16, e=18"
+    ],
+    "correct": 3,
+    "explanation": "Protons = Z = 15. Neutrons = A − Z = 31 − 15 = 16. For a 3− ion, 3 electrons are added: electrons = 15 + 3 = 18. So (p, n, e) = (15, 16, 18)."
+  },
+  {
+    "question": "A monoatomic ion has 20 protons, 20 neutrons, and 18 electrons. Which of the following correctly identifies this ion and states its isoelectronic partner?",
+    "options": [
+      "Ca²⁺, isoelectronic with Ar",
+      "Ca²⁺, isoelectronic with Ne",
+      "K⁺, isoelectronic with Ar",
+      "Ca²⁺, isoelectronic with Kr"
+    ],
+    "correct": 0,
+    "explanation": "Z=20 is calcium; charge = protons − electrons = 20 − 18 = +2, so Ca²⁺. With 18 electrons it has the same electron configuration as Ar (Z=18), making them isoelectronic. Ne has only 10 electrons; Kr has 36."
+  },
+  {
+    "question": "A species has 35 protons, 45 neutrons, and 36 electrons. Which nuclide symbol correctly represents it?",
+    "options": [
+      "⁸⁰₃₅Hg",
+      "⁸⁰₃₅Br⁻",
+      "¹⁰³₄₅Rh⁻",
+      "⁸⁰₃₆Kr"
+    ],
+    "correct": 1,
+    "explanation": "A = p + n = 35 + 45 = 80. Charge = p − e = 35 − 36 = −1. Z=35 is Bromine. Symbol: ⁸⁰₃₅Br⁻. Hg has Z=80 (wrong element); Rh has Z=45; Kr has Z=36."
+  },
+  {
+    "question": "Natural copper is 69.17% ⁶³Cu (mass 63 amu) and 30.83% ⁶⁵Cu. If the average atomic mass of Cu is 63.55 amu, what is the mass of ⁶⁵Cu?",
+    "options": [
+      "64.0 amu",
+      "65.1 amu",
+      "65.0 amu",
+      "65.4 amu"
+    ],
+    "correct": 2,
+    "explanation": "63.55 = 63(0.6917) + m₂(0.3083). 63.55 = 43.58 + 0.3083m₂. 0.3083m₂ = 19.97. m₂ = 64.8 ≈ 65.0 amu. (The small discrepancy from 65.0 reflects rounding in given data; 65.0 amu is the accepted answer for ⁶⁵Cu.)"
+  },
+  {
+    "question": "Which pair of nuclides are isobaric (same mass number but different elements)?",
+    "options": [
+      "¹⁴₇N and ¹⁶₈O",
+      "³²₁₆S and ³⁵₁₇Cl",
+      "²³₁₁Na and ²⁴₁₂Mg",
+      "²³₁₁Na and ²³₁₂Mg"
+    ],
+    "correct": 3,
+    "explanation": "Isobaric = same A, different Z. ²³Na and ²³Mg both have A=23 but Z=11 and Z=12 respectively — they are isobars. Option D (A=23 vs A=24) are not isobaric. Options A and C have different A values."
+  },
+  {
+    "question": "For the ion ⁵⁹₂₇Co²⁺, what are the numbers of protons, neutrons, and electrons respectively?",
+    "options": [
+      "27, 32, 25",
+      "27, 32, 29",
+      "25, 32, 27",
+      "27, 27, 25"
+    ],
+    "correct": 0,
+    "explanation": "Protons = Z = 27. Neutrons = A − Z = 59 − 27 = 32. For a 2+ ion: electrons = 27 − 2 = 25. So (p, n, e) = (27, 32, 25)."
+  },
+  {
+    "question": "Lithium's average atomic mass is 6.941 amu. Its two stable isotopes are ⁶Li (6.015 amu) and ⁷Li (7.016 amu). Which isotope is more abundant and why?",
+    "options": [
+      "⁶Li, because 6.941 is below the midpoint of 6.515",
+      "⁷Li, because 6.941 is much closer to 7.016 than to 6.015",
+      "Both equally, since 6.941 lies between 6 and 7",
+      "⁶Li, because lighter isotopes are always more stable"
+    ],
+    "correct": 1,
+    "explanation": "The weighted average mass is pulled toward the more abundant isotope. Since 6.941 is very close to 7.016 (difference 0.075) and far from 6.015 (difference 0.926), ⁷Li must dominate. Calculation: ~92.5% ⁷Li, ~7.5% ⁶Li."
+  },
+  {
+    "question": "Gallium has two isotopes: ⁶⁹Ga (68.93 amu) and ⁷¹Ga (70.92 amu). The average atomic mass is 69.72 amu. What are the fractional abundances of ⁶⁹Ga and ⁷¹Ga?",
+    "options": [
+      "50% ⁶⁹Ga, 50% ⁷¹Ga",
+      "39.9% ⁶⁹Ga, 60.1% ⁷¹Ga",
+      "60.1% ⁶⁹Ga, 39.9% ⁷¹Ga",
+      "70% ⁶⁹Ga, 30% ⁷¹Ga"
+    ],
+    "correct": 2,
+    "explanation": "Let f = fraction of ⁶⁹Ga. 69.72 = 68.93f + 70.92(1−f) = 70.92 − 1.99f. 1.99f = 1.20. f = 0.603 ≈ 60.1% ⁶⁹Ga; (1−f) = 39.9% ⁷¹Ga."
+  },
+  {
+    "question": "Boron has two isotopes: ¹⁰B (10.013 amu, 19.78%) and ¹¹B (11.009 amu, 80.22%). What is boron's standard atomic weight?",
+    "options": [
+      "21.02 amu",
+      "10.51 amu",
+      "10.01 amu",
+      "10.81 amu"
+    ],
+    "correct": 3,
+    "explanation": "Atomic weight = (10.013 × 0.1978) + (11.009 × 0.8022) = 1.981 + 8.830 = 10.811 amu ≈ 10.81 amu. Option A (21.02) is a simple sum; option B (10.51) is an unweighted average."
+  },
+  {
+    "question": "The absolute mass of a sodium atom is 3.818 × 10⁻²³ g. Given that 1 amu = 1.661 × 10⁻²⁴ g, what is the atomic mass of sodium in amu?",
+    "options": [
+      "22.99 amu",
+      "6.35 × 10⁻⁴⁷ amu",
+      "0.2297 amu",
+      "2.30 amu"
+    ],
+    "correct": 0,
+    "explanation": "Atomic mass = (3.818 × 10⁻²³ g)/(1.661 × 10⁻²⁴ g/amu) = 22.99 amu ≈ 23 amu. Option A results from multiplying instead of dividing. Option C misplaces the decimal."
+  },
+  {
+    "question": "Aluminium has an atomic mass of 26.98 amu. Given 1 amu = 1.661 × 10⁻²⁴ g, what is the absolute mass of one Al atom?",
+    "options": [
+      "4.48 × 10⁻²² g",
+      "4.48 × 10⁻²³ g",
+      "1.62 × 10²⁵ g",
+      "6.15 × 10⁻²⁶ g"
+    ],
+    "correct": 1,
+    "explanation": "Absolute mass = 26.98 amu × 1.661 × 10⁻²⁴ g/amu = 4.48 × 10⁻²³ g. Option B has the exponent off by 1; option C inverts the calculation."
+  },
+  {
+    "question": "A radio signal travels at the speed of light (c = 3 × 10⁸ m/s). How far does it travel in 0.25 s?",
+    "options": [
+      "1.2 × 10⁷ m",
+      "1.2 × 10⁹ m",
+      "7.5 × 10⁷ m",
+      "7.5 × 10⁹ m"
+    ],
+    "correct": 2,
+    "explanation": "d = c × t = (3 × 10⁸ m/s)(0.25 s) = 7.5 × 10⁷ m. Option A (1.2 × 10⁷) would result from using c = 4.8 × 10⁷, which is incorrect."
+  },
+  {
+    "question": "Arrange these electromagnetic radiations in order of INCREASING wavelength: gamma rays, UV light, microwaves, visible light.",
+    "options": [
+      "microwave < visible < UV < gamma",
+      "UV < gamma < visible < microwave",
+      "gamma < visible < UV < microwave",
+      "gamma < UV < visible < microwave"
+    ],
+    "correct": 3,
+    "explanation": "Wavelength increases as energy/frequency decreases: gamma (< 0.01 nm) < UV (10–400 nm) < visible (400–700 nm) < microwave (1 mm–1 m). Gamma rays carry the most energy and have the shortest wavelength."
+  },
+  {
+    "question": "Which of the following does NOT belong to the electromagnetic spectrum?",
+    "options": [
+      "Ultrasound waves",
+      "Infrared radiation",
+      "Gamma radiation",
+      "Radio waves"
+    ],
+    "correct": 0,
+    "explanation": "Ultrasound consists of mechanical pressure waves requiring a medium and frequencies above 20 kHz — not electromagnetic. All other options (IR, gamma, radio) are regions of the EM spectrum, which requires no medium to propagate."
+  },
+  {
+    "question": "What is the frequency of electromagnetic radiation with wavelength 9.0 × 10⁻¹⁸ m? (c = 3.0 × 10⁸ m/s)",
+    "options": [
+      "3.33 × 10²⁶ Hz",
+      "3.33 × 10²⁵ Hz",
+      "2.70 × 10⁻²⁶ Hz",
+      "3.33 × 10²² Hz"
+    ],
+    "correct": 1,
+    "explanation": "ν = c/λ = (3.0 × 10⁸ m/s)/(9.0 × 10⁻¹⁸ m) = (3.0/9.0) × 10²⁶ = 0.333 × 10²⁶ = 3.33 × 10²⁵ Hz. This falls in the hard X-ray/gamma range. Option D has exponent off by 3."
+  },
+  {
+    "question": "Light absorbed by certain diamonds has a frequency of 7.00 × 10¹⁴ Hz. What is its wavelength? (c = 3.00 × 10⁸ m/s)",
+    "options": [
+      "700 nm",
+      "42.9 nm",
+      "4.29 × 10⁻⁷ m",
+      "4290 nm"
+    ],
+    "correct": 2,
+    "explanation": "λ = c/ν = (3.00 × 10⁸)/(7.00 × 10¹⁴) = 4.286 × 10⁻⁷ m ≈ 429 nm (violet light). 700 nm would require ν ≈ 4.3 × 10¹⁴ Hz (red light). 42.9 nm is UV; 4290 nm is IR."
+  },
+  {
+    "question": "Green light has frequency 5.75 × 10¹⁴ Hz. What is its wavenumber (ν̃ = 1/λ) in cm⁻¹? (c = 3.00 × 10¹⁰ cm/s)",
+    "options": [
+      "1.74 × 10⁻⁵ cm⁻¹",
+      "5.75 × 10⁴ cm⁻¹",
+      "5.22 × 10⁻⁵ cm⁻¹",
+      "1.92 × 10⁴ cm⁻¹"
+    ],
+    "correct": 3,
+    "explanation": "λ = c/ν = (3.00 × 10¹⁰ cm/s)/(5.75 × 10¹⁴ Hz) = 5.22 × 10⁻⁵ cm. ν̃ = 1/λ = 1/(5.22 × 10⁻⁵) = 1.92 × 10⁴ cm⁻¹. Option D is wavelength in cm, not wavenumber. Option B confuses frequency with wavenumber."
+  },
+  {
+    "question": "What is the energy of a single photon with wavelength 600 nm? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
+    "options": [
+      "3.31 × 10⁻¹⁹ J",
+      "5.00 × 10¹⁴ J",
+      "3.31 × 10⁻²⁵ J",
+      "3.97 × 10⁻¹⁹ J"
+    ],
+    "correct": 0,
+    "explanation": "E = hc/λ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(6.00 × 10⁻⁷) = 1.988 × 10⁻²⁵/6.00 × 10⁻⁷ = 3.31 × 10⁻¹⁹ J. Option A (5.00 × 10¹⁴) is the frequency in Hz. Option B lacks the denominator wavelength."
+  },
+  {
+    "question": "The work function of iron is 7.21 × 10⁻¹⁹ J. What is the maximum wavelength of light that can eject an electron from iron? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
+    "options": [
+      "2.76 nm",
+      "276 nm",
+      "2760 nm",
+      "138 nm"
+    ],
+    "correct": 1,
+    "explanation": "λ_max = hc/φ = (6.626 × 10⁻³⁴ × 3.00 × 10⁸)/(7.21 × 10⁻¹⁹) = 1.988 × 10⁻²⁵/7.21 × 10⁻¹⁹ = 2.757 × 10⁻⁷ m ≈ 276 nm (UV region). Option B (2.76 nm) is X-ray range; option C (2760 nm) is IR. Option D would require φ = 2× higher."
+  },
+  {
+    "question": "Potassium has a threshold frequency ν₀ = 5.46 × 10¹⁴ Hz. Light of wavelength 350 nm strikes its surface. What is the kinetic energy of the ejected electron? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
+    "options": [
+      "2.06 × 10⁻¹⁸ J",
+      "5.69 × 10⁻¹⁹ J",
+      "2.06 × 10⁻¹⁹ J",
+      "3.62 × 10⁻¹⁹ J"
+    ],
+    "correct": 2,
+    "explanation": "ν = c/λ = 3.00×10⁸/3.50×10⁻⁷ = 8.57×10¹⁴ Hz. KE = h(ν−ν₀) = 6.626×10⁻³⁴ × (8.57−5.46)×10¹⁴ = 6.626×10⁻³⁴ × 3.11×10¹⁴ = 2.06×10⁻¹⁹ J. Option C is hν (photon energy alone); option D is hν₀ (the work function)."
+  },
+  {
+    "question": "A proton (m = 1.673 × 10⁻²⁷ kg) moves at 1.38 × 10⁵ m/s. What is its de Broglie wavelength? (h = 6.626 × 10⁻³⁴ J·s)",
+    "options": [
+      "0.287 pm",
+      "1.38 × 10⁵ pm",
+      "28.7 pm",
+      "2.87 pm"
+    ],
+    "correct": 3,
+    "explanation": "λ = h/(mv) = (6.626×10⁻³⁴)/((1.673×10⁻²⁷)(1.38×10⁵)) = 6.626×10⁻³⁴/(2.309×10⁻²²) = 2.87×10⁻¹² m = 2.87 pm. Note the velocity must be in m/s; if accidentally used cm/s, exponent error gives option A."
+  },
+  {
+    "question": "What is the de Broglie wavelength of an electron (m = 9.109 × 10⁻³¹ kg) moving at 40% of the speed of light? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
+    "options": [
+      "6.07 pm",
+      "60.7 pm",
+      "0.607 pm",
+      "2.43 pm"
+    ],
+    "correct": 0,
+    "explanation": "v = 0.40 × 3.00×10⁸ = 1.20×10⁸ m/s. λ = h/(mv) = 6.626×10⁻³⁴/((9.109×10⁻³¹)(1.20×10⁸)) = 6.626×10⁻³⁴/(1.093×10⁻²²) = 6.06×10⁻¹² m ≈ 6.07 pm. Option D (2.43 pm) results from using full c instead of 0.4c."
+  },
+  {
+    "question": "A microwave oven operates at wavelength 1.20 cm. What is the energy per mole of microwave photons? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10¹⁰ cm/s, Nₐ = 6.02 × 10²³)",
+    "options": [
+      "1.66 × 10⁻²³ J/mol",
+      "9.97 J/mol",
+      "99.7 J/mol",
+      "9.97 × 10² J/mol"
+    ],
+    "correct": 1,
+    "explanation": "E/photon = hc/λ = (6.626×10⁻³⁴ × 3.00×10¹⁰)/1.20 = 1.657×10⁻²³ J. E/mol = 1.657×10⁻²³ × 6.02×10²³ = 9.97 J/mol. Option A is the energy of a single photon, not per mole."
+  },
+  {
+    "question": "A photon has wavelength 600 nm and energy 3.31 × 10⁻¹⁹ J. How many such photons are required to deliver exactly 1.00 J of energy?",
+    "options": [
+      "3.31 × 10⁻¹⁹",
+      "6.02 × 10²³",
+      "3.02 × 10¹⁸",
+      "3.02 × 10¹⁹"
+    ],
+    "correct": 2,
+    "explanation": "N = Total energy / Energy per photon = 1.00 J / (3.31 × 10⁻¹⁹ J) = 3.02 × 10¹⁸ photons. Option B (6.02×10²³) is Avogadro's number, which would correspond to ~200 J, not 1 J. Option A is the reciprocal of photon energy."
+  },
+  {
+    "question": "A sample of neon gas is placed in a discharge tube and excited electrically. The light emitted passes through a prism. Which type of spectrum is observed?",
+    "options": [
+      "A continuous spectrum covering all visible wavelengths",
+      "A blackbody spectrum with peak wavelength depending on temperature",
+      "A dark-line absorption spectrum on a bright background",
+      "A bright-line emission spectrum at specific discrete wavelengths"
+    ],
+    "correct": 3,
+    "explanation": "Excited gas-phase atoms emit photons only when electrons drop between specific energy levels, producing a line emission spectrum — bright lines on a dark background at characteristic wavelengths unique to each element. Hot solids produce continuous/blackbody spectra."
+  },
+  {
+    "question": "Two flame test observations: sodium gives a persistent yellow flame; potassium gives a lilac flame. What is the correct interpretation?",
+    "options": [
+      "Each element's electrons have unique quantized energy levels, producing characteristic emission wavelengths",
+      "Different metals have different temperatures that shift blackbody emission",
+      "Flame color is due to continuous emission from molten metal droplets",
+      "Flame color depends only on the anion in the compound, not the metal"
+    ],
+    "correct": 0,
+    "explanation": "Flame color arises from electronic transitions unique to each element. Na emits at 589 nm (yellow; 3p→3s transition). K emits at ~766 nm with violet lines. These are quantized, element-specific transitions — the basis of flame spectroscopy."
+  },
+  {
+    "question": "Classical electrodynamics predicted that an electron orbiting a nucleus would continuously radiate energy and spiral into the nucleus. What key assumption did Bohr introduce to avoid this collapse?",
+    "options": [
+      "Electrons are stationary and do not orbit the nucleus",
+      "Electrons only exist in specific discrete orbits where they do not radiate, and energy is only emitted or absorbed during transitions",
+      "Electrons move in elliptical orbits, not circular ones",
+      "The nucleus is not positively charged, so there is no attraction"
+    ],
+    "correct": 1,
+    "explanation": "Bohr postulated 'allowed' orbits with quantized angular momentum (L = nh/2π) in which electrons do not radiate. Energy is released only when an electron falls to a lower allowed orbit, emitting a photon of exactly ΔE = hν. This incorporated Planck's quantum concept."
+  },
+  {
+    "question": "The Bohr radius for hydrogen-like ions is r = a₀n²/Z. What is the ratio of the first orbit (n=1) radii of H, He⁺, and Li²⁺?",
+    "options": [
+      "1:2:3",
+      "1:4:9",
+      "6:3:2",
+      "9:4:1"
+    ],
+    "correct": 2,
+    "explanation": "r(n=1): H: a₀/1 = a₀; He⁺: a₀/2; Li²⁺: a₀/3. Ratio = 1 : 1/2 : 1/3. Multiplying all by 6: 6 : 3 : 2. As Z increases, the nucleus pulls the electron closer, shrinking the orbit."
+  },
+  {
+    "question": "Which of the following is an original postulate of Bohr's atomic model?",
+    "options": [
+      "An electron emits energy continuously while in its orbit",
+      "The electron has both particle and wave character",
+      "Atomic spectra contain only five spectral lines",
+      "The electron can only occupy orbits where its angular momentum equals nh/2π"
+    ],
+    "correct": 3,
+    "explanation": "Bohr's quantization condition: L = mvr = nh/2π, restricting electrons to discrete orbits. Continuous emission (A) contradicts the model. Wave-particle duality (B) came from de Broglie (1924). The number of spectral lines (D) is not limited to five."
+  },
+  {
+    "question": "Two electronic transitions in the same atom emit photons. Transition X emits a photon with wavelength 656 nm (red); Transition Y emits a photon with wavelength 434 nm (violet). Which transition involves a larger energy gap?",
+    "options": [
+      "Y, because shorter wavelength corresponds to higher photon energy (E = hc/λ)",
+      "X, because longer wavelength means more energy",
+      "Both involve the same energy gap",
+      "X, because red light is more intense"
+    ],
+    "correct": 0,
+    "explanation": "E = hc/λ: energy is inversely proportional to wavelength. λ_Y = 434 nm < λ_X = 656 nm, so E_Y > E_X. Transition Y (violet photon, larger ΔE) connects levels further apart in energy than transition X (red photon)."
+  },
+  {
+    "question": "Bohr's model accurately predicts the emission spectrum of which of the following?",
+    "options": [
+      "Helium atom (Z=2, 2 electrons)",
+      "He⁺ ion (Z=2, 1 electron)",
+      "Li⁺ ion (Z=3, 2 electrons)",
+      "Hydrogen molecule H₂"
+    ],
+    "correct": 1,
+    "explanation": "Bohr's model works only for one-electron (hydrogen-like) species. He⁺ has 2 protons but only 1 electron — it is hydrogen-like with Z=2. Neutral He (2 electrons) requires quantum mechanics to handle electron-electron repulsion. H₂ is a molecule, not an atom."
+  },
+  {
+    "question": "In the hydrogen atom, which electronic transition absorbs the SMALLEST amount of energy?",
+    "options": [
+      "n=1 → n=2",
+      "n=2 → n=3",
+      "n=4 → n=5",
+      "n=3 → n=4"
+    ],
+    "correct": 2,
+    "explanation": "ΔE = 2.18×10⁻¹⁸(1/n₁² − 1/n₂²). As n increases, the energy levels become closer together. For n=4→5: ΔE ∝ (1/16 − 1/25) = 0.0225; for n=1→2: ΔE ∝ (1−1/4) = 0.750. The n=4→5 transition is smallest."
+  },
+  {
+    "question": "The Lyman series of hydrogen emission lines falls in which region of the electromagnetic spectrum?",
+    "options": [
+      "Infrared",
+      "Visible",
+      "Microwave",
+      "Ultraviolet"
+    ],
+    "correct": 3,
+    "explanation": "The Lyman series involves transitions to n=1 (lowest level), producing the largest energy gaps and shortest wavelengths. All Lyman lines fall in the UV range (91–122 nm). Balmer (→n=2) is visible; Paschen (→n=3) and higher series are infrared."
+  },
+  {
+    "question": "An electron in hydrogen transitions from n=5 to n=2. What wavelength of light is emitted? (ΔE = 2.18×10⁻¹⁸ J·(1/n₁²−1/n₂²); h = 6.626×10⁻³⁴ J·s; c = 3.00×10⁸ m/s)",
+    "options": [
+      "434 nm",
+      "121 nm",
+      "656 nm",
+      "868 nm"
+    ],
+    "correct": 0,
+    "explanation": "|ΔE| = 2.18×10⁻¹⁸(1/4 − 1/25) = 2.18×10⁻¹⁸ × 0.21 = 4.58×10⁻¹⁹ J. λ = hc/ΔE = (6.626×10⁻³⁴ × 3.00×10⁸)/4.58×10⁻¹⁹ = 4.34×10⁻⁷ m = 434 nm (violet Balmer line). 656 nm is Hα (n=3→2); 121 nm is Lyman-α (n=2→1)."
+  },
+  {
+    "question": "The first Balmer line (H-alpha) has wavelength 656.3 nm. What is the energy difference between the n=3 and n=2 levels? (h = 6.626×10⁻³⁴ J·s, c = 3.00×10⁸ m/s)",
+    "options": [
+      "2.18 × 10⁻¹⁸ J",
+      "3.03 × 10⁻¹⁹ J",
+      "3.03 × 10⁻¹⁸ J",
+      "6.56 × 10⁻⁷ J"
+    ],
+    "correct": 1,
+    "explanation": "ΔE = hc/λ = (6.626×10⁻³⁴ × 3.00×10⁸)/(6.563×10⁻⁷) = 1.988×10⁻²⁵/6.563×10⁻⁷ = 3.03×10⁻¹⁹ J. Option A (2.18×10⁻¹⁸) is the Rydberg energy (ionization energy of H ground state), not this transition."
+  },
+  {
+    "question": "A hydrogen atom emits a photon of wavelength 434 nm as an electron falls to n=2. From which initial level did the electron fall? (Use ΔE = hc/λ = 2.18×10⁻¹⁸(1/4 − 1/n²) J)",
+    "options": [
+      "n=3",
+      "n=4",
+      "n=5",
+      "n=6"
+    ],
+    "correct": 2,
+    "explanation": "ΔE = (6.626×10⁻³⁴ × 3.00×10⁸)/4.34×10⁻⁷ = 4.58×10⁻¹⁹ J. 4.58×10⁻¹⁹ = 2.18×10⁻¹⁸(0.25 − 1/n²). 0.25 − 1/n² = 0.210. 1/n² = 0.040. n² = 25. n = 5."
+  },
+  {
+    "question": "Energy released per photon when an electron drops from n=4 to n=3 in hydrogen is 1.06×10⁻¹⁹ J. How much energy is released per mole of atoms, and is it sufficient to break an H–H bond (436 kJ/mol)? (Nₐ = 6.02×10²³)",
+    "options": [
+      "6.38 kJ/mol — insufficient",
+      "638 kJ/mol — sufficient",
+      "63.8 kJ/mol — sufficient",
+      "63.8 kJ/mol — insufficient"
+    ],
+    "correct": 3,
+    "explanation": "E/mol = 1.06×10⁻¹⁹ × 6.02×10²³ = 6.38×10⁴ J/mol = 63.8 kJ/mol. This is far less than the 436 kJ/mol needed to break the H–H bond — insufficient. Option B incorrectly multiplies by 10; option A has a factor-of-10 error."
+  },
+  {
+    "question": "Using the Bohr model formula ΔE = 2.18×10⁻¹⁸(1/n₁²−1/n₂²) J, how much energy is required to ionize a hydrogen atom from its ground state (n=1)?",
+    "options": [
+      "2.18 × 10⁻¹⁸ J",
+      "−2.18 × 10⁻¹⁸ J",
+      "1.09 × 10⁻¹⁸ J",
+      "2.18 × 10⁻¹⁹ J"
+    ],
+    "correct": 0,
+    "explanation": "Ionization: n₁=1, n₂=∞. ΔE = 2.18×10⁻¹⁸(1/1²−0) = +2.18×10⁻¹⁸ J. The positive sign means energy must be absorbed. Option A is negative (wrong sign for ionization energy needed). Option D has incorrect exponent."
+  },
+  {
+    "question": "Given r_n = 0.529 Å × n², what is the radius of the n=4 orbit in hydrogen?",
+    "options": [
+      "2.12 Å",
+      "8.46 Å",
+      "0.0331 Å",
+      "84.6 Å"
+    ],
+    "correct": 1,
+    "explanation": "r₄ = 0.529 × 4² = 0.529 × 16 = 8.46 Å. Option A (2.12 Å) incorrectly uses n=4 instead of n²=16; that is 0.529 × 4. Option D applies n³ instead of n²."
+  },
+  {
+    "question": "An electron occupies a 2s orbital. Which set of quantum numbers (n, ℓ, mℓ, mₛ) is correct?",
+    "options": [
+      "2, 1, 0, +½",
+      "2, 0, 1, +½",
+      "2, 0, 0, +½",
+      "2, 1, 1, +½"
+    ],
+    "correct": 2,
+    "explanation": "2s: n=2 (second shell); ℓ=0 (s subshell); mℓ=0 (only value when ℓ=0); mₛ=+½ (spin up by convention). ℓ=1 describes a p orbital; mℓ=1 requires ℓ≥1."
+  },
+  {
+    "question": "For an electron with principal quantum number n=4, which set of values for the angular momentum quantum number ℓ is allowed?",
+    "options": [
+      "1, 2, 3, 4",
+      "0, 1, 2, 3, 4",
+      "1, 2, 3",
+      "0, 1, 2, 3"
+    ],
+    "correct": 3,
+    "explanation": "ℓ takes integer values from 0 to (n−1). For n=4: ℓ = 0 (4s), 1 (4p), 2 (4d), 3 (4f). The value ℓ=4 would require n≥5. ℓ=0 must be included (it describes the 4s subshell)."
+  },
+  {
+    "question": "Which electron has the highest energy?",
+    "options": [
+      "n=4, ℓ=2 (4d)",
+      "n=3, ℓ=2 (3d)",
+      "n=4, ℓ=0 (4s)",
+      "n=4, ℓ=1 (4p)"
+    ],
+    "correct": 0,
+    "explanation": "Using (n+ℓ): 3d: 3+2=5; 4s: 4+0=4; 4d: 4+2=6; 4p: 4+1=5. Highest (n+ℓ) = 6 → 4d has highest energy. When two subshells have the same (n+ℓ), the one with higher n has higher energy (4d vs 3d, same sum 6; 4d wins)."
+  },
+  {
+    "question": "An electron is in the 4f subshell. What is the value of its azimuthal (angular momentum) quantum number ℓ?",
+    "options": [
+      "0",
+      "3",
+      "4",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "Subshell letters correspond to fixed ℓ values: s=0, p=1, d=2, f=3. For the 4f subshell, ℓ=3 regardless of n. (Note ℓ=4 doesn't exist for n=4 since ℓ_max = n−1 = 3.)"
+  },
+  {
+    "question": "An electron has quantum numbers n=4 and mℓ=0. Which statement is correct?",
+    "options": [
+      "It must be in the 4s subshell (ℓ=0)",
+      "It must have ℓ=0",
+      "It could have ℓ = 0, 1, 2, or 3",
+      "It must have mₛ=0"
+    ],
+    "correct": 2,
+    "explanation": "mℓ=0 is a valid value for ALL subshells (each subshell has one orbital with mℓ=0). For n=4, ℓ can be 0, 1, 2, or 3, and each has an mℓ=0 orbital. Knowing only mℓ=0 does not specify ℓ. Also mₛ is always ±½, never 0."
+  },
+  {
+    "question": "Which set of quantum numbers (n, ℓ, mℓ) is NOT allowed?",
+    "options": [
+      "n=3, ℓ=2, mℓ=−2",
+      "n=1, ℓ=0, mℓ=0",
+      "n=8, ℓ=7, mℓ=−6",
+      "n=2, ℓ=0, mℓ=2"
+    ],
+    "correct": 3,
+    "explanation": "For ℓ=0, the only allowed mℓ value is 0. mℓ=2 is forbidden because |mℓ| must be ≤ ℓ. All other options are valid: option A has ℓ=2, so mℓ=−2 is allowed; option B is the 1s ground state; option D has ℓ=7, so mℓ=−6 is allowed."
+  },
+  {
+    "question": "What is the maximum number of electrons in a hydrogen atom with quantum numbers n=5 and mℓ=+1?",
+    "options": [
+      "8",
+      "2",
+      "4",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "For n=5, subshells with ℓ≥1 have orbitals with mℓ=+1: 5p (ℓ=1), 5d (ℓ=2), 5f (ℓ=3), 5g (ℓ=4) → 4 orbitals total. Each orbital holds 2 electrons (mₛ = +½ or −½). Maximum = 4 × 2 = 8 electrons."
+  },
+  {
+    "question": "What is the total number of orbitals in the n=4 shell?",
+    "options": [
+      "4",
+      "16",
+      "8",
+      "32"
+    ],
+    "correct": 1,
+    "explanation": "Total orbitals = n² = 4² = 16. These are: 1 (4s) + 3 (4p) + 5 (4d) + 7 (4f) = 16. Each orbital can hold 2 electrons, so maximum electrons = 2n² = 32."
+  },
+  {
+    "question": "What is the maximum number of electrons that the n=4 energy shell can hold?",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "18"
+    ],
+    "correct": 2,
+    "explanation": "Maximum electrons in shell n = 2n². For n=4: 2 × 16 = 32. (16 = n² gives the number of orbitals, not electrons; 18 is the maximum for period 3 elements, not the n=4 shell.)"
+  },
+  {
+    "question": "An electron has n=4 and ℓ=3. To which subshell does it belong?",
+    "options": [
+      "4p",
+      "3f",
+      "4d",
+      "4f"
+    ],
+    "correct": 3,
+    "explanation": "ℓ=3 corresponds to the f subshell. With n=4, the subshell is 4f. Note: 3f (n=3, ℓ=3) does not exist because ℓ must be less than n (ℓ_max for n=3 is 2)."
+  },
+  {
+    "question": "Arrange the subshells 4s, 4p, 4d, and 4f in order of INCREASING energy.",
+    "options": [
+      "4s < 4p < 4d < 4f",
+      "4f < 4d < 4p < 4s",
+      "4s < 4d < 4p < 4f",
+      "4p < 4s < 4d < 4f"
+    ],
+    "correct": 0,
+    "explanation": "Within the same principal shell (same n), energy increases with ℓ: s(ℓ=0) < p(ℓ=1) < d(ℓ=2) < f(ℓ=3). This results from greater electron penetration (and lower energy) for lower ℓ values. Order: 4s < 4p < 4d < 4f."
+  },
+  {
+    "question": "How many subshells and total orbitals does the n=5 shell contain?",
+    "options": [
+      "4 subshells, 16 orbitals",
+      "5 subshells, 25 orbitals",
+      "5 subshells, 10 orbitals",
+      "5 subshells, 50 orbitals"
+    ],
+    "correct": 1,
+    "explanation": "Number of subshells = n = 5 (5s, 5p, 5d, 5f, 5g). Total orbitals = n² = 25: 1+3+5+7+9=25. Maximum electrons = 2n² = 50 (option D is electrons, not orbitals)."
+  },
+  {
+    "question": "How many subshells exist in the n=6 shell?",
+    "options": [
+      "36",
+      "12",
+      "6",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "Number of subshells = n = 6: 6s, 6p, 6d, 6f, 6g, 6h. (36 = n² = total number of orbitals, not subshells. The n=6 shell has subshells corresponding to ℓ = 0, 1, 2, 3, 4, 5.)"
+  },
+  {
+    "question": "Which set of orbitals is degenerate (has equal energy) in an isolated hydrogen atom in the absence of external fields?",
+    "options": [
+      "2s and 2p",
+      "3s and 3p",
+      "1s and 2s",
+      "2pₓ, 2pᵧ, and 2p_z"
+    ],
+    "correct": 3,
+    "explanation": "Degenerate orbitals have the same n and ℓ but differ only in mℓ. The three 2p orbitals (mℓ = −1, 0, +1) all have n=2, ℓ=1 and are degenerate. Options A and B mix different ℓ values (different energies in multi-electron atoms). 1s and 2s differ in n."
+  },
+  {
+    "question": "An electron in a hydrogen atom moves at v = 5.00×10⁶ m/s with 1.00% uncertainty. Using Δx·mΔv ≥ h/(4π), what is the minimum uncertainty in its position? (m_e = 9.11×10⁻³¹ kg, h = 6.626×10⁻³⁴ J·s)",
+    "options": [
+      "1.16 × 10⁻⁹ m (11.6 Å)",
+      "1.16 × 10⁻¹⁰ m (1.16 Å)",
+      "5.00 × 10⁴ m",
+      "1.16 × 10⁻¹¹ m (0.116 Å)"
+    ],
+    "correct": 0,
+    "explanation": "Δv = 0.01 × 5.00×10⁶ = 5.00×10⁴ m/s. Δx ≥ h/(4πmΔv) = 6.626×10⁻³⁴/(4π × 9.11×10⁻³¹ × 5.00×10⁴) = 6.626×10⁻³⁴/(5.73×10⁻²⁵) = 1.16×10⁻⁹ m ≈ 11.6 Å. This is ~12× the H atom diameter (<1 Å), showing position cannot be precisely known."
+  },
+  {
+    "question": "Which set of subshell designations does NOT exist?",
+    "options": [
+      "2p, 3d, 4f",
+      "1p, 2d, 3f",
+      "1s, 2s, 3s",
+      "2s, 3p, 4d"
+    ],
+    "correct": 1,
+    "explanation": "A subshell nℓ requires ℓ < n. 1p: n=1, ℓ=1 — invalid (ℓ must be < 1, i.e., ℓ=0 only). 2d: n=2, ℓ=2 — invalid (ℓ_max=1 for n=2). 3f: n=3, ℓ=3 — invalid (ℓ_max=2 for n=3). All three violate the rule, so set D doesn't exist."
+  },
+  {
+    "question": "What is the ground-state electron configuration of the nitride ion N³⁻ (Z=7)?",
+    "options": [
+      "1s² 2s² 2p¹",
+      "1s² 2s² 2p³",
+      "1s² 2s² 2p⁶",
+      "1s² 2s²"
+    ],
+    "correct": 2,
+    "explanation": "N³⁻ has 7 + 3 = 10 electrons. The configuration filling 10 electrons: 1s²(2) 2s²(4) 2p⁶(10) = 1s²2s²2p⁶, identical to neon. This is why N³⁻ is isoelectronic with Ne."
+  },
+  {
+    "question": "An orbital energy diagram shows: 2s: ↑ (one electron); 2p: ↑↓ ↑ ↑ (four electrons). Which principle does this violate?",
+    "options": [
+      "Pauli exclusion principle",
+      "Hund's rule",
+      "Heisenberg uncertainty principle",
+      "Aufbau principle"
+    ],
+    "correct": 3,
+    "explanation": "Aufbau requires lower-energy orbitals to fill before higher ones. Here, 2s has only 1 electron while 2p already has 4 — electrons have entered the higher 2p subshell before the lower 2s is completely filled. This violates Aufbau."
+  },
+  {
+    "question": "Which electron configuration correctly applies Hund's rule for the 3p subshell?",
+    "options": [
+      "3pₓ: ↑, 3pᵧ: ↑, 3p_z: ↑ (three electrons, all unpaired)",
+      "3pₓ: ↑↓, 3pᵧ: ↑↓, 3p_z: ↑↓ (six electrons, fully paired)",
+      "3pₓ: ↑↓, 3pᵧ: ↑, 3p_z: (one pairing before all orbitals singly occupied)",
+      "3pₓ: ↑↓, 3pᵧ: , 3p_z: (two electrons in one orbital, leaving others empty)"
+    ],
+    "correct": 0,
+    "explanation": "Hund's rule: degenerate orbitals are singly occupied before any pairing occurs, and single electrons have parallel spins. For 3 electrons in 3p, the correct diagram is one electron in each of 3pₓ, 3pᵧ, 3p_z — all with same spin direction. Options B and D pair electrons before all orbitals are singly filled."
+  },
+  {
+    "question": "What is the maximum number of unpaired electrons possible in a d-subshell, and in which configuration does this occur?",
+    "options": [
+      "3 unpaired — d³",
+      "5 unpaired — d⁵",
+      "4 unpaired — d⁴",
+      "2 unpaired — d²"
+    ],
+    "correct": 1,
+    "explanation": "A d-subshell has 5 orbitals. By Hund's rule, each is occupied singly before pairing begins. With d⁵ (5 electrons), each orbital has exactly one electron — all 5 unpaired with parallel spins. This half-filled configuration is exceptionally stable (e.g., Mn: [Ar]4s²3d⁵, Cr: [Ar]4s¹3d⁵)."
+  },
+  {
+    "question": "An element has the ground-state configuration [Ar] 3d¹⁰ 4s² 4p⁵. What is its atomic number and chemical symbol?",
+    "options": [
+      "Z=33, As",
+      "Z=53, I",
+      "Z=35, Br",
+      "Z=17, Cl"
+    ],
+    "correct": 2,
+    "explanation": "Electron count: Ar(18) + 3d¹⁰(10) + 4s²(2) + 4p⁵(5) = 35. Z=35 is Bromine (Br), in period 4, Group VIIA. Iodine (Z=53) is in period 5 with configuration [Kr]4d¹⁰5s²5p⁵; Cl (Z=17) is [Ne]3s²3p⁵."
+  },
+  {
+    "question": "A carbon atom (Z=6) has configuration 1s²2s²2p². Its 2p electrons are shown as [↑↓][_][_] (both in the same 2p orbital). Which rule does this violate and why?",
+    "options": [
+      "Aufbau principle — 2p should fill before 2s",
+      "Pauli exclusion principle — two electrons cannot share an orbital",
+      "Heisenberg uncertainty — electron position is not defined",
+      "Hund's rule — degenerate orbitals should each receive one electron before pairing"
+    ],
+    "correct": 3,
+    "explanation": "Hund's rule requires that degenerate orbitals (the three 2p orbitals) be singly occupied before any pairing. The correct 2p diagram for carbon is [↑][↑][_], with electrons in separate orbitals. Pairing in a single orbital while others are empty violates Hund's rule."
+  },
+  {
+    "question": "The Pauli exclusion principle restricts the occupancy of each atomic orbital to a maximum of two electrons. What is the fundamental reason for this restriction?",
+    "options": [
+      "No two electrons in an atom can have identical sets of all four quantum numbers",
+      "Two electrons with the same spin repel each other electrostatically",
+      "More than two electrons would exceed the orbital's volume",
+      "Electron-electron repulsion prevents more than two electrons per orbital"
+    ],
+    "correct": 0,
+    "explanation": "The Pauli exclusion principle states that no two electrons in an atom may have the same four quantum numbers (n, ℓ, mℓ, mₛ). Two electrons in the same orbital share n, ℓ, and mℓ, so they must differ in mₛ (+½ vs −½). A third electron would require a repeated set — forbidden."
+  },
+  {
+    "question": "The expected Aufbau configuration of copper would be [Ar]4s²3d⁹, but the actual ground state is [Ar]4s¹3d¹⁰. What principle explains this deviation?",
+    "options": [
+      "Hund's rule: half-filled orbitals are more stable",
+      "Extra stability of a completely filled d-subshell favors the 3d¹⁰ configuration",
+      "Pauli exclusion: the 3d subshell cannot hold more than 9 electrons",
+      "The 4s orbital is higher in energy than 3d for Z > 20"
+    ],
+    "correct": 1,
+    "explanation": "A completely filled d-subshell (3d¹⁰) has extra stability due to symmetrical charge distribution and exchange energy. This stabilization is large enough to promote one 4s electron to 3d, giving [Ar]4s¹3d¹⁰. Similarly, Cr adopts [Ar]4s¹3d⁵ for the half-filled 3d⁵ stability."
+  },
+  {
+    "question": "A lanthanide element has the ground-state configuration [Xe]6s²4f⁷. What is its atomic number?",
+    "options": [
+      "Z=61 (Pm)",
+      "Z=65 (Tb)",
+      "Z=63 (Eu)",
+      "Z=70 (Yb)"
+    ],
+    "correct": 2,
+    "explanation": "Z(Xe)=54. Adding 6s²(2) + 4f⁷(7) = 9 electrons: Z = 54 + 9 = 63, which is Europium (Eu). Note: 4f⁷ is a half-filled f-subshell — a stable configuration, consistent with Eu. Z=70 (Yb) has 4f¹⁴ (full); Z=65 (Tb) has 4f⁹."
+  },
+  {
+    "question": "Potassium (Z=19) has the ground-state configuration [Ar]4s¹. Which set of quantum numbers (n, ℓ, mℓ, mₛ) correctly describes its valence electron?",
+    "options": [
+      "n=3, ℓ=0, mℓ=0, mₛ=+½",
+      "n=4, ℓ=1, mℓ=0, mₛ=+½",
+      "n=4, ℓ=0, mℓ=1, mₛ=+½",
+      "n=4, ℓ=0, mℓ=0, mₛ=+½"
+    ],
+    "correct": 3,
+    "explanation": "The valence electron is in 4s: n=4, ℓ=0 (s), mℓ=0 (only option for ℓ=0), mₛ=+½ (single electron, spin up by convention). Option A describes a 3s electron. Option B describes a 4p electron."
+  },
+  {
+    "question": "What is the ground-state electron configuration of the bromide ion Br⁻ (Z=35)?",
+    "options": [
+      "[Kr]",
+      "[Ar] 4s² 3d¹⁰ 4p⁵",
+      "[Xe]",
+      "[Kr] 5s¹"
+    ],
+    "correct": 0,
+    "explanation": "Br⁻ has 35 + 1 = 36 electrons. The element with Z=36 is krypton (Kr). So Br⁻ has the electron configuration of Kr: [Ar]3d¹⁰4s²4p⁶, written compactly as [Kr]. Option A is neutral Br (35 electrons)."
+  },
+  {
+    "question": "Two electrons share the same orbital (n=3, ℓ=1, mℓ=0). According to the Pauli exclusion principle, how must they differ?",
+    "options": [
+      "One must be in a 3p orbital and the other in a 3d orbital",
+      "They must have opposite spin quantum numbers (mₛ = +½ and −½)",
+      "They must have different principal quantum numbers",
+      "They must have different magnetic quantum numbers"
+    ],
+    "correct": 1,
+    "explanation": "Since both electrons share n=3, ℓ=1, and mℓ=0, the only quantum number available to differ is mₛ. By the Pauli exclusion principle, they must have opposite spins: mₛ = +½ and −½. This limits each orbital to exactly 2 electrons."
+  },
+  {
+    "question": "Chromium (Z=24) has the ground-state configuration [Ar]4s¹3d⁵. How many unpaired electrons does it have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "The 3d⁵ subshell: 5 electrons in 5 orbitals — each singly occupied by Hund's rule → 5 unpaired. The 4s¹ has 1 unpaired electron. Total = 5 + 1 = 6 unpaired electrons. This unusually high number (due to the half-filled d-subshell stability) makes Cr strongly paramagnetic."
+  },
+  {
+    "question": "Which electron configuration violates the Aufbau principle?",
+    "options": [
+      "1s²2s²2p⁶3s¹ (Na, Z=11)",
+      "1s²2s²2p⁶3s²3p⁶4s² (Ca, Z=20)",
+      "1s²2s²2p⁶3s²3p⁶3d¹⁰4s¹ (Cu, Z=29 actual)",
+      "1s²2s²3s¹ (electron in 3s before 2p is filled)"
+    ],
+    "correct": 3,
+    "explanation": "In configuration D, the 2p subshell (lower energy, n+ℓ = 3) is completely skipped while 3s (n+ℓ = 3, higher n) is occupied. This violates Aufbau — all lower-energy subshells must be filled before higher ones. Options A, B, C are valid ground-state or accepted configurations."
+  },
+  {
+    "question": "Which species has the greatest number of unpaired electrons: S (Z=16), S⁺, or S⁻?",
+    "options": [
+      "S⁺ — removing one electron from S gives a half-filled 3p³ configuration",
+      "S⁻ — extra electron causes more unpairing",
+      "S — neutral sulfur has the most unpaired electrons",
+      "All three have equal unpaired electrons"
+    ],
+    "correct": 0,
+    "explanation": "S: [Ne]3s²3p⁴ → 3p: ↑↓ ↑ ↑ → 2 unpaired. S⁻: [Ne]3s²3p⁵ → 3p: ↑↓ ↑↓ ↑ → 1 unpaired. S⁺: [Ne]3s²3p³ → 3p: ↑ ↑ ↑ → 3 unpaired (half-filled, Hund's rule). S⁺ has the most unpaired electrons."
+  },
+  {
+    "question": "An atom in an excited state has configuration 1s²2s²2p⁶4s¹ (11 electrons). What is its ground-state configuration and element?",
+    "options": [
+      "1s²2s²2p⁶4s¹ — this IS the ground state of Na",
+      "1s²2s²2p⁶3s¹ — Na with electron returned to 3s",
+      "1s²2s²2p⁶3s²3p¹ — Al in ground state",
+      "1s²2s²2p⁶3s²3p⁶ — Ar"
+    ],
+    "correct": 1,
+    "explanation": "The atom has 11 electrons → Z=11 → Sodium. In the excited state, the 3s electron has been promoted to 4s, leaving 3s empty. The ground state places all electrons in the lowest available orbitals: 1s²2s²2p⁶3s¹."
+  },
+  {
+    "question": "What is the correct full ground-state electron configuration of bromine (Z=35)?",
+    "options": [
+      "[Ar]3d⁵4s²4p¹⁰",
+      "[Kr]4p⁵",
+      "[Ar]3d¹⁰4s²4p⁵",
+      "[Ar]3d¹⁰4s²4p⁷"
+    ],
+    "correct": 2,
+    "explanation": "After Ar (Z=18): fill 4s²(2) then 3d¹⁰(10) then 4p⁵(5) = 17 more electrons → Z = 18+17 = 35. Full: [Ar]3d¹⁰4s²4p⁵. Option B ([Kr]4p⁵) would require 36+5=41 electrons. A 4p subshell holds max 6 electrons, not 7."
+  },
+  {
+    "question": "Using the (n+ℓ) rule, arrange subshells 3p, 4s, 3d, and 4p in order of INCREASING energy.",
+    "options": [
+      "3d < 3p < 4s < 4p",
+      "4s < 3p < 3d < 4p",
+      "3p < 3d < 4s < 4p",
+      "3p < 4s < 3d < 4p"
+    ],
+    "correct": 3,
+    "explanation": "(n+ℓ): 3p=4, 4s=4, 3d=5, 4p=5. When (n+ℓ) ties, lower n has lower energy. Tie at 4: 3p (n=3) < 4s (n=4). Tie at 5: 3d (n=3) < 4p (n=4). Final order: 3p < 4s < 3d < 4p. This explains why 4s fills before 3d."
+  },
+  {
+    "question": "Mendeleev's original periodic law (1869) stated that properties of elements are periodic functions of their atomic masses. What is the correct basis of the MODERN periodic law?",
+    "options": [
+      "Atomic number (number of protons)",
+      "Electron configuration",
+      "Atomic radius",
+      "Atomic mass"
+    ],
+    "correct": 0,
+    "explanation": "Moseley (1913) showed that atomic number (Z = proton count), not atomic mass, is the true organising principle. This resolved anomalies in Mendeleev's table (e.g., Ar/K, Co/Ni) where mass-based ordering contradicted chemical properties."
+  },
+  {
+    "question": "In 1817, Johann Döbereiner grouped elements into 'triads.' Which principle governed these triads?",
+    "options": [
+      "Elements are arranged in order of increasing atomic number",
+      "The middle element's atomic mass is approximately the average of the other two",
+      "Every eighth element has similar properties",
+      "Elements with similar electron configurations form groups"
+    ],
+    "correct": 1,
+    "explanation": "Döbereiner's triads: e.g., Li(7), Na(23), K(39) — Na's mass ≈ (7+39)/2 = 23 ✓; Cl(35.5), Br(80), I(127) — Br ≈ (35.5+127)/2 = 81 ✓. This was the first observation of periodic behavior, though it only worked for select groups."
+  },
+  {
+    "question": "Mendeleev's periodic table placed tellurium (Te, mass 127.6) before iodine (I, mass 126.9) despite Te having a greater atomic mass. Which is the correct explanation for this placement, and what was the fundamental limitation revealed?",
+    "options": [
+      "Mendeleev placed Te before I based on electron configuration; his table was based on atomic number",
+      "Mendeleev placed I before Te but made an error; his table had many such mistakes",
+      "Mendeleev placed Te before I to match chemical properties; his table could not explain why atomic number, not mass, is the true ordering property",
+      "Mendeleev deliberately left this as a gap for an undiscovered element between Te and I"
+    ],
+    "correct": 2,
+    "explanation": "Mendeleev recognised that Te (Group VIA, like S) and I (Group VIIA, like Cl) must occupy those positions based on properties, even though Te's mass is slightly higher. This 'inversion' could not be explained by his mass-based law — it required Moseley's atomic number concept (1913)."
+  },
+  {
+    "question": "Lothar Meyer and Mendeleev independently developed periodic classifications around 1869. Mendeleev received greater recognition primarily because he",
+    "options": [
+      "Used atomic number instead of atomic mass as the ordering principle",
+      "Discovered the noble gases and incorporated them into the table",
+      "Arranged elements alphabetically within each group",
+      "Left deliberate gaps and predicted the properties of undiscovered elements with remarkable accuracy"
+    ],
+    "correct": 3,
+    "explanation": "Mendeleev explicitly left blanks for undiscovered elements (eka-boron, eka-aluminium, eka-silicon) and predicted their physical and chemical properties. The subsequent discovery of Sc, Ga, and Ge with properties closely matching his predictions was a triumph that cemented his legacy."
+  }
+]
