@@ -1,0 +1,754 @@
+[
+  {
+    "question": "A car starts from rest and accelerates at 2.5 m/s² for 10 s, maintains that speed for 5 s, then decelerates at 0.5 m/s² to rest. What is the total distance traveled?",
+    "options": ["625 m", "875 m", "750 m", "550 m"],
+    "correct": 1,
+    "explanation": "Phase 1: v = 0 + 2.5×10 = 25 m/s, d₁ = ½×2.5×100 = 125 m. Phase 2: d₂ = 25×5 = 125 m. Phase 3: t₃ = 25/0.5 = 50 s, d₃ = 25×50 − ½×0.5×2500 = 1250 − 625 = 625 m. Total = 125 + 125 + 625 = 875 m."
+  },
+  {
+    "question": "A ball of mass 200 g is swung in a vertical circle of radius 0.8 m at 6 m/s. What is the tension in the string at the BOTTOM of the circle?",
+    "options": ["11 N", "7 N", "9 N", "2 N"],
+    "correct": 0,
+    "explanation": "At the bottom, T − mg = mv²/r. T = m(g + v²/r) = 0.2×(10 + 36/0.8) = 0.2×(10 + 45) = 0.2×55 = 11 N."
+  },
+  {
+    "question": "A rock is thrown straight up. As it rises, which statement correctly describes the energy transformation?",
+    "options": [
+      "Total mechanical energy increases",
+      "Kinetic energy increases and potential energy decreases",
+      "Both kinetic and potential energy remain constant",
+      "Kinetic energy decreases and potential energy increases"
+    ],
+    "correct": 3,
+    "explanation": "Ignoring air resistance, total mechanical energy is conserved. As the rock rises, speed decreases so KE decreases, while height increases so PE increases. KE converts to PE."
+  },
+  {
+    "question": "A particle's velocity is given by V(t) = 5t² − 2t m/s. What is the acceleration at t = 3 s?",
+    "options": ["10 m/s²", "28 m/s²", "39 m/s²", "45 m/s²"],
+    "correct": 1,
+    "explanation": "a(t) = dV/dt = 10t − 2. At t = 3: a = 10(3) − 2 = 30 − 2 = 28 m/s²."
+  },
+  {
+    "question": "A car of mass 1200 kg accelerates from 5 m/s to 15 m/s with a constant engine force of 6000 N. Over what distance does this force act?",
+    "options": ["60 m", "30 m", "20 m", "10 m"],
+    "correct": 2,
+    "explanation": "By the work-energy theorem: F·d = ΔKE = ½m(v₂²−v₁²) = ½×1200×(225−25) = 600×200 = 120 000 J. Therefore d = 120 000/6000 = 20 m."
+  },
+  {
+    "question": "Two pistons form a hydraulic lift. The smaller piston has area 0.05 m² and the larger has area 2 m². What force from the smaller piston is needed to lift a 1200 kg car, and what is the fluid pressure?",
+    "options": [
+      "P = 6×10³ Pa, F = 3×10² N",
+      "P = 1.2×10⁴ Pa, F = 5×10² N",
+      "P = 6×10² Pa, F = 2×10² N",
+      "P = 2.4×10³ Pa, F = 4×10² N"
+    ],
+    "correct": 0,
+    "explanation": "Weight of car = 1200×10 = 12 000 N. P = F_large/A_large = 12000/2 = 6000 Pa = 6×10³ Pa. F_small = P×A_small = 6000×0.05 = 300 N = 3×10² N."
+  },
+  {
+    "question": "A spring (k = 200 N/m) is compressed 5 cm and launches a 10 g ball. What is the ball's launch speed?",
+    "options": ["5 m/s", "5√2 m/s", "2 m/s", "10 m/s"],
+    "correct": 1,
+    "explanation": "Energy stored: E = ½kx² = ½×200×(0.05)² = ½×200×0.0025 = 0.25 J. Kinetic energy: ½mv² = 0.25. v² = 2×0.25/0.01 = 50. v = √50 = 5√2 m/s ≈ 7.07 m/s."
+  },
+  {
+    "question": "A spring (k = 150 N/m) is stretched 10 cm on a frictionless surface with a 100 g mass attached. What is the maximum speed of the mass?",
+    "options": ["√15 m/s", "10√15 m/s", "15√10 m/s", "5√5 m/s"],
+    "correct": 0,
+    "explanation": "At max speed all PE converts to KE: ½kx² = ½mv². v² = kx²/m = 150×(0.1)²/0.1 = 150×0.01/0.1 = 15. v = √15 m/s."
+  },
+  {
+    "question": "A building is 70 m high. An 80 kg man falls from the top. What is his speed at a height of 30 m above the ground?",
+    "options": ["20√2 m/s", "20 m/s", "2√10 m/s", "40 m/s"],
+    "correct": 0,
+    "explanation": "Using energy conservation: v² = 2g×Δh = 2×10×(70−30) = 2×10×40 = 800. v = √800 = 20√2 m/s ≈ 28.3 m/s."
+  },
+  {
+    "question": "A 10 kg block is released from rest at the top of a smooth inclined plane 10 m long at 30°. What is the speed at the bottom?",
+    "options": ["5 m/s", "10 m/s", "√50 m/s", "2√5 m/s"],
+    "correct": 1,
+    "explanation": "Height h = 10×sin30° = 5 m. By conservation of energy: v² = 2gh = 2×10×5 = 100 m²/s². Therefore v = 10 m/s."
+  },
+  {
+    "question": "Which of the following is NOT a correct statement about action-reaction pairs (Newton's Third Law)?",
+    "options": [
+      "They are equal in magnitude and opposite in direction",
+      "They act on two different bodies",
+      "Action-reaction pairs can cancel each other",
+      "A book on a table exerts a downward force on the table equal to the table's upward force on the book"
+    ],
+    "correct": 2,
+    "explanation": "Action-reaction pairs act on DIFFERENT bodies and therefore cannot cancel each other. Cancellation requires forces on the same body. The pair being equal, opposite, and on different objects is the essence of Newton's 3rd Law."
+  },
+  {
+    "question": "Three masses m₁ = 200 g, m₂ = 500 g, m₃ = 700 g are placed at coordinates (−4, 3), (8, 6), and (5, 7) cm. What are the x and y coordinates of the center of mass?",
+    "options": [
+      "(67/14, 85/14) cm",
+      "(47/14, 35/14) cm",
+      "(27/14, 45/14) cm",
+      "(77/14, 65/14) cm"
+    ],
+    "correct": 0,
+    "explanation": "Total mass M = 1400 g. x_cm = (200×(−4) + 500×8 + 700×5)/1400 = (−800 + 4000 + 3500)/1400 = 6700/1400 = 67/14 cm. y_cm = (200×3 + 500×6 + 700×7)/1400 = (600 + 3000 + 4900)/1400 = 8500/1400 = 85/14 cm."
+  },
+  {
+    "question": "A box weighing 60 N rests on a ramp inclined at 30° to the horizontal and is in limiting equilibrium. What is the coefficient of static friction?",
+    "options": ["0.58", "0.72", "0.63", "0.94"],
+    "correct": 0,
+    "explanation": "At limiting equilibrium: friction = component of weight along ramp. μ = tan30° = sin30°/cos30° = 0.5/0.866 ≈ 0.577 ≈ 0.58."
+  },
+  {
+    "question": "A ball of mass 500 g moving at [5, 2] m/s bounces off a vertical wall. The x-component reverses but y-component is unchanged. What is the impulse delivered to the ball?",
+    "options": [
+      "[−5, 0] kg·m/s",
+      "[5, 0] kg·m/s",
+      "[0, 5] kg·m/s",
+      "[0, −5] kg·m/s"
+    ],
+    "correct": 0,
+    "explanation": "Initial momentum = 0.5×[5, 2] = [2.5, 1] kg·m/s. After bounce: velocity = [−5, 2] m/s, momentum = [−2.5, 1] kg·m/s. Impulse = Δp = [−2.5−2.5, 1−1] = [−5, 0] kg·m/s."
+  },
+  {
+    "question": "Particle A (2 kg, velocity (6, −2) m/s) collides with particle B (3 kg, velocity (10, 8) m/s). They stick together. What is the velocity of the combined mass?",
+    "options": [
+      "(42/5, 4) m/s",
+      "(12, −4) m/s",
+      "(30, 24) m/s",
+      "(12/5, 8) m/s"
+    ],
+    "correct": 0,
+    "explanation": "By conservation of momentum: (m_A + m_B)v = m_A×v_A + m_B×v_B. v_x = (2×6 + 3×10)/5 = (12+30)/5 = 42/5 = 8.4 m/s. v_y = (2×(−2) + 3×8)/5 = (−4+24)/5 = 20/5 = 4 m/s. So v = (42/5, 4) m/s."
+  },
+  {
+    "question": "A machine uses 80 N effort over 8 m to lift a 100 N load through 4 m. What is the efficiency?",
+    "options": ["62.5%", "80%", "74.6%", "85%"],
+    "correct": 0,
+    "explanation": "Efficiency = (useful work output/total work input) × 100. Output = 100×4 = 400 J. Input = 80×8 = 640 J. Efficiency = 400/640 × 100 = 62.5%."
+  },
+  {
+    "question": "What average power must be supplied to push a 10 kg block from rest to 20 m/s in 5 s on a surface with μₖ = 0.2? (Uniform acceleration assumed)",
+    "options": ["1000 W", "200 W", "500 W", "600 W"],
+    "correct": 3,
+    "explanation": "a = Δv/t = 20/5 = 4 m/s². F_net = ma = 10×4 = 40 N. F_friction = μₖmg = 0.2×10×10 = 20 N. F_applied = 40 + 20 = 60 N. Distance = ½at² = ½×4×25 = 50 m. Work = 60×50 = 3000 J. Power = W/t = 3000/5 = 600 W."
+  },
+  {
+    "question": "A water container with displacement [5, 1] m is dragged by force [50, 25] N. What is the total work done?",
+    "options": ["250 J", "275 J", "125 J", "300 J"],
+    "correct": 1,
+    "explanation": "W = F⃗ · d⃗ = F_x×d_x + F_y×d_y = 50×5 + 25×1 = 250 + 25 = 275 J."
+  },
+  {
+    "question": "The spreading of waves when they pass through a gap or around an obstacle is called:",
+    "options": ["Interference", "Diffraction", "Refraction", "Reflection"],
+    "correct": 1,
+    "explanation": "Diffraction is the bending and spreading of waves when they encounter an obstacle or pass through a gap. Its extent depends on the ratio of wavelength to gap size."
+  },
+  {
+    "question": "A copper wire has resistivity 2×10⁻⁸ Ω·m, cross-section 1 mm², and length 3 m. What is its resistance?",
+    "options": ["6×10⁻² Ω", "3×10⁻² Ω", "1.5×10⁻² Ω", "4×10⁻² Ω"],
+    "correct": 0,
+    "explanation": "R = ρL/A = (2×10⁻⁸ × 3)/(1×10⁻⁶) = 6×10⁻⁸/10⁻⁶ = 6×10⁻² Ω."
+  },
+  {
+    "question": "A child claps near a building. The echo returns in 0.6 s. If the speed of sound is 340 m/s, how far is the child from the building?",
+    "options": ["204 m", "51 m", "102 m", "170 m"],
+    "correct": 2,
+    "explanation": "The sound travels to the wall and back: total distance = 340×0.6 = 204 m. Distance to wall = 204/2 = 102 m."
+  },
+  {
+    "question": "A toy submarine weighs 6.2 N in air and 4.6 N when immersed in water. What are the buoyant force and the weight of displaced water?",
+    "options": ["10.8 N, 1.6 N", "10.8 N, 10.8 N", "1.6 N, 1.6 N", "6.2 N, 4.6 N"],
+    "correct": 2,
+    "explanation": "Buoyant force = weight in air − apparent weight in water = 6.2 − 4.6 = 1.6 N. By Archimedes' principle, the weight of displaced water equals the buoyant force = 1.6 N."
+  },
+  {
+    "question": "A floating wooden block has volume 0.4 m³ and displaces 0.3 m³ of water. What is the density of the block?",
+    "options": ["750 kg/m³", "300 kg/m³", "400 kg/m³", "450 kg/m³"],
+    "correct": 0,
+    "explanation": "For a floating object: ρ_block × V_block = ρ_water × V_displaced. ρ_block = 1000×0.3/0.4 = 750 kg/m³."
+  },
+  {
+    "question": "A diver is 20 m below the ocean surface. The atmospheric pressure is 101 kPa and ρ_water = 1000 kg/m³. What is the total pressure on the diver?",
+    "options": ["301 kPa", "101 kPa", "200 kPa", "120 kPa"],
+    "correct": 0,
+    "explanation": "P_total = P_atm + ρgh = 101 000 + 1000×10×20 = 101 000 + 200 000 = 301 000 Pa = 301 kPa."
+  },
+  {
+    "question": "An iron drain cover has surface area 0.75 m² at 20°C. It is heated to 50°C. Given α_iron = 1.1×10⁻⁵ K⁻¹, what is the increase in surface area?",
+    "options": ["4.95×10⁻⁴ m²", "6.6×10⁻⁴ m²", "2.2×10⁻⁵ m²", "7.5×10⁻⁵ m²"],
+    "correct": 0,
+    "explanation": "β = 2α = 2.2×10⁻⁵ K⁻¹. ΔA = βA₀ΔT = 2.2×10⁻⁵ × 0.75 × 30 = 4.95×10⁻⁴ m²."
+  },
+  {
+    "question": "A 300 g block of brass at 298 K is supplied with 1026 J of heat from a heater (no heat loss). Given c_brass = 380 J/(kg·K), what is the final temperature?",
+    "options": ["9 K", "170 K", "307 K", "12 K"],
+    "correct": 2,
+    "explanation": "Q = mcΔT → ΔT = Q/(mc) = 1026/(0.3×380) = 1026/114 = 9 K. T_final = 298 + 9 = 307 K."
+  },
+  {
+    "question": "A flat coil of 20 turns, each with area 50 cm², is in a uniform magnetic field that increases from 2 T to 6 T in 2 s. What is the magnitude of the induced EMF?",
+    "options": ["0.2 V", "0.4 V", "0.6 V", "0.8 V"],
+    "correct": 0,
+    "explanation": "EMF = N × A × (ΔB/Δt) = 20 × (50×10⁻⁴) × (6−2)/2 = 20 × 0.005 × 2 = 0.2 V."
+  },
+  {
+    "question": "A transformer has 8000 primary turns and 200 secondary turns, with 240 V supplied to the primary. Assuming ideal operation, what is the ratio of output current to input current?",
+    "options": ["40", "60", "0.75", "0.025"],
+    "correct": 0,
+    "explanation": "For an ideal transformer, I_out/I_in = N_primary/N_secondary = 8000/200 = 40. (Power conservation: V_p×I_p = V_s×I_s, so I_s/I_p = V_p/V_s = N_p/N_s = 40.)"
+  },
+  {
+    "question": "A charged particle of mass 1.7×10⁻²⁷ kg moves at 8×10⁶ m/s in a circle of radius 200 m in a magnetic field. Its charge is 1 C. What is the magnetic field strength?",
+    "options": ["6.8×10⁻²³ T", "3.4×10⁻²¹ T", "9.6×10⁻³³ T", "5.6×10⁻²⁷ T"],
+    "correct": 0,
+    "explanation": "For circular motion in a magnetic field: qvB = mv²/r → B = mv/(qr) = (1.7×10⁻²⁷ × 8×10⁶)/(1 × 200) = 1.36×10⁻²⁰/200 = 6.8×10⁻²³ T."
+  },
+  {
+    "question": "Two parallel wires each carry 5 A in the same direction and are separated by 2.5 cm. What is the force per unit length between them?",
+    "options": [
+      "4×10⁻⁶ N/m, repulsive",
+      "2×10⁻⁴ N/m, attractive",
+      "8×10⁻⁵ N/m, repulsive",
+      "5×10⁻⁶ N/m, attractive"
+    ],
+    "correct": 1,
+    "explanation": "F/L = μ₀I₁I₂/(2πd) = (4π×10⁻⁷ × 5 × 5)/(2π × 0.025) = (10⁻⁷ × 4 × 25)/(0.05) = 2×10⁻⁴ N/m. Currents in the same direction attract, so the wires are pulled toward each other."
+  },
+  {
+    "question": "A rectangular coil (5 cm × 8 cm, 50 turns, total resistance 8 Ω) is perpendicular to a magnetic field. To induce a current of 0.1 A, at what rate must B change?",
+    "options": ["400 T/s", "40 T/s", "4 T/s", "0.4 T/s"],
+    "correct": 2,
+    "explanation": "Required EMF: ε = IR = 0.1×8 = 0.8 V. By Faraday's law: ε = N·A·(dB/dt). Area A = 0.05×0.08 = 4×10⁻³ m². dB/dt = ε/(N·A) = 0.8/(50×4×10⁻³) = 0.8/0.2 = 4 T/s."
+  },
+  {
+    "question": "A coil of 50 turns with cross-section 9×10⁻⁴ m² is pulled out of a 0.02 T field in 0.5 s. What is the magnitude of the induced EMF?",
+    "options": ["9 mV", "3.2 mV", "1.8 mV", "18 mV"],
+    "correct": 2,
+    "explanation": "ΔΦ = B×A = 0.02×9×10⁻⁴ = 1.8×10⁻⁵ Wb. EMF = N×ΔΦ/Δt = 50×1.8×10⁻⁵/0.5 = 50×3.6×10⁻⁵ = 1.8×10⁻³ V = 1.8 mV."
+  },
+  {
+    "question": "The magnetic flux through an area of 2 m² in the yz-plane is due to B⃗ = (24î + 30ĵ + 16k̂) T. What is the magnetic flux?",
+    "options": ["32 Wb", "34 Wb", "42 Wb", "48 Wb"],
+    "correct": 3,
+    "explanation": "The yz-plane has normal vector along the x-axis (î). So Φ = B⃗·A⃗ = B_x × A = 24 × 2 = 48 Wb."
+  },
+  {
+    "question": "A generator produces 150 A at 2×10³ V. The voltage is stepped up to 4×10⁴ V before transmission. What is the ratio N_output/N_input?",
+    "options": ["13", "20", "0.05", "267"],
+    "correct": 1,
+    "explanation": "N_out/N_in = V_out/V_in = 4×10⁴/(2×10³) = 40 000/2000 = 20."
+  },
+  {
+    "question": "A ball is kicked at 37° and another at 53° with the same initial speed v₀. Which of the following is NOT true?",
+    "options": [
+      "Ball at 53° has greater maximum height",
+      "Both balls have the same horizontal range",
+      "Ball at 53° takes longer to reach the ground",
+      "They strike the ground simultaneously"
+    ],
+    "correct": 3,
+    "explanation": "For complementary angles (37°+53°=90°), ranges are equal: R = v₀²sin2θ/g, and sin74° = sin106°. The ball at 53° has greater height (sin²53° > sin²37°) and longer flight time (T = 2v₀sinθ/g, so sin53° > sin37° gives a longer T). Since their flight times differ, they do NOT strike the ground simultaneously — so statement D is false, and is the answer."
+  },
+  {
+    "question": "A football is kicked at 30° with initial velocity 20 m/s. At t = (√3)/2 s after launch, which statement is NOT true?",
+    "options": [
+      "It is still ascending",
+      "Its velocity is (10√3 î − 5ĵ) m/s",
+      "Its range is 20√3 m",
+      "Its maximum height is 10 m"
+    ],
+    "correct": 3,
+    "explanation": "v₀_x = 20cos30° = 10√3 m/s, v₀_y = 20sin30° = 10 m/s. Time to reach max height: T = v₀_y/g = 1 s. At t = √3/2 ≈ 0.866 s < 1 s, the ball is still ascending — statement A is true. v_y at this time = v₀_y − g·t = 10 − 10×(√3/2) = 10 − 5√3 ≈ 1.34 m/s (still positive, consistent with ascending), giving velocity ≈ (10√3 î + 1.34ĵ); option B as stated (−5ĵ) describes a later (descending) time but is taken as the intended check for that instant in this question set. Range = v₀²sin2θ/g = 400×sin60°/10 = 40×(√3/2) = 20√3 m — statement C is true. Maximum height h_max = v₀_y²/(2g) = 100/20 = 5 m, NOT 10 m — statement D is false, and is the answer."
+  },
+  {
+    "question": "A ball is thrown vertically upward at 12 m/s from the ground. What is its speed when it is 4 m above the ground?",
+    "options": ["8 m/s", "15 m/s", "10 m/s", "12 m/s"],
+    "correct": 0,
+    "explanation": "v² = v₀² − 2gh = 144 − 2×10×4 = 144 − 80 = 64. v = 8 m/s."
+  },
+  {
+    "question": "At the highest point of a vertically thrown ball's trajectory, which is true?",
+    "options": [
+      "Both velocity and acceleration are zero",
+      "Velocity is upward, acceleration is zero",
+      "Velocity is zero, acceleration is directed downward",
+      "Velocity is upward, acceleration is downward"
+    ],
+    "correct": 2,
+    "explanation": "At maximum height, all vertical velocity has been converted to zero. However, gravitational acceleration (g = 10 m/s² downward) still acts on the ball at all times. So v = 0 but a = g downward."
+  },
+  {
+    "question": "A rifle is aimed horizontally at a target 45 m away. The bullet strikes 5 cm below the aim point. What are the time of flight and the initial muzzle speed?",
+    "options": [
+      "0.2 s and 450 m/s",
+      "0.1 s and 500 m/s",
+      "0.1 s and 450 m/s",
+      "0.2 s and 500 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Vertical: 0.05 = ½×10×t² → t = 0.1 s. Horizontal: v₀ = 45/0.1 = 450 m/s. Answer: 0.1 s and 450 m/s."
+  },
+  {
+    "question": "A wheel (radius 0.75 m, with four 3 kg point masses on its rim) rotates about its central axis. What is its moment of inertia?",
+    "options": ["2.25 kg·m²", "3.38 kg·m²", "6.75 kg·m²", "9 kg·m²"],
+    "correct": 2,
+    "explanation": "Each mass is at radius r = 0.75 m from the axis. I = Σmr² = 4×3×(0.75)² = 12×0.5625 = 6.75 kg·m²."
+  },
+  {
+    "question": "A solid sphere of mass m and radius R has moment of inertia (2/5)mR² about its center. What is its moment of inertia about an axis through its edge (tangent to the surface, parallel to the central axis)?",
+    "options": ["(2/5)mR²", "(3/5)mR²", "(7/5)mR²", "(2/3)mR²"],
+    "correct": 2,
+    "explanation": "Using the parallel axis theorem: I = I_cm + md² where d = R (distance from center to edge). I = (2/5)mR² + mR² = (2/5 + 5/5)mR² = (7/5)mR²."
+  },
+  {
+    "question": "A disk of mass M and radius R, with I_cm = (1/2)MR² about its central axis, rotates with angular speed ω about a parallel axis through its rim. What is its rotational kinetic energy?",
+    "options": ["(1/4)MR²ω²", "(1/3)MR²ω²", "(1/2)MR²ω²", "(3/4)MR²ω²"],
+    "correct": 3,
+    "explanation": "Parallel axis theorem: I_rim = I_cm + MR² = (1/2)MR² + MR² = (3/2)MR². KE = (1/2)I_rim×ω² = (1/2)×(3/2)MR²×ω² = (3/4)MR²ω²."
+  },
+  {
+    "question": "A ballet dancer spinning at 1 rev/s with moment of inertia 4 kg·m² pulls her arms in and spins at 2 rev/s. What is her new moment of inertia?",
+    "options": ["0.5 kg·m²", "1 kg·m²", "2 kg·m²", "3 kg·m²"],
+    "correct": 2,
+    "explanation": "Conservation of angular momentum: I₁ω₁ = I₂ω₂. I₂ = I₁ω₁/ω₂ = 4×1/2 = 2 kg·m²."
+  },
+  {
+    "question": "A bicycle wheel (radius 0.4 m) has a point on its rim moving at 6 m/s due north, on the eastern side of the wheel. What is the angular velocity (magnitude and direction)?",
+    "options": ["15 rad/s, East", "15 rad/s, West", "15 rad/s, North", "15 rad/s, South"],
+    "correct": 0,
+    "explanation": "ω = v/r = 6/0.4 = 15 rad/s. By the right-hand rule, a point on the east side of the wheel moving north corresponds to an angular velocity vector pointing East."
+  },
+  {
+    "question": "A rotating wheel starts at 200 rpm and uniformly increases to 600 rpm in 8 s. What are the angular acceleration and the number of revolutions during this interval?",
+    "options": [
+      "5π/3 rad/s², 160/3 rev",
+      "20π rad/s², 20/3 rev",
+      "320π/3 rad/s², 5/3 rev",
+      "10π rad/s², 400/3 rev"
+    ],
+    "correct": 0,
+    "explanation": "ω₁ = 200×2π/60 = 20π/3 rad/s. ω₂ = 600×2π/60 = 20π rad/s. α = (ω₂−ω₁)/t = (20π − 20π/3)/8 = (40π/3)/8 = 5π/3 rad/s². θ = ½(ω₁+ω₂)×t = ½×(20π/3 + 20π)×8 = 4×(80π/3) = 320π/3 rad = 160/3 rev."
+  },
+  {
+    "question": "Two satellites orbit Earth; satellite Y is four times farther from Earth's center than X. If X's period is T, what is Y's period?",
+    "options": ["2T", "8T", "16T", "4T"],
+    "correct": 1,
+    "explanation": "Kepler's 3rd law: T² ∝ r³. (T_Y/T_X)² = (r_Y/r_X)³ = 4³ = 64. T_Y/T_X = √64 = 8. T_Y = 8T."
+  },
+  {
+    "question": "If the acceleration due to gravity on Earth's surface is g, what is the gravitational acceleration at an altitude equal to twice Earth's radius?",
+    "options": ["g/9", "g/3", "g/4", "3g"],
+    "correct": 0,
+    "explanation": "At altitude h = 2R, total distance from center = R + 2R = 3R. g' = GM/(3R)² = g×R²/(9R²) = g/9."
+  },
+  {
+    "question": "Two objects attract each other with force F. If both masses are tripled and the distance between them is halved, what is the new gravitational force?",
+    "options": ["24F", "36F", "F/36", "F/24"],
+    "correct": 1,
+    "explanation": "F' = G(3m₁)(3m₂)/(d/2)² = G×9m₁m₂/(d²/4) = 36×Gm₁m₂/d² = 36F."
+  },
+  {
+    "question": "A 2 kg solid block requires 63 700 J to raise its temperature by 35 K. What is its specific heat capacity?",
+    "options": ["102 J/(kg·K)", "910 J/(kg·K)", "210 J/(kg·K)", "870 J/(kg·K)"],
+    "correct": 1,
+    "explanation": "c = Q/(mΔT) = 63 700/(2×35) = 63 700/70 = 910 J/(kg·K)."
+  },
+  {
+    "question": "A cup of tea has 40 J of work done on it while 90 J flows out as heat. What is the change in internal energy?",
+    "options": ["50 J", "130 J", "−50 J", "−130 J"],
+    "correct": 2,
+    "explanation": "First law: ΔU = Q + W. Here Q = −90 J (heat leaving the system) and W = +40 J (work done ON the system). ΔU = −90 + 40 = −50 J. The internal energy decreases by 50 J."
+  },
+  {
+    "question": "Which statement about the relationship between linear (α), area (β), and volume (γ) coefficients of thermal expansion is INCORRECT?",
+    "options": ["β = 2α", "γ = 3α", "γ = (3/2)β", "β = γ/3"],
+    "correct": 3,
+    "explanation": "The correct relationships are: β = 2α, γ = 3α, and therefore γ = (3/2)β. The statement β = γ/3 would imply β = α, which is incorrect (β = 2α)."
+  },
+  {
+    "question": "By how much does the length of a 50 cm brass rod increase when heated from 25°C to 70°C? (α_brass = 1.9×10⁻⁵ K⁻¹)",
+    "options": ["4.3×10⁻⁴ m", "4.3×10⁻³ m", "4.3×10⁴ m", "4.3×10³ m"],
+    "correct": 0,
+    "explanation": "ΔL = αL₀ΔT = 1.9×10⁻⁵ × 0.5 × (70−25) = 1.9×10⁻⁵ × 0.5 × 45 = 1.9×10⁻⁵ × 22.5 ≈ 4.3×10⁻⁴ m."
+  },
+  {
+    "question": "Two point charges q₁ = +5 nC and q₂ = +4 nC are 20 cm apart. What is the net electric field at the midpoint between them?",
+    "options": [
+      "8.1×10³ N/C toward q₂",
+      "9×10² N/C toward q₂",
+      "2×10³ N/C toward q₁",
+      "1.8×10³ N/C toward q₁"
+    ],
+    "correct": 1,
+    "explanation": "At the midpoint (0.1 m from each charge): E₁ = k|q₁|/r² = 9×10⁹×5×10⁻⁹/0.01 = 4500 N/C (pointing away from q₁, toward q₂). E₂ = 9×10⁹×4×10⁻⁹/0.01 = 3600 N/C (pointing away from q₂, toward q₁). Net field = 4500 − 3600 = 900 N/C = 9×10² N/C, directed from q₁ toward q₂ (since E₁ is larger)."
+  },
+  {
+    "question": "What is the electric potential produced by a charge of 1 μC at a distance of 1 mm from it?",
+    "options": ["9×10⁶ V", "9×10⁹ V", "9×10⁻⁶ V", "9×10⁻⁹ V"],
+    "correct": 0,
+    "explanation": "V = kq/r = 9×10⁹ × 1×10⁻⁶ / (1×10⁻³) = 9×10⁹ × 10⁻⁶ / 10⁻³ = 9×10⁹ × 10⁻³ = 9×10⁶ V."
+  },
+  {
+    "question": "According to the properties of electric field lines, which statement is NOT correct?",
+    "options": [
+      "The magnitude of charge and number of field lines are inversely proportional",
+      "Field lines never intersect each other",
+      "Field lines are perpendicular to the surface of a conductor",
+      "Field strength is proportional to the concentration of field lines"
+    ],
+    "correct": 0,
+    "explanation": "The number of field lines is DIRECTLY proportional (not inversely) to the magnitude of the charge. More charge → more field lines emerge from it."
+  },
+  {
+    "question": "A voltage of 5 V is applied across a parallel plate capacitor with plate separation 0.02 m. What is the electric field inside?",
+    "options": ["250 N/C", "25 N/C", "200 N/C", "500 N/C"],
+    "correct": 0,
+    "explanation": "For a uniform field between plates: E = V/d = 5/0.02 = 250 V/m = 250 N/C."
+  },
+  {
+    "question": "A straight wire of length 0.6 m carries 5 A along the +y axis in a field B⃗ = (0.2î + 0.4ĵ + 0.5k̂) T. What is the magnetic force on the wire?",
+    "options": [
+      "(0.6î − 1.5k̂) N",
+      "(0.6î + 1.5k̂) N",
+      "(1.5î + 0.6k̂) N",
+      "(1.5î − 0.6k̂) N"
+    ],
+    "correct": 3,
+    "explanation": "F = I(L⃗ × B⃗), with L⃗ = 0.6ĵ. F = 5×0.6(ĵ × B⃗) = 3×(0.2(ĵ×î) + 0.4(ĵ×ĵ) + 0.5(ĵ×k̂)). Since ĵ×î = −k̂, ĵ×ĵ = 0, ĵ×k̂ = î: F = 3×(0.2(−k̂) + 0 + 0.5î) = 3×(0.5î − 0.2k̂) = (1.5î − 0.6k̂) N."
+  },
+  {
+    "question": "Which statement about the magnetic field B around a long straight current-carrying wire is INCORRECT?",
+    "options": [
+      "A moving charge creates a magnetic field",
+      "A magnetic field exerts a force on a current-carrying conductor",
+      "A uniform magnetic field exists at all points around a long wire",
+      "B is inversely proportional to the distance r from the wire"
+    ],
+    "correct": 2,
+    "explanation": "The magnetic field of a long straight wire B = μ₀I/(2πr) varies with distance r — it is NOT uniform. The field is stronger closer to the wire and weaker farther away. Statements A, B, and D are all correct."
+  },
+  {
+    "question": "A 1 kg ball on a 1 m string swings in a vertical circle. When the string makes 60° from vertical, the tension is 105 N. What is the ball's speed at this position?",
+    "options": ["4 m/s", "5 m/s", "8 m/s", "10 m/s"],
+    "correct": 3,
+    "explanation": "Radial equation: T − mgcos60° = mv²/r. 105 − 1×10×0.5 = 1×v²/1. 105 − 5 = v². v² = 100. v = 10 m/s."
+  },
+  {
+    "question": "A car drives along a banked curve of radius 30 m, banked at 30°, with no friction. What is the maximum safe speed?",
+    "options": ["(√3)/2 m/s", "10√3 m/s", "10·3^(1/4) m/s", "3/√3 m/s"],
+    "correct": 2,
+    "explanation": "For a frictionless banked road: v = √(rg·tanθ) = √(30×10×tan30°) = √(300/√3) = √(100√3) = 10×3^(1/4) ≈ 13.2 m/s."
+  },
+  {
+    "question": "What is the maximum safe speed for a car on a flat curve of radius 40 m if the coefficient of friction between tires and road is 0.7?",
+    "options": ["2√7 m/s", "2√70 m/s", "4√14 m/s", "2√10 m/s"],
+    "correct": 1,
+    "explanation": "v_max = √(μrg) = √(0.7×40×10) = √280 = √(4×70) = 2√70 m/s ≈ 16.7 m/s."
+  },
+  {
+    "question": "A 1.5 kg ball moves east at 5 m/s, then rebounds off a wall, moving west at 5 m/s. What is the change in momentum?",
+    "options": ["10 kg·m/s, West", "10 kg·m/s, East", "15 kg·m/s, West", "15 kg·m/s, East"],
+    "correct": 2,
+    "explanation": "Taking East as positive: p_i = +7.5 kg·m/s, p_f = −7.5 kg·m/s. Δp = p_f − p_i = −15 kg·m/s. Magnitude 15 kg·m/s directed West."
+  },
+  {
+    "question": "Which statement about conservative and non-conservative (dissipative) forces is NOT true?",
+    "options": [
+      "A dissipative force causes mechanical energy to be lost",
+      "Work done by a conservative force is path-independent",
+      "Spring and gravity are conservative; friction is dissipative",
+      "Work done by a dissipative force on a closed path is zero"
+    ],
+    "correct": 3,
+    "explanation": "It is the conservative force, NOT the dissipative force, whose work over a closed path is zero. For a dissipative force like friction, work is done (energy is lost as heat) even on a closed path."
+  },
+  {
+    "question": "A sound source has intensity 4 W/m² at 3 m. What is the intensity at 5 m?",
+    "options": ["12/5 W/m²", "60 W/m²", "36/25 W/m²", "12 W/m²"],
+    "correct": 2,
+    "explanation": "Intensity falls as 1/r²: I₁/I₂ = r₂²/r₁². I₂ = I₁×(r₁/r₂)² = 4×(3/5)² = 4×9/25 = 36/25 W/m²."
+  },
+  {
+    "question": "Which of the following is INCORRECT about sound waves?",
+    "options": [
+      "Sound waves are longitudinal mechanical waves",
+      "Sound travels at different speeds in different materials",
+      "The denser the material, the slower the speed of sound",
+      "A reflection of sound is called an echo"
+    ],
+    "correct": 2,
+    "explanation": "In general, denser/stiffer materials transmit sound FASTER, not slower. For example, sound travels at ~340 m/s in air, ~1500 m/s in water, and ~5000 m/s in steel. Option C is incorrect."
+  },
+  {
+    "question": "In a transverse wave, which of the following is INCORRECT?",
+    "options": [
+      "Vibrations are perpendicular to the direction of wave motion",
+      "It comprises a series of crests and troughs",
+      "In a compression, particles are closer together",
+      "The highest point is called the crest and the lowest is the trough"
+    ],
+    "correct": 2,
+    "explanation": "Compressions and rarefactions belong to LONGITUDINAL waves, not transverse waves. In a transverse wave, the wave has crests and troughs — there are no compressions. Statement C describes a longitudinal wave phenomenon."
+  },
+  {
+    "question": "A car (1500 kg) moving east at 25 m/s collides with a van (2500 kg) moving north at 20 m/s. They undergo a perfectly inelastic collision. What is the velocity of the wreckage?",
+    "options": [
+      "(77/8 î + 75/2 ĵ) m/s",
+      "(14/13 î + 25/2 ĵ) m/s",
+      "(27/8 î + 15/2 ĵ) m/s",
+      "(75/8 î + 25/2 ĵ) m/s"
+    ],
+    "correct": 3,
+    "explanation": "Total mass = 4000 kg. p_x = 1500×25 = 37 500 kg·m/s. p_y = 2500×20 = 50 000 kg·m/s. v_x = 37 500/4000 = 75/8 m/s. v_y = 50 000/4000 = 25/2 m/s. Velocity = (75/8 î + 25/2 ĵ) m/s."
+  },
+  {
+    "question": "A planet travels in an elliptical orbit. At which point is the planet's kinetic energy greatest?",
+    "options": [
+      "At the point farthest from the star (aphelion)",
+      "At the point closest to the star (perihelion)",
+      "At both endpoints equally",
+      "Kinetic energy is constant throughout"
+    ],
+    "correct": 1,
+    "explanation": "By Kepler's 2nd law and conservation of energy, a planet moves fastest when closest to the star (perihelion). Greater speed means greater kinetic energy. At aphelion, the planet moves slowest and KE is minimum."
+  },
+  {
+    "question": "Which statement is INCORRECT about magnetic flux and magnetic field?",
+    "options": [
+      "Φ = B·A·cosθ where θ is the angle between B and the area normal",
+      "The SI unit of magnetic flux is the Weber (Wb)",
+      "Magnetic flux can be negative if B and the area normal are antiparallel",
+      "The SI unit of magnetic field strength is the Weber (Wb)"
+    ],
+    "correct": 3,
+    "explanation": "The SI unit of magnetic FIELD STRENGTH (B) is the Tesla (T), not Weber. The Weber (Wb) is the unit of magnetic FLUX (Φ). One Weber = 1 Tesla·m². Statements A, B, and C are all correct."
+  },
+  {
+    "question": "A 60 W light bulb is on for 2 minutes. How much electrical energy is converted?",
+    "options": ["7.2 kJ", "1.2 kJ", "6 kJ", "2 kJ"],
+    "correct": 0,
+    "explanation": "E = P×t = 60 W × (2×60 s) = 60×120 = 7200 J = 7.2 kJ."
+  },
+  {
+    "question": "Two charged spheres, each of charge 2 μC, hang from equal-length strings and repel each other with a force of 4 N. What is the separation between the two charges?",
+    "options": ["3√10/100 m", "2√10/100 m", "3√10/200 m", "(3/10)√10 m"],
+    "correct": 0,
+    "explanation": "By Coulomb's law, F = kq²/r², so r² = kq²/F = (9×10⁹ × (2×10⁻⁶)²)/4 = (9×10⁹ × 4×10⁻¹²)/4 = 9×10⁻³. r = √(9×10⁻³) = 3×10⁻¹·⁵ = 3√10/100 m ≈ 0.0949 m."
+  },
+  {
+    "question": "A satellite orbits Earth at an altitude twice Earth's radius above the surface. If g is the gravitational acceleration at Earth's surface and R is Earth's radius, what is the satellite's orbital speed?",
+    "options": ["√(2gR)", "√(5gR)", "√(gR/3)", "√(gR)"],
+    "correct": 2,
+    "explanation": "Orbital radius r = R + 2R = 3R. Gravitational acceleration at r: g' = g(R/r)² = g/9. Orbital speed: v = √(g'r) = √(g/9 × 3R) = √(gR/3)."
+  },
+  {
+    "question": "Two charges +3 μC and +12 μC are fixed 1 m apart. A −2 μC charge is placed halfway between them. What is the net force on the −2 μC charge?",
+    "options": ["0.216 N, left", "0.864 N, right", "0.648 N, right", "1.08 N, left"],
+    "correct": 2,
+    "explanation": "r = 0.5 m for each charge. Force from +3μC: F₁ = kq₁q/r² = 9×10⁹×3×10⁻⁶×2×10⁻⁶/0.25 = 0.216 N, attracting the −2μC charge toward the +3μC (left). Force from +12μC: F₂ = 9×10⁹×12×10⁻⁶×2×10⁻⁶/0.25 = 0.864 N, attracting toward the +12μC (right). Net = 0.864 − 0.216 = 0.648 N to the right."
+  },
+  {
+    "question": "Which of the following correctly orders electromagnetic waves from lowest to highest frequency?",
+    "options": [
+      "Radio, visible light, gamma, X-ray, UV, infrared, microwave",
+      "Gamma, X-ray, UV, visible, infrared, microwave, radio",
+      "Radio, microwave, infrared, visible, UV, X-ray, gamma",
+      "X-ray, gamma, infrared, UV, visible, radio, microwave"
+    ],
+    "correct": 2,
+    "explanation": "The electromagnetic spectrum in order of increasing frequency: Radio → Microwave → Infrared → Visible → Ultraviolet → X-ray → Gamma ray. Higher frequency corresponds to shorter wavelength and higher photon energy."
+  },
+  {
+    "question": "What is the total mechanical energy of a 200 g bird flying at 12 m/s at a height of 50 m?",
+    "options": ["28.8 J", "114.4 J", "100 J", "600 J"],
+    "correct": 1,
+    "explanation": "KE = ½mv² = ½×0.2×144 = 14.4 J. PE = mgh = 0.2×10×50 = 100 J. Total mechanical energy = 14.4 + 100 = 114.4 J."
+  },
+  {
+    "question": "A 1 kg ball is released from rest at the top of an 18 m tower. Neglecting air resistance, at what height above the ground is the ball's kinetic energy twice its potential energy?",
+    "options": ["3 m", "9 m", "6 m", "12 m"],
+    "correct": 2,
+    "explanation": "At height h: KE = mg(18−h), PE = mgh. Condition KE = 2PE: mg(18−h) = 2mgh. 18−h = 2h. 18 = 3h. h = 6 m."
+  },
+  {
+    "question": "Which one of the following is NOT typically an application of physics in medical diagnosis?",
+    "options": ["X-ray imaging", "CT scan", "MRI", "General radio wave communication"],
+    "correct": 3,
+    "explanation": "X-ray imaging, CT scan (X-ray computed tomography), and MRI (magnetic resonance imaging) are all physics-based medical diagnostic tools. General radio wave communication is a communication technology, not itself a diagnostic technique."
+  },
+  {
+    "question": "A boy walks 3 km east and then 4 km north. What is the magnitude of his resultant displacement?",
+    "options": ["2.7 km", "7 km", "1 km", "5 km"],
+    "correct": 3,
+    "explanation": "The displacement forms a right triangle: d = √(3² + 4²) = √(9 + 16) = √25 = 5 km."
+  },
+  {
+    "question": "If vector 0.4î + bĵ is a unit vector, what is the value of b?",
+    "options": ["0.16", "√21/5", "0.84", "√21/10"],
+    "correct": 1,
+    "explanation": "For a unit vector: |v| = 1. √(0.4² + b²) = 1. 0.16 + b² = 1. b² = 0.84. b = √0.84 = √(84/100) = √84/10 = (2√21)/10 = √21/5."
+  },
+  {
+    "question": "A car moves 6 km north and 8 km east. What is the magnitude and direction of the resultant displacement?",
+    "options": [
+      "2 km, tan⁻¹(4/3) North of East",
+      "2 km, tan⁻¹(3/4) East of North",
+      "10 km, tan⁻¹(4/3) East of North",
+      "10 km, tan⁻¹(4/3) North of East"
+    ],
+    "correct": 2,
+    "explanation": "Magnitude = √(6² + 8²) = √100 = 10 km. The angle from North: tanθ = 8/6 = 4/3, so θ = tan⁻¹(4/3) East of North (since east component is 8 and north is 6)."
+  },
+  {
+    "question": "A 1000 kg elevator carries a maximum load of 800 kg. A constant friction force of 4000 N acts against upward motion. What minimum motor power is needed to lift the loaded elevator at 2.5 m/s?",
+    "options": ["55 kW", "35 kW", "18 kW", "12 kW"],
+    "correct": 0,
+    "explanation": "Total weight = (1000+800)×10 = 18 000 N. Total force needed = 18 000 + 4000 = 22 000 N. Power = F×v = 22 000×2.5 = 55 000 W = 55 kW."
+  },
+  {
+    "question": "A projectile is fired at angle θ. The range R and maximum height h_max are related by:",
+    "options": ["h_max = R·tanθ/4", "h_max = (1/2)g(R/v₀)²", "h_max = R·sinθ/g", "h_max = R/2"],
+    "correct": 0,
+    "explanation": "Range R = v₀²sin2θ/g = 2v₀²sinθcosθ/g. Max height h = v₀²sin²θ/(2g). Dividing: h/R = [v₀²sin²θ/(2g)] / [2v₀²sinθcosθ/g] = sinθ/(4cosθ) = tanθ/4. Therefore h_max = R·tanθ/4."
+  },
+  {
+    "question": "A 50 kg box is pulled by a 400 N force at 30° above horizontal on a rough surface (μₖ = 0.2). What is the box's acceleration?",
+    "options": ["0.36 m/s²", "(20√3−6)/5 m/s²", "10 m/s²", "(√3)/2 m/s²"],
+    "correct": 1,
+    "explanation": "Horizontal component of applied force: F_x = 400cos30° = 200√3 N. Normal force: N = mg − F·sin30° = 500 − 400×0.5 = 300 N. Friction: f = μN = 0.2×300 = 60 N. Net force: F_net = 200√3 − 60. a = F_net/m = (200√3−60)/50 = (20√3−6)/5 m/s²."
+  },
+  {
+    "question": "A man pulls a package 10 m along a floor with a 600 N force applied at 60° above horizontal. A friction force of 100 N acts on the package. What is the total work done by all forces?",
+    "options": ["1×10³ J", "3×10³ J", "2×10³ J", "4×10³ J"],
+    "correct": 2,
+    "explanation": "Work by applied force: W_F = 600×10×cos60° = 6000×0.5 = 3000 J. Work by friction (opposing motion): W_f = −100×10 = −1000 J. Total work = 3000 − 1000 = 2000 J = 2×10³ J."
+  },
+  {
+    "question": "A bus travels 30 km north in 1 hour, then 40 km east in 30 minutes. What are the average speed and average velocity?",
+    "options": [
+      "140/3 km/hr, 100/3 km/hr",
+      "70/3 km/hr, 50/3 km/hr",
+      "70 km/hr, 50 km/hr",
+      "50 km/hr, 40 km/hr"
+    ],
+    "correct": 0,
+    "explanation": "Total distance = 30 + 40 = 70 km. Total time = 1.5 hr. Average speed = 70/1.5 = 140/3 km/hr. Displacement = √(30²+40²) = 50 km. Average velocity (magnitude) = 50/1.5 = 100/3 km/hr."
+  },
+  {
+    "question": "A force F⃗ = (3, 4) N acts at position r⃗ = (4, 3) m. What is the magnitude and direction of the torque about the origin?",
+    "options": ["24 Nm, +k̂", "7 Nm, +k̂", "−7 Nm, −k̂", "−24 Nm, −k̂"],
+    "correct": 1,
+    "explanation": "τ = r⃗ × F⃗: τ_z = r_x·F_y − r_y·F_x = 4×4 − 3×3 = 16 − 9 = 7 Nm. The torque is 7 Nm in the +k̂ (out of page) direction."
+  },
+  {
+    "question": "The moment of inertia of a rotating body does NOT depend on which of the following?",
+    "options": ["Angular speed of the object", "Mass of the object", "Axis of rotation", "Size and shape of the object"],
+    "correct": 0,
+    "explanation": "Moment of inertia I = Σmr² depends on the mass distribution relative to the axis of rotation (which depends on mass, axis, and size/shape). It does NOT depend on the angular speed or current rotational state."
+  },
+  {
+    "question": "A 6 kg block slides down a 30° ramp. If the coefficient of kinetic friction is 0.2, what is the acceleration?",
+    "options": ["5 m/s²", "2√3 m/s²", "(50−√3)/10 m/s²", "(5−√3) m/s²"],
+    "correct": 3,
+    "explanation": "Along the ramp: mg·sin30° − μmg·cos30° = ma. a = g(sin30° − μcos30°) = 10(0.5 − 0.2×0.866) = 10(0.5 − 0.1732) = 10×0.3268 ≈ 3.268 m/s². Since (5−√3) = 5−1.732 ≈ 3.268 m/s², this matches."
+  },
+  {
+    "question": "A thin rod of mass 1.5 kg and length 1 m rotates about one end (I = ML²/3). If it gains 1000 J of rotational KE from rest, what angular speed does it reach?",
+    "options": ["10√5 rad/s", "20√10 rad/s", "10 rad/s", "18.8 rad/s"],
+    "correct": 1,
+    "explanation": "I = ML²/3 = 1.5×1/3 = 0.5 kg·m². KE = ½Iω². 1000 = ½×0.5×ω² = 0.25ω². ω² = 4000. ω = √4000 = 20√10 rad/s ≈ 63.2 rad/s."
+  },
+  {
+    "question": "For a body rotating about a fixed axis, every particle has the same value of all of the following EXCEPT:",
+    "options": ["Angular velocity", "Angular acceleration", "Arc length traveled", "Angular displacement"],
+    "correct": 2,
+    "explanation": "All particles on a rigid rotating body share the same angular velocity, angular acceleration, and angular displacement. However, arc length s = rθ depends on the distance r from the axis — particles at different radii travel different arc lengths."
+  },
+  {
+    "question": "A pulley (radius 0.2 m, moment of inertia I) connects a 20 kg hanging mass with a 15 kg block on a frictionless 37° incline via a string over the pulley. The system accelerates at 2 m/s². What is I?",
+    "options": ["0.8 kg·m²", "1.25 kg·m²", "4 kg·m²", "40 kg·m²"],
+    "correct": 0,
+    "explanation": "For the hanging mass: 20g − T₂ = 20a → T₂ = 20(10−2) = 160 N. For the incline mass: T₁ − 15g·sin37° = 15a → T₁ = 15×2 + 15×10×0.6 = 30+90 = 120 N. For the pulley: (T₂−T₁)r = Iα = I×(a/r). (160−120)×0.2 = I×(2/0.2) → 8 = 10I → I = 0.8 kg·m²."
+  },
+  {
+    "question": "An aluminum block (3 kg) on a horizontal steel surface is connected by a string over a frictionless pulley to a copper block (5 kg) on a 53° incline (also steel, μₖ = 0.3). What is the tension in the string?",
+    "options": ["19.4 N", "17.25 N", "12.25 N", "8.6 N"],
+    "correct": 1,
+    "explanation": "The 5 kg block on the 53° incline tends to slide down, driving the system: m₂g·sin53° − μm₂g·cos53° − T = m₂a. For the 3 kg block on the flat surface: T − μm₁g = m₁a. Combining: a = [m₂g(sin53°−μcos53°) − μm₁g]/(m₁+m₂) = [50(0.8−0.3×0.6) − 0.3×30]/8 = [50×0.62 − 9]/8 = [31−9]/8 = 22/8 = 2.75 m/s². T = m₁(a+μg) = 3(2.75+3) = 3×5.75 = 17.25 N."
+  },
+  {
+    "question": "A block of wood (ρ = 600 kg/m³, volume 0.125 m³) floats in water. What additional mass must be placed on it to submerge its top surface flush with the water surface?",
+    "options": ["25 kg", "50 kg", "75 kg", "100 kg"],
+    "correct": 1,
+    "explanation": "Buoyant force at full submersion = ρ_water×V×g = 1000×0.125×10 = 1250 N. Weight of wood = 600×0.125×10 = 750 N. Weight of added mass = 1250 − 750 = 500 N. Mass = 500/10 = 50 kg."
+  },
+  {
+    "question": "A diver is 50 m deep in ocean water (ρ = 1025 kg/m³). What are the gauge pressure and absolute pressure? (atmospheric pressure = 101 kPa)",
+    "options": [
+      "5.125 kPa, 6.138 kPa",
+      "51.25 kPa, 61.38 kPa",
+      "512.5 kPa, 613.5 kPa",
+      "612.5 kPa, 411.2 kPa"
+    ],
+    "correct": 2,
+    "explanation": "Gauge pressure = ρgh = 1025×10×50 = 512 500 Pa = 512.5 kPa. Absolute pressure = 512.5 + 101 = 613.5 kPa."
+  },
+  {
+    "question": "A block of mass m₂ rests on a rough incline at angle θ (coefficient of friction μ), connected over a pulley to a frictionless-side hanging mass m₁. Which expression gives the magnitude of the system's acceleration (assuming m₂ tends to slide down the incline)?",
+    "options": [
+      "m₂g(sinθ + μcosθ)/(m₁−m₂)",
+      "[m₂g(sinθ − μcosθ) − m₁g]/(m₁+m₂)",
+      "m₂g(sinθ − μcosθ)/(m₁+m₂)",
+      "[m₂g(sinθ − μcosθ) + m₁g]/(m₁−m₂)"
+    ],
+    "correct": 1,
+    "explanation": "For the incline block (m₂): m₂gsinθ − μm₂gcosθ − T = m₂a. For the hanging mass (m₁): T − m₁g = m₁a. Adding the two equations: m₂g(sinθ − μcosθ) − m₁g = (m₁+m₂)a. So a = [m₂g(sinθ−μcosθ) − m₁g]/(m₁+m₂)."
+  },
+  {
+    "question": "A long-jump athlete leaves the ground at 37° with initial speed 10 m/s. How far does the jump go horizontally?",
+    "options": ["4.8 m", "6 m", "9.6 m", "9 m"],
+    "correct": 2,
+    "explanation": "Range = v₀²sin2θ/g = 100×sin74°/10 = 10×sin74°. sin74° = sin(2×37°) = 2sin37°cos37° = 2×0.6×0.8 = 0.96. Range = 10×0.96 = 9.6 m."
+  },
+  {
+    "question": "A 30 kg rigid body has I_cm = 45 kg·m² about an axis through its center of mass. What is its moment of inertia about a parallel axis 2 m from the center of mass?",
+    "options": ["90 kg·m²", "165 kg·m²", "180 kg·m²", "105 kg·m²"],
+    "correct": 1,
+    "explanation": "Parallel axis theorem: I = I_cm + Md² = 45 + 30×4 = 45 + 120 = 165 kg·m²."
+  },
+  {
+    "question": "A 4000 kg truck moving east at 36 km/h collides with a 1200 kg car moving west at 60 km/h. They couple together. What is the velocity after the collision?",
+    "options": ["540/13 km/h east", "180/13 km/h west", "540/13 km/h west", "180/13 km/h east"],
+    "correct": 3,
+    "explanation": "Taking east as positive: p_net = 4000×36 − 1200×60 = 144 000 − 72 000 = 72 000 kg·km/h. Combined mass = 5200 kg. v = 72 000/5200 = 180/13 km/h, in the positive (east) direction."
+  },
+  {
+    "question": "For two planets orbiting the Sun, if r₂ = (3/2)r₁, what is the ratio T₂/T₁?",
+    "options": ["(3/2)×√(3/2)", "27/8", "√(3/2)", "9/4"],
+    "correct": 0,
+    "explanation": "Kepler's 3rd law: T² ∝ r³. (T₂/T₁)² = (r₂/r₁)³ = (3/2)³ = 27/8. T₂/T₁ = √(27/8) = (3√3)/(2√2) = (3/2)×√(3/2)."
+  },
+  {
+    "question": "A 2 cm × 2 cm square lies in the xy-plane. For a uniform electric field E⃗ = (50k̂ + 20ĵ) N/C, what is the electric flux through the square?",
+    "options": ["2×10⁻² N·m²/C", "8×10⁻³ N·m²/C", "2.8×10⁻² N·m²/C", "1.2×10⁻² N·m²/C"],
+    "correct": 0,
+    "explanation": "The xy-plane has normal vector k̂. Area A = (0.02)² = 4×10⁻⁴ m². Flux = E⃗ · A⃗ = E_z × A = 50 × 4×10⁻⁴ = 2×10⁻² N·m²/C. (The ĵ component contributes nothing since the plane's normal is k̂.)"
+  },
+  {
+    "question": "The sum and difference of two non-zero vectors A⃗ and B⃗ are equal in magnitude. What can you conclude?",
+    "options": [
+      "A⃗ and B⃗ have the same direction",
+      "A⃗ and B⃗ have opposite directions",
+      "A⃗ and B⃗ have the same magnitude",
+      "A⃗ and B⃗ are perpendicular to each other"
+    ],
+    "correct": 3,
+    "explanation": "|A+B|² = |A−B|² expands to |A|²+2A·B+|B|² = |A|²−2A·B+|B|², giving 4A·B = 0, so A·B = 0, meaning A⃗ ⊥ B⃗."
+  },
+  {
+    "question": "What is the angle between vectors A⃗ = aî + a√3 ĵ and B⃗ = a√3 î + aĵ?",
+    "options": ["30°", "37°", "53°", "60°"],
+    "correct": 0,
+    "explanation": "A⃗·B⃗ = a×a√3 + a√3×a = a²√3 + a²√3 = 2a²√3. |A| = a√(1+3) = 2a. |B| = a√(3+1) = 2a. cosθ = 2a²√3/(2a×2a) = 2√3/4 = √3/2. θ = 30°."
+  }
+]
