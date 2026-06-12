@@ -1,0 +1,1245 @@
+[
+  {
+    "question": "A student observes four changes in the lab. Which one is definitively a chemical change?",
+    "options": [
+      "Decomposition of copper carbonate on heating",
+      "Melting of ice at room temperature",
+      "Dissolving sodium chloride in water",
+      "Crushing chalk into powder"
+    ],
+    "correct": 0,
+    "explanation": "Decomposition of CuCO₃ → CuO + CO₂ produces new substances with different compositions — the hallmark of a chemical change. The other three (melting, dissolving, crushing) alter form or state but not chemical composition."
+  },
+  {
+    "question": "Which process is correctly classified as a change of state?",
+    "options": [
+      "Rusting of iron",
+      "Sublimation of iodine",
+      "Dissolving sugar in tea",
+      "Burning of charcoal"
+    ],
+    "correct": 1,
+    "explanation": "Sublimation is a direct solid-to-gas transition — a change of state (physical change). Rusting and burning are chemical changes; dissolving is a physical change (dissolution), not a change of state."
+  },
+  {
+    "question": "Which statement about chemical changes is INCORRECT?",
+    "options": [
+      "New substances with different properties are formed",
+      "They are generally reversible under normal conditions",
+      "Energy is absorbed or released during the process",
+      "The chemical composition of the starting materials changes"
+    ],
+    "correct": 1,
+    "explanation": "Chemical changes are generally difficult or impossible to reverse under normal conditions. All other statements accurately describe chemical changes."
+  },
+  {
+    "question": "Which equation correctly represents the combustion of magnesium in oxygen?",
+    "options": [
+      "2Mg(s) + O₂(g) → 2MgO(s)",
+      "Mg(s) + O₂(g) → MgO(s)",
+      "Mg(s) + O(g) → MgO(s)",
+      "2Mg(s) + O₃(g) → 3MgO(s)"
+    ],
+    "correct": 0,
+    "explanation": "Oxygen must appear as O₂ (diatomic). Balancing: 2Mg + O₂ → 2MgO conserves both Mg (2=2) and O (2=2). Option A uses a single O atom; B is unbalanced; D uses ozone (O₃), which is wrong."
+  },
+  {
+    "question": "A balanced chemical equation does NOT directly tell us the:",
+    "options": [
+      "Rate at which the reaction proceeds",
+      "Physical states of reactants and products",
+      "Relative amounts of substances in the reaction",
+      "Chemical formulas of all species involved"
+    ],
+    "correct": 0,
+    "explanation": "Reaction rate depends on temperature, concentration, and catalysts — information not encoded in a balanced equation. A balanced equation does convey mole ratios, states (with symbols), and chemical formulas."
+  },
+  {
+    "question": "In every correctly balanced chemical equation, what is conserved on both sides?",
+    "options": [
+      "Number of molecules",
+      "Number of moles",
+      "Number of coefficients",
+      "Number of atoms of each element"
+    ],
+    "correct": 3,
+    "explanation": "Conservation of mass means the number of atoms of each element must be equal on both sides (Law of Conservation of Mass). Moles, molecules, and coefficients are not required to be equal across reactants and products."
+  },
+  {
+    "question": "When Cu + HNO₃ → Cu(NO₃)₂ + NO + H₂O is balanced, the coefficient of HNO₃ is:",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "Balanced: 3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O. Check: Cu(3=3), N(8=6+2=8), O(24=24), H(8=8). Coefficient of HNO₃ = 8."
+  },
+  {
+    "question": "Which of the following is an example of a combination (synthesis) reaction?",
+    "options": [
+      "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O",
+      "Na₂O + H₂O → 2NaOH",
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl"
+    ],
+    "correct": 1,
+    "explanation": "Combination reactions have the form A + B → AB. Na₂O + H₂O → 2NaOH combines two reactants into one product. Option A is decomposition; C is single displacement; D is double displacement."
+  },
+  {
+    "question": "The reaction Cl₂(g) + 2KI(aq) → 2KCl(aq) + I₂ is best classified as:",
+    "options": [
+      "Single displacement",
+      "Combination",
+      "Double displacement",
+      "Decomposition"
+    ],
+    "correct": 0,
+    "explanation": "Cl₂ (more reactive halogen) displaces I⁻ from KI — a single element replaces another in a compound. This is a single displacement (substitution) reaction, consistent with the activity series of halogens."
+  },
+  {
+    "question": "In which scenario does a double displacement reaction occur?",
+    "options": [
+      "An active metal reacting with dilute acid to produce H₂",
+      "An acid reacting with a metal hydroxide to produce salt + water",
+      "Thermal decomposition of a metal carbonate",
+      "A more reactive metal displacing a less reactive metal from solution"
+    ],
+    "correct": 1,
+    "explanation": "Acid + base (metal hydroxide) → salt + water is a neutralization reaction — a classic double displacement. HCl + NaOH → NaCl + H₂O: both the cations and anions exchange partners. The other options describe single displacement, decomposition, and single displacement respectively."
+  },
+  {
+    "question": "The oxidation numbers of Na (metal), O₂ (gas), Cl⁻, and NH₄⁺ respectively are:",
+    "options": [
+      "+1, −2, −1, +1",
+      "0, 0, −1, +1",
+      "+1, −4, −1, +5",
+      "0, −2, −1, +5"
+    ],
+    "correct": 1,
+    "explanation": "Free elements (Na metal, O₂) have oxidation number 0. Cl⁻ is a monatomic anion: ox. no. = charge = −1. NH₄⁺ is a polyatomic cation: ox. no. = charge = +1."
+  },
+  {
+    "question": "What is the oxidation number of sulfur in H₂S₂O₇?",
+    "options": [
+      "+3",
+      "+4",
+      "+5",
+      "+6"
+    ],
+    "correct": 3,
+    "explanation": "Let S = x. Sum = 0: 2(+1) + 2x + 7(−2) = 0 → 2 + 2x − 14 = 0 → x = +6. Common trap: forgetting there are 2 sulfur atoms gives x = +12 (wrong). With 2S: x = +6."
+  },
+  {
+    "question": "The oxidation number of carbon in NaHCO₃ is:",
+    "options": [
+      "+2",
+      "+6",
+      "−4",
+      "+4"
+    ],
+    "correct": 3,
+    "explanation": "NaHCO₃: Na(+1) + H(+1) + C(x) + 3×O(−2) = 0 → 1 + 1 + x − 6 = 0 → x = +4. Trap: +6 comes from incorrectly applying the sulfate rule."
+  },
+  {
+    "question": "Which statement about oxidation numbers is NOT correct?",
+    "options": [
+      "The sum of oxidation numbers in a neutral compound can be any positive or negative number",
+      "The oxidation number of O in peroxides (H₂O₂) is −1",
+      "The oxidation number of H in CaH₂ is −1",
+      "Neutral atoms and diatomic molecules of elements have oxidation number zero"
+    ],
+    "correct": 0,
+    "explanation": "The sum of oxidation numbers in a neutral compound must equal zero (not just any positive/negative). For ions it equals the charge. All other statements are correct rules."
+  },
+  {
+    "question": "In a redox reaction, a reducing agent:",
+    "options": [
+      "Gains electrons and is reduced",
+      "Gains electrons and is oxidized",
+      "Loses electrons and is reduced",
+      "Loses electrons and is oxidized"
+    ],
+    "correct": 3,
+    "explanation": "A reducing agent causes reduction in another species. In doing so, it itself loses electrons → its oxidation state increases → it is oxidized. Memory: LEO (Loses Electrons Oxidized) = reducing agent."
+  },
+  {
+    "question": "Which of the following is an oxidation-reduction reaction?",
+    "options": [
+      "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)",
+      "2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l)",
+      "HCl(aq) + H₂O(l) → H₃O⁺ + Cl⁻",
+      "CuO(s) + H₂(g) → Cu(s) + H₂O(l)"
+    ],
+    "correct": 3,
+    "explanation": "CuO + H₂: Cu goes from +2→0 (reduced) and H goes from 0→+1 (oxidized). This involves electron transfer = redox. The other reactions are double displacement, acid-base neutralization, and acid dissociation — all non-redox."
+  },
+  {
+    "question": "In the reaction 14HCl + K₂Cr₂O₇ → 2KCl + 2CrCl₃ + 3Cl₂ + 7H₂O, which statement is true?",
+    "options": [
+      "HCl acts as the reducing agent",
+      "Hydrogen is oxidized in this reaction",
+      "Chromium is oxidized from +3 to +6",
+      "K₂Cr₂O₇ is the reducing agent"
+    ],
+    "correct": 0,
+    "explanation": "Cr in K₂Cr₂O₇ goes +6→+3 (reduced). Cl in HCl goes −1→0 in Cl₂ (oxidized). HCl is oxidized → HCl is the reducing agent. K₂Cr₂O₇ is the oxidizing agent."
+  },
+  {
+    "question": "In the reaction 2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu, which statement correctly describes electron transfer?",
+    "options": [
+      "Each Al loses 3e⁻ and each Cu²⁺ gains 2e⁻",
+      "Each Al loses 2e⁻ and each Cu²⁺ gains 3e⁻",
+      "Each Al gains 3e⁻ and each Cu²⁺ loses 2e⁻",
+      "Each Al gains 2e⁻ and each Cu²⁺ loses 3e⁻"
+    ],
+    "correct": 0,
+    "explanation": "Al → Al³⁺ + 3e⁻ (each Al loses 3 electrons, is oxidized). Cu²⁺ + 2e⁻ → Cu (each Cu²⁺ gains 2 electrons, is reduced). Total electrons transferred: 2×3 = 3×2 = 6e⁻ (balanced)."
+  },
+  {
+    "question": "Which statement about redox reactions is correct?",
+    "options": [
+      "The oxidizing agent gains electrons",
+      "Oxidation is a decrease in oxidation number",
+      "The oxidizing agent undergoes oxidation",
+      "Reduction is an increase in oxidation number"
+    ],
+    "correct": 0,
+    "explanation": "The oxidizing agent causes oxidation in another species — it does so by accepting (gaining) electrons itself. GER: Gain Electrons = Reduced. The oxidizing agent is reduced, not oxidized. Oxidation = increase (not decrease) in oxidation number."
+  },
+  {
+    "question": "What is the percentage by mass of nitrogen in urea, CO(NH₂)₂?",
+    "options": [
+      "23.3%",
+      "6.7%",
+      "33.3%",
+      "46.7%"
+    ],
+    "correct": 3,
+    "explanation": "CO(NH₂)₂ = CON₂H₄. M = 12+16+2(14)+4(1) = 60 g/mol. Mass of N = 2×14 = 28 g. %N = (28/60)×100 = 46.7%."
+  },
+  {
+    "question": "Among C₂H₂, C₂H₄, C₂H₆, and CH₄, which has the greatest percentage composition of carbon?",
+    "options": [
+      "C₂H₄",
+      "CH₄",
+      "C₂H₆",
+      "C₂H₂"
+    ],
+    "correct": 3,
+    "explanation": "C₂H₂: M=26, %C=24/26×100=92.3%. C₂H₄: %C=24/28×100=85.7%. C₂H₆: %C=24/30×100=80.0%. CH₄: %C=12/16×100=75.0%. The C:H ratio is highest in C₂H₂."
+  },
+  {
+    "question": "140 mol of atom B react with 70 mol of atom A. The empirical formula of the product is:",
+    "options": [
+      "BA₂",
+      "B₂A",
+      "B₃A₂",
+      "BA"
+    ],
+    "correct": 1,
+    "explanation": "Divide by smallest: B = 140/70 = 2, A = 70/70 = 1. Empirical formula = B₂A."
+  },
+  {
+    "question": "A compound contains 40% C, 6.6% H, and 53.4% O. Its molar mass is 60 g/mol. What is its molecular formula?",
+    "options": [
+      "CH₂O",
+      "C₂H₄O",
+      "C₂H₄O₂",
+      "C₄H₄O₂"
+    ],
+    "correct": 2,
+    "explanation": "Mole ratios: C=40/12=3.33, H=6.6/1=6.6, O=53.4/16=3.33. Divide by 3.33 → C:H:O = 1:2:1. EF=CH₂O, M=30. n=60/30=2. MF = C₂H₄O₂."
+  },
+  {
+    "question": "Given 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), how many grams of Fe₂O₃ are produced from 32 g of iron? (Fe=56, O=16)",
+    "options": [
+      "91.4 g",
+      "106.7 g",
+      "12.0 g",
+      "45.7 g"
+    ],
+    "correct": 3,
+    "explanation": "n(Fe) = 32/56 = 0.571 mol. From ratio: n(Fe₂O₃) = (2/4)×0.571 = 0.286 mol. M(Fe₂O₃)=160 g/mol. Mass = 0.286×160 = 45.7 g."
+  },
+  {
+    "question": "For 2KNO₃ → 2KNO₂ + O₂, how many moles of KNO₃ must decompose to produce 9 mol O₂?",
+    "options": [
+      "4.5 mol",
+      "9 mol",
+      "18 mol",
+      "3 mol"
+    ],
+    "correct": 2,
+    "explanation": "Mole ratio KNO₃:O₂ = 2:1. For 9 mol O₂: n(KNO₃) = 9×(2/1) = 18 mol. Trap: 9 mol comes from a 1:1 misread of the ratio."
+  },
+  {
+    "question": "For CO(g) + 2H₂(g) → CH₃OH(l), how many liters of CO at STP are needed to react with 11.2 L of H₂?",
+    "options": [
+      "22.4 L",
+      "11.2 L",
+      "5.6 L",
+      "44.8 L"
+    ],
+    "correct": 2,
+    "explanation": "Volume ratio CO:H₂ = 1:2 (at STP, volumes are proportional to moles). V(CO) = 11.2/2 = 5.6 L. Trap: Forgetting the 1:2 ratio gives 11.2 L."
+  },
+  {
+    "question": "Which statement correctly describes theoretical yield, actual yield, and percentage yield?",
+    "options": [
+      "Percentage yield = theoretical yield × 100",
+      "Actual yield is calculated from the balanced equation",
+      "Actual yield is always less than or equal to theoretical yield",
+      "Theoretical yield is the minimum product possible from given reactants"
+    ],
+    "correct": 2,
+    "explanation": "Theoretical yield is calculated from the balanced equation; actual yield is measured in the lab. Due to side reactions and losses, actual yield ≤ theoretical yield. % yield = (actual/theoretical) × 100."
+  },
+  {
+    "question": "32.5 g of Zn reacts with excess HCl to produce 0.4 mol H₂. What is the percentage yield? (Zn=65, H=1)",
+    "options": [
+      "40%",
+      "60%",
+      "70%",
+      "80%"
+    ],
+    "correct": 3,
+    "explanation": "Zn + 2HCl → ZnCl₂ + H₂. n(Zn)=32.5/65=0.5 mol; theoretical n(H₂)=0.5 mol; theoretical mass H₂=0.5×2=1 g. Actual mass=0.4×2=0.8 g. %yield=(0.8/1)×100=80%."
+  },
+  {
+    "question": "60 g NaOH + 73 g HCl → NaCl + H₂O. What mass of NaCl is produced? (Na=23, O=16, H=1, Cl=35.5)",
+    "options": [
+      "117 g",
+      "39 g",
+      "36.5 g",
+      "87.8 g"
+    ],
+    "correct": 3,
+    "explanation": "n(NaOH)=60/40=1.5 mol; n(HCl)=73/36.5=2 mol. NaOH is limiting (ratio 1:1, 1.5<2). From 1.5 mol NaOH → 1.5 mol NaCl. Mass=1.5×58.5=87.75 g."
+  },
+  {
+    "question": "2 mol Mg reacts with 3 mol O₂ according to 2Mg + O₂ → 2MgO. How many moles of excess reactant remain unreacted?",
+    "options": [
+      "1 mol Mg",
+      "1.5 mol Mg",
+      "2 mol O₂",
+      "1 mol O₂"
+    ],
+    "correct": 2,
+    "explanation": "Divide by coefficient: Mg=2/2=1, O₂=3/1=3. Mg is limiting. O₂ consumed = 1 mol (stoichiometric amount per 2 mol Mg). O₂ remaining = 3−1 = 2 mol."
+  },
+  {
+    "question": "1.6 g CaC₂ and 1.8 g H₂O react: CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂. The limiting reactant is: (Ca=40, C=12, H=1, O=16)",
+    "options": [
+      "C₂H₂",
+      "H₂O",
+      "CaC₂",
+      "Ca(OH)₂"
+    ],
+    "correct": 2,
+    "explanation": "n(CaC₂)=1.6/64=0.025 mol; divide by coeff 1 → 0.025. n(H₂O)=1.8/18=0.1 mol; divide by coeff 2 → 0.050. CaC₂ has the smaller ratio (0.025) → CaC₂ is the limiting reactant."
+  },
+  {
+    "question": "What is the oxidation state of Cr in K₂Cr₂O₇?",
+    "options": [
+      "+3",
+      "+4",
+      "+7",
+      "+6"
+    ],
+    "correct": 3,
+    "explanation": "K₂Cr₂O₇: 2(+1) + 2x + 7(−2) = 0 → 2 + 2x − 14 = 0 → x = +6. Trap: +7 is the oxidation state of Mn in KMnO₄, not Cr."
+  },
+  {
+    "question": "In the reaction Fe₂O₃ + 3CO → 2Fe + 3CO₂, which species is the oxidizing agent?",
+    "options": [
+      "CO (carbon monoxide)",
+      "Fe (iron)",
+      "Fe₂O₃ (iron oxide)",
+      "CO₂ (carbon dioxide)"
+    ],
+    "correct": 2,
+    "explanation": "Fe in Fe₂O₃ goes from +3 → 0 (gained electrons, was reduced). C in CO goes from +2 → +4 (lost electrons, was oxidized). The oxidizing agent contains the element that is reduced → Fe₂O₃."
+  },
+  {
+    "question": "The molar mass of a gas is 28 g/mol. What volume will 7 g of this gas occupy at STP?",
+    "options": [
+      "5.6 L",
+      "11.2 L",
+      "22.4 L",
+      "44.8 L"
+    ],
+    "correct": 0,
+    "explanation": "n = m/M = 7/28 = 0.25 mol. V = n × 22.4 L/mol = 0.25 × 22.4 = 5.6 L. Trap: using 7/28 = 0.5 (arithmetic error) gives 11.2 L."
+  },
+  {
+    "question": "A compound is 85.7% C and 14.3% H by mass, with molar mass 28 g/mol. Its molecular formula is:",
+    "options": [
+      "CH₂",
+      "C₂H₄",
+      "C₂H₆",
+      "C₃H₄"
+    ],
+    "correct": 1,
+    "explanation": "Mole ratios: C=85.7/12=7.14, H=14.3/1=14.3. Ratio C:H = 1:2. EF=CH₂, M=14. n=28/14=2. MF=C₂H₄ (ethylene)."
+  },
+  {
+    "question": "The percentage by mass of MgSO₄ in MgSO₄·7H₂O (Epsom salt) is: (Mg=24, S=32, O=16, H=1)",
+    "options": [
+      "56.5%",
+      "68.9%",
+      "48.8%",
+      "71.4%"
+    ],
+    "correct": 2,
+    "explanation": "M(MgSO₄) = 24+32+64 = 120 g/mol. M(7H₂O) = 7×18 = 126 g/mol. M(MgSO₄·7H₂O) = 246 g/mol. %MgSO₄ = (120/246)×100 = 48.8%."
+  },
+  {
+    "question": "How many liters of NH₃ are produced when 36 L H₂ reacts with 13 L N₂ at STP? (N₂ + 3H₂ → 2NH₃)",
+    "options": [
+      "26 L",
+      "24 L",
+      "18 L",
+      "36 L"
+    ],
+    "correct": 1,
+    "explanation": "Compare V/coeff: N₂=13/1=13, H₂=36/3=12. H₂ is limiting. From H₂: V(NH₃) = 36×(2/3) = 24 L. Trap: using N₂ as limiting gives 26 L (incorrect)."
+  },
+  {
+    "question": "For the reaction: 4KO₂(s) + 2CO₂(g) → 2K₂CO₃(s) + 3O₂(g), what mass of KO₂ is needed to consume 50 L CO₂ at STP? (K=39, O=16)",
+    "options": [
+      "213.6 g",
+      "284.5 g",
+      "317.0 g",
+      "142.0 g"
+    ],
+    "correct": 2,
+    "explanation": "n(CO₂) = 50/22.4 = 2.232 mol. n(KO₂)/4 = n(CO₂)/2 → n(KO₂) = 2×2.232 = 4.464 mol. M(KO₂) = 39+32 = 71 g/mol. Mass = 4.464×71 = 317.0 g."
+  },
+  {
+    "question": "When 56 g of Ca reacts with excess N₂ (3Ca + N₂ → Ca₃N₂) with 90% yield, what is the actual yield? (Ca=40, N=14)",
+    "options": [
+      "62.1 g",
+      "69.0 g",
+      "60.1 g",
+      "55.2 g"
+    ],
+    "correct": 0,
+    "explanation": "n(Ca)=56/40=1.4 mol. Mole ratio Ca:Ca₃N₂=3:1; n(Ca₃N₂)=1.4/3=0.467 mol. M(Ca₃N₂)=148 g/mol. TY=0.467×148=69.1 g. AY=0.90×69.1=62.2 g ≈ 62.1 g."
+  },
+  {
+    "question": "What mass of CaC₂ is needed to produce 5.6 L of C₂H₂ at STP? CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂ (Ca=40, C=12)",
+    "options": [
+      "32 g",
+      "8 g",
+      "16 g",
+      "64 g"
+    ],
+    "correct": 2,
+    "explanation": "n(C₂H₂) = 5.6/22.4 = 0.25 mol. From 1:1 ratio, n(CaC₂) = 0.25 mol. M(CaC₂) = 40+24 = 64 g/mol. Mass = 0.25×64 = 16 g."
+  },
+  {
+    "question": "A sample of 2 mol Mg reacts with 3 mol O₂ in 2Mg + O₂ → 2MgO. How many grams of MgO are produced? (Mg=24, O=16)",
+    "options": [
+      "80 g",
+      "160 g",
+      "40 g",
+      "120 g"
+    ],
+    "correct": 0,
+    "explanation": "From the earlier question, Mg is limiting (2 mol available, exactly meets stoichiometric need). n(MgO) = n(Mg) = 2 mol. M(MgO)=40 g/mol. Mass=2×40=80 g."
+  },
+  {
+    "question": "What is the percentage yield when 10 g of CaCO₃ decomposes to give 3.96 g CO₂? CaCO₃ → CaO + CO₂ (Ca=40, C=12, O=16)",
+    "options": [
+      "80%",
+      "85%",
+      "90%",
+      "95%"
+    ],
+    "correct": 2,
+    "explanation": "Theoretical: 10g CaCO₃ → (10/100)×44 = 4.4 g CO₂. %yield = (3.96/4.4)×100 = 90%."
+  },
+  {
+    "question": "In the reaction 2SO₂(g) + O₂(g) → 2SO₃(g), when 48 g SO₂ and 12 g O₂ react, what mass of SO₃ forms? (S=32, O=16)",
+    "options": [
+      "48 g",
+      "80 g",
+      "60 g",
+      "40 g"
+    ],
+    "correct": 2,
+    "explanation": "n(SO₂)=48/64=0.75 mol; n(O₂)=12/32=0.375 mol. Ratio needed: SO₂:O₂=2:1; have 0.75:0.375=2:1 exactly (both limiting). n(SO₃)=0.75 mol. M(SO₃)=80 g/mol. Mass=0.75×80=60 g."
+  },
+  {
+    "question": "Which of the following contains the most molecules per gram?",
+    "options": [
+      "O₂ (M=32)",
+      "H₂O (M=18)",
+      "CH₄ (M=16)",
+      "H₂ (M=2)"
+    ],
+    "correct": 3,
+    "explanation": "Molecules/gram = Nₐ/M. Smaller M → more molecules per gram. H₂ has M=2, giving (6.02×10²³)/2 = 3.01×10²³ molecules/g — the highest. Order: H₂ > CH₄ > H₂O > O₂."
+  },
+  {
+    "question": "How many moles of H₂O are produced by complete combustion of 2 mol benzene? 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O",
+    "options": [
+      "12 mol",
+      "6 mol",
+      "3 mol",
+      "15 mol"
+    ],
+    "correct": 1,
+    "explanation": "From the balanced equation: 2 mol C₆H₆ → 6 mol H₂O. Ratio is 2:6 = 1:3 per mol C₆H₆. For 2 mol: n(H₂O) = 6 mol."
+  },
+  {
+    "question": "The density of a gas at STP is 1.25 g/L. What is the molar mass of this gas?",
+    "options": [
+      "22.4 g/mol",
+      "28.0 g/mol",
+      "32.0 g/mol",
+      "44.0 g/mol"
+    ],
+    "correct": 1,
+    "explanation": "At STP, 1 mol of gas occupies 22.4 L. M = density × molar volume = 1.25 g/L × 22.4 L/mol = 28.0 g/mol (this is N₂ or CO)."
+  },
+  {
+    "question": "When Al₂(SO₄)₃ + ZnCl₂ → AlCl₃ + ZnSO₄ is balanced, the sum of ALL coefficients is:",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "Balanced: Al₂(SO₄)₃ + 3ZnCl₂ → 2AlCl₃ + 3ZnSO₄. Coefficients: 1+3+2+3 = 9."
+  },
+  {
+    "question": "The balanced equation for nitrogen pentoxide reacting with water to form nitric acid is:",
+    "options": [
+      "N₂O₅ + 2H₂O → 2HNO₃ + H₂O",
+      "N₂O₅ + H₂O → 2HNO₃",
+      "NO₂ + H₂O → HNO₃ + HNO₂",
+      "2N₂O₅ + H₂O → 4HNO₃"
+    ],
+    "correct": 1,
+    "explanation": "N₂O₅ + H₂O → 2HNO₃. Check: N(2=2), O(5+1=6=6), H(2=2). Fully balanced. Option C is the disproportionation of NO₂, a different reaction."
+  },
+  {
+    "question": "In the balanced combustion of decane: 2C₁₀H₂₂ + 31O₂ → 20CO₂ + 22H₂O. The ratio of CO₂ to H₂O produced is:",
+    "options": [
+      "10:11",
+      "11:10",
+      "20:22",
+      "1:1"
+    ],
+    "correct": 0,
+    "explanation": "Coefficients: CO₂=20, H₂O=22. Simplify by 2: 10:11. Both 20:22 and 10:11 are equivalent, but 10:11 is the simplest form."
+  },
+  {
+    "question": "What coefficient balances HCl in: KMnO₄ + HCl → KCl + MnCl₂ + Cl₂ + H₂O?",
+    "options": [
+      "16",
+      "5",
+      "8",
+      "12"
+    ],
+    "correct": 0,
+    "explanation": "Mn: +7→+2 (gains 5e⁻). Cl (in HCl): −1→0 (loses 1e⁻). To balance: 5 Cl atoms oxidized per 1 Mn reduced. Balanced: 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O. Coefficient of HCl = 16."
+  },
+  {
+    "question": "In the reaction 2KClO₃ → 2KCl + 3O₂, which species acts as BOTH the oxidizing agent and reducing agent?",
+    "options": [
+      "KCl",
+      "KClO₃",
+      "O₂",
+      "K⁺"
+    ],
+    "correct": 1,
+    "explanation": "Cl in KClO₃ goes +5→−1 (reduced → KClO₃ is oxidizing agent). O in KClO₃ goes −2→0 (oxidized → KClO₃ is also reducing agent). The same compound KClO₃ contains both the element reduced (Cl) and the element oxidized (O), so KClO₃ is both the oxidizing and reducing agent."
+  },
+  {
+    "question": "Given reactivity: Mg > Zn > Fe > Cu. Which reaction does NOT occur?",
+    "options": [
+      "Cu + ZnSO₄ → CuSO₄ + Zn",
+      "Zn + FeSO₄ → ZnSO₄ + Fe",
+      "Fe + CuSO₄ → FeSO₄ + Cu",
+      "Mg + FeSO₄ → MgSO₄ + Fe"
+    ],
+    "correct": 0,
+    "explanation": "A less reactive metal cannot displace a more reactive one. Cu is less reactive than Zn, so Cu cannot displace Zn from ZnSO₄. All other reactions proceed because the free metal is more reactive than the dissolved one."
+  },
+  {
+    "question": "Which balanced equation represents a decomposition reaction?",
+    "options": [
+      "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O",
+      "Pb(NO₃)₂ + Na₂SO₄ → PbSO₄ + 2NaNO₃",
+      "2Mg + O₂ → 2MgO",
+      "Br₂ + 2LiI → 2LiBr + I₂"
+    ],
+    "correct": 0,
+    "explanation": "2NaHCO₃ → Na₂CO₃ + CO₂ + H₂O: one reactant produces multiple products = decomposition. Option A is combination; B is double displacement; D is single displacement."
+  },
+  {
+    "question": "What is the oxidation number of Mn in KMnO₄?",
+    "options": [
+      "+4",
+      "+5",
+      "+6",
+      "+7"
+    ],
+    "correct": 3,
+    "explanation": "KMnO₄: K(+1) + Mn(x) + 4O(−2) = 0 → 1 + x − 8 = 0 → x = +7. Trap: +4 is Mn in MnO₂; +6 is Cr in Cr₂O₇²⁻."
+  },
+  {
+    "question": "The oxidation number of Br in HBrO₃ is:",
+    "options": [
+      "+3",
+      "+5",
+      "+7",
+      "+1"
+    ],
+    "correct": 1,
+    "explanation": "HBrO₃: H(+1) + Br(x) + 3O(−2) = 0 → 1 + x − 6 = 0 → x = +5. HBrO₃ is bromic acid; Br is in the +5 state."
+  },
+  {
+    "question": "In which compound does nitrogen have the LOWEST oxidation number?",
+    "options": [
+      "N₂H₄",
+      "N₂O₄",
+      "N₂O₅",
+      "NO"
+    ],
+    "correct": 0,
+    "explanation": "N₂H₄: 2x + 4(+1) = 0 → x = −2. N₂O₅: x = +5. N₂O₄: x = +4. NO: x = +2. N₂H₄ gives the most negative (lowest) oxidation state for N."
+  },
+  {
+    "question": "What is the oxidation state of P in PH₄⁺?",
+    "options": [
+      "−3",
+      "+5",
+      "+3",
+      "0"
+    ],
+    "correct": 0,
+    "explanation": "PH₄⁺: P(x) + 4H(+1) = +1 → x + 4 = +1 → x = −3. Hydrogen is +1 here (bonded to nonmetal P). This is analogous to NH₄⁺ where N = −3."
+  },
+  {
+    "question": "In MnO₂ + Al → Mn + Al₂O₃ (unbalanced), which is the oxidizing agent?",
+    "options": [
+      "Al (aluminum)",
+      "Mn (manganese)",
+      "Al₂O₃ (aluminum oxide)",
+      "MnO₂ (manganese dioxide)"
+    ],
+    "correct": 3,
+    "explanation": "Mn in MnO₂ goes from +4 → 0 (gained electrons, was reduced). Al goes from 0 → +3 (lost electrons, was oxidized). The oxidizing agent is the substance containing the element reduced = MnO₂."
+  },
+  {
+    "question": "How many moles of oxygen atoms are in 200 g of CaCO₃? (Ca=40, C=12, O=16)",
+    "options": [
+      "2 mol",
+      "3 mol",
+      "9 mol",
+      "6 mol"
+    ],
+    "correct": 3,
+    "explanation": "M(CaCO₃)=100 g/mol. n(CaCO₃)=200/100=2 mol. Each CaCO₃ has 3 oxygen atoms → n(O)=2×3=6 mol."
+  },
+  {
+    "question": "What is the mass of one molecule of ethane (C₂H₆)? (C=12, H=1)",
+    "options": [
+      "4.98×10⁻²³ g",
+      "9.96×10⁻²³ g",
+      "3.32×10⁻²³ g",
+      "1.66×10⁻²³ g"
+    ],
+    "correct": 0,
+    "explanation": "M(C₂H₆)=30 g/mol. Mass of 1 molecule = 30/(6.02×10²³) = 4.98×10⁻²³ g."
+  },
+  {
+    "question": "3 mol of (NH₄)₂HPO₄ contains how many moles of hydrogen atoms? (H appears in NH₄ and H of HPO₄)",
+    "options": [
+      "21 mol",
+      "24 mol",
+      "18 mol",
+      "27 mol"
+    ],
+    "correct": 3,
+    "explanation": "(NH₄)₂HPO₄ has: 2×NH₄ = 8H, plus 1 H in HPO₄ = total 9H per formula unit. n(H) = 3×9 = 27 mol."
+  },
+  {
+    "question": "A sample of glucose C₆H₁₂O₆ contains 2×10²⁰ atoms of oxygen. How many hydrogen atoms does it contain?",
+    "options": [
+      "2×10²⁰",
+      "4×10²⁰",
+      "6×10²⁰",
+      "1×10²⁰"
+    ],
+    "correct": 1,
+    "explanation": "In C₆H₁₂O₆: H:O subscript ratio = 12:6 = 2:1. If O atoms = 2×10²⁰, then H atoms = 2×(2×10²⁰) = 4×10²⁰."
+  },
+  {
+    "question": "How many chlorine atoms are in 1.0×10⁻⁵ mol of CCl₄?",
+    "options": [
+      "6.02×10¹⁸",
+      "2.41×10¹⁹",
+      "1.20×10¹⁹",
+      "4.82×10¹⁸"
+    ],
+    "correct": 1,
+    "explanation": "Each CCl₄ has 4 Cl atoms. No. of Cl = 1.0×10⁻⁵ × 4 × 6.02×10²³ = 2.41×10¹⁹ atoms."
+  },
+  {
+    "question": "What mass of Mg contains the same number of atoms as 5 g of Ca? (Ca=40, Mg=24)",
+    "options": [
+      "3.01 g",
+      "4.00 g",
+      "2.50 g",
+      "6.02 g"
+    ],
+    "correct": 0,
+    "explanation": "n(Ca)=5/40=0.125 mol = same number of moles of Mg needed. Mass(Mg)=0.125×24=3.0 g ≈ 3.01 g."
+  },
+  {
+    "question": "Arrange in increasing order of number of molecules per gram: O₂, H₂O, CH₄, H₂",
+    "options": [
+      "H₂ < CH₄ < H₂O < O₂",
+      "O₂ < H₂O < CH₄ < H₂",
+      "H₂O < O₂ < CH₄ < H₂",
+      "O₂ < CH₄ < H₂O < H₂"
+    ],
+    "correct": 1,
+    "explanation": "Molecules/g = Nₐ/M. O₂(M=32)<H₂O(M=18)<CH₄(M=16)<H₂(M=2). Smaller M = more molecules/g. Order of increasing: O₂ < H₂O < CH₄ < H₂."
+  },
+  {
+    "question": "What is the percentage composition of N in ammonium nitrate NH₄NO₃? (N=14, H=1, O=16)",
+    "options": [
+      "17.5%",
+      "35.0%",
+      "46.7%",
+      "28.0%"
+    ],
+    "correct": 1,
+    "explanation": "M(NH₄NO₃)=80 g/mol. Mass N = 2×14=28 g. %N = (28/80)×100 = 35.0%."
+  },
+  {
+    "question": "The percentage by mass of water in gypsum CaSO₄·2H₂O is: (Ca=40, S=32, O=16, H=1)",
+    "options": [
+      "15.7%",
+      "20.9%",
+      "26.3%",
+      "31.2%"
+    ],
+    "correct": 1,
+    "explanation": "M(CaSO₄)=136, M(2H₂O)=36. M(gypsum)=172 g/mol. %H₂O=(36/172)×100=20.9%."
+  },
+  {
+    "question": "An oxide of nitrogen contains 30.4% N by mass. Its empirical formula is: (N=14, O=16)",
+    "options": [
+      "NO",
+      "N₂O",
+      "N₂O₃",
+      "NO₂"
+    ],
+    "correct": 3,
+    "explanation": "%O=100−30.4=69.6%. Mole ratio: N=30.4/14=2.17; O=69.6/16=4.35. O/N=4.35/2.17=2. Empirical formula = NO₂."
+  },
+  {
+    "question": "A compound contains 17.6% Na, 39.7% Cr, and 42.7% O. Its empirical formula is: (Na=23, Cr=52, O=16)",
+    "options": [
+      "Na₂CrO₄",
+      "NaCrO₃",
+      "NaCrO₄",
+      "Na₂Cr₂O₇"
+    ],
+    "correct": 3,
+    "explanation": "Mole ratios: Na=17.6/23=0.765; Cr=39.7/52=0.763; O=42.7/16=2.67. Divide by 0.763: Na≈1, Cr≈1, O≈3.5. Multiply by 2: Na₂Cr₂O₇."
+  },
+  {
+    "question": "How many grams of CO₂ are produced by complete combustion of 3 mol C₂H₆? 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O (C=12, O=16)",
+    "options": [
+      "132 g",
+      "176 g",
+      "88 g",
+      "264 g"
+    ],
+    "correct": 3,
+    "explanation": "n(CO₂)/4 = n(C₂H₆)/2 → n(CO₂)=3×(4/2)=6 mol. Mass=6×44=264 g."
+  },
+  {
+    "question": "For CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂, how many moles of H₂O react with 0.5 mol CaC₂?",
+    "options": [
+      "0.5 mol",
+      "2.0 mol",
+      "1.0 mol",
+      "0.25 mol"
+    ],
+    "correct": 2,
+    "explanation": "Mole ratio CaC₂:H₂O = 1:2. For 0.5 mol CaC₂: n(H₂O) = 0.5×2 = 1.0 mol."
+  },
+  {
+    "question": "856 g of glucose C₆H₁₂O₆ combusts: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. Mass of CO₂ produced? (C=12, H=1, O=16)",
+    "options": [
+      "627.5 g",
+      "1045.3 g",
+      "1255.5 g",
+      "418.8 g"
+    ],
+    "correct": 2,
+    "explanation": "n(C₆H₁₂O₆)=856/180=4.756 mol. n(CO₂)=4.756×6=28.53 mol. Mass=28.53×44=1255.5 g."
+  },
+  {
+    "question": "In the reaction 3Ca + N₂ → Ca₃N₂, what mass of Ca₃N₂ can be produced from 1.2 mol Ca? (Ca=40, N=14)",
+    "options": [
+      "29.6 g",
+      "59.2 g",
+      "88.8 g",
+      "19.7 g"
+    ],
+    "correct": 1,
+    "explanation": "n(Ca₃N₂)=1.2/3=0.4 mol. M(Ca₃N₂)=3(40)+2(14)=148 g/mol. Mass=0.4×148=59.2 g."
+  },
+  {
+    "question": "How many liters of CO₂ at STP are produced per gram of sucrose burned? C₁₂H₂₂O₁₁ + 12O₂ → 12CO₂ + 11H₂O (M=342 g/mol)",
+    "options": [
+      "0.393 L",
+      "0.786 L",
+      "1.572 L",
+      "0.197 L"
+    ],
+    "correct": 1,
+    "explanation": "1 g sucrose = 1/342 mol. n(CO₂)=(1/342)×12=0.0351 mol. V=0.0351×22.4=0.786 L."
+  },
+  {
+    "question": "For 2Fe₂S₃ + 6H₂O + 3O₂ → 4Fe(OH)₃ + 6S, if 1 mol Fe₂S₃, 2 mol H₂O, 3 mol O₂ react, which is limiting?",
+    "options": [
+      "O₂",
+      "Fe₂S₃",
+      "H₂O",
+      "Both Fe₂S₃ and H₂O"
+    ],
+    "correct": 2,
+    "explanation": "Divide n by coefficient: Fe₂S₃=1/2=0.5; H₂O=2/6=0.333; O₂=3/3=1.0. Smallest ratio = H₂O (0.333) → H₂O is the limiting reactant."
+  },
+  {
+    "question": "5 g SO₂ is actually formed when 3 g O₂ reacts with excess S. What is the % yield? S + O₂ → SO₂ (S=32, O=16)",
+    "options": [
+      "75.0%",
+      "83.3%",
+      "66.7%",
+      "91.7%"
+    ],
+    "correct": 1,
+    "explanation": "n(O₂)=3/32=0.09375 mol. TY(SO₂)=0.09375×64=6.0 g. %yield=(5/6)×100=83.3%."
+  },
+  {
+    "question": "3NaBH₄ + 4BF₃ → 3NaBF₄ + 2B₂H₆, %yield=70%. To obtain 0.2 mol B₂H₆, how many mol NaBH₄ are needed?",
+    "options": [
+      "0.214 mol",
+      "0.300 mol",
+      "0.429 mol",
+      "0.600 mol"
+    ],
+    "correct": 2,
+    "explanation": "TY(B₂H₆)=AY/%yield × 100 = 0.2/0.70=0.286 mol. n(NaBH₄)=0.286×(3/2)=0.429 mol."
+  },
+  {
+    "question": "What mass of Fe(OH)₃ forms from 1 mol Fe₂S₃, 2 mol H₂O, 3 mol O₂ (H₂O is limiting)? 2Fe₂S₃+6H₂O+3O₂→4Fe(OH)₃+6S (Fe=56,O=16,H=1)",
+    "options": [
+      "214 g",
+      "107 g",
+      "142.7 g",
+      "71.3 g"
+    ],
+    "correct": 2,
+    "explanation": "H₂O is limiting (2 mol, coeff=6). n(Fe(OH)₃)=2×(4/6)=1.333 mol. M(Fe(OH)₃)=107 g/mol. Mass=1.333×107=142.7 g."
+  },
+  {
+    "question": "Which of the following is a physical change?",
+    "options": [
+      "Dissolving of sugar in water",
+      "Souring of milk",
+      "Fermentation of glucose to ethanol",
+      "Burning of natural gas"
+    ],
+    "correct": 0,
+    "explanation": "Dissolving sugar in water is a physical change — no new substance is formed; the process is reversible by evaporation. Fermentation, souring, and burning all produce new substances (chemical changes)."
+  },
+  {
+    "question": "Heating of sugar causes it to caramelise and char. This is best described as:",
+    "options": [
+      "A physical change because heat is applied",
+      "A mechanical change due to applied energy",
+      "A change of state from solid to liquid",
+      "A chemical change because new substances form"
+    ],
+    "correct": 3,
+    "explanation": "Caramelisation and charring produce new compounds (caramel, carbon). New substances form = chemical change. The fact that heat is applied does not make it physical."
+  },
+  {
+    "question": "When 2Fe + 3Cl₂ → 2FeCl₃ is balanced, what is the coefficient of Cl₂?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "2Fe + 3Cl₂ → 2FeCl₃. Fe: 2=2 ✓. Cl: 3×2=6=2×3=6 ✓. Coefficient of Cl₂ = 3."
+  },
+  {
+    "question": "The balanced equation for burning acetylene (C₂H₂) in oxygen is:",
+    "options": [
+      "C₂H₂ + O₂ → CO₂ + H₂O",
+      "2C₂H₂ + 3O₂ → 4CO + 2H₂O",
+      "C₂H₂ + 2O₂ → 2CO₂ + H₂O",
+      "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O"
+    ],
+    "correct": 3,
+    "explanation": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O. Check: C(4=4), H(4=4), O(10=8+2=10) ✓. Option C gives O(4=4+1=5) — unbalanced."
+  },
+  {
+    "question": "For 3CuO + 2NH₃ → N₂ + 3Cu + 3H₂O, what is the sum of all coefficients?",
+    "options": [
+      "12",
+      "11",
+      "9",
+      "14"
+    ],
+    "correct": 0,
+    "explanation": "Coefficients: 3+2+1+3+3 = 12."
+  },
+  {
+    "question": "Which of the following is NOT a valid state symbol used in chemical equations?",
+    "options": [
+      "(p)",
+      "(s)",
+      "(g)",
+      "(aq)"
+    ],
+    "correct": 0,
+    "explanation": "Valid state symbols: (s)=solid, (l)=liquid, (g)=gas, (aq)=aqueous solution. (p) is not a standard state symbol."
+  },
+  {
+    "question": "The reaction 2SO₂ + O₂ → 2SO₃ is classified as:",
+    "options": [
+      "Decomposition",
+      "Single displacement",
+      "Double displacement",
+      "Combination"
+    ],
+    "correct": 3,
+    "explanation": "Two reactants combine to form one product → combination (synthesis) reaction. The reverse (2SO₃ → 2SO₂ + O₂) would be decomposition."
+  },
+  {
+    "question": "Pb(NO₃)₂ + Na₂SO₄ → PbSO₄↓ + 2NaNO₃ is an example of:",
+    "options": [
+      "Single displacement",
+      "Decomposition",
+      "Combination",
+      "Double displacement"
+    ],
+    "correct": 3,
+    "explanation": "Both the cation (Pb²⁺ and Na⁺) and anion (NO₃⁻ and SO₄²⁻) partners exchange → double displacement (metathesis). A precipitate (PbSO₄) forms, which is a common indicator."
+  },
+  {
+    "question": "Which of the following reactions is correctly classified?",
+    "options": [
+      "Na₂CO₃·7H₂O → Na₂CO₃ + 7H₂O — combination",
+      "2SO₃ → 2SO₂ + O₂ — decomposition",
+      "Zn + CuSO₄ → ZnSO₄ + Cu — double displacement",
+      "Na₂O + H₂O → 2NaOH — decomposition"
+    ],
+    "correct": 1,
+    "explanation": "2SO₃ → 2SO₂ + O₂: one reactant gives multiple products = decomposition ✓. Option A is also decomposition (not combination). C is single displacement. D is combination."
+  },
+  {
+    "question": "What is the oxidation number of S in Fe₂(SO₄)₃? (Fe=+3 in this compound)",
+    "options": [
+      "+6",
+      "+5",
+      "+4",
+      "+8"
+    ],
+    "correct": 0,
+    "explanation": "Fe₂(SO₄)₃: 2(+3) + 3(S + 4×(−2)) = 0. Each SO₄ has charge −2: S + (−8) = −2 → S = +6."
+  },
+  {
+    "question": "The oxidation number of N in NO₃⁻ is:",
+    "options": [
+      "+5",
+      "+4",
+      "+3",
+      "+6"
+    ],
+    "correct": 0,
+    "explanation": "NO₃⁻: N(x) + 3(−2) = −1 → x − 6 = −1 → x = +5."
+  },
+  {
+    "question": "In the reaction: Fe²⁺ + MnO₄⁻ + H⁺ → Fe³⁺ + Mn²⁺ + H₂O, which statement is FALSE?",
+    "options": [
+      "Fe²⁺ is the reducing agent",
+      "MnO₄⁻ is the oxidizing agent",
+      "Fe²⁺ loses electrons",
+      "H⁺ gains electrons and is reduced"
+    ],
+    "correct": 3,
+    "explanation": "H⁺ acts as a spectator acid that balances charge/protons in the medium — it is not reduced. Mn goes +7→+2 (reduced), Fe goes +2→+3 (oxidized). H remains +1 throughout."
+  },
+  {
+    "question": "In a disproportionation reaction:",
+    "options": [
+      "Two different elements are oxidized and reduced simultaneously",
+      "The same element is both oxidized and reduced in the same reaction",
+      "Only reduction occurs; no oxidation takes place",
+      "The reaction is always non-redox"
+    ],
+    "correct": 1,
+    "explanation": "Disproportionation: a single element in one compound simultaneously increases in oxidation state (oxidized) in one product and decreases (reduced) in another. Example: 2H₂O₂ → 2H₂O + O₂ (O is both oxidized and reduced)."
+  },
+  {
+    "question": "The formula mass of Ca₃(PO₄)₂ is: (Ca=40, P=31, O=16)",
+    "options": [
+      "278",
+      "310",
+      "342",
+      "233"
+    ],
+    "correct": 1,
+    "explanation": "Ca₃(PO₄)₂: 3(40)+2(31)+8(16) = 120+62+128 = 310 g/mol. Note: the subscript 2 multiplies BOTH P and O inside the bracket."
+  },
+  {
+    "question": "The molar mass of HNO₃ is: (H=1, N=14, O=16)",
+    "options": [
+      "47 g/mol",
+      "63 g/mol",
+      "77 g/mol",
+      "31 g/mol"
+    ],
+    "correct": 1,
+    "explanation": "HNO₃: 1+14+3(16) = 1+14+48 = 63 g/mol."
+  },
+  {
+    "question": "How many moles are in 1 kg of CaCO₃? (Ca=40, C=12, O=16)",
+    "options": [
+      "10 mol",
+      "8 mol",
+      "5 mol",
+      "20 mol"
+    ],
+    "correct": 0,
+    "explanation": "M(CaCO₃)=100 g/mol. n=1000/100=10 mol."
+  },
+  {
+    "question": "What is the molar mass of a compound if 0.25 mol of it has a mass of 20 g?",
+    "options": [
+      "80 g/mol",
+      "40 g/mol",
+      "5 g/mol",
+      "160 g/mol"
+    ],
+    "correct": 0,
+    "explanation": "M = m/n = 20g / 0.25mol = 80 g/mol."
+  },
+  {
+    "question": "The percentage of water in Na₂CO₃·xH₂O is 62.9%. What is the value of x? (Na=23, C=12, O=16, H=1)",
+    "options": [
+      "5",
+      "7",
+      "12",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "M(Na₂CO₃)=106. %H₂O=62.9%: 18x/(106+18x)=0.629 → 18x=0.629(106+18x) → 18x=66.7+11.32x → 6.68x=66.7 → x≈10."
+  },
+  {
+    "question": "Mercuric oxide is 92.6% mercury by mass. What mass of HgO contains 10 g of oxygen? (Hg=201, O=16)",
+    "options": [
+      "74.5 g",
+      "108.1 g",
+      "201.0 g",
+      "135.0 g"
+    ],
+    "correct": 3,
+    "explanation": "%O = 100−92.6 = 7.4%. Mass HgO = (10/7.4)×100 = 135.1 g ≈ 135 g."
+  },
+  {
+    "question": "The percentage of N in DAP, (NH₄)₂HPO₄, is: (N=14, H=1, P=31, O=16)",
+    "options": [
+      "10.7%",
+      "14.5%",
+      "28.2%",
+      "21.4%"
+    ],
+    "correct": 3,
+    "explanation": "M((NH₄)₂HPO₄)=132 g/mol (2×14+9×1+31+4×16=28+9+31+64=132). Mass N=2×14=28. %N=28/132×100=21.2%≈21.4%."
+  },
+  {
+    "question": "60 g of metal M (M=60 g/mol) combines with 24 g of oxygen to form an oxide. The formula of the oxide is:",
+    "options": [
+      "MO",
+      "MO₂",
+      "M₂O",
+      "M₂O₃"
+    ],
+    "correct": 3,
+    "explanation": "n(M)=60/60=1 mol; n(O)=24/16=1.5 mol. Ratio M:O = 1:1.5 = 2:3. Formula = M₂O₃."
+  },
+  {
+    "question": "A compound has empirical formula CH₂O and molar mass 90 g/mol. Its molecular formula is: (C=12, H=1, O=16)",
+    "options": [
+      "C₂H₄O₂",
+      "C₃H₆O₃",
+      "C₄H₈O₄",
+      "CH₂O"
+    ],
+    "correct": 1,
+    "explanation": "M(CH₂O)=30 g/mol. n=90/30=3. Molecular formula = (CH₂O)₃ = C₃H₆O₃."
+  },
+  {
+    "question": "How many grams of P should burn to produce 14.2 g of P₂O₅? 4P + 5O₂ → 2P₂O₅ (P=31, O=16)",
+    "options": [
+      "3.1 g",
+      "4.3 g",
+      "8.6 g",
+      "6.2 g"
+    ],
+    "correct": 3,
+    "explanation": "M(P₂O₅)=142 g/mol. n(P₂O₅)=14.2/142=0.1 mol. n(P)=0.1×(4/2)=0.2 mol. Mass=0.2×31=6.2 g."
+  },
+  {
+    "question": "What volume of O₂ at STP is required to produce 2 L of CO₂? CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "options": [
+      "1 L",
+      "2 L",
+      "8 L",
+      "4 L"
+    ],
+    "correct": 3,
+    "explanation": "Volume ratio O₂:CO₂ = 2:1. For 2 L CO₂: V(O₂)=2×2=4 L."
+  },
+  {
+    "question": "How many liters of CO₂ at STP are produced from 2CO + O₂ → 2CO₂, starting with 11.2 L O₂ and excess CO?",
+    "options": [
+      "5.6 L",
+      "11.2 L",
+      "22.4 L",
+      "44.8 L"
+    ],
+    "correct": 2,
+    "explanation": "n(O₂)=11.2/22.4=0.5 mol. n(CO₂)=0.5×(2/1)=1.0 mol. V(CO₂)=1×22.4=22.4 L."
+  },
+  {
+    "question": "What is the molecular mass of a gas if 150 mL at STP weighs 0.228 g?",
+    "options": [
+      "17 g/mol",
+      "28 g/mol",
+      "34 g/mol",
+      "44 g/mol"
+    ],
+    "correct": 2,
+    "explanation": "At STP: 22400 mL = 1 mol. M = (0.228 g / 150 mL) × 22400 mL/mol = 34 g/mol."
+  },
+  {
+    "question": "How many liters will 3.5 g of N₂ occupy at STP? (N=14)",
+    "options": [
+      "1.4 L",
+      "2.8 L",
+      "5.6 L",
+      "11.2 L"
+    ],
+    "correct": 1,
+    "explanation": "n(N₂)=3.5/28=0.125 mol. V=0.125×22.4=2.8 L."
+  },
+  {
+    "question": "100 mL SO₂ reacts with 100 mL O₂: 2SO₂ + O₂ → 2SO₃. How many mL of excess reactant remain?",
+    "options": [
+      "25 mL SO₂",
+      "50 mL O₂",
+      "50 mL SO₂",
+      "25 mL SO₂ and 25 mL O₂"
+    ],
+    "correct": 1,
+    "explanation": "Need 2:1 ratio SO₂:O₂. 100 mL SO₂ needs 50 mL O₂. Have 100 mL O₂. O₂ used=50 mL; O₂ remaining=100−50=50 mL O₂ in excess."
+  },
+  {
+    "question": "How many moles of Al are needed to completely reduce 0.4 mol Fe₂O₃? Fe₂O₃ + 2Al → Al₂O₃ + 2Fe",
+    "options": [
+      "0.2 mol",
+      "0.4 mol",
+      "0.8 mol",
+      "1.6 mol"
+    ],
+    "correct": 2,
+    "explanation": "Mole ratio Fe₂O₃:Al = 1:2. n(Al) = 0.4×2 = 0.8 mol. Al is the reducing agent here (thermite reaction)."
+  },
+  {
+    "question": "18 g of carbon burns in excess O₂ to give 66 g of CO₂. The percentage of oxygen in CO₂ is:",
+    "options": [
+      "36.4%",
+      "54.5%",
+      "72.7%",
+      "27.3%"
+    ],
+    "correct": 2,
+    "explanation": "C + O₂ → CO₂. Mass O in CO₂ = 66−18 = 48 g. %O = (48/66)×100 = 72.7%."
+  },
+  {
+    "question": "When haematite is reduced with 78% yield: Fe₂O₃ + 3CO → 2Fe + 3CO₂. What actual mass of Fe comes from 1600 g Fe₂O₃? (Fe=56, O=16)",
+    "options": [
+      "873.6 g",
+      "700.0 g",
+      "1120.0 g",
+      "560.0 g"
+    ],
+    "correct": 0,
+    "explanation": "n(Fe₂O₃)=1600/160=10 mol. TY(Fe)=10×2×56=1120 g. AY=0.78×1120=873.6 g."
+  },
+  {
+    "question": "One atom of an element has a mass of 4.48×10⁻²³ g. What is its approximate molar mass?",
+    "options": [
+      "14 g/mol",
+      "24 g/mol",
+      "27 g/mol",
+      "31 g/mol"
+    ],
+    "correct": 2,
+    "explanation": "M = 4.48×10⁻²³ g × 6.02×10²³ mol⁻¹ = 26.97 g/mol ≈ 27 g/mol (Aluminium)."
+  },
+  {
+    "question": "How many Cl⁻ ions are in 2 mol of MgCl₂?",
+    "options": [
+      "6.02×10²³",
+      "1.20×10²⁴",
+      "2.41×10²⁴",
+      "3.61×10²⁴"
+    ],
+    "correct": 2,
+    "explanation": "MgCl₂ → Mg²⁺ + 2Cl⁻. Each formula unit gives 2 Cl⁻. n(Cl⁻)=2×2=4 mol. No. of ions=4×6.02×10²³=2.41×10²⁴."
+  },
+  {
+    "question": "How many atoms are in 64 g of SO₃? (S=32, O=16)",
+    "options": [
+      "9.63×10²³",
+      "1.93×10²⁴",
+      "4.82×10²³",
+      "2.89×10²⁴"
+    ],
+    "correct": 1,
+    "explanation": "M(SO₃)=80 g/mol. n=64/80=0.8 mol. Atoms per molecule=1+3=4. Total atoms=0.8×4×6.02×10²³=1.93×10²⁴."
+  },
+  {
+    "question": "How many molecules are in 20 kg of methane CH₄? (C=12, H=1)",
+    "options": [
+      "3.76×10²⁶",
+      "7.53×10²⁶",
+      "1.50×10²⁷",
+      "1.88×10²⁶"
+    ],
+    "correct": 1,
+    "explanation": "M(CH₄)=16 g/mol. n=20000/16=1250 mol. Molecules=1250×6.02×10²³=7.53×10²⁶."
+  }
+]
