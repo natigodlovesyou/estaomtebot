@@ -5,10 +5,10 @@
       "Democritus believed atoms were indivisible and indestructible, while modern theory recognizes subatomic particles",
       "Democritus believed atoms combined in fixed ratios, while modern theory allows variable ratios",
       "Democritus's atoms had positive and negative regions, unlike modern neutral atoms",
-      "Democritus placed electrons in fixed orbits around a nucleus"
+      "Democritus believed all matter was made of four elements, unlike modern atomic theory"
     ],
     "correct": 0,
-    "explanation": "Democritus's atoms were truly indivisible (atomos = uncuttable). Modern atomic theory reveals protons, neutrons, and electrons inside the atom. The other options describe ideas from later scientists (Dalton, Thomson, Bohr)."
+    "explanation": "Democritus's atoms were truly indivisible (atomos = uncuttable). Modern atomic theory reveals protons, neutrons, and electrons inside the atom. The other options describe ideas from later scientists (Dalton, Thomson) or pre-Socratic element theory (which Democritus himself rejected)."
   },
   {
     "question": "Which statement is NOT one of Dalton's original atomic theory postulates?",
@@ -33,15 +33,15 @@
     "explanation": "Dalton postulated that all atoms of the same element are identical in mass. Isotopes are atoms of the same element (same Z=17) with different neutron counts, giving different masses (35 vs 37 amu) — a direct contradiction."
   },
   {
-    "question": "17.0 g of NH₃ is formed from nitrogen and hydrogen with no leftover reactants. This illustrates which pair of laws that formed the empirical foundation of Dalton's atomic theory?",
+    "question": "14.0 g of nitrogen and 3.0 g of hydrogen react completely to form 17.0 g of ammonia (NH₃). A chemist repeats the experiment with twice the quantities and obtains 34.0 g of ammonia. Which conclusion is best supported by both observations taken together?",
     "options": [
-      "Boyle's law and Gay-Lussac's law",
-      "Law of multiple proportions and Avogadro's law",
-      "Law of conservation of energy and Charles's law",
-      "Law of conservation of mass and law of definite proportions"
+      "The total mass before and after a reaction is always equal, and the composition of NH₃ is fixed regardless of sample size",
+      "Nitrogen and hydrogen always react in a 1:1 mole ratio",
+      "Gases react in simple volume ratios at constant temperature and pressure",
+      "The mass of ammonia formed depends on which reactant is in excess"
     ],
-    "correct": 3,
-    "explanation": "Total mass is conserved (conservation of mass), and NH₃ always contains 82.4% N and 17.6% H by mass regardless of sample size (definite proportions). These two laws were the empirical pillars Dalton used to develop atomic theory."
+    "correct": 0,
+    "explanation": "The first experiment shows total mass is conserved (14+3=17 g). The second shows the same mass ratio is maintained when scaled — NH₃ always contains 82.4% N and 17.6% H. Together they demonstrate conservation of mass and definite proportions — the empirical pillars of Dalton's atomic theory."
   },
   {
     "question": "HCl is 97.26% chlorine by mass. A sample of HCl contains 2.00 g of hydrogen. What mass of chlorine is present?",
@@ -55,26 +55,26 @@
     "explanation": "If 2.74% is H, then 97.26% is Cl. Ratio Cl:H = 97.26:2.74 = 35.5:1. Mass Cl = 35.5 × 2.00 g = 71.0 g. (35.5 g is the atomic mass of Cl; 36.5 g is the molar mass of HCl; 73.0 g is the total sample mass.)"
   },
   {
-    "question": "17.52 g of metal M reacts completely with 46.52 g of nonmetal N, leaving no unreacted material. What mass of product forms, and which law does this demonstrate?",
+    "question": "17.52 g of metal M reacts completely with 46.52 g of nonmetal N, leaving no unreacted material. A student claims the product mass must be 64.04 g and that this could not be 63.00 g or 65.00 g regardless of conditions. Which statement best justifies the student's claim?",
     "options": [
-      "64.04 g; law of multiple proportions",
-      "64.04 g; law of conservation of mass",
-      "29.00 g; law of definite proportions",
-      "64.04 g; law of definite proportions"
+      "Mass is conserved in chemical reactions — atoms are rearranged, not created or destroyed, so total mass is unchanged",
+      "Atoms always combine in simple whole-number ratios, fixing the product mass",
+      "The product's density determines its mass, which is fixed by the metal used",
+      "The law of multiple proportions ensures only one product can form from M and N"
     ],
-    "correct": 1,
-    "explanation": "Mass of product = 17.52 + 46.52 = 64.04 g. Since total mass is unchanged by the chemical reaction, this illustrates the law of conservation of mass (Lavoisier)."
+    "correct": 0,
+    "explanation": "Product mass = 17.52 + 46.52 = 64.04 g. The student is correct because the law of conservation of mass guarantees total mass is unchanged by any chemical reaction (Lavoisier). Atoms are neither created nor destroyed — they rearrange. The law of multiple proportions (option D) applies when two elements form more than one compound, not to a single reaction."
   },
   {
-    "question": "Carbon forms two oxides: CO (carbon monoxide) and CO₂ (carbon dioxide). For a fixed mass of carbon (12 g), CO requires 16 g of oxygen and CO₂ requires 32 g. What is the ratio of oxygen in CO₂ to CO, and which law does this illustrate?",
+    "question": "Carbon forms two oxides. In compound X, 12 g of carbon combines with 16 g of oxygen. In compound Y, 12 g of carbon combines with 32 g of oxygen. A student compares the two compounds and notes the oxygen masses are in a 1:2 ratio. Which conclusion is most justified by this observation?",
     "options": [
-      "1:2 — law of definite proportions",
-      "3:1 — law of conservation of mass",
-      "2:1 — law of multiple proportions",
-      "2:1 — law of definite proportions"
+      "Compound X is CO and compound Y is CO₂; when the same two elements form different compounds, the masses of one element combining with a fixed mass of the other are in simple whole-number ratios",
+      "Compound Y has a higher molar mass, so it must contain more kinds of atoms",
+      "The two compounds have different empirical formulas because carbon can form variable numbers of bonds",
+      "Conservation of mass explains the 1:2 ratio because oxygen atoms are twice as heavy in compound Y"
     ],
-    "correct": 2,
-    "explanation": "For fixed C = 12 g: O in CO₂ : O in CO = 32:16 = 2:1, a simple whole-number ratio. When the same two elements form different compounds, the masses of one element that combine with a fixed mass of the other are in simple whole-number ratios — the law of multiple proportions (Dalton, 1803)."
+    "correct": 0,
+    "explanation": "The 1:2 ratio (O in Y : O in X) for a fixed mass of carbon is a simple whole-number ratio — exactly what the law of multiple proportions predicts when two elements form more than one compound. X is CO; Y is CO₂. Conservation of mass (option D) does not explain a fixed ratio between different compounds."
   },
   {
     "question": "In cathode ray tube experiments, the ray deflected toward the positive plate regardless of the cathode material used. What conclusion did Thomson draw from this observation?",
@@ -110,15 +110,15 @@
     "explanation": "Mass = (9.10 × 10⁻²⁸ g)(6.02 × 10²³) = 5.48 × 10⁻⁴ g ≈ 0.548 mg. Option A is a single electron's mass; option C has an incorrect exponent; option D is approximately 1 amu (mass of one hydrogen atom)."
   },
   {
-    "question": "What is the total charge, in coulombs, carried by one mole of electrons? (e = 1.602 × 10⁻¹⁹ C, Nₐ = 6.02 × 10²³)",
+    "question": "The Faraday constant (F) represents the charge carried by one mole of electrons. A student calculates F by multiplying the elementary charge by Avogadro's number. Which value and sign should she obtain?",
     "options": [
-      "−1.602 × 10⁻¹⁹ C",
-      "−9.65 × 10⁻⁴ C",
-      "−9.65 × 10⁴ C",
-      "+9.65 × 10⁴ C"
+      "−1.602 × 10⁻¹⁹ C (one electron's charge)",
+      "+9.65 × 10⁴ C (positive, since charge is a magnitude)",
+      "−9.65 × 10⁴ C (negative, since electrons are negatively charged)",
+      "−9.65 × 10² C (incorrect Avogadro scaling)"
     ],
     "correct": 2,
-    "explanation": "Q = (−1.602 × 10⁻¹⁹ C)(6.02 × 10²³) = −9.65 × 10⁴ C. This is the Faraday constant (F ≈ 96,500 C/mol) with a negative sign for electrons. Option A is a single electron; option C has wrong sign."
+    "explanation": "F = eNₐ = (1.602×10⁻¹⁹ C)(6.02×10²³) = 9.65×10⁴ C/mol. The sign is negative because electrons carry negative charge. Option A is a single electron; option B has the wrong sign. This is why in electrochemistry, charge flow is expressed as Q = nF where n is moles of electrons."
   },
   {
     "question": "An electron and a proton have charges of equal magnitude. The electron's e/m ratio is approximately 1.76 × 10⁸ C/g, while the proton's is 9.58 × 10⁴ C/g. What is the ratio (e/m)_electron / (e/m)_proton, and what does it reveal?",
@@ -132,15 +132,15 @@
     "explanation": "(e/m)_e / (e/m)_p = (1.76 × 10⁸)/(9.58 × 10⁴) ≈ 1836. Since both charges are equal, e/m ∝ 1/m. A larger ratio means smaller mass, so the electron is ~1836 times lighter than the proton (equivalently, the proton is ~1836 times heavier)."
   },
   {
-    "question": "Alpha particles emitted by radioactive nuclei are identical to the nuclei of which element?",
+    "question": "In Rutherford's scattering experiment, alpha particles were fired at a gold foil. After the experiment, the particles were collected and found to become neutral helium-4 gas when they captured electrons from the surroundings. What does this tell us about the composition of an alpha particle?",
     "options": [
-      "Helium (⁴He)",
-      "Hydrogen (²H)",
-      "Lithium (⁶Li)",
-      "Beryllium (⁸Be)"
+      "It contains 2 protons and 2 neutrons — identical to a helium-4 nucleus",
+      "It contains 4 protons and no neutrons, giving a +4 charge before neutralisation",
+      "It is a helium-3 nucleus with 2 protons and 1 neutron",
+      "It is a hydrogen molecule that becomes helium by gaining protons"
     ],
     "correct": 0,
-    "explanation": "An alpha particle consists of 2 protons and 2 neutrons (charge +2, mass number 4), identical to a helium-4 nucleus. Capturing 2 electrons converts it to a neutral He atom."
+    "explanation": "Helium-4 has mass number 4 (2 protons + 2 neutrons) and atomic number 2. The observation that alpha particles become ⁴He after gaining 2 electrons proves they start as He-4 nuclei: charge +2, mass 4 amu. This was confirmed by Rutherford and Royds (1909)."
   },
   {
     "question": "In Rutherford's gold foil experiment, approximately 1 in 20,000 alpha particles was deflected by more than 90°. What model of atomic structure does this result demand?",
@@ -374,15 +374,15 @@
     "explanation": "Absolute mass = 26.98 amu × 1.661 × 10⁻²⁴ g/amu = 4.48 × 10⁻²³ g. Option B has the exponent off by 1; option C inverts the calculation."
   },
   {
-    "question": "A radio signal travels at the speed of light (c = 3 × 10⁸ m/s). How far does it travel in 0.25 s?",
+    "question": "Mission control sends a radio signal to a spacecraft. The signal returns (round trip) after exactly 0.50 seconds. An engineer states the spacecraft is 7.5 × 10⁷ m away. Is the engineer correct, and what assumption is being made?",
     "options": [
-      "1.2 × 10⁷ m",
-      "1.2 × 10⁹ m",
-      "7.5 × 10⁷ m",
-      "7.5 × 10⁹ m"
+      "Yes — the one-way travel time is 0.25 s, and since radio waves travel at the speed of light, distance = (3×10⁸)(0.25) = 7.5×10⁷ m",
+      "No — radio waves travel slower than light, so the distance is less",
+      "No — the round-trip time should be doubled, giving 1.5×10⁸ m",
+      "Yes — but only if the spacecraft is stationary relative to Earth"
     ],
-    "correct": 2,
-    "explanation": "d = c × t = (3 × 10⁸ m/s)(0.25 s) = 7.5 × 10⁷ m. Option A (1.2 × 10⁷) would result from using c = 4.8 × 10⁷, which is incorrect."
+    "correct": 0,
+    "explanation": "Radio waves are electromagnetic radiation and travel at c = 3×10⁸ m/s in vacuum. One-way time = 0.25 s; d = ct = 3×10⁸×0.25 = 7.5×10⁷ m. The engineer correctly uses the round-trip time halved. Option B is false — all EM radiation travels at c in vacuum. Option C incorrectly uses the full round-trip time."
   },
   {
     "question": "Arrange these electromagnetic radiations in order of INCREASING wavelength: gamma rays, UV light, microwaves, visible light.",
@@ -407,15 +407,15 @@
     "explanation": "Ultrasound consists of mechanical pressure waves requiring a medium and frequencies above 20 kHz — not electromagnetic. All other options (IR, gamma, radio) are regions of the EM spectrum, which requires no medium to propagate."
   },
   {
-    "question": "What is the frequency of electromagnetic radiation with wavelength 9.0 × 10⁻¹⁸ m? (c = 3.0 × 10⁸ m/s)",
+    "question": "Electromagnetic radiation with wavelength 9.0 × 10⁻¹⁸ m strikes a detector. A technician identifies the region of the EM spectrum and calculates its frequency. Which option gives the correct region and frequency?",
     "options": [
-      "3.33 × 10²⁶ Hz",
-      "3.33 × 10²⁵ Hz",
-      "2.70 × 10⁻²⁶ Hz",
-      "3.33 × 10²² Hz"
+      "Hard X-ray/gamma region; ν = 3.33 × 10²⁵ Hz",
+      "Ultraviolet region; ν = 3.33 × 10²² Hz",
+      "Hard X-ray/gamma region; ν = 2.70 × 10⁻²⁶ Hz",
+      "Visible light; ν = 3.33 × 10²⁶ Hz"
     ],
-    "correct": 1,
-    "explanation": "ν = c/λ = (3.0 × 10⁸ m/s)/(9.0 × 10⁻¹⁸ m) = (3.0/9.0) × 10²⁶ = 0.333 × 10²⁶ = 3.33 × 10²⁵ Hz. This falls in the hard X-ray/gamma range. Option D has exponent off by 3."
+    "correct": 0,
+    "explanation": "ν = c/λ = (3.0×10⁸ m/s)/(9.0×10⁻¹⁸ m) = 3.33×10²⁵ Hz. A wavelength of 9.0×10⁻¹⁸ m = 0.009 nm is in the hard X-ray/gamma region (γ-rays: <0.01 nm). UV is 10–400 nm; visible is 400–700 nm. Option C has the reciprocal; option D misplaces the exponent."
   },
   {
     "question": "Light absorbed by certain diamonds has a frequency of 7.00 × 10¹⁴ Hz. What is its wavelength? (c = 3.00 × 10⁸ m/s)",
@@ -429,37 +429,37 @@
     "explanation": "λ = c/ν = (3.00 × 10⁸)/(7.00 × 10¹⁴) = 4.286 × 10⁻⁷ m ≈ 429 nm (violet light). 700 nm would require ν ≈ 4.3 × 10¹⁴ Hz (red light). 42.9 nm is UV; 4290 nm is IR."
   },
   {
-    "question": "Green light has frequency 5.75 × 10¹⁴ Hz. What is its wavenumber (ν̃ = 1/λ) in cm⁻¹? (c = 3.00 × 10¹⁰ cm/s)",
+    "question": "Green light has a frequency of 5.75 × 10¹⁴ Hz. A spectroscopist converts this to wavenumber (ν̃, in cm⁻¹) for use in an IR spectrum table. She first calculates wavelength and then takes the reciprocal. Which value should she report?",
     "options": [
-      "1.74 × 10⁻⁵ cm⁻¹",
-      "5.75 × 10⁴ cm⁻¹",
-      "5.22 × 10⁻⁵ cm⁻¹",
-      "1.92 × 10⁴ cm⁻¹"
-    ],
-    "correct": 3,
-    "explanation": "λ = c/ν = (3.00 × 10¹⁰ cm/s)/(5.75 × 10¹⁴ Hz) = 5.22 × 10⁻⁵ cm. ν̃ = 1/λ = 1/(5.22 × 10⁻⁵) = 1.92 × 10⁴ cm⁻¹. Option D is wavelength in cm, not wavenumber. Option B confuses frequency with wavenumber."
-  },
-  {
-    "question": "What is the energy of a single photon with wavelength 600 nm? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
-    "options": [
-      "3.31 × 10⁻¹⁹ J",
-      "5.00 × 10¹⁴ J",
-      "3.31 × 10⁻²⁵ J",
-      "3.97 × 10⁻¹⁹ J"
-    ],
-    "correct": 0,
-    "explanation": "E = hc/λ = (6.626 × 10⁻³⁴)(3.00 × 10⁸)/(6.00 × 10⁻⁷) = 1.988 × 10⁻²⁵/6.00 × 10⁻⁷ = 3.31 × 10⁻¹⁹ J. Option A (5.00 × 10¹⁴) is the frequency in Hz. Option B lacks the denominator wavelength."
-  },
-  {
-    "question": "The work function of iron is 7.21 × 10⁻¹⁹ J. What is the maximum wavelength of light that can eject an electron from iron? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
-    "options": [
-      "2.76 nm",
-      "276 nm",
-      "2760 nm",
-      "138 nm"
+      "5.22 × 10⁻⁵ cm (wavelength, not wavenumber)",
+      "1.92 × 10⁴ cm⁻¹",
+      "5.75 × 10⁴ cm⁻¹ (frequency confused with wavenumber)",
+      "1.74 × 10⁻⁵ cm⁻¹ (reciprocal of frequency, not wavelength)"
     ],
     "correct": 1,
-    "explanation": "λ_max = hc/φ = (6.626 × 10⁻³⁴ × 3.00 × 10⁸)/(7.21 × 10⁻¹⁹) = 1.988 × 10⁻²⁵/7.21 × 10⁻¹⁹ = 2.757 × 10⁻⁷ m ≈ 276 nm (UV region). Option B (2.76 nm) is X-ray range; option C (2760 nm) is IR. Option D would require φ = 2× higher."
+    "explanation": "λ = c/ν = (3.00×10¹⁰ cm/s)/(5.75×10¹⁴ Hz) = 5.22×10⁻⁵ cm. ν̃ = 1/λ = 1/(5.22×10⁻⁵) = 1.92×10⁴ cm⁻¹. Option A is the wavelength itself (not wavenumber). Option C confuses frequency (Hz) with wavenumber (cm⁻¹). Option D inverts frequency rather than wavelength."
+  },
+  {
+    "question": "A photon of visible orange light has a wavelength of 600 nm. A student wants to calculate its energy. Which expression gives the correct energy, and what is the numerical result?",
+    "options": [
+      "E = hν = hc/λ → 3.31 × 10⁻¹⁹ J",
+      "E = hλ/c → 1.33 × 10⁻⁴² J",
+      "E = mc²/λ → a meaningless result since photons have no rest mass",
+      "E = hc·λ → 1.99 × 10⁻²⁵ J·m (not an energy)"
+    ],
+    "correct": 0,
+    "explanation": "E = hc/λ = (6.626×10⁻³⁴)(3.00×10⁸)/(6.00×10⁻⁷) = 3.31×10⁻¹⁹ J. The question tests whether students know which formula applies. Options B and D result from algebraic errors in combining h, c, and λ. Option C misapplies Einstein's mass-energy relation, which applies to matter, not photons."
+  },
+  {
+    "question": "The work function of iron is 7.21 × 10⁻¹⁹ J. A student shines UV, visible, and infrared light on an iron surface and records whether electrons are ejected. Which outcome is most consistent with the photoelectric effect?",
+    "options": [
+      "UV (200 nm) ejects electrons; visible light (550 nm) does not; IR never does, regardless of intensity",
+      "High-intensity visible light ejects electrons but low-intensity UV does not",
+      "All wavelengths eject electrons if the light is intense enough",
+      "Only IR ejects electrons because its lower frequency deposits energy more slowly"
+    ],
+    "correct": 0,
+    "explanation": "The threshold wavelength: λ_max = hc/φ = (6.626×10⁻³⁴×3.00×10⁸)/(7.21×10⁻¹⁹) ≈ 276 nm (UV). Photons with λ < 276 nm have enough energy per photon to eject electrons; those with λ > 276 nm do not, regardless of intensity. This is the hallmark of the photoelectric effect — it depends on frequency, not intensity."
   },
   {
     "question": "Potassium has a threshold frequency ν₀ = 5.46 × 10¹⁴ Hz. Light of wavelength 350 nm strikes its surface. What is the kinetic energy of the ejected electron? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
@@ -473,26 +473,26 @@
     "explanation": "ν = c/λ = 3.00×10⁸/3.50×10⁻⁷ = 8.57×10¹⁴ Hz. KE = h(ν−ν₀) = 6.626×10⁻³⁴ × (8.57−5.46)×10¹⁴ = 6.626×10⁻³⁴ × 3.11×10¹⁴ = 2.06×10⁻¹⁹ J. Option C is hν (photon energy alone); option D is hν₀ (the work function)."
   },
   {
-    "question": "A proton (m = 1.673 × 10⁻²⁷ kg) moves at 1.38 × 10⁵ m/s. What is its de Broglie wavelength? (h = 6.626 × 10⁻³⁴ J·s)",
+    "question": "A proton travels at 1.38 × 10⁵ m/s. A student claims its de Broglie wavelength is in the picometer range. Is the student correct, and what is the wavelength?",
     "options": [
-      "0.287 pm",
-      "1.38 × 10⁵ pm",
-      "28.7 pm",
-      "2.87 pm"
-    ],
-    "correct": 3,
-    "explanation": "λ = h/(mv) = (6.626×10⁻³⁴)/((1.673×10⁻²⁷)(1.38×10⁵)) = 6.626×10⁻³⁴/(2.309×10⁻²²) = 2.87×10⁻¹² m = 2.87 pm. Note the velocity must be in m/s; if accidentally used cm/s, exponent error gives option A."
-  },
-  {
-    "question": "What is the de Broglie wavelength of an electron (m = 9.109 × 10⁻³¹ kg) moving at 40% of the speed of light? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10⁸ m/s)",
-    "options": [
-      "6.07 pm",
-      "60.7 pm",
-      "0.607 pm",
-      "2.43 pm"
+      "Yes — the wavelength is 2.87 pm",
+      "No — protons are too massive to have a de Broglie wavelength",
+      "Yes — the wavelength is 28.7 pm",
+      "No — only electrons exhibit wave-particle duality, not protons"
     ],
     "correct": 0,
-    "explanation": "v = 0.40 × 3.00×10⁸ = 1.20×10⁸ m/s. λ = h/(mv) = 6.626×10⁻³⁴/((9.109×10⁻³¹)(1.20×10⁸)) = 6.626×10⁻³⁴/(1.093×10⁻²²) = 6.06×10⁻¹² m ≈ 6.07 pm. Option D (2.43 pm) results from using full c instead of 0.4c."
+    "explanation": "All matter has a de Broglie wavelength: λ = h/(mv) = (6.626×10⁻³⁴)/((1.673×10⁻²⁷)(1.38×10⁵)) = 2.87×10⁻¹² m = 2.87 pm. The student is correct. Options B and D are wrong — de Broglie wave-particle duality applies to all matter, confirmed experimentally for protons, neutrons, and even molecules."
+  },
+  {
+    "question": "An electron moves at 40% the speed of light. Which of the following correctly predicts whether its de Broglie wavelength is shorter or longer than that of a slow-moving proton, and gives the correct value?",
+    "options": [
+      "Shorter than a slow proton's, because the electron's high speed overcomes its small mass; λ ≈ 6.07 pm",
+      "Longer than a slow proton's, because the electron has much less mass; λ ≈ 6.07 pm",
+      "Equal, because both particles have equal momenta at these speeds",
+      "Shorter, because electrons are smaller than protons; λ ≈ 0.607 pm"
+    ],
+    "correct": 1,
+    "explanation": "λ = h/(mv): v = 0.40×3.00×10⁸ = 1.20×10⁸ m/s; λ = 6.626×10⁻³⁴/((9.109×10⁻³¹)(1.20×10⁸)) = 6.07×10⁻¹² m = 6.07 pm. The electron's tiny mass (1/1836 of a proton) means even at high speed its momentum is often less than a slow-moving proton's, giving a longer wavelength. This tests conceptual understanding of the λ = h/p relationship."
   },
   {
     "question": "A microwave oven operates at wavelength 1.20 cm. What is the energy per mole of microwave photons? (h = 6.626 × 10⁻³⁴ J·s, c = 3.00 × 10¹⁰ cm/s, Nₐ = 6.02 × 10²³)",
