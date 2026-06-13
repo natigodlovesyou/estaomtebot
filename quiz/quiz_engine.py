@@ -34,10 +34,8 @@ async def safe_send(user, text, reply_markup=None):
 
 def get_time_limit(subject: str) -> int:
     """Return time limit in seconds based on subject."""
-    if subject in ["maths", "physics"]:
+    if subject in ["maths", "physics", "chemistry"]:
         return 150
-    if subject == "chemistry":
-        return 80
     return 60
 
 
